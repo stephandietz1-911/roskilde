@@ -30,22 +30,36 @@ jobs:
         import xml.etree.ElementTree as ET
         import re
 
+        # Stabile Standardwerte (Sicherheitsnetz)
         data = {
             "currencies": {"EUR": "37.45", "DKK": "5.02", "NOK": "3.22"},
             "weather": {"wind_speed": "15", "wind_dir": "SW", "aqi_value": "35", "aqi_status": "Good", "aqi_color": "#00e676"},
             "alert": {"active": False, "message": ""},
-            "news": [],
-            "flights": []
+            "news": [
+                "PATTAYA NEWS: High season brings massive influx of European and Scandinavian tourists.",
+                "METEO UPDATE: Thai Meteorological Department predicts stable, warm tropical conditions.",
+                "JOMTIEN BEACH: Local business and hospitality venues reporting strong weekly turnout."
+            ],
+            "flights": [
+                {"type": "ARR", "time": "06:00", "city": "Copenhagen (CPH)", "flight_no": "TG 951", "status": "Landed"},
+                {"type": "ARR", "time": "06:25", "city": "Frankfurt (FRA)", "flight_no": "TG 921", "status": "Landed"},
+                {"type": "ARR", "time": "11:45", "city": "Oslo (OSL)", "flight_no": "TG 923", "status": "Landed"},
+                {"type": "DEP", "time": "23:45", "city": "Frankfurt (FRA)", "flight_no": "TG 920", "status": "Scheduled"}
+            ]
         }
 
-        # 1. Bestehende lokale Datei laden (um Flüge zu sichern)
+        # 1. Bestehende lokale Datei laden (versuchen, alte Daten zu retten statt zu löschen!)
         try:
             with open("roskilde_data.json", "r", encoding="utf-8") as f:
-                local_data = json.load(f)
-                if "flights" in local_data and local_data["flights"]: 
-                    data["flights"] = local_data["flights"]
+                old_data = json.load(f)
+                if old_data:
+                    if "currencies" in old_data: data["currencies"] = old_data["currencies"]
+                    if "weather" in old_data: data["weather"] = old_data["weather"]
+                    if "alert" in old_data: data["alert"] = old_data["alert"]
+                    if "news" in old_data and old_data["news"]: data["news"] = old_data["news"]
+                    if "flights" in old_data and old_data["flights"]: data["flights"] = old_data["flights"]
         except Exception as e:
-            print("Hinweis: Keine alte JSON lesbar für Flüge:", e)
+            print("Hinweis: Keine alte JSON lesbar, nutze Defaults.", e)
 
         # 2. Wechselkurse holen
         try:
@@ -56,9 +70,9 @@ jobs:
                     data["currencies"]["EUR"] = f"{1 / rates_data['rates']['EUR']:.2f}"
                     data["currencies"]["DKK"] = f"{1 / rates_data['rates']['DKK']:.2f}"
                     data["currencies"]["NOK"] = f"{1 / rates_data['rates']['NOK']:.2f}"
-                    print("Wechselkurse live aktualisiert.")
+                    print("Wechselkurse erfolgreich geladen.")
         except Exception as e:
-            print("Fehler Kurse:", e)
+            print("Fehler bei Wechselkursen (alte Werte behalten):", e)
 
         # 3. Wetter & Warnungen holen
         try:
@@ -75,7 +89,7 @@ jobs:
                     w_code = w_data["current"].get("weather_code", 0)
                     if w_code >= 95:
                         data["alert"]["active"] = True
-                        data["alert"]["message"] = "🚨 WEATHER ALERT: Heavy tropical thunderstorms and severe weather conditions detected in Pattaya region. Take precautions!"
+                        data["alert"]["message"] = "🚨 WEATHER ALERT: Heavy tropical thunderstorms in Pattaya region. Take precautions!"
                     else:
                         data["alert"]["active"] = False
                         data["alert"]["message"] = ""
@@ -89,15 +103,15 @@ jobs:
                             data["weather"]["aqi_status"], data["weather"]["aqi_color"] = "Moderate", "#ffeb3b"
                         else:
                             data["weather"]["aqi_status"], data["weather"]["aqi_color"] = "Unhealthy", "#ff5722"
-                    print("Wetter live aktualisiert.")
+                    print("Wetter erfolgreich geladen.")
         except Exception as e:
-            print("Fehler Wetter:", e)
+            print("Fehler beim Wetter (alte Werte behalten):", e)
 
         # 4. Pattaya News holen
         try:
             news_url = "https://thepattayanews.com/feed/"
             req = urllib.request.Request(news_url, headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(req, timeout=15) as response:
+            with urllib.request.urlopen(req, timeout=12) as response:
                 xml_data = response.read()
                 root = ET.fromstring(xml_data)
                 
@@ -105,25 +119,22 @@ jobs:
                 for item in root.findall(".//item")[:4]:
                     title_text = item.find("title").text
                     title_clean = re.sub(r'<[^>]+>', '', title_text).strip()
-                    titles.append(f"PATTAYA NEWS: {title_clean}")
+                    # Verhindert, dass leere Titel reingeschrieben werden
+                    if title_clean:
+                        titles.append(f"PATTAYA NEWS: {title_clean}")
                 
                 if titles:
                     data["news"] = titles
-                    print("News geladen.")
-                else:
-                    raise Exception("Keine News im Feed")
+                    print("News erfolgreich geladen.")
         except Exception as e:
-            print("Fehler News Feed, nutze Fallback:", e)
-            data["news"] = [
-                "PATTAYA NEWS: Local updates are being refreshed automatically.",
-                "METEO UPDATE: Tropical weather conditions operating normally across Chonburi."
-            ]
+            print("Fehler beim News-Feed (alte News behalten):", e)
 
         data["last_update"] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC")
 
+        # Datei endgültig schreiben
         with open("roskilde_data.json", "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-        print("Datei erfolgreich geschrieben.")
+        print("roskilde_data.json erfolgreich gesichert geschrieben.")
         EOF
 
     - name: Script ausführen
