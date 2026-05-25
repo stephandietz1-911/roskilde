@@ -105,7 +105,10 @@
             box-shadow: 5px 0 15px rgba(0,0,0,0.3);
         }
         .ticker-wrap { width: 100%; padding-left: 190px; overflow: hidden; }
-        .ticker-move { display: inline-block; white-space: nowrap; animation: marquee-margin 60s linear infinite; }
+        
+        /* HIER GEÄNDERT: Auf 22s für eine zügige, aber gut lesbare Geschwindigkeit */
+        .ticker-move { display: inline-block; white-space: nowrap; animation: marquee-margin 22s linear infinite; }
+        
         #dynamic-news-container { display: inline-block; white-space: nowrap; }
         .ticker-span { margin-right: 60px; display: inline-block; font-weight: 700; font-size: 20px; color: #0d0f12; }
         .ticker-sep { color: #ff007f; margin-right: 15px; font-weight: bold; }
@@ -209,7 +212,7 @@
             } catch(e) {}
         })();
 
-        // 2. Lokaler Daten-Abruf
+        // 2. Robusterer Daten-Abruf (Komplett gesichert gegen Abstürze)
         async function updateLiveData() {
             try {
                 const cacheBuster = "?t=" + new Date().getTime();
@@ -217,17 +220,84 @@
                 if (!response.ok) return;
                 const data = await response.json();
 
-                if (data.currencies) {
+                // Currencies abfüllen
+                if (data && data.currencies) {
                     if(data.currencies.EUR) document.getElementById('rate-eur').innerText = data.currencies.EUR;
                     if(data.currencies.DKK) document.getElementById('rate-dkk').innerText = data.currencies.DKK;
                     if(data.currencies.NOK) document.getElementById('rate-nok').innerText = data.currencies.NOK;
                 }
 
-                if (data.weather) {
-                    document.getElementById('wind-text').innerHTML = `${data.weather.wind_speed} km/h <span style="color:#00f2fe;">${data.weather.wind_dir}</span>`;
+                // Weather abfüllen
+                if (data && data.weather) {
+                    const windSpeed = data.weather.wind_speed || "--";
+                    const windDir = data.weather.wind_dir || "--";
+                    document.getElementById('wind-text').innerHTML = `${windSpeed} km/h <span style="color:#00f2fe;">${windDir}</span>`;
+                    
                     const badge = document.getElementById('aqi-badge');
                     const label = document.getElementById('aqi-text');
-                    badge.innerText = data.weather.aqi_value;
-                    label.innerText = data.weather.aqi_status;
-                    label.style.color = data.weather.aqi_color;
-                    badge.style.backgroundColor = data.weather.aqi_color;
+                    if (badge && label) {
+                        badge.innerText = data.weather.aqi_value || "--";
+                        label.innerText = data.weather.aqi_status || "Lade...";
+                        label.style.color = data.weather.aqi_color || "#e2e8f0";
+                        badge.style.backgroundColor = data.weather.aqi_color || "#343e50";
+                        badge.style.color = (data.weather.aqi_value && data.weather.aqi_value > 100) ? '#fff' : '#000';
+                    }
+                }
+
+                // News abfüllen
+                if (data && data.news && data.news.length > 0) {
+                    let newsHtml = "";
+                    data.news.forEach(item => {
+                        newsHtml += `<span class="ticker-span"><span class="ticker-sep">✦</span>${item}</span>`;
+                    });
+                    const container = document.getElementById('dynamic-news-container');
+                    if (container) container.innerHTML = newsHtml;
+                }
+
+                // Alert Box steuern
+                const alertBox = document.getElementById('disaster-box');
+                if (alertBox) {
+                    if (data && data.alert && data.alert.active) {
+                        const alertTextEl = document.getElementById('alert-text');
+                        if (alertTextEl) alertTextEl.innerHTML = data.alert.message || "";
+                        alertBox.style.display = 'block';
+                    } else {
+                        alertBox.style.display = 'none';
+                    }
+                }
+
+                // Flüge abfüllen
+                if (data && data.flights && data.flights.length > 0) {
+                    let flightHtml = "";
+                    data.flights.forEach(f => {
+                        const typeClass = f.type === 'ARR' ? 'type-arr' : 'type-dep';
+                        const statusClass = (f.status === 'Landed' || f.status === 'Departed') ? 'status-ok' : 'status-air';
+                        flightHtml += `<tr>
+                            <td><span class="flight-type ${typeClass}">${f.type}</span></td>
+                            <td>${f.time || ""}</td>
+                            <td>${f.city || ""}</td>
+                            <td>${f.flight_no || ""}</td>
+                            <td class="${statusClass}">${f.status || ""}</td>
+                        </tr>`;
+                    });
+                    const tableBody = document.getElementById('flight-table-body');
+                    if (tableBody) tableBody.innerHTML = flightHtml;
+                }
+            } catch (error) {
+                console.log("Fehler beim Datenladen:", error);
+            }
+        }
+
+        updateLiveData();
+        setInterval(updateLiveData, 30000); // Schnellerer Webseiten-Refresh alle 30 Sekunden
+
+        try {
+            setTimeout(function() {
+                if (typeof fully !== 'undefined') {
+                    fully.startScreensaver();
+                }
+            }, 120000);
+        } catch(e) {}
+    </script>
+</body>
+</html>
