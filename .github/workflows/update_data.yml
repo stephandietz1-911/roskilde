@@ -2,8 +2,8 @@ name: Live Data Auto Updater
 
 on:
   schedule:
-    - cron: '0 * * * *' # Läuft vollautomatisch jede Stunde
-  workflow_dispatch: # Erlaubt es dir, den Update-Knopf jederzeit manuell zu drücken
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 jobs:
   update-json:
@@ -28,32 +28,26 @@ jobs:
         import json
         import datetime
 
+        # Kein try-except mehr -> Fehler schlagen jetzt direkt im Log auf!
+        url = 'https://neeve.live/api/roskilde_data.json'
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        
+        with urllib.request.urlopen(req) as response:
+            live_data = json.loads(response.read().decode())
+        
         try:
-            # 1. Echte Live-Daten abrufen
-            url = 'https://neeve.live/api/roskilde_data.json'
-            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-            with urllib.request.urlopen(req) as response:
-                live_data = json.loads(response.read().decode())
-            
-            # 2. Lokalen Alarm-Status beibehalten
-            try:
-                with open('roskilde_data.json', 'r', encoding='utf-8') as f:
-                    local_data = json.load(f)
-                    if 'alert' in local_data and 'active' in local_data['alert']:
-                        live_data['alert']['active'] = local_data['alert']['active']
-            except:
-                pass
+            with open('roskilde_data.json', 'r', encoding='utf-8') as f:
+                local_data = json.load(f)
+                if 'alert' in local_data and 'active' in local_data['alert']:
+                    live_data['alert']['active'] = local_data['alert']['active']
+        except:
+            pass
 
-            # HIER NEU: Ein garantierter Zeitstempel, damit Git IMMER eine Änderung sieht!
-            # Das zeigt uns im File genau an, wann der Bot das letzte Mal da war.
-            live_data['last_update'] = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')
+        live_data['last_update'] = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')
 
-            # 3. Abspeichern
-            with open('roskilde_data.json', 'w', encoding='utf-8') as f:
-                json.dump(live_data, f, ensure_ascii=False, indent=2)
-            print('Daten erfolgreich lokal generiert!')
-        except Exception as e:
-            print('Fehler beim Abruf:', e)
+        with open('roskilde_data.json', 'w', encoding='utf-8') as f:
+            json.dump(live_data, f, ensure_ascii=False, indent=2)
+        print('Datei erfolgreich lokal beschrieben.')
         "
 
     - name: Änderungen zurückpushen
