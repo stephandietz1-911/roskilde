@@ -5,7 +5,7 @@
     "NOK": "3.53"
   },
   "weather": {
-    "wind_speed": "15",
+    "wind_speed": "13",
     "wind_dir": "SW",
     "aqi_value": "35",
     "aqi_status": "Good",
@@ -72,5 +72,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-05-25 16:30:43 UTC"
+  "last_update": "2026-05-25 20:51:36 UTC"
 }
