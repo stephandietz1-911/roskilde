@@ -2,8 +2,8 @@ name: Live Data Auto Updater
 
 on:
   schedule:
-    - cron: '0 * * * *' # Läuft vollautomatisch jede Stunde
-  workflow_dispatch: # Erlaubt jederzeit den manuellen Start
+    - cron: '*/15 * * * *' # Läuft vollautomatisch jede Stunde
+    workflow_dispatch: # Erlaubt jederzeit den manuellen Start
 
 jobs:
   update-json:
