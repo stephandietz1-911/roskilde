@@ -1,13 +1,13 @@
 {
   "currencies": {
-    "EUR": "99.99",
-    "DKK": "5.02",
-    "NOK": "3.22"
+    "EUR": "37.88",
+    "DKK": "5.08",
+    "NOK": "3.53"
   },
   "weather": {
-    "wind_speed": "20",
+    "wind_speed": "8",
     "wind_dir": "SW",
-    "aqi_value": "32",
+    "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#00e676"
   },
@@ -21,12 +21,55 @@
     "JOMTIEN TRAFFIC: New transport regulations operating smoothly along Jomtien Beach Road to reduce congestion."
   ],
   "flights": [
-    {"type": "ARR", "time": "06:00", "city": "Copenhagen (CPH)", "flight_no": "TG 951", "status": "Landed"},
-    {"type": "ARR", "time": "06:25", "city": "Frankfurt (FRA)", "flight_no": "TG 921", "status": "Landed"},
-    {"type": "ARR", "time": "11:45", "city": "Oslo (OSL)", "flight_no": "TG 923", "status": "Landed"},
-    {"type": "ARR", "time": "12:15", "city": "Frankfurt (FRA)", "flight_no": "LH 772", "status": "Landed"},
-    {"type": "DEP", "time": "12:40", "city": "München (MUC)", "flight_no": "TG 924", "status": "Departed"},
-    {"type": "DEP", "time": "23:45", "city": "Frankfurt (FRA)", "flight_no": "TG 920", "status": "Scheduled"},
-    {"type": "DEP", "time": "23:50", "city": "Frankfurt (FRA)", "flight_no": "LH 773", "status": "Scheduled"}
-  ]
+    {
+      "type": "ARR",
+      "time": "06:00",
+      "city": "Copenhagen (CPH)",
+      "flight_no": "TG 951",
+      "status": "Landed"
+    },
+    {
+      "type": "ARR",
+      "time": "06:25",
+      "city": "Frankfurt (FRA)",
+      "flight_no": "TG 921",
+      "status": "Landed"
+    },
+    {
+      "type": "ARR",
+      "time": "11:45",
+      "city": "Oslo (OSL)",
+      "flight_no": "TG 923",
+      "status": "Landed"
+    },
+    {
+      "type": "ARR",
+      "time": "12:15",
+      "city": "Frankfurt (FRA)",
+      "flight_no": "LH 772",
+      "status": "Landed"
+    },
+    {
+      "type": "DEP",
+      "time": "12:40",
+      "city": "München (MUC)",
+      "flight_no": "TG 924",
+      "status": "Departed"
+    },
+    {
+      "type": "DEP",
+      "time": "23:45",
+      "city": "Frankfurt (FRA)",
+      "flight_no": "TG 920",
+      "status": "Scheduled"
+    },
+    {
+      "type": "DEP",
+      "time": "23:50",
+      "city": "Frankfurt (FRA)",
+      "flight_no": "LH 773",
+      "status": "Scheduled"
+    }
+  ],
+  "last_update": "2026-05-25 07:03:14 UTC"
 }
