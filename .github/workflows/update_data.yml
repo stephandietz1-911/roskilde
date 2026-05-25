@@ -5,19 +5,17 @@ on:
     - cron: '0 * * * *' # Läuft vollautomatisch jede Stunde
   workflow_dispatch: # Erlaubt es dir, den Update-Knopf jederzeit manuell zu drücken
 
-# Zwingt GitHub Actions, die Bausteine sofort mit Node.js 24 auszuführen
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
   update-json:
     runs-on: ubuntu-latest
     steps:
+    # Aktualisiert auf die neueste Version, die Node.js 24 nativ nutzt
     - name: Code auschecken
-      uses: actions/checkout@v4
+      uses: actions/checkout@v4.2.2
 
+    # Aktualisiert auf die neueste Version, die Node.js 24 nativ nutzt
     - name: Python installieren
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v5.3.0
       with:
         python-version: '3.x'
 
