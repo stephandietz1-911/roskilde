@@ -1,0 +1,32 @@
+{
+  "currencies": {
+    "EUR": "37.45",
+    "DKK": "5.02",
+    "NOK": "3.22"
+  },
+  "weather": {
+    "wind_speed": "20",
+    "wind_dir": "SW",
+    "aqi_value": "32",
+    "aqi_status": "Good",
+    "aqi_color": "#00e676"
+  },
+  "alert": {
+    "active": false,
+    "message": "🚨 UNWETTERWARNUNG: Schwerer Tropensturm nähert sich der Küste von Jomtien. Bitte Vorkehrungen treffen!"
+  },
+  "news": [
+    "PATTAYA BUSINESS: High season brings massive influx of European and Scandinavian tourists to Jomtien Beach.",
+    "METEO UPDATE: Thai Meteorological Department predicts stable, warm tropical conditions across Chonburi.",
+    "JOMTIEN TRAFFIC: New transport regulations operating smoothly along Jomtien Beach Road to reduce congestion."
+  ],
+  "flights": [
+    {"type": "ARR", "time": "06:00", "city": "Copenhagen (CPH)", "flight_no": "TG 951", "status": "Landed"},
+    {"type": "ARR", "time": "06:25", "city": "Frankfurt (FRA)", "flight_no": "TG 921", "status": "Landed"},
+    {"type": "ARR", "time": "11:45", "city": "Oslo (OSL)", "flight_no": "TG 923", "status": "Landed"},
+    {"type": "ARR", "time": "12:15", "city": "Frankfurt (FRA)", "flight_no": "LH 772", "status": "Landed"},
+    {"type": "DEP", "time": "12:40", "city": "München (MUC)", "flight_no": "TG 924", "status": "Departed"},
+    {"type": "DEP", "time": "23:45", "city": "Frankfurt (FRA)", "flight_no": "TG 920", "status": "Scheduled"},
+    {"type": "DEP", "time": "23:50", "city": "Frankfurt (FRA)", "flight_no": "LH 773", "status": "Scheduled"}
+  ]
+}
