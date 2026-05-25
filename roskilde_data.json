@@ -13,12 +13,13 @@
   },
   "alert": {
     "active": false,
-    "message": "🚨 UNWETTERWARNUNG: Schwerer Tropensturm nähert sich der Küste von Jomtien. Bitte Vorkehrungen treffen!"
+    "message": ""
   },
   "news": [
-    "PATTAYA BUSINESS: High season brings massive influx of European and Scandinavian tourists to Jomtien Beach.",
-    "METEO UPDATE: Thai Meteorological Department predicts stable, warm tropical conditions across Chonburi.",
-    "JOMTIEN TRAFFIC: New transport regulations operating smoothly along Jomtien Beach Road to reduce congestion."
+    "PATTAYA NEWS: Top National Thailand Stories From the Past Week: Thailand Revoking 60-Day Visa-Free Entry, and More",
+    "PATTAYA NEWS: Young Bolt Driver Brutally Beaten by Gang of Over 10 Men in Pattaya Road Rage Attack",
+    "PATTAYA NEWS: The Royal Thai Air Force orders two Airbus C295 tactical transport aircraft",
+    "PATTAYA NEWS: Rotary Club of Pattaya Sweeps Five Awards at District 3340 Night"
   ],
   "flights": [
     {
@@ -71,5 +72,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-05-25 07:03:14 UTC"
+  "last_update": "2026-05-25 07:06:57 UTC"
 }
