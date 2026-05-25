@@ -12,7 +12,7 @@
     "aqi_color": "#00e676"
   },
   "alert": {
-    "active": true,
+    "active": false,
     "message": "🚨 UNWETTERWARNUNG: Schwerer Tropensturm nähert sich der Küste von Jomtien. Bitte Vorkehrungen treffen!"
   },
   "news": [
