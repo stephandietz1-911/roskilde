@@ -5,6 +5,10 @@ on:
     - cron: '0 * * * *' # Läuft vollautomatisch jede Stunde
   workflow_dispatch: # Erlaubt es dir, den Update-Knopf jederzeit manuell zu drücken
 
+# Zwingt GitHub Actions, die Bausteine sofort mit Node.js 24 auszuführen
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   update-json:
     runs-on: ubuntu-latest
@@ -34,7 +38,6 @@ jobs:
             try:
                 with open('roskilde_data.json', 'r', encoding='utf-8') as f:
                     local_data = json.load(f)
-                    # Wir behalten deinen manuell gesetzten Alarm-Status (true/false) bei!
                     if 'alert' in local_data and 'active' in local_data['alert']:
                         live_data['alert']['active'] = local_data['alert']['active']
             except:
@@ -53,5 +56,4 @@ jobs:
         git config --global user.name 'GitHub Action Bot'
         git config --global user.email 'action@github.com'
         git add roskilde_data.json
-        # Nur pushen, wenn sich die Werte (z.B. Kurse) tatsächlich geändert haben
         git diff --quiet && git diff --staged --quiet || (git commit -m '🤖 Automatisches Live-Daten Update' && git push)
