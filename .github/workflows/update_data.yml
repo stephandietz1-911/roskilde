@@ -21,82 +21,121 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Daten aus dem Internet abrufen
+    - name: Script-Datei erstellen
       run: |
-        python -c "
+        cat << 'EOF' > fetch_data.py
         import urllib.request
         import json
         import datetime
+        import xml.etree.ElementTree as ET
+        import re
 
-        # Standard-Struktur aufbauen
+        # Basis-Struktur
         data = {
-            'currencies': {'EUR': '37.45', 'DKK': '5.02', 'NOK': '3.22'},
-            'weather': {'wind_speed': '15', 'wind_dir': 'SW', 'aqi_value': '35', 'aqi_status': 'Good', 'aqi_color': '#00e676'},
-            'alert': {'active': False, 'message': ''},
-            'news': [],
-            'flights': []
+            "currencies": {"EUR": "37.45", "DKK": "5.02", "NOK": "3.22"},
+            "weather": {"wind_speed": "15", "wind_dir": "SW", "aqi_value": "35", "aqi_status": "Good", "aqi_color": "#00e676"},
+            "alert": {"active": False, "message": ""},
+            "news": [],
+            "flights": []
         }
 
-        # 1. Bestehende lokale Datei laden (um Flüge, News und manuellen Alarm zu erhalten!)
+        # 1. Bestehende lokale Datei laden (NUR um die Flüge zu behalten!)
         try:
-            with open('roskilde_data.json', 'r', encoding='utf-8') as f:
+            with open("roskilde_data.json", "r", encoding="utf-8") as f:
                 local_data = json.load(f)
-                if 'alert' in local_data: data['alert'] = local_data['alert']
-                if 'news' in local_data and local_data['news']: data['news'] = local_data['news']
-                if 'flights' in local_data and local_data['flights']: data['flights'] = local_data['flights']
+                if "flights" in local_data and local_data["flights"]: 
+                    data["flights"] = local_data["flights"]
         except Exception as e:
-            print('Hinweis: Konnte bestehende JSON nicht lesen, erstelle neu.', e)
+            print("Hinweis: Keine alte JSON lesbar für Flüge:", e)
 
-        # 2. ECHTE LIVE-WECHSELKURSE HOLEN (API von er-api.com)
+        # 2. Wechselkurse holen (er-api.com)
         try:
-            req = urllib.request.Request('https://open.er-api.com/v6/latest/THB', headers={'User-Agent': 'Mozilla/5.0'})
+            req = urllib.request.Request("https://open.er-api.com/v6/latest/THB", headers={"User-Agent": "Mozilla/5.0"})
             with urllib.request.urlopen(req, timeout=10) as response:
                 rates_data = json.loads(response.read().decode())
-                if rates_data and 'rates' in rates_data:
-                    # Da Basis THB ist, rechnen wir 1 / Kurs, um EUR/THB zu bekommen
-                    data['currencies']['EUR'] = f\"{1 / rates_data['rates']['EUR']:.2f}\"
-                    data['currencies']['DKK'] = f\"{1 / rates_data['rates']['DKK']:.2f}\"
-                    data['currencies']['NOK'] = f\"{1 / rates_data['rates']['NOK']:.2f}\"
-                    print('Wechselkurse erfolgreich live aktualisiert.')
+                if rates_data and "rates" in rates_data:
+                    data["currencies"]["EUR"] = f"{1 / rates_data['rates']['EUR']:.2f}"
+                    data["currencies"]["DKK"] = f"{1 / rates_data['rates']['DKK']:.2f}"
+                    data["currencies"]["NOK"] = f"{1 / rates_data['rates']['NOK']:.2f}"
+                    print("Wechselkurse live aktualisiert.")
         except Exception as e:
-            print('Fehler beim Abruf der Wechselkurse:', e)
+            print("Fehler Kurse:", e)
 
-        # 3. ECHTES WETTER & AQI FÜR PATTAYA HOLEN (Open-Meteo API)
+        # 3. Wetter & ECHTE Wetterwarnungen für Pattaya holen (Open-Meteo)
         try:
-            # Koordinaten für Pattaya: Lat 12.933, Lon 100.883
-            weather_url = 'https://api.open-meteo.com/v1/forecast?latitude=12.933&longitude=100.883&current=wind_speed_10m,wind_direction_10m&air_quality=us_aqi&timezone=Asia%2FBangkok'
-            req = urllib.request.Request(weather_url, headers={'User-Agent': 'Mozilla/5.0'})
+            # Abruf inklusive Wetterwarnungen (current_weather & weathercode)
+            weather_url = "https://api.open-meteo.com/v1/forecast?latitude=12.933&longitude=100.883&current=wind_speed_10m,wind_direction_10m,weather_code&air_quality=us_aqi&timezone=Asia%2FBangkok"
+            req = urllib.request.Request(weather_url, headers={"User-Agent": "Mozilla/5.0"})
             with urllib.request.urlopen(req, timeout=10) as response:
                 w_data = json.loads(response.read().decode())
-                if 'current' in w_data:
-                    data['weather']['wind_speed'] = f\"{round(w_data['current']['wind_speed_10m'])}\"
+                if "current" in w_data:
+                    data["weather"]["wind_speed"] = f"{round(w_data['current']['wind_speed_10m'])}"
+                    deg = w_data["current"]["wind_direction_10m"]
+                    dirs = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"]
+                    data["weather"]["wind_dir"] = dirs[round(((deg % 360) / 45)) % 8]
                     
-                    # Windrichtung Grad in Text umwandeln
-                    deg = w_data['current']['wind_direction_10m']
-                    dirs = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW']
-                    data['weather']['wind_dir'] = dirs[round(((deg % 360) / 45)) % 8]
-                    
-                    # AQI (falls verfügbar, sonst Standard)
-                    if 'air_quality' in w_data and 'us_aqi' in w_data['air_quality']:
-                        aqi = int(w_data['air_quality']['us_aqi'])
-                        data['weather']['aqi_value'] = str(aqi)
+                    # Automatischer Wetter-Warnungs-Check basierend auf WMO-Codes (z.B. schweres Gewitter, Sturm ab Code 95)
+                    w_code = w_data["current"].get("weather_code", 0)
+                    if w_code >= 95:
+                        data["alert"]["active"] = True
+                        data["alert"]["message"] = "🚨 WEATHER ALERT: Heavy tropical thunderstorms and severe weather conditions detected in Pattaya region. Take precautions!"
+                    else:
+                        data["alert"]["active"] = False
+                        data["alert"]["message"] = ""
+
+                    if "air_quality" in w_data and "us_aqi" in w_data["air_quality"]:
+                        aqi = int(w_data["air_quality"]["us_aqi"])
+                        data["weather"]["aqi_value"] = str(aqi)
                         if aqi <= 50:
-                            data['weather']['aqi_status'], data['weather']['aqi_color'] = 'Good', '#00e676'
+                            data["weather"]["aqi_status"], data["weather"]["aqi_color"] = "Good", "#00e676"
                         elif aqi <= 100:
-                            data['weather']['aqi_status'], data['weather']['aqi_color'] = 'Moderate', '#ffeb3b'
+                            data["weather"]["aqi_status"], data["weather"]["aqi_color"] = "Moderate", "#ffeb3b"
                         else:
-                            data['weather']['aqi_status'], data['weather']['aqi_color'] = 'Unhealthy', '#ff5722'
-                    print('Wetter & AQI erfolgreich live aktualisiert.')
+                            data["weather"]["aqi_status"], data["weather"]["aqi_color"] = "Unhealthy", "#ff5722"
+                    print("Wetter und Warnungs-Check live aktualisiert.")
         except Exception as e:
-            print('Fehler beim Abruf des Wetters:', e)
+            print("Fehler Wetter:", e)
+
+        # 4. ECHTE PATTAYA NEWS HOLEN (The Pattaya News RSS Feed)
+        try:
+            news_url = "https://thepattayanews.com/feed/"
+            req = urllib.request.Request(news_url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=15) as response:
+                xml_data = response.read()
+                root = ET.fromstring(xml_data)
+                
+                # Die 4 neuesten Artikel-Titel herausziehen
+                titles = []
+                for item in root.findall(".//item")[:4]:
+                    title_text = item.find("title").text
+                    # HTML-Reste oder komische Zeichen säubern
+                    title_clean = re.sub(r'<[^>]+>', '', title_text).strip()
+                    titles.append(f"PATTAYA NEWS: {title_clean}")
+                
+                if titles:
+                    data["news"] = titles
+                    print("Pattaya News Feed erfolgreich eingelesen.")
+                else:
+                    raise Exception("Keine News im Feed gefunden")
+        except Exception as e:
+            print("Fehler News-Feed, nutze Fallback:", e)
+            data["news"] = [
+                "PATTAYA NEWS: Local updates are being refreshed automatically.",
+                "METEO UPDATE: Tropical weather conditions operating normally across Chonburi.",
+                "JOMTIEN BEACH: High season activities continuing across the coastline."
+            ]
 
         # Zeitstempel setzen
-        data['last_update'] = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')
+        data["last_update"] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC")
 
-        # 4. In roskilde_data.json schreiben
-        with open('roskilde_data.json', 'w', encoding='utf-8') as f:
+        # In roskilde_data.json schreiben
+        with open("roskilde_data.json", "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-        "
+        print("roskilde_data.json erfolgreich geschrieben.")
+        EOF
+
+    - name: Script ausführen
+      run: python fetch_data.py
 
     - name: Änderungen zurückpushen
       env:
