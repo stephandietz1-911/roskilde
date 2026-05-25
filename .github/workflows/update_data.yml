@@ -8,14 +8,19 @@ on:
 jobs:
   update-json:
     runs-on: ubuntu-latest
-    steps:
-    # Aktualisiert auf die neueste Version, die Node.js 24 nativ nutzt
-    - name: Code auschecken
-      uses: actions/checkout@v4.2.2
+    
+    # HIER IST DER SCHLÜSSEL: Wir geben dem Bot explizit Schreibrechte für dieses Repository
+    permissions:
+      contents: write
 
-    # Aktualisiert auf die neueste Version, die Node.js 24 nativ nutzt
+    steps:
+    # Upgrade auf v6 (unterstützt Node 24 nativ, Warnung ist weg)
+    - name: Code auschecken
+      uses: actions/checkout@v6
+
+    # Upgrade auf v6 (unterstützt Node 24 nativ, Warnung ist weg)
     - name: Python installieren
-      uses: actions/setup-python@v5.3.0
+      uses: actions/setup-python@v6
       with:
         python-version: '3.x'
 
