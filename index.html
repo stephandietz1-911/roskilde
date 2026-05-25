@@ -177,4 +177,71 @@
                             <tr><td><span class="flight-type type-arr">ARR</span></td><td>12:15</td><td>Frankfurt (FRA)</td><td>LH 772</td><td class="status-ok">Landed</td></tr>
                             <tr><td><span class="flight-type type-dep">DEP</span></td><td>12:40</td><td>München (MUC)</td><td>TG 924</td><td class="status-ok">Departed</td></tr>
                             <tr><td><span class="flight-type type-dep">DEP</span></td><td>23:45</td><td>Frankfurt (FRA)</td><td>TG 920</td><td class="status-air">Scheduled</td></tr>
-                            <tr><td><span class="flight-type type-dep">DEP</span></td><td>23:50</td><td>Frankfurt (
+                            <tr><td><span class="flight-type type-dep">DEP</span></td><td>23:50</td><td>Frankfurt (FRA)</td><td>LH 773</td><td class="status-air">Scheduled</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div style="text-align:center; opacity:0.3; font-size:10px; font-weight:600;">
+                ROS KILDE SECURITY SYSTEM
+            </div>
+        </div>
+    </div>
+
+    <div class="ticker-bar">
+        <div class="ticker-label">Pattaya News</div>
+        <div class="ticker-wrap">
+            <div id="dynamic-news-container" class="ticker-move">
+                <span class="ticker-span"><span class="ticker-sep">✦</span>PATTAYA BUSINESS: High season bringing massive influx of European and Scandinavian tourists to Jomtien Beach hotels.</span>
+                <span class="ticker-span"><span class="ticker-sep">✦</span>METEO UPDATE: Thai Meteorological Department predicts stable, warm tropical conditions across Chonburi province.</span>
+                <span class="ticker-span"><span class="ticker-sep">✦</span>JOMTIEN TRAFFIC: New transport regulations operating smoothly along Jomtien Beach Road to reduce evening congestion.</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 1. Radar-Zoomwechsel
+        (function() {
+            try {
+                var iframe = document.getElementById('windy-radar');
+                var urlJomtien = "https://embed.windy.com/embed2.html?lat=12.890&lon=100.870&zoom=9&level=surface&overlay=radar&menu=&message=false&marker=false&calendar=&pressure=&type=map&location=coordinates&detail=&detailLat=12.890&detailLon=100.870&metricWind=kmh&metricTemp=%C2%B0C&radarRange=-1&play=1";
+                var urlThailand = "https://embed.windy.com/embed2.html?lat=13.200&lon=101.200&zoom=6&level=surface&overlay=radar&menu=&message=false&marker=false&calendar=&pressure=&type=map&location=coordinates&detail=&detailLat=12.890&detailLon=100.870&metricWind=kmh&metricTemp=%C2%B0C&radarRange=-1&play=1";
+                var showJomtien = true;
+                setInterval(function() {
+                    if (iframe) {
+                        iframe.src = showJomtien ? urlThailand : urlJomtien;
+                        showJomtien = !showJomtien;
+                    }
+                }, 30000);
+            } catch(e) {}
+        })();
+
+        // 2. Fehlerresistente Live-Datenfunktion
+        async function updateLiveData() {
+            try {
+                const response = await fetch('https://neeve.live/api/roskilde_data.json');
+                if (!response.ok) return;
+                const data = await response.json();
+
+                if (data.currencies) {
+                    if(data.currencies.EUR) document.getElementById('rate-eur').innerText = data.currencies.EUR;
+                    if(data.currencies.DKK) document.getElementById('rate-dkk').innerText = data.currencies.DKK;
+                    if(data.currencies.NOK) document.getElementById('rate-nok').innerText = data.currencies.NOK;
+                }
+
+                if (data.weather) {
+                    document.getElementById('wind-text').innerHTML = `${data.weather.wind_speed} km/h <span style="color:#00f2fe;">${data.weather.wind_dir}</span>`;
+                    const badge = document.getElementById('aqi-badge');
+                    const label = document.getElementById('aqi-text');
+                    badge.innerText = data.weather.aqi_value;
+                    label.innerText = data.weather.aqi_status;
+                    label.style.color = data.weather.aqi_color;
+                    badge.style.backgroundColor = data.weather.aqi_color;
+                    badge.style.color = data.weather.aqi_value > 100 ? '#fff' : '#000';
+                }
+
+                if (data.news && data.news.length > 0) {
+                    let newsHtml = "";
+                    data.news.forEach(item => {
+                        newsHtml +=
