@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - name: Code auschecken
-      uses: actions/checkout@v4 # Wir nutzen die stabile v4 mit vollem Token-Zugriff
+      uses: actions/checkout@v4
 
     - name: Python installieren
       uses: actions/setup-python@v5
@@ -59,11 +59,11 @@ jobs:
         git config --local user.email '41898282+github-actions[bot]@users.noreply.github.com'
         git add roskilde_data.json
         
-        # Wenn sich was geändert hat, committen und mit dem Standard-Token pushen
+        # HIER KORRIGIERT: 'echo' statt 'print'
         if ! git diff --quiet || ! git diff --staged --quiet; then
           git commit -m '🤖 Automatisches Live-Daten Update'
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
-          print('Erfolgreich ins Repo gepusht!')
+          echo "Erfolgreich ins Repo gepusht!"
         else
-          print('Keine Änderungen vorhanden.')
+          echo "Keine Änderungen vorhanden."
         fi
