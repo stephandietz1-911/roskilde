@@ -29,7 +29,7 @@
         .tagline { font-size: 13px; color: #a0aec0; text-transform: uppercase; letter-spacing: 1.5px; margin-top: 2px; }
         .header-title { font-size: 20px; color: #fff; font-weight: 700; letter-spacing: 1px; }
         
-        .main-container { display: flex; flex: 1; height: calc(100vh - 165px); width: 100%; overflow: hidden; }
+        .main-container { display: flex; flex: 1; height: calc(100vh - 135px); width: 100%; overflow: hidden; }
         .radar-section { width: 63%; height: 100%; border-right: 2px solid #1a1f26; background-color: #0d0f12; position: relative; }
         .radar-section iframe { width: 100%; height: 100%; border: none; display: block; }
 
@@ -40,25 +40,7 @@
         .info-row-grid { display: flex; gap: 8px; }
         .info-row-grid .widget-card { flex: 1; padding: 10px; }
 
-        /* WÄHRUNGS ROTATION */
-        .currency-container {
-            height: 75px;
-            position: relative;
-            overflow: hidden;
-        }
-        .currency-pair-block {
-            position: absolute;
-            width: 100%;
-            top: 0;
-            left: 0;
-            opacity: 0;
-            transform: translateY(15px);
-            transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-            display: flex;
-            flex-direction: column;
-            gap: 4px;
-        }
-        .currency-pair-block.active { opacity: 1; transform: translateY(0); }
+        /* WÄHRUNGS-LAYOUT OHNE COMPLICTE CSS-TRANSITIONS */
         .currency-row { display: flex; justify-content: space-between; align-items: center; padding: 3px 0; border-bottom: 1px solid #2d3748; font-size: 15px; font-weight: 600; height: 32px; }
         .currency-row:last-child { border-bottom: none; }
         .currency-rate { font-size: 16px; font-weight: bold; color: #00e676; }
@@ -67,9 +49,6 @@
             font-size: 22px; 
             margin-left: 10px; 
             font-weight: bold; 
-            display: inline-block;
-            vertical-align: middle;
-            line-height: 1;
         }
         .trend-up { color: #ff5722; }
         .trend-down { color: #00e676; }
@@ -81,13 +60,12 @@
             display: none;
             background: linear-gradient(135deg, #2c0d11 0%, #1a1f26 100%);
             border: 2px solid #ff003c;
-            box-shadow: 0 0 15px rgba(255, 0, 60, 0.2);
             animation: pulse-border 2s infinite;
         }
         @keyframes pulse-border {
-            0% { border-color: #ff003c; box-shadow: 0 0 10px rgba(255, 0, 60, 0.2); }
-            50% { border-color: #ff6b8b; box-shadow: 0 0 20px rgba(255, 0, 60, 0.5); }
-            100% { border-color: #ff003c; box-shadow: 0 0 10px rgba(255, 0, 60, 0.2); }
+            0% { border-color: #ff003c; }
+            50% { border-color: #ff6b8b; }
+            100% { border-color: #ff003c; }
         }
         .alert-item { font-size: 13px; font-weight: bold; color: #ff6b8b; margin-top: 2px; line-height: 1.3; }
 
@@ -108,7 +86,7 @@
         .status-ok { color: #00e676; }
         .status-air { color: #00f2fe; }
 
-        /* VERTIKALER NEWS TICKER */
+        /* TICKER BAR (REINER STATISCHER TEXT-BOX-INHALT) */
         .ticker-bar {
             background-color: #00f2fe;
             color: #0d0f12;
@@ -138,49 +116,12 @@
         }
         .ticker-wrap { 
             width: 100%; 
-            height: 100%;
-            padding-left: 200px; 
-            overflow: hidden; 
-            position: relative;
-        }
-        
-        #dynamic-news-container { 
-            position: relative;
-            width: 100%; 
-            height: 100%;
-        }
-        .ticker-span { 
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: center;
+            padding-left: 210px; 
             font-weight: 700; 
             font-size: 18px; 
-            color: #0d0f12; 
-            opacity: 0;
-            transform: translateY(100%);
-            transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.4s ease-in-out;
-            white-space: normal;
-            padding-right: 20px;
+            color: #0d0f12;
         }
-        .ticker-span.active { opacity: 1; transform: translateY(0); }
-        .ticker-span.exit { opacity: 0; transform: translateY(-100%); }
         .ticker-sep { color: #ff007f; margin-right: 15px; font-weight: bold; font-size: 22px; }
-
-        /* DEBUG FOOTER */
-        .debug-footer {
-            height: 30px;
-            background-color: #330000;
-            color: #ff3333;
-            font-size: 11px;
-            font-family: monospace;
-            display: flex;
-            align-items: center;
-            padding: 0 20px;
-            border-top: 1px solid #550000;
-            font-weight: bold;
-        }
     </style>
 </head>
 <body>
@@ -203,19 +144,9 @@
         <div class="sidebar">
             <div class="widget-card">
                 <div class="widget-title">💶 LIVE EXCHANGE RATES</div>
-                <div class="currency-container">
-                    <div id="currency-block-0" class="currency-pair-block active">
-                        <div class="currency-row"><span>EUR / THB</span><span><span id="rate-eur">--.--</span><span id="trend-eur"></span></span></div>
-                        <div class="currency-row"><span>DKK / THB</span><span><span id="rate-dkk">--.--</span><span id="trend-dkk"></span></span></div>
-                    </div>
-                    <div id="currency-block-1" class="currency-pair-block">
-                        <div class="currency-row"><span>NOK / THB</span><span><span id="rate-nok">--.--</span><span id="trend-nok"></span></span></div>
-                        <div class="currency-row"><span>USD / THB</span><span><span id="rate-usd">--.--</span><span id="trend-usd"></span></span></div>
-                    </div>
-                    <div id="currency-block-2" class="currency-pair-block">
-                        <div class="currency-row"><span>AUD / THB</span><span><span id="rate-aud">--.--</span><span id="trend-aud"></span></span></div>
-                        <div class="currency-row"><span>RUB / THB</span><span><span id="rate-rub">--.--</span><span id="trend-rub"></span></span></div>
-                    </div>
+                <div id="currency-display-box" style="height: 70px;">
+                    <div class="currency-row"><span>EUR / THB</span><span><span class="currency-rate">--.--</span></span></div>
+                    <div class="currency-row"><span>DKK / THB</span><span><span class="currency-rate">--.--</span></span></div>
                 </div>
             </div>
 
@@ -260,26 +191,17 @@
 
     <div class="ticker-bar">
         <div class="ticker-label">Pattaya News</div>
-        <div class="ticker-wrap">
-            <div id="dynamic-news-container">
-                <div class="ticker-span active"><span class="ticker-sep">✦</span>Lade aktuelle Nachrichten...</div>
-            </div>
-        </div>
+        <div id="static-news-box" class="ticker-wrap">Lade aktuelle Nachrichten...</div>
     </div>
 
-    <div id="debug-log" class="debug-footer">SYSTEM STATUS: Start...</div>
-
     <script>
+        var globalCurrencies = {};
         var globalFlights = [];
         var globalNews = ["Lade aktuelle Nachrichten..."];
+        
         var currentFlightTypeMode = "ARR"; 
         var currentCurrencyBlock = 0;
         var currentNewsIndex = 0;
-
-        function setDebug(text) {
-            var el = document.getElementById('debug-log');
-            if (el) el.innerText = "STATUS: " + text;
-        }
 
         // Radar
         try {
@@ -295,35 +217,22 @@
             }, 30000);
         } catch(e) {}
 
-        function applyTrend(elementId, trendSymbol) {
-            var el = document.getElementById(elementId);
-            if (!el) return;
-            el.innerText = trendSymbol || "→";
-            el.className = "currency-trend";
-            if (trendSymbol === "↑") el.classList.add("trend-up");
-            else if (trendSymbol === "↓") el.classList.add("trend-down");
-            else el.classList.add("trend-stable");
+        // Trend Class-Builder (Klassisches HTML)
+        function getTrendSpan(trendSymbol) {
+            var cls = "trend-stable";
+            if (trendSymbol === "↑") cls = "trend-up";
+            if (trendSymbol === "↓") cls = "trend-down";
+            return "<span class='currency-trend " + cls + "'>" + (trendSymbol || "→") + "</span>";
         }
 
-        // ABSOLUTER PFAD ERZWUNGEN
+        // Der stabile AJAX-Request
         function updateLiveData() {
-            setDebug("Sende Datenabruf...");
             var xhr = new XMLHttpRequest();
             var cacheBuster = "?t=" + new Date().getTime();
-            
-            // HIER DIE ABSOLUTE URL DEINES REPOSITORIES EINTRAGEN
-            // Beispiel: window.location.origin + window.location.pathname.replace('index.html', '') + "roskilde_data.json"
-            var targetUrl = window.location.href.substring(0, window.location.href.lastIndexOf("/")) + "/roskilde_data.json" + cacheBuster;
-            
-            xhr.open("GET", targetUrl, true);
+            xhr.open("GET", "roskilde_data.json" + cacheBuster, true);
             xhr.onreadystatechange = function() {
-                if (xhr.readyState === 4) {
-                    if (xhr.status === 200) {
-                        setDebug("Daten empfangen. Verarbeite...");
-                        parseAndRender(xhr.responseText);
-                    } else {
-                        setDebug("FEHLER: JSON nicht lesbar! HTTP " + xhr.status + " auf Pfad: " + targetUrl);
-                    }
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    parseAndRender(xhr.responseText);
                 }
             };
             xhr.send();
@@ -332,22 +241,15 @@
         function parseAndRender(jsonText) {
             try {
                 var data = JSON.parse(jsonText);
-                if (!data) { setDebug("JSON geladen, aber Inhalt ist leer."); return; }
+                if (!data) return;
 
-                // Kurse
+                // Währungen in globalen Speicher legen
                 if (data.currencies) {
-                    var codes = ["eur", "dkk", "nok", "usd", "aud", "rub"];
-                    for (var i = 0; i < codes.length; i++) {
-                        var c = codes[i];
-                        var valEl = document.getElementById('rate-' + c);
-                        if (valEl && data.currencies[c.toUpperCase()]) {
-                            valEl.innerText = data.currencies[c.toUpperCase()];
-                        }
-                        applyTrend('trend-' + c, data.currencies[c.toUpperCase() + '_trend']);
-                    }
+                    globalCurrencies = data.currencies;
+                    renderCurrencyBlock(); // Sofort zeichnen
                 }
 
-                // Wetter
+                // Wetter befüllen
                 if (data.weather) {
                     var temp = data.weather.temp || "--";
                     var feelsLike = data.weather.feels_like || "--";
@@ -368,7 +270,7 @@
                     }
                 }
 
-                // News
+                // News befüllen
                 if (data.news && data.news.length > 0) {
                     globalNews = data.news;
                 }
@@ -384,4 +286,93 @@
                     }
                 }
 
-                // Flü
+                // Flüge
+                if (data.flights) {
+                    globalFlights = data.flights;
+                    renderFlights();
+                }
+
+            } catch(e) {}
+        }
+
+        // BLOCK-RENDERING FÜR WÄHRUNGEN (Einfacher HTML-Tausch)
+        function renderCurrencyBlock() {
+            var box = document.getElementById('currency-display-box');
+            if (!box || !globalCurrencies.EUR) return;
+
+            var html = "";
+            if (currentCurrencyBlock === 0) {
+                html += "<div class='currency-row'><span>EUR / THB</span><span><span class='currency-rate'>" + globalCurrencies.EUR + "</span>" + getTrendSpan(globalCurrencies.EUR_trend) + "</span></div>";
+                html += "<div class='currency-row'><span>DKK / THB</span><span><span class='currency-rate'>" + globalCurrencies.DKK + "</span>" + getTrendSpan(globalCurrencies.DKK_trend) + "</span></div>";
+            } else if (currentCurrencyBlock === 1) {
+                html += "<div class='currency-row'><span>NOK / THB</span><span><span class='currency-rate'>" + globalCurrencies.NOK + "</span>" + getTrendSpan(globalCurrencies.NOK_trend) + "</span></div>";
+                html += "<div class='currency-row'><span>USD / THB</span><span><span class='currency-rate'>" + globalCurrencies.USD + "</span>" + getTrendSpan(globalCurrencies.USD_trend) + "</span></div>";
+            } else {
+                html += "<div class='currency-row'><span>AUD / THB</span><span><span class='currency-rate'>" + globalCurrencies.AUD + "</span>" + getTrendSpan(globalCurrencies.AUD_trend) + "</span></div>";
+                html += "<div class='currency-row'><span>RUB / THB</span><span><span class='currency-rate'>" + globalCurrencies.RUB + "</span>" + getTrendSpan(globalCurrencies.RUB_trend) + "</span></div>";
+            }
+            box.innerHTML = html;
+        }
+
+        function renderFlights() {
+            var tableBody = document.getElementById('flight-table-body');
+            var titleEl = document.getElementById('flight-title');
+            if (!tableBody) return;
+
+            if (titleEl) titleEl.innerText = currentFlightTypeMode === "ARR" ? "✈️ FLIGHTS (ARRIVALS)" : "✈️ FLIGHTS (DEPARTURES)";
+
+            var flightHtml = "";
+            var count = 0;
+
+            for (var i = 0; i < globalFlights.length; i++) {
+                var f = globalFlights[i];
+                if (f.type === currentFlightTypeMode) {
+                    count++;
+                    var typeClass = f.type === 'ARR' ? 'type-arr' : 'type-dep';
+                    var statusClass = (f.status === 'Landed' || f.status === 'Departed') ? 'status-ok' : 'status-air';
+                    flightHtml += "<tr>" +
+                        "<td><span class='flight-type " + typeClass + "'>" + f.type + "</span></td>" +
+                        "<td>" + (f.time || "") + "</td>" +
+                        "<td>" + (f.city || "") + "</td>" +
+                        "<td>" + (f.flight_no || "") + "</td>" +
+                        "<td class='" + statusClass + "'>" + (f.status || "") + "</td>" +
+                    "</tr>";
+                }
+            }
+
+            if (count === 0) {
+                tableBody.innerHTML = "<tr><td colspan='5' style='text-align:center; padding:20px; color:#a0aec0;'>Keine Flüge vorhanden</td></tr>";
+            } else {
+                tableBody.innerHTML = flightHtml;
+            }
+        }
+
+        // REINE INTERVALL-UMSCHALTUNGEN ÜBER INNERHTML (PERFEKT FÜR ALTE TV-STICKS)
+
+        // Währungen alle 7 Sekunden umschalten
+        setInterval(function() {
+            currentCurrencyBlock = (currentCurrencyBlock + 1) % 3;
+            renderCurrencyBlock();
+        }, 7000);
+
+        // News alle 8 Sekunden als festen Text einblenden (Keine Abstürze mehr)
+        setInterval(function() {
+            var newsBox = document.getElementById('static-news-box');
+            if (!newsBox || globalNews.length === 0) return;
+            
+            currentNewsIndex = (currentNewsIndex + 1) % globalNews.length;
+            newsBox.innerHTML = "<span class='ticker-sep'>✦</span>" + globalNews[currentNewsIndex];
+        }, 8000);
+
+        // Flüge alle 15 Sekunden umschalten
+        setInterval(function() {
+            currentFlightTypeMode = (currentFlightTypeMode === "ARR") ? "DEP" : "ARR";
+            renderFlights();
+        }, 15000);
+
+        // Starten
+        updateLiveData();
+        setInterval(updateLiveData, 20000);
+    </script>
+</body>
+</html>
