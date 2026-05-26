@@ -273,7 +273,7 @@
                         const windSpeed = data.weather.wind_speed || "--";
                         const windDir = data.weather.wind_dir || "--";
                         
-                        document.getElementById('weather-text').innerText = temp + "°C (Gefühlt: " + feelsLike + "°C)";
+                        document.getElementById('weather-text').innerText = temp + "°C (Feels like: " + feelsLike + "°C)";
                         document.getElementById('wind-text').innerHTML = "Wind: " + windSpeed + " km/h <span style='color:#00f2fe; font-weight:bold;'>" + windDir + "</span>";
                         
                         const badge = document.getElementById('aqi-badge');
