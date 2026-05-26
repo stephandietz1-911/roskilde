@@ -2,8 +2,8 @@ name: Live Data Auto Updater
 
 on:
   schedule:
-    - cron: '*/15 * * * *' # Läuft vollautomatisch alle 15 Minuten
-  workflow_dispatch: # Erlaubt jederzeit den manuellen Start
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
 
 jobs:
   update-json:
@@ -30,70 +30,82 @@ jobs:
         import xml.etree.ElementTree as ET
         import re
 
-        # Stabile Standardwerte (Sicherheitsnetz)
+        # Basis-Struktur mit neuen Feldern
         data = {
-            "currencies": {"EUR": "37.45", "DKK": "5.02", "NOK": "3.22"},
-            "weather": {"wind_speed": "15", "wind_dir": "SW", "aqi_value": "35", "aqi_status": "Good", "aqi_color": "#00e676"},
+            "currencies": {
+                "EUR": "37.45", "EUR_trend": "→",
+                "DKK": "5.02", "DKK_trend": "→",
+                "NOK": "3.22", "NOK_trend": "→",
+                "USD": "34.50", "USD_trend": "→",
+                "AUD": "22.80", "AUD_trend": "→",
+                "RUB": "0.38", "RUB_trend": "→"
+            },
+            "weather": {
+                "temp": "32", "feels_like": "37",
+                "wind_speed": "15", "wind_dir": "SW",
+                "aqi_value": "35", "aqi_status": "Good", "aqi_color": "#00e676"
+            },
             "alert": {"active": False, "message": ""},
-            "news": [
-                "PATTAYA NEWS: High season brings massive influx of European and Scandinavian tourists.",
-                "METEO UPDATE: Thai Meteorological Department predicts stable, warm tropical conditions.",
-                "JOMTIEN BEACH: Local business and hospitality venues reporting strong weekly turnout."
-            ],
+            "news": [],
             "flights": [
                 {"type": "ARR", "time": "06:00", "city": "Copenhagen (CPH)", "flight_no": "TG 951", "status": "Landed"},
                 {"type": "ARR", "time": "06:25", "city": "Frankfurt (FRA)", "flight_no": "TG 921", "status": "Landed"},
                 {"type": "ARR", "time": "11:45", "city": "Oslo (OSL)", "flight_no": "TG 923", "status": "Landed"},
-                {"type": "DEP", "time": "23:45", "city": "Frankfurt (FRA)", "flight_no": "TG 920", "status": "Scheduled"}
+                {"type": "ARR", "time": "12:15", "city": "Frankfurt (FRA)", "flight_no": "LH 772", "status": "Landed"},
+                {"type": "DEP", "time": "12:40", "city": "München (MUC)", "flight_no": "TG 924", "status": "Departed"},
+                {"type": "DEP", "time": "23:45", "city": "Frankfurt (FRA)", "flight_no": "TG 920", "status": "Scheduled"},
+                {"type": "DEP", "time": "23:50", "city": "Frankfurt (FRA)", "flight_no": "LH 773", "status": "Scheduled"}
             ]
         }
 
-        # 1. Bestehende lokale Datei laden (versuchen, alte Daten zu retten statt zu löschen!)
+        # 1. Alte Daten laden für Trend-Berechnung
+        old_currencies = {}
         try:
             with open("roskilde_data.json", "r", encoding="utf-8") as f:
                 old_data = json.load(f)
-                if old_data:
-                    if "currencies" in old_data: data["currencies"] = old_data["currencies"]
-                    if "weather" in old_data: data["weather"] = old_data["weather"]
-                    if "alert" in old_data: data["alert"] = old_data["alert"]
-                    if "news" in old_data and old_data["news"]: data["news"] = old_data["news"]
-                    if "flights" in old_data and old_data["flights"]: data["flights"] = old_data["flights"]
-        except Exception as e:
-            print("Hinweis: Keine alte JSON lesbar, nutze Defaults.", e)
+                if old_data and "currencies" in old_data:
+                    old_currencies = old_data["currencies"]
+        except:
+            pass
 
-        # 2. Wechselkurse holen
+        # 2. Wechselkurse holen (inklusive USD, AUD, RUB)
         try:
             req = urllib.request.Request("https://open.er-api.com/v6/latest/THB", headers={"User-Agent": "Mozilla/5.0"})
             with urllib.request.urlopen(req, timeout=10) as response:
                 rates_data = json.loads(response.read().decode())
                 if rates_data and "rates" in rates_data:
-                    data["currencies"]["EUR"] = f"{1 / rates_data['rates']['EUR']:.2f}"
-                    data["currencies"]["DKK"] = f"{1 / rates_data['rates']['DKK']:.2f}"
-                    data["currencies"]["NOK"] = f"{1 / rates_data['rates']['NOK']:.2f}"
-                    print("Wechselkurse erfolgreich geladen.")
+                    for target in ["EUR", "DKK", "NOK", "USD", "AUD", "RUB"]:
+                        if target in rates_data["rates"]:
+                            new_val = 1 / rates_data["rates"][target]
+                            data["currencies"][target] = f"{new_val:.2f}"
+                            
+                            # Trend berechnen
+                            old_val_str = old_currencies.get(target)
+                            if old_val_str:
+                                try:
+                                    old_val = float(old_val_str)
+                                    if new_val > old_val + 0.005: data["currencies"][target+"_trend"] = "↑"
+                                    elif new_val < old_val - 0.005: data["currencies"][target+"_trend"] = "↓"
+                                    else: data["currencies"][target+"_trend"] = "→"
+                                except: pass
         except Exception as e:
-            print("Fehler bei Wechselkursen (alte Werte behalten):", e)
+            print("Fehler Kurse:", e)
 
-        # 3. Wetter & Warnungen holen
+        # 3. Wetter inklusive echter & gefühlter Temperatur holen
         try:
-            weather_url = "https://api.open-meteo.com/v1/forecast?latitude=12.933&longitude=100.883&current=wind_speed_10m,wind_direction_10m,weather_code&air_quality=us_aqi&timezone=Asia%2FBangkok"
+            weather_url = "https://api.open-meteo.com/v1/forecast?latitude=12.933&longitude=100.883&current=temperature_2m,apparent_temperature,wind_speed_10m,wind_direction_10m,weather_code&air_quality=us_aqi&timezone=Asia%2FBangkok"
             req = urllib.request.Request(weather_url, headers={"User-Agent": "Mozilla/5.0"})
             with urllib.request.urlopen(req, timeout=10) as response:
                 w_data = json.loads(response.read().decode())
                 if "current" in w_data:
+                    data["weather"]["temp"] = f"{round(w_data['current']['temperature_2m'])}"
+                    data["weather"]["feels_like"] = f"{round(w_data['current']['apparent_temperature'])}"
                     data["weather"]["wind_speed"] = f"{round(w_data['current']['wind_speed_10m'])}"
+                    
                     deg = w_data["current"]["wind_direction_10m"]
                     dirs = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"]
                     data["weather"]["wind_dir"] = dirs[round(((deg % 360) / 45)) % 8]
                     
-                    w_code = w_data["current"].get("weather_code", 0)
-                    if w_code >= 95:
-                        data["alert"]["active"] = True
-                        data["alert"]["message"] = "🚨 WEATHER ALERT: Heavy tropical thunderstorms in Pattaya region. Take precautions!"
-                    else:
-                        data["alert"]["active"] = False
-                        data["alert"]["message"] = ""
-
                     if "air_quality" in w_data and "us_aqi" in w_data["air_quality"]:
                         aqi = int(w_data["air_quality"]["us_aqi"])
                         data["weather"]["aqi_value"] = str(aqi)
@@ -103,38 +115,28 @@ jobs:
                             data["weather"]["aqi_status"], data["weather"]["aqi_color"] = "Moderate", "#ffeb3b"
                         else:
                             data["weather"]["aqi_status"], data["weather"]["aqi_color"] = "Unhealthy", "#ff5722"
-                    print("Wetter erfolgreich geladen.")
         except Exception as e:
-            print("Fehler beim Wetter (alte Werte behalten):", e)
+            print("Fehler Wetter:", e)
 
         # 4. Pattaya News holen
         try:
             news_url = "https://thepattayanews.com/feed/"
             req = urllib.request.Request(news_url, headers={"User-Agent": "Mozilla/5.0"})
             with urllib.request.urlopen(req, timeout=12) as response:
-                xml_data = response.read()
-                root = ET.fromstring(xml_data)
-                
+                root = ET.fromstring(response.read())
                 titles = []
                 for item in root.findall(".//item")[:4]:
-                    title_text = item.find("title").text
-                    title_clean = re.sub(r'<[^>]+>', '', title_text).strip()
-                    # Verhindert, dass leere Titel reingeschrieben werden
-                    if title_clean:
-                        titles.append(f"PATTAYA NEWS: {title_clean}")
-                
-                if titles:
-                    data["news"] = titles
-                    print("News erfolgreich geladen.")
+                    t_clean = re.sub(r'<[^>]+>', '', item.find("title").text).strip()
+                    if t_clean: titles.append(f"PATTAYA NEWS: {t_clean}")
+                if titles: data["news"] = titles
         except Exception as e:
-            print("Fehler beim News-Feed (alte News behalten):", e)
+            print("Fehler News:", e)
 
         data["last_update"] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC")
 
-        # Datei endgültig schreiben
         with open("roskilde_data.json", "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
-        print("roskilde_data.json erfolgreich gesichert geschrieben.")
+        print("Datei erfolgreich geschrieben.")
         EOF
 
     - name: Script ausführen
@@ -151,6 +153,4 @@ jobs:
           git commit -m '🤖 Automatisches Live-Daten Update'
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
           echo "Erfolgreich ins Repo gepusht!"
-        else
-          echo "Keine Änderungen vorhanden."
         fi
