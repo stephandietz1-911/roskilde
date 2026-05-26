@@ -1,38 +1,134 @@
-import urllib.request
-import xml.etree.ElementTree as ET
-import json
+name: Live Data Auto Updater
 
-def get_thailand_alerts():
-    # Wir nutzen den offiziellen RSS-Feed von GDACS (Global Disaster Alert)
-    url = "https://www.gdacs.org/xml/rss.xml"
-    
-    alert_active = False
-    alert_message = ""
-    
-    try:
-        # Feed abrufen
-        response = urllib.request.urlopen(url, timeout=10)
-        data = response.read()
-        
-        # XML parsen
-        root = ET.fromstring(data)
-        
-        # Alle aktuellen Meldungen durchgehen
-        for item in root.findall('.//item'):
-            title = item.find('title').text if item.find('title') is not None else ""
-            description = item.find('description').text if item.find('description') is not None else ""
-            
-            # Prüfen, ob Thailand in der Meldung erwähnt wird
-            if "Thailand" in title or "Thailand" in description:
-                # Nur schwere Warnungen (Red/Orange) oder Erdbeben/Flut-Meldungen filtern
-                alert_active = True
-                alert_message = f"ACHTUNG: {title}"
-                break # Die erste wichtige Meldung reicht uns
-                
-    except Exception as e:
-        print(f"Fehler beim Abruf der Katastrophenwarnungen: {e}")
-        
-    return {"active": alert_active, "message": alert_message}
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
 
-# BEISPIEL: Wie es in deine JSON-Struktur integriert wird
-# data["alert"] = get_thailand_alerts()
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+
+    steps:
+    - name: Code auschecken
+      uses: actions/checkout@v4
+
+    - name: Python installieren
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Script-Datei erstellen
+      run: |
+        cat << 'EOF' > fetch_data.py
+        import urllib.request
+        import json
+        import datetime
+        import xml.etree.ElementTree as ET
+        import re
+
+        # Basis-Struktur mit neuen Feldern
+        data = {
+            "currencies": {
+                "EUR": "37.45", "EUR_trend": "→",
+                "DKK": "5.02", "DKK_trend": "→",
+                "NOK": "3.22", "NOK_trend": "→",
+                "USD": "34.50", "USD_trend": "→",
+                "AUD": "22.80", "AUD_trend": "→",
+                "RUB": "0.38", "RUB_trend": "→"
+            },
+            "weather": {
+                "temp": "32", "feels_like": "37",
+                "wind_speed": "15", "wind_dir": "SW",
+                "aqi_value": "35", "aqi_status": "Good", "aqi_color": "#00e676"
+            },
+            "alert": {"active": False, "message": ""},
+            "news": [],
+            "flights": [
+                {"type": "ARR", "time": "06:00", "city": "Copenhagen (CPH)", "flight_no": "TG 951", "status": "Landed"},
+                {"type": "ARR", "time": "06:25", "city": "Frankfurt (FRA)", "flight_no": "TG 921", "status": "Landed"},
+                {"type": "ARR", "time": "11:45", "city": "Oslo (OSL)", "flight_no": "TG 923", "status": "Landed"},
+                {"type": "ARR", "time": "12:15", "city": "Frankfurt (FRA)", "flight_no": "LH 772", "status": "Landed"},
+                {"type": "DEP", "time": "12:40", "city": "München (MUC)", "flight_no": "TG 924", "status": "Departed"},
+                {"type": "DEP", "time": "23:45", "city": "Frankfurt (FRA)", "flight_no": "TG 920", "status": "Scheduled"},
+                {"type": "DEP", "time": "23:50", "city": "Frankfurt (FRA)", "flight_no": "LH 773", "status": "Scheduled"}
+            ]
+        }
+
+        # 1. Alte Daten laden für Trend-Berechnung und Flugerhalt
+        old_currencies = {}
+        try:
+            with open("roskilde_data.json", "r", encoding="utf-8") as f:
+                old_data = json.load(f)
+                if old_data:
+                    if "currencies" in old_data: old_currencies = old_data["currencies"]
+                    if "flights" in old_data and old_data["flights"]: data["flights"] = old_data["flights"]
+        except:
+            pass
+
+        # 2. Wechselkurse holen (inklusive USD, AUD, RUB)
+        try:
+            req = urllib.request.Request("https://open.er-api.com/v6/latest/THB", headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=10) as response:
+                rates_data = json.loads(response.read().decode())
+                if rates_data and "rates" in rates_data:
+                    for target in ["EUR", "DKK", "NOK", "USD", "AUD", "RUB"]:
+                        if target in rates_data["rates"]:
+                            new_val = 1 / rates_data["rates"][target]
+                            data["currencies"][target] = f"{new_val:.2f}"
+                            
+                            # Trend berechnen
+                            old_val_str = old_currencies.get(target)
+                            if old_val_str:
+                                try:
+                                    old_val = float(old_val_str)
+                                    if new_val > old_val + 0.005: data["currencies"][target+"_trend"] = "↑"
+                                    elif new_val < old_val - 0.005: data["currencies"][target+"_trend"] = "↓"
+                                    else: data["currencies"][target+"_trend"] = "→"
+                                except: pass
+        except Exception as e:
+            print("Fehler Kurse:", e)
+
+        # 3. Wetter inklusive echter & gefühlter Temperatur holen
+        try:
+            weather_url = "https://api.open-meteo.com/v1/forecast?latitude=12.933&longitude=100.883&current=temperature_2m,apparent_temperature,wind_speed_10m,wind_direction_10m,weather_code&air_quality=us_aqi&timezone=Asia%2FBangkok"
+            req = urllib.request.Request(weather_url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=10) as response:
+                w_data = json.loads(response.read().decode())
+                if "current" in w_data:
+                    data["weather"]["temp"] = f"{round(w_data['current']['temperature_2m'])}"
+                    data["weather"]["feels_like"] = f"{round(w_data['current']['apparent_temperature'])}"
+                    data["weather"]["wind_speed"] = f"{round(w_data['current']['wind_speed_10m'])}"
+                    
+                    deg = w_data["current"]["wind_direction_10m"]
+                    dirs = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"]
+                    data["weather"]["wind_dir"] = dirs[round(((deg % 360) / 45)) % 8]
+                    
+                    if "air_quality" in w_data and "us_aqi" in w_data["air_quality"]:
+                        aqi = int(w_data["air_quality"]["us_aqi"])
+                        data["weather"]["aqi_value"] = str(aqi)
+                        if aqi <= 50:
+                            data["weather"]["aqi_status"], data["weather"]["aqi_color"] = "Good", "#00e676"
+                        elif aqi <= 100:
+                            data["weather"]["aqi_status"], data["weather"]["aqi_color"] = "Moderate", "#ffeb3b"
+                        else:
+                            data["weather"]["aqi_status"], data["weather"]["aqi_color"] = "Unhealthy", "#ff5722"
+        except Exception as e:
+            print("Fehler Wetter:", e)
+
+        # 4. Pattaya News & Katastrophen-Warnungen (GDACS Feed) holen
+        # Erst versuchen wir den weltweiten GDACS Katastrophen-Feed für Thailand zu prüfen
+        try:
+            gdacs_url = "https://www.gdacs.org/xml/rss.xml"
+            req = urllib.request.Request(gdacs_url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=10) as response:
+                root = ET.fromstring(response.read())
+                for item in root.findall('.//item'):
+                    title = item.find('title').text if item.find('title') is not None else ""
+                    desc = item.find('description').text if item.find('description') is not None else ""
+                    if "Thailand" in title or "Thailand" in desc:
+                        data["alert"]["active"] = True
+                        data["alert"]["message"] = f"🚨 EMERGENCY SYSTEM ALERT: {title}"
