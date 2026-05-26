@@ -40,7 +40,7 @@
         .info-row-grid { display: flex; gap: 8px; }
         .info-row-grid .widget-card { flex: 1; padding: 10px; }
 
-        /* WÄHRUNGS-BOX DESIGN FÜR ROTATION */
+        /* WÄHRUNGS ROTATION STYLE */
         .currency-container {
             height: 75px;
             position: relative;
@@ -52,23 +52,20 @@
             top: 0;
             left: 0;
             opacity: 0;
-            transform: translateY(10px);
+            transform: translateY(15px);
             transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
             display: flex;
             flex-direction: column;
             gap: 4px;
-            pointer-events: none;
         }
         .currency-pair-block.active {
             opacity: 1;
             transform: translateY(0);
-            pointer-events: auto;
         }
         .currency-row { display: flex; justify-content: space-between; align-items: center; padding: 3px 0; border-bottom: 1px solid #2d3748; font-size: 15px; font-weight: 600; height: 32px; }
         .currency-row:last-child { border-bottom: none; }
         .currency-rate { font-size: 16px; font-weight: bold; color: #00e676; }
         
-        /* GROSSE TREND PFEILE OPTIMIERT */
         .currency-trend { 
             font-size: 22px; 
             margin-left: 10px; 
@@ -114,7 +111,7 @@
         .status-ok { color: #00e676; }
         .status-air { color: #00f2fe; }
 
-        /* NEUES VERTIKALES TICKER DESIGN (STABILISIERT) */
+        /* VERTIKALER TICKER STYLE (STABILISIERT) */
         .ticker-bar {
             background-color: #00f2fe;
             color: #0d0f12;
@@ -203,16 +200,16 @@
                 <div class="widget-title">💶 LIVE EXCHANGE RATES</div>
                 <div class="currency-container">
                     <div id="currency-block-0" class="currency-pair-block active">
-                        <div class="currency-row"><span>EUR / THB</span><span><span id="rate-eur" class="currency-rate">--.--</span><span id="trend-eur" class="currency-trend"></span></span></div>
-                        <div class="currency-row"><span>DKK / THB</span><span><span id="rate-dkk" class="currency-rate">--.--</span><span id="trend-dkk" class="currency-trend"></span></span></div>
+                        <div class="currency-row"><span>EUR / THB</span><span><span id="rate-eur">--.--</span><span id="trend-eur"></span></span></div>
+                        <div class="currency-row"><span>DKK / THB</span><span><span id="rate-dkk">--.--</span><span id="trend-dkk"></span></span></div>
                     </div>
                     <div id="currency-block-1" class="currency-pair-block">
-                        <div class="currency-row"><span>NOK / THB</span><span><span id="rate-nok" class="currency-rate">--.--</span><span id="trend-nok" class="currency-trend"></span></span></div>
-                        <div class="currency-row"><span>USD / THB</span><span><span id="rate-usd" class="currency-rate">--.--</span><span id="trend-usd" class="currency-trend"></span></span></div>
+                        <div class="currency-row"><span>NOK / THB</span><span><span id="rate-nok">--.--</span><span id="trend-nok"></span></span></div>
+                        <div class="currency-row"><span>USD / THB</span><span><span id="rate-usd">--.--</span><span id="trend-usd"></span></span></div>
                     </div>
                     <div id="currency-block-2" class="currency-pair-block">
-                        <div class="currency-row"><span>AUD / THB</span><span><span id="rate-aud" class="currency-rate">--.--</span><span id="trend-aud" class="currency-trend"></span></span></div>
-                        <div class="currency-row"><span>RUB / THB</span><span><span id="rate-rub" class="currency-rate">--.--</span><span id="trend-rub" class="currency-trend"></span></span></div>
+                        <div class="currency-row"><span>AUD / THB</span><span><span id="rate-aud">--.--</span><span id="trend-aud"></span></span></div>
+                        <div class="currency-row"><span>RUB / THB</span><span><span id="rate-rub">--.--</span><span id="trend-rub"></span></span></div>
                     </div>
                 </div>
             </div>
@@ -290,7 +287,7 @@
             }, 30000);
         } catch(e) {}
 
-        // Trend-Zuordnung Helper
+        // Trend Helper
         function applyTrend(elementId, trendSymbol) {
             const el = document.getElementById(elementId);
             if (!el) return;
@@ -301,7 +298,7 @@
             else el.classList.add("trend-stable");
         }
 
-        // 2. LIVE DATA ABHOLEN
+        // 2. HAUPTFUNKTION LIVE DATEN
         async function updateLiveData() {
             try {
                 const cacheBuster = "?t=" + new Date().getTime();
@@ -310,78 +307,21 @@
                 const data = await response.json();
                 if (!data) return;
 
-                // Kurse updaten
-                try {
-                    if (data.currencies) {
-                        const currencies = ["EUR", "DKK", "NOK", "USD", "AUD", "RUB"];
-                        currencies.forEach(c => {
-                            if (data.currencies[c]) document.getElementById('rate-' + c.toLowerCase()).innerText = data.currencies[c];
-                            applyTrend('trend-' + c.toLowerCase(), data.currencies[c + '_trend']);
-                        });
-                    }
-                } catch(e) {}
-
-                // Wetter updaten
-                try {
-                    if (data.weather) {
-                        const temp = data.weather.temp || "--";
-                        const feelsLike = data.weather.feels_like || "--";
-                        const windSpeed = data.weather.wind_speed || "--";
-                        const windDir = data.weather.wind_dir || "--";
-                        
-                        document.getElementById('weather-text').innerText = temp + "°C (Gefühlt: " + feelsLike + "°C)";
-                        document.getElementById('wind-text').innerHTML = "Wind: " + windSpeed + " km/h <span style='color:#00f2fe; font-weight:bold;'>" + windDir + "</span>";
-                        
-                        const badge = document.getElementById('aqi-badge');
-                        const label = document.getElementById('aqi-text');
-                        if (badge && label) {
-                            badge.innerText = data.weather.aqi_value || "--";
-                            label.innerText = data.weather.aqi_status || "Good";
-                            label.style.color = data.weather.aqi_color || "#00e676";
-                            badge.style.backgroundColor = data.weather.aqi_color || "#00e676";
-                            badge.style.color = (data.weather.aqi_value && parseInt(data.weather.aqi_value) > 100) ? '#fff' : '#000';
+                // Wechselkurse befüllen
+                if (data.currencies) {
+                    const codes = ["eur", "dkk", "nok", "usd", "aud", "rub"];
+                    codes.forEach(c => {
+                        const valEl = document.getElementById('rate-' + c);
+                        if (valEl && data.currencies[c.toUpperCase()]) {
+                            valEl.innerText = data.currencies[c.toUpperCase()];
                         }
-                    }
-                } catch(e) {}
-
-                // News Array zwischenspeichern
-                if (data.news && data.news.length > 0) {
-                    globalNews = data.news;
+                        applyTrend('trend-' + c, data.currencies[c.toUpperCase() + '_trend']);
+                    });
                 }
 
-                // Alarmbox steuern
-                try {
-                    const alertBox = document.getElementById('disaster-box');
-                    if (alertBox) {
-                        if (data.alert && data.alert.active) {
-                            document.getElementById('alert-text').innerHTML = data.alert.message || "";
-                            alertBox.style.display = 'block';
-                        } else {
-                            alertBox.style.display = 'none';
-                        }
-                    }
-                } catch(e) {}
-
-                // Flugdaten wegsichern
-                if (data.flights) {
-                    globalFlights = data.flights;
-                    renderFlights();
-                }
-
-            } catch (error) {
-                console.log("Fehler im Core-Update:", error);
-            }
-        }
-
-        // 3. FLUG-RENDERING (Filterung ARR / DEP)
-        function renderFlights() {
-            try {
-                const tableBody = document.getElementById('flight-table-body');
-                const titleEl = document.getElementById('flight-title');
-                if (!tableBody) return;
-
-                if (titleEl) {
-                    titleEl.innerText = currentFlightTypeMode === "ARR" ? "✈️ FLIGHTS (ARRIVALS)" : "✈️ FLIGHTS (DEPARTURES)";
-                }
-
-                const filtered = globalFlights.
+                // Wetter befüllen
+                if (data.weather) {
+                    const temp = data.weather.temp || "--";
+                    const feelsLike = data.weather.feels_like || "--";
+                    const windSpeed = data.weather.wind_speed || "--";
+                    const wind
