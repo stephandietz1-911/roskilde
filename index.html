@@ -42,7 +42,7 @@
 
         /* WÄHRUNGS-BOX DESIGN FÜR ROTATION */
         .currency-container {
-            height: 75px; /* Platz für exakt 2 Zeilen */
+            height: 75px;
             position: relative;
             overflow: hidden;
         }
@@ -114,7 +114,7 @@
         .status-ok { color: #00e676; }
         .status-air { color: #00f2fe; }
 
-        /* HEADER & ELEMENTE FÜR DEN VERTIKALEN NEWS TICKER (KEINE LAUFSCHRIFT MEHR) */
+        /* NEUES VERTIKALES TICKER DESIGN (STABILISIERT) */
         .ticker-bar {
             background-color: #00f2fe;
             color: #0d0f12;
@@ -344,7 +344,7 @@
                     }
                 } catch(e) {}
 
-                // News Array zwischenspeichern (Wenn neu vorhanden)
+                // News Array zwischenspeichern
                 if (data.news && data.news.length > 0) {
                     globalNews = data.news;
                 }
@@ -369,4 +369,19 @@
                 }
 
             } catch (error) {
-                print("Fehler im Core-Update
+                console.log("Fehler im Core-Update:", error);
+            }
+        }
+
+        // 3. FLUG-RENDERING (Filterung ARR / DEP)
+        function renderFlights() {
+            try {
+                const tableBody = document.getElementById('flight-table-body');
+                const titleEl = document.getElementById('flight-title');
+                if (!tableBody) return;
+
+                if (titleEl) {
+                    titleEl.innerText = currentFlightTypeMode === "ARR" ? "✈️ FLIGHTS (ARRIVALS)" : "✈️ FLIGHTS (DEPARTURES)";
+                }
+
+                const filtered = globalFlights.
