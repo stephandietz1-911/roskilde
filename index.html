@@ -40,16 +40,43 @@
         .info-row-grid { display: flex; gap: 8px; }
         .info-row-grid .widget-card { flex: 1; padding: 10px; }
 
-        .currency-row { display: flex; justify-content: space-between; padding: 3px 0; border-bottom: 1px solid #2d3748; font-size: 14px; font-weight: 600; }
+        /* WÄHRUNGS-BOX DESIGN FÜR ROTATION */
+        .currency-container {
+            height: 75px; /* Platz für exakt 2 Zeilen */
+            position: relative;
+            overflow: hidden;
+        }
+        .currency-pair-block {
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            pointer-events: none;
+        }
+        .currency-pair-block.active {
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: auto;
+        }
+        .currency-row { display: flex; justify-content: space-between; align-items: center; padding: 3px 0; border-bottom: 1px solid #2d3748; font-size: 15px; font-weight: 600; height: 32px; }
         .currency-row:last-child { border-bottom: none; }
-        .currency-rate { font-size: 15px; font-weight: bold; color: #00e676; }
+        .currency-rate { font-size: 16px; font-weight: bold; color: #00e676; }
+        
+        /* GROSSE TREND PFEILE OPTIMIERT */
         .currency-trend { 
-    font-size: 20px; 
-    margin-left: 8px; 
-    font-weight: bold; 
-    display: inline-block;
-    vertical-align: middle;
-}
+            font-size: 22px; 
+            margin-left: 10px; 
+            font-weight: bold; 
+            display: inline-block;
+            vertical-align: middle;
+            line-height: 1;
+        }
         .trend-up { color: #ff5722; }
         .trend-down { color: #00e676; }
         .trend-stable { color: #a0aec0; }
@@ -87,6 +114,7 @@
         .status-ok { color: #00e676; }
         .status-air { color: #00f2fe; }
 
+        /* HEADER & ELEMENTE FÜR DEN VERTIKALEN NEWS TICKER (KEINE LAUFSCHRIFT MEHR) */
         .ticker-bar {
             background-color: #00f2fe;
             color: #0d0f12;
@@ -114,26 +142,43 @@
             top: 0;
             box-shadow: 5px 0 15px rgba(0,0,0,0.3);
         }
-        .ticker-wrap { width: 100%; padding-left: 190px; overflow: hidden; }
-        
-        /* HARDWARE-BESCHLEUNIGTER TICKER (Reisegeschwindigkeit auf Wunsch flink: 24s) */
-        .ticker-move { 
-            display: inline-block; 
-            white-space: nowrap; 
-            animation: marquee-margin 24s linear infinite; 
-            will-change: transform;
-            backface-visibility: hidden;
-            -webkit-backface-visibility: hidden;
+        .ticker-wrap { 
+            width: 100%; 
+            height: 100%;
+            padding-left: 200px; 
+            overflow: hidden; 
+            position: relative;
         }
         
-        #dynamic-news-container { display: inline-block; white-space: nowrap; }
-        .ticker-span { margin-right: 60px; display: inline-block; font-weight: 700; font-size: 20px; color: #0d0f12; }
-        .ticker-sep { color: #ff007f; margin-right: 15px; font-weight: bold; }
-
-        @keyframes marquee-margin {
-            0% { transform: translate3d(100%, 0, 0); }
-            100% { transform: translate3d(-100%, 0, 0); }
+        #dynamic-news-container { 
+            position: relative;
+            width: 100%; 
+            height: 100%;
         }
+        .ticker-span { 
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            font-weight: 700; 
+            font-size: 18px; 
+            color: #0d0f12; 
+            opacity: 0;
+            transform: translateY(100%);
+            transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.4s ease-in-out;
+            white-space: normal;
+            padding-right: 20px;
+        }
+        .ticker-span.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .ticker-span.exit {
+            opacity: 0;
+            transform: translateY(-100%);
+        }
+        .ticker-sep { color: #ff007f; margin-right: 15px; font-weight: bold; font-size: 22px; }
     </style>
 </head>
 <body>
@@ -156,12 +201,20 @@
         <div class="sidebar">
             <div class="widget-card">
                 <div class="widget-title">💶 LIVE EXCHANGE RATES</div>
-                <div class="currency-row"><span>EUR / THB</span><span><span id="rate-eur" class="currency-rate">--.--</span><span id="trend-eur" class="currency-trend"></span></span></div>
-                <div class="currency-row"><span>DKK / THB</span><span><span id="rate-dkk" class="currency-rate">--.--</span><span id="trend-dkk" class="currency-trend"></span></span></div>
-                <div class="currency-row"><span>NOK / THB</span><span><span id="rate-nok" class="currency-rate">--.--</span><span id="trend-nok" class="currency-trend"></span></span></div>
-                <div class="currency-row"><span>USD / THB</span><span><span id="rate-usd" class="currency-rate">--.--</span><span id="trend-usd" class="currency-trend"></span></span></div>
-                <div class="currency-row"><span>AUD / THB</span><span><span id="rate-aud" class="currency-rate">--.--</span><span id="trend-aud" class="currency-trend"></span></span></div>
-                <div class="currency-row"><span>RUB / THB</span><span><span id="rate-rub" class="currency-rate">--.--</span><span id="trend-rub" class="currency-trend"></span></span></div>
+                <div class="currency-container">
+                    <div id="currency-block-0" class="currency-pair-block active">
+                        <div class="currency-row"><span>EUR / THB</span><span><span id="rate-eur" class="currency-rate">--.--</span><span id="trend-eur" class="currency-trend"></span></span></div>
+                        <div class="currency-row"><span>DKK / THB</span><span><span id="rate-dkk" class="currency-rate">--.--</span><span id="trend-dkk" class="currency-trend"></span></span></div>
+                    </div>
+                    <div id="currency-block-1" class="currency-pair-block">
+                        <div class="currency-row"><span>NOK / THB</span><span><span id="rate-nok" class="currency-rate">--.--</span><span id="trend-nok" class="currency-trend"></span></span></div>
+                        <div class="currency-row"><span>USD / THB</span><span><span id="rate-usd" class="currency-rate">--.--</span><span id="trend-usd" class="currency-trend"></span></span></div>
+                    </div>
+                    <div id="currency-block-2" class="currency-pair-block">
+                        <div class="currency-row"><span>AUD / THB</span><span><span id="rate-aud" class="currency-rate">--.--</span><span id="trend-aud" class="currency-trend"></span></span></div>
+                        <div class="currency-row"><span>RUB / THB</span><span><span id="rate-rub" class="currency-rate">--.--</span><span id="trend-rub" class="currency-trend"></span></span></div>
+                    </div>
+                </div>
             </div>
 
             <div class="info-row-grid">
@@ -210,15 +263,18 @@
     <div class="ticker-bar">
         <div class="ticker-label">Pattaya News</div>
         <div class="ticker-wrap">
-            <div id="dynamic-news-container" class="ticker-move">
-                <span class="ticker-span"><span class="ticker-sep">✦</span>Lade aktuelle Nachrichten...</span>
+            <div id="dynamic-news-container">
+                <div class="ticker-span active"><span class="ticker-sep">✦</span>Lade aktuelle Nachrichten...</div>
             </div>
         </div>
     </div>
 
     <script>
         let globalFlights = [];
-        let currentFlightTypeMode = "ARR"; // Wechsel-Modus (ARR / DEP)
+        let globalNews = ["Lade aktuelle Nachrichten..."];
+        let currentFlightTypeMode = "ARR"; 
+        let currentCurrencyBlock = 0;
+        let currentNewsIndex = 0;
 
         // 1. Radar-Wechsel
         try {
@@ -234,7 +290,7 @@
             }, 30000);
         } catch(e) {}
 
-        // Trend-Klasse zuweisen Helper
+        // Trend-Zuordnung Helper
         function applyTrend(elementId, trendSymbol) {
             const el = document.getElementById(elementId);
             if (!el) return;
@@ -245,7 +301,7 @@
             else el.classList.add("trend-stable");
         }
 
-        // 2. Daten abrufen
+        // 2. LIVE DATA ABHOLEN
         async function updateLiveData() {
             try {
                 const cacheBuster = "?t=" + new Date().getTime();
@@ -254,7 +310,7 @@
                 const data = await response.json();
                 if (!data) return;
 
-                // Kurse rendern
+                // Kurse updaten
                 try {
                     if (data.currencies) {
                         const currencies = ["EUR", "DKK", "NOK", "USD", "AUD", "RUB"];
@@ -265,7 +321,7 @@
                     }
                 } catch(e) {}
 
-                // Wetter inkl. Echter & gefühlter Temperatur rendern
+                // Wetter updaten
                 try {
                     if (data.weather) {
                         const temp = data.weather.temp || "--";
@@ -273,7 +329,7 @@
                         const windSpeed = data.weather.wind_speed || "--";
                         const windDir = data.weather.wind_dir || "--";
                         
-                        document.getElementById('weather-text').innerText = temp + "°C (Feels like: " + feelsLike + "°C)";
+                        document.getElementById('weather-text').innerText = temp + "°C (Gefühlt: " + feelsLike + "°C)";
                         document.getElementById('wind-text').innerHTML = "Wind: " + windSpeed + " km/h <span style='color:#00f2fe; font-weight:bold;'>" + windDir + "</span>";
                         
                         const badge = document.getElementById('aqi-badge');
@@ -288,19 +344,12 @@
                     }
                 } catch(e) {}
 
-                // News ticker rendern
-                try {
-                    if (data.news && data.news.length > 0) {
-                        let newsHtml = "";
-                        data.news.forEach(item => {
-                            newsHtml += "<span class='ticker-span'><span class='ticker-sep'>✦</span>" + item + "</span>";
-                        });
-                        const container = document.getElementById('dynamic-news-container');
-                        if (container) container.innerHTML = newsHtml;
-                    }
-                } catch(e) {}
+                // News Array zwischenspeichern (Wenn neu vorhanden)
+                if (data.news && data.news.length > 0) {
+                    globalNews = data.news;
+                }
 
-                // Alarmbox rendern
+                // Alarmbox steuern
                 try {
                     const alertBox = document.getElementById('disaster-box');
                     if (alertBox) {
@@ -313,69 +362,11 @@
                     }
                 } catch(e) {}
 
-                // Flüge wegsichern
+                // Flugdaten wegsichern
                 if (data.flights) {
                     globalFlights = data.flights;
                     renderFlights();
                 }
 
             } catch (error) {
-                console.log("Fehler beim Verarbeiten:", error);
-            }
-        }
-
-        // 3. Render-Funktion für Flüge (Filtert dynamisch nach ARR oder DEP)
-        function renderFlights() {
-            try {
-                const tableBody = document.getElementById('flight-table-body');
-                const titleEl = document.getElementById('flight-title');
-                if (!tableBody) return;
-
-                // Titel anpassen
-                if (titleEl) {
-                    titleEl.innerText = currentFlightTypeMode === "ARR" ? "✈️ FLIGHTS (ARRIVALS)" : "✈️ FLIGHTS (DEPARTURES)";
-                }
-
-                // Filtern
-                const filtered = globalFlights.filter(f => f.type === currentFlightTypeMode);
-
-                if (filtered.length === 0) {
-                    tableBody.innerHTML = "<tr><td colspan='5' style='text-align:center; padding:20px; color:#a0aec0;'>Keine Flüge vorhanden</td></tr>";
-                    return;
-                }
-
-                let flightHtml = "";
-                filtered.forEach(f => {
-                    const typeClass = f.type === 'ARR' ? 'type-arr' : 'type-dep';
-                    const statusClass = (f.status === 'Landed' || f.status === 'Departed') ? 'status-ok' : 'status-air';
-                    flightHtml += "<tr>" +
-                        "<td><span class='flight-type " + typeClass + "'>" + f.type + "</span></td>" +
-                        "<td>" + (f.time || "") + "</td>" +
-                        "<td>" + (f.city || "") + "</td>" +
-                        "<td>" + (f.flight_no || "") + "</td>" +
-                        "<td class='" + statusClass + "'>" + (f.status || "") + "</td>" +
-                    "</tr>";
-                });
-                tableBody.innerHTML = flightHtml;
-            } catch(e) {}
-        }
-
-        // 4. Automatisches Umschalten der Flüge alle 15 Sekunden
-        setInterval(function() {
-            currentFlightTypeMode = (currentFlightTypeMode === "ARR") ? "DEP" : "ARR";
-            renderFlights();
-        }, 15000);
-
-        updateLiveData();
-        setInterval(updateLiveData, 20000);
-
-        try {
-            setTimeout(function() {
-                if (typeof fully !== 'undefined') {
-                    fully.startScreensaver();
-                }
-            }, 120000);
-        } catch(e) {}
-    </script>
-</body>
-</html>
+                print("Fehler im Core-Update
