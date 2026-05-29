@@ -15,8 +15,8 @@
   },
   "weather": {
     "temp": "28",
-    "feels_like": "32",
-    "wind_speed": "19",
+    "feels_like": "34",
+    "wind_speed": "11",
     "wind_dir": "SSW",
     "aqi_value": "35",
     "aqi_status": "Good",
@@ -27,11 +27,11 @@
     "message": "🚨 UN-ALERT: Green flood alert in Thailand"
   },
   "news": [
-    "Pattaya, Phuket and Chiang Mai Face Major Tourism Shake-Up as Thailand Tightens Corporate Oversight in 2026",
+    "Thailand Joins Pattaya, Phuket as Tomorrowland and EDC Fuel Asia’s Rise as the World’s New Festival Growth Hub",
+    "Phuket To Krabi, 5 Best Thailand Cities To Visit From India With Airport And Travel Guide",
     "ONYX expands in Thailand with signing of Shama North Pattaya",
-    "ONYX Hospitality Group Enters Joint Venture with JR Kyushu Group to Develop Shama North Pattaya, Strengthening Strategic Partnership in Thailand",
     "Fire breaks out at hotel in Thailand’s popular Pattaya area",
-    "Chinese tourist allegedly violently slashes Thai transgender woman, 25, after finding out she was biological male"
+    "ONYX Hospitality Group Enters Joint Venture with JR Kyushu Group to Develop Shama North Pattaya, Strengthening Strategic Partnership in Thailand"
   ],
   "flights": [
     {
@@ -84,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-05-29 10:00:43"
+  "last_update": "2026-05-29 18:43:05"
 }
