@@ -1,51 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <title>ROS KILDE</title>
     <style>
-        body { background: #0d0f12; color: #fff; font-family: sans-serif; overflow: hidden; margin: 0; }
+        body { background: #0d0f12; color: #fff; font-family: sans-serif; margin: 0; overflow: hidden; }
         .grid { display: flex; height: 90vh; }
-        .sidebar { width: 35%; padding: 20px; }
-        .ticker { height: 10vh; background: #00f2fe; color: #000; font-weight: bold; font-size: 20px; display: flex; align-items: center; padding-left: 20px; }
-        .currency-row { display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 18px; }
+        .sidebar { width: 35%; padding: 20px; background: #12161c; }
+        .ticker { height: 10vh; background: #00f2fe; color: #000; font-weight: bold; font-size: 22px; display: flex; align-items: center; padding-left: 20px; }
+        .currency-row { display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 18px; color: #00e676; }
+        #weather, #alert { margin-top: 20px; font-size: 16px; }
+        #alert { color: #ff003c; font-weight: bold; }
+        #windy { width: 65%; height: 90vh; }
     </style>
 </head>
 <body>
     <div class="grid">
-        <div id="radar" style="width: 65%;"><iframe id="windy" style="width:100%; height:100%; border:none;"></iframe></div>
+        <iframe id="windy" src="https://embed.windy.com/embed2.html?lat=12.890&lon=100.870&zoom=9"></iframe>
         <div class="sidebar">
-            <div id="currencies">Lade Kurse...</div>
-            <div id="weather" style="margin-top:20px;">Lade Wetter...</div>
-            <div id="alert" style="color:red; font-weight:bold; margin-top:20px;"></div>
+            <div id="currencies">Lade Daten...</div>
+            <div id="weather"></div>
+            <div id="alert"></div>
         </div>
     </div>
     <div id="ticker" class="ticker">Lade News...</div>
 
     <script>
-        var news = []; var idx = 0;
         function load() {
             var xhr = new XMLHttpRequest();
             xhr.open("GET", "roskilde_data.json?t=" + new Date().getTime(), true);
             xhr.onreadystatechange = function() {
                 if(xhr.readyState == 4 && xhr.status == 200) {
                     var d = JSON.parse(xhr.responseText);
-                    // Kurse
                     var cHtml = "";
-                    for(var k in d.currencies) { if(!k.includes("trend")) cHtml += "<div class='currency-row'>"+k+": "+d.currencies[k]+" "+d.currencies[k+"_trend"]+"</div>"; }
+                    for(var k in d.currencies) { 
+                        if(!k.includes("trend")) cHtml += "<div class='currency-row'>"+k+": "+d.currencies[k]+" "+d.currencies[k+"_trend"]+"</div>"; 
+                    }
                     document.getElementById('currencies').innerHTML = cHtml;
-                    // Wetter
-                    document.getElementById('weather').innerHTML = d.weather.temp + "°C (Gefühlt: " + d.weather.feels_like + "°C)";
-                    // News
-                    news = d.news;
-                    // Alert
+                    document.getElementById('weather').innerHTML = "🌡️ " + d.weather.temp + "°C (Gefühlt: " + d.weather.feels_like + "°C)<br>💨 Wind: " + d.weather.wind_speed + " km/h " + d.weather.wind_dir;
                     if(d.alert.active) document.getElementById('alert').innerText = d.alert.message;
+                    window.news = d.news;
                 }
             };
             xhr.send();
         }
+        var newsIdx = 0;
+        setInterval(function() { if(window.news) { newsIdx = (newsIdx + 1) % window.news.length; document.getElementById('ticker').innerText = window.news[newsIdx]; } }, 8000);
         setInterval(load, 20000);
-        setInterval(function() { if(news.length > 0) { idx = (idx + 1) % news.length; document.getElementById('ticker').innerText = news[idx]; } }, 8000);
         load();
     </script>
 </body>
