@@ -11,18 +11,24 @@
         .sidebar { width: 37%; padding: 15px; background: #12161c; overflow-y: auto; }
         .widget { border-bottom: 2px solid #343e50; padding-bottom: 15px; margin-bottom: 15px; }
         .title { color: #00f2fe; font-size: 12px; font-weight: 800; text-transform: uppercase; margin-bottom: 10px; }
-        .currency { display: flex; justify-content: space-between; font-size: 15px; margin-bottom: 5px; }
+        .currency-row { display: flex; justify-content: space-between; font-size: 14px; margin-bottom: 6px; }
+        .val { font-weight: bold; color: #00e676; }
         .flight-table { width: 100%; border-collapse: collapse; font-size: 11px; }
-        .flight-table td { padding: 5px 0; border-bottom: 1px solid #2d3748; }
+        .flight-table td { padding: 6px 2px; border-bottom: 1px solid #2d3748; }
         .ticker { background: #00f2fe; color: #000; height: 60px; display: flex; align-items: center; padding-left: 20px; font-weight: bold; font-size: 18px; }
     </style>
 </head>
 <body>
     <div class="main">
-        <iframe id="windy" src="https://embed.windy.com/embed2.html?lat=12.923&lon=100.883&zoom=9&overlay=radar"></iframe>
+        <iframe id="windy" src="https://embed.windy.com/embed2.html?lat=12.923&lon=100.883&zoom=9&overlay=radar&autoplay=true"></iframe>
         <div class="sidebar">
             <div class="widget"><div class="title">💶 EXCHANGE RATES</div><div id="cur"></div></div>
-            <div class="widget"><div class="title">🌡️ WEATHER</div><div id="wea"></div><div id="ale" style="color:#ff003c; font-weight:bold;"></div></div>
+            <div class="widget">
+                <div class="title">🌡️ WEATHER & AIR QUALITY</div>
+                <div id="wea" style="font-size: 14px; line-height: 1.6;"></div>
+                <div id="aqi" style="font-size: 13px; margin-top:5px; color:#ffeb3b;"></div>
+                <div id="ale" style="color:#ff003c; font-weight:bold; margin-top:10px;"></div>
+            </div>
             <div class="widget"><div id="flt-t" class="title">✈️ FLIGHTS</div><table class="flight-table"><tbody id="flt-b"></tbody></table></div>
         </div>
     </div>
@@ -45,17 +51,22 @@
 
         function render() {
             if(!gData) return;
-            // Kurse
+            // Kurse mit Trend-Pfeilen
             var cHtml = "";
-            var k = Object.keys(gData.currencies).filter(function(x){return !x.includes("trend")});
-            cHtml += "<div class='currency'><div class='currency-row'><span>"+k[curB*2]+"/THB</span><span>"+gData.currencies[k[curB*2]]+"</span></div>";
-            cHtml += "<div class='currency-row'><span>"+k[curB*2+1]+"/THB</span><span>"+gData.currencies[k[curB*2+1]]+"</span></div></div>";
+            var keys = Object.keys(gData.currencies).filter(function(x){return !x.includes("trend")});
+            for(var i=0; i<keys.length; i++) {
+                var k = keys[i];
+                cHtml += "<div class='currency-row'><span>"+k+"/THB</span><span class='val'>"+gData.currencies[k]+" "+gData.currencies[k+"_trend"]+"</span></div>";
+            }
             document.getElementById('cur').innerHTML = cHtml;
-            // Wetter
-            document.getElementById('wea').innerHTML = "🌡️ " + gData.weather.temp + "°C | 💨 " + gData.weather.wind_speed + " km/h";
+            
+            // Wetter erweitert
+            document.getElementById('wea').innerHTML = "🌡️ " + gData.weather.temp + "°C (Gefühlt: " + gData.weather.feels_like + "°C)<br>💨 Wind: " + gData.weather.wind_speed + " km/h " + gData.weather.wind_dir;
+            document.getElementById('aqi').innerText = "😷 Luftqualität (AQI): " + gData.weather.aqi_value + " (" + gData.weather.aqi_status + ")";
             document.getElementById('ale').innerText = gData.alert.active ? gData.alert.message : "";
+            
             // Flüge
-            document.getElementById('flt-t').innerText = "✈️ FLIGHTS (" + fMode + ")";
+            document.getElementById('flt-t').innerText = "✈️ FLIGHTS (" + (fMode=="ARR" ? "ARRIVALS" : "DEPARTURES") + ")";
             var fHtml = "";
             for(var i=0; i<gData.flights.length; i++) {
                 if(gData.flights[i].type == fMode) fHtml += "<tr><td>"+gData.flights[i].time+"</td><td>"+gData.flights[i].city+"</td><td>"+gData.flights[i].status+"</td></tr>";
@@ -63,15 +74,16 @@
             document.getElementById('flt-b').innerHTML = fHtml;
         }
 
-        setInterval(function() { curB = (curB + 1) % 3; render(); }, 7000);
+        // Radar Rotation mit Autoplay-Erzwingung
+        setInterval(function() {
+            var isPattaya = document.getElementById('windy').src.includes("12.923");
+            document.getElementById('windy').src = isPattaya ? 
+                "https://embed.windy.com/embed2.html?lat=13.000&lon=101.000&zoom=6&overlay=radar&autoplay=true" : 
+                "https://embed.windy.com/embed2.html?lat=12.923&lon=100.883&zoom=9&overlay=radar&autoplay=true";
+        }, 45000);
+
         setInterval(function() { fMode = (fMode == "ARR") ? "DEP" : "ARR"; render(); }, 15000);
         setInterval(function() { if(gData) document.getElementById('ticker').innerText = gData.news[Math.floor(Math.random()*gData.news.length)]; }, 8000);
-        setInterval(function() {
-            document.getElementById('windy').src = (Math.random() > 0.5) ? 
-                "https://embed.windy.com/embed2.html?lat=13.000&lon=101.000&zoom=6&overlay=radar" : 
-                "https://embed.windy.com/embed2.html?lat=12.923&lon=100.883&zoom=9&overlay=radar";
-        }, 45000);
-        
         setInterval(update, 20000);
         update();
     </script>
