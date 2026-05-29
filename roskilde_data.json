@@ -14,23 +14,24 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "33",
-    "wind_speed": "18",
-    "wind_dir": "SW",
+    "temp": "28",
+    "feels_like": "32",
+    "wind_speed": "19",
+    "wind_dir": "SSW",
     "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#00e676"
   },
   "alert": {
-    "active": false,
-    "message": ""
+    "active": true,
+    "message": "🚨 UN-ALERT: Green flood alert in Thailand"
   },
   "news": [
-    "PATTAYA NEWS: Ban Bueng Police Crack Down on Unlicensed Chinese Workers, Plan to Target Shelter Providers",
-    "PATTAYA NEWS: Mandatory 21-Day Quarantine for Travelers to Thailand from Congo and Uganda Now in Effect Due to Ebola Concerns",
-    "PATTAYA NEWS: Three Pattaya Mayor Election Candidates Officially Register, Announced",
-    "PATTAYA NEWS: Amazing Live Wrestling Show in Pattaya This Weekend with Super Crazy!"
+    "Pattaya, Phuket and Chiang Mai Face Major Tourism Shake-Up as Thailand Tightens Corporate Oversight in 2026",
+    "ONYX expands in Thailand with signing of Shama North Pattaya",
+    "ONYX Hospitality Group Enters Joint Venture with JR Kyushu Group to Develop Shama North Pattaya, Strengthening Strategic Partnership in Thailand",
+    "Fire breaks out at hotel in Thailand’s popular Pattaya area",
+    "Chinese tourist allegedly violently slashes Thai transgender woman, 25, after finding out she was biological male"
   ],
   "flights": [
     {
@@ -83,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-05-29 09:42:22 UTC"
+  "last_update": "2026-05-29 10:00:43"
 }
