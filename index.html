@@ -2,52 +2,377 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>ROS KILDE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROS KILDE - Bar Infotainment Portal</title>
     <style>
-        body { background: #0d0f12; color: #fff; font-family: sans-serif; margin: 0; overflow: hidden; }
-        .grid { display: flex; height: 90vh; }
-        .sidebar { width: 35%; padding: 20px; background: #12161c; }
-        .ticker { height: 10vh; background: #00f2fe; color: #000; font-weight: bold; font-size: 22px; display: flex; align-items: center; padding-left: 20px; }
-        .currency-row { display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 18px; color: #00e676; }
-        #weather, #alert { margin-top: 20px; font-size: 16px; }
-        #alert { color: #ff003c; font-weight: bold; }
-        #windy { width: 65%; height: 90vh; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #0d0f12;
+            color: #e2e8f0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(90deg, #1a1f26 0%, #0d0f12 100%);
+            padding: 10px 35px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid #00f2fe;
+            height: 75px;
+        }
+        .logo-text h1 { font-size: 30px; font-weight: 800; color: #fff; text-shadow: 0 0 12px rgba(0, 242, 254, 0.7); line-height: 1.1; }
+        .logo-text h1 span { color: #00f2fe; }
+        .tagline { font-size: 13px; color: #a0aec0; text-transform: uppercase; letter-spacing: 1.5px; margin-top: 2px; }
+        .header-title { font-size: 20px; color: #fff; font-weight: 700; letter-spacing: 1px; }
+        
+        .main-container { display: flex; flex: 1; height: calc(100vh - 135px); width: 100%; overflow: hidden; }
+        .radar-section { width: 63%; height: 100%; border-right: 2px solid #1a1f26; background-color: #0d0f12; position: relative; }
+        .radar-section iframe { width: 100%; height: 100%; border: none; display: block; }
+
+        .sidebar { width: 37%; height: 100%; background-color: #12161c; padding: 12px; display: flex; flex-direction: column; gap: 10px; overflow: hidden; }
+        .widget-card { background-color: #1a1f26; border-radius: 8px; padding: 12px; border: 1px solid #343e50; }
+        .widget-title { font-size: 12px; text-transform: uppercase; color: #00f2fe; margin-bottom: 6px; font-weight: 800; letter-spacing: 1px; }
+        
+        .info-row-grid { display: flex; gap: 8px; }
+        .info-row-grid .widget-card { flex: 1; padding: 10px; }
+
+        /* WÄHRUNGS-LAYOUT OHNE COMPLICTE CSS-TRANSITIONS */
+        .currency-row { display: flex; justify-content: space-between; align-items: center; padding: 3px 0; border-bottom: 1px solid #2d3748; font-size: 15px; font-weight: 600; height: 32px; }
+        .currency-row:last-child { border-bottom: none; }
+        .currency-rate { font-size: 16px; font-weight: bold; color: #00e676; }
+        
+        .currency-trend { 
+            font-size: 22px; 
+            margin-left: 10px; 
+            font-weight: bold; 
+        }
+        .trend-up { color: #ff5722; }
+        .trend-down { color: #00e676; }
+        .trend-stable { color: #a0aec0; }
+
+        .aqi-badge { display: inline-block; background-color: #00e676; color: #000; padding: 2px 6px; border-radius: 6px; font-weight: bold; font-size: 14px; }
+        
+        #disaster-box {
+            display: none;
+            background: linear-gradient(135deg, #2c0d11 0%, #1a1f26 100%);
+            border: 2px solid #ff003c;
+            animation: pulse-border 2s infinite;
+        }
+        @keyframes pulse-border {
+            0% { border-color: #ff003c; }
+            50% { border-color: #ff6b8b; }
+            100% { border-color: #ff003c; }
+        }
+        .alert-item { font-size: 13px; font-weight: bold; color: #ff6b8b; margin-top: 2px; line-height: 1.3; }
+
+        .flight-widget {
+            flex: 1 !important; 
+            display: flex; 
+            flex-direction: column; 
+            overflow: hidden !important;
+        }
+        .flight-table-scroll { flex: 1; overflow-y: auto; width: 100%; }
+        .flight-table { width: 100%; border-collapse: collapse; font-size: 12px; text-align: left; font-weight: 600; line-height: 1.3; }
+        .flight-table th { color: #a0aec0; border-bottom: 1px solid #4a5568; padding-bottom: 4px; font-size: 10px; text-transform: uppercase; }
+        .flight-table td { padding: 5px 0; border-bottom: 1px solid #2d3748; }
+        .flight-table tr:last-child td { border-bottom: none; }
+        .flight-type { font-weight: bold; font-size: 11px; padding: 1px 4px; border-radius: 3px; display: inline-block; }
+        .type-arr { background-color: rgba(0, 230, 118, 0.15); color: #00e676; }
+        .type-dep { background-color: rgba(255, 152, 0, 0.15); color: #ff9800; }
+        .status-ok { color: #00e676; }
+        .status-air { color: #00f2fe; }
+
+        /* TICKER BAR (REINER STATISCHER TEXT-BOX-INHALT) */
+        .ticker-bar {
+            background-color: #00f2fe;
+            color: #0d0f12;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            border-top: 1px solid #00c2cc;
+        }
+        .ticker-label {
+            background-color: #ff007f;
+            color: white;
+            padding: 0 25px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            font-weight: 800;
+            z-index: 30;
+            text-transform: uppercase;
+            position: absolute;
+            left: 0;
+            top: 0;
+            box-shadow: 5px 0 15px rgba(0,0,0,0.3);
+        }
+        .ticker-wrap { 
+            width: 100%; 
+            padding-left: 210px; 
+            font-weight: 700; 
+            font-size: 18px; 
+            color: #0d0f12;
+        }
+        .ticker-sep { color: #ff007f; margin-right: 15px; font-weight: bold; font-size: 22px; }
     </style>
 </head>
 <body>
-    <div class="grid">
-        <iframe id="windy" src="https://embed.windy.com/embed2.html?lat=12.890&lon=100.870&zoom=9"></iframe>
+
+    <header>
+        <div class="logo-area">
+            <div class="logo-text">
+                <h1>ROS <span>KILDE</span></h1>
+                <div class="tagline">Jomtien / Pattaya</div>
+            </div>
+        </div>
+        <div class="header-title">INFOTAINMENT PORTAL</div>
+    </header>
+
+    <div class="main-container">
+        <div class="radar-section">
+            <iframe id="windy-radar" src="https://embed.windy.com/embed2.html?lat=12.890&lon=100.870&zoom=9&level=surface&overlay=radar&menu=&message=false&marker=false&calendar=&pressure=&type=map&location=coordinates&detail=&detailLat=12.890&detailLon=100.870&metricWind=kmh&metricTemp=%C2%B0C&radarRange=-1&play=1"></iframe>
+        </div>
+
         <div class="sidebar">
-            <div id="currencies">Lade Daten...</div>
-            <div id="weather"></div>
-            <div id="alert"></div>
+            <div class="widget-card">
+                <div class="widget-title">💶 LIVE EXCHANGE RATES</div>
+                <div id="currency-display-box" style="height: 70px;">
+                    <div class="currency-row"><span>EUR / THB</span><span><span class="currency-rate">--.--</span></span></div>
+                    <div class="currency-row"><span>DKK / THB</span><span><span class="currency-rate">--.--</span></span></div>
+                </div>
+            </div>
+
+            <div class="info-row-grid">
+                <div class="widget-card">
+                    <div class="widget-title">😷 AQI</div>
+                    <div id="aqi-badge" class="aqi-badge">--</div> <span id="aqi-text" style="font-size:12px; font-weight:700; margin-left:4px;">Lade...</span>
+                </div>
+                <div class="widget-card">
+                    <div class="widget-title">🌡️ PATTAYA WEATHER</div>
+                    <div id="weather-text" style="font-size: 14px; font-weight: bold; line-height: 1.2;">--°C (Feels: --°C)</div>
+                    <div id="wind-text" style="font-size: 12px; opacity:0.7;">Wind: -- km/h --</div>
+                </div>
+            </div>
+
+            <div id="disaster-box" class="widget-card alert-card">
+                <div class="widget-title" style="color: #ff003c; font-weight: 900;">🚨 LIVE REGIONAL ALERT</div>
+                <div id="alert-text" class="alert-item"></div>
+            </div>
+
+            <div class="widget-card flight-widget">
+                <div id="flight-title" class="widget-title">✈️ FLIGHTS (ARRIVALS)</div>
+                <div class="flight-table-scroll">
+                    <table class="flight-table">
+                        <thead>
+                            <tr>
+                                <th>Typ</th>
+                                <th>Zeit</th>
+                                <th>Stadt</th>
+                                <th>Flug</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="flight-table-body">
+                            <tr><td colspan="5" style="text-align:center; padding:20px; color:#a0aec0;">Lade Flüge...</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
-    <div id="ticker" class="ticker">Lade News...</div>
+
+    <div class="ticker-bar">
+        <div class="ticker-label">Pattaya News</div>
+        <div id="static-news-box" class="ticker-wrap">Lade aktuelle Nachrichten...</div>
+    </div>
 
     <script>
-        function load() {
+        var globalCurrencies = {};
+        var globalFlights = [];
+        var globalNews = ["Lade aktuelle Nachrichten..."];
+        
+        var currentFlightTypeMode = "ARR"; 
+        var currentCurrencyBlock = 0;
+        var currentNewsIndex = 0;
+
+        // Radar
+        try {
+            var iframe = document.getElementById('windy-radar');
+            var urlJomtien = "https://embed.windy.com/embed2.html?lat=12.890&lon=100.870&zoom=9&level=surface&overlay=radar&menu=&message=false&marker=false&calendar=&pressure=&type=map&location=coordinates&detail=&detailLat=12.890&detailLon=100.870&metricWind=kmh&metricTemp=%C2%B0C&radarRange=-1&play=1";
+            var urlThailand = "https://embed.windy.com/embed2.html?lat=13.200&lon=101.200&zoom=6&level=surface&overlay=radar&menu=&message=false&marker=false&calendar=&pressure=&type=map&location=coordinates&detail=&detailLat=12.890&detailLon=100.870&metricWind=kmh&metricTemp=%C2%B0C&radarRange=-1&play=1";
+            var showJomtien = true;
+            setInterval(function() {
+                if (iframe) {
+                    iframe.src = showJomtien ? urlThailand : urlJomtien;
+                    showJomtien = !showJomtien;
+                }
+            }, 30000);
+        } catch(e) {}
+
+        // Trend Class-Builder (Klassisches HTML)
+        function getTrendSpan(trendSymbol) {
+            var cls = "trend-stable";
+            if (trendSymbol === "↑") cls = "trend-up";
+            if (trendSymbol === "↓") cls = "trend-down";
+            return "<span class='currency-trend " + cls + "'>" + (trendSymbol || "→") + "</span>";
+        }
+
+        // Der stabile AJAX-Request
+        function updateLiveData() {
             var xhr = new XMLHttpRequest();
-            xhr.open("GET", "roskilde_data.json?t=" + new Date().getTime(), true);
+            var cacheBuster = "?t=" + new Date().getTime();
+            xhr.open("GET", "roskilde_data.json" + cacheBuster, true);
             xhr.onreadystatechange = function() {
-                if(xhr.readyState == 4 && xhr.status == 200) {
-                    var d = JSON.parse(xhr.responseText);
-                    var cHtml = "";
-                    for(var k in d.currencies) { 
-                        if(!k.includes("trend")) cHtml += "<div class='currency-row'>"+k+": "+d.currencies[k]+" "+d.currencies[k+"_trend"]+"</div>"; 
-                    }
-                    document.getElementById('currencies').innerHTML = cHtml;
-                    document.getElementById('weather').innerHTML = "🌡️ " + d.weather.temp + "°C (Gefühlt: " + d.weather.feels_like + "°C)<br>💨 Wind: " + d.weather.wind_speed + " km/h " + d.weather.wind_dir;
-                    if(d.alert.active) document.getElementById('alert').innerText = d.alert.message;
-                    window.news = d.news;
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    parseAndRender(xhr.responseText);
                 }
             };
             xhr.send();
         }
-        var newsIdx = 0;
-        setInterval(function() { if(window.news) { newsIdx = (newsIdx + 1) % window.news.length; document.getElementById('ticker').innerText = window.news[newsIdx]; } }, 8000);
-        setInterval(load, 20000);
-        load();
+
+        function parseAndRender(jsonText) {
+            try {
+                var data = JSON.parse(jsonText);
+                if (!data) return;
+
+                // Währungen in globalen Speicher legen
+                if (data.currencies) {
+                    globalCurrencies = data.currencies;
+                    renderCurrencyBlock(); // Sofort zeichnen
+                }
+
+                // Wetter befüllen
+                if (data.weather) {
+                    var temp = data.weather.temp || "--";
+                    var feelsLike = data.weather.feels_like || "--";
+                    var windSpeed = data.weather.wind_speed || "--";
+                    var windDir = data.weather.wind_dir || "--";
+                    
+                    if (document.getElementById('weather-text')) document.getElementById('weather-text').innerText = temp + "°C (Gefühlt: " + feelsLike + "°C)";
+                    if (document.getElementById('wind-text')) document.getElementById('wind-text').innerHTML = "Wind: " + windSpeed + " km/h <span style='color:#00f2fe; font-weight:bold;'>" + windDir + "</span>";
+                    
+                    var badge = document.getElementById('aqi-badge');
+                    var label = document.getElementById('aqi-text');
+                    if (badge && label) {
+                        badge.innerText = data.weather.aqi_value || "--";
+                        label.innerText = data.weather.aqi_status || "Good";
+                        label.style.color = data.weather.aqi_color || "#00e676";
+                        badge.style.backgroundColor = data.weather.aqi_color || "#00e676";
+                        badge.style.color = (data.weather.aqi_value && parseInt(data.weather.aqi_value) > 100) ? '#fff' : '#000';
+                    }
+                }
+
+                // News befüllen
+                if (data.news && data.news.length > 0) {
+                    globalNews = data.news;
+                }
+
+                // Alarmbox
+                var alertBox = document.getElementById('disaster-box');
+                if (alertBox) {
+                    if (data.alert && data.alert.active) {
+                        if (document.getElementById('alert-text')) document.getElementById('alert-text').innerHTML = data.alert.message || "";
+                        alertBox.style.display = 'block';
+                    } else {
+                        alertBox.style.display = 'none';
+                    }
+                }
+
+                // Flüge
+                if (data.flights) {
+                    globalFlights = data.flights;
+                    renderFlights();
+                }
+
+            } catch(e) {}
+        }
+
+        // BLOCK-RENDERING FÜR WÄHRUNGEN (Einfacher HTML-Tausch)
+        function renderCurrencyBlock() {
+            var box = document.getElementById('currency-display-box');
+            if (!box || !globalCurrencies.EUR) return;
+
+            var html = "";
+            if (currentCurrencyBlock === 0) {
+                html += "<div class='currency-row'><span>EUR / THB</span><span><span class='currency-rate'>" + globalCurrencies.EUR + "</span>" + getTrendSpan(globalCurrencies.EUR_trend) + "</span></div>";
+                html += "<div class='currency-row'><span>DKK / THB</span><span><span class='currency-rate'>" + globalCurrencies.DKK + "</span>" + getTrendSpan(globalCurrencies.DKK_trend) + "</span></div>";
+            } else if (currentCurrencyBlock === 1) {
+                html += "<div class='currency-row'><span>NOK / THB</span><span><span class='currency-rate'>" + globalCurrencies.NOK + "</span>" + getTrendSpan(globalCurrencies.NOK_trend) + "</span></div>";
+                html += "<div class='currency-row'><span>USD / THB</span><span><span class='currency-rate'>" + globalCurrencies.USD + "</span>" + getTrendSpan(globalCurrencies.USD_trend) + "</span></div>";
+            } else {
+                html += "<div class='currency-row'><span>AUD / THB</span><span><span class='currency-rate'>" + globalCurrencies.AUD + "</span>" + getTrendSpan(globalCurrencies.AUD_trend) + "</span></div>";
+                html += "<div class='currency-row'><span>RUB / THB</span><span><span class='currency-rate'>" + globalCurrencies.RUB + "</span>" + getTrendSpan(globalCurrencies.RUB_trend) + "</span></div>";
+            }
+            box.innerHTML = html;
+        }
+
+        function renderFlights() {
+            var tableBody = document.getElementById('flight-table-body');
+            var titleEl = document.getElementById('flight-title');
+            if (!tableBody) return;
+
+            if (titleEl) titleEl.innerText = currentFlightTypeMode === "ARR" ? "✈️ FLIGHTS (ARRIVALS)" : "✈️ FLIGHTS (DEPARTURES)";
+
+            var flightHtml = "";
+            var count = 0;
+
+            for (var i = 0; i < globalFlights.length; i++) {
+                var f = globalFlights[i];
+                if (f.type === currentFlightTypeMode) {
+                    count++;
+                    var typeClass = f.type === 'ARR' ? 'type-arr' : 'type-dep';
+                    var statusClass = (f.status === 'Landed' || f.status === 'Departed') ? 'status-ok' : 'status-air';
+                    flightHtml += "<tr>" +
+                        "<td><span class='flight-type " + typeClass + "'>" + f.type + "</span></td>" +
+                        "<td>" + (f.time || "") + "</td>" +
+                        "<td>" + (f.city || "") + "</td>" +
+                        "<td>" + (f.flight_no || "") + "</td>" +
+                        "<td class='" + statusClass + "'>" + (f.status || "") + "</td>" +
+                    "</tr>";
+                }
+            }
+
+            if (count === 0) {
+                tableBody.innerHTML = "<tr><td colspan='5' style='text-align:center; padding:20px; color:#a0aec0;'>Keine Flüge vorhanden</td></tr>";
+            } else {
+                tableBody.innerHTML = flightHtml;
+            }
+        }
+
+        // REINE INTERVALL-UMSCHALTUNGEN ÜBER INNERHTML (PERFEKT FÜR ALTE TV-STICKS)
+
+        // Währungen alle 7 Sekunden umschalten
+        setInterval(function() {
+            currentCurrencyBlock = (currentCurrencyBlock + 1) % 3;
+            renderCurrencyBlock();
+        }, 7000);
+
+        // News alle 8 Sekunden als festen Text einblenden (Keine Abstürze mehr)
+        setInterval(function() {
+            var newsBox = document.getElementById('static-news-box');
+            if (!newsBox || globalNews.length === 0) return;
+            
+            currentNewsIndex = (currentNewsIndex + 1) % globalNews.length;
+            newsBox.innerHTML = "<span class='ticker-sep'>✦</span>" + globalNews[currentNewsIndex];
+        }, 8000);
+
+        // Flüge alle 15 Sekunden umschalten
+        setInterval(function() {
+            currentFlightTypeMode = (currentFlightTypeMode === "ARR") ? "DEP" : "ARR";
+            renderFlights();
+        }, 15000);
+
+        // Starten
+        updateLiveData();
+        setInterval(updateLiveData, 20000);
     </script>
 </body>
 </html>
