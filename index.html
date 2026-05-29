@@ -2,66 +2,41 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>ROS KILDE - Infotainment Portal</title>
+    <title>ROS KILDE Portal</title>
     <style>
-        body { background: #0d0f12; color: #fff; font-family: sans-serif; margin: 0; overflow: hidden; height: 100vh; display: flex; flex-direction: column; }
-        .header { background: #1a1f26; padding: 15px 20px; font-size: 24px; font-weight: bold; border-bottom: 2px solid #00f2fe; display: flex; justify-content: space-between; }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { background: #0d0f12; color: #e2e8f0; font-family: sans-serif; height: 100vh; overflow: hidden; display: flex; flex-direction: column; }
         .main { display: flex; flex: 1; overflow: hidden; }
-        
-        /* Das Radar bekommt jetzt die volle Breite und Höhe */
-        #windy { width: 65%; height: 100%; border: none; }
-        
-        .sidebar { width: 35%; padding: 15px; overflow-y: auto; background: #12161c; }
-        
-        /* Widget-Styling mit deutlichen Trennlinien */
-        .widget { border-bottom: 1px solid #343e50; padding-bottom: 15px; margin-bottom: 15px; }
-        .widget-title { color: #00f2fe; font-size: 12px; font-weight: 800; text-transform: uppercase; margin-bottom: 10px; }
-        
-        .currency-row { display: flex; justify-content: space-between; font-size: 14px; margin-bottom: 5px; }
-        .flight-table { width: 100%; border-collapse: collapse; font-size: 12px; }
-        .flight-table td { padding: 6px 0; border-bottom: 1px solid #2d3748; }
-        
-        .ticker { background: #00f2fe; color: #000; padding: 12px; font-weight: bold; font-size: 18px; }
+        #windy { width: 63%; height: 100%; border: none; }
+        .sidebar { width: 37%; padding: 15px; background: #12161c; overflow-y: auto; }
+        .widget { border-bottom: 2px solid #343e50; padding-bottom: 15px; margin-bottom: 15px; }
+        .title { color: #00f2fe; font-size: 12px; font-weight: 800; text-transform: uppercase; margin-bottom: 10px; }
+        .currency { display: flex; justify-content: space-between; font-size: 15px; margin-bottom: 5px; }
+        .flight-table { width: 100%; border-collapse: collapse; font-size: 11px; }
+        .flight-table td { padding: 5px 0; border-bottom: 1px solid #2d3748; }
+        .ticker { background: #00f2fe; color: #000; height: 60px; display: flex; align-items: center; padding-left: 20px; font-weight: bold; font-size: 18px; }
     </style>
 </head>
 <body>
-    <div class="header">
-        <div>ROS <span style="color:#00f2fe">KILDE</span></div>
-        <div style="font-size:14px; opacity:0.7">INFOTAINMENT PORTAL</div>
-    </div>
-
     <div class="main">
-        <iframe id="windy" src="https://embed.windy.com/embed2.html?lat=12.923&lon=100.883&zoom=9&overlay=radar&autoplay=true&message=false&marker=false&calendar=false"></iframe>
-        
+        <iframe id="windy" src="https://embed.windy.com/embed2.html?lat=12.923&lon=100.883&zoom=9&overlay=radar"></iframe>
         <div class="sidebar">
-            <div class="widget">
-                <div class="widget-title">💶 EXCHANGE RATES</div>
-                <div id="currencies"></div>
-            </div>
-            <div class="widget">
-                <div class="widget-title">🌡️ WEATHER & WIND</div>
-                <div id="weather" style="font-size:14px"></div>
-                <div id="alert" style="color:#ff003c; font-weight:bold; margin-top:8px;"></div>
-            </div>
-            <div class="widget">
-                <div id="flight-title" class="widget-title">✈️ FLIGHTS</div>
-                <table class="flight-table"><tbody id="flight-table-body"></tbody></table>
-            </div>
+            <div class="widget"><div class="title">💶 EXCHANGE RATES</div><div id="cur"></div></div>
+            <div class="widget"><div class="title">🌡️ WEATHER</div><div id="wea"></div><div id="ale" style="color:#ff003c; font-weight:bold;"></div></div>
+            <div class="widget"><div id="flt-t" class="title">✈️ FLIGHTS</div><table class="flight-table"><tbody id="flt-b"></tbody></table></div>
         </div>
     </div>
     <div id="ticker" class="ticker">Lade News...</div>
 
     <script>
-        var globalData = null;
-        var currentFlightType = "ARR";
-        var curBlock = 0;
-
-        function load() {
+        var gData = null; var fMode = "ARR"; var curB = 0;
+        
+        function update() {
             var xhr = new XMLHttpRequest();
             xhr.open("GET", "roskilde_data.json?t=" + new Date().getTime(), true);
             xhr.onreadystatechange = function() {
                 if(xhr.readyState == 4 && xhr.status == 200) {
-                    globalData = JSON.parse(xhr.responseText);
+                    gData = JSON.parse(xhr.responseText);
                     render();
                 }
             };
@@ -69,43 +44,36 @@
         }
 
         function render() {
-            if(!globalData) return;
-            // Kurse (mit Trennlinien-Logik durch .widget CSS)
+            if(!gData) return;
+            // Kurse
             var cHtml = "";
-            var keys = Object.keys(globalData.currencies).filter(k => !k.includes("trend"));
-            for(var i=0; i<keys.length; i++) {
-                var k = keys[i];
-                cHtml += "<div class='currency-row'><span>"+k+"/THB</span><span>"+globalData.currencies[k]+" "+globalData.currencies[k+"_trend"]+"</span></div>";
-            }
-            document.getElementById('currencies').innerHTML = cHtml;
-            
+            var k = Object.keys(gData.currencies).filter(function(x){return !x.includes("trend")});
+            cHtml += "<div class='currency'><div class='currency-row'><span>"+k[curB*2]+"/THB</span><span>"+gData.currencies[k[curB*2]]+"</span></div>";
+            cHtml += "<div class='currency-row'><span>"+k[curB*2+1]+"/THB</span><span>"+gData.currencies[k[curB*2+1]]+"</span></div></div>";
+            document.getElementById('cur').innerHTML = cHtml;
             // Wetter
-            document.getElementById('weather').innerHTML = "🌡️ " + globalData.weather.temp + "°C (Gefühlt: " + globalData.weather.feels_like + "°C)<br>💨 Wind: " + globalData.weather.wind_speed + " km/h " + globalData.weather.wind_dir;
-            if(globalData.alert.active) document.getElementById('alert').innerText = globalData.alert.message;
-            
+            document.getElementById('wea').innerHTML = "🌡️ " + gData.weather.temp + "°C | 💨 " + gData.weather.wind_speed + " km/h";
+            document.getElementById('ale').innerText = gData.alert.active ? gData.alert.message : "";
             // Flüge
-            document.getElementById('flight-title').innerText = "✈️ FLIGHTS (" + (currentFlightType=="ARR" ? "ARRIVALS" : "DEPARTURES") + ")";
+            document.getElementById('flt-t').innerText = "✈️ FLIGHTS (" + fMode + ")";
             var fHtml = "";
-            for(var i=0; i<globalData.flights.length; i++) {
-                var f = globalData.flights[i];
-                if(f.type == currentFlightType) fHtml += "<tr><td>"+f.time+"</td><td>"+f.city+"</td><td>"+f.status+"</td></tr>";
+            for(var i=0; i<gData.flights.length; i++) {
+                if(gData.flights[i].type == fMode) fHtml += "<tr><td>"+gData.flights[i].time+"</td><td>"+gData.flights[i].city+"</td><td>"+gData.flights[i].status+"</td></tr>";
             }
-            document.getElementById('flight-table-body').innerHTML = fHtml;
+            document.getElementById('flt-b').innerHTML = fHtml;
         }
 
-        // Radar Rotation (Pattaya <-> Thailand)
-        var showPattaya = true;
+        setInterval(function() { curB = (curB + 1) % 3; render(); }, 7000);
+        setInterval(function() { fMode = (fMode == "ARR") ? "DEP" : "ARR"; render(); }, 15000);
+        setInterval(function() { if(gData) document.getElementById('ticker').innerText = gData.news[Math.floor(Math.random()*gData.news.length)]; }, 8000);
         setInterval(function() {
-            document.getElementById('windy').src = showPattaya ? 
-                "https://embed.windy.com/embed2.html?lat=13.000&lon=101.000&zoom=6&overlay=radar&autoplay=true" : 
-                "https://embed.windy.com/embed2.html?lat=12.923&lon=100.883&zoom=9&overlay=radar&autoplay=true";
-            showPattaya = !showPattaya;
+            document.getElementById('windy').src = (Math.random() > 0.5) ? 
+                "https://embed.windy.com/embed2.html?lat=13.000&lon=101.000&zoom=6&overlay=radar" : 
+                "https://embed.windy.com/embed2.html?lat=12.923&lon=100.883&zoom=9&overlay=radar";
         }, 45000);
-
-        setInterval(function() { currentFlightType = (currentFlightType == "ARR") ? "DEP" : "ARR"; render(); }, 15000);
-        setInterval(function() { if(globalData) { var i = Math.floor(Math.random()*globalData.news.length); document.getElementById('ticker').innerText = globalData.news[i]; } }, 8000);
-        setInterval(load, 20000);
-        load();
+        
+        setInterval(update, 20000);
+        update();
     </script>
 </body>
 </html>
