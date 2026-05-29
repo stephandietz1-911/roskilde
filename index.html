@@ -2,11 +2,11 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>ROS KILDE - Bar Infotainment Portal</title>
+    <title>ROS KILDE - Infotainment Portal</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { font-family: 'Segoe UI', Arial, sans-serif; background-color: #0d0f12; color: #e2e8f0; height: 100vh; display: flex; flex-direction: column; overflow: hidden; }
-        header { background: linear-gradient(90deg, #1a1f26 0%, #0d0f12 100%); padding: 10px 35px; display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid #00f2fe; height: 75px; }
+        body { background-color: #0d0f12; color: #e2e8f0; font-family: 'Segoe UI', Arial, sans-serif; height: 100vh; overflow: hidden; display: flex; flex-direction: column; }
+        header { background: linear-gradient(90deg, #1a1f26 0%, #0d0f12 100%); padding: 10px 35px; border-bottom: 3px solid #00f2fe; height: 75px; display: flex; justify-content: space-between; align-items: center; }
         .logo-text h1 { font-size: 30px; font-weight: 800; color: #fff; }
         .logo-text h1 span { color: #00f2fe; }
         .main-container { display: flex; flex: 1; height: calc(100vh - 135px); }
@@ -14,28 +14,28 @@
         .radar-section iframe { width: 100%; height: 100%; border: none; }
         .sidebar { width: 37%; background-color: #12161c; padding: 12px; display: flex; flex-direction: column; gap: 10px; }
         .widget-card { background-color: #1a1f26; border-radius: 8px; padding: 12px; border: 1px solid #343e50; }
-        .widget-title { font-size: 12px; color: #00f2fe; margin-bottom: 6px; font-weight: 800; }
-        .currency-row { display: flex; justify-content: space-between; padding: 3px 0; font-size: 15px; font-weight: 600; }
-        .flight-table { width: 100%; border-collapse: collapse; font-size: 12px; text-align: left; }
-        .flight-table th { color: #a0aec0; border-bottom: 1px solid #4a5568; }
-        .flight-table td { padding: 5px 0; border-bottom: 1px solid #2d3748; }
+        .widget-title { font-size: 12px; color: #00f2fe; margin-bottom: 6px; font-weight: 800; text-transform: uppercase; }
+        .currency-row { display: flex; justify-content: space-between; padding: 3px 0; font-size: 15px; font-weight: 600; color: #00e676; }
+        .flight-table { width: 100%; border-collapse: collapse; font-size: 11px; text-align: left; }
+        .flight-table th { color: #a0aec0; border-bottom: 1px solid #4a5568; padding: 4px 0; }
+        .flight-table td { padding: 4px 0; border-bottom: 1px solid #2d3748; }
         .ticker-bar { background-color: #00f2fe; color: #0d0f12; height: 60px; display: flex; align-items: center; font-weight: 700; font-size: 18px; padding-left: 20px; }
     </style>
 </head>
 <body>
     <header>
         <div class="logo-text"><h1>ROS <span>KILDE</span></h1></div>
-        <div style="font-size: 20px; font-weight: 700;">INFOTAINMENT PORTAL</div>
+        <div style="color:#fff; font-weight:700;">INFOTAINMENT PORTAL</div>
     </header>
     <div class="main-container">
-        <div class="radar-section"><iframe id="windy-radar" src="https://embed.windy.com/embed2.html?lat=12.890&lon=100.870&zoom=9"></iframe></div>
+        <div class="radar-section"><iframe id="windy-radar"></iframe></div>
         <div class="sidebar">
             <div class="widget-card"><div class="widget-title">💶 EXCHANGE RATES</div><div id="currency-display-box"></div></div>
-            <div class="widget-card"><div class="widget-title">🌡️ WEATHER & AQI</div><div id="weather-text"></div><div id="wind-text"></div></div>
+            <div class="widget-card"><div class="widget-title">🌡️ WEATHER</div><div id="weather-text"></div><div id="wind-text"></div><div id="alert" style="color:#ff003c; margin-top:10px; font-weight:bold;"></div></div>
             <div class="widget-card"><div id="flight-title" class="widget-title">✈️ FLIGHTS</div><table class="flight-table"><tbody id="flight-table-body"></tbody></table></div>
         </div>
     </div>
-    <div class="ticker-bar" id="static-news-box">Lade Nachrichten...</div>
+    <div id="static-news-box" class="ticker-bar">Lade Nachrichten...</div>
 
     <script>
         var globalData = null;
@@ -43,7 +43,17 @@
         var curBlock = 0;
         var newsIdx = 0;
 
-        function update() {
+        // Regenradar Steuerung
+        var iframe = document.getElementById('windy-radar');
+        var urlPattaya = "https://embed.windy.com/embed2.html?lat=12.923&lon=100.883&zoom=9&level=surface&overlay=radar";
+        var urlThailand = "https://embed.windy.com/embed2.html?lat=13.000&lon=101.000&zoom=6&level=surface&overlay=radar";
+        var showPattaya = true;
+        setInterval(function() {
+            iframe.src = showPattaya ? urlThailand : urlPattaya;
+            showPattaya = !showPattaya;
+        }, 45000);
+
+        function load() {
             var xhr = new XMLHttpRequest();
             xhr.open("GET", "roskilde_data.json?t=" + new Date().getTime(), true);
             xhr.onreadystatechange = function() {
@@ -60,18 +70,17 @@
             // Währungen
             var cHtml = "";
             var keys = Object.keys(globalData.currencies).filter(k => !k.includes("trend"));
-            var start = (curBlock * 2);
-            for(var i = start; i < start + 2; i++) {
-                var k = keys[i % keys.length];
-                cHtml += "<div class='currency-row'><span>"+k+" / THB</span><span>"+globalData.currencies[k]+" "+globalData.currencies[k+"_trend"]+"</span></div>";
-            }
+            var k1 = keys[curBlock*2], k2 = keys[curBlock*2+1];
+            cHtml += "<div class='currency-row'><span>"+k1+"/THB</span><span>"+globalData.currencies[k1]+" "+globalData.currencies[k1+"_trend"]+"</span></div>";
+            cHtml += "<div class='currency-row'><span>"+k2+"/THB</span><span>"+globalData.currencies[k2]+" "+globalData.currencies[k2+"_trend"]+"</span></div>";
             document.getElementById('currency-display-box').innerHTML = cHtml;
             // Wetter
-            document.getElementById('weather-text').innerText = "🌡️ " + globalData.weather.temp + "°C (Gefühlt: " + globalData.weather.feels_like + "°C)";
-            document.getElementById('wind-text').innerText = "💨 Wind: " + globalData.weather.wind_speed + " km/h";
+            document.getElementById('weather-text').innerHTML = "🌡️ " + globalData.weather.temp + "°C (Gefühlt: " + globalData.weather.feels_like + "°C)";
+            document.getElementById('wind-text').innerText = "💨 Wind: " + globalData.weather.wind_speed + " km/h " + globalData.weather.wind_dir;
+            if(globalData.alert.active) document.getElementById('alert').innerText = globalData.alert.message;
             // Flüge
+            document.getElementById('flight-title').innerText = "✈️ FLIGHTS (" + (currentFlightType=="ARR" ? "ARRIVALS" : "DEPARTURES") + ")";
             var fHtml = "";
-            document.getElementById('flight-title').innerText = "✈️ FLIGHTS (" + currentFlightType + ")";
             for(var i=0; i<globalData.flights.length; i++) {
                 var f = globalData.flights[i];
                 if(f.type == currentFlightType) fHtml += "<tr><td>"+f.time+"</td><td>"+f.city+"</td><td>"+f.status+"</td></tr>";
@@ -82,8 +91,8 @@
         setInterval(function() { curBlock = (curBlock + 1) % 3; render(); }, 7000);
         setInterval(function() { currentFlightType = (currentFlightType == "ARR") ? "DEP" : "ARR"; render(); }, 15000);
         setInterval(function() { if(globalData) { newsIdx = (newsIdx + 1) % globalData.news.length; document.getElementById('static-news-box').innerText = globalData.news[newsIdx]; } }, 8000);
-        setInterval(update, 20000);
-        update();
+        setInterval(load, 20000);
+        load();
     </script>
 </body>
 </html>
