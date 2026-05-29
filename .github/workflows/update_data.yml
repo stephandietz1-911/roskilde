@@ -8,7 +8,6 @@ on:
 jobs:
   update-json:
     runs-on: ubuntu-latest
-    
     permissions:
       contents: write
 
@@ -24,111 +23,69 @@ jobs:
     - name: Script-Datei erstellen
       run: |
         cat << 'EOF' > fetch_data.py
-        import urllib.request
-        import json
-        import datetime
-        import xml.etree.ElementTree as ET
-        import re
+        import urllib.request, json, datetime, xml.etree.ElementTree as ET, re
 
-        # Basis-Struktur mit neuen Feldern
         data = {
-            "currencies": {
-                "EUR": "37.45", "EUR_trend": "→",
-                "DKK": "5.02", "DKK_trend": "→",
-                "NOK": "3.22", "NOK_trend": "→",
-                "USD": "34.50", "USD_trend": "→",
-                "AUD": "22.80", "AUD_trend": "→",
-                "RUB": "0.38", "RUB_trend": "→"
-            },
-            "weather": {
-                "temp": "32", "feels_like": "37",
-                "wind_speed": "15", "wind_dir": "SW",
-                "aqi_value": "35", "aqi_status": "Good", "aqi_color": "#00e676"
-            },
+            "currencies": {"EUR": "37.45", "EUR_trend": "→", "DKK": "5.02", "DKK_trend": "→", "NOK": "3.22", "NOK_trend": "→", "USD": "34.50", "USD_trend": "→", "AUD": "22.80", "AUD_trend": "→", "RUB": "0.38", "RUB_trend": "→"},
+            "weather": {"temp": "32", "feels_like": "37", "wind_speed": "15", "wind_dir": "SW", "aqi_value": "35", "aqi_status": "Good", "aqi_color": "#00e676"},
             "alert": {"active": False, "message": ""},
-            "news": [],
-            "flights": [
-                {"type": "ARR", "time": "06:00", "city": "Copenhagen (CPH)", "flight_no": "TG 951", "status": "Landed"},
-                {"type": "ARR", "time": "06:25", "city": "Frankfurt (FRA)", "flight_no": "TG 921", "status": "Landed"},
-                {"type": "ARR", "time": "11:45", "city": "Oslo (OSL)", "flight_no": "TG 923", "status": "Landed"},
-                {"type": "ARR", "time": "12:15", "city": "Frankfurt (FRA)", "flight_no": "LH 772", "status": "Landed"},
-                {"type": "DEP", "time": "12:40", "city": "München (MUC)", "flight_no": "TG 924", "status": "Departed"},
-                {"type": "DEP", "time": "23:45", "city": "Frankfurt (FRA)", "flight_no": "TG 920", "status": "Scheduled"},
-                {"type": "DEP", "time": "23:50", "city": "Frankfurt (FRA)", "flight_no": "LH 773", "status": "Scheduled"}
-            ]
+            "news": ["ROS KILDE: Welcome to our Infotainment Portal."],
+            "flights": []
         }
 
-        # 1. Alte Daten laden für Trend-Berechnung und Flugerhalt
-        old_currencies = {}
+        # 1. Daten laden (nur falls vorhanden)
         try:
             with open("roskilde_data.json", "r", encoding="utf-8") as f:
                 old_data = json.load(f)
-                if old_data:
-                    if "currencies" in old_data: old_currencies = old_data["currencies"]
-                    if "flights" in old_data and old_data["flights"]: data["flights"] = old_data["flights"]
-        except:
-            pass
+                if old_data and "currencies" in old_data: old_currencies = old_data["currencies"]
+                else: old_currencies = {}
+        except: old_currencies = {}
 
-        # 2. Wechselkurse holen (inklusive USD, AUD, RUB)
+        # 2. Kurse
         try:
             req = urllib.request.Request("https://open.er-api.com/v6/latest/THB", headers={"User-Agent": "Mozilla/5.0"})
             with urllib.request.urlopen(req, timeout=10) as response:
-                rates_data = json.loads(response.read().decode())
-                if rates_data and "rates" in rates_data:
-                    for target in ["EUR", "DKK", "NOK", "USD", "AUD", "RUB"]:
-                        if target in rates_data["rates"]:
-                            new_val = 1 / rates_data["rates"][target]
-                            data["currencies"][target] = f"{new_val:.2f}"
-                            
-                            # Trend berechnen
-                            old_val_str = old_currencies.get(target)
-                            if old_val_str:
-                                try:
-                                    old_val = float(old_val_str)
-                                    if new_val > old_val + 0.005: data["currencies"][target+"_trend"] = "↑"
-                                    elif new_val < old_val - 0.005: data["currencies"][target+"_trend"] = "↓"
-                                    else: data["currencies"][target+"_trend"] = "→"
-                                except: pass
-        except Exception as e:
-            print("Fehler Kurse:", e)
+                rates = json.loads(response.read().decode())["rates"]
+                for t in ["EUR", "DKK", "NOK", "USD", "AUD", "RUB"]:
+                    val = 1/rates[t]
+                    data["currencies"][t] = f"{val:.2f}"
+                    old = float(old_currencies.get(t, val))
+                    data["currencies"][t+"_trend"] = "↑" if val > old + 0.005 else ("↓" if val < old - 0.005 else "→")
+        except: pass
 
-        # 3. Wetter inklusive echter & gefühlter Temperatur holen
+        # 3. Wetter
         try:
-            weather_url = "https://api.open-meteo.com/v1/forecast?latitude=12.933&longitude=100.883&current=temperature_2m,apparent_temperature,wind_speed_10m,wind_direction_10m,weather_code&air_quality=us_aqi&timezone=Asia%2FBangkok"
-            req = urllib.request.Request(weather_url, headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(req, timeout=10) as response:
-                w_data = json.loads(response.read().decode())
-                if "current" in w_data:
-                    data["weather"]["temp"] = f"{round(w_data['current']['temperature_2m'])}"
-                    data["weather"]["feels_like"] = f"{round(w_data['current']['apparent_temperature'])}"
-                    data["weather"]["wind_speed"] = f"{round(w_data['current']['wind_speed_10m'])}"
-                    
-                    deg = w_data["current"]["wind_direction_10m"]
-                    dirs = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"]
-                    data["weather"]["wind_dir"] = dirs[round(((deg % 360) / 45)) % 8]
-                    
-                    if "air_quality" in w_data and "us_aqi" in w_data["air_quality"]:
-                        aqi = int(w_data["air_quality"]["us_aqi"])
-                        data["weather"]["aqi_value"] = str(aqi)
-                        if aqi <= 50:
-                            data["weather"]["aqi_status"], data["weather"]["aqi_color"] = "Good", "#00e676"
-                        elif aqi <= 100:
-                            data["weather"]["aqi_status"], data["weather"]["aqi_color"] = "Moderate", "#ffeb3b"
-                        else:
-                            data["weather"]["aqi_status"], data["weather"]["aqi_color"] = "Unhealthy", "#ff5722"
-        except Exception as e:
-            print("Fehler Wetter:", e)
+            w_url = "https://api.open-meteo.com/v1/forecast?latitude=12.933&longitude=100.883&current=temperature_2m,apparent_temperature,wind_speed_10m,wind_direction_10m&air_quality=us_aqi"
+            w_data = json.loads(urllib.request.urlopen(w_url, timeout=10).read().decode())["current"]
+            data["weather"].update({"temp": str(round(w_data['temperature_2m'])), "feels_like": str(round(w_data['apparent_temperature'])), "wind_speed": str(round(w_data['wind_speed_10m']))})
+        except: pass
 
-        # 4. Pattaya News & Katastrophen-Warnungen (GDACS Feed) holen
-        # Erst versuchen wir den weltweiten GDACS Katastrophen-Feed für Thailand zu prüfen
+        # 4. News & Alerts
         try:
-            gdacs_url = "https://www.gdacs.org/xml/rss.xml"
-            req = urllib.request.Request(gdacs_url, headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(req, timeout=10) as response:
-                root = ET.fromstring(response.read())
-                for item in root.findall('.//item'):
-                    title = item.find('title').text if item.find('title') is not None else ""
-                    desc = item.find('description').text if item.find('description') is not None else ""
-                    if "Thailand" in title or "Thailand" in desc:
-                        data["alert"]["active"] = True
-                        data["alert"]["message"] = f"🚨 EMERGENCY SYSTEM ALERT: {title}"
+            # Emergency
+            g_req = urllib.request.urlopen("https://www.gdacs.org/xml/rss.xml", timeout=10)
+            g_root = ET.fromstring(g_req.read())
+            for item in g_root.findall('.//item'):
+                if "Thailand" in (item.find('title').text or ""):
+                    data["alert"] = {"active": True, "message": "🚨 EMERGENCY ALERT: " + item.find('title').text}
+            
+            # Google News
+            n_req = urllib.request.urlopen("https://news.google.com/rss/search?q=Pattaya+Thailand&hl=en-TH&gl=TH&ceid=TH:en", timeout=10)
+            n_root = ET.fromstring(n_req.read())
+            titles = [re.sub(r'\s-\s.*', '', item.find("title").text) for item in n_root.findall(".//item")[:5]]
+            if titles: data["news"] = titles
+        except: pass
+
+        data["last_update"] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC")
+        with open("roskilde_data.json", "w", encoding="utf-8") as f: json.dump(data, f, ensure_ascii=False, indent=2)
+        EOF
+
+    - name: Script ausführen
+      run: python fetch_data.py
+
+    - name: Push
+      env: {GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}}
+      run: |
+        git config user.name 'bot'; git config user.email 'bot@bot.com'
+        git add roskilde_data.json
+        if ! git diff --quiet --staged; then git commit -m 'Update'; git push; fi
