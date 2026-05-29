@@ -24,68 +24,45 @@ jobs:
       run: |
         cat << 'EOF' > fetch_data.py
         import urllib.request, json, datetime, xml.etree.ElementTree as ET, re
-
-        data = {
-            "currencies": {"EUR": "37.45", "EUR_trend": "→", "DKK": "5.02", "DKK_trend": "→", "NOK": "3.22", "NOK_trend": "→", "USD": "34.50", "USD_trend": "→", "AUD": "22.80", "AUD_trend": "→", "RUB": "0.38", "RUB_trend": "→"},
-            "weather": {"temp": "32", "feels_like": "37", "wind_speed": "15", "wind_dir": "SW", "aqi_value": "35", "aqi_status": "Good", "aqi_color": "#00e676"},
-            "alert": {"active": False, "message": ""},
-            "news": ["ROS KILDE: Welcome to our Infotainment Portal."],
-            "flights": []
-        }
-
-        # 1. Daten laden (nur falls vorhanden)
+        data = {"currencies": {"EUR": "37.45", "EUR_trend": "→", "DKK": "5.02", "DKK_trend": "→", "NOK": "3.22", "NOK_trend": "→", "USD": "34.50", "USD_trend": "→", "AUD": "22.80", "AUD_trend": "→", "RUB": "0.38", "RUB_trend": "→"}, "weather": {"temp": "32", "feels_like": "37", "wind_speed": "15", "wind_dir": "SW", "aqi_value": "35", "aqi_status": "Good", "aqi_color": "#00e676"}, "alert": {"active": False, "message": ""}, "news": ["ROS KILDE: Portal initializing..."], "flights": []}
         try:
             with open("roskilde_data.json", "r", encoding="utf-8") as f:
-                old_data = json.load(f)
-                if old_data and "currencies" in old_data: old_currencies = old_data["currencies"]
-                else: old_currencies = {}
-        except: old_currencies = {}
-
-        # 2. Kurse
+                old = json.load(f)
+                if "currencies" in old: old_c = old["currencies"]
+                else: old_c = {}
+        except: old_c = {}
         try:
-            req = urllib.request.Request("https://open.er-api.com/v6/latest/THB", headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(req, timeout=10) as response:
-                rates = json.loads(response.read().decode())["rates"]
-                for t in ["EUR", "DKK", "NOK", "USD", "AUD", "RUB"]:
-                    val = 1/rates[t]
-                    data["currencies"][t] = f"{val:.2f}"
-                    old = float(old_currencies.get(t, val))
-                    data["currencies"][t+"_trend"] = "↑" if val > old + 0.005 else ("↓" if val < old - 0.005 else "→")
+            r = json.loads(urllib.request.urlopen("https://open.er-api.com/v6/latest/THB", timeout=10).read().decode())["rates"]
+            for t in ["EUR", "DKK", "NOK", "USD", "AUD", "RUB"]:
+                val = 1/r[t]; data["currencies"][t] = f"{val:.2f}"
+                old_v = float(old_c.get(t, val))
+                data["currencies"][t+"_trend"] = "↑" if val > old_v + 0.005 else ("↓" if val < old_v - 0.005 else "→")
         except: pass
-
-        # 3. Wetter
         try:
-            w_url = "https://api.open-meteo.com/v1/forecast?latitude=12.933&longitude=100.883&current=temperature_2m,apparent_temperature,wind_speed_10m,wind_direction_10m&air_quality=us_aqi"
-            w_data = json.loads(urllib.request.urlopen(w_url, timeout=10).read().decode())["current"]
-            data["weather"].update({"temp": str(round(w_data['temperature_2m'])), "feels_like": str(round(w_data['apparent_temperature'])), "wind_speed": str(round(w_data['wind_speed_10m']))})
+            w = json.loads(urllib.request.urlopen("https://api.open-meteo.com/v1/forecast?latitude=12.933&longitude=100.883&current=temperature_2m,apparent_temperature,wind_speed_10m,wind_direction_10m&air_quality=us_aqi", timeout=10).read().decode())["current"]
+            data["weather"].update({"temp": str(round(w['temperature_2m'])), "feels_like": str(round(w['apparent_temperature'])), "wind_speed": str(round(w['wind_speed_10m']))})
         except: pass
-
-        # 4. News & Alerts
         try:
-            # Emergency
-            g_req = urllib.request.urlopen("https://www.gdacs.org/xml/rss.xml", timeout=10)
-            g_root = ET.fromstring(g_req.read())
-            for item in g_root.findall('.//item'):
+            g = ET.fromstring(urllib.request.urlopen("https://www.gdacs.org/xml/rss.xml", timeout=10).read())
+            for item in g.findall('.//item'):
                 if "Thailand" in (item.find('title').text or ""):
-                    data["alert"] = {"active": True, "message": "🚨 EMERGENCY ALERT: " + item.find('title').text}
-            
-            # Google News
-            n_req = urllib.request.urlopen("https://news.google.com/rss/search?q=Pattaya+Thailand&hl=en-TH&gl=TH&ceid=TH:en", timeout=10)
-            n_root = ET.fromstring(n_req.read())
-            titles = [re.sub(r'\s-\s.*', '', item.find("title").text) for item in n_root.findall(".//item")[:5]]
-            if titles: data["news"] = titles
+                    data["alert"] = {"active": True, "message": "🚨 ALERT: " + item.find('title').text}
+            n = ET.fromstring(urllib.request.urlopen("https://news.google.com/rss/search?q=Pattaya+Thailand&hl=en-TH&gl=TH&ceid=TH:en", timeout=10).read())
+            data["news"] = [re.sub(r'\s-\s.*', '', i.find("title").text) for i in n.findall(".//item")[:5]]
         except: pass
-
-        data["last_update"] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC")
+        data["last_update"] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         with open("roskilde_data.json", "w", encoding="utf-8") as f: json.dump(data, f, ensure_ascii=False, indent=2)
         EOF
 
     - name: Script ausführen
       run: python fetch_data.py
 
-    - name: Push
-      env: {GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}}
+    - name: Änderungen pushen
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        git config user.name 'bot'; git config user.email 'bot@bot.com'
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add roskilde_data.json
-        if ! git diff --quiet --staged; then git commit -m 'Update'; git push; fi
+        git commit -m "Automatisches Update" || echo "Keine Änderungen"
+        git push
