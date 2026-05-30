@@ -6,19 +6,52 @@
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body { background: #0d0f12; color: #e2e8f0; font-family: sans-serif; height: 100vh; overflow: hidden; display: flex; flex-direction: column; }
-        .main { display: flex; flex: 1; overflow: hidden; }
+        
+        /* Der obere Header ist wieder da */
+        header { 
+            background: linear-gradient(90deg, #1a1f26 0%, #0d0f12 100%); 
+            padding: 10px 25px; 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            border-bottom: 3px solid #00f2fe; 
+            height: 70px; 
+        }
+        .logo-text h1 { font-size: 26px; font-weight: 800; color: #fff; text-shadow: 0 0 12px rgba(0, 242, 254, 0.6); margin: 0; }
+        .logo-text h1 span { color: #00f2fe; }
+        .tagline { font-size: 11px; color: #a0aec0; text-transform: uppercase; letter-spacing: 1px; margin-top: 1px; }
+        .header-title { font-size: 18px; color: #fff; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; }
+
+        /* Main-Container berechnet jetzt die Header-Höhe mit ein */
+        .main { display: flex; flex: 1; height: calc(100vh - 130px); overflow: hidden; }
         #windy { width: 63%; height: 100%; border: none; }
-        .sidebar { width: 37%; padding: 15px; background: #12161c; overflow-y: auto; }
-        .widget { border-bottom: 2px solid #343e50; padding-bottom: 15px; margin-bottom: 15px; }
-        .title { color: #00f2fe; font-size: 12px; font-weight: 800; text-transform: uppercase; margin-bottom: 10px; }
-        .currency-row { display: flex; justify-content: space-between; font-size: 15px; margin-bottom: 8px; }
+        
+        .sidebar { width: 37%; padding: 15px; background: #12161c; overflow-y: auto; display: flex; flex-direction: column; gap: 12px; }
+        .widget { border-bottom: 2px solid #343e50; padding-bottom: 12px; }
+        .widget:last-child { border-bottom: none; }
+        .title { color: #00f2fe; font-size: 12px; font-weight: 800; text-transform: uppercase; margin-bottom: 8px; }
+        
+        .currency-row { display: flex; justify-content: space-between; font-size: 15px; margin-bottom: 6px; }
         .val { font-weight: bold; color: #00e676; }
+        
         .flight-table { width: 100%; border-collapse: collapse; font-size: 11px; }
         .flight-table td { padding: 6px 2px; border-bottom: 1px solid #2d3748; }
+        
         .ticker { background: #00f2fe; color: #000; height: 60px; display: flex; align-items: center; padding-left: 20px; font-weight: bold; font-size: 18px; }
     </style>
 </head>
 <body>
+
+    <header>
+        <div class="logo-area">
+            <div class="logo-text">
+                <h1>ROS <span>KILDE</span></h1>
+                <div class="tagline">Jomtien / Pattaya</div>
+            </div>
+        </div>
+        <div class="header-title">Infotainment Portal</div>
+    </header>
+
     <div class="main">
         <iframe id="windy" src="https://embed.windy.com/embed2.html?lat=12.923&lon=100.883&zoom=9&overlay=radar&autoplay=true&play=1"></iframe>
         <div class="sidebar">
@@ -51,10 +84,9 @@
 
         function render() {
             if(!gData) return;
-            // Währungen: Nur zwei Paare pro Block
+            // Währungen
             var cHtml = "";
             var keys = Object.keys(gData.currencies).filter(function(x){return !x.includes("trend")});
-            // Immer zwei anzeigen (Block 0: 0,1; Block 1: 2,3; etc)
             var idx1 = (curB * 2) % keys.length;
             var idx2 = (curB * 2 + 1) % keys.length;
             cHtml += "<div class='currency-row'><span>"+keys[idx1]+"/THB</span><span class='val'>"+gData.currencies[keys[idx1]]+" "+gData.currencies[keys[idx1]+"_trend"]+"</span></div>";
@@ -76,11 +108,11 @@
         }
 
         // Intervalle
-        setInterval(function() { curB = (curB + 1) % 3; render(); }, 10000); // 10 sekunden Wechsel
+        setInterval(function() { curB = (curB + 1) % 3; render(); }, 10000);
         setInterval(function() { fMode = (fMode == "ARR") ? "DEP" : "ARR"; render(); }, 15000);
         setInterval(function() { if(gData) document.getElementById('ticker').innerText = gData.news[Math.floor(Math.random()*gData.news.length)]; }, 8000);
         
-        // Radar mit forcierter Play-Funktion
+        // Radar Rotation
         setInterval(function() {
             var isPattaya = document.getElementById('windy').src.includes("12.923");
             var baseUrl = isPattaya ? "https://embed.windy.com/embed2.html?lat=13.000&lon=101.000&zoom=6" : "https://embed.windy.com/embed2.html?lat=12.923&lon=100.883&zoom=9";
