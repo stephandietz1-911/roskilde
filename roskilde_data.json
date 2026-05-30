@@ -14,9 +14,9 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "34",
-    "wind_speed": "10",
+    "temp": "27",
+    "feels_like": "32",
+    "wind_speed": "13",
     "wind_dir": "S",
     "aqi_value": "35",
     "aqi_status": "Good",
@@ -28,7 +28,7 @@
   },
   "news": [
     "ONYX expands in Thailand with signing of Shama North Pattaya",
-    "Thailand Joins Pattaya, Phuket as Tomorrowland and EDC Fuel Asia’s Rise as the World’s New Festival Growth Hub",
+    "Pattaya, Phuket and Chiang Mai Face Major Tourism Shake-Up as Thailand Tightens Corporate Oversight in 2026",
     "Fire breaks out at hotel in Thailand’s popular Pattaya area",
     "Phuket To Krabi, 5 Best Thailand Cities To Visit From India With Airport And Travel Guide",
     "ONYX Hospitality Group Enters Joint Venture with JR Kyushu Group to Develop Shama North Pattaya, Strengthening Strategic Partnership in Thailand"
@@ -84,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-05-30 12:12:41"
+  "last_update": "2026-05-30 16:14:58"
 }
