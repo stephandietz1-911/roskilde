@@ -1,23 +1,23 @@
 {
   "currencies": {
-    "EUR": "37.95",
-    "EUR_trend": "→",
-    "DKK": "5.09",
-    "DKK_trend": "→",
+    "EUR": "37.91",
+    "EUR_trend": "↓",
+    "DKK": "5.08",
+    "DKK_trend": "↓",
     "NOK": "3.52",
     "NOK_trend": "→",
-    "USD": "32.60",
-    "USD_trend": "→",
-    "AUD": "23.29",
-    "AUD_trend": "→",
+    "USD": "32.52",
+    "USD_trend": "↓",
+    "AUD": "23.34",
+    "AUD_trend": "↑",
     "RUB": "0.46",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "34",
-    "wind_speed": "10",
-    "wind_dir": "WSW",
+    "temp": "30",
+    "feels_like": "36",
+    "wind_speed": "3",
+    "wind_dir": "SW",
     "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#00e676"
@@ -27,8 +27,8 @@
     "message": "🚨 UN-ALERT: Green flood alert in Thailand"
   },
   "news": [
-    "Thailand Joins Pattaya, Phuket as Tomorrowland and EDC Fuel Asia’s Rise as the World’s New Festival Growth Hub",
     "ONYX expands in Thailand with signing of Shama North Pattaya",
+    "Thailand Joins Pattaya, Phuket as Tomorrowland and EDC Fuel Asia’s Rise as the World’s New Festival Growth Hub",
     "Phuket To Krabi, 5 Best Thailand Cities To Visit From India With Airport And Travel Guide",
     "Fire breaks out at hotel in Thailand’s popular Pattaya area",
     "ONYX Hospitality Group Enters Joint Venture with JR Kyushu Group to Develop Shama North Pattaya, Strengthening Strategic Partnership in Thailand"
@@ -84,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-05-29 23:00:22"
+  "last_update": "2026-05-30 08:11:12"
 }
