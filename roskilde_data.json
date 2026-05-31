@@ -1,7 +1,7 @@
 {
   "currencies": {
-    "EUR": "37.91",
-    "EUR_trend": "→",
+    "EUR": "37.90",
+    "EUR_trend": "↓",
     "DKK": "5.08",
     "DKK_trend": "→",
     "NOK": "3.52",
@@ -14,10 +14,10 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "32",
-    "wind_speed": "10",
-    "wind_dir": "SO",
+    "temp": "32",
+    "feels_like": "35",
+    "wind_speed": "16",
+    "wind_dir": "SSW",
     "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#00e676"
@@ -27,11 +27,11 @@
     "message": "🚨 UN-ALERT: Drought is on going in China, Indonesia, Cambodia, Laos, Myanmar, Malaysia, Thailand, Vietnam"
   },
   "news": [
+    "Thailand Pattaya Tourism Faces Rising Disputes Impacting Travelers as Digital Deception, Catfishing Scams, and Payment Disagreements Raise Safety Concerns and Disrupt Visitor Experiences – Here’s How to Stay Safe",
     "ONYX expands in Thailand with signing of Shama North Pattaya",
     "Fire breaks out at hotel in Thailand’s popular Pattaya area",
-    "Pattaya, Phuket and Chiang Mai Face Major Tourism Shake-Up as Thailand Tightens Corporate Oversight in 2026",
-    "Phuket To Krabi, 5 Best Thailand Cities To Visit From India With Airport And Travel Guide",
-    "ONYX Hospitality Group Enters Joint Venture with JR Kyushu Group to Develop Shama North Pattaya, Strengthening Strategic Partnership in Thailand"
+    "Rainy Season and Economic Volatility Deliver a Heavy Blow to Pattaya’s Vulnerable Night Economy",
+    "Phuket To Krabi, 5 Best Thailand Cities To Visit From India With Airport And Travel Guide"
   ],
   "flights": [
     {
@@ -84,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-05-30 23:46:18"
+  "last_update": "2026-05-31 09:59:31"
 }
