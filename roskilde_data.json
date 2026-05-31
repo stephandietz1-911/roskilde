@@ -14,10 +14,10 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "34",
-    "wind_speed": "5",
-    "wind_dir": "NNW",
+    "temp": "28",
+    "feels_like": "35",
+    "wind_speed": "2",
+    "wind_dir": "N",
     "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#00e676"
@@ -27,11 +27,11 @@
     "message": "🚨 UN-ALERT: Green flood alert in Thailand"
   },
   "news": [
-    "Is Healing the New Luxury? Pattaya Turns Into a Global Wellness Tourism Magnet as Thailand Travel Mart Plus 2026 Draws Record International Buyers and Signals a New Era for Health-Driven Tourism",
+    "Thailand Pattaya Tourism Faces Rising Disputes Impacting Travelers as Digital Deception, Catfishing Scams, and Payment Disagreements Raise Safety Concerns and Disrupt Visitor Experiences – Here’s How to Stay Safe",
     "ONYX expands in Thailand with signing of Shama North Pattaya",
     "Fire breaks out at hotel in Thailand’s popular Pattaya area",
-    "Thailand Pattaya Tourism Faces Rising Disputes Impacting Travelers as Digital Deception, Catfishing Scams, and Payment Disagreements Raise Safety Concerns and Disrupt Visitor Experiences – Here’s How to Stay Safe",
-    "Phuket To Krabi, 5 Best Thailand Cities To Visit From India With Airport And Travel Guide"
+    "Phuket To Krabi, 5 Best Thailand Cities To Visit From India With Airport And Travel Guide",
+    "Is Healing the New Luxury? Pattaya Turns Into a Global Wellness Tourism Magnet as Thailand Travel Mart Plus 2026 Draws Record International Buyers and Signals a New Era for Health-Driven Tourism"
   ],
   "flights": [
     {
@@ -84,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-05-31 19:51:05"
+  "last_update": "2026-05-31 23:45:07"
 }
