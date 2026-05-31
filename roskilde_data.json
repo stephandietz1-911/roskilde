@@ -14,23 +14,23 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "32",
-    "wind_speed": "6",
-    "wind_dir": "S",
+    "temp": "27",
+    "feels_like": "34",
+    "wind_speed": "5",
+    "wind_dir": "NNW",
     "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#00e676"
   },
   "alert": {
     "active": true,
-    "message": "🚨 UN-ALERT: Drought is on going in China, Indonesia, Cambodia, Laos, Myanmar, Malaysia, Thailand, Vietnam"
+    "message": "🚨 UN-ALERT: Green flood alert in Thailand"
   },
   "news": [
-    "Thailand Pattaya Tourism Faces Rising Disputes Impacting Travelers as Digital Deception, Catfishing Scams, and Payment Disagreements Raise Safety Concerns and Disrupt Visitor Experiences – Here’s How to Stay Safe",
-    "ONYX expands in Thailand with signing of Shama North Pattaya",
     "Is Healing the New Luxury? Pattaya Turns Into a Global Wellness Tourism Magnet as Thailand Travel Mart Plus 2026 Draws Record International Buyers and Signals a New Era for Health-Driven Tourism",
+    "ONYX expands in Thailand with signing of Shama North Pattaya",
     "Fire breaks out at hotel in Thailand’s popular Pattaya area",
+    "Thailand Pattaya Tourism Faces Rising Disputes Impacting Travelers as Digital Deception, Catfishing Scams, and Payment Disagreements Raise Safety Concerns and Disrupt Visitor Experiences – Here’s How to Stay Safe",
     "Phuket To Krabi, 5 Best Thailand Cities To Visit From India With Airport And Travel Guide"
   ],
   "flights": [
@@ -84,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-05-31 15:05:17"
+  "last_update": "2026-05-31 19:51:05"
 }
