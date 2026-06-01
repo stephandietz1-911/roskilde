@@ -1,23 +1,23 @@
 {
   "currencies": {
-    "EUR": "37.90",
-    "EUR_trend": "→",
+    "EUR": "37.93",
+    "EUR_trend": "↑",
     "DKK": "5.08",
     "DKK_trend": "→",
     "NOK": "3.52",
     "NOK_trend": "→",
-    "USD": "32.52",
-    "USD_trend": "→",
-    "AUD": "23.34",
-    "AUD_trend": "→",
+    "USD": "32.55",
+    "USD_trend": "↑",
+    "AUD": "23.37",
+    "AUD_trend": "↑",
     "RUB": "0.46",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "35",
-    "wind_speed": "2",
-    "wind_dir": "N",
+    "temp": "27",
+    "feels_like": "34",
+    "wind_speed": "7",
+    "wind_dir": "W",
     "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#00e676"
@@ -27,11 +27,11 @@
     "message": "🚨 UN-ALERT: Green flood alert in Thailand"
   },
   "news": [
-    "Thailand Pattaya Tourism Faces Rising Disputes Impacting Travelers as Digital Deception, Catfishing Scams, and Payment Disagreements Raise Safety Concerns and Disrupt Visitor Experiences – Here’s How to Stay Safe",
+    "Pattaya city travel safety",
+    "Fact-check: Viral video does not show DGC being assaulted in Thailand",
     "ONYX expands in Thailand with signing of Shama North Pattaya",
-    "Fire breaks out at hotel in Thailand’s popular Pattaya area",
-    "Phuket To Krabi, 5 Best Thailand Cities To Visit From India With Airport And Travel Guide",
-    "Is Healing the New Luxury? Pattaya Turns Into a Global Wellness Tourism Magnet as Thailand Travel Mart Plus 2026 Draws Record International Buyers and Signals a New Era for Health-Driven Tourism"
+    "Chinese fraud suspects arrested in Pattaya raid",
+    "Fire breaks out at hotel in Thailand’s popular Pattaya area"
   ],
   "flights": [
     {
@@ -84,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-05-31 23:45:07"
+  "last_update": "2026-06-01 19:30:26"
 }
