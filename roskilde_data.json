@@ -6,18 +6,18 @@
     "DKK_trend": "→",
     "NOK": "3.52",
     "NOK_trend": "→",
-    "USD": "32.55",
-    "USD_trend": "→",
-    "AUD": "23.37",
-    "AUD_trend": "→",
-    "RUB": "0.46",
-    "RUB_trend": "→"
+    "USD": "32.60",
+    "USD_trend": "↑",
+    "AUD": "23.35",
+    "AUD_trend": "↓",
+    "RUB": "0.45",
+    "RUB_trend": "↓"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "35",
-    "wind_speed": "3",
-    "wind_dir": "O",
+    "temp": "29",
+    "feels_like": "34",
+    "wind_speed": "12",
+    "wind_dir": "SSW",
     "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#00e676"
@@ -28,10 +28,10 @@
   },
   "news": [
     "Pattaya city travel safety",
-    "Fact-check: Viral video does not show DGC being assaulted in Thailand",
     "ONYX expands in Thailand with signing of Shama North Pattaya",
-    "Chinese fraud suspects arrested in Pattaya raid",
-    "Fire breaks out at hotel in Thailand’s popular Pattaya area"
+    "Intruder climbs fire escape, enters woman's room in Pattaya",
+    "Fire breaks out at hotel in Thailand’s popular Pattaya area",
+    "Chinese fraud suspects arrested in Pattaya raid"
   ],
   "flights": [
     {
@@ -84,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-02 00:01:38"
+  "last_update": "2026-06-02 13:01:58"
 }
