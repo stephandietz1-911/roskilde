@@ -1,22 +1,22 @@
 {
   "currencies": {
     "EUR": "37.97",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.09",
-    "DKK_trend": "↑",
+    "DKK_trend": "→",
     "NOK": "3.52",
     "NOK_trend": "→",
     "USD": "32.63",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.42",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.45",
     "RUB_trend": "→"
   },
   "weather": {
     "temp": "27",
-    "feels_like": "32",
-    "wind_speed": "15",
+    "feels_like": "31",
+    "wind_speed": "20",
     "wind_dir": "SW",
     "aqi_value": "35",
     "aqi_status": "Good",
@@ -29,9 +29,9 @@
   "news": [
     "Onyx teams up with JR Kyushu on Pattaya serviced apartment project",
     "Icelander missing in Thailand",
+    "Set in the Summer in Pattaya, Lil League Collaborates with BUS Member for Single LOCA",
     "Was Indian Army Officer Lt Gen Rajiv Kumar Sahni Assaulted In Thailand? No, Video Viral With False Claim",
-    "Fire breaks out at hotel in Thailand’s popular Pattaya area",
-    "Thailand Pattaya Tourism Faces Rising Disputes Impacting Travelers as Digital Deception, Catfishing Scams, and Payment Disagreements Raise Safety Concerns and Disrupt Visitor Experiences – Here’s How to Stay Safe"
+    "Fire breaks out at hotel in Thailand’s popular Pattaya area"
   ],
   "flights": [
     {
@@ -84,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-03 15:58:31"
+  "last_update": "2026-06-03 23:15:49"
 }
