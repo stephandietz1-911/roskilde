@@ -1,22 +1,22 @@
 {
   "currencies": {
     "EUR": "37.99",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.09",
     "DKK_trend": "→",
     "NOK": "3.52",
     "NOK_trend": "→",
     "USD": "32.73",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.39",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.45",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "32",
-    "feels_like": "37",
-    "wind_speed": "15",
+    "temp": "28",
+    "feels_like": "31",
+    "wind_speed": "22",
     "wind_dir": "SW",
     "aqi_value": "35",
     "aqi_status": "Good",
@@ -27,10 +27,10 @@
     "message": "🚨 UN-ALERT: Green flood alert in Thailand"
   },
   "news": [
-    "Thailand Hosts TTM+ 2026 in Pattaya as Global Tourism Buyers Gather to Explore Wellness, Sustainability and Experience-Driven Travel Opportunities",
     "Onyx teams up with JR Kyushu on Pattaya serviced apartment project",
+    "Thailand Hosts TTM+ 2026 in Pattaya as Global Tourism Buyers Gather to Explore Wellness, Sustainability and Experience-Driven Travel Opportunities",
+    "EAGLE busts international hydroponic cannabis racket linked to Thailand, names 40 accused",
     "Icelander missing in Thailand",
-    "Set in the Summer in Pattaya, Lil League Collaborates with BUS Member for Single LOCA",
     "Fire breaks out at hotel in Thailand’s popular Pattaya area"
   ],
   "flights": [
@@ -84,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-04 11:27:32"
+  "last_update": "2026-06-04 19:37:09"
 }
