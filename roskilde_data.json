@@ -15,7 +15,7 @@
   },
   "weather": {
     "temp": "28",
-    "feels_like": "31",
+    "feels_like": "32",
     "wind_speed": "22",
     "wind_dir": "SW",
     "aqi_value": "35",
@@ -24,13 +24,13 @@
   },
   "alert": {
     "active": true,
-    "message": "🚨 UN-ALERT: Green flood alert in Thailand"
+    "message": "🚨 UN-ALERT: Drought is on going in China, Indonesia, Cambodia, Laos, Myanmar, Malaysia, Thailand, Vietnam"
   },
   "news": [
     "Onyx teams up with JR Kyushu on Pattaya serviced apartment project",
+    "Icelander missing in Thailand",
     "Thailand Hosts TTM+ 2026 in Pattaya as Global Tourism Buyers Gather to Explore Wellness, Sustainability and Experience-Driven Travel Opportunities",
     "EAGLE busts international hydroponic cannabis racket linked to Thailand, names 40 accused",
-    "Icelander missing in Thailand",
     "Fire breaks out at hotel in Thailand’s popular Pattaya area"
   ],
   "flights": [
@@ -84,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-04 19:37:09"
+  "last_update": "2026-06-04 23:50:28"
 }
