@@ -1,23 +1,23 @@
 {
   "currencies": {
     "EUR": "37.96",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.09",
     "DKK_trend": "→",
     "NOK": "3.50",
-    "NOK_trend": "↓",
+    "NOK_trend": "→",
     "USD": "32.65",
-    "USD_trend": "↓",
+    "USD_trend": "→",
     "AUD": "23.31",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.44",
-    "RUB_trend": "↓"
+    "RUB_trend": "→"
   },
   "weather": {
     "temp": "28",
     "feels_like": "31",
-    "wind_speed": "26",
-    "wind_dir": "SSW",
+    "wind_speed": "22",
+    "wind_dir": "SW",
     "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#00e676"
@@ -27,10 +27,10 @@
     "message": "🚨 UN-ALERT: Drought is on going in China, Indonesia, Cambodia, Laos, Myanmar, Malaysia, Thailand, Vietnam"
   },
   "news": [
-    "Thailand Pride Fever Explodes: Bangkok, Phuket, Pattaya, Chiang Mai and Ko Samui Turn Into Rainbow Tourism Powerhouses",
     "Onyx teams up with JR Kyushu on Pattaya serviced apartment project",
     "Icelander missing in Thailand",
     "352/956 Phratamnak 4, Pattaya Tai, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri",
+    "Thailand Pride Fever Explodes: Bangkok, Phuket, Pattaya, Chiang Mai and Ko Samui Turn Into Rainbow Tourism Powerhouses",
     "Fire breaks out at hotel in Thailand’s popular Pattaya area"
   ],
   "flights": [
@@ -84,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-05 11:51:38"
+  "last_update": "2026-06-05 18:30:39"
 }
