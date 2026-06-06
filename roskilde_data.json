@@ -1,22 +1,22 @@
 {
   "currencies": {
     "EUR": "37.89",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.08",
-    "DKK_trend": "↓",
+    "DKK_trend": "→",
     "NOK": "3.49",
-    "NOK_trend": "↓",
+    "NOK_trend": "→",
     "USD": "32.73",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.21",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.45",
-    "RUB_trend": "↑"
+    "RUB_trend": "→"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "34",
-    "wind_speed": "23",
+    "temp": "29",
+    "feels_like": "33",
+    "wind_speed": "17",
     "wind_dir": "SSW",
     "aqi_value": "35",
     "aqi_status": "Good",
@@ -28,10 +28,10 @@
   },
   "news": [
     "Thailand Travel Mart Plus 2026 Elevates Pattaya as Global Hub for Sustainable and Wellness-Focused Tourism",
+    "Onyx teams up with JR Kyushu on Pattaya serviced apartment project",
     "Icelander missing in Thailand",
     "Fire breaks out at hotel in Thailand’s popular Pattaya area",
-    "EAGLE busts international hydroponic cannabis racket linked to Thailand, names 40 accused",
-    "Set in the Summer in Pattaya, Lil League Collaborates with BUS Member for Single LOCA"
+    "ONYX expands in Thailand with signing of Shama North Pattaya"
   ],
   "flights": [
     {
@@ -84,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-06 08:17:49"
+  "last_update": "2026-06-06 12:53:15"
 }
