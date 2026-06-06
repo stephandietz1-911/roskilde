@@ -1,22 +1,22 @@
 {
   "currencies": {
-    "EUR": "37.96",
-    "EUR_trend": "→",
-    "DKK": "5.09",
-    "DKK_trend": "→",
-    "NOK": "3.50",
-    "NOK_trend": "→",
-    "USD": "32.65",
-    "USD_trend": "→",
-    "AUD": "23.31",
-    "AUD_trend": "→",
-    "RUB": "0.44",
-    "RUB_trend": "→"
+    "EUR": "37.89",
+    "EUR_trend": "↓",
+    "DKK": "5.08",
+    "DKK_trend": "↓",
+    "NOK": "3.49",
+    "NOK_trend": "↓",
+    "USD": "32.73",
+    "USD_trend": "↑",
+    "AUD": "23.21",
+    "AUD_trend": "↓",
+    "RUB": "0.45",
+    "RUB_trend": "↑"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "31",
-    "wind_speed": "21",
+    "temp": "30",
+    "feels_like": "34",
+    "wind_speed": "23",
     "wind_dir": "SSW",
     "aqi_value": "35",
     "aqi_status": "Good",
@@ -27,11 +27,11 @@
     "message": "🚨 UN-ALERT: Drought is on going in China, Indonesia, Cambodia, Laos, Myanmar, Malaysia, Thailand, Vietnam"
   },
   "news": [
+    "Thailand Travel Mart Plus 2026 Elevates Pattaya as Global Hub for Sustainable and Wellness-Focused Tourism",
     "Icelander missing in Thailand",
-    "352/956 Phratamnak 4, Pattaya Tai, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri",
     "Fire breaks out at hotel in Thailand’s popular Pattaya area",
-    "Thailand Pride Fever Explodes: Bangkok, Phuket, Pattaya, Chiang Mai and Ko Samui Turn Into Rainbow Tourism Powerhouses",
-    "ONYX expands in Thailand with signing of Shama North Pattaya"
+    "EAGLE busts international hydroponic cannabis racket linked to Thailand, names 40 accused",
+    "Set in the Summer in Pattaya, Lil League Collaborates with BUS Member for Single LOCA"
   ],
   "flights": [
     {
@@ -84,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-05 22:45:44"
+  "last_update": "2026-06-06 08:17:49"
 }
