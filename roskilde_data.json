@@ -14,17 +14,17 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "33",
+    "temp": "28",
+    "feels_like": "32",
     "wind_speed": "17",
-    "wind_dir": "SSW",
+    "wind_dir": "SW",
     "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#00e676"
   },
   "alert": {
-    "active": true,
-    "message": "🚨 UN-ALERT: Drought is on going in China, Indonesia, Cambodia, Laos, Myanmar, Malaysia, Thailand, Vietnam"
+    "active": false,
+    "message": ""
   },
   "news": [
     "Thailand Travel Mart Plus 2026 Elevates Pattaya as Global Hub for Sustainable and Wellness-Focused Tourism",
@@ -84,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-06 12:53:15"
+  "last_update": "2026-06-06 16:48:24"
 }
