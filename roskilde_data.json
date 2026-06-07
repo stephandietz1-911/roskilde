@@ -1,37 +1,37 @@
 {
   "currencies": {
     "EUR": "37.91",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.08",
     "DKK_trend": "→",
     "NOK": "3.49",
     "NOK_trend": "→",
     "USD": "32.72",
-    "USD_trend": "↓",
+    "USD_trend": "→",
     "AUD": "23.22",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.45",
     "RUB_trend": "→"
   },
   "weather": {
     "temp": "29",
     "feels_like": "33",
-    "wind_speed": "21",
+    "wind_speed": "18",
     "wind_dir": "SSW",
     "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#00e676"
   },
   "alert": {
-    "active": false,
-    "message": ""
+    "active": true,
+    "message": "🚨 UN-ALERT: Drought is on going in China, Indonesia, Cambodia, Laos, Myanmar, Malaysia, Thailand, Vietnam"
   },
   "news": [
+    "SHE IS GORGEOUS! EXPLORING THE BEST HOLIDAY DESTINATION, PATTAYA, THAILAND 🇹🇭 🌴 (zbpx7IIXf1)",
     "Onyx teams up with JR Kyushu on Pattaya serviced apartment project",
     "Icelander missing in Thailand",
     "Fire breaks out at hotel in Thailand’s popular Pattaya area",
-    "Thailand Travel Mart Plus 2026 Elevates Pattaya as Global Hub for Sustainable and Wellness-Focused Tourism",
-    "EAGLE busts international hydroponic cannabis racket linked to Thailand, names 40 accused"
+    "Thailand Travel Mart Plus 2026 Elevates Pattaya as Global Hub for Sustainable and Wellness-Focused Tourism"
   ],
   "flights": [
     {
@@ -84,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-07 08:39:08"
+  "last_update": "2026-06-07 15:09:12"
 }
