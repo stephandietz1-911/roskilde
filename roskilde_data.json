@@ -16,8 +16,8 @@
   "weather": {
     "temp": "29",
     "feels_like": "33",
-    "wind_speed": "18",
-    "wind_dir": "SSW",
+    "wind_speed": "16",
+    "wind_dir": "SW",
     "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#00e676"
@@ -28,10 +28,10 @@
   },
   "news": [
     "SHE IS GORGEOUS! EXPLORING THE BEST HOLIDAY DESTINATION, PATTAYA, THAILAND 🇹🇭 🌴 (zbpx7IIXf1)",
-    "Onyx teams up with JR Kyushu on Pattaya serviced apartment project",
     "Icelander missing in Thailand",
     "Fire breaks out at hotel in Thailand’s popular Pattaya area",
-    "Thailand Travel Mart Plus 2026 Elevates Pattaya as Global Hub for Sustainable and Wellness-Focused Tourism"
+    "Thailand Travel Mart Plus 2026 Elevates Pattaya as Global Hub for Sustainable and Wellness-Focused Tourism",
+    "4th Thailand Refiningand Petrochemical Forum"
   ],
   "flights": [
     {
@@ -84,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-07 15:09:12"
+  "last_update": "2026-06-07 20:00:43"
 }
