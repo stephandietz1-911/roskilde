@@ -14,9 +14,9 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "33",
-    "wind_speed": "19",
+    "temp": "29",
+    "feels_like": "32",
+    "wind_speed": "18",
     "wind_dir": "SW",
     "aqi_value": "35",
     "aqi_status": "Good",
@@ -27,11 +27,11 @@
     "message": "🚨 UN-ALERT: Drought is on going in China, Indonesia, Cambodia, Laos, Myanmar, Malaysia, Thailand, Vietnam"
   },
   "news": [
+    "I Avoided Bar Fines… Until Now | My Pattaya Experience Daryl Morey (qKiipKF9zH)",
     "THAILAND PRICES 2026 🇹🇭 Real Pattaya Market — Cost Of Living In Thailand In $ Rai 4 (DgOOkOR5bx)",
+    "SHE IS GORGEOUS! EXPLORING THE BEST HOLIDAY DESTINATION, PATTAYA, THAILAND 🇹🇭 🌴 (zbpx7IIXf1)",
     "Fire breaks out at hotel in Thailand’s popular Pattaya area",
-    "Thailand hotel fire sends hundreds of tourists fleeing as major blaze engulfs Pattaya resort",
-    "Icelander missing in Thailand",
-    "News"
+    "Thailand hotel fire sends hundreds of tourists fleeing as major blaze engulfs Pattaya resort"
   ],
   "flights": [
     {
@@ -84,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-09 18:29:51"
+  "last_update": "2026-06-09 23:05:48"
 }
