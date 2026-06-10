@@ -14,10 +14,10 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "32",
-    "wind_speed": "18",
-    "wind_dir": "SSW",
+    "temp": "25",
+    "feels_like": "29",
+    "wind_speed": "17",
+    "wind_dir": "S",
     "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#00e676"
@@ -27,11 +27,11 @@
     "message": ""
   },
   "news": [
-    "I Avoided Bar Fines… Until Now | My Pattaya Experience Daryl Morey",
-    "New First Time in Thailand Claim Sparks Viral Pattaya Travel Mystery as Tourists Behave Like Returning Visitors and Quietly Redefine Tourism, Nightlife Exploration, and How New Travelers Navigate the City",
+    "Alexander Lopez has been appointed as General Manager at Meliá Pattaya Hotel",
     "THAILAND PRICES 2026 🇹🇭 Real Pattaya Market — Cost Of Living In Thailand In $ Rai 4",
-    "SHE IS GORGEOUS! EXPLORING THE BEST HOLIDAY DESTINATION, PATTAYA, THAILAND 🇹🇭 🌴",
-    "Fire breaks out at hotel in Thailand’s popular Pattaya area"
+    "Thailand Wellness Tourism: Pattaya Travel Mart Unveils New Vision",
+    "Fire breaks out at hotel in Thailand’s popular Pattaya area",
+    "New First Time in Thailand Claim Sparks Viral Pattaya Travel Mystery as Tourists Behave Like Returning Visitors and Quietly Redefine Tourism, Nightlife Exploration, and How New Travelers Navigate the City"
   ],
   "flights": [
     {
@@ -84,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-10 11:59:13"
+  "last_update": "2026-06-10 21:25:17"
 }
