@@ -5,6 +5,10 @@ on:
     - cron: '*/15 * * * *'
   workflow_dispatch:
 
+# Erzwingt Node.js 24 für alle Actions, um die Deprecation-Warnung zu entfernen
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
   update-json:
     runs-on: ubuntu-latest
@@ -33,7 +37,6 @@ jobs:
             "flights": []
         }
 
-        # 1. Alte Daten für Flüge & Trends laden
         try:
             with open("roskilde_data.json", "r", encoding="utf-8") as f:
                 old_data = json.load(f)
@@ -41,7 +44,6 @@ jobs:
         except:
             old_currencies = {}
 
-        # 2. Wechselkurse
         try:
             req = urllib.request.Request("https://open.er-api.com/v6/latest/THB", headers={"User-Agent": "Mozilla/5.0"})
             with urllib.request.urlopen(req, timeout=10) as response:
@@ -53,7 +55,6 @@ jobs:
                     data["currencies"][t+"_trend"] = "↑" if val > old + 0.005 else ("↓" if val < old - 0.005 else "→")
         except: pass
 
-        # 3. Wetter & AQI (Pattaya/Jomtien)
         try:
             w_url = "https://api.open-meteo.com/v1/forecast?latitude=12.923&longitude=100.883&current=temperature_2m,apparent_temperature,wind_speed_10m,wind_direction_10m&air_quality=us_aqi"
             req = urllib.request.Request(w_url, headers={"User-Agent": "Mozilla/5.0"})
@@ -76,7 +77,6 @@ jobs:
                 })
         except: pass
 
-        # 4. Google News (Bereinigt um ID-Klammern wie zbpx7lIxf1)
         try:
             n_req = urllib.request.Request("https://news.google.com/rss/search?q=Pattaya+Thailand&hl=en-TH&gl=TH&ceid=TH:en", headers={"User-Agent": "Mozilla/5.0"})
             with urllib.request.urlopen(n_req, timeout=10) as response:
@@ -84,15 +84,12 @@ jobs:
                 clean_titles = []
                 for item in root.findall(".//item")[:5]:
                     title = item.find("title").text or ""
-                    # 1. Google-Quellenangabe am Ende entfernen
                     title = re.sub(r'\s-\s.*', '', title)
-                    # 2. Kryptische ID-Klammern am Ende entfernen (z.B. (zbpx7lIxf1))
                     title = re.sub(r'\s\([a-zA-Z0-9]{10}\)$', '', title).strip()
                     if title: clean_titles.append(title)
                 if clean_titles: data["news"] = clean_titles
         except: pass
 
-        # 5. Lokale Wetterwarnungen (NUR thailändisches Wetteramt TMD)
         alert_active = False
         alert_msg = ""
         try:
@@ -111,7 +108,6 @@ jobs:
 
         data["alert"] = {"active": alert_active, "message": alert_msg}
 
-        # 6. Flugdaten sichern
         try:
             if 'old_data' in locals() and "flights" in old_data: data["flights"] = old_data["flights"]
         except: pass
@@ -131,5 +127,5 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add roskilde_data.json
-        git commit -m "Automatisches Datenupdate (News & Alerts bereinigt)" || echo "Keine Änderungen"
+        git commit -m "Automatisches Datenupdate (Node.js 24 Fix)" || echo "Keine Änderungen"
         git push
