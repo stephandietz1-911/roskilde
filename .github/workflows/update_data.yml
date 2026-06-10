@@ -5,6 +5,10 @@ on:
     - cron: '*/15 * * * *'
   workflow_dispatch:
 
+# Das hier schaltet die nervige Node-Warnung dauerhaft ab
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
   update-json:
     runs-on: ubuntu-latest
@@ -12,12 +16,11 @@ jobs:
       contents: write
 
     steps:
-    # Direkt auf die neueren, nativen Versionen aktualisiert
     - name: Code auschecken
-      uses: actions/checkout@v4.1.7
+      uses: actions/checkout@v4
 
     - name: Python installieren
-      uses: actions/setup-python@v5.1.1
+      uses: actions/setup-python@v5
       with:
         python-version: '3.12'
 
@@ -101,7 +104,7 @@ jobs:
                         alert_active = True
                         alert_msg = "⛈️ WEATHER ALERT: " + (title if len(title) < 60 else title[:57] + "...")
                         break
-            except: pass
+        except: pass
 
         data["alert"] = {"active": alert_active, "message": alert_msg}
 
@@ -124,5 +127,5 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add roskilde_data.json
-        git commit -m "Automatisches Datenupdate (Native Node 24)" || echo "Keine Änderungen"
+        git commit -m "Automatisches Datenupdate (Fix und Node.js 24 Force)" || echo "Keine Änderungen"
         git push
