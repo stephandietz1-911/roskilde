@@ -1,17 +1,17 @@
 {
   "currencies": {
     "EUR": "37.99",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.09",
-    "DKK_trend": "↑",
+    "DKK_trend": "→",
     "NOK": "3.47",
     "NOK_trend": "→",
     "USD": "32.88",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.15",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.46",
-    "RUB_trend": "↑"
+    "RUB_trend": "→"
   },
   "weather": {
     "temp": "28",
@@ -84,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-10 11:47:50"
+  "last_update": "2026-06-10 11:59:13"
 }
