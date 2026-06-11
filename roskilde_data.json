@@ -1,23 +1,23 @@
 {
   "currencies": {
-    "EUR": "37.99",
-    "EUR_trend": "→",
-    "DKK": "5.09",
-    "DKK_trend": "→",
-    "NOK": "3.47",
-    "NOK_trend": "→",
-    "USD": "32.88",
-    "USD_trend": "→",
-    "AUD": "23.15",
-    "AUD_trend": "→",
+    "EUR": "38.03",
+    "EUR_trend": "↑",
+    "DKK": "5.10",
+    "DKK_trend": "↑",
+    "NOK": "3.48",
+    "NOK_trend": "↑",
+    "USD": "32.94",
+    "USD_trend": "↑",
+    "AUD": "23.10",
+    "AUD_trend": "↓",
     "RUB": "0.46",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "25",
-    "feels_like": "29",
-    "wind_speed": "17",
-    "wind_dir": "S",
+    "temp": "32",
+    "feels_like": "37",
+    "wind_speed": "15",
+    "wind_dir": "SW",
     "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#00e676"
@@ -27,11 +27,11 @@
     "message": ""
   },
   "news": [
+    "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism",
     "Alexander Lopez has been appointed as General Manager at Meliá Pattaya Hotel",
     "THAILAND PRICES 2026 🇹🇭 Real Pattaya Market — Cost Of Living In Thailand In $ Rai 4",
-    "Thailand Wellness Tourism: Pattaya Travel Mart Unveils New Vision",
-    "Fire breaks out at hotel in Thailand’s popular Pattaya area",
-    "New First Time in Thailand Claim Sparks Viral Pattaya Travel Mystery as Tourists Behave Like Returning Visitors and Quietly Redefine Tourism, Nightlife Exploration, and How New Travelers Navigate the City"
+    "China Joins Poland, Sweden, Norway, Italy, Kazakhstan, India and Other Countries as Thailand’s Main Source of Visitors with Record Breaking Growth Across Bangkok, Phuket, Pattaya, Chiang Mai, Kanchanaburi and Tourism Hubs in 2026",
+    "Alexander Lopez takes charge of Meliá Pattaya Hotel"
   ],
   "flights": [
     {
@@ -84,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-10 21:25:17"
+  "last_update": "2026-06-11 12:30:30"
 }
