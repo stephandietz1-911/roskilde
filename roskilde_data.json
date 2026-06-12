@@ -1,23 +1,23 @@
 {
   "currencies": {
-    "EUR": "38.03",
-    "EUR_trend": "→",
-    "DKK": "5.10",
-    "DKK_trend": "→",
-    "NOK": "3.48",
-    "NOK_trend": "→",
+    "EUR": "37.98",
+    "EUR_trend": "↓",
+    "DKK": "5.09",
+    "DKK_trend": "↓",
+    "NOK": "3.46",
+    "NOK_trend": "↓",
     "USD": "32.94",
     "USD_trend": "→",
-    "AUD": "23.10",
-    "AUD_trend": "→",
+    "AUD": "23.06",
+    "AUD_trend": "↓",
     "RUB": "0.46",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "32",
+    "temp": "29",
+    "feels_like": "34",
     "wind_speed": "12",
-    "wind_dir": "SSO",
+    "wind_dir": "S",
     "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#00e676"
@@ -27,10 +27,10 @@
     "message": ""
   },
   "news": [
-    "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism",
     "I Avoided Bar Fines… Until Now | My Pattaya Experience Daryl Morey",
-    "Alexander Lopez has been appointed as General Manager at Meliá Pattaya Hotel",
-    "Thailand Captivates International Buyers and Travelers as TTM Plus 2026 Highlights Healing is the New Luxury with Pattaya as a Premier Tourism Destination",
+    "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism",
+    "Thailand Travel Mart Plus 2026 Showcases Wellness-Focused and Sustainable Tourism Push in Pattaya",
+    "Fire breaks out at hotel in Thailand’s popular Pattaya area",
     "SHE IS GORGEOUS! EXPLORING THE BEST HOLIDAY DESTINATION, PATTAYA, THAILAND 🇹🇭 🌴"
   ],
   "flights": [
@@ -84,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-11 21:29:45"
+  "last_update": "2026-06-12 11:51:58"
 }
