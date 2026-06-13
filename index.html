@@ -2,42 +2,652 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ROS KILDE Portal</title>
+    <!-- Google Font "Outfit" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
     <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { background: #0d0f12; color: #e2e8f0; font-family: sans-serif; height: 100vh; overflow: hidden; display: flex; flex-direction: column; }
-        
-        /* Der obere Header ist wieder da */
-        header { 
-            background: linear-gradient(90deg, #1a1f26 0%, #0d0f12 100%); 
-            padding: 10px 25px; 
-            display: flex; 
-            justify-content: space-between; 
-            align-items: center; 
-            border-bottom: 3px solid #00f2fe; 
-            height: 70px; 
+        :root {
+            --bg-primary: #03050d;
+            --bg-sidebar: rgba(8, 12, 24, 0.85);
+            --card-bg: rgba(11, 17, 34, 0.65);
+            --card-border: rgba(0, 242, 254, 0.15);
+            --card-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.6);
+            
+            --color-primary: #00f2fe;
+            --color-secondary: #ff007f;
+            --color-primary-glow: rgba(0, 242, 254, 0.25);
+            --color-secondary-glow: rgba(255, 0, 127, 0.25);
+            
+            --color-success: #10b981;
+            --color-danger: #ef4444;
+            --color-warning: #f59e0b;
+            --color-info: #3b82f6;
+            
+            --text-light: #f8fafc;
+            --text-muted: #64748b;
+            --text-dark: #02040a;
         }
-        .logo-text h1 { font-size: 26px; font-weight: 800; color: #fff; text-shadow: 0 0 12px rgba(0, 242, 254, 0.6); margin: 0; }
-        .logo-text h1 span { color: #00f2fe; }
-        .tagline { font-size: 11px; color: #a0aec0; text-transform: uppercase; letter-spacing: 1px; margin-top: 1px; }
-        .header-title { font-size: 18px; color: #fff; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; }
 
-        /* Main-Container berechnet jetzt die Header-Höhe mit ein */
-        .main { display: flex; flex: 1; height: calc(100vh - 130px); overflow: hidden; }
-        #windy { width: 63%; height: 100%; border: none; }
-        
-        .sidebar { width: 37%; padding: 15px; background: #12161c; overflow-y: auto; display: flex; flex-direction: column; gap: 12px; }
-        .widget { border-bottom: 2px solid #343e50; padding-bottom: 12px; }
-        .widget:last-child { border-bottom: none; }
-        .title { color: #00f2fe; font-size: 12px; font-weight: 800; text-transform: uppercase; margin-bottom: 8px; }
-        
-        .currency-row { display: flex; justify-content: space-between; font-size: 15px; margin-bottom: 6px; }
-        .val { font-weight: bold; color: #00e676; }
-        
-        .flight-table { width: 100%; border-collapse: collapse; font-size: 11px; }
-        .flight-table td { padding: 6px 2px; border-bottom: 1px solid #2d3748; }
-        
-        .ticker { background: #00f2fe; color: #000; height: 60px; display: flex; align-items: center; padding-left: 20px; font-weight: bold; font-size: 18px; }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: 
+                radial-gradient(circle at 5% 15%, rgba(0, 242, 254, 0.08) 0%, transparent 40%),
+                radial-gradient(circle at 95% 85%, rgba(255, 0, 127, 0.08) 0%, transparent 40%),
+                var(--bg-primary);
+            background-attachment: fixed;
+            color: var(--text-light);
+            font-family: 'Outfit', sans-serif;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background: linear-gradient(90deg, rgba(8, 12, 24, 0.95) 0%, rgba(3, 5, 13, 0.95) 100%);
+            padding: 0 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid;
+            border-image: linear-gradient(90deg, var(--color-primary), var(--color-secondary)) 1;
+            box-shadow: 0 4px 30px rgba(0, 242, 254, 0.15);
+            height: 75px;
+            z-index: 10;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        .logo-area {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-text h1 {
+            font-size: 28px;
+            font-weight: 900;
+            color: #fff;
+            letter-spacing: 0.5px;
+            text-shadow: 0 0 15px var(--color-primary-glow);
+            margin: 0;
+        }
+
+        .logo-text h1 span {
+            background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: drop-shadow(0 0 5px var(--color-primary-glow));
+        }
+
+        .tagline {
+            font-size: 10px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-top: 3px;
+            font-weight: 700;
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .header-title {
+            font-size: 15px;
+            color: var(--text-muted);
+            font-weight: 800;
+            letter-spacing: 2.5px;
+            text-transform: uppercase;
+            border-right: 1px solid rgba(255, 255, 255, 0.08);
+            padding-right: 25px;
+        }
+
+        .header-clock {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .clock-date {
+            font-size: 11px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+
+        .clock-time {
+            font-size: 24px;
+            font-weight: 900;
+            background: linear-gradient(135deg, #ffffff 40%, var(--color-primary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: drop-shadow(0 0 10px rgba(0, 242, 254, 0.2));
+        }
+
+        .main {
+            display: flex;
+            flex: 1;
+            height: calc(100vh - 135px);
+            overflow: hidden;
+        }
+
+        #windy-container {
+            width: 62%;
+            height: 100%;
+            position: relative;
+            border-right: 1px solid rgba(0, 242, 254, 0.1);
+        }
+
+        #windy {
+            width: 100%;
+            height: 100%;
+            border: none;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .iframe-loading {
+            opacity: 0.15;
+        }
+
+        .map-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(3, 5, 13, 0.9);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.4s ease-in-out;
+            z-index: 5;
+        }
+
+        .map-overlay.active {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        .spinner {
+            width: 45px;
+            height: 45px;
+            border: 3px solid rgba(0, 242, 254, 0.05);
+            border-radius: 50%;
+            border-top-color: var(--color-primary);
+            border-bottom-color: var(--color-secondary);
+            animation: spin 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+            filter: drop-shadow(0 0 8px var(--color-primary-glow));
+        }
+
+        .spinner-text {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--text-muted);
+            font-weight: 700;
+        }
+
+        .sidebar {
+            width: 38%;
+            padding: 20px;
+            background: var(--bg-sidebar);
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+        }
+
+        /* Scrollbar Styling */
+        .sidebar::-webkit-scrollbar {
+            width: 4px;
+        }
+        .sidebar::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.2);
+        }
+        .sidebar::-webkit-scrollbar-thumb {
+            background: rgba(0, 242, 254, 0.2);
+            border-radius: 2px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 18px 22px;
+            box-shadow: var(--card-shadow);
+            position: relative;
+            overflow: hidden;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .card:hover {
+            border-color: rgba(0, 242, 254, 0.35);
+            box-shadow: 0 12px 40px rgba(0, 242, 254, 0.08);
+            transform: translateY(-2px);
+        }
+
+        .card-header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .card-title {
+            color: var(--color-primary);
+            font-size: 13px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .card-title-line {
+            height: 2px;
+            width: 100%;
+            background: linear-gradient(90deg, var(--color-primary), var(--color-secondary), transparent);
+            margin-bottom: 14px;
+            border-radius: 1px;
+            opacity: 0.8;
+        }
+
+        .card-header-dot {
+            width: 6px;
+            height: 6px;
+            background-color: var(--color-primary);
+            border-radius: 50%;
+            box-shadow: 0 0 10px var(--color-primary);
+            animation: pulse-dot 1.8s infinite ease-in-out;
+        }
+
+        @keyframes pulse-dot {
+            0%, 100% { transform: scale(1); opacity: 1; filter: drop-shadow(0 0 2px var(--color-primary)); }
+            50% { transform: scale(1.6); opacity: 0.3; filter: drop-shadow(0 0 6px var(--color-primary)); }
+        }
+
+        /* Currency Grid */
+        .currency-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+
+        .currency-item {
+            background: rgba(255, 255, 255, 0.01);
+            border: 1px solid rgba(255, 255, 255, 0.04);
+            border-radius: 10px;
+            padding: 10px 14px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+
+        .currency-item:hover {
+            background: rgba(255, 255, 255, 0.03);
+            border-color: rgba(0, 242, 254, 0.2);
+        }
+
+        .currency-label {
+            font-size: 14px;
+            font-weight: 700;
+            color: #94a3b8;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .currency-val {
+            font-size: 16px;
+            font-weight: 800;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .trend-up {
+            color: var(--color-success);
+            text-shadow: 0 0 8px rgba(16, 185, 129, 0.3);
+        }
+        .trend-down {
+            color: var(--color-danger);
+            text-shadow: 0 0 8px rgba(239, 68, 68, 0.3);
+        }
+        .trend-flat {
+            color: #64748b;
+        }
+
+        /* Weather details */
+        .weather-container {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        .weather-main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .weather-temp-box {
+            display: flex;
+            align-items: baseline;
+            gap: 4px;
+        }
+
+        .weather-temp {
+            font-size: 46px;
+            font-weight: 900;
+            background: linear-gradient(135deg, #ffffff 40%, var(--color-primary) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            line-height: 1;
+            filter: drop-shadow(0 0 15px rgba(0, 242, 254, 0.25));
+        }
+
+        .weather-unit {
+            font-size: 22px;
+            color: var(--color-primary);
+            font-weight: 700;
+        }
+
+        .weather-feel {
+            font-size: 13px;
+            color: #64748b;
+            font-weight: 600;
+            margin-top: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .weather-stats {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            align-items: flex-end;
+            font-size: 14px;
+        }
+
+        .weather-stat-val {
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .aqi-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 10px 14px;
+            margin-top: 4px;
+        }
+
+        .aqi-label {
+            font-size: 13px;
+            color: #94a3b8;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .aqi-badge {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #fff !important;
+            font-variant-numeric: tabular-nums;
+            box-shadow: 0 0 10px var(--aqi-glow, var(--color-success));
+            border: 1px solid var(--aqi-glow, var(--color-success));
+        }
+
+        .alert-banner {
+            background: linear-gradient(90deg, rgba(239, 68, 68, 0.2) 0%, rgba(239, 68, 68, 0.03) 100%);
+            border-left: 4px solid var(--color-danger);
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 700;
+            color: #fca5a5;
+            margin-top: 8px;
+            line-height: 1.4;
+            animation: alert-pulse 2s infinite ease-in-out;
+        }
+
+        @keyframes alert-pulse {
+            0%, 100% { border-left-color: var(--color-danger); box-shadow: 0 0 5px rgba(239, 68, 68, 0.1); }
+            50% { border-left-color: #ff6b6b; box-shadow: 0 0 15px rgba(239, 68, 68, 0.35); }
+        }
+
+        /* Flight widget */
+        .flights-card {
+            flex: 1;
+            min-height: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .flights-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+
+        .flights-header .card-title {
+            margin-bottom: 0;
+        }
+
+        .flight-tabs {
+            display: flex;
+            gap: 8px;
+        }
+
+        .flight-tab {
+            font-size: 11px;
+            font-weight: 900;
+            padding: 4px 10px;
+            border-radius: 6px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            background: rgba(255, 255, 255, 0.03);
+            color: #64748b;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .flight-tab.active {
+            background: rgba(0, 242, 254, 0.1);
+            color: var(--color-primary);
+            border-color: rgba(0, 242, 254, 0.3);
+            box-shadow: 0 0 15px rgba(0, 242, 254, 0.15);
+        }
+
+        .flight-table-container {
+            flex: 1;
+            overflow-y: auto;
+            margin-top: 10px;
+        }
+
+        .flight-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+            text-align: left;
+        }
+
+        .flight-table th {
+            font-size: 11px;
+            font-weight: 800;
+            color: #64748b;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            padding: 8px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .flight-table td {
+            padding: 11px 8px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.02);
+            font-weight: 600;
+        }
+
+        .flight-table tbody tr:hover {
+            background: rgba(255, 255, 255, 0.01);
+        }
+
+        .flight-table tbody {
+            transition: opacity 0.25s ease-in-out;
+        }
+
+        .flight-table tbody.fade-out {
+            opacity: 0;
+        }
+
+        .flight-no {
+            color: #fff;
+            font-weight: 800;
+            font-variant-numeric: tabular-nums;
+            text-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
+        }
+
+        .flight-badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 10px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            background: rgba(0, 0, 0, 0.35);
+        }
+
+        .badge-success { border: 1px solid var(--color-success); color: var(--color-success); text-shadow: 0 0 8px rgba(16, 185, 129, 0.4); }
+        .badge-danger { border: 1px solid var(--color-danger); color: var(--color-danger); text-shadow: 0 0 8px rgba(239, 68, 68, 0.4); }
+        .badge-warning { border: 1px solid var(--color-warning); color: var(--color-warning); text-shadow: 0 0 8px rgba(245, 158, 11, 0.4); }
+        .badge-info { border: 1px solid var(--color-info); color: var(--color-info); text-shadow: 0 0 8px rgba(59, 130, 246, 0.4); }
+
+        /* Scrolling News Ticker */
+        .ticker-container {
+            width: 100%;
+            height: 60px;
+            background: #040710;
+            border-top: 2px solid;
+            border-image: linear-gradient(90deg, var(--color-primary), var(--color-secondary)) 1;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 -8px 32px rgba(0, 242, 254, 0.15);
+            z-index: 10;
+        }
+
+        .ticker-wrap {
+            flex: 1;
+            overflow: hidden;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+
+        .ticker-wrap::before, .ticker-wrap::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            width: 120px;
+            height: 100%;
+            z-index: 2;
+            pointer-events: none;
+        }
+
+        .ticker-wrap::before {
+            left: 0;
+            background: linear-gradient(90deg, #040710 0%, rgba(4, 7, 16, 0) 100%);
+        }
+
+        .ticker-wrap::after {
+            right: 0;
+            background: linear-gradient(270deg, #040710 0%, rgba(4, 7, 16, 0) 100%);
+        }
+
+        .ticker-title {
+            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+            color: var(--text-dark);
+            font-weight: 900;
+            padding: 0 25px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            font-size: 13px;
+            letter-spacing: 2px;
+            z-index: 3;
+            box-shadow: 10px 0 25px rgba(0, 0, 0, 0.6);
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+
+        .ticker-track {
+            display: flex;
+            white-space: nowrap;
+            animation: marquee 45s linear infinite;
+        }
+
+        .ticker-item {
+            display: flex;
+            align-items: center;
+            color: #e2e8f0;
+            font-size: 15px;
+            padding: 0 35px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .ticker-item::after {
+            content: '✦';
+            background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-left: 70px;
+            font-size: 13px;
+            filter: drop-shadow(0 0 5px var(--color-primary-glow));
+        }
+
+        @keyframes marquee {
+            0% { transform: translate3d(0, 0, 0); }
+            100% { transform: translate3d(-50%, 0, 0); }
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
     </style>
 </head>
 <body>
@@ -49,34 +659,122 @@
                 <div class="tagline">Jomtien / Pattaya</div>
             </div>
         </div>
-        <div class="header-title">Infotainment Portal</div>
+        <div class="header-right">
+            <div class="header-title">Infotainment Portal</div>
+            <div id="header-clock" class="header-clock">
+                <span class="clock-date">Lade Uhrzeit...</span>
+                <span class="clock-time">00:00</span>
+            </div>
+        </div>
     </header>
 
     <div class="main">
-        <iframe id="windy" src="https://embed.windy.com/embed2.html?lat=12.923&lon=100.883&zoom=9&overlay=radar&autoplay=true&play=1"></iframe>
-        <div class="sidebar">
-            <div class="widget"><div class="title">💶 EXCHANGE RATES</div><div id="cur"></div></div>
-            <div class="widget">
-                <div class="title">🌡️ WEATHER & AIR QUALITY</div>
-                <div id="wea" style="font-size: 14px; line-height: 1.6;"></div>
-                <div id="aqi" style="font-size: 13px; margin-top:5px; color:#ffeb3b;"></div>
-                <div id="ale" style="color:#ff003c; font-weight:bold; margin-top:10px;"></div>
+        <div id="windy-container">
+            <iframe id="windy" src="https://embed.windy.com/embed2.html?lat=12.923&lon=100.883&zoom=9&overlay=radar&autoplay=true&play=1&message=false&marker=false"></iframe>
+            <div id="map-overlay" class="map-overlay">
+                <div class="spinner"></div>
+                <div class="spinner-text">Lade Wetterradar...</div>
             </div>
-            <div class="widget"><div id="flt-t" class="title">✈️ FLIGHTS</div><table class="flight-table"><tbody id="flt-b"></tbody></table></div>
+        </div>
+        
+        <div class="sidebar">
+            <!-- Exchange Rates Card -->
+            <div class="card">
+                <div class="card-header-container">
+                    <div class="card-title">💶 WECHSELKURSE (THB)</div>
+                    <div class="card-header-dot"></div>
+                </div>
+                <div class="card-title-line"></div>
+                <div id="cur-grid" class="currency-grid">
+                    <!-- Loaded dynamically -->
+                </div>
+            </div>
+            
+            <!-- Weather and Air Quality Card -->
+            <div class="card">
+                <div class="card-header-container">
+                    <div class="card-title">🌡️ WETTER & LUFTQUALITÄT</div>
+                    <div class="card-header-dot"></div>
+                </div>
+                <div class="card-title-line"></div>
+                <div class="weather-container">
+                    <div class="weather-main">
+                        <div class="weather-temp-box">
+                            <span id="wea-temp" class="weather-temp">--</span>
+                            <span class="weather-unit">°C</span>
+                        </div>
+                        <div class="weather-stats">
+                            <div>Gefühlt: <span id="wea-feel" class="weather-stat-val">--°C</span></div>
+                            <div>Wind: <span id="wea-wind" class="weather-stat-val">--</span></div>
+                        </div>
+                    </div>
+                    
+                    <div class="aqi-container">
+                        <span class="aqi-label">Luftqualität (AQI)</span>
+                        <span id="wea-aqi" class="aqi-badge">Lade...</span>
+                    </div>
+                    
+                    <div id="alert-banner" class="alert-banner" style="display: none;">
+                        <!-- Active alerts will be inserted here -->
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Flights Schedule Card -->
+            <div class="card flights-card">
+                <div class="flights-header">
+                    <div class="card-title">✈️ FLUGPLAN</div>
+                    <div class="flight-tabs">
+                        <span id="tab-arr" class="flight-tab active" onclick="selectFlightsMode('ARR')">Ankunft</span>
+                        <span id="tab-dep" class="flight-tab" onclick="selectFlightsMode('DEP')">Abflug</span>
+                    </div>
+                </div>
+                <div class="card-title-line"></div>
+                <div class="flight-table-container">
+                    <table class="flight-table">
+                        <thead>
+                            <tr>
+                                <th>Zeit</th>
+                                <th>Flug</th>
+                                <th>Stadt</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="flt-b">
+                            <!-- Loaded dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
-    <div id="ticker" class="ticker">Lade News...</div>
+    
+    <!-- Scrolling News Ticker -->
+    <div class="ticker-container">
+        <div class="ticker-title">Pattaya News</div>
+        <div class="ticker-wrap">
+            <div id="ticker-track" class="ticker-track">
+                <div class="ticker-item">Lade Nachrichten...</div>
+            </div>
+        </div>
+    </div>
 
     <script>
-        var gData = null; var fMode = "ARR"; var curB = 0;
+        var gData = null;
+        var fMode = "ARR";
+        var loadTimeout = null;
         
         function update() {
             var xhr = new XMLHttpRequest();
             xhr.open("GET", "roskilde_data.json?t=" + new Date().getTime(), true);
             xhr.onreadystatechange = function() {
                 if(xhr.readyState == 4 && xhr.status == 200) {
-                    gData = JSON.parse(xhr.responseText);
-                    render();
+                    try {
+                        gData = JSON.parse(xhr.responseText);
+                        render();
+                    } catch(e) {
+                        console.error("Error parsing roskilde_data.json", e);
+                    }
                 }
             };
             xhr.send();
@@ -84,42 +782,201 @@
 
         function render() {
             if(!gData) return;
-            // Währungen
+            
+            // 1. Currencies (Show all 6 at once in a 2x3 grid)
+            var cGrid = document.getElementById('cur-grid');
             var cHtml = "";
-            var keys = Object.keys(gData.currencies).filter(function(x){return !x.includes("trend")});
-            var idx1 = (curB * 2) % keys.length;
-            var idx2 = (curB * 2 + 1) % keys.length;
-            cHtml += "<div class='currency-row'><span>"+keys[idx1]+"/THB</span><span class='val'>"+gData.currencies[keys[idx1]]+" "+gData.currencies[keys[idx1]+"_trend"]+"</span></div>";
-            cHtml += "<div class='currency-row'><span>"+keys[idx2]+"/THB</span><span class='val'>"+gData.currencies[keys[idx2]]+" "+gData.currencies[keys[idx2]+"_trend"]+"</span></div>";
-            document.getElementById('cur').innerHTML = cHtml;
+            var keys = ["EUR", "USD", "DKK", "NOK", "AUD", "RUB"];
+            var flags = {
+                "EUR": "🇪🇺",
+                "USD": "🇺🇸",
+                "DKK": "🇩🇰",
+                "NOK": "🇳🇴",
+                "AUD": "🇦🇺",
+                "RUB": "🇷🇺"
+            };
             
-            // Wetter
-            document.getElementById('wea').innerHTML = "🌡️ " + gData.weather.temp + "°C (Gefühlt: " + gData.weather.feels_like + "°C)<br>💨 Wind: " + gData.weather.wind_speed + " km/h " + gData.weather.wind_dir;
-            document.getElementById('aqi').innerText = "😷 Luftqualität (AQI): " + gData.weather.aqi_value + " (" + gData.weather.aqi_status + ")";
-            document.getElementById('ale').innerText = gData.alert.active ? gData.alert.message : "";
+            keys.forEach(function(key) {
+                if (gData.currencies[key]) {
+                    var val = gData.currencies[key];
+                    var trendSymbol = gData.currencies[key + "_trend"] || "→";
+                    var trendClass = "trend-flat";
+                    if (trendSymbol === "↑") trendClass = "trend-up";
+                    if (trendSymbol === "↓") trendClass = "trend-down";
+                    
+                    var flag = flags[key] || "💵";
+                    
+                    cHtml += '<div class="currency-item">' +
+                                '<div class="currency-label"><span>' + flag + '</span>' + key + '/THB</div>' +
+                                '<div class="currency-val ' + trendClass + '">' + val + ' ' + trendSymbol + '</div>' +
+                             '</div>';
+                }
+            });
+            cGrid.innerHTML = cHtml;
             
-            // Flüge
-            document.getElementById('flt-t').innerText = "✈️ FLIGHTS (" + (fMode=="ARR" ? "ARRIVALS" : "DEPARTURES") + ")";
-            var fHtml = "";
-            for(var i=0; i<gData.flights.length; i++) {
-                if(gData.flights[i].type == fMode) fHtml += "<tr><td>"+gData.flights[i].time+"</td><td>"+gData.flights[i].city+"</td><td>"+gData.flights[i].status+"</td></tr>";
+            // 2. Weather & Air Quality
+            document.getElementById('wea-temp').innerText = gData.weather.temp;
+            document.getElementById('wea-feel').innerText = gData.weather.feels_like + "°C";
+            document.getElementById('wea-wind').innerText = gData.weather.wind_speed + " km/h " + gData.weather.wind_dir;
+            
+            var aqiBadge = document.getElementById('wea-aqi');
+            aqiBadge.innerText = gData.weather.aqi_value + " (" + gData.weather.aqi_status + ")";
+            var aqiColor = gData.weather.aqi_color || "#00e676";
+            aqiBadge.style.setProperty('--aqi-glow', aqiColor);
+            
+            // 3. Alerts
+            var alertBanner = document.getElementById('alert-banner');
+            if (gData.alert && gData.alert.active) {
+                alertBanner.innerText = gData.alert.message;
+                alertBanner.style.display = "block";
+            } else {
+                alertBanner.style.display = "none";
             }
-            document.getElementById('flt-b').innerHTML = fHtml;
+            
+            // 4. News Ticker
+            var tickerTrack = document.getElementById('ticker-track');
+            var currentNewsJoined = gData.news.join(" | ");
+            if (tickerTrack.getAttribute('data-joined') !== currentNewsJoined) {
+                tickerTrack.setAttribute('data-joined', currentNewsJoined);
+                var newsHtml = "";
+                gData.news.forEach(function(headline) {
+                    newsHtml += '<div class="ticker-item">' + headline + '</div>';
+                });
+                tickerTrack.innerHTML = newsHtml + newsHtml; // Repeated twice for seamless marquee loop
+            }
+            
+            // 5. Flights List
+            renderFlights();
         }
 
-        // Intervalle
-        setInterval(function() { curB = (curB + 1) % 3; render(); }, 10000);
-        setInterval(function() { fMode = (fMode == "ARR") ? "DEP" : "ARR"; render(); }, 15000);
-        setInterval(function() { if(gData) document.getElementById('ticker').innerText = gData.news[Math.floor(Math.random()*gData.news.length)]; }, 8000);
-        
-        // Radar Rotation
-        setInterval(function() {
-            var isPattaya = document.getElementById('windy').src.includes("12.923");
+        function renderFlights() {
+            if (!gData) return;
+            
+            // Update tabs active state
+            var arrTab = document.getElementById('tab-arr');
+            var depTab = document.getElementById('tab-dep');
+            if (fMode === "ARR") {
+                arrTab.classList.add('active');
+                depTab.classList.remove('active');
+            } else {
+                arrTab.classList.remove('active');
+                depTab.classList.add('active');
+            }
+            
+            // Render list
+            var tbody = document.getElementById('flt-b');
+            var fHtml = "";
+            
+            var filteredFlights = gData.flights.filter(function(f) {
+                return f.type === fMode;
+            });
+            
+            if (filteredFlights.length === 0) {
+                fHtml = '<tr><td colspan="4" style="text-align: center; color: var(--text-muted); padding: 30px;">Keine Flüge vorhanden</td></tr>';
+            } else {
+                filteredFlights.forEach(function(f) {
+                    var statusStr = f.status || "";
+                    var cleanStatus = statusStr.toLowerCase();
+                    var badgeCls = "badge-info";
+                    
+                    if (cleanStatus.includes("landed") || cleanStatus.includes("arrived") || cleanStatus.includes("gelandet")) {
+                        badgeCls = "badge-success";
+                    } else if (cleanStatus.includes("departed") || cleanStatus.includes("gestartet")) {
+                        badgeCls = "badge-danger";
+                    } else if (cleanStatus.includes("scheduled") || cleanStatus.includes("geplant")) {
+                        badgeCls = "badge-info";
+                    } else if (cleanStatus.includes("delayed") || cleanStatus.includes("verspätet")) {
+                        badgeCls = "badge-warning";
+                    }
+                    
+                    var badgeHtml = '<span class="flight-badge ' + badgeCls + '">' + statusStr.toUpperCase() + '</span>';
+                    
+                    fHtml += '<tr>' +
+                                '<td style="font-variant-numeric: tabular-nums; font-weight: 800; color: var(--color-primary);">' + f.time + '</td>' +
+                                '<td class="flight-no">' + f.flight_no + '</td>' +
+                                '<td>' + f.city + '</td>' +
+                                '<td>' + badgeHtml + '</td>' +
+                             '</tr>';
+                });
+            }
+            
+            tbody.innerHTML = fHtml;
+        }
+
+        function toggleFlightsMode() {
+            var tbody = document.getElementById('flt-b');
+            tbody.classList.add('fade-out');
+            
+            setTimeout(function() {
+                fMode = (fMode === "ARR") ? "DEP" : "ARR";
+                renderFlights();
+                tbody.classList.remove('fade-out');
+            }, 250);
+        }
+
+        function selectFlightsMode(mode) {
+            if (fMode === mode) return;
+            var tbody = document.getElementById('flt-b');
+            tbody.classList.add('fade-out');
+            
+            setTimeout(function() {
+                fMode = mode;
+                renderFlights();
+                tbody.classList.remove('fade-out');
+            }, 250);
+        }
+
+        function rotateRadar() {
+            var iframe = document.getElementById('windy');
+            var overlay = document.getElementById('map-overlay');
+            
+            overlay.classList.add('active');
+            iframe.classList.add('iframe-loading');
+            
+            if (loadTimeout) clearTimeout(loadTimeout);
+            
+            var isPattaya = iframe.src.includes("12.923");
             var baseUrl = isPattaya ? "https://embed.windy.com/embed2.html?lat=13.000&lon=101.000&zoom=6" : "https://embed.windy.com/embed2.html?lat=12.923&lon=100.883&zoom=9";
-            document.getElementById('windy').src = baseUrl + "&overlay=radar&autoplay=true&play=1&message=false&marker=false";
-        }, 45000);
+            
+            iframe.src = baseUrl + "&overlay=radar&autoplay=true&play=1&message=false&marker=false";
+            
+            var handleLoad = function() {
+                overlay.classList.remove('active');
+                iframe.classList.remove('iframe-loading');
+                if (loadTimeout) clearTimeout(loadTimeout);
+            };
+            
+            iframe.onload = handleLoad;
+            loadTimeout = setTimeout(handleLoad, 4000); // Safety timeout
+        }
+
+        function updateClock() {
+            var now = new Date();
+            var days = ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"];
+            var day = days[now.getDay()];
+            var date = now.getDate().toString().padStart(2, '0') + "." + (now.getMonth() + 1).toString().padStart(2, '0') + "." + now.getFullYear();
+            var time = now.getHours().toString().padStart(2, '0') + ":" + now.getMinutes().toString().padStart(2, '0');
+            
+            document.getElementById('header-clock').innerHTML = 
+                '<span class="clock-date">' + day + ', ' + date + '</span>' +
+                '<span class="clock-time">' + time + '</span>';
+        }
+
+        // Intervals & Handlers
+        // Auto-toggle between Arrivals and Departures every 15 seconds
+        setInterval(toggleFlightsMode, 15000);
         
+        // Rotate the radar area zoom levels every 45 seconds
+        setInterval(rotateRadar, 45000);
+        
+        // Fetch fresh JSON data every 20 seconds
         setInterval(update, 20000);
+        
+        // Update the header clock every second (fast update to keep it accurate)
+        setInterval(updateClock, 1000);
+        
+        // Initial executions
+        updateClock();
         update();
     </script>
 </body>
