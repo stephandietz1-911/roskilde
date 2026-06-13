@@ -14,10 +14,10 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "35",
-    "wind_speed": "9",
-    "wind_dir": "SSW",
+    "temp": "28",
+    "feels_like": "34",
+    "wind_speed": "6",
+    "wind_dir": "S",
     "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#00e676"
@@ -27,7 +27,11 @@
     "message": ""
   },
   "news": [
-    "ROS KILDE: Welcome to our Infotainment Portal."
+    "TERMINAL 21 Pattaya 4K Complete Walking Tour Shopping Mall And Restaurants Thailand 720p Rayo Vallecano Vs Girona Fc Standings",
+    "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism",
+    "I Avoided Bar Fines… Until Now | My Pattaya Experience Daryl Morey",
+    "Thailand Expands Year Round Tourism Through Events, Wellness and Culinary Travel, Everything You Need to Know",
+    "Fire breaks out at hotel in Thailand’s popular Pattaya area"
   ],
   "flights": [
     {
@@ -80,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-13 15:53:04"
+  "last_update": "2026-06-13 20:49:42"
 }
