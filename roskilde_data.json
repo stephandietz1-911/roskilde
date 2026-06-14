@@ -1,23 +1,23 @@
 {
   "currencies": {
-    "EUR": "37.89",
-    "EUR_trend": "→",
+    "EUR": "37.88",
+    "EUR_trend": "↓",
     "DKK": "5.08",
     "DKK_trend": "→",
     "NOK": "3.44",
     "NOK_trend": "→",
-    "USD": "32.74",
-    "USD_trend": "→",
-    "AUD": "23.06",
-    "AUD_trend": "→",
+    "USD": "32.73",
+    "USD_trend": "↓",
+    "AUD": "23.05",
+    "AUD_trend": "↓",
     "RUB": "0.45",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "34",
-    "wind_speed": "6",
-    "wind_dir": "S",
+    "temp": "31",
+    "feels_like": "35",
+    "wind_speed": "12",
+    "wind_dir": "SW",
     "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#00e676"
@@ -27,11 +27,11 @@
     "message": ""
   },
   "news": [
-    "TERMINAL 21 Pattaya 4K Complete Walking Tour Shopping Mall And Restaurants Thailand 720p Rayo Vallecano Vs Girona Fc Standings",
     "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism",
     "I Avoided Bar Fines… Until Now | My Pattaya Experience Daryl Morey",
-    "Thailand Expands Year Round Tourism Through Events, Wellness and Culinary Travel, Everything You Need to Know",
-    "Fire breaks out at hotel in Thailand’s popular Pattaya area"
+    "TERMINAL 21 Pattaya 4K Complete Walking Tour Shopping Mall And Restaurants Thailand 720p Rayo Vallecano Vs Girona Fc Standings",
+    "Pattaya taxi motorsai says assaulted by foreign tourists",
+    "Thailand Unveils Bold New Era of Global Tourism in Pattaya as Wellness Travel Sustainability and Massive International Deals Transform the Thailand Travel Mart Plus 2026 Into a Game Changing Industry Showcase"
   ],
   "flights": [
     {
@@ -84,5 +84,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-13 20:49:42"
+  "last_update": "2026-06-14 08:56:32"
 }
