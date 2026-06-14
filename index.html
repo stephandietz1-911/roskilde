@@ -61,7 +61,7 @@
             border-bottom: 2px solid;
             border-image: linear-gradient(90deg, var(--color-primary), var(--color-secondary)) 1;
             box-shadow: 0 4px 30px rgba(0, 242, 254, 0.15);
-            height: 75px;
+            height: 65px;
             z-index: 10;
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
@@ -73,7 +73,7 @@
         }
 
         .logo-text h1 {
-            font-size: 28px;
+            font-size: 24px;
             font-weight: 900;
             color: #fff;
             letter-spacing: 0.5px;
@@ -89,7 +89,7 @@
         }
 
         .tagline {
-            font-size: 10px;
+            font-size: 9px;
             color: var(--text-muted);
             text-transform: uppercase;
             letter-spacing: 3px;
@@ -104,7 +104,7 @@
         }
 
         .header-title {
-            font-size: 15px;
+            font-size: 14px;
             color: var(--text-muted);
             font-weight: 800;
             letter-spacing: 2.5px;
@@ -121,7 +121,7 @@
         }
 
         .clock-date {
-            font-size: 11px;
+            font-size: 9px;
             color: var(--text-muted);
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -129,7 +129,7 @@
         }
 
         .clock-time {
-            font-size: 24px;
+            font-size: 20px;
             font-weight: 900;
             background: linear-gradient(135deg, #ffffff 40%, var(--color-primary) 100%);
             -webkit-background-clip: text;
@@ -140,7 +140,7 @@
         .main {
             display: flex;
             flex: 1;
-            height: calc(100vh - 135px);
+            height: calc(100vh - 120px);
             overflow: hidden;
         }
 
@@ -206,12 +206,12 @@
 
         .sidebar {
             width: 38%;
-            padding: 20px;
+            padding: 12px;
             background: var(--bg-sidebar);
-            overflow-y: auto;
+            overflow: hidden;
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: 12px;
             backdrop-filter: blur(15px);
             -webkit-backdrop-filter: blur(15px);
         }
@@ -233,8 +233,8 @@
             backdrop-filter: blur(20px);
             -webkit-backdrop-filter: blur(20px);
             border: 1px solid var(--card-border);
-            border-radius: 16px;
-            padding: 18px 22px;
+            border-radius: 12px;
+            padding: 12px 15px;
             box-shadow: var(--card-shadow);
             position: relative;
             overflow: hidden;
@@ -244,32 +244,32 @@
         .card:hover {
             border-color: rgba(0, 242, 254, 0.35);
             box-shadow: 0 12px 40px rgba(0, 242, 254, 0.08);
-            transform: translateY(-2px);
+            transform: translateY(-1px);
         }
 
         .card-header-container {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 12px;
+            margin-bottom: 8px;
         }
 
         .card-title {
             color: var(--color-primary);
-            font-size: 13px;
+            font-size: 12px;
             font-weight: 900;
             text-transform: uppercase;
-            letter-spacing: 2px;
+            letter-spacing: 1.5px;
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: 6px;
         }
 
         .card-title-line {
             height: 2px;
             width: 100%;
             background: linear-gradient(90deg, var(--color-primary), var(--color-secondary), transparent);
-            margin-bottom: 14px;
+            margin-bottom: 10px;
             border-radius: 1px;
             opacity: 0.8;
         }
@@ -292,14 +292,14 @@
         .currency-grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            gap: 12px;
+            gap: 8px;
         }
 
         .currency-item {
             background: rgba(255, 255, 255, 0.01);
             border: 1px solid rgba(255, 255, 255, 0.04);
-            border-radius: 10px;
-            padding: 10px 14px;
+            border-radius: 6px;
+            padding: 6px 10px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -312,7 +312,7 @@
         }
 
         .currency-label {
-            font-size: 14px;
+            font-size: 12px;
             font-weight: 700;
             color: #94a3b8;
             display: flex;
@@ -321,7 +321,7 @@
         }
 
         .currency-val {
-            font-size: 16px;
+            font-size: 13px;
             font-weight: 800;
             font-variant-numeric: tabular-nums;
         }
@@ -342,7 +342,7 @@
         .weather-container {
             display: flex;
             flex-direction: column;
-            gap: 14px;
+            gap: 10px;
         }
 
         .weather-main {
@@ -358,26 +358,26 @@
         }
 
         .weather-temp {
-            font-size: 46px;
+            font-size: 32px;
             font-weight: 900;
             background: linear-gradient(135deg, #ffffff 40%, var(--color-primary) 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             line-height: 1;
-            filter: drop-shadow(0 0 15px rgba(0, 242, 254, 0.25));
+            filter: drop-shadow(0 0 10px rgba(0, 242, 254, 0.25));
         }
 
         .weather-unit {
-            font-size: 22px;
+            font-size: 16px;
             color: var(--color-primary);
             font-weight: 700;
         }
 
         .weather-feel {
-            font-size: 13px;
+            font-size: 11px;
             color: #64748b;
             font-weight: 600;
-            margin-top: 4px;
+            margin-top: 2px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
@@ -385,9 +385,9 @@
         .weather-stats {
             display: flex;
             flex-direction: column;
-            gap: 6px;
+            gap: 3px;
             align-items: flex-end;
-            font-size: 14px;
+            font-size: 12px;
         }
 
         .weather-stat-val {
@@ -401,13 +401,13 @@
             align-items: center;
             background: rgba(0, 0, 0, 0.3);
             border: 1px solid rgba(255, 255, 255, 0.05);
-            border-radius: 10px;
-            padding: 10px 14px;
-            margin-top: 4px;
+            border-radius: 6px;
+            padding: 6px 10px;
+            margin-top: 0px;
         }
 
         .aqi-label {
-            font-size: 13px;
+            font-size: 11px;
             color: #94a3b8;
             font-weight: 700;
             text-transform: uppercase;
@@ -415,9 +415,9 @@
         }
 
         .aqi-badge {
-            padding: 4px 12px;
+            padding: 3px 8px;
             border-radius: 20px;
-            font-size: 12px;
+            font-size: 10px;
             font-weight: 900;
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -430,12 +430,12 @@
         .alert-banner {
             background: linear-gradient(90deg, rgba(239, 68, 68, 0.2) 0%, rgba(239, 68, 68, 0.03) 100%);
             border-left: 4px solid var(--color-danger);
-            padding: 12px 16px;
-            border-radius: 8px;
-            font-size: 13px;
+            padding: 10px 14px;
+            border-radius: 6px;
+            font-size: 12px;
             font-weight: 700;
             color: #fca5a5;
-            margin-top: 8px;
+            margin-top: 6px;
             line-height: 1.4;
             animation: alert-pulse 2s infinite ease-in-out;
         }
@@ -457,7 +457,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 6px;
+            margin-bottom: 2px;
         }
 
         .flights-header .card-title {
@@ -466,14 +466,14 @@
 
         .flight-tabs {
             display: flex;
-            gap: 8px;
+            gap: 6px;
         }
 
         .flight-tab {
-            font-size: 11px;
+            font-size: 10px;
             font-weight: 900;
-            padding: 4px 10px;
-            border-radius: 6px;
+            padding: 3px 8px;
+            border-radius: 4px;
             text-transform: uppercase;
             letter-spacing: 1px;
             background: rgba(255, 255, 255, 0.03);
@@ -493,28 +493,28 @@
         .flight-table-container {
             flex: 1;
             overflow-y: auto;
-            margin-top: 10px;
+            margin-top: 4px;
         }
 
         .flight-table {
             width: 100%;
             border-collapse: collapse;
-            font-size: 14px;
+            font-size: 12px;
             text-align: left;
         }
 
         .flight-table th {
-            font-size: 11px;
+            font-size: 10px;
             font-weight: 800;
             color: #64748b;
             text-transform: uppercase;
-            letter-spacing: 1.5px;
-            padding: 8px;
+            letter-spacing: 1px;
+            padding: 6px 6px;
             border-bottom: 2px solid rgba(255, 255, 255, 0.06);
         }
 
         .flight-table td {
-            padding: 11px 8px;
+            padding: 6px 6px;
             border-bottom: 1px solid rgba(255, 255, 255, 0.02);
             font-weight: 600;
         }
@@ -540,9 +540,9 @@
 
         .flight-badge {
             display: inline-block;
-            padding: 3px 8px;
+            padding: 2px 6px;
             border-radius: 4px;
-            font-size: 10px;
+            font-size: 9px;
             font-weight: 900;
             text-transform: uppercase;
             letter-spacing: 0.8px;
@@ -557,7 +557,7 @@
         /* Scrolling News Ticker */
         .ticker-container {
             width: 100%;
-            height: 60px;
+            height: 55px;
             background: #040710;
             border-top: 2px solid;
             border-image: linear-gradient(90deg, var(--color-primary), var(--color-secondary)) 1;
@@ -624,8 +624,8 @@
             display: flex;
             align-items: center;
             color: #e2e8f0;
-            font-size: 15px;
-            padding: 0 35px;
+            font-size: 14px;
+            padding: 0 25px;
             font-weight: 600;
             letter-spacing: 0.5px;
         }
