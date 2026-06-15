@@ -288,14 +288,17 @@
             50% { transform: scale(1.6); opacity: 0.3; filter: drop-shadow(0 0 6px var(--color-primary)); }
         }
 
-        /* Currency Grid */
-        .currency-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 8px;
+        /* Currency Container */
+        .currency-container {
+            height: 32px;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
         }
 
         .currency-item {
+            width: 100%;
             background: rgba(255, 255, 255, 0.01);
             border: 1px solid rgba(255, 255, 255, 0.04);
             border-radius: 6px;
@@ -303,12 +306,12 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            transition: all 0.3s ease;
+            transition: opacity 0.25s ease-in-out;
+            opacity: 1;
         }
 
-        .currency-item:hover {
-            background: rgba(255, 255, 255, 0.03);
-            border-color: rgba(0, 242, 254, 0.2);
+        .currency-item.fade-out {
+            opacity: 0;
         }
 
         .currency-label {
@@ -342,10 +345,10 @@
         .weather-container {
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: 6px;
         }
 
-        .weather-main {
+        .weather-row-1 {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -353,78 +356,68 @@
 
         .weather-temp-box {
             display: flex;
-            align-items: baseline;
-            gap: 4px;
+            align-items: center;
+            gap: 8px;
         }
 
         .weather-temp {
-            font-size: 32px;
+            font-size: 24px;
             font-weight: 900;
             background: linear-gradient(135deg, #ffffff 40%, var(--color-primary) 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             line-height: 1;
-            filter: drop-shadow(0 0 10px rgba(0, 242, 254, 0.25));
+            filter: drop-shadow(0 0 8px rgba(0, 242, 254, 0.25));
         }
 
         .weather-unit {
-            font-size: 16px;
+            font-size: 14px;
             color: var(--color-primary);
             font-weight: 700;
+            margin-left: -4px;
+            margin-right: 4px;
         }
 
         .weather-feel {
             font-size: 11px;
             color: #64748b;
-            font-weight: 600;
-            margin-top: 2px;
+            font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
 
-        .weather-stats {
-            display: flex;
-            flex-direction: column;
-            gap: 3px;
-            align-items: flex-end;
-            font-size: 12px;
-        }
-
-        .weather-stat-val {
-            font-weight: 700;
-            color: #fff;
-        }
-
-        .aqi-container {
+        .weather-row-2 {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background: rgba(0, 0, 0, 0.3);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            border-radius: 6px;
-            padding: 6px 10px;
-            margin-top: 0px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 4px;
+            padding: 4px 10px;
+            font-size: 11px;
+            font-weight: 700;
         }
 
-        .aqi-label {
-            font-size: 11px;
-            color: #94a3b8;
-            font-weight: 700;
+        .weather-label {
+            color: #64748b;
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
 
+        .weather-stat-val {
+            color: #fff;
+        }
+
         .aqi-badge {
-            padding: 3px 8px;
-            border-radius: 20px;
-            font-size: 10px;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 9px;
             font-weight: 900;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 0.5px;
             color: #fff !important;
-            font-variant-numeric: tabular-nums;
-            box-shadow: 0 0 10px var(--aqi-glow, var(--color-success));
+            box-shadow: 0 0 8px var(--aqi-glow, var(--color-success));
             border: 1px solid var(--aqi-glow, var(--color-success));
+            font-variant-numeric: tabular-nums;
         }
 
         .alert-banner {
@@ -685,8 +678,8 @@
                     <div class="card-header-dot"></div>
                 </div>
                 <div class="card-title-line"></div>
-                <div id="cur-grid" class="currency-grid">
-                    <!-- Loaded dynamically -->
+                <div id="cur-box" class="currency-container">
+                    <!-- Loaded dynamically (rotated one row at a time) -->
                 </div>
             </div>
             
@@ -698,20 +691,18 @@
                 </div>
                 <div class="card-title-line"></div>
                 <div class="weather-container">
-                    <div class="weather-main">
+                    <div class="weather-row-1">
                         <div class="weather-temp-box">
                             <span id="wea-temp" class="weather-temp">--</span>
                             <span class="weather-unit">°C</span>
+                            <span id="wea-feel" class="weather-feel">Gefühlt: --°C</span>
                         </div>
-                        <div class="weather-stats">
-                            <div>Gefühlt: <span id="wea-feel" class="weather-stat-val">--°C</span></div>
-                            <div>Wind: <span id="wea-wind" class="weather-stat-val">--</span></div>
-                        </div>
+                        <span id="wea-aqi" class="aqi-badge">Lade...</span>
                     </div>
                     
-                    <div class="aqi-container">
-                        <span class="aqi-label">Luftqualität (AQI)</span>
-                        <span id="wea-aqi" class="aqi-badge">Lade...</span>
+                    <div class="weather-row-2">
+                        <span class="weather-label">💨 WIND</span>
+                        <span id="wea-wind" class="weather-stat-val">--</span>
                     </div>
                     
                     <div id="alert-banner" class="alert-banner" style="display: none;">
@@ -762,6 +753,7 @@
     <script>
         var gData = null;
         var fMode = "ARR";
+        var curIdx = 0;
         var loadTimeout = null;
         
         function update() {
@@ -783,44 +775,16 @@
         function render() {
             if(!gData) return;
             
-            // 1. Currencies (Show all 6 at once in a 2x3 grid)
-            var cGrid = document.getElementById('cur-grid');
-            var cHtml = "";
-            var keys = ["EUR", "USD", "DKK", "NOK", "AUD", "RUB"];
-            var flags = {
-                "EUR": "🇪🇺",
-                "USD": "🇺🇸",
-                "DKK": "🇩🇰",
-                "NOK": "🇳🇴",
-                "AUD": "🇦🇺",
-                "RUB": "🇷🇺"
-            };
-            
-            keys.forEach(function(key) {
-                if (gData.currencies[key]) {
-                    var val = gData.currencies[key];
-                    var trendSymbol = gData.currencies[key + "_trend"] || "→";
-                    var trendClass = "trend-flat";
-                    if (trendSymbol === "↑") trendClass = "trend-up";
-                    if (trendSymbol === "↓") trendClass = "trend-down";
-                    
-                    var flag = flags[key] || "💵";
-                    
-                    cHtml += '<div class="currency-item">' +
-                                '<div class="currency-label"><span>' + flag + '</span>' + key + '/THB</div>' +
-                                '<div class="currency-val ' + trendClass + '">' + val + ' ' + trendSymbol + '</div>' +
-                             '</div>';
-                }
-            });
-            cGrid.innerHTML = cHtml;
+            // 1. Currencies (Show only one active row)
+            renderCurrency();
             
             // 2. Weather & Air Quality
             document.getElementById('wea-temp').innerText = gData.weather.temp;
-            document.getElementById('wea-feel').innerText = gData.weather.feels_like + "°C";
+            document.getElementById('wea-feel').innerText = "Gefühlt: " + gData.weather.feels_like + "°C";
             document.getElementById('wea-wind').innerText = gData.weather.wind_speed + " km/h " + gData.weather.wind_dir;
             
             var aqiBadge = document.getElementById('wea-aqi');
-            aqiBadge.innerText = gData.weather.aqi_value + " (" + gData.weather.aqi_status + ")";
+            aqiBadge.innerText = "AQI " + gData.weather.aqi_value + " (" + gData.weather.aqi_status + ")";
             var aqiColor = gData.weather.aqi_color || "#00e676";
             aqiBadge.style.setProperty('--aqi-glow', aqiColor);
             
@@ -847,6 +811,49 @@
             
             // 5. Flights List
             renderFlights();
+        }
+
+        function renderCurrency() {
+            if (!gData) return;
+            var curBox = document.getElementById('cur-box');
+            var keys = ["EUR", "USD", "DKK", "NOK", "AUD", "RUB"];
+            var flags = {
+                "EUR": "🇪🇺",
+                "USD": "🇺🇸",
+                "DKK": "🇩🇰",
+                "NOK": "🇳🇴",
+                "AUD": "🇦🇺",
+                "RUB": "🇷🇺"
+            };
+            
+            var key = keys[curIdx];
+            var val = gData.currencies[key] || "--";
+            var trendSymbol = gData.currencies[key + "_trend"] || "→";
+            var trendClass = "trend-flat";
+            if (trendSymbol === "↑") trendClass = "trend-up";
+            if (trendSymbol === "↓") trendClass = "trend-down";
+            
+            var flag = flags[key] || "💵";
+            
+            curBox.innerHTML = '<div class="currency-item">' +
+                                  '<div class="currency-label"><span>' + flag + '</span>' + key + '/THB</div>' +
+                                  '<div class="currency-val ' + trendClass + '">' + val + ' ' + trendSymbol + '</div>' +
+                               '</div>';
+        }
+
+        function rotateCurrency() {
+            if (!gData) return;
+            var curBox = document.getElementById('cur-box');
+            var itemEl = curBox.querySelector('.currency-item');
+            if (itemEl) {
+                itemEl.classList.add('fade-out');
+            }
+            
+            setTimeout(function() {
+                var keys = ["EUR", "USD", "DKK", "NOK", "AUD", "RUB"];
+                curIdx = (curIdx + 1) % keys.length;
+                renderCurrency();
+            }, 250);
         }
 
         function renderFlights() {
@@ -965,6 +972,9 @@
         // Intervals & Handlers
         // Auto-toggle between Arrivals and Departures every 15 seconds
         setInterval(toggleFlightsMode, 15000);
+        
+        // Auto-rotate the exchange rate row every 8 seconds
+        setInterval(rotateCurrency, 8000);
         
         // Rotate the radar area zoom levels every 45 seconds
         setInterval(rotateRadar, 45000);
