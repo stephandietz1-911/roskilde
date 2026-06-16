@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -290,7 +290,7 @@
 
         /* Currency Container */
         .currency-container {
-            height: 32px;
+            height: 44px;
             position: relative;
             overflow: hidden;
             display: flex;
@@ -299,10 +299,10 @@
 
         .currency-item {
             width: 100%;
-            background: rgba(255, 255, 255, 0.01);
-            border: 1px solid rgba(255, 255, 255, 0.04);
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.06);
             border-radius: 6px;
-            padding: 6px 10px;
+            padding: 8px 12px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -315,38 +315,43 @@
         }
 
         .currency-label {
-            font-size: 12px;
+            font-size: 14px;
             font-weight: 700;
-            color: #94a3b8;
+            color: #cbd5e1;
             display: flex;
             align-items: center;
             gap: 8px;
         }
 
         .currency-val {
-            font-size: 13px;
+            font-size: 20px;
             font-weight: 800;
+            color: #fff;
             font-variant-numeric: tabular-nums;
+            display: flex;
+            align-items: center;
         }
 
         .trend-up {
-            color: var(--color-success);
-            text-shadow: 0 0 8px rgba(16, 185, 129, 0.3);
+            color: #10b981;
+            text-shadow: 0 0 12px rgba(16, 185, 129, 0.6);
         }
         .trend-down {
-            color: var(--color-danger);
-            text-shadow: 0 0 8px rgba(239, 68, 68, 0.3);
+            color: #ef4444;
+            text-shadow: 0 0 12px rgba(239, 68, 68, 0.6);
         }
         .trend-flat {
-            color: var(--color-warning);
-            text-shadow: 0 0 8px rgba(245, 158, 11, 0.3);
+            color: #f59e0b;
+            text-shadow: 0 0 12px rgba(245, 158, 11, 0.6);
         }
 
         .trend-arrow {
-            font-size: 16px;
+            font-size: 26px;
             font-weight: 900;
-            margin-left: 6px;
-            display: inline-block;
+            margin-left: 8px;
+            display: inline-flex;
+            align-items: center;
+            line-height: 1;
         }
 
         /* Weather details */
@@ -485,6 +490,7 @@
 
         .flights-header .card-title {
             margin-bottom: 0;
+            white-space: nowrap;
         }
 
         .flight-tabs {
@@ -685,7 +691,7 @@
         <div class="header-right">
             <div class="header-title">Infotainment Portal</div>
             <div id="header-clock" class="header-clock">
-                <span class="clock-date">Lade Uhrzeit...</span>
+                <span class="clock-date">Loading clock...</span>
                 <span class="clock-time">00:00</span>
             </div>
         </div>
@@ -696,7 +702,7 @@
             <iframe id="windy" src="https://embed.windy.com/embed2.html?lat=12.923&lon=100.883&zoom=9&overlay=radar&autoplay=true&play=1&message=false&marker=false"></iframe>
             <div id="map-overlay" class="map-overlay">
                 <div class="spinner"></div>
-                <div class="spinner-text">Lade Wetterradar...</div>
+                <div class="spinner-text">Loading weather radar...</div>
             </div>
         </div>
         
@@ -704,7 +710,7 @@
             <!-- Exchange Rates Card -->
             <div class="card">
                 <div class="card-header-container">
-                    <div class="card-title">💶 WECHSELKURSE (THB)</div>
+                    <div class="card-title">💶 EXCHANGE RATES (THB)</div>
                     <div class="card-header-dot"></div>
                 </div>
                 <div class="card-title-line"></div>
@@ -716,7 +722,7 @@
             <!-- Weather and Air Quality Card -->
             <div class="card">
                 <div class="card-header-container">
-                    <div class="card-title">🌡️ WETTER & LUFTQUALITÄT</div>
+                    <div class="card-title">🌡️ WEATHER & AIR QUALITY</div>
                     <div class="card-header-dot"></div>
                 </div>
                 <div class="card-title-line"></div>
@@ -725,9 +731,9 @@
                         <div class="weather-temp-box">
                             <span id="wea-temp" class="weather-temp">--</span>
                             <span class="weather-unit">°C</span>
-                            <span id="wea-feel" class="weather-feel">Gefühlt: --°C</span>
+                            <span id="wea-feel" class="weather-feel">Feels like: --°C</span>
                         </div>
-                        <span id="wea-aqi" class="aqi-badge">Lade...</span>
+                        <span id="wea-aqi" class="aqi-badge">Loading...</span>
                     </div>
                     
                     <div class="weather-row-2">
@@ -736,8 +742,8 @@
                     </div>
 
                     <div class="weather-row-3">
-                        <span class="weather-label">☀️ UV-INDEX</span>
-                        <span id="wea-uv" class="uv-badge">Lade...</span>
+                        <span class="weather-label">☀️ UV INDEX</span>
+                        <span id="wea-uv" class="uv-badge">Loading...</span>
                     </div>
                     
                     <div id="alert-banner" class="alert-banner" style="display: none;">
@@ -749,10 +755,10 @@
             <!-- Flights Schedule Card -->
             <div class="card flights-card">
                 <div class="flights-header">
-                    <div class="card-title">✈️ FLUGPLAN BKK</div>
+                    <div class="card-title">✈️ FLIGHTS BKK</div>
                     <div class="flight-tabs">
-                        <span id="tab-arr" class="flight-tab active" onclick="selectFlightsMode('ARR')">Ankunft</span>
-                        <span id="tab-dep" class="flight-tab" onclick="selectFlightsMode('DEP')">Abflug</span>
+                        <span id="tab-arr" class="flight-tab active" onclick="selectFlightsMode('ARR')">Arrivals</span>
+                        <span id="tab-dep" class="flight-tab" onclick="selectFlightsMode('DEP')">Departures</span>
                     </div>
                 </div>
                 <div class="card-title-line"></div>
@@ -760,9 +766,9 @@
                     <table class="flight-table">
                         <thead>
                             <tr>
-                                <th>Zeit</th>
-                                <th>Flug</th>
-                                <th>Stadt</th>
+                                <th>Time</th>
+                                <th>Flight</th>
+                                <th>City</th>
                                 <th>Status</th>
                             </tr>
                         </thead>
@@ -780,7 +786,7 @@
         <div class="ticker-title">Pattaya News</div>
         <div class="ticker-wrap">
             <div id="ticker-track" class="ticker-track">
-                <div class="ticker-item">Lade Nachrichten...</div>
+                <div class="ticker-item">Loading news...</div>
             </div>
         </div>
     </div>
@@ -815,7 +821,7 @@
             
             // 2. Weather & Air Quality
             document.getElementById('wea-temp').innerText = gData.weather.temp;
-            document.getElementById('wea-feel').innerText = "Gefühlt: " + gData.weather.feels_like + "°C";
+            document.getElementById('wea-feel').innerText = "Feels like: " + gData.weather.feels_like + "°C";
             document.getElementById('wea-wind').innerText = gData.weather.wind_speed + " km/h " + gData.weather.wind_dir;
             
             var aqiBadge = document.getElementById('wea-aqi');
@@ -826,23 +832,23 @@
             // Bind UV index
             var uvVal = parseFloat(gData.weather.uv_index) || 0.0;
             var uvBadge = document.getElementById('wea-uv');
-            var uvStatus = "Niedrig";
+            var uvStatus = "Low";
             var uvColor = "#10b981"; // Green
             var isUvWarning = false;
             
             if (uvVal >= 11.0) {
-                uvStatus = "Extrem";
+                uvStatus = "Extreme";
                 uvColor = "#d946ef"; // Fuchsia/Purple
                 isUvWarning = true;
             } else if (uvVal >= 8.0) {
-                uvStatus = "Sehr Hoch";
+                uvStatus = "Very High";
                 uvColor = "#ef4444"; // Red
                 isUvWarning = true;
             } else if (uvVal >= 6.0) {
-                uvStatus = "Hoch";
+                uvStatus = "High";
                 uvColor = "#f97316"; // Orange
             } else if (uvVal >= 3.0) {
-                uvStatus = "Mittel";
+                uvStatus = "Moderate";
                 uvColor = "#eab308"; // Yellow
             }
             
@@ -947,7 +953,7 @@
             });
             
             if (filteredFlights.length === 0) {
-                fHtml = '<tr><td colspan="4" style="text-align: center; color: var(--text-muted); padding: 30px;">Keine Flüge vorhanden</td></tr>';
+                fHtml = '<tr><td colspan="4" style="text-align: center; color: var(--text-muted); padding: 30px;">No flights scheduled</td></tr>';
             } else {
                 filteredFlights.forEach(function(f) {
                     var statusStr = f.status || "";
@@ -1027,9 +1033,11 @@
 
         function updateClock() {
             var now = new Date();
-            var days = ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"];
+            var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+            var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
             var day = days[now.getDay()];
-            var date = now.getDate().toString().padStart(2, '0') + "." + (now.getMonth() + 1).toString().padStart(2, '0') + "." + now.getFullYear();
+            var month = months[now.getMonth()];
+            var date = now.getDate().toString().padStart(2, '0') + " " + month + " " + now.getFullYear();
             var time = now.getHours().toString().padStart(2, '0') + ":" + now.getMinutes().toString().padStart(2, '0');
             
             document.getElementById('header-clock').innerHTML = 
