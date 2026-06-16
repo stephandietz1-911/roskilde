@@ -1,38 +1,38 @@
 {
   "currencies": {
     "EUR": "37.76",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.06",
-    "DKK_trend": "↓",
+    "DKK_trend": "→",
     "NOK": "3.42",
-    "NOK_trend": "↓",
+    "NOK_trend": "→",
     "USD": "32.54",
-    "USD_trend": "↓",
+    "USD_trend": "→",
     "AUD": "23.02",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.45",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "32",
-    "feels_like": "36",
+    "temp": "33",
+    "feels_like": "37",
     "wind_speed": "16",
-    "wind_dir": "SW",
-    "aqi_value": "23",
+    "wind_dir": "WSW",
+    "aqi_value": "24",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "7.2"
+    "uv_index": "8.7"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "I LOVE How They Look At ME! Soi 6 Pattaya 1440p Comingsoon.it",
     "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism",
     "Meliá hires Pattaya GM",
-    "I Avoided Bar Fines… Until Now | My Pattaya Experience Daryl Morey",
-    "Thailand holds travel trade fair to promote sustainable, wellness-led tourism"
+    "4K Walking Street Pattaya Thailand Nightlife Walking Tour Fernando Tatis Jr",
+    "Thailand Unveils Quality-Led Tourism Strategy at TTM+ 2026 Highlighting Wellness, Sustainable Travel, Cultural Experiences and Future Tourism Growth",
+    "THAILAND PRICES 2026 🇹🇭 Real Pattaya Market — Cost Of Living In Thailand In $ Rai 4"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-16 03:29:54"
+  "last_update": "2026-06-16 05:05:48"
 }
