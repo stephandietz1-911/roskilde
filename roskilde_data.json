@@ -14,25 +14,25 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "33",
-    "feels_like": "37",
-    "wind_speed": "16",
-    "wind_dir": "WSW",
-    "aqi_value": "24",
+    "temp": "28",
+    "feels_like": "34",
+    "wind_speed": "9",
+    "wind_dir": "S",
+    "aqi_value": "33",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "8.7"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Bangkok, Phuket and Pattaya Remain Open for Russian Tourists as Thailand Responds to Russia Travel Advisory: What Visitors Should Understand Now",
     "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism",
-    "Meliá hires Pattaya GM",
-    "4K Walking Street Pattaya Thailand Nightlife Walking Tour Fernando Tatis Jr",
-    "Thailand Unveils Quality-Led Tourism Strategy at TTM+ 2026 Highlighting Wellness, Sustainable Travel, Cultural Experiences and Future Tourism Growth",
-    "THAILAND PRICES 2026 🇹🇭 Real Pattaya Market — Cost Of Living In Thailand In $ Rai 4"
+    "Homeless people seek shelter on Thailand’s Pattaya Beach, raising tourism image concerns",
+    "I Avoided Bar Fines… Until Now | My Pattaya Experience Daryl Morey",
+    "Pattaya targets world-class event city status with 365-day calendar"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-16 05:05:48"
+  "last_update": "2026-06-16 18:13:39"
 }
