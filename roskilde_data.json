@@ -14,25 +14,25 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "34",
-    "wind_speed": "9",
-    "wind_dir": "S",
-    "aqi_value": "33",
+    "temp": "27",
+    "feels_like": "33",
+    "wind_speed": "8",
+    "wind_dir": "E",
+    "aqi_value": "29",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "0.5"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Bangkok, Phuket and Pattaya Remain Open for Russian Tourists as Thailand Responds to Russia Travel Advisory: What Visitors Should Understand Now",
-    "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism",
+    "Thailand Retirement in Pattaya Is Exploding in Popularity as Thousands of Global Retirees Leave Expensive Western Countries Behind for Affordable Beachside Living, Quality Healthcare, and a Better Life They Say They Could Never Afford Back Home",
     "Homeless people seek shelter on Thailand’s Pattaya Beach, raising tourism image concerns",
+    "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism",
     "I Avoided Bar Fines… Until Now | My Pattaya Experience Daryl Morey",
-    "Pattaya targets world-class event city status with 365-day calendar"
+    "THE NEW STARBULL visits those who hate me PATTAYA THAILAND BANGKOK change of behavior LOW SEASON XVI"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-16 18:13:39"
+  "last_update": "2026-06-16 23:51:15"
 }
