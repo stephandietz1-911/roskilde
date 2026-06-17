@@ -1,27 +1,27 @@
 {
   "currencies": {
-    "EUR": "37.76",
-    "EUR_trend": "→",
+    "EUR": "37.74",
+    "EUR_trend": "↓",
     "DKK": "5.06",
     "DKK_trend": "→",
     "NOK": "3.42",
     "NOK_trend": "→",
-    "USD": "32.54",
-    "USD_trend": "→",
-    "AUD": "23.02",
-    "AUD_trend": "→",
+    "USD": "32.52",
+    "USD_trend": "↓",
+    "AUD": "22.99",
+    "AUD_trend": "↓",
     "RUB": "0.45",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "33",
+    "temp": "30",
+    "feels_like": "35",
     "wind_speed": "8",
-    "wind_dir": "E",
-    "aqi_value": "29",
+    "wind_dir": "SSW",
+    "aqi_value": "30",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.5"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -29,10 +29,10 @@
   },
   "news": [
     "Thailand Retirement in Pattaya Is Exploding in Popularity as Thousands of Global Retirees Leave Expensive Western Countries Behind for Affordable Beachside Living, Quality Healthcare, and a Better Life They Say They Could Never Afford Back Home",
-    "Homeless people seek shelter on Thailand’s Pattaya Beach, raising tourism image concerns",
     "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism",
     "I Avoided Bar Fines… Until Now | My Pattaya Experience Daryl Morey",
-    "THE NEW STARBULL visits those who hate me PATTAYA THAILAND BANGKOK change of behavior LOW SEASON XVI"
+    "Thailand holds travel trade fair to promote sustainable, wellness-led tourism",
+    "I LOVE How They Look At ME! Soi 6 Pattaya 1440p Comingsoon.it"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-16 23:51:15"
+  "last_update": "2026-06-17 13:02:27"
 }
