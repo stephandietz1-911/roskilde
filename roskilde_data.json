@@ -5,20 +5,20 @@
     "DKK": "5.06",
     "DKK_trend": "→",
     "NOK": "3.43",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "32.57",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.00",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.45",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "29",
+    "temp": "28",
     "feels_like": "34",
-    "wind_speed": "9",
-    "wind_dir": "SW",
-    "aqi_value": "24",
+    "wind_speed": "7",
+    "wind_dir": "S",
+    "aqi_value": "23",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -28,11 +28,11 @@
     "message": ""
   },
   "news": [
-    "Thailand Travel Growth Accelerates as Bangkok Strengthens Tourism Links with Middle East and Africa Markets",
-    "Meliá Pattaya Hotel Appoints Alexander Lopez as General Manager",
+    "TTM+ 2026 Closes with Record Middle East Buyer Turnout",
     "I Avoided Bar Fines… Until Now | My Pattaya Experience Daryl Morey",
-    "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism",
-    "Fire breaks out at hotel in Thailand’s popular Pattaya area"
+    "I LOVE How They Look At ME! Soi 6 Pattaya 1440p Comingsoon.it",
+    "Thailand Retirement in Pattaya Is Exploding in Popularity as Thousands of Global Retirees Leave Expensive Western Countries Behind for Affordable Beachside Living, Quality Healthcare, and a Better Life They Say They Could Never Afford Back Home",
+    "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-18 11:57:49"
+  "last_update": "2026-06-18 20:42:52"
 }
