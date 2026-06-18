@@ -4,21 +4,21 @@
     "EUR_trend": "→",
     "DKK": "5.06",
     "DKK_trend": "→",
-    "NOK": "3.42",
-    "NOK_trend": "→",
-    "USD": "32.52",
-    "USD_trend": "→",
-    "AUD": "22.99",
-    "AUD_trend": "→",
+    "NOK": "3.43",
+    "NOK_trend": "↑",
+    "USD": "32.57",
+    "USD_trend": "↑",
+    "AUD": "23.00",
+    "AUD_trend": "↑",
     "RUB": "0.45",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "33",
-    "wind_speed": "8",
-    "wind_dir": "S",
-    "aqi_value": "29",
+    "temp": "29",
+    "feels_like": "34",
+    "wind_speed": "9",
+    "wind_dir": "SW",
+    "aqi_value": "24",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -28,11 +28,11 @@
     "message": ""
   },
   "news": [
-    "Thailand Champions Calm Luxury Tourism Shift At TTM+ 2026 In Pattaya Driving High Value Visitor Strategy: All You Need To Know",
-    "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism",
-    "Fire breaks out at hotel in Thailand’s popular Pattaya area",
+    "Thailand Travel Growth Accelerates as Bangkok Strengthens Tourism Links with Middle East and Africa Markets",
+    "Meliá Pattaya Hotel Appoints Alexander Lopez as General Manager",
     "I Avoided Bar Fines… Until Now | My Pattaya Experience Daryl Morey",
-    "I LOVE How They Look At ME! Soi 6 Pattaya 1440p Comingsoon.it"
+    "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism",
+    "Fire breaks out at hotel in Thailand’s popular Pattaya area"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-17 21:21:01"
+  "last_update": "2026-06-18 11:57:49"
 }
