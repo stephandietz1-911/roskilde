@@ -15,9 +15,9 @@
   },
   "weather": {
     "temp": "26",
-    "feels_like": "32",
-    "wind_speed": "5",
-    "wind_dir": "SE",
+    "feels_like": "33",
+    "wind_speed": "2",
+    "wind_dir": "ENE",
     "aqi_value": "21",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
@@ -29,10 +29,10 @@
   },
   "news": [
     "Thailand Sports Tourism Under Pressure as Pattaya Marathon Delay Sends Shockwaves Through Visitor Economy, Disrupts Travel Plans, and Triggers Uncertainty Over the Country’s Fast-Growing Sports Tourism Boom – New Update",
+    "Meliá Pattaya Hotel announces new GM",
     "Fire breaks out at hotel in Thailand’s popular Pattaya area",
     "I Avoided Bar Fines… Until Now | My Pattaya Experience Daryl Morey",
-    "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism",
-    "What’s new in Pattaya: New beach clubs, rooftop bars, and more"
+    "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-19 19:15:29"
+  "last_update": "2026-06-19 22:38:57"
 }
