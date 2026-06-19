@@ -1,13 +1,13 @@
 {
   "currencies": {
     "EUR": "37.58",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.04",
-    "DKK_trend": "↓",
+    "DKK_trend": "→",
     "NOK": "3.38",
-    "NOK_trend": "↓",
+    "NOK_trend": "→",
     "USD": "32.77",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.00",
     "AUD_trend": "→",
     "RUB": "0.45",
@@ -16,9 +16,9 @@
   "weather": {
     "temp": "26",
     "feels_like": "32",
-    "wind_speed": "8",
-    "wind_dir": "SW",
-    "aqi_value": "26",
+    "wind_speed": "5",
+    "wind_dir": "SE",
+    "aqi_value": "21",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -28,11 +28,11 @@
     "message": ""
   },
   "news": [
-    "Thailand Stands by Ambitious Thirty-Three Million Visitor Target Despite Middle East Turbulence and Economic Pressures, But Can Bangkok, Phuket, Pattaya and Chiang Mai Sustain Tourism Growth Through 2026?",
+    "Thailand Sports Tourism Under Pressure as Pattaya Marathon Delay Sends Shockwaves Through Visitor Economy, Disrupts Travel Plans, and Triggers Uncertainty Over the Country’s Fast-Growing Sports Tourism Boom – New Update",
     "Fire breaks out at hotel in Thailand’s popular Pattaya area",
     "I Avoided Bar Fines… Until Now | My Pattaya Experience Daryl Morey",
-    "I LOVE How They Look At ME! Soi 6 Pattaya 1440p Comingsoon.it",
-    "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism"
+    "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism",
+    "What’s new in Pattaya: New beach clubs, rooftop bars, and more"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-19 12:31:46"
+  "last_update": "2026-06-19 19:15:29"
 }
