@@ -14,11 +14,11 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
+    "temp": "29",
     "feels_like": "34",
-    "wind_speed": "8",
-    "wind_dir": "SSE",
-    "aqi_value": "32",
+    "wind_speed": "9",
+    "wind_dir": "S",
+    "aqi_value": "29",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -30,8 +30,8 @@
   "news": [
     "Asia Travel Growth 2026: Thailand Leads GMS Tourism Push at Pattaya TTM+ Event With New Travel Routes",
     "Fire breaks out at hotel in Thailand’s popular Pattaya area",
+    "I Avoided Bar Fines… Until Now | My Pattaya Experience Daryl Morey",
     "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism",
-    "4K Walking Street Pattaya Thailand Nightlife Walking Tour Fernando Tatis Jr",
     "Burly foreigner clashes with Thais in chaotic Pattaya street brawl"
   ],
   "flights": [
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-20 15:57:24"
+  "last_update": "2026-06-20 20:51:30"
 }
