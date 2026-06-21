@@ -3,36 +3,36 @@
     "EUR": "37.71",
     "EUR_trend": "→",
     "DKK": "5.06",
-    "DKK_trend": "↑",
+    "DKK_trend": "→",
     "NOK": "3.40",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "32.88",
     "USD_trend": "→",
     "AUD": "23.05",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.45",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "31",
-    "feels_like": "34",
-    "wind_speed": "18",
+    "temp": "28",
+    "feels_like": "35",
+    "wind_speed": "6",
     "wind_dir": "SW",
-    "aqi_value": "28",
+    "aqi_value": "27",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "1.0"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Thailand Pattaya Beach Tourism Transformed as Officials Intensify Coastal Crackdown to Restore Order, Reclaim Public Shores, and Transform Visitor Experience Across the Entire Waterfront – All You Need to Know",
     "I Avoided Bar Fines… Until Now | My Pattaya Experience Daryl Morey",
     "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism",
     "Fire breaks out at hotel in Thailand’s popular Pattaya area",
-    "Thailand Sports Tourism Under Pressure as Pattaya Marathon Delay Sends Shockwaves Through Visitor Economy, Disrupts Travel Plans, and Triggers Uncertainty Over the Country’s Fast-Growing Sports Tourism Boom – New Update",
-    "Six nabbed in herbal scam"
+    "Meliá Pattaya Hotel announces new GM"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-21 10:46:52"
+  "last_update": "2026-06-21 16:57:06"
 }
