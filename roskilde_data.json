@@ -15,10 +15,10 @@
   },
   "weather": {
     "temp": "28",
-    "feels_like": "35",
+    "feels_like": "34",
     "wind_speed": "6",
-    "wind_dir": "SW",
-    "aqi_value": "27",
+    "wind_dir": "N",
+    "aqi_value": "19",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -29,10 +29,10 @@
   },
   "news": [
     "Thailand Pattaya Beach Tourism Transformed as Officials Intensify Coastal Crackdown to Restore Order, Reclaim Public Shores, and Transform Visitor Experience Across the Entire Waterfront – All You Need to Know",
-    "I Avoided Bar Fines… Until Now | My Pattaya Experience Daryl Morey",
     "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism",
     "Fire breaks out at hotel in Thailand’s popular Pattaya area",
-    "Meliá Pattaya Hotel announces new GM"
+    "Meliá Pattaya Hotel announces new GM",
+    "ONYX expands in Thailand with signing of Shama North Pattaya"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-21 16:57:06"
+  "last_update": "2026-06-21 21:59:51"
 }
