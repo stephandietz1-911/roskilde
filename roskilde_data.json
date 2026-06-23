@@ -1,38 +1,38 @@
 {
   "currencies": {
     "EUR": "37.68",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.05",
-    "DKK_trend": "↓",
+    "DKK_trend": "→",
     "NOK": "3.40",
     "NOK_trend": "→",
     "USD": "32.94",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.06",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.44",
-    "RUB_trend": "↓"
+    "RUB_trend": "→"
   },
   "weather": {
-    "temp": "32",
-    "feels_like": "36",
-    "wind_speed": "14",
-    "wind_dir": "SW",
-    "aqi_value": "43",
+    "temp": "30",
+    "feels_like": "34",
+    "wind_speed": "15",
+    "wind_dir": "WSW",
+    "aqi_value": "33",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.8"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Review: Spain Meets the Gulf of Thailand at Meliá Pattaya",
     "Drunken foreigner and Thais trade punches in viral Pattaya brawl",
     "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism",
     "Thailand Pattaya Beach Tourism Transformed as Officials Intensify Coastal Crackdown to Restore Order, Reclaim Public Shores, and Transform Visitor Experience Across the Entire Waterfront – All You Need to Know",
-    "I Avoided Bar Fines… Until Now | My Pattaya Experience Daryl Morey",
-    "Korean cuffed over porn"
+    "I Avoided Bar Fines… Until Now | My Pattaya Experience Daryl Morey"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-23 10:47:56"
+  "last_update": "2026-06-23 17:30:55"
 }
