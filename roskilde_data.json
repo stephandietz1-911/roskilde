@@ -14,11 +14,11 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "35",
-    "wind_speed": "12",
-    "wind_dir": "SW",
-    "aqi_value": "27",
+    "temp": "29",
+    "feels_like": "34",
+    "wind_speed": "16",
+    "wind_dir": "WSW",
+    "aqi_value": "23",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -31,7 +31,7 @@
     "British man arrested after acid attack on Pattaya guesthouse manager",
     "Review: Spain Meets the Gulf of Thailand at Meliá Pattaya",
     "Adult creator arrested in Thailand for sharing explicit content and drug possession",
-    "Malaysia, Korea and China lead Thailand travel searches",
+    "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism",
     "Drunken foreigner and Thais trade punches in viral Pattaya brawl"
   ],
   "flights": [
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-24 17:26:56"
+  "last_update": "2026-06-24 19:12:46"
 }
