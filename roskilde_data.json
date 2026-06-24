@@ -1,27 +1,27 @@
 {
   "currencies": {
     "EUR": "37.84",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.07",
-    "DKK_trend": "↑",
+    "DKK_trend": "→",
     "NOK": "3.40",
     "NOK_trend": "→",
     "USD": "33.21",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.02",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.45",
-    "RUB_trend": "↑"
+    "RUB_trend": "→"
   },
   "weather": {
-    "temp": "33",
-    "feels_like": "37",
+    "temp": "31",
+    "feels_like": "35",
     "wind_speed": "14",
-    "wind_dir": "SSW",
-    "aqi_value": "25",
+    "wind_dir": "S",
+    "aqi_value": "27",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "1.9"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -31,7 +31,7 @@
     "Review: Spain Meets the Gulf of Thailand at Meliá Pattaya",
     "Adult creator arrested in Thailand for sharing explicit content and drug possession",
     "Malaysia, Korea and China lead Thailand travel searches",
-    "Malaysia Leads South Korea, China, India, and Japan as Thailand Travel Demand Surges in 2026 with Bangkok, Pattaya and Phuket Remaining Top Search Destinations – All You Need to Know",
+    "Drunken foreigner and Thais trade punches in viral Pattaya brawl",
     "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism"
   ],
   "flights": [
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-24 10:28:53"
+  "last_update": "2026-06-24 12:34:31"
 }
