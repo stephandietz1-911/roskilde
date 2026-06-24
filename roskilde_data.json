@@ -15,10 +15,10 @@
   },
   "weather": {
     "temp": "30",
-    "feels_like": "34",
-    "wind_speed": "18",
-    "wind_dir": "SSW",
-    "aqi_value": "28",
+    "feels_like": "35",
+    "wind_speed": "12",
+    "wind_dir": "SW",
+    "aqi_value": "27",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -28,8 +28,8 @@
     "message": ""
   },
   "news": [
-    "Review: Spain Meets the Gulf of Thailand at Meliá Pattaya",
     "British man arrested after acid attack on Pattaya guesthouse manager",
+    "Review: Spain Meets the Gulf of Thailand at Meliá Pattaya",
     "Adult creator arrested in Thailand for sharing explicit content and drug possession",
     "Malaysia, Korea and China lead Thailand travel searches",
     "Drunken foreigner and Thais trade punches in viral Pattaya brawl"
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-24 15:24:50"
+  "last_update": "2026-06-24 17:26:56"
 }
