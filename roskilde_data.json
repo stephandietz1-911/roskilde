@@ -14,14 +14,14 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "33",
-    "feels_like": "37",
-    "wind_speed": "15",
-    "wind_dir": "SW",
-    "aqi_value": "26",
+    "temp": "31",
+    "feels_like": "36",
+    "wind_speed": "10",
+    "wind_dir": "SSW",
+    "aqi_value": "29",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "3.3"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -29,10 +29,10 @@
   },
   "news": [
     "Review: Spain Meets the Gulf of Thailand at Meliá Pattaya",
+    "Alcohol ban in force June 27–28 during Bangkok and Pattaya elections",
     "British man arrested after acid attack on Pattaya guesthouse manager",
-    "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism",
     "Adult creator arrested in Thailand for sharing explicit content and drug possession",
-    "Drunken foreigner and Thais trade punches in viral Pattaya brawl"
+    "TTM+ 2026 opens in Pattaya advancing sustainable and wellness-led tourism"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-25 09:44:11"
+  "last_update": "2026-06-25 12:07:26"
 }
