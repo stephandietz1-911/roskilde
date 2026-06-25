@@ -14,11 +14,11 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "34",
-    "wind_speed": "7",
-    "wind_dir": "WSW",
-    "aqi_value": "22",
+    "temp": "29",
+    "feels_like": "33",
+    "wind_speed": "13",
+    "wind_dir": "SW",
+    "aqi_value": "18",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -28,7 +28,7 @@
     "message": ""
   },
   "news": [
-    "Thep Prasit 7, Jomtien Beach, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri",
+    "Tao Bin, Jomtien Beach, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri New Apartment for Sale",
     "Review: Spain Meets the Gulf of Thailand at Meliá Pattaya",
     "British man arrested after acid attack on Pattaya guesthouse manager",
     "Alcohol ban in force June 27–28 during Bangkok and Pattaya elections",
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-25 19:23:33"
+  "last_update": "2026-06-25 21:10:58"
 }
