@@ -14,25 +14,25 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
+    "temp": "29",
     "feels_like": "33",
     "wind_speed": "13",
-    "wind_dir": "SW",
-    "aqi_value": "19",
+    "wind_dir": "WSW",
+    "aqi_value": "18",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "0.5"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Pattaya City Air Quality Index (AQI) and Thailand Air Pollution | IQAir United Arab Emirates",
     "Tao Bin, Jomtien Beach, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri New Apartment for Sale",
     "Review: Spain Meets the Gulf of Thailand at Meliá Pattaya",
     "British man arrested after acid attack on Pattaya guesthouse manager",
-    "THE NEW STARBULL BANGKOK high end hotel room tour THAILAND luxurious PATTAYA balcony city view START"
+    "THE NEW STARBULL BANGKOK high end hotel room tour THAILAND luxurious PATTAYA balcony city view START",
+    "Alcohol ban in force June 27–28 during Bangkok and Pattaya elections"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-26 22:35:52"
+  "last_update": "2026-06-26 23:46:36"
 }
