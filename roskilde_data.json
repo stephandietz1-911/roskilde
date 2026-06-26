@@ -1,38 +1,34 @@
 {
   "currencies": {
-    "EUR": "37.93",
-    "EUR_trend": "→",
+    "EUR": "37.92",
+    "EUR_trend": "↓",
     "DKK": "5.08",
     "DKK_trend": "→",
-    "NOK": "3.39",
-    "NOK_trend": "→",
-    "USD": "33.42",
-    "USD_trend": "→",
-    "AUD": "23.05",
-    "AUD_trend": "→",
-    "RUB": "0.45",
-    "RUB_trend": "→"
+    "NOK": "3.38",
+    "NOK_trend": "↓",
+    "USD": "33.37",
+    "USD_trend": "↓",
+    "AUD": "23.03",
+    "AUD_trend": "↓",
+    "RUB": "0.44",
+    "RUB_trend": "↓"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "34",
+    "temp": "32",
+    "feels_like": "37",
     "wind_speed": "11",
     "wind_dir": "SW",
-    "aqi_value": "16",
+    "aqi_value": "19",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.8"
+    "uv_index": "8.4"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Tao Bin, Jomtien Beach, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri New Apartment for Sale",
-    "Review: Spain Meets the Gulf of Thailand at Meliá Pattaya",
-    "Alcohol ban in force June 27–28 during Bangkok and Pattaya elections",
-    "British man arrested after acid attack on Pattaya guesthouse manager",
-    "Negros equestrian bags FEI Asia-Pacific title in Thailand"
+    "ROS KILDE: Welcome to our Infotainment Portal."
   ],
   "flights": [
     {
@@ -85,5 +81,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-26 00:07:49"
+  "last_update": "2026-06-26 04:39:31"
 }
