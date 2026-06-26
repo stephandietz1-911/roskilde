@@ -14,14 +14,14 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "32",
+    "temp": "31",
     "feels_like": "36",
-    "wind_speed": "17",
-    "wind_dir": "SW",
-    "aqi_value": "24",
+    "wind_speed": "12",
+    "wind_dir": "SSW",
+    "aqi_value": "29",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "5.9"
+    "uv_index": "0.5"
   },
   "alert": {
     "active": false,
@@ -29,9 +29,9 @@
   },
   "news": [
     "Tao Bin, Jomtien Beach, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri New Apartment for Sale",
-    "Air quality in Pattaya City",
     "Review: Spain Meets the Gulf of Thailand at Meliá Pattaya",
     "British man arrested after acid attack on Pattaya guesthouse manager",
+    "Adult creator arrested in Thailand for sharing explicit content and drug possession",
     "Alcohol ban in force June 27–28 during Bangkok and Pattaya elections"
   ],
   "flights": [
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-26 08:19:54"
+  "last_update": "2026-06-26 11:22:25"
 }
