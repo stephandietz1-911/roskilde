@@ -1,11 +1,11 @@
 {
   "currencies": {
-    "EUR": "37.92",
-    "EUR_trend": "→",
-    "DKK": "5.08",
-    "DKK_trend": "→",
-    "NOK": "3.38",
-    "NOK_trend": "→",
+    "EUR": "38.03",
+    "EUR_trend": "↑",
+    "DKK": "5.10",
+    "DKK_trend": "↑",
+    "NOK": "3.36",
+    "NOK_trend": "↓",
     "USD": "33.37",
     "USD_trend": "→",
     "AUD": "23.03",
@@ -14,24 +14,24 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "33",
-    "wind_speed": "13",
-    "wind_dir": "WSW",
-    "aqi_value": "18",
+    "temp": "31",
+    "feels_like": "35",
+    "wind_speed": "18",
+    "wind_dir": "SW",
+    "aqi_value": "17",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.5"
+    "uv_index": "6.1"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Technical: Heats / 2023 ICF Stand Up Paddling (SUP) World Championships Pattaya Thailand Cincinnati Vs Charlotte",
     "Tao Bin, Jomtien Beach, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri New Apartment for Sale",
     "Review: Spain Meets the Gulf of Thailand at Meliá Pattaya",
     "British man arrested after acid attack on Pattaya guesthouse manager",
-    "THE NEW STARBULL BANGKOK high end hotel room tour THAILAND luxurious PATTAYA balcony city view START",
     "Alcohol ban in force June 27–28 during Bangkok and Pattaya elections"
   ],
   "flights": [
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-26 23:46:36"
+  "last_update": "2026-06-27 02:57:34"
 }
