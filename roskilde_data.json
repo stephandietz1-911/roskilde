@@ -14,25 +14,25 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "31",
-    "feels_like": "35",
-    "wind_speed": "17",
+    "temp": "30",
+    "feels_like": "34",
+    "wind_speed": "14",
     "wind_dir": "SW",
     "aqi_value": "23",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.7"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Thai police arrest Australian over killing of teenager found in suitcase",
     "Australian man arrested in Thailand after 17-year-old’s body found in suitcase",
-    "Australian held at Suvarnabhumi over Pattaya murder case",
+    "Thai police arrest Australian over killing of teenager found in suitcase",
     "Australian Simon Carman arrested after body of teenage girl found in suitcase in Thailand",
-    "Technical: Heats / 2023 ICF Stand Up Paddling (SUP) World Championships Pattaya Thailand Cincinnati Vs Charlotte"
+    "Teen girl's body found in suitcase near train track",
+    "Australian held at Suvarnabhumi over Pattaya murder case"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-27 11:10:53"
+  "last_update": "2026-06-27 12:18:45"
 }
