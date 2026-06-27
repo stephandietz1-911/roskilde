@@ -15,10 +15,10 @@
   },
   "weather": {
     "temp": "28",
-    "feels_like": "32",
-    "wind_speed": "12",
+    "feels_like": "33",
+    "wind_speed": "10",
     "wind_dir": "WSW",
-    "aqi_value": "18",
+    "aqi_value": "19",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -31,8 +31,8 @@
     "Australian arrested after teenage girl's body found in Thailand",
     "Australian man arrested in Thailand after 17-year-old’s body found in suitcase",
     "Thai police arrest Australian over killing of teenager found in suitcase",
-    "Australian held after teen girl’s body found in suitcase",
-    "Thai police arrest Australian after teen’s body found in suitcase"
+    "‘I feel bad’: Australian arrested after teen’s death in Thailand",
+    "Australian held after teen girl’s body found in suitcase"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-27 21:45:54"
+  "last_update": "2026-06-27 23:01:10"
 }
