@@ -16,7 +16,7 @@
   "weather": {
     "temp": "28",
     "feels_like": "32",
-    "wind_speed": "15",
+    "wind_speed": "12",
     "wind_dir": "WSW",
     "aqi_value": "18",
     "aqi_status": "Good",
@@ -32,7 +32,7 @@
     "Australian man arrested in Thailand after 17-year-old’s body found in suitcase",
     "Thai police arrest Australian over killing of teenager found in suitcase",
     "Australian held after teen girl’s body found in suitcase",
-    "Australian man arrested at Bangkok airport after teenager’s body found stuffed in suitcase"
+    "Thai police arrest Australian after teen’s body found in suitcase"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-27 20:44:00"
+  "last_update": "2026-06-27 21:45:54"
 }
