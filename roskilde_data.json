@@ -5,9 +5,9 @@
     "DKK": "5.10",
     "DKK_trend": "→",
     "NOK": "3.37",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.38",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.03",
     "AUD_trend": "→",
     "RUB": "0.44",
@@ -16,23 +16,23 @@
   "weather": {
     "temp": "32",
     "feels_like": "36",
-    "wind_speed": "18",
-    "wind_dir": "WSW",
-    "aqi_value": "20",
+    "wind_speed": "16",
+    "wind_dir": "SW",
+    "aqi_value": "24",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "8.2"
+    "uv_index": "5.2"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Australian arrested after teenage girl's body found in Thailand",
     "Australian man arrested in Thailand after 17-year-old’s body found in suitcase",
-    "Thai police arrest Australian over killing of teenager found in suitcase",
-    "Australian held after teen girl’s body found in suitcase",
-    "Thai police arrest Australian after teen’s body found in suitcase"
+    "Pattaya bar streets turn to discounts as June low season bites",
+    "Australian held at Suvarnabhumi over Pattaya murder case",
+    "Teen girl's body found in suitcase near train track",
+    "17yo’s body found in suitcase, Aussie arrested"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-28 04:54:01"
+  "last_update": "2026-06-28 08:20:27"
 }
