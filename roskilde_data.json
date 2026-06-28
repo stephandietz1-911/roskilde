@@ -14,9 +14,9 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "30",
-    "wind_speed": "17",
+    "temp": "27",
+    "feels_like": "33",
+    "wind_speed": "8",
     "wind_dir": "WSW",
     "aqi_value": "16",
     "aqi_status": "Good",
@@ -29,10 +29,10 @@
   },
   "news": [
     "Australian man charged with murder in Thailand after teenage girl’s body found in suitcase",
-    "Thai family mourns teen girl found dead in suitcase as Australian arrested",
-    "Thai teenager's father 'deeply saddened' as Australian charged with murder",
-    "Thai police arrest Australian over killing of teenager found in suitcase",
-    "Australian held after teen girl’s body found in suitcase"
+    "Now, Malaysia Overpowers China, Russia, the US, the UK, and Others as the Leading Source Market for Thailand Tourism Across Bangkok, Phuket, Pattaya, Krabi, Chiang Mai, and Other Luxury Travel and Medical Tourism Destinations in 2026",
+    "Pattaya bar streets turn to discounts as June low season bites",
+    "Australian arrested after Thai teen girl found dead in suitcase",
+    "Australian man charged with murder after dead girl found in suitcase in Thailand"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-28 21:00:12"
+  "last_update": "2026-06-28 22:10:20"
 }
