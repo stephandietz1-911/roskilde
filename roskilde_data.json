@@ -14,11 +14,11 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "33",
-    "wind_speed": "17",
-    "wind_dir": "W",
-    "aqi_value": "20",
+    "temp": "28",
+    "feels_like": "32",
+    "wind_speed": "18",
+    "wind_dir": "WSW",
+    "aqi_value": "19",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -29,10 +29,10 @@
   },
   "news": [
     "Thai family mourns teen girl found dead in suitcase as Australian arrested",
-    "Pattaya bar streets turn to discounts as June low season bites",
-    "Australian held at Suvarnabhumi over Pattaya murder case",
-    "Australian arrested after Thai teen girl found dead in suitcase",
-    "17yo’s body found in suitcase, Aussie arrested"
+    "Australian man arrested in Thailand after 17-year-old’s body found in suitcase",
+    "Thai teenager's father 'deeply saddened' as Australian charged with murder",
+    "Thai police arrest Australian over killing of teenager found in suitcase",
+    "Australian held after teen girl’s body found in suitcase"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-28 14:15:38"
+  "last_update": "2026-06-28 15:48:43"
 }
