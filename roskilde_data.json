@@ -14,14 +14,14 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "32",
-    "feels_like": "36",
-    "wind_speed": "16",
-    "wind_dir": "SW",
-    "aqi_value": "24",
+    "temp": "31",
+    "feels_like": "34",
+    "wind_speed": "20",
+    "wind_dir": "WSW",
+    "aqi_value": "23",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "5.2"
+    "uv_index": "1.4"
   },
   "alert": {
     "active": false,
@@ -32,7 +32,7 @@
     "Pattaya bar streets turn to discounts as June low season bites",
     "Australian held at Suvarnabhumi over Pattaya murder case",
     "Teen girl's body found in suitcase near train track",
-    "17yo’s body found in suitcase, Aussie arrested"
+    "Australian arrested after Thai teen girl found dead in suitcase"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-28 08:20:27"
+  "last_update": "2026-06-28 10:39:23"
 }
