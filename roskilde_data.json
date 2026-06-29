@@ -1,38 +1,38 @@
 {
   "currencies": {
-    "EUR": "38.03",
-    "EUR_trend": "→",
+    "EUR": "38.02",
+    "EUR_trend": "↓",
     "DKK": "5.10",
     "DKK_trend": "→",
-    "NOK": "3.37",
-    "NOK_trend": "→",
+    "NOK": "3.36",
+    "NOK_trend": "↓",
     "USD": "33.38",
     "USD_trend": "→",
     "AUD": "23.03",
     "AUD_trend": "→",
-    "RUB": "0.44",
-    "RUB_trend": "→"
+    "RUB": "0.42",
+    "RUB_trend": "↓"
   },
   "weather": {
-    "temp": "27",
+    "temp": "29",
     "feels_like": "33",
-    "wind_speed": "11",
+    "wind_speed": "16",
     "wind_dir": "WSW",
     "aqi_value": "16",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.1"
+    "uv_index": "2.9"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Australian man charged with murder in Thailand after teenage girl’s body found in suitcase",
+    "Australian man arrested after Thai teen girl found dead in suitcase",
     "Now, Malaysia Overpowers China, Russia, the US, the UK, and Others as the Leading Source Market for Thailand Tourism Across Bangkok, Phuket, Pattaya, Krabi, Chiang Mai, and Other Luxury Travel and Medical Tourism Destinations in 2026",
-    "Pattaya bar streets turn to discounts as June low season bites",
     "Australian arrested after Thai teen girl found dead in suitcase",
-    "Australian man charged with murder after dead girl found in suitcase in Thailand"
+    "Pattaya City Air Quality Index (AQI) and Thailand Air Pollution | IQAir United Arab Emirates",
+    "Sad life of accused teen-killer in Thailand"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-28 23:18:38"
+  "last_update": "2026-06-29 01:36:08"
 }
