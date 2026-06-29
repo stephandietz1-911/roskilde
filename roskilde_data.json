@@ -1,38 +1,38 @@
 {
   "currencies": {
     "EUR": "38.02",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.10",
     "DKK_trend": "→",
     "NOK": "3.36",
-    "NOK_trend": "↓",
+    "NOK_trend": "→",
     "USD": "33.38",
     "USD_trend": "→",
     "AUD": "23.03",
     "AUD_trend": "→",
     "RUB": "0.42",
-    "RUB_trend": "↓"
+    "RUB_trend": "→"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "33",
-    "wind_speed": "16",
+    "temp": "32",
+    "feels_like": "34",
+    "wind_speed": "22",
     "wind_dir": "WSW",
-    "aqi_value": "16",
+    "aqi_value": "19",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "2.9"
+    "uv_index": "7.8"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Australian man arrested after Thai teen girl found dead in suitcase",
+    "Australian arrested after teenage girl's body found in Thailand",
     "Now, Malaysia Overpowers China, Russia, the US, the UK, and Others as the Leading Source Market for Thailand Tourism Across Bangkok, Phuket, Pattaya, Krabi, Chiang Mai, and Other Luxury Travel and Medical Tourism Destinations in 2026",
     "Australian arrested after Thai teen girl found dead in suitcase",
-    "Pattaya City Air Quality Index (AQI) and Thailand Air Pollution | IQAir United Arab Emirates",
-    "Sad life of accused teen-killer in Thailand"
+    "Sad life of accused teen-killer in Thailand",
+    "Australian cries self defence after being arrested for murder of Thai girl found dead in a suitcase"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-29 01:36:08"
+  "last_update": "2026-06-29 06:23:23"
 }
