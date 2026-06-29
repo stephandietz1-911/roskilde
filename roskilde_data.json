@@ -16,9 +16,9 @@
   "weather": {
     "temp": "28",
     "feels_like": "32",
-    "wind_speed": "18",
+    "wind_speed": "13",
     "wind_dir": "W",
-    "aqi_value": "19",
+    "aqi_value": "18",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -29,10 +29,10 @@
   },
   "news": [
     "How a Thai teen's night at a Pattaya beach ended in death",
-    "Now, Malaysia Overpowers China, Russia, the US, the UK, and Others as the Leading Source Market for Thailand Tourism Across Bangkok, Phuket, Pattaya, Krabi, Chiang Mai, and Other Luxury Travel and Medical Tourism Destinations in 2026",
+    "Australian held at Suvarnabhumi over Pattaya murder case",
     "Australian man arrested after Thai teen girl found dead in suitcase",
     "Australian charged with murder of Thai teen found in suitcase",
-    "Australian man arrested in Thailand after 17-year-old’s body found in suitcase"
+    "Thai family mourns girl as man charged with murder"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-29 17:47:40"
+  "last_update": "2026-06-29 19:55:46"
 }
