@@ -16,9 +16,9 @@
   "weather": {
     "temp": "28",
     "feels_like": "32",
-    "wind_speed": "15",
-    "wind_dir": "WSW",
-    "aqi_value": "20",
+    "wind_speed": "18",
+    "wind_dir": "W",
+    "aqi_value": "19",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -32,7 +32,7 @@
     "Now, Malaysia Overpowers China, Russia, the US, the UK, and Others as the Leading Source Market for Thailand Tourism Across Bangkok, Phuket, Pattaya, Krabi, Chiang Mai, and Other Luxury Travel and Medical Tourism Destinations in 2026",
     "Australian man arrested after Thai teen girl found dead in suitcase",
     "Australian charged with murder of Thai teen found in suitcase",
-    "How a Thai teen's night at a Pattaya beach ended in death"
+    "Australian man arrested in Thailand after 17-year-old’s body found in suitcase"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-29 15:04:12"
+  "last_update": "2026-06-29 17:47:40"
 }
