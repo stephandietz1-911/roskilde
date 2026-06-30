@@ -16,9 +16,9 @@
   "weather": {
     "temp": "26",
     "feels_like": "31",
-    "wind_speed": "13",
-    "wind_dir": "SW",
-    "aqi_value": "19",
+    "wind_speed": "10",
+    "wind_dir": "SSW",
+    "aqi_value": "20",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -32,7 +32,7 @@
     "Teenage Thai girl’s body found in a suitcase",
     "How a Thai teen's night at a Pattaya beach ended in death",
     "How a Thai teen’s night at a Pattaya beach ended in death",
-    "Australian man charged with murder over death of a teenage girl in Thailand's Pattaya"
+    "Boxing News: Fury Vs Wach July 24 In Thailand » June 30, 2026"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-30 21:13:55"
+  "last_update": "2026-06-30 22:42:12"
 }
