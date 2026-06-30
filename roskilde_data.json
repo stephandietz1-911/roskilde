@@ -15,13 +15,13 @@
   },
   "weather": {
     "temp": "26",
-    "feels_like": "31",
-    "wind_speed": "10",
-    "wind_dir": "SSW",
+    "feels_like": "32",
+    "wind_speed": "8",
+    "wind_dir": "SW",
     "aqi_value": "20",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "0.2"
   },
   "alert": {
     "active": false,
@@ -31,7 +31,7 @@
     "Australian Man Charged With Homicide After Thai Teen’s Body Found in Suitcase",
     "Teenage Thai girl’s body found in a suitcase",
     "How a Thai teen's night at a Pattaya beach ended in death",
-    "How a Thai teen’s night at a Pattaya beach ended in death",
+    "Tyson Fury to Fight Mariusz Wach July 24 in Thailand",
     "Boxing News: Fury Vs Wach July 24 In Thailand » June 30, 2026"
   ],
   "flights": [
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-30 22:42:12"
+  "last_update": "2026-06-30 23:51:49"
 }
