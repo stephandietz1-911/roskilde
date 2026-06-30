@@ -15,10 +15,10 @@
   },
   "weather": {
     "temp": "27",
-    "feels_like": "32",
+    "feels_like": "31",
     "wind_speed": "16",
     "wind_dir": "WSW",
-    "aqi_value": "20",
+    "aqi_value": "19",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -29,7 +29,10 @@
   },
   "news": [
     "Australian Man Charged With Homicide After Thai Teen’s Body Found in Suitcase",
-    "Now, Malaysia Overpowers China, Russia, the US, the UK, and Others as the Leading Source Market for Thailand Tourism Across Bangkok, Phuket, Pattaya, Krabi, Chiang Mai, and Other Luxury Travel and Medical Tourism Destinations in 2026"
+    "Pattaya bar streets turn to discounts as June low season bites",
+    "How a Thai teen's night at a Pattaya beach ended in death",
+    "An Australian man has been charged with homicide in Thailand, after a Thai teenager’s body was found stuffed in a suitcase and abandoned in the southeastern beachside city of Pattaya, a police official said.",
+    "How a Thai teen’s night at a Pattaya beach ended in death"
   ],
   "flights": [
     {
@@ -82,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-30 17:15:41"
+  "last_update": "2026-06-30 19:18:15"
 }
