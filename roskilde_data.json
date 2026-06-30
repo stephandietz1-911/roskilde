@@ -14,11 +14,11 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "33",
-    "wind_speed": "15",
-    "wind_dir": "SW",
-    "aqi_value": "21",
+    "temp": "27",
+    "feels_like": "32",
+    "wind_speed": "16",
+    "wind_dir": "WSW",
+    "aqi_value": "20",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -29,10 +29,7 @@
   },
   "news": [
     "Australian Man Charged With Homicide After Thai Teen’s Body Found in Suitcase",
-    "Now, Malaysia Overpowers China, Russia, the US, the UK, and Others as the Leading Source Market for Thailand Tourism Across Bangkok, Phuket, Pattaya, Krabi, Chiang Mai, and Other Luxury Travel and Medical Tourism Destinations in 2026",
-    "How a Thai teen’s night at a Pattaya beach ended in death",
-    "Australian man charged with murder over death of a teenage girl in Thailand's Pattaya",
-    "Australian man charged with murder over death of a teenage girl in Thailand's Pattaya"
+    "Now, Malaysia Overpowers China, Russia, the US, the UK, and Others as the Leading Source Market for Thailand Tourism Across Bangkok, Phuket, Pattaya, Krabi, Chiang Mai, and Other Luxury Travel and Medical Tourism Destinations in 2026"
   ],
   "flights": [
     {
@@ -85,5 +82,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-30 15:10:02"
+  "last_update": "2026-06-30 17:15:41"
 }
