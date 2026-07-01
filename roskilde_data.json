@@ -1,36 +1,36 @@
 {
   "currencies": {
-    "EUR": "37.97",
-    "EUR_trend": "→",
-    "DKK": "5.09",
-    "DKK_trend": "→",
+    "EUR": "37.93",
+    "EUR_trend": "↓",
+    "DKK": "5.08",
+    "DKK_trend": "↓",
     "NOK": "3.35",
     "NOK_trend": "→",
-    "USD": "33.27",
-    "USD_trend": "→",
+    "USD": "33.24",
+    "USD_trend": "↓",
     "AUD": "22.92",
     "AUD_trend": "→",
     "RUB": "0.43",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "26",
+    "temp": "28",
     "feels_like": "32",
-    "wind_speed": "8",
-    "wind_dir": "SW",
+    "wind_speed": "19",
+    "wind_dir": "WSW",
     "aqi_value": "20",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.2"
+    "uv_index": "1.1"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Australian Man Charged With Homicide After Thai Teen’s Body Found in Suitcase",
-    "Teenage Thai girl’s body found in a suitcase",
     "How a Thai teen's night at a Pattaya beach ended in death",
+    "Teenage Thai girl’s body found in a suitcase",
+    "Australian man charged with murder in death of a girl, 17, in Thailand’s Pattaya area",
     "Tyson Fury to Fight Mariusz Wach July 24 in Thailand",
     "Boxing News: Fury Vs Wach July 24 In Thailand » June 30, 2026"
   ],
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-06-30 23:51:49"
+  "last_update": "2026-07-01 03:42:06"
 }
