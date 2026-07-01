@@ -14,11 +14,11 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
+    "temp": "26",
     "feels_like": "32",
-    "wind_speed": "15",
-    "wind_dir": "SW",
-    "aqi_value": "23",
+    "wind_speed": "5",
+    "wind_dir": "SSE",
+    "aqi_value": "22",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -28,10 +28,10 @@
     "message": ""
   },
   "news": [
-    "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing",
-    "Murder case throws Thai sex tourism hub into global spotlight",
     "How a Thai teen's night at a Pattaya beach ended in death",
+    "Murder case throws Thai sex tourism hub into global spotlight",
     "Australian man charged with murder over death of a teenage girl in Thailand's Pattaya",
+    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim",
     "Boxing News: Fury Vs Wach July 24 In Thailand » July 1, 2026"
   ],
   "flights": [
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-01 16:26:07"
+  "last_update": "2026-07-01 18:25:39"
 }
