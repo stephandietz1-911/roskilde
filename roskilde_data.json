@@ -16,9 +16,9 @@
   "weather": {
     "temp": "27",
     "feels_like": "32",
-    "wind_speed": "10",
+    "wind_speed": "9",
     "wind_dir": "SW",
-    "aqi_value": "21",
+    "aqi_value": "19",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -31,8 +31,8 @@
     "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing",
     "Murder case throws Thai sex tourism hub into global spotlight",
     "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim",
-    "How a Thai teen’s night at a Pattaya beach ended in death",
-    "Boxing News: Fury Vs Wach July 24 In Thailand » July 1, 2026"
+    "Australian man charged with murder over death of a teenage girl in Thailand's Pattaya",
+    "How a Thai teen’s night at a Pattaya beach ended in death"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-01 20:24:48"
+  "last_update": "2026-07-01 21:59:41"
 }
