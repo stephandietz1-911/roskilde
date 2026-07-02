@@ -17,8 +17,8 @@
     "temp": "28",
     "feels_like": "33",
     "wind_speed": "12",
-    "wind_dir": "SW",
-    "aqi_value": "26",
+    "wind_dir": "WSW",
+    "aqi_value": "25",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -28,7 +28,11 @@
     "message": ""
   },
   "news": [
-    "ROS KILDE: Welcome to our Infotainment Portal."
+    "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing",
+    "Pattaya Beach transformed into art toy landmark with giant Crybaby",
+    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim",
+    "Australian man charged with murder over death of a teenage girl in Thailand's Pattaya",
+    "Tyson Fury to Fight Mariusz Wach July 24 in Thailand"
   ],
   "flights": [
     {
@@ -81,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-02 13:16:26"
+  "last_update": "2026-07-02 15:40:15"
 }
