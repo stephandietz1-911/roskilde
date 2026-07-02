@@ -1,27 +1,27 @@
 {
   "currencies": {
-    "EUR": "37.93",
-    "EUR_trend": "→",
-    "DKK": "5.08",
-    "DKK_trend": "→",
-    "NOK": "3.35",
-    "NOK_trend": "→",
-    "USD": "33.24",
-    "USD_trend": "→",
-    "AUD": "22.92",
-    "AUD_trend": "→",
+    "EUR": "37.95",
+    "EUR_trend": "↑",
+    "DKK": "5.09",
+    "DKK_trend": "↑",
+    "NOK": "3.36",
+    "NOK_trend": "↑",
+    "USD": "33.33",
+    "USD_trend": "↑",
+    "AUD": "22.99",
+    "AUD_trend": "↑",
     "RUB": "0.43",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "31",
-    "wind_speed": "10",
+    "temp": "27",
+    "feels_like": "32",
+    "wind_speed": "16",
     "wind_dir": "SW",
     "aqi_value": "19",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.1"
+    "uv_index": "3.0"
   },
   "alert": {
     "active": false,
@@ -32,7 +32,7 @@
     "Fury sets Pattaya warm-up bout with Polish veteran Mariusz Wach",
     "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim",
     "Australian man charged with murder over death of a teenage girl in Thailand's Pattaya",
-    "How a Thai teen’s night at a Pattaya beach ended in death"
+    "Australian man arrested after Thai teen girl found dead in suitcase"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-01 23:23:48"
+  "last_update": "2026-07-02 01:32:03"
 }
