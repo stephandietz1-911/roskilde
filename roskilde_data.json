@@ -14,25 +14,25 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "32",
-    "wind_speed": "17",
+    "temp": "31",
+    "feels_like": "34",
+    "wind_speed": "19",
     "wind_dir": "SW",
-    "aqi_value": "22",
+    "aqi_value": "25",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "4.7"
+    "uv_index": "1.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Australian Man Charged With Homicide After Thai Teen’s Body Found in Suitcase",
+    "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing",
     "Fury sets Pattaya warm-up bout with Polish veteran Mariusz Wach",
     "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim",
     "Australian man charged with murder over death of a teenage girl in Thailand's Pattaya",
-    "Boxing News: Fury Vs Wach July 24 In Thailand » July 1, 2026"
+    "Australian man arrested after Thai teen girl found dead in suitcase"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-02 05:43:13"
+  "last_update": "2026-07-02 08:34:51"
 }
