@@ -14,14 +14,14 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "31",
-    "feels_like": "34",
-    "wind_speed": "19",
+    "temp": "29",
+    "feels_like": "33",
+    "wind_speed": "17",
     "wind_dir": "SW",
-    "aqi_value": "25",
+    "aqi_value": "27",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "1.0"
+    "uv_index": "0.2"
   },
   "alert": {
     "active": false,
@@ -29,10 +29,10 @@
   },
   "news": [
     "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing",
-    "Fury sets Pattaya warm-up bout with Polish veteran Mariusz Wach",
-    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim",
+    "Teenage Thai girl’s body found in a suitcase",
     "Australian man charged with murder over death of a teenage girl in Thailand's Pattaya",
-    "Australian man arrested after Thai teen girl found dead in suitcase"
+    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim",
+    "How a Thai teen’s night at a Pattaya beach ended in death"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-02 08:34:51"
+  "last_update": "2026-07-02 11:19:58"
 }
