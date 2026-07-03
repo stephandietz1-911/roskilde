@@ -1,27 +1,27 @@
 {
   "currencies": {
-    "EUR": "37.95",
-    "EUR_trend": "→",
+    "EUR": "37.97",
+    "EUR_trend": "↑",
     "DKK": "5.09",
     "DKK_trend": "→",
-    "NOK": "3.36",
-    "NOK_trend": "→",
-    "USD": "33.33",
-    "USD_trend": "→",
-    "AUD": "22.99",
-    "AUD_trend": "→",
+    "NOK": "3.37",
+    "NOK_trend": "↑",
+    "USD": "33.22",
+    "USD_trend": "↓",
+    "AUD": "22.98",
+    "AUD_trend": "↓",
     "RUB": "0.43",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "31",
-    "wind_speed": "18",
+    "temp": "32",
+    "feels_like": "37",
+    "wind_speed": "15",
     "wind_dir": "SW",
-    "aqi_value": "23",
+    "aqi_value": "25",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.3"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -29,10 +29,10 @@
   },
   "news": [
     "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing",
-    "Pattaya Beach transformed into art toy landmark with giant Crybaby",
+    "Injured Finnish man rides motorcycle to Pattaya police station for help",
     "How a Thai teen's night at a Pattaya beach ended in death",
     "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim",
-    "Tyson Fury to Fight Mariusz Wach July 24 in Thailand"
+    "Australian man charged with murder over death of a teenage girl in Thailand's Pattaya"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-03 00:04:37"
+  "last_update": "2026-07-03 04:07:58"
 }
