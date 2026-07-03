@@ -15,10 +15,10 @@
   },
   "weather": {
     "temp": "28",
-    "feels_like": "32",
-    "wind_speed": "20",
+    "feels_like": "31",
+    "wind_speed": "22",
     "wind_dir": "SW",
-    "aqi_value": "28",
+    "aqi_value": "25",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -30,8 +30,8 @@
   "news": [
     "In Pattaya, sex and life come cheap. But the cost can be deadly",
     "Injured Finnish man rides motorcycle to Pattaya police station for help",
+    "Australian man charged with murder over death of a teenage girl in Thailand's Pattaya",
     "How a Thai teen's night at a Pattaya beach ended in death",
-    "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing",
     "Australian man charged with murder over death of a teenage girl in Thailand's Pattaya"
   ],
   "flights": [
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-03 14:40:47"
+  "last_update": "2026-07-03 16:13:52"
 }
