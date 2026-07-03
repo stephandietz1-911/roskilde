@@ -16,9 +16,9 @@
   "weather": {
     "temp": "26",
     "feels_like": "30",
-    "wind_speed": "20",
+    "wind_speed": "18",
     "wind_dir": "SW",
-    "aqi_value": "19",
+    "aqi_value": "20",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -29,10 +29,10 @@
   },
   "news": [
     "In Pattaya, sex and life come cheap. But the cost can be deadly",
+    "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing",
+    "‘$13 an hour’: Tourist’s sick sex confession",
     "Australian man charged with murder in death of a girl, 17, in Thailand’s Pattaya area",
-    "Australian man charged with murder after dead girl found in suitcase in Thailand",
-    "Thai teenager's father 'deeply saddened' as Australian charged with murder",
-    "How a Thai teen's night at a Pattaya beach ended in death"
+    "In Pattaya, sex and life come cheap. But the cost can be deadly"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-03 21:44:59"
+  "last_update": "2026-07-03 22:45:25"
 }
