@@ -15,8 +15,8 @@
   },
   "weather": {
     "temp": "26",
-    "feels_like": "31",
-    "wind_speed": "14",
+    "feels_like": "32",
+    "wind_speed": "10",
     "wind_dir": "S",
     "aqi_value": "20",
     "aqi_status": "Good",
@@ -28,11 +28,7 @@
     "message": ""
   },
   "news": [
-    "UK woman, 21, arrested in Thailand after allegedly stabbing boyfriend to death",
-    "British woman held in slaying of Pattaya cannabis farm operator",
-    "In Pattaya, sex and life come cheap. But the cost can be deadly",
-    "In Thailand’s sex tourism hub, bright lights flash, loud music blares – and underage girls are exploited",
-    "Australian man charged with murder after dead girl found in suitcase in Thailand"
+    "ROS KILDE: Welcome to our Infotainment Portal."
   ],
   "flights": [
     {
@@ -85,5 +81,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-04 21:01:35"
+  "last_update": "2026-07-04 22:10:43"
 }
