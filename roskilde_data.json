@@ -14,21 +14,25 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
+    "temp": "27",
     "feels_like": "32",
-    "wind_speed": "16",
+    "wind_speed": "15",
     "wind_dir": "SSW",
     "aqi_value": "22",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.1"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "ROS KILDE: Welcome to our Infotainment Portal."
+    "UK woman, 21, arrested in Thailand after allegedly stabbing boyfriend to death",
+    "In Pattaya, sex and life come cheap. But the cost can be deadly",
+    "British woman held in slaying of Pattaya cannabis farm operator",
+    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim",
+    "In Thailand’s sex tourism hub, bright lights flash, loud music blares – and underage girls are exploited"
   ],
   "flights": [
     {
@@ -81,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-04 11:10:56"
+  "last_update": "2026-07-04 12:18:02"
 }
