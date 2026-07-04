@@ -16,9 +16,9 @@
   "weather": {
     "temp": "27",
     "feels_like": "31",
-    "wind_speed": "20",
+    "wind_speed": "18",
     "wind_dir": "SW",
-    "aqi_value": "21",
+    "aqi_value": "20",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -29,8 +29,8 @@
   },
   "news": [
     "UK woman, 21, arrested in Thailand after allegedly stabbing boyfriend to death",
-    "In Pattaya, sex and life come cheap. But the cost can be deadly",
     "British woman held in slaying of Pattaya cannabis farm operator",
+    "In Pattaya, sex and life come cheap. But the cost can be deadly",
     "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim",
     "In Thailand’s sex tourism hub, bright lights flash, loud music blares – and underage girls are exploited"
   ],
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-04 14:08:33"
+  "last_update": "2026-07-04 15:30:00"
 }
