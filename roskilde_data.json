@@ -14,11 +14,11 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "29",
+    "temp": "28",
     "feels_like": "32",
     "wind_speed": "19",
     "wind_dir": "SW",
-    "aqi_value": "20",
+    "aqi_value": "23",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.9"
@@ -28,11 +28,11 @@
     "message": ""
   },
   "news": [
-    "In Pattaya, sex and life come cheap. But the cost can be deadly",
     "In Thailand’s sex tourism hub, bright lights flash, loud music blares – and underage girls are exploited",
-    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim",
     "In Pattaya, sex and life come cheap. But the cost can be deadly",
-    "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing"
+    "British woman held in slaying of Pattaya cannabis farm operator",
+    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim",
+    "In Pattaya, sex and life come cheap. But the cost can be deadly"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-04 07:14:13"
+  "last_update": "2026-07-04 09:32:17"
 }
