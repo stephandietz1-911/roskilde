@@ -16,23 +16,19 @@
   "weather": {
     "temp": "28",
     "feels_like": "32",
-    "wind_speed": "19",
-    "wind_dir": "SW",
-    "aqi_value": "23",
+    "wind_speed": "16",
+    "wind_dir": "SSW",
+    "aqi_value": "22",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.9"
+    "uv_index": "0.1"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "In Thailand’s sex tourism hub, bright lights flash, loud music blares – and underage girls are exploited",
-    "In Pattaya, sex and life come cheap. But the cost can be deadly",
-    "British woman held in slaying of Pattaya cannabis farm operator",
-    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim",
-    "In Pattaya, sex and life come cheap. But the cost can be deadly"
+    "ROS KILDE: Welcome to our Infotainment Portal."
   ],
   "flights": [
     {
@@ -85,5 +81,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-04 09:32:17"
+  "last_update": "2026-07-04 11:10:56"
 }
