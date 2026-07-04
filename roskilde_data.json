@@ -1,27 +1,27 @@
 {
   "currencies": {
-    "EUR": "37.97",
-    "EUR_trend": "→",
+    "EUR": "37.94",
+    "EUR_trend": "↓",
     "DKK": "5.09",
     "DKK_trend": "→",
     "NOK": "3.37",
     "NOK_trend": "→",
-    "USD": "33.22",
-    "USD_trend": "→",
-    "AUD": "22.98",
-    "AUD_trend": "→",
+    "USD": "33.17",
+    "USD_trend": "↓",
+    "AUD": "23.01",
+    "AUD_trend": "↑",
     "RUB": "0.43",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "32",
-    "feels_like": "37",
-    "wind_speed": "15",
+    "temp": "29",
+    "feels_like": "32",
+    "wind_speed": "22",
     "wind_dir": "SW",
-    "aqi_value": "20",
+    "aqi_value": "19",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "0.8"
   },
   "alert": {
     "active": false,
@@ -30,9 +30,9 @@
   "news": [
     "In Pattaya, sex and life come cheap. But the cost can be deadly",
     "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing",
-    "‘$13 an hour’: Tourist’s sick sex confession",
-    "Australian man charged with murder in death of a girl, 17, in Thailand’s Pattaya area",
-    "In Pattaya, sex and life come cheap. But the cost can be deadly"
+    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim",
+    "In Pattaya, sex and life come cheap. But the cost can be deadly",
+    "Australian man charged with murder after dead girl found in suitcase in Thailand"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-04 00:03:19"
+  "last_update": "2026-07-04 04:00:55"
 }
