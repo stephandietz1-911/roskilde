@@ -8,20 +8,20 @@
     "NOK_trend": "→",
     "USD": "33.17",
     "USD_trend": "→",
-    "AUD": "23.01",
-    "AUD_trend": "→",
+    "AUD": "23.00",
+    "AUD_trend": "↓",
     "RUB": "0.43",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "32",
-    "wind_speed": "11",
-    "wind_dir": "S",
-    "aqi_value": "21",
+    "temp": "30",
+    "feels_like": "34",
+    "wind_speed": "19",
+    "wind_dir": "SW",
+    "aqi_value": "24",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.4"
+    "uv_index": "7.9"
   },
   "alert": {
     "active": false,
@@ -30,7 +30,7 @@
   "news": [
     "UK woman, 21, arrested in Thailand after allegedly stabbing boyfriend to death",
     "British woman held in slaying of Pattaya cannabis farm operator",
-    "In Pattaya, sex and life come cheap. But the cost can be deadly",
+    "South Korean scam suspect arrested in Pattaya over Interpol warrant",
     "In Thailand’s sex tourism hub, bright lights flash, loud music blares – and underage girls are exploited",
     "Korean gambling kingpin sought by Interpol arrested in Pattaya"
   ],
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-05 00:14:14"
+  "last_update": "2026-07-05 04:32:31"
 }
