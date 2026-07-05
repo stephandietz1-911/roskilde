@@ -54,14 +54,14 @@
 
         header {
             background: linear-gradient(90deg, rgba(8, 12, 24, 0.95) 0%, rgba(3, 5, 13, 0.95) 100%);
-            padding: 0 20px;
+            padding: 0 30px;
             display: flex;
             justify-content: space-between;
             align-items: center;
             border-bottom: 2px solid;
             border-image: linear-gradient(90deg, var(--color-primary), var(--color-secondary)) 1;
             box-shadow: 0 4px 30px rgba(0, 242, 254, 0.15);
-            height: 50px;
+            height: 65px;
             z-index: 10;
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
@@ -73,7 +73,7 @@
         }
 
         .logo-text h1 {
-            font-size: 20px;
+            font-size: 24px;
             font-weight: 900;
             color: #fff;
             letter-spacing: 0.5px;
@@ -89,28 +89,28 @@
         }
 
         .tagline {
-            font-size: 8px;
+            font-size: 9px;
             color: var(--text-muted);
             text-transform: uppercase;
-            letter-spacing: 2px;
-            margin-top: 1px;
+            letter-spacing: 3px;
+            margin-top: 3px;
             font-weight: 700;
         }
 
         .header-right {
             display: flex;
             align-items: center;
-            gap: 20px;
+            gap: 30px;
         }
 
         .header-title {
-            font-size: 12px;
+            font-size: 14px;
             color: var(--text-muted);
             font-weight: 800;
-            letter-spacing: 2px;
+            letter-spacing: 2.5px;
             text-transform: uppercase;
             border-right: 1px solid rgba(255, 255, 255, 0.08);
-            padding-right: 15px;
+            padding-right: 25px;
         }
 
         .header-clock {
@@ -121,7 +121,7 @@
         }
 
         .clock-date {
-            font-size: 8px;
+            font-size: 9px;
             color: var(--text-muted);
             text-transform: uppercase;
             letter-spacing: 1px;
@@ -129,7 +129,7 @@
         }
 
         .clock-time {
-            font-size: 16px;
+            font-size: 20px;
             font-weight: 900;
             background: linear-gradient(135deg, #ffffff 40%, var(--color-primary) 100%);
             -webkit-background-clip: text;
@@ -140,7 +140,7 @@
         .main {
             display: flex;
             flex: 1;
-            height: calc(100vh - 90px);
+            height: calc(100vh - 120px);
             overflow: hidden;
         }
 
@@ -206,12 +206,12 @@
 
         .sidebar {
             width: 30%;
-            padding: 10px;
+            padding: 12px;
             background: var(--bg-sidebar);
             overflow: hidden;
             display: flex;
             flex-direction: column;
-            gap: 8px;
+            gap: 12px;
             backdrop-filter: blur(15px);
             -webkit-backdrop-filter: blur(15px);
         }
@@ -234,7 +234,7 @@
             -webkit-backdrop-filter: blur(20px);
             border: 1px solid var(--card-border);
             border-radius: 12px;
-            padding: 10px 12px;
+            padding: 12px 15px;
             box-shadow: var(--card-shadow);
             position: relative;
             overflow: hidden;
@@ -251,7 +251,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 4px;
+            margin-bottom: 8px;
         }
 
         .card-title {
@@ -269,7 +269,7 @@
             height: 2px;
             width: 100%;
             background: linear-gradient(90deg, var(--color-primary), var(--color-secondary), transparent);
-            margin-bottom: 6px;
+            margin-bottom: 10px;
             border-radius: 1px;
             opacity: 0.8;
         }
@@ -290,7 +290,7 @@
 
         /* Currency Container */
         .currency-container {
-            height: 34px;
+            height: 44px;
             position: relative;
             overflow: hidden;
             display: flex;
@@ -302,7 +302,7 @@
             background: rgba(255, 255, 255, 0.02);
             border: 1px solid rgba(255, 255, 255, 0.06);
             border-radius: 6px;
-            padding: 4px 8px;
+            padding: 8px 12px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -315,16 +315,16 @@
         }
 
         .currency-label {
-            font-size: 12px;
+            font-size: 14px;
             font-weight: 700;
             color: #cbd5e1;
             display: flex;
             align-items: center;
-            gap: 6px;
+            gap: 8px;
         }
 
         .currency-val {
-            font-size: 16px;
+            font-size: 20px;
             font-weight: 800;
             color: #fff;
             font-variant-numeric: tabular-nums;
@@ -334,21 +334,21 @@
 
         .trend-up {
             color: #10b981;
-            text-shadow: 0 0 10px rgba(16, 185, 129, 0.5);
+            text-shadow: 0 0 12px rgba(16, 185, 129, 0.6);
         }
         .trend-down {
             color: #ef4444;
-            text-shadow: 0 0 10px rgba(239, 68, 68, 0.5);
+            text-shadow: 0 0 12px rgba(239, 68, 68, 0.6);
         }
         .trend-flat {
             color: #f59e0b;
-            text-shadow: 0 0 10px rgba(245, 158, 11, 0.5);
+            text-shadow: 0 0 12px rgba(245, 158, 11, 0.6);
         }
 
         .trend-arrow {
-            font-size: 20px;
+            font-size: 26px;
             font-weight: 900;
-            margin-left: 6px;
+            margin-left: 8px;
             display: inline-flex;
             align-items: center;
             line-height: 1;
@@ -374,7 +374,7 @@
         }
 
         .weather-temp {
-            font-size: 20px;
+            font-size: 24px;
             font-weight: 900;
             background: linear-gradient(135deg, #ffffff 40%, var(--color-primary) 100%);
             -webkit-background-clip: text;
@@ -384,15 +384,15 @@
         }
 
         .weather-unit {
-            font-size: 12px;
+            font-size: 14px;
             color: var(--color-primary);
             font-weight: 700;
-            margin-left: -3px;
-            margin-right: 3px;
+            margin-left: -4px;
+            margin-right: 4px;
         }
 
         .weather-feel {
-            font-size: 10px;
+            font-size: 11px;
             color: #64748b;
             font-weight: 700;
             text-transform: uppercase;
@@ -405,8 +405,8 @@
             align-items: center;
             background: rgba(0, 0, 0, 0.2);
             border-radius: 4px;
-            padding: 3px 8px;
-            font-size: 10px;
+            padding: 4px 10px;
+            font-size: 11px;
             font-weight: 700;
         }
 
@@ -425,9 +425,9 @@
         }
 
         .aqi-badge, .uv-badge {
-            padding: 1px 6px;
+            padding: 2px 8px;
             border-radius: 12px;
-            font-size: 8px;
+            font-size: 9px;
             font-weight: 900;
             text-transform: uppercase;
             letter-spacing: 0.5px;
@@ -528,7 +528,7 @@
         .flight-table {
             width: 100%;
             border-collapse: collapse;
-            font-size: 11px;
+            font-size: 12px;
             text-align: left;
         }
 
@@ -538,12 +538,12 @@
             color: #64748b;
             text-transform: uppercase;
             letter-spacing: 1px;
-            padding: 4px 4px;
+            padding: 6px 6px;
             border-bottom: 2px solid rgba(255, 255, 255, 0.06);
         }
 
         .flight-table td {
-            padding: 4px 4px;
+            padding: 6px 6px;
             border-bottom: 1px solid rgba(255, 255, 255, 0.02);
             font-weight: 600;
         }
@@ -586,7 +586,7 @@
         /* Scrolling News Ticker */
         .ticker-container {
             width: 100%;
-            height: 40px;
+            height: 55px;
             background: #040710;
             border-top: 2px solid;
             border-image: linear-gradient(90deg, var(--color-primary), var(--color-secondary)) 1;
@@ -631,11 +631,11 @@
             background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
             color: var(--text-dark);
             font-weight: 900;
-            padding: 0 15px;
+            padding: 0 25px;
             height: 100%;
             display: flex;
             align-items: center;
-            font-size: 12px;
+            font-size: 13px;
             letter-spacing: 2px;
             z-index: 3;
             box-shadow: 10px 0 25px rgba(0, 0, 0, 0.6);
@@ -653,8 +653,8 @@
             display: flex;
             align-items: center;
             color: #e2e8f0;
-            font-size: 12px;
-            padding: 0 15px;
+            font-size: 14px;
+            padding: 0 25px;
             font-weight: 600;
             letter-spacing: 0.5px;
         }
@@ -699,10 +699,11 @@
 
     <div class="main">
         <div id="windy-container">
-            <iframe id="windy" src="https://embed.windy.com/embed2.html?lat=12.923&lon=100.883&zoom=9&overlay=radar&autoplay=true&play=1&message=false&marker=false"></iframe>
+            <!-- Overlay auf "rain" geändert -->
+            <iframe id="windy" src="https://embed.windy.com/embed2.html?lat=12.923&lon=100.883&zoom=9&overlay=rain&autoplay=true&play=1&message=false&marker=false"></iframe>
             <div id="map-overlay" class="map-overlay">
                 <div class="spinner"></div>
-                <div class="spinner-text">Loading weather radar...</div>
+                <div class="spinner-text">Loading weather map...</div>
             </div>
         </div>
         
@@ -1019,7 +1020,8 @@
             var isPattaya = iframe.src.includes("12.923");
             var baseUrl = isPattaya ? "https://embed.windy.com/embed2.html?lat=13.000&lon=101.000&zoom=6" : "https://embed.windy.com/embed2.html?lat=12.923&lon=100.883&zoom=9";
             
-            iframe.src = baseUrl + "&overlay=radar&autoplay=true&play=1&message=false&marker=false";
+            // Overlay hier auch auf "rain" geändert, damit er beim Rotieren nicht zurück auf Radar springt
+            iframe.src = baseUrl + "&overlay=rain&autoplay=true&play=1&message=false&marker=false";
             
             var handleLoad = function() {
                 overlay.classList.remove('active');
