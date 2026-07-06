@@ -14,11 +14,11 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "34",
+    "temp": "29",
+    "feels_like": "33",
     "wind_speed": "13",
     "wind_dir": "SW",
-    "aqi_value": "33",
+    "aqi_value": "34",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -30,9 +30,9 @@
   "news": [
     "British woman held in slaying of Pattaya cannabis farm operator",
     "UK woman, 21, arrested in Thailand after allegedly stabbing boyfriend to death",
-    "Cannabis king found dead in Thai villa",
     "‘She wanted to see the beach’: Family grieves for teen killed in alleged suitcase murder",
-    "How SWING fights for Thailand's shadow workers"
+    "How SWING fights for Thailand's shadow workers",
+    "Pattaya bar streets turn to discounts as June low season bites"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-06 19:15:26"
+  "last_update": "2026-07-06 21:10:04"
 }
