@@ -18,10 +18,10 @@
     "feels_like": "33",
     "wind_speed": "14",
     "wind_dir": "SW",
-    "aqi_value": "36",
+    "aqi_value": "37",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "0.2"
   },
   "alert": {
     "active": false,
@@ -30,9 +30,9 @@
   "news": [
     "British woman held in slaying of Pattaya cannabis farm operator",
     "UK woman, 21, arrested in Thailand after allegedly stabbing boyfriend to death",
-    "‘She wanted to see the beach’: Family grieves for teen killed in alleged suitcase murder",
     "How SWING fights for Thailand's shadow workers",
-    "Pattaya bar streets turn to discounts as June low season bites"
+    "Pattaya bar streets turn to discounts as June low season bites",
+    "Pattaya bakery's 'hairy' croissant stirs pubic reaction"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-06 22:37:20"
+  "last_update": "2026-07-06 23:44:42"
 }
