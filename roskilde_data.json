@@ -14,14 +14,14 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "34",
-    "wind_speed": "11",
-    "wind_dir": "S",
-    "aqi_value": "33",
+    "temp": "32",
+    "feels_like": "37",
+    "wind_speed": "15",
+    "wind_dir": "SW",
+    "aqi_value": "31",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.2"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -31,8 +31,8 @@
     "In Thailand’s sex tourism hub, bright lights flash, loud music blares – and underage girls are exploited",
     "British woman held in slaying of Pattaya cannabis farm operator",
     "‘She wanted to see the beach’: Family grieves for teen killed in alleged suitcase murder",
-    "Cannabis king found dead in Thai villa",
-    "South Korean scam suspect arrested in Pattaya over Interpol warrant"
+    "South Korean scam suspect arrested in Pattaya over Interpol warrant",
+    "Pattaya bar streets turn to discounts as June low season bites"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-06 10:44:44"
+  "last_update": "2026-07-06 14:17:08"
 }
