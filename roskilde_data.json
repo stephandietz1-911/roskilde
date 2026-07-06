@@ -15,24 +15,24 @@
   },
   "weather": {
     "temp": "29",
-    "feels_like": "33",
-    "wind_speed": "18",
-    "wind_dir": "SSW",
-    "aqi_value": "37",
+    "feels_like": "34",
+    "wind_speed": "11",
+    "wind_dir": "S",
+    "aqi_value": "33",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "1.4"
+    "uv_index": "0.2"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "UK woman, 21, arrested in Thailand after allegedly stabbing boyfriend to death",
+    "In Thailand’s sex tourism hub, bright lights flash, loud music blares – and underage girls are exploited",
     "British woman held in slaying of Pattaya cannabis farm operator",
     "‘She wanted to see the beach’: Family grieves for teen killed in alleged suitcase murder",
-    "South Korean scam suspect arrested in Pattaya over Interpol warrant",
-    "In Thailand’s sex tourism hub, bright lights flash, loud music blares – and underage girls are exploited"
+    "Cannabis king found dead in Thai villa",
+    "South Korean scam suspect arrested in Pattaya over Interpol warrant"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-06 05:57:08"
+  "last_update": "2026-07-06 10:44:44"
 }
