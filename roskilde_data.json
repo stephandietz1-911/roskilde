@@ -1,27 +1,27 @@
 {
   "currencies": {
     "EUR": "38.06",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.10",
-    "DKK_trend": "↑",
+    "DKK_trend": "→",
     "NOK": "3.39",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.30",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.12",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.43",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "34",
+    "temp": "31",
+    "feels_like": "35",
     "wind_speed": "17",
     "wind_dir": "SW",
-    "aqi_value": "39",
+    "aqi_value": "42",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "3.0"
+    "uv_index": "6.0"
   },
   "alert": {
     "active": false,
@@ -31,7 +31,7 @@
     "British woman held in slaying of Pattaya cannabis farm operator",
     "UK woman, 21, arrested in Thailand after allegedly stabbing boyfriend to death",
     "How SWING fights for Thailand's shadow workers",
-    "Pattaya bar streets turn to discounts as June low season bites",
+    "2 Chinese surrogacy suspects wanted by China arrested in Pattaya",
     "Pattaya bakery's 'hairy' croissant stirs pubic reaction"
   ],
   "flights": [
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-07 01:26:06"
+  "last_update": "2026-07-07 05:38:49"
 }
