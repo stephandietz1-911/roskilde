@@ -17,18 +17,18 @@
     "temp": "28",
     "feels_like": "33",
     "wind_speed": "15",
-    "wind_dir": "SW",
-    "aqi_value": "48",
+    "wind_dir": "WSW",
+    "aqi_value": "46",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "0.1"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Meliá Pattaya Hotel Launches Rooftop Sound Healing Experiences Overlooking the Gulf of Thailand",
+    "Cannabis king found dead in Thai villa",
     "Pattaya pickup truck taxi driver suspended over 300-baht fare",
     "Friend suspects gambling debt link after man found dead on Pattaya beach",
     "2 Chinese surrogacy suspects wanted by China arrested in Pattaya",
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-07 22:15:43"
+  "last_update": "2026-07-07 23:29:14"
 }
