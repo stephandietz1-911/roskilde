@@ -15,13 +15,13 @@
   },
   "weather": {
     "temp": "31",
-    "feels_like": "35",
-    "wind_speed": "17",
-    "wind_dir": "SW",
-    "aqi_value": "42",
+    "feels_like": "36",
+    "wind_speed": "16",
+    "wind_dir": "SSW",
+    "aqi_value": "44",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "6.0"
+    "uv_index": "4.8"
   },
   "alert": {
     "active": false,
@@ -32,7 +32,7 @@
     "UK woman, 21, arrested in Thailand after allegedly stabbing boyfriend to death",
     "How SWING fights for Thailand's shadow workers",
     "2 Chinese surrogacy suspects wanted by China arrested in Pattaya",
-    "Pattaya bakery's 'hairy' croissant stirs pubic reaction"
+    "Two accused of illegal surrogacy in China arrested in Pattaya"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-07 05:38:49"
+  "last_update": "2026-07-07 08:55:01"
 }
