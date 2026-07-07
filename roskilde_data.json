@@ -16,7 +16,7 @@
   "weather": {
     "temp": "29",
     "feels_like": "33",
-    "wind_speed": "18",
+    "wind_speed": "16",
     "wind_dir": "WSW",
     "aqi_value": "50",
     "aqi_status": "Good",
@@ -28,11 +28,11 @@
     "message": ""
   },
   "news": [
-    "British woman held in slaying of Pattaya cannabis farm operator",
+    "Meliá Pattaya Hotel Launches Rooftop Sound Healing Experiences Overlooking the Gulf of Thailand",
     "Pattaya pickup truck taxi driver suspended over 300-baht fare",
     "Friend suspects gambling debt link after man found dead on Pattaya beach",
-    "Murdered over 500 baht | The Disclosed EP.13",
-    "Two accused of illegal surrogacy in China arrested in Pattaya"
+    "2 Chinese surrogacy suspects wanted by China arrested in Pattaya",
+    "Australian man charged with murder after dead girl found in suitcase in Thailand"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-07 16:59:31"
+  "last_update": "2026-07-07 19:07:40"
 }
