@@ -14,14 +14,14 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "31",
-    "feels_like": "36",
-    "wind_speed": "16",
-    "wind_dir": "SSW",
-    "aqi_value": "44",
+    "temp": "29",
+    "feels_like": "35",
+    "wind_speed": "12",
+    "wind_dir": "S",
+    "aqi_value": "48",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "4.8"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -29,9 +29,9 @@
   },
   "news": [
     "British woman held in slaying of Pattaya cannabis farm operator",
-    "UK woman, 21, arrested in Thailand after allegedly stabbing boyfriend to death",
-    "How SWING fights for Thailand's shadow workers",
-    "2 Chinese surrogacy suspects wanted by China arrested in Pattaya",
+    "Pattaya pickup truck taxi driver suspended over 300-baht fare",
+    "Friend suspects gambling debt link after man found dead on Pattaya beach",
+    "Murdered over 500 baht | The Disclosed EP.13",
     "Two accused of illegal surrogacy in China arrested in Pattaya"
   ],
   "flights": [
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-07 08:55:01"
+  "last_update": "2026-07-07 11:49:18"
 }
