@@ -17,8 +17,8 @@
     "temp": "29",
     "feels_like": "32",
     "wind_speed": "17",
-    "wind_dir": "W",
-    "aqi_value": "28",
+    "wind_dir": "WSW",
+    "aqi_value": "27",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -29,8 +29,8 @@
   },
   "news": [
     "Cannabis king found dead in Thai villa",
-    "Friend suspects gambling debt link after man found dead on Pattaya beach",
     "Pattaya pickup truck taxi driver suspended over 300-baht fare",
+    "Friend suspects gambling debt link after man found dead on Pattaya beach",
     "2 Chinese surrogacy suspects wanted by China arrested in Pattaya",
     "British tourist loses keycard, threatens Pattaya hotel staff"
   ],
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-08 18:44:24"
+  "last_update": "2026-07-08 20:11:03"
 }
