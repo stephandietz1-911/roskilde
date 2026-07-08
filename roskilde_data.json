@@ -1,38 +1,38 @@
 {
   "currencies": {
     "EUR": "38.05",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.10",
     "DKK_trend": "→",
     "NOK": "3.40",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.31",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.11",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.44",
-    "RUB_trend": "↑"
+    "RUB_trend": "→"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "34",
-    "wind_speed": "15",
-    "wind_dir": "W",
-    "aqi_value": "43",
+    "temp": "31",
+    "feels_like": "36",
+    "wind_speed": "17",
+    "wind_dir": "WSW",
+    "aqi_value": "39",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "2.1"
+    "uv_index": "5.8"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Meliá Pattaya Hotel Launches Rooftop Sound Healing Experiences Overlooking the Gulf of Thailand",
+    "Cannabis king found dead in Thai villa",
     "Pattaya pickup truck taxi driver suspended over 300-baht fare",
     "Friend suspects gambling debt link after man found dead on Pattaya beach",
-    "2 Chinese surrogacy suspects wanted by China arrested in Pattaya",
-    "Australian man charged with murder after dead girl found in suitcase in Thailand"
+    "Russian woman returns lost Pattaya wallet with 22,700 baht",
+    "2 Chinese surrogacy suspects wanted by China arrested in Pattaya"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-08 01:03:17"
+  "last_update": "2026-07-08 04:31:22"
 }
