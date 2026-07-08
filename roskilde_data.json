@@ -14,11 +14,11 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "30",
+    "temp": "29",
     "feels_like": "32",
-    "wind_speed": "21",
-    "wind_dir": "WSW",
-    "aqi_value": "30",
+    "wind_speed": "20",
+    "wind_dir": "W",
+    "aqi_value": "29",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -28,8 +28,8 @@
     "message": ""
   },
   "news": [
-    "Cannabis king found dead in Thai villa",
     "Pattaya pickup truck taxi driver suspended over 300-baht fare",
+    "Huge success for Thailand tourism as ‘Tomorrowland’ sells out 150,000 tickets for a money spinning show",
     "Friend suspects gambling debt link after man found dead on Pattaya beach",
     "2 Chinese surrogacy suspects wanted by China arrested in Pattaya",
     "British tourist loses keycard, threatens Pattaya hotel staff"
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-08 15:34:20"
+  "last_update": "2026-07-08 17:08:12"
 }
