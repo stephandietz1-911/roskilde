@@ -15,13 +15,13 @@
   },
   "weather": {
     "temp": "32",
-    "feels_like": "36",
-    "wind_speed": "25",
+    "feels_like": "34",
+    "wind_speed": "23",
     "wind_dir": "SW",
-    "aqi_value": "35",
+    "aqi_value": "33",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "4.2"
+    "uv_index": "1.9"
   },
   "alert": {
     "active": false,
@@ -29,10 +29,10 @@
   },
   "news": [
     "Meliá Pattaya Hotel Launches Rooftop Sound Healing Experiences Overlooking the Gulf of Thailand",
-    "Jomtien’s rubbish problem refuses to go away",
     "Pattaya pickup truck taxi driver suspended over 300-baht fare",
     "Friend suspects gambling debt link after man found dead on Pattaya beach",
-    "Driver tries to beat barrier at Pattaya railway crossing, gets stuck"
+    "Russian woman returns lost Pattaya wallet with 22,700 baht",
+    "2 Chinese surrogacy suspects wanted by China arrested in Pattaya"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-08 07:14:27"
+  "last_update": "2026-07-08 09:39:35"
 }
