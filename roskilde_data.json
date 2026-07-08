@@ -14,21 +14,21 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "32",
-    "feels_like": "34",
-    "wind_speed": "23",
-    "wind_dir": "SW",
-    "aqi_value": "33",
+    "temp": "31",
+    "feels_like": "33",
+    "wind_speed": "21",
+    "wind_dir": "WSW",
+    "aqi_value": "34",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "1.9"
+    "uv_index": "0.2"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Meliá Pattaya Hotel Launches Rooftop Sound Healing Experiences Overlooking the Gulf of Thailand",
+    "Cannabis king found dead in Thai villa",
     "Pattaya pickup truck taxi driver suspended over 300-baht fare",
     "Friend suspects gambling debt link after man found dead on Pattaya beach",
     "Russian woman returns lost Pattaya wallet with 22,700 baht",
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-08 09:39:35"
+  "last_update": "2026-07-08 11:30:23"
 }
