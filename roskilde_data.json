@@ -1,34 +1,34 @@
 {
   "currencies": {
-    "EUR": "38.06",
-    "EUR_trend": "→",
+    "EUR": "38.05",
+    "EUR_trend": "↓",
     "DKK": "5.10",
     "DKK_trend": "→",
-    "NOK": "3.39",
-    "NOK_trend": "→",
-    "USD": "33.30",
-    "USD_trend": "→",
-    "AUD": "23.12",
-    "AUD_trend": "→",
-    "RUB": "0.43",
-    "RUB_trend": "→"
+    "NOK": "3.40",
+    "NOK_trend": "↑",
+    "USD": "33.31",
+    "USD_trend": "↑",
+    "AUD": "23.11",
+    "AUD_trend": "↓",
+    "RUB": "0.44",
+    "RUB_trend": "↑"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "33",
+    "temp": "29",
+    "feels_like": "34",
     "wind_speed": "15",
-    "wind_dir": "WSW",
-    "aqi_value": "46",
+    "wind_dir": "W",
+    "aqi_value": "43",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.1"
+    "uv_index": "2.1"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Cannabis king found dead in Thai villa",
+    "Meliá Pattaya Hotel Launches Rooftop Sound Healing Experiences Overlooking the Gulf of Thailand",
     "Pattaya pickup truck taxi driver suspended over 300-baht fare",
     "Friend suspects gambling debt link after man found dead on Pattaya beach",
     "2 Chinese surrogacy suspects wanted by China arrested in Pattaya",
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-07 23:29:14"
+  "last_update": "2026-07-08 01:03:17"
 }
