@@ -14,25 +14,25 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "31",
+    "temp": "32",
     "feels_like": "36",
-    "wind_speed": "17",
-    "wind_dir": "WSW",
-    "aqi_value": "39",
+    "wind_speed": "25",
+    "wind_dir": "SW",
+    "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "5.8"
+    "uv_index": "4.2"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Cannabis king found dead in Thai villa",
+    "Meliá Pattaya Hotel Launches Rooftop Sound Healing Experiences Overlooking the Gulf of Thailand",
+    "Jomtien’s rubbish problem refuses to go away",
     "Pattaya pickup truck taxi driver suspended over 300-baht fare",
     "Friend suspects gambling debt link after man found dead on Pattaya beach",
-    "Russian woman returns lost Pattaya wallet with 22,700 baht",
-    "2 Chinese surrogacy suspects wanted by China arrested in Pattaya"
+    "Driver tries to beat barrier at Pattaya railway crossing, gets stuck"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-08 04:31:22"
+  "last_update": "2026-07-08 07:14:27"
 }
