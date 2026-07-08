@@ -15,10 +15,10 @@
   },
   "weather": {
     "temp": "30",
-    "feels_like": "34",
-    "wind_speed": "16",
+    "feels_like": "32",
+    "wind_speed": "21",
     "wind_dir": "WSW",
-    "aqi_value": "32",
+    "aqi_value": "30",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -31,8 +31,8 @@
     "Cannabis king found dead in Thai villa",
     "Pattaya pickup truck taxi driver suspended over 300-baht fare",
     "Friend suspects gambling debt link after man found dead on Pattaya beach",
-    "Russian woman returns lost Pattaya wallet with 22,700 baht",
-    "2 Chinese surrogacy suspects wanted by China arrested in Pattaya"
+    "2 Chinese surrogacy suspects wanted by China arrested in Pattaya",
+    "British tourist loses keycard, threatens Pattaya hotel staff"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-08 13:10:46"
+  "last_update": "2026-07-08 15:34:20"
 }
