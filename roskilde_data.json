@@ -1,34 +1,38 @@
 {
   "currencies": {
     "EUR": "38.19",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.12",
-    "DKK_trend": "↑",
+    "DKK_trend": "→",
     "NOK": "3.42",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.47",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.18",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.44",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "35",
+    "temp": "31",
+    "feels_like": "34",
     "wind_speed": "18",
-    "wind_dir": "WSW",
-    "aqi_value": "33",
+    "wind_dir": "SW",
+    "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "6.1"
+    "uv_index": "7.7"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "ROS KILDE: Welcome to our Infotainment Portal."
+    "Pattaya bakery's 'hairy' croissant stirs pubic reaction",
+    "Friend suspects gambling debt link after man found dead on Pattaya beach",
+    "Pattaya pickup truck taxi driver suspended over 300-baht fare",
+    "2 Chinese surrogacy suspects wanted by China arrested in Pattaya",
+    "British tourist loses keycard, threatens Pattaya hotel staff"
   ],
   "flights": [
     {
@@ -81,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-09 02:51:45"
+  "last_update": "2026-07-09 07:21:57"
 }
