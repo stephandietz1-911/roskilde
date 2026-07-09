@@ -14,7 +14,7 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "29",
+    "temp": "28",
     "feels_like": "32",
     "wind_speed": "18",
     "wind_dir": "WSW",
@@ -30,9 +30,9 @@
   "news": [
     "Pattaya bakery's 'hairy' croissant stirs pubic reaction",
     "Friend suspects gambling debt link after man found dead on Pattaya beach",
-    "Australian man charged with murder after dead girl found in suitcase in Thailand",
     "Thai police investigate if Australian man charged over 17-year-old girl’s murder linked to other unsolved cases",
-    "Thai teenager's father 'deeply saddened' as Australian charged with murder"
+    "Australian arrested after teenage girl's body found in Thailand",
+    "Australian man arrested in Thailand after 17-year-old’s body found in suitcase"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-09 19:43:48"
+  "last_update": "2026-07-09 21:07:02"
 }
