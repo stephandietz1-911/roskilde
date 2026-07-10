@@ -14,14 +14,14 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "32",
+    "temp": "31",
     "feels_like": "35",
-    "wind_speed": "19",
-    "wind_dir": "SW",
-    "aqi_value": "40",
+    "wind_speed": "12",
+    "wind_dir": "SSW",
+    "aqi_value": "41",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "1.1"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -29,8 +29,8 @@
   },
   "news": [
     "How a Thai teen's night at a Pattaya beach ended in death",
-    "UK woman, 21, arrested in Thailand after allegedly stabbing boyfriend to death",
     "Pattaya City, Chon Buri Province, Thailand",
+    "UK woman, 21, arrested in Thailand after allegedly stabbing boyfriend to death",
     "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim",
     "Thailand’s sex worker legal limbo"
   ],
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-10 10:11:40"
+  "last_update": "2026-07-10 12:37:17"
 }
