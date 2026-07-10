@@ -18,21 +18,17 @@
     "feels_like": "31",
     "wind_speed": "22",
     "wind_dir": "WSW",
-    "aqi_value": "41",
+    "aqi_value": "40",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "0.2"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "How a Thai teen's night at a Pattaya beach ended in death",
-    "“Pubic Hair” croissant from Pattaya, Thailand goes viral",
-    "Pattaya City, Chon Buri Province, Thailand",
-    "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing | Thailand",
-    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim"
+    "ROS KILDE: Welcome to our Infotainment Portal."
   ],
   "flights": [
     {
@@ -85,5 +81,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-10 22:41:29"
+  "last_update": "2026-07-10 23:39:35"
 }
