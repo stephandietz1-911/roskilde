@@ -5,23 +5,23 @@
     "DKK": "5.12",
     "DKK_trend": "→",
     "NOK": "3.43",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.41",
-    "USD_trend": "↓",
+    "USD_trend": "→",
     "AUD": "23.19",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.44",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "34",
-    "wind_speed": "20",
+    "temp": "32",
+    "feels_like": "38",
+    "wind_speed": "18",
     "wind_dir": "WSW",
-    "aqi_value": "36",
+    "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "5.8"
+    "uv_index": "8.5"
   },
   "alert": {
     "active": false,
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-10 02:54:22"
+  "last_update": "2026-07-10 06:44:31"
 }
