@@ -16,9 +16,9 @@
   "weather": {
     "temp": "29",
     "feels_like": "32",
-    "wind_speed": "24",
+    "wind_speed": "23",
     "wind_dir": "WSW",
-    "aqi_value": "41",
+    "aqi_value": "39",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -32,7 +32,7 @@
     "“Pubic Hair” croissant from Pattaya, Thailand goes viral",
     "Pattaya City, Chon Buri Province, Thailand",
     "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing | Thailand",
-    "Thailand’s sex worker legal limbo"
+    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-10 18:59:19"
+  "last_update": "2026-07-10 20:38:25"
 }
