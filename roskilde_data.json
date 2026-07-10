@@ -14,10 +14,10 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "33",
+    "temp": "29",
+    "feels_like": "32",
     "wind_speed": "21",
-    "wind_dir": "W",
+    "wind_dir": "WSW",
     "aqi_value": "41",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
@@ -28,10 +28,10 @@
     "message": ""
   },
   "news": [
-    "“Pubic Hair” croissant from Pattaya, Thailand goes viral",
     "How a Thai teen's night at a Pattaya beach ended in death",
+    "“Pubic Hair” croissant from Pattaya, Thailand goes viral",
     "Pattaya City, Chon Buri Province, Thailand",
-    "UK woman, 21, arrested in Thailand after allegedly stabbing boyfriend to death",
+    "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing | Thailand",
     "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim"
   ],
   "flights": [
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-10 15:19:46"
+  "last_update": "2026-07-10 17:17:38"
 }
