@@ -15,24 +15,20 @@
   },
   "weather": {
     "temp": "30",
-    "feels_like": "33",
-    "wind_speed": "23",
+    "feels_like": "32",
+    "wind_speed": "21",
     "wind_dir": "WSW",
-    "aqi_value": "31",
+    "aqi_value": "30",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.5"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "How a Thai teen's night at a Pattaya beach ended in death",
-    "Pattaya City, Chon Buri Province, Thailand",
-    "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing | Thailand",
-    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim",
-    "An Australian man has been charged with homicide in Thailand, after a Thai teenager’s body was found stuffed in a suitcase and abandoned in the southeastern beachside city of Pattaya, a police official said."
+    "ROS KILDE: Welcome to our Infotainment Portal."
   ],
   "flights": [
     {
@@ -85,5 +81,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-11 11:18:18"
+  "last_update": "2026-07-11 12:12:27"
 }
