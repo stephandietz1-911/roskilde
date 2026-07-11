@@ -14,14 +14,14 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "34",
-    "wind_speed": "20",
+    "temp": "31",
+    "feels_like": "36",
+    "wind_speed": "22",
     "wind_dir": "WSW",
-    "aqi_value": "35",
+    "aqi_value": "33",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "8.0"
+    "uv_index": "7.0"
   },
   "alert": {
     "active": false,
@@ -31,7 +31,7 @@
     "How a Thai teen's night at a Pattaya beach ended in death",
     "Pattaya City, Chon Buri Province, Thailand",
     "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing | Thailand",
-    "“Pubic Hair” croissant from Pattaya, Thailand goes viral",
+    "China Outpaces Asian Countries on becoming Thailand’s Biggest International Visitor Market as Summer Travel Surges Across Bangkok, Phuket and Pattaya: What Is Driving the Big Tourism Boom?",
     "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim"
   ],
   "flights": [
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-11 04:27:52"
+  "last_update": "2026-07-11 06:36:45"
 }
