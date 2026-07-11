@@ -1,34 +1,38 @@
 {
   "currencies": {
-    "EUR": "38.19",
-    "EUR_trend": "→",
-    "DKK": "5.12",
-    "DKK_trend": "→",
-    "NOK": "3.43",
-    "NOK_trend": "→",
-    "USD": "33.41",
-    "USD_trend": "→",
-    "AUD": "23.19",
-    "AUD_trend": "→",
+    "EUR": "38.05",
+    "EUR_trend": "↓",
+    "DKK": "5.10",
+    "DKK_trend": "↓",
+    "NOK": "3.41",
+    "NOK_trend": "↓",
+    "USD": "33.31",
+    "USD_trend": "↓",
+    "AUD": "23.15",
+    "AUD_trend": "↓",
     "RUB": "0.44",
     "RUB_trend": "→"
   },
   "weather": {
     "temp": "29",
-    "feels_like": "31",
-    "wind_speed": "22",
+    "feels_like": "32",
+    "wind_speed": "21",
     "wind_dir": "WSW",
-    "aqi_value": "40",
+    "aqi_value": "38",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.2"
+    "uv_index": "1.9"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "ROS KILDE: Welcome to our Infotainment Portal."
+    "How a Thai teen's night at a Pattaya beach ended in death",
+    "“Pubic Hair” croissant from Pattaya, Thailand goes viral",
+    "Pattaya City, Chon Buri Province, Thailand",
+    "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing | Thailand",
+    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim"
   ],
   "flights": [
     {
@@ -81,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-10 23:39:35"
+  "last_update": "2026-07-11 01:08:22"
 }
