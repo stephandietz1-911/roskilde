@@ -15,10 +15,10 @@
   },
   "weather": {
     "temp": "30",
-    "feels_like": "32",
-    "wind_speed": "21",
+    "feels_like": "33",
+    "wind_speed": "22",
     "wind_dir": "WSW",
-    "aqi_value": "30",
+    "aqi_value": "29",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -28,7 +28,11 @@
     "message": ""
   },
   "news": [
-    "ROS KILDE: Welcome to our Infotainment Portal."
+    "Pattaya City, Chon Buri Province, Thailand",
+    "How a Thai teen's night at a Pattaya beach ended in death",
+    "Tyson Fury is Fighting in Pattaya this July",
+    "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing | Thailand",
+    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim"
   ],
   "flights": [
     {
@@ -81,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-11 12:12:27"
+  "last_update": "2026-07-11 13:55:47"
 }
