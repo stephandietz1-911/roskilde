@@ -15,13 +15,13 @@
   },
   "weather": {
     "temp": "28",
-    "feels_like": "30",
+    "feels_like": "31",
     "wind_speed": "24",
     "wind_dir": "SW",
-    "aqi_value": "18",
+    "aqi_value": "17",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "0.5"
   },
   "alert": {
     "active": false,
@@ -30,8 +30,8 @@
   "news": [
     "Pattaya City, Chon Buri Province, Thailand",
     "How a Thai teen's night at a Pattaya beach ended in death",
-    "Tyson Fury is Fighting in Pattaya this July",
     "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing | Thailand",
+    "Tyson Fury is Fighting in Pattaya this July",
     "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim"
   ],
   "flights": [
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-11 23:10:14"
+  "last_update": "2026-07-12 00:10:44"
 }
