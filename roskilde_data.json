@@ -1,7 +1,7 @@
 {
   "currencies": {
     "EUR": "38.06",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.10",
     "DKK_trend": "→",
     "NOK": "3.41",
@@ -16,23 +16,23 @@
   "weather": {
     "temp": "30",
     "feels_like": "33",
-    "wind_speed": "24",
-    "wind_dir": "SW",
-    "aqi_value": "18",
+    "wind_speed": "27",
+    "wind_dir": "WSW",
+    "aqi_value": "20",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "4.8"
+    "uv_index": "3.7"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Pattaya City, Chon Buri Province, Thailand",
     "How a Thai teen's night at a Pattaya beach ended in death",
+    "Pattaya City, Chon Buri Province, Thailand",
     "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing | Thailand",
     "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim",
-    "Tyson Fury is Fighting in Pattaya this July"
+    "An Australian man has been charged with homicide in Thailand, after a Thai teenager’s body was found stuffed in a suitcase and abandoned in the southeastern beachside city of Pattaya, a police official said."
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-12 03:56:57"
+  "last_update": "2026-07-12 06:36:25"
 }
