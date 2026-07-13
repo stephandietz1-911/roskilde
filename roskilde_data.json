@@ -15,10 +15,10 @@
   },
   "weather": {
     "temp": "27",
-    "feels_like": "32",
-    "wind_speed": "14",
-    "wind_dir": "SW",
-    "aqi_value": "18",
+    "feels_like": "31",
+    "wind_speed": "16",
+    "wind_dir": "SSW",
+    "aqi_value": "17",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -30,9 +30,9 @@
   "news": [
     "How a Thai teen's night at a Pattaya beach ended in death",
     "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing | Thailand",
-    "“Pubic Hair” croissant from Pattaya, Thailand goes viral",
     "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim",
-    "Pattaya City, Chon Buri Province, Thailand"
+    "“Pubic Hair” croissant from Pattaya, Thailand goes viral",
+    "An Australian man has been charged with homicide in Thailand, after a Thai teenager’s body was found stuffed in a suitcase and abandoned in the southeastern beachside city of Pattaya, a police official said."
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-13 21:00:30"
+  "last_update": "2026-07-13 22:08:51"
 }
