@@ -16,23 +16,23 @@
   "weather": {
     "temp": "28",
     "feels_like": "32",
-    "wind_speed": "24",
+    "wind_speed": "22",
     "wind_dir": "SW",
-    "aqi_value": "22",
+    "aqi_value": "23",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "4.3"
+    "uv_index": "0.6"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Bangkok pub fire kills 27, wounds dozens: What we know",
     "How a Thai teen's night at a Pattaya beach ended in death",
     "“Pubic Hair” croissant from Pattaya, Thailand goes viral",
-    "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing | Thailand",
-    "Australian man charged with murder over death of a teenage girl in Thailand's Pattaya",
-    "Tyson Fury to Fight Mariusz Wach July 24 in Thailand"
+    "ASEAN special envoy and EAO leaders meet in Pattaya; NUG FM Zin Mar Aung clarifies meeting involved individual invitations only",
+    "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing | Thailand"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-14 08:09:56"
+  "last_update": "2026-07-14 10:10:09"
 }
