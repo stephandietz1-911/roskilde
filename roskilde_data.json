@@ -1,37 +1,37 @@
 {
   "currencies": {
-    "EUR": "38.04",
-    "EUR_trend": "→",
-    "DKK": "5.10",
-    "DKK_trend": "→",
-    "NOK": "3.41",
-    "NOK_trend": "→",
-    "USD": "33.34",
-    "USD_trend": "→",
-    "AUD": "23.15",
-    "AUD_trend": "→",
+    "EUR": "38.13",
+    "EUR_trend": "↑",
+    "DKK": "5.11",
+    "DKK_trend": "↑",
+    "NOK": "3.42",
+    "NOK_trend": "↑",
+    "USD": "33.41",
+    "USD_trend": "↑",
+    "AUD": "23.17",
+    "AUD_trend": "↑",
     "RUB": "0.43",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "32",
-    "wind_speed": "17",
+    "temp": "29",
+    "feels_like": "33",
+    "wind_speed": "20",
     "wind_dir": "SW",
     "aqi_value": "18",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.1"
+    "uv_index": "0.7"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Bangkok pub fire kills 27, wounds dozens: What we know",
     "How a Thai teen's night at a Pattaya beach ended in death",
     "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing | Thailand",
     "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim",
-    "“Pubic Hair” croissant from Pattaya, Thailand goes viral",
     "An Australian man has been charged with homicide in Thailand, after a Thai teenager’s body was found stuffed in a suitcase and abandoned in the southeastern beachside city of Pattaya, a police official said."
   ],
   "flights": [
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-14 00:08:17"
+  "last_update": "2026-07-14 03:32:47"
 }
