@@ -1,38 +1,38 @@
 {
   "currencies": {
     "EUR": "38.24",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.13",
-    "DKK_trend": "↑",
+    "DKK_trend": "→",
     "NOK": "3.45",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.47",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.31",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.43",
     "RUB_trend": "→"
   },
   "weather": {
     "temp": "30",
     "feels_like": "34",
-    "wind_speed": "20",
+    "wind_speed": "22",
     "wind_dir": "SW",
-    "aqi_value": "21",
+    "aqi_value": "23",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "7.2"
+    "uv_index": "8.2"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Kuwaiti tourists allege extortion by Pattaya police",
     "How a Thai teen's night at a Pattaya beach ended in death",
     "Bangkok pub fire kills 27, wounds dozens: What we know",
     "“Pubic Hair” croissant from Pattaya, Thailand goes viral",
-    "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing | Thailand",
-    "Tyson Fury to Fight Mariusz Wach July 24 in Thailand"
+    "Philippines Secretary Lazaro convenes back-to-back meetings on Myanmar in Bangkok and Pattaya, Thailand"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-15 03:37:27"
+  "last_update": "2026-07-15 05:58:43"
 }
