@@ -18,7 +18,7 @@
     "feels_like": "32",
     "wind_speed": "15",
     "wind_dir": "SW",
-    "aqi_value": "30",
+    "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -30,8 +30,8 @@
   "news": [
     "How a Thai teen's night at a Pattaya beach ended in death",
     "Tyson Fury to fight Mariusz Wach in Thailand this July",
-    "Kuwaiti tourists allege extortion by Pattaya police",
     "Bangkok pub fire kills 27, wounds dozens: What we know",
+    "Kuwaiti tourists allege extortion by Pattaya police",
     "Tyson Fury to Fight Mariusz Wach July 24 in Thailand"
   ],
   "flights": [
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-15 21:39:59"
+  "last_update": "2026-07-15 22:39:54"
 }
