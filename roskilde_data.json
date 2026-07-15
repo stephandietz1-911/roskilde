@@ -18,10 +18,10 @@
     "feels_like": "34",
     "wind_speed": "22",
     "wind_dir": "SW",
-    "aqi_value": "23",
+    "aqi_value": "28",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "8.2"
+    "uv_index": "5.2"
   },
   "alert": {
     "active": false,
@@ -31,8 +31,8 @@
     "Kuwaiti tourists allege extortion by Pattaya police",
     "How a Thai teen's night at a Pattaya beach ended in death",
     "Bangkok pub fire kills 27, wounds dozens: What we know",
-    "“Pubic Hair” croissant from Pattaya, Thailand goes viral",
-    "Philippines Secretary Lazaro convenes back-to-back meetings on Myanmar in Bangkok and Pattaya, Thailand"
+    "Philippines Secretary Lazaro convenes back-to-back meetings on Myanmar in Bangkok and Pattaya, Thailand",
+    "“Pubic Hair” croissant from Pattaya, Thailand goes viral"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-15 05:58:43"
+  "last_update": "2026-07-15 08:28:34"
 }
