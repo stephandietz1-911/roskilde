@@ -15,13 +15,13 @@
   },
   "weather": {
     "temp": "30",
-    "feels_like": "34",
-    "wind_speed": "19",
-    "wind_dir": "SW",
+    "feels_like": "33",
+    "wind_speed": "24",
+    "wind_dir": "SSW",
     "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "8.4"
+    "uv_index": "3.9"
   },
   "alert": {
     "active": false,
@@ -29,10 +29,10 @@
   },
   "news": [
     "How a Thai teen's night at a Pattaya beach ended in death",
+    "Bangkok pub fire kills 27, wounds dozens: What we know",
     "Tyson Fury to fight Mariusz Wach in Thailand this July",
-    "Kuwaiti tourists allege extortion by Pattaya police",
     "Tyson Fury to Fight Mariusz Wach July 24 in Thailand",
-    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim"
+    "Kuwaiti tourists allege extortion by Pattaya police"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-16 06:42:28"
+  "last_update": "2026-07-16 09:03:27"
 }
