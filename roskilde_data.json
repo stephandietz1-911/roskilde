@@ -1,27 +1,27 @@
 {
   "currencies": {
     "EUR": "38.42",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.15",
-    "DKK_trend": "↑",
+    "DKK_trend": "→",
     "NOK": "3.46",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.57",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.49",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.43",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "32",
-    "wind_speed": "17",
-    "wind_dir": "SSW",
-    "aqi_value": "37",
+    "temp": "31",
+    "feels_like": "35",
+    "wind_speed": "20",
+    "wind_dir": "SW",
+    "aqi_value": "36",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "2.2"
+    "uv_index": "7.5"
   },
   "alert": {
     "active": false,
@@ -31,8 +31,8 @@
     "How a Thai teen's night at a Pattaya beach ended in death",
     "Tyson Fury to fight Mariusz Wach in Thailand this July",
     "Bangkok pub fire kills 27, wounds dozens: What we know",
-    "Kuwaiti tourists allege extortion by Pattaya police",
-    "Tyson Fury to Fight Mariusz Wach July 24 in Thailand"
+    "Tyson Fury to Fight Mariusz Wach July 24 in Thailand",
+    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-16 01:08:12"
+  "last_update": "2026-07-16 04:25:22"
 }
