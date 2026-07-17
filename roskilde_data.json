@@ -14,14 +14,14 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "33",
-    "wind_speed": "17",
-    "wind_dir": "SW",
-    "aqi_value": "34",
+    "temp": "30",
+    "feels_like": "35",
+    "wind_speed": "11",
+    "wind_dir": "WSW",
+    "aqi_value": "31",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "5.9"
+    "uv_index": "3.6"
   },
   "alert": {
     "active": false,
@@ -32,7 +32,7 @@
     "An Australian man has been charged with homicide in Thailand, after a Thai teenager’s body was found stuffed in a suitcase and abandoned in the southeastern beachside city of Pattaya, a police official said.",
     "Bangkok Competes with Pattaya, Hua Hin, Chiang Mai and More Thai Cities to Supercharge Tourism as Record Entertainment, Sporting Events, Trade Shows and Outdoor Escapes Magnetise Travellers Across the Region: Now What Every Visitor Needs to Kn",
     "Tyson Fury to Fight Mariusz Wach July 24 in Thailand",
-    "Kuwaiti tourists allege extortion by Pattaya police"
+    "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing | Thailand"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-17 06:37:37"
+  "last_update": "2026-07-17 08:57:38"
 }
