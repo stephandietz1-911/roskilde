@@ -1,27 +1,27 @@
 {
   "currencies": {
     "EUR": "38.43",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.15",
     "DKK_trend": "→",
     "NOK": "3.47",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.57",
     "USD_trend": "→",
     "AUD": "23.50",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.43",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
+    "temp": "30",
     "feels_like": "33",
-    "wind_speed": "13",
+    "wind_speed": "18",
     "wind_dir": "SW",
-    "aqi_value": "38",
+    "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "2.0"
+    "uv_index": "7.8"
   },
   "alert": {
     "active": false,
@@ -29,10 +29,10 @@
   },
   "news": [
     "How a Thai teen's night at a Pattaya beach ended in death",
+    "Bangkok Competes with Pattaya, Hua Hin, Chiang Mai and More Thai Cities to Supercharge Tourism as Record Entertainment, Sporting Events, Trade Shows and Outdoor Escapes Magnetise Travellers Across the Region: Now What Every Visitor Needs to Kn",
     "Tyson Fury to Fight Mariusz Wach July 24 in Thailand",
-    "Tyson Fury to fight Mariusz Wach in Thailand this July",
     "Kuwaiti tourists allege extortion by Pattaya police",
-    "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing | Thailand"
+    "Tyson Fury to fight Mariusz Wach in Thailand this July"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-17 01:04:46"
+  "last_update": "2026-07-17 04:24:51"
 }
