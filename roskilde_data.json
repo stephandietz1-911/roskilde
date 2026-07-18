@@ -16,7 +16,7 @@
   "weather": {
     "temp": "29",
     "feels_like": "33",
-    "wind_speed": "15",
+    "wind_speed": "14",
     "wind_dir": "SSW",
     "aqi_value": "52",
     "aqi_status": "Moderate",
@@ -31,8 +31,8 @@
     "How a Thai teen's night at a Pattaya beach ended in death",
     "An Australian man has been charged with homicide in Thailand, after a Thai teenager’s body was found stuffed in a suitcase and abandoned in the southeastern beachside city of Pattaya, a police official said.",
     "How a Thai teen’s night at a Pattaya beach ended in death",
-    "Tyson Fury to Fight Mariusz Wach July 24 in Thailand",
-    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim"
+    "Tyson Fury claims $250,000 raised through Thailand tussle with Mariusz Wach",
+    "Tyson Fury to Fight Mariusz Wach July 24 in Thailand"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-18 12:04:10"
+  "last_update": "2026-07-18 13:48:29"
 }
