@@ -15,13 +15,13 @@
   },
   "weather": {
     "temp": "32",
-    "feels_like": "36",
-    "wind_speed": "11",
+    "feels_like": "35",
+    "wind_speed": "10",
     "wind_dir": "SW",
     "aqi_value": "51",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "5.5"
+    "uv_index": "2.5"
   },
   "alert": {
     "active": false,
@@ -32,7 +32,7 @@
     "An Australian man has been charged with homicide in Thailand, after a Thai teenager’s body was found stuffed in a suitcase and abandoned in the southeastern beachside city of Pattaya, a police official said.",
     "Tyson Fury to Fight Mariusz Wach July 24 in Thailand",
     "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim",
-    "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing | Thailand"
+    "How a Thai teen’s night at a Pattaya beach ended in death"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-18 08:18:32"
+  "last_update": "2026-07-18 09:55:36"
 }
