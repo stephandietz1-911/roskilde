@@ -14,14 +14,14 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "31",
-    "feels_like": "37",
-    "wind_speed": "12",
+    "temp": "32",
+    "feels_like": "38",
+    "wind_speed": "14",
     "wind_dir": "WSW",
-    "aqi_value": "51",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
-    "uv_index": "7.7"
+    "aqi_value": "50",
+    "aqi_status": "Good",
+    "aqi_color": "#10b981",
+    "uv_index": "8.7"
   },
   "alert": {
     "active": false,
@@ -31,8 +31,8 @@
     "How a Thai teen's night at a Pattaya beach ended in death",
     "An Australian man has been charged with homicide in Thailand, after a Thai teenager’s body was found stuffed in a suitcase and abandoned in the southeastern beachside city of Pattaya, a police official said.",
     "How a Thai teen’s night at a Pattaya beach ended in death",
-    "Celebrity hunks heat up Thailand | GMA Entertainment",
-    "Tyson Fury to Fight Mariusz Wach July 24 in Thailand"
+    "Tyson Fury to Fight Mariusz Wach July 24 in Thailand",
+    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-19 03:53:28"
+  "last_update": "2026-07-19 06:28:48"
 }
