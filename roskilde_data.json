@@ -1,35 +1,35 @@
 {
   "currencies": {
     "EUR": "38.42",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.15",
-    "DKK_trend": "↓",
+    "DKK_trend": "→",
     "NOK": "3.48",
-    "NOK_trend": "↓",
+    "NOK_trend": "→",
     "USD": "33.65",
     "USD_trend": "→",
     "AUD": "23.56",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.43",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "33",
-    "wind_speed": "17",
+    "temp": "32",
+    "feels_like": "37",
+    "wind_speed": "13",
     "wind_dir": "WSW",
     "aqi_value": "53",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "2.4"
+    "uv_index": "8.1"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Tyson Fury and Mariusz Wach to Contest the Historic WBC METTA Humanitarian Belt in Thailand",
     "Pattayatai 24, Pattaya Klang, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri",
+    "Tyson Fury and Mariusz Wach to Contest the Historic WBC METTA Humanitarian Belt in Thailand",
     "How a Thai teen's night at a Pattaya beach ended in death",
     "An Australian man has been charged with homicide in Thailand, after a Thai teenager’s body was found stuffed in a suitcase and abandoned in the southeastern beachside city of Pattaya, a police official said.",
     "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim"
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-21 01:09:00"
+  "last_update": "2026-07-21 04:31:41"
 }
