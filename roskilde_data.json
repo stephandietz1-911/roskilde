@@ -17,7 +17,7 @@
     "temp": "30",
     "feels_like": "34",
     "wind_speed": "12",
-    "wind_dir": "S",
+    "wind_dir": "SSW",
     "aqi_value": "53",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
@@ -29,8 +29,8 @@
   },
   "news": [
     "Pattayatai 24, Pattaya Klang, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri",
-    "Tyson Fury and Mariusz Wach to Contest the Historic WBC METTA Humanitarian Belt in Thailand",
     "How a Thai teen's night at a Pattaya beach ended in death",
+    "Tyson Fury and Mariusz Wach to Contest the Historic WBC METTA Humanitarian Belt in Thailand",
     "An Australian man has been charged with homicide in Thailand, after a Thai teenager’s body was found stuffed in a suitcase and abandoned in the southeastern beachside city of Pattaya, a police official said.",
     "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim"
   ],
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-21 14:13:35"
+  "last_update": "2026-07-21 15:54:03"
 }
