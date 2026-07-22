@@ -14,25 +14,25 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "31",
-    "feels_like": "34",
-    "wind_speed": "21",
+    "temp": "29",
+    "feels_like": "33",
+    "wind_speed": "13",
     "wind_dir": "SW",
-    "aqi_value": "44",
+    "aqi_value": "48",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "2.9"
+    "uv_index": "0.1"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Fury says 'best yet to come' ahead of Thailand fight",
     "Tyson Fury vs. Wach Preview: Friday in Pattaya With No Broadcast Planned",
     "Tyson Fury vs Mariusz Wach: Key questions answered with Anthony Joshua warm-up fight set to take place behind closed doors in Thailand",
     "How a Thai teen's night at a Pattaya beach ended in death",
-    "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing | Thailand",
-    "Tyson Fury and Mariusz Wach to Contest the Historic WBC METTA Humanitarian Belt in Thailand"
+    "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing | Thailand"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-22 09:58:00"
+  "last_update": "2026-07-22 11:52:24"
 }
