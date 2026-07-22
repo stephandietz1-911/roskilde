@@ -1,27 +1,27 @@
 {
   "currencies": {
-    "EUR": "38.42",
-    "EUR_trend": "→",
+    "EUR": "38.44",
+    "EUR_trend": "↑",
     "DKK": "5.15",
     "DKK_trend": "→",
-    "NOK": "3.48",
-    "NOK_trend": "→",
-    "USD": "33.65",
-    "USD_trend": "→",
-    "AUD": "23.56",
-    "AUD_trend": "→",
+    "NOK": "3.50",
+    "NOK_trend": "↑",
+    "USD": "33.68",
+    "USD_trend": "↑",
+    "AUD": "23.61",
+    "AUD_trend": "↑",
     "RUB": "0.43",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "33",
-    "wind_speed": "15",
+    "temp": "30",
+    "feels_like": "34",
+    "wind_speed": "12",
     "wind_dir": "W",
     "aqi_value": "52",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "0.2"
+    "uv_index": "1.9"
   },
   "alert": {
     "active": false,
@@ -29,10 +29,10 @@
   },
   "news": [
     "Tyson Fury vs. Wach Preview: Friday in Pattaya With No Broadcast Planned",
-    "Pattayatai 24, Pattaya Klang, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri",
     "Tyson Fury vs Mariusz Wach: Key questions answered with Anthony Joshua warm-up fight set to take place behind closed doors in Thailand",
     "How a Thai teen's night at a Pattaya beach ended in death",
-    "Tyson Fury and Mariusz Wach to Contest the Historic WBC METTA Humanitarian Belt in Thailand"
+    "Tyson Fury and Mariusz Wach to Contest the Historic WBC METTA Humanitarian Belt in Thailand",
+    "An Australian man has been charged with homicide in Thailand, after a Thai teenager’s body was found stuffed in a suitcase and abandoned in the southeastern beachside city of Pattaya, a police official said."
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-21 23:40:52"
+  "last_update": "2026-07-22 01:07:27"
 }
