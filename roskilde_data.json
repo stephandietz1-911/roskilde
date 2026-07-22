@@ -14,11 +14,11 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "33",
-    "wind_speed": "12",
-    "wind_dir": "WSW",
-    "aqi_value": "40",
+    "temp": "26",
+    "feels_like": "32",
+    "wind_speed": "8",
+    "wind_dir": "NW",
+    "aqi_value": "39",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -32,7 +32,7 @@
     "Tyson Fury vs. Wach Preview: Friday in Pattaya With No Broadcast Planned",
     "How a Thai teen's night at a Pattaya beach ended in death",
     "Tyson Fury vs Mariusz Wach: 'Gypsy King' says world is yet to see 'best' version of him at nearly 38 years old",
-    "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing | Thailand"
+    "An Australian man has been charged with homicide in Thailand, after a Thai teenager’s body was found stuffed in a suitcase and abandoned in the southeastern beachside city of Pattaya, a police official said."
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-22 18:33:40"
+  "last_update": "2026-07-22 19:57:26"
 }
