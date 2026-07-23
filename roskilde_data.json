@@ -14,14 +14,14 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "29",
+    "temp": "30",
     "feels_like": "34",
-    "wind_speed": "13",
-    "wind_dir": "SW",
-    "aqi_value": "28",
+    "wind_speed": "18",
+    "wind_dir": "W",
+    "aqi_value": "27",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "2.8"
+    "uv_index": "7.9"
   },
   "alert": {
     "active": false,
@@ -29,10 +29,10 @@
   },
   "news": [
     "Fury says 'best yet to come' ahead of Thailand fight",
+    "Tyson Fury to fight Mariusz Wach in Thailand",
     "How a Thai teen's night at a Pattaya beach ended in death",
     "Tyson Fury vs. Wach Preview: Friday in Pattaya With No Broadcast Planned",
-    "Fury in Pattaya ring tomorrow",
-    "Tyson Fury vs Mariusz Wach: 'Gypsy King' says world is yet to see 'best' version of him at nearly 38 years old"
+    "'Would Beckham do it?'"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-23 04:33:05"
+  "last_update": "2026-07-23 07:18:33"
 }
