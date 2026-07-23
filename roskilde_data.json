@@ -16,7 +16,7 @@
   "weather": {
     "temp": "28",
     "feels_like": "33",
-    "wind_speed": "11",
+    "wind_speed": "13",
     "wind_dir": "WSW",
     "aqi_value": "18",
     "aqi_status": "Good",
@@ -31,8 +31,8 @@
     "Tyson Fury vs. Mariusz Wach weigh ins results, face off video for boxing match you can’t watch",
     "Pattayatai 24, Pattaya Klang, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri",
     "How a Thai teen's night at a Pattaya beach ended in death",
-    "Tyson Fury weighs in at 26 pounds lighter than Mariusz Wach ahead of Friday's fight in Thailand",
-    "Tyson Fury vs. Wach Preview: Friday in Pattaya With No Broadcast Planned"
+    "Tyson Fury vs. Wach Preview: Friday in Pattaya With No Broadcast Planned",
+    "Fury says 'best yet to come' ahead of Thailand fight"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-23 21:28:06"
+  "last_update": "2026-07-23 22:31:49"
 }
