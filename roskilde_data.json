@@ -1,27 +1,27 @@
 {
   "currencies": {
     "EUR": "38.54",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.17",
-    "DKK_trend": "↑",
+    "DKK_trend": "→",
     "NOK": "3.52",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.78",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.63",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.43",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "32",
-    "wind_speed": "11",
-    "wind_dir": "WSW",
-    "aqi_value": "30",
+    "temp": "29",
+    "feels_like": "34",
+    "wind_speed": "13",
+    "wind_dir": "SW",
+    "aqi_value": "28",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "1.4"
+    "uv_index": "2.8"
   },
   "alert": {
     "active": false,
@@ -29,10 +29,10 @@
   },
   "news": [
     "Fury says 'best yet to come' ahead of Thailand fight",
-    "Tyson Fury vs. Wach Preview: Friday in Pattaya With No Broadcast Planned",
     "How a Thai teen's night at a Pattaya beach ended in death",
-    "Tyson Fury vs Mariusz Wach: 'Gypsy King' says world is yet to see 'best' version of him at nearly 38 years old",
-    "Fury in Pattaya ring tomorrow"
+    "Tyson Fury vs. Wach Preview: Friday in Pattaya With No Broadcast Planned",
+    "Fury in Pattaya ring tomorrow",
+    "Tyson Fury vs Mariusz Wach: 'Gypsy King' says world is yet to see 'best' version of him at nearly 38 years old"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-23 01:04:20"
+  "last_update": "2026-07-23 04:33:05"
 }
