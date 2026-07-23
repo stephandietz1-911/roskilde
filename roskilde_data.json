@@ -17,18 +17,18 @@
     "temp": "29",
     "feels_like": "34",
     "wind_speed": "9",
-    "wind_dir": "SW",
+    "wind_dir": "NNW",
     "aqi_value": "27",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.1"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Tyson Fury to fight Mariusz Wach in Thailand",
+    "Tyson Fury weighs in at 26 pounds lighter than Mariusz Wach ahead of Friday's fight in Thailand",
     "Pattayatai 24, Pattaya Klang, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri",
     "How a Thai teen's night at a Pattaya beach ended in death",
     "Tyson Fury vs. Wach Preview: Friday in Pattaya With No Broadcast Planned",
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-23 11:52:46"
+  "last_update": "2026-07-23 13:54:03"
 }
