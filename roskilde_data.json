@@ -16,12 +16,12 @@
   "weather": {
     "temp": "29",
     "feels_like": "34",
-    "wind_speed": "10",
-    "wind_dir": "WSW",
-    "aqi_value": "26",
+    "wind_speed": "9",
+    "wind_dir": "SW",
+    "aqi_value": "27",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "3.0"
+    "uv_index": "0.1"
   },
   "alert": {
     "active": false,
@@ -30,9 +30,9 @@
   "news": [
     "Tyson Fury to fight Mariusz Wach in Thailand",
     "Pattayatai 24, Pattaya Klang, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri",
-    "Fury says 'best yet to come' ahead of Thailand fight",
     "How a Thai teen's night at a Pattaya beach ended in death",
-    "Tyson Fury vs. Wach Preview: Friday in Pattaya With No Broadcast Planned"
+    "Tyson Fury vs. Wach Preview: Friday in Pattaya With No Broadcast Planned",
+    "Fury says 'best yet to come' ahead of Thailand fight"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-23 09:57:00"
+  "last_update": "2026-07-23 11:52:46"
 }
