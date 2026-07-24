@@ -14,11 +14,11 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
+    "temp": "27",
     "feels_like": "33",
-    "wind_speed": "12",
-    "wind_dir": "WNW",
-    "aqi_value": "27",
+    "wind_speed": "7",
+    "wind_dir": "SW",
+    "aqi_value": "22",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -28,11 +28,11 @@
     "message": ""
   },
   "news": [
+    "Boxing News: Weights From Pattaya, Thailand: Fury Vs Wach » July 24, 2026",
     "Thailand ramps up crime crackdown to safeguard Pattaya/Chonburi tourism",
     "Tyson Fury vs. Mariusz Wach: How to follow today, start time, why it's not on TV, why it's in Thailand, will he face-off with Anthony Joshua?",
     "How a Thai teen's night at a Pattaya beach ended in death",
-    "Pattayatai 24, Pattaya Klang, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri",
-    "Tyson Fury vs. Wach Preview: Friday in Pattaya With No Broadcast Planned"
+    "Pattayatai 24, Pattaya Klang, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-24 12:58:33"
+  "last_update": "2026-07-24 15:00:59"
 }
