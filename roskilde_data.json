@@ -1,27 +1,27 @@
 {
   "currencies": {
     "EUR": "38.50",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.16",
-    "DKK_trend": "↓",
+    "DKK_trend": "→",
     "NOK": "3.52",
     "NOK_trend": "→",
     "USD": "33.83",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.61",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.43",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "32",
-    "wind_speed": "15",
+    "temp": "31",
+    "feels_like": "36",
+    "wind_speed": "18",
     "wind_dir": "WSW",
-    "aqi_value": "18",
+    "aqi_value": "20",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.5"
+    "uv_index": "8.2"
   },
   "alert": {
     "active": false,
@@ -29,8 +29,8 @@
   },
   "news": [
     "Tyson Fury vs. Mariusz Wach weigh ins results, face off video for boxing match you can’t watch",
-    "Pattayatai 24, Pattaya Klang, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri",
     "How a Thai teen's night at a Pattaya beach ended in death",
+    "Pattayatai 24, Pattaya Klang, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri",
     "Tyson Fury vs. Wach Preview: Friday in Pattaya With No Broadcast Planned",
     "Fury says 'best yet to come' ahead of Thailand fight"
   ],
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-24 01:08:45"
+  "last_update": "2026-07-24 04:31:33"
 }
