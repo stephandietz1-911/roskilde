@@ -16,12 +16,12 @@
   "weather": {
     "temp": "28",
     "feels_like": "33",
-    "wind_speed": "9",
-    "wind_dir": "SW",
-    "aqi_value": "28",
+    "wind_speed": "12",
+    "wind_dir": "WNW",
+    "aqi_value": "27",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.3"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -32,7 +32,7 @@
     "Tyson Fury vs. Mariusz Wach: How to follow today, start time, why it's not on TV, why it's in Thailand, will he face-off with Anthony Joshua?",
     "How a Thai teen's night at a Pattaya beach ended in death",
     "Pattayatai 24, Pattaya Klang, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri",
-    "Tyson Fury vs. Mariusz Wach weigh ins results, face off video for boxing match you can’t watch"
+    "Tyson Fury vs. Wach Preview: Friday in Pattaya With No Broadcast Planned"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-24 11:26:38"
+  "last_update": "2026-07-24 12:58:33"
 }
