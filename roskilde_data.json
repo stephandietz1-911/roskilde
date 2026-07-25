@@ -14,14 +14,14 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "31",
+    "temp": "30",
     "feels_like": "34",
-    "wind_speed": "21",
+    "wind_speed": "19",
     "wind_dir": "SSW",
-    "aqi_value": "28",
+    "aqi_value": "29",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "1.9"
+    "uv_index": "0.2"
   },
   "alert": {
     "active": false,
@@ -30,8 +30,8 @@
   "news": [
     "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya",
     "Tyson Fury beats Mariusz Wach in Thailand, awaits Anthony Joshua",
-    "Boxing News: Weights From Pattaya, Thailand: Fury Vs Wach » July 24, 2026",
     "Tyson Fury beats Mariusz Wach in Thailand, awaits Anthony Joshua",
+    "Boxing News: Weights From Pattaya, Thailand: Fury Vs Wach » July 24, 2026",
     "Fury dominates Wach in Thailand boxing bout ahead of Joshua showdown"
   ],
   "flights": [
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-25 10:25:36"
+  "last_update": "2026-07-25 11:43:49"
 }
