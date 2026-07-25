@@ -1,27 +1,27 @@
 {
   "currencies": {
     "EUR": "38.34",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.14",
-    "DKK_trend": "↓",
+    "DKK_trend": "→",
     "NOK": "3.52",
     "NOK_trend": "→",
     "USD": "33.70",
-    "USD_trend": "↓",
+    "USD_trend": "→",
     "AUD": "23.52",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.43",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "32",
-    "wind_speed": "17",
+    "temp": "31",
+    "feels_like": "35",
+    "wind_speed": "16",
     "wind_dir": "WSW",
     "aqi_value": "21",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.3"
+    "uv_index": "1.5"
   },
   "alert": {
     "active": false,
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-25 01:09:42"
+  "last_update": "2026-07-25 04:27:47"
 }
