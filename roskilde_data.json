@@ -15,13 +15,13 @@
   },
   "weather": {
     "temp": "32",
-    "feels_like": "35",
-    "wind_speed": "16",
+    "feels_like": "34",
+    "wind_speed": "20",
     "wind_dir": "WSW",
-    "aqi_value": "33",
+    "aqi_value": "31",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "4.2"
+    "uv_index": "2.5"
   },
   "alert": {
     "active": false,
@@ -31,8 +31,8 @@
     "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya",
     "Boxing News: Weights From Pattaya, Thailand: Fury Vs Wach » July 24, 2026",
     "Tyson Fury beats Mariusz Wach in Thailand, awaits Anthony Joshua",
-    "Tyson Fury vs. Mariusz Wach: How to follow today, start time, why it's not on TV, why it's in Thailand, will he face-off with Anthony Joshua?",
-    "Tyson Fury beats Mariusz Wach in Thailand, awaits Anthony Joshua"
+    "Tyson Fury beats Mariusz Wach in Thailand, awaits Anthony Joshua",
+    "Tyson Fury vs. Mariusz Wach: How to follow today, start time, why it's not on TV, why it's in Thailand, will he face-off with Anthony Joshua?"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-26 07:20:03"
+  "last_update": "2026-07-26 09:32:19"
 }
