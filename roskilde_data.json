@@ -14,11 +14,11 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "33",
+    "temp": "29",
+    "feels_like": "32",
     "wind_speed": "16",
-    "wind_dir": "W",
-    "aqi_value": "26",
+    "wind_dir": "WSW",
+    "aqi_value": "24",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -28,7 +28,11 @@
     "message": ""
   },
   "news": [
-    "ROS KILDE: Welcome to our Infotainment Portal."
+    "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya",
+    "Boxing News: Weights From Pattaya, Thailand: Fury Vs Wach » July 24, 2026",
+    "Tyson Fury beats Mariusz Wach in Thailand, awaits Anthony Joshua",
+    "Tyson Fury beats Mariusz Wach in Thailand, awaits Anthony Joshua",
+    "Tyson Fury stops Mariusz Wach; Anthony Joshua fight inches closer"
   ],
   "flights": [
     {
@@ -81,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-26 14:07:53"
+  "last_update": "2026-07-26 15:20:59"
 }
