@@ -15,10 +15,10 @@
   },
   "weather": {
     "temp": "27",
-    "feels_like": "32",
-    "wind_speed": "14",
-    "wind_dir": "SW",
-    "aqi_value": "20",
+    "feels_like": "31",
+    "wind_speed": "16",
+    "wind_dir": "WSW",
+    "aqi_value": "21",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -32,7 +32,7 @@
     "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya",
     "Boxing News: Weights From Pattaya, Thailand: Fury Vs Wach » July 24, 2026",
     "Tyson Fury beats Mariusz Wach in Thailand, awaits Anthony Joshua",
-    "Tyson Fury beats Mariusz Wach in Thailand, awaits Anthony Joshua"
+    "Tyson Fury defeats 46-year-old Mariusz Wach in warm-up for expected Joshua bout"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-26 20:56:15"
+  "last_update": "2026-07-26 22:00:25"
 }
