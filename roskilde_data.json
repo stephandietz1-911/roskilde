@@ -14,11 +14,11 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "33",
-    "wind_speed": "7",
-    "wind_dir": "SSE",
-    "aqi_value": "24",
+    "temp": "28",
+    "feels_like": "34",
+    "wind_speed": "8",
+    "wind_dir": "SW",
+    "aqi_value": "21",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -31,8 +31,8 @@
     "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya",
     "Boxing News: Weights From Pattaya, Thailand: Fury Vs Wach » July 24, 2026",
     "Tyson Fury beats Mariusz Wach in Thailand, awaits Anthony Joshua",
-    "Tyson Fury defeats 46-year-old Mariusz Wach in warm-up for expected Joshua bout",
-    "How a Thai teen's night at a Pattaya beach ended in death"
+    "Prestige Recap: Central Pattaya Hosts ‘Beach Yoga & Wellness 2026’",
+    "Tyson Fury defeats 46-year-old Mariusz Wach in warm-up for expected Joshua bout"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-27 13:53:05"
+  "last_update": "2026-07-27 16:16:38"
 }
