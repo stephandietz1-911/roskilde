@@ -1,27 +1,27 @@
 {
   "currencies": {
     "EUR": "38.29",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.13",
-    "DKK_trend": "↓",
+    "DKK_trend": "→",
     "NOK": "3.52",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.66",
-    "USD_trend": "↓",
+    "USD_trend": "→",
     "AUD": "23.53",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.43",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "30",
+    "temp": "32",
     "feels_like": "35",
-    "wind_speed": "16",
-    "wind_dir": "WSW",
-    "aqi_value": "20",
+    "wind_speed": "25",
+    "wind_dir": "SW",
+    "aqi_value": "22",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "7.7"
+    "uv_index": "6.5"
   },
   "alert": {
     "active": false,
@@ -32,7 +32,7 @@
     "Thailand Fury Files: Tyson Fury is not the same fighter I grew up watching",
     "Boxing News: Weights From Pattaya, Thailand: Fury Vs Wach » July 24, 2026",
     "Tyson Fury beats Mariusz Wach in Thailand, awaits Anthony Joshua",
-    "Tyson Fury beats Mariusz Wach in Thailand, awaits Anthony Joshua"
+    "Tyson Fury defeats 46-year-old Mariusz Wach in warm-up for expected Joshua bout"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-27 04:03:21"
+  "last_update": "2026-07-27 07:49:58"
 }
