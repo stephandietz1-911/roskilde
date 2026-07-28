@@ -17,11 +17,11 @@
     "temp": "26",
     "feels_like": "32",
     "wind_speed": "7",
-    "wind_dir": "WSW",
+    "wind_dir": "SW",
     "aqi_value": "17",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "0.1"
   },
   "alert": {
     "active": false,
@@ -31,8 +31,8 @@
     "Lured To Thailand, 3 Indian Men Tortured For Rs 69 Lakh Ransom By Gang Of 4 Pakistanis, 1 Indian",
     "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya",
     "Boxing News: Weights From Pattaya, Thailand: Fury Vs Wach » July 27, 2026",
-    "Three Indians rescued after Pattaya kidnapping, torture",
-    "Tyson Fury beats Mariusz Wach in Thailand, awaits Anthony Joshua"
+    "Tyson Fury beats Mariusz Wach in Thailand, awaits Anthony Joshua",
+    "Three Indians rescued after Pattaya kidnapping, torture"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-28 22:56:20"
+  "last_update": "2026-07-28 23:57:55"
 }
