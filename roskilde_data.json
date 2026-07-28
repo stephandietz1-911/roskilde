@@ -15,10 +15,10 @@
   },
   "weather": {
     "temp": "26",
-    "feels_like": "31",
-    "wind_speed": "11",
+    "feels_like": "30",
+    "wind_speed": "12",
     "wind_dir": "WSW",
-    "aqi_value": "18",
+    "aqi_value": "17",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -28,11 +28,7 @@
     "message": ""
   },
   "news": [
-    "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya",
-    "Three Indians rescued after Pattaya kidnapping, torture",
-    "Lured To Thailand, 3 Indian Men Tortured For Rs 69 Lakh Ransom By Gang Of 4 Pakistanis, 1 Indian",
-    "Boxing News: Weights From Pattaya, Thailand: Fury Vs Wach » July 27, 2026",
-    "Tyson Fury beats Mariusz Wach in Thailand, awaits Anthony Joshua"
+    "ROS KILDE: Welcome to our Infotainment Portal."
   ],
   "flights": [
     {
@@ -85,5 +81,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-28 19:20:24"
+  "last_update": "2026-07-28 20:42:43"
 }
