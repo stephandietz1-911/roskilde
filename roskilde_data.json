@@ -14,14 +14,14 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "31",
-    "wind_speed": "18",
-    "wind_dir": "SW",
+    "temp": "30",
+    "feels_like": "34",
+    "wind_speed": "17",
+    "wind_dir": "WSW",
     "aqi_value": "21",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.9"
+    "uv_index": "0.8"
   },
   "alert": {
     "active": false,
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-28 04:27:52"
+  "last_update": "2026-07-28 07:16:40"
 }
