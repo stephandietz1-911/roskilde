@@ -16,9 +16,9 @@
   "weather": {
     "temp": "27",
     "feels_like": "34",
-    "wind_speed": "5",
-    "wind_dir": "SW",
-    "aqi_value": "22",
+    "wind_speed": "6",
+    "wind_dir": "SSE",
+    "aqi_value": "20",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-29 13:23:00"
+  "last_update": "2026-07-29 15:28:31"
 }
