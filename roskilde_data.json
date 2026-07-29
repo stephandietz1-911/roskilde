@@ -15,21 +15,21 @@
   },
   "weather": {
     "temp": "26",
-    "feels_like": "31",
-    "wind_speed": "11",
+    "feels_like": "32",
+    "wind_speed": "8",
     "wind_dir": "W",
     "aqi_value": "23",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "0.1"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Police search for missing Russian siblings in Pattaya",
     "Cheap Thailand trip turns into horror, 3 Indians kidnapped by Indians in Pattaya",
+    "Police search for missing Russian siblings in Pattaya",
     "Thailand video news | Thailand approves first locally developed Botulinum Antitoxin, Police continue search for missing Russian siblings near Pattaya",
     "Thailand promotes Muay Thai, cuisine and culture to drive European growth",
     "Suspects sought in young Russians’ disappearance flee"
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-29 22:38:26"
+  "last_update": "2026-07-29 23:41:47"
 }
