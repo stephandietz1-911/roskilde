@@ -15,13 +15,13 @@
   },
   "weather": {
     "temp": "27",
-    "feels_like": "32",
-    "wind_speed": "11",
-    "wind_dir": "S",
-    "aqi_value": "23",
+    "feels_like": "34",
+    "wind_speed": "5",
+    "wind_dir": "SW",
+    "aqi_value": "22",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.1"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -29,8 +29,8 @@
   },
   "news": [
     "Police search for missing Russian siblings in Pattaya",
-    "Lured To Thailand, 3 Indian Men Tortured For Rs 69 Lakh Ransom By Gang Of 4 Pakistanis, 1 Indian",
     "Cheap Thailand trip turns into horror, 3 Indians kidnapped by Indians in Pattaya",
+    "Lured To Thailand, 3 Indian Men Tortured For Rs 69 Lakh Ransom By Gang Of 4 Pakistanis, 1 Indian",
     "Thailand video news | Thailand approves first locally developed Botulinum Antitoxin, Police continue search for missing Russian siblings near Pattaya",
     "Thailand promotes Muay Thai, cuisine and culture to drive European growth"
   ],
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-29 11:33:38"
+  "last_update": "2026-07-29 13:23:00"
 }
