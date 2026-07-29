@@ -1,27 +1,27 @@
 {
   "currencies": {
     "EUR": "38.20",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.12",
-    "DKK_trend": "↓",
+    "DKK_trend": "→",
     "NOK": "3.47",
-    "NOK_trend": "↓",
+    "NOK_trend": "→",
     "USD": "33.58",
-    "USD_trend": "↓",
+    "USD_trend": "→",
     "AUD": "23.41",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.43",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
+    "temp": "27",
     "feels_like": "32",
-    "wind_speed": "12",
-    "wind_dir": "WSW",
-    "aqi_value": "17",
+    "wind_speed": "11",
+    "wind_dir": "SW",
+    "aqi_value": "19",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "1.2"
+    "uv_index": "1.0"
   },
   "alert": {
     "active": false,
@@ -31,8 +31,8 @@
     "‘$13 an hour’: Tourist’s sick sex confession",
     "Lured To Thailand, 3 Indian Men Tortured For Rs 69 Lakh Ransom By Gang Of 4 Pakistanis, 1 Indian",
     "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya",
-    "Boxing News: Weights From Pattaya, Thailand: Fury Vs Wach » July 27, 2026",
-    "Tyson Fury beats Mariusz Wach in Thailand, awaits Anthony Joshua"
+    "Police search for missing Russian siblings in Pattaya",
+    "Boxing News: Weights From Pattaya, Thailand: Fury Vs Wach » July 27, 2026"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-29 03:15:18"
+  "last_update": "2026-07-29 06:09:15"
 }
