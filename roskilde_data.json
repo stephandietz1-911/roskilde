@@ -1,38 +1,38 @@
 {
   "currencies": {
-    "EUR": "38.25",
-    "EUR_trend": "→",
-    "DKK": "5.13",
-    "DKK_trend": "→",
-    "NOK": "3.48",
-    "NOK_trend": "→",
-    "USD": "33.62",
-    "USD_trend": "→",
-    "AUD": "23.50",
-    "AUD_trend": "→",
+    "EUR": "38.20",
+    "EUR_trend": "↓",
+    "DKK": "5.12",
+    "DKK_trend": "↓",
+    "NOK": "3.47",
+    "NOK_trend": "↓",
+    "USD": "33.58",
+    "USD_trend": "↓",
+    "AUD": "23.41",
+    "AUD_trend": "↓",
     "RUB": "0.43",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "26",
+    "temp": "28",
     "feels_like": "32",
-    "wind_speed": "7",
-    "wind_dir": "SW",
+    "wind_speed": "12",
+    "wind_dir": "WSW",
     "aqi_value": "17",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.1"
+    "uv_index": "1.2"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "‘$13 an hour’: Tourist’s sick sex confession",
     "Lured To Thailand, 3 Indian Men Tortured For Rs 69 Lakh Ransom By Gang Of 4 Pakistanis, 1 Indian",
     "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya",
     "Boxing News: Weights From Pattaya, Thailand: Fury Vs Wach » July 27, 2026",
-    "Tyson Fury beats Mariusz Wach in Thailand, awaits Anthony Joshua",
-    "Three Indians rescued after Pattaya kidnapping, torture"
+    "Tyson Fury beats Mariusz Wach in Thailand, awaits Anthony Joshua"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-28 23:57:55"
+  "last_update": "2026-07-29 03:15:18"
 }
