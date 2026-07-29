@@ -14,25 +14,25 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "32",
+    "temp": "28",
+    "feels_like": "33",
     "wind_speed": "11",
-    "wind_dir": "SW",
-    "aqi_value": "19",
+    "wind_dir": "SSW",
+    "aqi_value": "21",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "1.0"
+    "uv_index": "0.7"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "‘$13 an hour’: Tourist’s sick sex confession",
-    "Lured To Thailand, 3 Indian Men Tortured For Rs 69 Lakh Ransom By Gang Of 4 Pakistanis, 1 Indian",
-    "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya",
     "Police search for missing Russian siblings in Pattaya",
-    "Boxing News: Weights From Pattaya, Thailand: Fury Vs Wach » July 27, 2026"
+    "Thailand video news | Thailand approves first locally developed Botulinum Antitoxin, Police continue search for missing Russian siblings near Pattaya",
+    "Thailand promotes Muay Thai, cuisine and culture to drive European growth",
+    "Thailand launches street-food app and certification scheme",
+    "Missing Russian siblings’ motorcycle found buried"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-29 06:09:15"
+  "last_update": "2026-07-29 09:08:04"
 }
