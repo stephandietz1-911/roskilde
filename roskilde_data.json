@@ -15,10 +15,10 @@
   },
   "weather": {
     "temp": "27",
-    "feels_like": "34",
+    "feels_like": "33",
     "wind_speed": "4",
-    "wind_dir": "NW",
-    "aqi_value": "22",
+    "wind_dir": "SE",
+    "aqi_value": "20",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -28,11 +28,11 @@
     "message": ""
   },
   "news": [
-    "Missing Russian siblings’ motorcycle found buried",
     "Five Indians arrested for kidnapping compatriots for ransom in Pattaya",
     "5 Indians Arrested For Kidnapping 3 Indians In Thailand. Cops Probe Pak Link",
     "Cheap Thailand trip turns into horror, 3 Indians kidnapped by Indians in Pattaya",
-    "The Standard Pattaya Na Jomtien brings beachside luxury to the party town"
+    "The Standard Pattaya Na Jomtien brings beachside luxury to the party town",
+    "Pattaya house searched for two men linked to Russian siblings case"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-30 13:14:48"
+  "last_update": "2026-07-30 15:25:12"
 }
