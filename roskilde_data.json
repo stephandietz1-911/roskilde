@@ -1,27 +1,27 @@
 {
   "currencies": {
-    "EUR": "38.20",
-    "EUR_trend": "→",
+    "EUR": "38.22",
+    "EUR_trend": "↑",
     "DKK": "5.12",
     "DKK_trend": "→",
     "NOK": "3.47",
     "NOK_trend": "→",
-    "USD": "33.58",
-    "USD_trend": "→",
-    "AUD": "23.41",
-    "AUD_trend": "→",
-    "RUB": "0.43",
-    "RUB_trend": "→"
+    "USD": "33.53",
+    "USD_trend": "↓",
+    "AUD": "23.28",
+    "AUD_trend": "↓",
+    "RUB": "0.42",
+    "RUB_trend": "↓"
   },
   "weather": {
-    "temp": "26",
+    "temp": "27",
     "feels_like": "32",
-    "wind_speed": "8",
+    "wind_speed": "10",
     "wind_dir": "W",
     "aqi_value": "23",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.1"
+    "uv_index": "0.2"
   },
   "alert": {
     "active": false,
@@ -32,7 +32,7 @@
     "Police search for missing Russian siblings in Pattaya",
     "Thailand video news | Thailand approves first locally developed Botulinum Antitoxin, Police continue search for missing Russian siblings near Pattaya",
     "Thailand promotes Muay Thai, cuisine and culture to drive European growth",
-    "Suspects sought in young Russians’ disappearance flee"
+    "5 Indians held in Thailand for kidnapping Indian tourists; cops allege Pakistani link"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-29 23:41:47"
+  "last_update": "2026-07-30 01:02:21"
 }
