@@ -14,11 +14,11 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "27",
+    "temp": "26",
     "feels_like": "33",
-    "wind_speed": "4",
+    "wind_speed": "7",
     "wind_dir": "SE",
-    "aqi_value": "20",
+    "aqi_value": "19",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -28,11 +28,11 @@
     "message": ""
   },
   "news": [
-    "Five Indians arrested for kidnapping compatriots for ransom in Pattaya",
-    "5 Indians Arrested For Kidnapping 3 Indians In Thailand. Cops Probe Pak Link",
+    "Suspects sought in young Russians’ disappearance flee",
     "Cheap Thailand trip turns into horror, 3 Indians kidnapped by Indians in Pattaya",
+    "Lured To Thailand, 3 Indian Men Tortured For Rs 69 Lakh Ransom By Gang Of 4 Pakistanis, 1 Indian",
     "The Standard Pattaya Na Jomtien brings beachside luxury to the party town",
-    "Pattaya house searched for two men linked to Russian siblings case"
+    "EVs get blue reflective plates in Thailand safety push"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-30 15:25:12"
+  "last_update": "2026-07-30 16:59:00"
 }
