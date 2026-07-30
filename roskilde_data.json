@@ -15,9 +15,9 @@
   },
   "weather": {
     "temp": "26",
-    "feels_like": "32",
-    "wind_speed": "8",
-    "wind_dir": "SSW",
+    "feels_like": "33",
+    "wind_speed": "4",
+    "wind_dir": "SW",
     "aqi_value": "17",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
@@ -32,7 +32,7 @@
     "Cheap Thailand trip turns into horror, 3 Indians kidnapped by Indians in Pattaya",
     "Lured To Thailand, 3 Indian Men Tortured For Rs 69 Lakh Ransom By Gang Of 4 Pakistanis, 1 Indian",
     "The Standard Pattaya Na Jomtien brings beachside luxury to the party town",
-    "EVs get blue reflective plates in Thailand safety push"
+    "Thailand faces widespread heavy rain threat through August 1"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-30 18:23:37"
+  "last_update": "2026-07-30 20:01:35"
 }
