@@ -16,9 +16,9 @@
   "weather": {
     "temp": "27",
     "feels_like": "33",
-    "wind_speed": "5",
-    "wind_dir": "WSW",
-    "aqi_value": "16",
+    "wind_speed": "6",
+    "wind_dir": "SW",
+    "aqi_value": "15",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -28,7 +28,7 @@
     "message": ""
   },
   "news": [
-    "Five Indians arrested for kidnapping compatriots for ransom in Pattaya",
+    "Suspects sought in young Russians’ disappearance flee",
     "Cheap Thailand trip turns into horror, 3 Indians kidnapped by Indians in Pattaya",
     "Thai Police Find Buried Motorcycle Belonging to Missing Russian Siblings",
     "Lured To Thailand, 3 Indian Men Tortured For Rs 69 Lakh Ransom By Gang Of 4 Pakistanis, 1 Indian",
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-30 21:31:18"
+  "last_update": "2026-07-30 22:46:01"
 }
