@@ -16,9 +16,9 @@
   "weather": {
     "temp": "27",
     "feels_like": "32",
-    "wind_speed": "10",
+    "wind_speed": "8",
     "wind_dir": "W",
-    "aqi_value": "19",
+    "aqi_value": "18",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -29,8 +29,8 @@
   },
   "news": [
     "Cheap Thailand trip turns into horror, 3 Indians kidnapped by Indians in Pattaya",
-    "Russian siblings dead, suspects confess",
     "Thai Police Find Buried Motorcycle Belonging to Missing Russian Siblings",
+    "Russian siblings dead, suspects confess",
     "The Standard Pattaya Na Jomtien brings beachside luxury to the party town",
     "Vietnamese students explore Thai language and heritage through exchange program"
   ],
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-31 19:22:00"
+  "last_update": "2026-07-31 20:41:08"
 }
