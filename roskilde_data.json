@@ -15,10 +15,10 @@
   },
   "weather": {
     "temp": "27",
-    "feels_like": "34",
-    "wind_speed": "4",
-    "wind_dir": "WSW",
-    "aqi_value": "25",
+    "feels_like": "33",
+    "wind_speed": "6",
+    "wind_dir": "W",
+    "aqi_value": "23",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -32,7 +32,7 @@
     "Russian siblings dead, suspects confess",
     "Thai Police Find Buried Motorcycle Belonging to Missing Russian Siblings",
     "The Standard Pattaya Na Jomtien brings beachside luxury to the party town",
-    "Thailand faces widespread heavy rain threat through August 1"
+    "5 Indians Arrested For Kidnapping 3 Indians In Thailand. Cops Probe Pak Link"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-31 14:01:59"
+  "last_update": "2026-07-31 16:11:22"
 }
