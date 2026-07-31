@@ -1,27 +1,27 @@
 {
   "currencies": {
     "EUR": "38.48",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.16",
-    "DKK_trend": "↑",
+    "DKK_trend": "→",
     "NOK": "3.50",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.44",
-    "USD_trend": "↓",
+    "USD_trend": "→",
     "AUD": "23.43",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.42",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
+    "temp": "29",
     "feels_like": "33",
-    "wind_speed": "13",
-    "wind_dir": "WSW",
-    "aqi_value": "17",
+    "wind_speed": "16",
+    "wind_dir": "SW",
+    "aqi_value": "18",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "1.6"
+    "uv_index": "2.3"
   },
   "alert": {
     "active": false,
@@ -31,8 +31,8 @@
     "Suspects sought in young Russians’ disappearance flee",
     "Cheap Thailand trip turns into horror, 3 Indians kidnapped by Indians in Pattaya",
     "Thai Police Find Buried Motorcycle Belonging to Missing Russian Siblings",
-    "Lured To Thailand, 3 Indian Men Tortured For Rs 69 Lakh Ransom By Gang Of 4 Pakistanis, 1 Indian",
-    "The Standard Pattaya Na Jomtien brings beachside luxury to the party town"
+    "The Standard Pattaya Na Jomtien brings beachside luxury to the party town",
+    "5 Indians Arrested For Kidnapping 3 Indians In Thailand. Cops Probe Pak Link"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-31 03:42:56"
+  "last_update": "2026-07-31 06:33:26"
 }
