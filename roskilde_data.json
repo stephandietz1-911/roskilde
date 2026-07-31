@@ -14,11 +14,11 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "33",
-    "wind_speed": "12",
-    "wind_dir": "SSW",
-    "aqi_value": "26",
+    "temp": "27",
+    "feels_like": "34",
+    "wind_speed": "4",
+    "wind_dir": "WSW",
+    "aqi_value": "25",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -29,10 +29,10 @@
   },
   "news": [
     "Cheap Thailand trip turns into horror, 3 Indians kidnapped by Indians in Pattaya",
+    "Russian siblings dead, suspects confess",
     "Thai Police Find Buried Motorcycle Belonging to Missing Russian Siblings",
     "The Standard Pattaya Na Jomtien brings beachside luxury to the party town",
-    "Thailand faces widespread heavy rain threat through August 1",
-    "5 Indians Arrested For Kidnapping 3 Indians In Thailand. Cops Probe Pak Link"
+    "Thailand faces widespread heavy rain threat through August 1"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-31 11:47:55"
+  "last_update": "2026-07-31 14:01:59"
 }
