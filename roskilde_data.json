@@ -14,11 +14,11 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "27",
+    "temp": "26",
     "feels_like": "32",
     "wind_speed": "9",
-    "wind_dir": "W",
-    "aqi_value": "17",
+    "wind_dir": "WSW",
+    "aqi_value": "18",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -28,11 +28,11 @@
     "message": ""
   },
   "news": [
+    "Two men arrested in hunt for young Russian siblings",
     "Cheap Thailand trip turns into horror, 3 Indians kidnapped by Indians in Pattaya",
     "Thai Police Find Buried Motorcycle Belonging to Missing Russian Siblings",
-    "Two men arrested in hunt for young Russian siblings",
-    "The Standard Pattaya Na Jomtien brings beachside luxury to the party town",
-    "Vietnamese students explore Thai language and heritage through exchange program"
+    "Thailand rejects Cambodian border claims and reaffirms peaceful dialogue commitment",
+    "5 Indians Arrested For Kidnapping 3 Indians In Thailand. Cops Probe Pak Link"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-31 21:46:11"
+  "last_update": "2026-07-31 22:58:09"
 }
