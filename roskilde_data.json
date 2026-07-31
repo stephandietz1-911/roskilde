@@ -16,9 +16,9 @@
   "weather": {
     "temp": "27",
     "feels_like": "32",
-    "wind_speed": "11",
-    "wind_dir": "WNW",
-    "aqi_value": "22",
+    "wind_speed": "10",
+    "wind_dir": "W",
+    "aqi_value": "19",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -32,7 +32,7 @@
     "Russian siblings dead, suspects confess",
     "Thai Police Find Buried Motorcycle Belonging to Missing Russian Siblings",
     "The Standard Pattaya Na Jomtien brings beachside luxury to the party town",
-    "5 Indians Arrested For Kidnapping 3 Indians In Thailand. Cops Probe Pak Link"
+    "Vietnamese students explore Thai language and heritage through exchange program"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-31 17:52:21"
+  "last_update": "2026-07-31 19:22:00"
 }
