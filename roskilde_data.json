@@ -14,25 +14,25 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "26",
+    "temp": "27",
     "feels_like": "32",
-    "wind_speed": "9",
+    "wind_speed": "11",
     "wind_dir": "WSW",
     "aqi_value": "18",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "0.5"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Two men arrested in hunt for young Russian siblings",
-    "Cheap Thailand trip turns into horror, 3 Indians kidnapped by Indians in Pattaya",
     "Thai Police Find Buried Motorcycle Belonging to Missing Russian Siblings",
+    "Two men arrested in hunt for young Russian siblings",
     "Thailand rejects Cambodian border claims and reaffirms peaceful dialogue commitment",
-    "5 Indians Arrested For Kidnapping 3 Indians In Thailand. Cops Probe Pak Link"
+    "Missing Russian siblings found murdered, buried in Pattaya, suspects arrested",
+    "Missing Russian siblings’ motorcycle found buried"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-07-31 22:58:09"
+  "last_update": "2026-08-01 00:04:59"
 }
