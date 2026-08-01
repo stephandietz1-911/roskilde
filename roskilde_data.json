@@ -4,34 +4,34 @@
     "EUR_trend": "→",
     "DKK": "5.16",
     "DKK_trend": "→",
-    "NOK": "3.50",
-    "NOK_trend": "→",
+    "NOK": "3.52",
+    "NOK_trend": "↑",
     "USD": "33.44",
     "USD_trend": "→",
-    "AUD": "23.43",
-    "AUD_trend": "→",
+    "AUD": "23.48",
+    "AUD_trend": "↑",
     "RUB": "0.42",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "32",
-    "wind_speed": "11",
+    "temp": "29",
+    "feels_like": "34",
+    "wind_speed": "12",
     "wind_dir": "WSW",
-    "aqi_value": "18",
+    "aqi_value": "19",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.5"
+    "uv_index": "7.2"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Missing Russian siblings found murdered, buried in Pattaya, suspects arrested",
     "Thai Police Find Buried Motorcycle Belonging to Missing Russian Siblings",
     "Two men arrested in hunt for young Russian siblings",
-    "Thailand rejects Cambodian border claims and reaffirms peaceful dialogue commitment",
-    "Missing Russian siblings found murdered, buried in Pattaya, suspects arrested",
+    "Balloons, bites and beautiful traditions fill Thailand’s August festival calendar",
     "Missing Russian siblings’ motorcycle found buried"
   ],
   "flights": [
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-08-01 00:04:59"
+  "last_update": "2026-08-01 03:49:15"
 }
