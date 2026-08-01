@@ -15,24 +15,24 @@
   },
   "weather": {
     "temp": "30",
-    "feels_like": "36",
-    "wind_speed": "13",
+    "feels_like": "35",
+    "wind_speed": "10",
     "wind_dir": "SW",
-    "aqi_value": "21",
+    "aqi_value": "24",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "7.8"
+    "uv_index": "4.8"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Two men arrested in hunt for young Russian siblings",
     "Missing Russian siblings found murdered, buried in Pattaya, suspects arrested",
-    "Russian siblings dead, suspects confess",
     "Thai Police Find Buried Motorcycle Belonging to Missing Russian Siblings",
-    "Balloons, bites and beautiful traditions fill Thailand’s August festival calendar",
-    "Two men arrested in hunt for young Russian siblings"
+    "Foreign-linked companies face tougher controls under new Thailand rules",
+    "Russian siblings dead, suspects confess"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-08-01 06:41:50"
+  "last_update": "2026-08-01 08:41:05"
 }
