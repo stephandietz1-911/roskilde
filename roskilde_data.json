@@ -14,24 +14,24 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "35",
-    "wind_speed": "10",
+    "temp": "29",
+    "feels_like": "33",
+    "wind_speed": "16",
     "wind_dir": "SW",
-    "aqi_value": "24",
+    "aqi_value": "27",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "4.8"
+    "uv_index": "1.5"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Two men arrested in hunt for young Russian siblings",
-    "Missing Russian siblings found murdered, buried in Pattaya, suspects arrested",
     "Thai Police Find Buried Motorcycle Belonging to Missing Russian Siblings",
-    "Foreign-linked companies face tougher controls under new Thailand rules",
+    "Suspects confess to killing two Russians who disappeared in Thailand",
+    "Thai Prime Minister apologizes after murder of two Russians in Pattaya",
+    "The Standard Pattaya Na Jomtien brings beachside luxury to the party town",
     "Russian siblings dead, suspects confess"
   ],
   "flights": [
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-08-01 08:41:05"
+  "last_update": "2026-08-01 10:22:00"
 }
