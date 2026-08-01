@@ -15,13 +15,13 @@
   },
   "weather": {
     "temp": "27",
-    "feels_like": "32",
+    "feels_like": "33",
     "wind_speed": "10",
     "wind_dir": "SW",
     "aqi_value": "18",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "0.4"
   },
   "alert": {
     "active": false,
@@ -30,8 +30,8 @@
   "news": [
     "Thai Police Find Buried Motorcycle Belonging to Missing Russian Siblings",
     "347/5 Jomtien 10, Jomtien Beach, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale",
-    "Suspects confess to killing two Russians who disappeared in Thailand",
     "The Standard Pattaya Na Jomtien brings beachside luxury to the party town",
+    "Suspects confess to killing two Russians who disappeared in Thailand",
     "How a Thai teen's night at a Pattaya beach ended in death"
   ],
   "flights": [
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-08-01 22:53:41"
+  "last_update": "2026-08-01 23:56:47"
 }
