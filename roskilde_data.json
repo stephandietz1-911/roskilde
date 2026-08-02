@@ -16,7 +16,7 @@
   "weather": {
     "temp": "28",
     "feels_like": "33",
-    "wind_speed": "13",
+    "wind_speed": "12",
     "wind_dir": "SW",
     "aqi_value": "34",
     "aqi_status": "Good",
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-08-02 20:53:42"
+  "last_update": "2026-08-02 21:54:15"
 }
