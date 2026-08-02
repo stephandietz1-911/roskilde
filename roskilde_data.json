@@ -14,14 +14,14 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "31",
-    "feels_like": "35",
+    "temp": "30",
+    "feels_like": "34",
     "wind_speed": "17",
     "wind_dir": "SW",
-    "aqi_value": "23",
+    "aqi_value": "26",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "3.6"
+    "uv_index": "1.2"
   },
   "alert": {
     "active": false,
@@ -32,7 +32,7 @@
     "347/5 Jomtien 10, Jomtien Beach, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale",
     "Suspects confess to killing two Russians who disappeared in Thailand",
     "The Standard Pattaya Na Jomtien brings beachside luxury to the party town",
-    "How a Thai teen's night at a Pattaya beach ended in death"
+    "Thai PM Anutin apologises to Russians, orders tighter security after five Chonburi killings"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-08-02 08:25:03"
+  "last_update": "2026-08-02 10:14:31"
 }
