@@ -14,25 +14,25 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "32",
-    "feels_like": "37",
-    "wind_speed": "17",
-    "wind_dir": "SW",
-    "aqi_value": "36",
+    "temp": "30",
+    "feels_like": "34",
+    "wind_speed": "19",
+    "wind_dir": "SSW",
+    "aqi_value": "38",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "7.8"
+    "uv_index": "1.7"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "2 Russian siblings found dead in Thailand, suspects confess to 5 murders",
     "Thai Police Find Buried Motorcycle Belonging to Missing Russian Siblings",
+    "2 Russian siblings found dead in Thailand, suspects confess to 5 murders",
+    "How ‘Event Tourism’ Is Making Pattaya Near Bangkok a Year-Round Destination",
     "347/5 Jomtien 10, Jomtien Beach, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale",
-    "Suspects confess to killing two Russians who disappeared in Thailand",
-    "The Standard Pattaya Na Jomtien brings beachside luxury to the party town"
+    "Suspects confess to killing two Russians who disappeared in Thailand"
   ],
   "flights": [
     {
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-08-03 06:44:57"
+  "last_update": "2026-08-03 10:28:30"
 }
