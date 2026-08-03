@@ -1,35 +1,35 @@
 {
   "currencies": {
     "EUR": "38.50",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.16",
     "DKK_trend": "→",
     "NOK": "3.52",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.40",
-    "USD_trend": "↓",
+    "USD_trend": "→",
     "AUD": "23.50",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.42",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "31",
-    "feels_like": "36",
-    "wind_speed": "14",
+    "temp": "32",
+    "feels_like": "37",
+    "wind_speed": "17",
     "wind_dir": "SW",
-    "aqi_value": "35",
+    "aqi_value": "36",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "6.8"
+    "uv_index": "7.8"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Thai Police Find Buried Motorcycle Belonging to Missing Russian Siblings",
     "2 Russian siblings found dead in Thailand, suspects confess to 5 murders",
+    "Thai Police Find Buried Motorcycle Belonging to Missing Russian Siblings",
     "347/5 Jomtien 10, Jomtien Beach, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale",
     "Suspects confess to killing two Russians who disappeared in Thailand",
     "The Standard Pattaya Na Jomtien brings beachside luxury to the party town"
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-08-03 03:28:01"
+  "last_update": "2026-08-03 06:44:57"
 }
