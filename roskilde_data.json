@@ -15,13 +15,13 @@
   },
   "weather": {
     "temp": "27",
-    "feels_like": "32",
-    "wind_speed": "14",
+    "feels_like": "33",
+    "wind_speed": "12",
     "wind_dir": "SW",
-    "aqi_value": "49",
+    "aqi_value": "50",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "0.2"
   },
   "alert": {
     "active": false,
@@ -29,8 +29,8 @@
   },
   "news": [
     "Thai Police Find Buried Motorcycle Belonging to Missing Russian Siblings",
-    "Pattaya Is More Than Just the Beach: How ‘Event Tourism’ Is Making This Seaside City Near Bangkok a Year-Round Destination",
     "Tropicana Villa Jomtien Beach, Jomtien Beach, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri House for Sale",
+    "Pattaya Is More Than Just the Beach: How ‘Event Tourism’ Is Making This Seaside City Near Bangkok a Year-Round Destination",
     "Suspects confess to killing two Russians who disappeared in Thailand",
     "2 Russian siblings found dead in Thailand, suspects confess to 5 murders"
   ],
@@ -85,5 +85,5 @@
       "status": "Scheduled"
     }
   ],
-  "last_update": "2026-08-03 22:17:08"
+  "last_update": "2026-08-03 23:35:08"
 }
