@@ -699,8 +699,8 @@
 
     <div class="main">
         <div id="windy-container">
-            <!-- Fest positionierter Marker in Jomtien eingefügt -->
-            <iframe id="windy" src="https://embed.windy.com/embed2.html?lat=12.890&lon=100.870&zoom=9&overlay=radar&autoplay=true&play=1&message=false&marker=true&location=coordinates&detailLat=12.890&detailLon=100.870"></iframe>
+            <!-- Marker-Parameter entfernt, Karte bleibt auf Jomtien zentriert -->
+            <iframe id="windy" src="https://embed.windy.com/embed2.html?lat=12.890&lon=100.870&zoom=9&overlay=radar&autoplay=true&play=1&message=false&marker=false"></iframe>
             <div id="map-overlay" class="map-overlay">
                 <div class="spinner"></div>
                 <div class="spinner-text">Loading weather radar...</div>
@@ -1020,8 +1020,8 @@
             var isPattaya = iframe.src.includes("zoom=9");
             var baseUrl = isPattaya ? "https://embed.windy.com/embed2.html?lat=13.000&lon=101.000&zoom=6" : "https://embed.windy.com/embed2.html?lat=12.890&lon=100.870&zoom=9";
             
-            // Fester Marker-Zwang für Jomtien auch bei Rotation
-            iframe.src = baseUrl + "&overlay=radar&autoplay=true&play=1&message=false&marker=true&location=coordinates&detailLat=12.890&detailLon=100.870";
+            // Auch hier den Marker-Parameter auf false gesetzt
+            iframe.src = baseUrl + "&overlay=radar&autoplay=true&play=1&message=false&marker=false";
             
             var handleLoad = function() {
                 overlay.classList.remove('active');
