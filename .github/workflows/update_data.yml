@@ -5,6 +5,9 @@ on:
     - cron: '*/15 * * * *'
   workflow_dispatch:
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
   update-json:
     runs-on: ubuntu-latest
@@ -30,9 +33,11 @@ jobs:
             "weather": {"temp": "32", "feels_like": "37", "wind_speed": "15", "wind_dir": "SW", "aqi_value": "35", "aqi_status": "Good", "aqi_color": "#10b981", "uv_index": "0.0"},
             "alert": {"active": False, "message": ""},
             "news": ["ROS KILDE: Welcome to our Infotainment Portal."],
-            "flights": []
+            "flights": [],
+            "history": {}
         }
 
+        # 1. Alte Daten laden
         try:
             with open("roskilde_data.json", "r", encoding="utf-8") as f:
                 old_data = json.load(f)
@@ -40,6 +45,7 @@ jobs:
         except:
             old_currencies = {}
 
+        # 2. Live-Wechselkurse
         try:
             req = urllib.request.Request("https://open.er-api.com/v6/latest/THB", headers={"User-Agent": "Mozilla/5.0"})
             with urllib.request.urlopen(req, timeout=10) as response:
@@ -51,13 +57,38 @@ jobs:
                     data["currencies"][t+"_trend"] = "↑" if val > old + 0.005 else ("↓" if val < old - 0.005 else "→")
         except: pass
 
+        # 3. 90-Tage Historie für das neue Diagramm abfragen (Frankfurter API)
+        try:
+            end_d = datetime.date.today()
+            start_d = end_d - datetime.timedelta(days=90)
+            f_url = f"https://api.frankfurter.app/{start_d}..{end_d}?from=EUR&to=THB,USD,DKK,NOK,AUD"
+            req = urllib.request.Request(f_url, headers={"User-Agent": "Mozilla/5.0"})
+            with urllib.request.urlopen(req, timeout=10) as response:
+                r_data = json.loads(response.read().decode())["rates"]
+                sorted_dates = sorted(r_data.keys())
+                h_eur, h_usd, h_dkk, h_nok, h_aud = [], [], [], [], []
+                
+                for d in sorted_dates:
+                    dr = r_data[d]
+                    if "THB" not in dr: continue
+                    thb = dr["THB"]
+                    h_eur.append(round(thb, 4))
+                    if "USD" in dr: h_usd.append(round(thb / dr["USD"], 4))
+                    if "DKK" in dr: h_dkk.append(round(thb / dr["DKK"], 4))
+                    if "NOK" in dr: h_nok.append(round(thb / dr["NOK"], 4))
+                    if "AUD" in dr: h_aud.append(round(thb / dr["AUD"], 4))
+                    
+                data["history"] = {"EUR": h_eur, "USD": h_usd, "DKK": h_dkk, "NOK": h_nok, "AUD": h_aud, "RUB": []}
+        except Exception as e:
+            print("History error:", e)
+
+        # 4. Wetter & UV-Index
         try:
             w_url = "https://api.open-meteo.com/v1/forecast?latitude=12.923&longitude=100.883&current=temperature_2m,apparent_temperature,wind_speed_10m,wind_direction_10m,uv_index"
             req = urllib.request.Request(w_url, headers={"User-Agent": "Mozilla/5.0"})
             with urllib.request.urlopen(req, timeout=10) as response:
                 w_data = json.loads(response.read().decode())["current"]
                 deg = w_data.get('wind_direction_10m', 0)
-                # Hier auf Englisch umgestellt (E statt O, NE statt NO etc.)
                 dirs = ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"]
                 w_dir_text = dirs[int((deg + 11.25) / 22.5) % 16]
 
@@ -70,6 +101,7 @@ jobs:
                 })
         except: pass
 
+        # 5. Luftqualität (AQI)
         try:
             aqi_url = "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=12.923&longitude=100.883&current=us_aqi"
             req_aqi = urllib.request.Request(aqi_url, headers={"User-Agent": "Mozilla/5.0"})
@@ -78,13 +110,10 @@ jobs:
                 aqi = aqi_data.get('us_aqi', 35)
                 aqi_status, aqi_color = ("Good", "#10b981") if aqi <= 50 else (("Moderate", "#f59e0b") if aqi <= 100 else ("Unhealthy", "#ef4444"))
                 
-                data["weather"].update({
-                    "aqi_value": str(aqi),
-                    "aqi_status": aqi_status,
-                    "aqi_color": aqi_color
-                })
+                data["weather"].update({"aqi_value": str(aqi), "aqi_status": aqi_status, "aqi_color": aqi_color})
         except: pass
 
+        # 6. News bereinigt
         try:
             n_req = urllib.request.Request("https://news.google.com/rss/search?q=Pattaya+Thailand&hl=en-TH&gl=TH&ceid=TH:en", headers={"User-Agent": "Mozilla/5.0"})
             with urllib.request.urlopen(n_req, timeout=10) as response:
@@ -98,6 +127,7 @@ jobs:
                 if clean_titles: data["news"] = clean_titles
         except: pass
 
+        # 7. Wetterwarnungen (TMD)
         alert_active = False
         alert_msg = ""
         try:
@@ -116,6 +146,7 @@ jobs:
 
         data["alert"] = {"active": alert_active, "message": alert_msg}
 
+        # 8. Flüge erhalten
         try:
             if 'old_data' in locals() and "flights" in old_data: data["flights"] = old_data["flights"]
         except: pass
@@ -135,5 +166,5 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add roskilde_data.json
-        git commit -m "Daten-Update: Windrichtungen auf Englisch umgestellt" || echo "Keine Änderungen"
+        git commit -m "Daten-Update: Historie fuer Chart hinzugefuegt" || echo "Keine Änderungen"
         git push
