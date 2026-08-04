@@ -14,14 +14,14 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "31",
-    "feels_like": "36",
+    "temp": "32",
+    "feels_like": "35",
     "wind_speed": "18",
-    "wind_dir": "SW",
-    "aqi_value": "47",
+    "wind_dir": "SSW",
+    "aqi_value": "45",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "7.5"
+    "uv_index": "7.1"
   },
   "alert": {
     "active": false,
@@ -32,7 +32,7 @@
     "Tropicana Villa Jomtien Beach, Jomtien Beach, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri House for Sale",
     "Suspects confess to killing two Russians who disappeared in Thailand",
     "2 Russian siblings found dead in Thailand, suspects confess to 5 murders",
-    "Pattaya Is More Than Just the Beach: How ‘Event Tourism’ Is Making This Seaside City Near Bangkok a Year-Round Destination"
+    "How a Thai teen's night at a Pattaya beach ended in death"
   ],
   "flights": [
     {
@@ -418,5 +418,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-04 04:41:06"
+  "last_update": "2026-08-04 07:17:37"
 }
