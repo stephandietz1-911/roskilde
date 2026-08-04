@@ -216,17 +216,9 @@
             -webkit-backdrop-filter: blur(15px);
         }
 
-        /* Scrollbar Styling */
-        .sidebar::-webkit-scrollbar {
-            width: 4px;
-        }
-        .sidebar::-webkit-scrollbar-track {
-            background: rgba(0, 0, 0, 0.2);
-        }
-        .sidebar::-webkit-scrollbar-thumb {
-            background: rgba(0, 242, 254, 0.2);
-            border-radius: 2px;
-        }
+        .sidebar::-webkit-scrollbar { width: 4px; }
+        .sidebar::-webkit-scrollbar-track { background: rgba(0, 0, 0, 0.2); }
+        .sidebar::-webkit-scrollbar-thumb { background: rgba(0, 242, 254, 0.2); border-radius: 2px; }
 
         .card {
             background: var(--card-bg);
@@ -239,12 +231,6 @@
             position: relative;
             overflow: hidden;
             transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-
-        .card:hover {
-            border-color: rgba(0, 242, 254, 0.35);
-            box-shadow: 0 12px 40px rgba(0, 242, 254, 0.08);
-            transform: translateY(-1px);
         }
 
         .card-header-container {
@@ -288,9 +274,9 @@
             50% { transform: scale(1.6); opacity: 0.3; filter: drop-shadow(0 0 6px var(--color-primary)); }
         }
 
-        /* Currency Container */
+        /* Currency Container - Höher gemacht für das Chart */
         .currency-container {
-            height: 34px;
+            height: 85px;
             position: relative;
             overflow: hidden;
             display: flex;
@@ -302,16 +288,25 @@
             background: rgba(255, 255, 255, 0.02);
             border: 1px solid rgba(255, 255, 255, 0.06);
             border-radius: 6px;
-            padding: 4px 8px;
+            padding: 8px 12px;
             display: flex;
-            justify-content: space-between;
-            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: stretch;
             transition: opacity 0.25s ease-in-out;
             opacity: 1;
+            height: 100%;
         }
 
         .currency-item.fade-out {
             opacity: 0;
+        }
+        
+        .cur-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
         }
 
         .currency-label {
@@ -332,18 +327,9 @@
             align-items: center;
         }
 
-        .trend-up {
-            color: #10b981;
-            text-shadow: 0 0 10px rgba(16, 185, 129, 0.5);
-        }
-        .trend-down {
-            color: #ef4444;
-            text-shadow: 0 0 10px rgba(239, 68, 68, 0.5);
-        }
-        .trend-flat {
-            color: #f59e0b;
-            text-shadow: 0 0 10px rgba(245, 158, 11, 0.5);
-        }
+        .trend-up { color: #10b981; text-shadow: 0 0 10px rgba(16, 185, 129, 0.5); }
+        .trend-down { color: #ef4444; text-shadow: 0 0 10px rgba(239, 68, 68, 0.5); }
+        .trend-flat { color: #f59e0b; text-shadow: 0 0 10px rgba(245, 158, 11, 0.5); }
 
         .trend-arrow {
             font-size: 20px;
@@ -355,24 +341,9 @@
         }
 
         /* Weather details */
-        .weather-container {
-            display: flex;
-            flex-direction: column;
-            gap: 6px;
-        }
-
-        .weather-row-1 {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .weather-temp-box {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
+        .weather-container { display: flex; flex-direction: column; gap: 6px; }
+        .weather-row-1 { display: flex; justify-content: space-between; align-items: center; }
+        .weather-temp-box { display: flex; align-items: center; gap: 8px; }
         .weather-temp {
             font-size: 20px;
             font-weight: 900;
@@ -382,74 +353,26 @@
             line-height: 1;
             filter: drop-shadow(0 0 8px rgba(0, 242, 254, 0.25));
         }
-
-        .weather-unit {
-            font-size: 12px;
-            color: var(--color-primary);
-            font-weight: 700;
-            margin-left: -3px;
-            margin-right: 3px;
-        }
-
-        .weather-feel {
-            font-size: 10px;
-            color: #64748b;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
+        .weather-unit { font-size: 12px; color: var(--color-primary); font-weight: 700; margin-left: -3px; margin-right: 3px; }
+        .weather-feel { font-size: 10px; color: #64748b; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
 
         .weather-row-2, .weather-row-3 {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: rgba(0, 0, 0, 0.2);
-            border-radius: 4px;
-            padding: 3px 8px;
-            font-size: 10px;
-            font-weight: 700;
+            display: flex; justify-content: space-between; align-items: center;
+            background: rgba(0, 0, 0, 0.2); border-radius: 4px; padding: 3px 8px; font-size: 10px; font-weight: 700;
         }
-
-        .weather-row-3 {
-            margin-top: 1px;
-        }
-
-        .weather-label {
-            color: #64748b;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .weather-stat-val {
-            color: #fff;
-        }
+        .weather-row-3 { margin-top: 1px; }
+        .weather-label { color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; }
+        .weather-stat-val { color: #fff; }
 
         .aqi-badge, .uv-badge {
-            padding: 1px 6px;
-            border-radius: 12px;
-            font-size: 8px;
-            font-weight: 900;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            color: #fff !important;
-            font-variant-numeric: tabular-nums;
-            transition: all 0.3s ease;
+            padding: 1px 6px; border-radius: 12px; font-size: 8px; font-weight: 900;
+            text-transform: uppercase; letter-spacing: 0.5px; color: #fff !important;
+            font-variant-numeric: tabular-nums; transition: all 0.3s ease;
         }
-
-        .aqi-badge {
-            box-shadow: 0 0 8px var(--aqi-glow, var(--color-success));
-            border: 1px solid var(--aqi-glow, var(--color-success));
-        }
-
-        .uv-badge {
-            box-shadow: 0 0 8px var(--uv-glow, var(--color-success));
-            border: 1px solid var(--uv-glow, var(--color-success));
-        }
-
-        .uv-badge.uv-warning {
-            animation: uv-alert 1.5s infinite ease-in-out;
-        }
-
+        .aqi-badge { box-shadow: 0 0 8px var(--aqi-glow, var(--color-success)); border: 1px solid var(--aqi-glow, var(--color-success)); }
+        .uv-badge { box-shadow: 0 0 8px var(--uv-glow, var(--color-success)); border: 1px solid var(--uv-glow, var(--color-success)); }
+        .uv-badge.uv-warning { animation: uv-alert 1.5s infinite ease-in-out; }
+        
         @keyframes uv-alert {
             0%, 100% { box-shadow: 0 0 8px var(--uv-glow); }
             50% { box-shadow: 0 0 16px var(--uv-glow); border-color: #fff; }
@@ -457,226 +380,56 @@
 
         .alert-banner {
             background: linear-gradient(90deg, rgba(239, 68, 68, 0.2) 0%, rgba(239, 68, 68, 0.03) 100%);
-            border-left: 4px solid var(--color-danger);
-            padding: 10px 14px;
-            border-radius: 6px;
-            font-size: 12px;
-            font-weight: 700;
-            color: #fca5a5;
-            margin-top: 6px;
-            line-height: 1.4;
+            border-left: 4px solid var(--color-danger); padding: 10px 14px; border-radius: 6px;
+            font-size: 12px; font-weight: 700; color: #fca5a5; margin-top: 6px; line-height: 1.4;
             animation: alert-pulse 2s infinite ease-in-out;
         }
-
         @keyframes alert-pulse {
             0%, 100% { border-left-color: var(--color-danger); box-shadow: 0 0 5px rgba(239, 68, 68, 0.1); }
             50% { border-left-color: #ff6b6b; box-shadow: 0 0 15px rgba(239, 68, 68, 0.35); }
         }
 
         /* Flight widget */
-        .flights-card {
-            flex: 1;
-            min-height: 0;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .flights-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 2px;
-        }
-
-        .flights-header .card-title {
-            margin-bottom: 0;
-            white-space: nowrap;
-        }
-
-        .flight-tabs {
-            display: flex;
-            gap: 6px;
-        }
-
+        .flights-card { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+        .flights-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2px; }
+        .flights-header .card-title { margin-bottom: 0; white-space: nowrap; }
+        .flight-tabs { display: flex; gap: 6px; }
         .flight-tab {
-            font-size: 10px;
-            font-weight: 900;
-            padding: 3px 8px;
-            border-radius: 4px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            background: rgba(255, 255, 255, 0.03);
-            color: #64748b;
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            cursor: pointer;
+            font-size: 10px; font-weight: 900; padding: 3px 8px; border-radius: 4px;
+            text-transform: uppercase; letter-spacing: 1px; background: rgba(255, 255, 255, 0.03);
+            color: #64748b; border: 1px solid rgba(255, 255, 255, 0.05); cursor: pointer;
             transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
         }
-
-        .flight-tab.active {
-            background: rgba(0, 242, 254, 0.1);
-            color: var(--color-primary);
-            border-color: rgba(0, 242, 254, 0.3);
-            box-shadow: 0 0 15px rgba(0, 242, 254, 0.15);
-        }
-
-        .flight-table-container {
-            flex: 1;
-            overflow-y: auto;
-            margin-top: 4px;
-        }
-
-        .flight-table {
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 11px;
-            text-align: left;
-        }
-
-        .flight-table th {
-            font-size: 10px;
-            font-weight: 800;
-            color: #64748b;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            padding: 4px 4px;
-            border-bottom: 2px solid rgba(255, 255, 255, 0.06);
-        }
-
-        .flight-table td {
-            padding: 4px 4px;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.02);
-            font-weight: 600;
-        }
-
-        .flight-table tbody tr:hover {
-            background: rgba(255, 255, 255, 0.01);
-        }
-
-        .flight-table tbody {
-            transition: opacity 0.25s ease-in-out;
-        }
-
-        .flight-table tbody.fade-out {
-            opacity: 0;
-        }
-
-        .flight-no {
-            color: #fff;
-            font-weight: 800;
-            font-variant-numeric: tabular-nums;
-            text-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
-        }
-
-        .flight-badge {
-            display: inline-block;
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-size: 9px;
-            font-weight: 900;
-            text-transform: uppercase;
-            letter-spacing: 0.8px;
-            background: rgba(0, 0, 0, 0.35);
-        }
-
+        .flight-tab.active { background: rgba(0, 242, 254, 0.1); color: var(--color-primary); border-color: rgba(0, 242, 254, 0.3); box-shadow: 0 0 15px rgba(0, 242, 254, 0.15); }
+        
+        .flight-table-container { flex: 1; overflow-y: auto; margin-top: 4px; }
+        .flight-table { width: 100%; border-collapse: collapse; font-size: 11px; text-align: left; }
+        .flight-table th { font-size: 10px; font-weight: 800; color: #64748b; text-transform: uppercase; letter-spacing: 1px; padding: 4px 4px; border-bottom: 2px solid rgba(255, 255, 255, 0.06); }
+        .flight-table td { padding: 4px 4px; border-bottom: 1px solid rgba(255, 255, 255, 0.02); font-weight: 600; }
+        .flight-table tbody tr:hover { background: rgba(255, 255, 255, 0.01); }
+        .flight-table tbody { transition: opacity 0.25s ease-in-out; }
+        .flight-table tbody.fade-out { opacity: 0; }
+        .flight-no { color: #fff; font-weight: 800; font-variant-numeric: tabular-nums; text-shadow: 0 0 8px rgba(255, 255, 255, 0.1); }
+        
+        .flight-badge { display: inline-block; padding: 2px 6px; border-radius: 4px; font-size: 9px; font-weight: 900; text-transform: uppercase; letter-spacing: 0.8px; background: rgba(0, 0, 0, 0.35); }
         .badge-success { border: 1px solid var(--color-success); color: var(--color-success); text-shadow: 0 0 8px rgba(16, 185, 129, 0.4); }
         .badge-danger { border: 1px solid var(--color-danger); color: var(--color-danger); text-shadow: 0 0 8px rgba(239, 68, 68, 0.4); }
         .badge-warning { border: 1px solid var(--color-warning); color: var(--color-warning); text-shadow: 0 0 8px rgba(245, 158, 11, 0.4); }
         .badge-info { border: 1px solid var(--color-info); color: var(--color-info); text-shadow: 0 0 8px rgba(59, 130, 246, 0.4); }
 
         /* Scrolling News Ticker */
-        .ticker-container {
-            width: 100%;
-            height: 40px;
-            background: #040710;
-            border-top: 2px solid;
-            border-image: linear-gradient(90deg, var(--color-primary), var(--color-secondary)) 1;
-            overflow: hidden;
-            position: relative;
-            display: flex;
-            align-items: center;
-            box-shadow: 0 -8px 32px rgba(0, 242, 254, 0.15);
-            z-index: 10;
-        }
-
-        .ticker-wrap {
-            flex: 1;
-            overflow: hidden;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            position: relative;
-        }
-
-        .ticker-wrap::before, .ticker-wrap::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            width: 120px;
-            height: 100%;
-            z-index: 2;
-            pointer-events: none;
-        }
-
-        .ticker-wrap::before {
-            left: 0;
-            background: linear-gradient(90deg, #040710 0%, rgba(4, 7, 16, 0) 100%);
-        }
-
-        .ticker-wrap::after {
-            right: 0;
-            background: linear-gradient(270deg, #040710 0%, rgba(4, 7, 16, 0) 100%);
-        }
-
-        .ticker-title {
-            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-            color: var(--text-dark);
-            font-weight: 900;
-            padding: 0 15px;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            font-size: 12px;
-            letter-spacing: 2px;
-            z-index: 3;
-            box-shadow: 10px 0 25px rgba(0, 0, 0, 0.6);
-            text-transform: uppercase;
-            white-space: nowrap;
-        }
-
-        .ticker-track {
-            display: flex;
-            white-space: nowrap;
-            animation: marquee 45s linear infinite;
-        }
-
-        .ticker-item {
-            display: flex;
-            align-items: center;
-            color: #e2e8f0;
-            font-size: 12px;
-            padding: 0 15px;
-            font-weight: 600;
-            letter-spacing: 0.5px;
-        }
-
-        .ticker-item::after {
-            content: '✦';
-            background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-left: 70px;
-            font-size: 13px;
-            filter: drop-shadow(0 0 5px var(--color-primary-glow));
-        }
-
-        @keyframes marquee {
-            0% { transform: translate3d(0, 0, 0); }
-            100% { transform: translate3d(-50%, 0, 0); }
-        }
-
-        @keyframes spin {
-            to { transform: rotate(360deg); }
-        }
+        .ticker-container { width: 100%; height: 40px; background: #040710; border-top: 2px solid; border-image: linear-gradient(90deg, var(--color-primary), var(--color-secondary)) 1; overflow: hidden; position: relative; display: flex; align-items: center; box-shadow: 0 -8px 32px rgba(0, 242, 254, 0.15); z-index: 10; }
+        .ticker-wrap { flex: 1; overflow: hidden; height: 100%; display: flex; align-items: center; position: relative; }
+        .ticker-wrap::before, .ticker-wrap::after { content: ''; position: absolute; top: 0; width: 120px; height: 100%; z-index: 2; pointer-events: none; }
+        .ticker-wrap::before { left: 0; background: linear-gradient(90deg, #040710 0%, rgba(4, 7, 16, 0) 100%); }
+        .ticker-wrap::after { right: 0; background: linear-gradient(270deg, #040710 0%, rgba(4, 7, 16, 0) 100%); }
+        .ticker-title { background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%); color: var(--text-dark); font-weight: 900; padding: 0 15px; height: 100%; display: flex; align-items: center; font-size: 12px; letter-spacing: 2px; z-index: 3; box-shadow: 10px 0 25px rgba(0, 0, 0, 0.6); text-transform: uppercase; white-space: nowrap; }
+        .ticker-track { display: flex; white-space: nowrap; animation: marquee 45s linear infinite; }
+        .ticker-item { display: flex; align-items: center; color: #e2e8f0; font-size: 12px; padding: 0 15px; font-weight: 600; letter-spacing: 0.5px; }
+        .ticker-item::after { content: '✦'; background: linear-gradient(90deg, var(--color-primary), var(--color-secondary)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-left: 70px; font-size: 13px; filter: drop-shadow(0 0 5px var(--color-primary-glow)); }
+        
+        @keyframes marquee { 0% { transform: translate3d(0, 0, 0); } 100% { transform: translate3d(-50%, 0, 0); } }
+        @keyframes spin { to { transform: rotate(360deg); } }
     </style>
 </head>
 <body>
@@ -699,7 +452,6 @@
 
     <div class="main">
         <div id="windy-container">
-            <!-- Marker-Parameter entfernt, Karte bleibt auf Jomtien zentriert -->
             <iframe id="windy" src="https://embed.windy.com/embed2.html?lat=12.890&lon=100.870&zoom=9&overlay=radar&autoplay=true&play=1&message=false&marker=false"></iframe>
             <div id="map-overlay" class="map-overlay">
                 <div class="spinner"></div>
@@ -708,7 +460,6 @@
         </div>
         
         <div class="sidebar">
-            <!-- Exchange Rates Card -->
             <div class="card">
                 <div class="card-header-container">
                     <div class="card-title">💶 EXCHANGE RATES (THB)</div>
@@ -716,11 +467,10 @@
                 </div>
                 <div class="card-title-line"></div>
                 <div id="cur-box" class="currency-container">
-                    <!-- Loaded dynamically (rotated one row at a time) -->
+                    <!-- Wird dynamisch befüllt -->
                 </div>
             </div>
             
-            <!-- Weather and Air Quality Card -->
             <div class="card">
                 <div class="card-header-container">
                     <div class="card-title">🌡️ WEATHER & AIR QUALITY</div>
@@ -747,13 +497,10 @@
                         <span id="wea-uv" class="uv-badge">Loading...</span>
                     </div>
                     
-                    <div id="alert-banner" class="alert-banner" style="display: none;">
-                        <!-- Active alerts will be inserted here -->
-                    </div>
+                    <div id="alert-banner" class="alert-banner" style="display: none;"></div>
                 </div>
             </div>
             
-            <!-- Flights Schedule Card -->
             <div class="card flights-card">
                 <div class="flights-header">
                     <div class="card-title">✈️ FLIGHTS BKK</div>
@@ -773,16 +520,13 @@
                                 <th>Status</th>
                             </tr>
                         </thead>
-                        <tbody id="flt-b">
-                            <!-- Loaded dynamically -->
-                        </tbody>
+                        <tbody id="flt-b"></tbody>
                     </table>
                 </div>
             </div>
         </div>
     </div>
     
-    <!-- Scrolling News Ticker -->
     <div class="ticker-container">
         <div class="ticker-title">Pattaya News</div>
         <div class="ticker-wrap">
@@ -806,21 +550,52 @@
                     try {
                         gData = JSON.parse(xhr.responseText);
                         render();
-                    } catch(e) {
-                        console.error("Error parsing roskilde_data.json", e);
-                    }
+                    } catch(e) { console.error("Error parsing data", e); }
                 }
             };
             xhr.send();
         }
 
+        function createSparkline(dataArr, trendClass) {
+            if (!dataArr || dataArr.length < 2) return "";
+            var min = Math.min.apply(null, dataArr);
+            var max = Math.max.apply(null, dataArr);
+            var range = max - min;
+            if (range === 0) range = 1;
+
+            var width = 200;
+            var height = 30; // 30 Pixel feste Höhe
+            var points = [];
+            
+            for (var i = 0; i < dataArr.length; i++) {
+                var x = (i / (dataArr.length - 1)) * width;
+                var y = height - (((dataArr[i] - min) / range) * (height - 4)) - 2;
+                points.push(x + "," + y);
+            }
+            
+            var pathD = "M " + points.join(" L ");
+            var areaD = pathD + " L " + width + "," + height + " L 0," + height + " Z";
+            
+            var color = "#00f2fe";
+            if (trendClass === "trend-up") color = "#10b981";
+            if (trendClass === "trend-down") color = "#ef4444";
+            if (trendClass === "trend-flat") color = "#f59e0b";
+            
+            var gradId = "grad-" + Math.random().toString(36).substr(2, 5);
+            
+            return '<svg viewBox="0 0 ' + width + ' ' + height + '" preserveAspectRatio="none" style="width:100%; height:35px; margin-top:8px; opacity: 0.9;">' +
+                   '<defs><linearGradient id="' + gradId + '" x1="0" y1="0" x2="0" y2="1">' +
+                   '<stop offset="0%" stop-color="' + color + '" stop-opacity="0.3"/><stop offset="100%" stop-color="' + color + '" stop-opacity="0.0"/>' +
+                   '</linearGradient></defs>' +
+                   '<path d="' + areaD + '" fill="url(#' + gradId + ')" />' +
+                   '<path d="' + pathD + '" fill="none" stroke="' + color + '" stroke-width="1.5" stroke-linejoin="round" style="filter: drop-shadow(0 0 4px ' + color + ');"/>' +
+                   '</svg>';
+        }
+
         function render() {
             if(!gData) return;
-            
-            // 1. Currencies (Show only one active row)
             renderCurrency();
             
-            // 2. Weather & Air Quality
             document.getElementById('wea-temp').innerText = gData.weather.temp;
             document.getElementById('wea-feel').innerText = "Feels like: " + gData.weather.feels_like + "°C";
             document.getElementById('wea-wind').innerText = gData.weather.wind_speed + " km/h " + gData.weather.wind_dir;
@@ -830,39 +605,21 @@
             var aqiColor = gData.weather.aqi_color || "#00e676";
             aqiBadge.style.setProperty('--aqi-glow', aqiColor);
 
-            // Bind UV index
             var uvVal = parseFloat(gData.weather.uv_index) || 0.0;
             var uvBadge = document.getElementById('wea-uv');
             var uvStatus = "Low";
-            var uvColor = "#10b981"; // Green
+            var uvColor = "#10b981";
             var isUvWarning = false;
             
-            if (uvVal >= 11.0) {
-                uvStatus = "Extreme";
-                uvColor = "#d946ef"; // Fuchsia/Purple
-                isUvWarning = true;
-            } else if (uvVal >= 8.0) {
-                uvStatus = "Very High";
-                uvColor = "#ef4444"; // Red
-                isUvWarning = true;
-            } else if (uvVal >= 6.0) {
-                uvStatus = "High";
-                uvColor = "#f97316"; // Orange
-            } else if (uvVal >= 3.0) {
-                uvStatus = "Moderate";
-                uvColor = "#eab308"; // Yellow
-            }
+            if (uvVal >= 11.0) { uvStatus = "Extreme"; uvColor = "#d946ef"; isUvWarning = true; }
+            else if (uvVal >= 8.0) { uvStatus = "Very High"; uvColor = "#ef4444"; isUvWarning = true; }
+            else if (uvVal >= 6.0) { uvStatus = "High"; uvColor = "#f97316"; }
+            else if (uvVal >= 3.0) { uvStatus = "Moderate"; uvColor = "#eab308"; }
             
             uvBadge.innerText = "UV " + uvVal.toFixed(1) + " (" + uvStatus + ")";
             uvBadge.style.setProperty('--uv-glow', uvColor);
+            isUvWarning ? uvBadge.classList.add('uv-warning') : uvBadge.classList.remove('uv-warning');
             
-            if (isUvWarning) {
-                uvBadge.classList.add('uv-warning');
-            } else {
-                uvBadge.classList.remove('uv-warning');
-            }
-            
-            // 3. Alerts
             var alertBanner = document.getElementById('alert-banner');
             if (gData.alert && gData.alert.active) {
                 alertBanner.innerText = gData.alert.message;
@@ -871,19 +628,14 @@
                 alertBanner.style.display = "none";
             }
             
-            // 4. News Ticker
             var tickerTrack = document.getElementById('ticker-track');
             var currentNewsJoined = gData.news.join(" | ");
             if (tickerTrack.getAttribute('data-joined') !== currentNewsJoined) {
                 tickerTrack.setAttribute('data-joined', currentNewsJoined);
                 var newsHtml = "";
-                gData.news.forEach(function(headline) {
-                    newsHtml += '<div class="ticker-item">' + headline + '</div>';
-                });
-                tickerTrack.innerHTML = newsHtml + newsHtml; // Repeated twice for seamless marquee loop
+                gData.news.forEach(function(h) { newsHtml += '<div class="ticker-item">' + h + '</div>'; });
+                tickerTrack.innerHTML = newsHtml + newsHtml;
             }
-            
-            // 5. Flights List
             renderFlights();
         }
 
@@ -891,14 +643,7 @@
             if (!gData) return;
             var curBox = document.getElementById('cur-box');
             var keys = ["EUR", "USD", "DKK", "NOK", "AUD", "RUB"];
-            var flags = {
-                "EUR": "🇪🇺",
-                "USD": "🇺🇸",
-                "DKK": "🇩🇰",
-                "NOK": "🇳🇴",
-                "AUD": "🇦🇺",
-                "RUB": "🇷🇺"
-            };
+            var flags = { "EUR": "🇪🇺", "USD": "🇺🇸", "DKK": "🇩🇰", "NOK": "🇳🇴", "AUD": "🇦🇺", "RUB": "🇷🇺" };
             
             var key = keys[curIdx];
             var val = gData.currencies[key] || "--";
@@ -910,9 +655,14 @@
             var flag = flags[key] || "💵";
             var arrowHtml = '<span class="trend-arrow ' + trendClass + '">' + trendSymbol + '</span>';
             
+            var historyData = (gData.history && gData.history[key]) ? gData.history[key] : [];
+            var sparkline = createSparkline(historyData, trendClass);
+            
             curBox.innerHTML = '<div class="currency-item">' +
-                                  '<div class="currency-label"><span>' + flag + '</span>' + key + '/THB</div>' +
-                                  '<div class="currency-val">' + val + arrowHtml + '</div>' +
+                                  '<div class="cur-top">' +
+                                      '<div class="currency-label"><span>' + flag + '</span>' + key + '/THB</div>' +
+                                      '<div class="currency-val">' + val + arrowHtml + '</div>' +
+                                  '</div>' + sparkline +
                                '</div>';
         }
 
@@ -920,38 +670,23 @@
             if (!gData) return;
             var curBox = document.getElementById('cur-box');
             var itemEl = curBox.querySelector('.currency-item');
-            if (itemEl) {
-                itemEl.classList.add('fade-out');
-            }
+            if (itemEl) itemEl.classList.add('fade-out');
             
             setTimeout(function() {
-                var keys = ["EUR", "USD", "DKK", "NOK", "AUD", "RUB"];
-                curIdx = (curIdx + 1) % keys.length;
+                curIdx = (curIdx + 1) % 6;
                 renderCurrency();
             }, 250);
         }
 
         function renderFlights() {
             if (!gData) return;
-            
-            // Update tabs active state
             var arrTab = document.getElementById('tab-arr');
             var depTab = document.getElementById('tab-dep');
-            if (fMode === "ARR") {
-                arrTab.classList.add('active');
-                depTab.classList.remove('active');
-            } else {
-                arrTab.classList.remove('active');
-                depTab.classList.add('active');
-            }
+            fMode === "ARR" ? (arrTab.classList.add('active'), depTab.classList.remove('active')) : (arrTab.classList.remove('active'), depTab.classList.add('active'));
             
-            // Render list
             var tbody = document.getElementById('flt-b');
             var fHtml = "";
-            
-            var filteredFlights = gData.flights.filter(function(f) {
-                return f.type === fMode;
-            });
+            var filteredFlights = gData.flights.filter(function(f) { return f.type === fMode; });
             
             if (filteredFlights.length === 0) {
                 fHtml = '<tr><td colspan="4" style="text-align: center; color: var(--text-muted); padding: 30px;">No flights scheduled</td></tr>';
@@ -961,15 +696,10 @@
                     var cleanStatus = statusStr.toLowerCase();
                     var badgeCls = "badge-info";
                     
-                    if (cleanStatus.includes("landed") || cleanStatus.includes("arrived") || cleanStatus.includes("gelandet")) {
-                        badgeCls = "badge-success";
-                    } else if (cleanStatus.includes("departed") || cleanStatus.includes("gestartet")) {
-                        badgeCls = "badge-danger";
-                    } else if (cleanStatus.includes("scheduled") || cleanStatus.includes("geplant")) {
-                        badgeCls = "badge-info";
-                    } else if (cleanStatus.includes("delayed") || cleanStatus.includes("verspätet")) {
-                        badgeCls = "badge-warning";
-                    }
+                    if (cleanStatus.includes("landed") || cleanStatus.includes("arrived")) badgeCls = "badge-success";
+                    else if (cleanStatus.includes("departed")) badgeCls = "badge-danger";
+                    else if (cleanStatus.includes("scheduled")) badgeCls = "badge-info";
+                    else if (cleanStatus.includes("delayed")) badgeCls = "badge-warning";
                     
                     var badgeHtml = '<span class="flight-badge ' + badgeCls + '">' + statusStr.toUpperCase() + '</span>';
                     
@@ -981,37 +711,25 @@
                              '</tr>';
                 });
             }
-            
             tbody.innerHTML = fHtml;
         }
 
         function toggleFlightsMode() {
             var tbody = document.getElementById('flt-b');
             tbody.classList.add('fade-out');
-            
-            setTimeout(function() {
-                fMode = (fMode === "ARR") ? "DEP" : "ARR";
-                renderFlights();
-                tbody.classList.remove('fade-out');
-            }, 250);
+            setTimeout(function() { fMode = (fMode === "ARR") ? "DEP" : "ARR"; renderFlights(); tbody.classList.remove('fade-out'); }, 250);
         }
 
         function selectFlightsMode(mode) {
             if (fMode === mode) return;
             var tbody = document.getElementById('flt-b');
             tbody.classList.add('fade-out');
-            
-            setTimeout(function() {
-                fMode = mode;
-                renderFlights();
-                tbody.classList.remove('fade-out');
-            }, 250);
+            setTimeout(function() { fMode = mode; renderFlights(); tbody.classList.remove('fade-out'); }, 250);
         }
 
         function rotateRadar() {
             var iframe = document.getElementById('windy');
             var overlay = document.getElementById('map-overlay');
-            
             overlay.classList.add('active');
             iframe.classList.add('iframe-loading');
             
@@ -1020,7 +738,6 @@
             var isPattaya = iframe.src.includes("zoom=9");
             var baseUrl = isPattaya ? "https://embed.windy.com/embed2.html?lat=13.000&lon=101.000&zoom=6" : "https://embed.windy.com/embed2.html?lat=12.890&lon=100.870&zoom=9";
             
-            // Auch hier den Marker-Parameter auf false gesetzt
             iframe.src = baseUrl + "&overlay=radar&autoplay=true&play=1&message=false&marker=false";
             
             var handleLoad = function() {
@@ -1030,40 +747,25 @@
             };
             
             iframe.onload = handleLoad;
-            loadTimeout = setTimeout(handleLoad, 4000); // Safety timeout
+            loadTimeout = setTimeout(handleLoad, 4000);
         }
 
         function updateClock() {
             var now = new Date();
             var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
             var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-            var day = days[now.getDay()];
-            var month = months[now.getMonth()];
-            var date = now.getDate().toString().padStart(2, '0') + " " + month + " " + now.getFullYear();
+            var date = now.getDate().toString().padStart(2, '0') + " " + months[now.getMonth()] + " " + now.getFullYear();
             var time = now.getHours().toString().padStart(2, '0') + ":" + now.getMinutes().toString().padStart(2, '0');
             
-            document.getElementById('header-clock').innerHTML = 
-                '<span class="clock-date">' + day + ', ' + date + '</span>' +
-                '<span class="clock-time">' + time + '</span>';
+            document.getElementById('header-clock').innerHTML = '<span class="clock-date">' + days[now.getDay()] + ', ' + date + '</span><span class="clock-time">' + time + '</span>';
         }
 
-        // Intervals & Handlers
-        // Auto-toggle between Arrivals and Departures every 15 seconds
         setInterval(toggleFlightsMode, 15000);
-        
-        // Auto-rotate the exchange rate row every 8 seconds
         setInterval(rotateCurrency, 8000);
-        
-        // Rotate the radar area zoom levels every 45 seconds
         setInterval(rotateRadar, 45000);
-        
-        // Fetch fresh JSON data every 20 seconds
         setInterval(update, 20000);
-        
-        // Update the header clock every second (fast update to keep it accurate)
         setInterval(updateClock, 1000);
         
-        // Initial executions
         updateClock();
         update();
     </script>
