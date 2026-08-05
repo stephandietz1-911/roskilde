@@ -16,12 +16,12 @@
   "weather": {
     "temp": "28",
     "feels_like": "33",
-    "wind_speed": "16",
-    "wind_dir": "SW",
-    "aqi_value": "42",
+    "wind_speed": "17",
+    "wind_dir": "SSW",
+    "aqi_value": "40",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "1.9"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -31,7 +31,7 @@
     "Thailand’s best-kept secret: The magical island almost no one talks about",
     "Tropicana Villa Jomtien Beach, Jomtien Beach, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri House for Sale",
     "2 Russian siblings found dead in Thailand, suspects confess to 5 murders",
-    "How a Thai teen's night at a Pattaya beach ended in death",
+    "Pattaya Is More Than Just the Beach: How ‘Event Tourism’ Is Making This Seaside City Near Bangkok a Year-Round Destination",
     "The Standard Pattaya Na Jomtien brings beachside luxury to the party town"
   ],
   "flights": [
@@ -418,5 +418,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-05 10:05:48"
+  "last_update": "2026-08-05 12:15:55"
 }
