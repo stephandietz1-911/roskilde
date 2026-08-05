@@ -14,11 +14,11 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "26",
+    "temp": "27",
     "feels_like": "32",
-    "wind_speed": "12",
+    "wind_speed": "15",
     "wind_dir": "SW",
-    "aqi_value": "31",
+    "aqi_value": "34",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -29,10 +29,10 @@
   },
   "news": [
     "Thailand’s best-kept secret: The magical island almost no one talks about",
+    "Thai Police Find Buried Motorcycle Belonging to Missing Russian Siblings",
     "Tropicana Villa Jomtien Beach, Jomtien Beach, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri House for Sale",
-    "“Pubic Hair” croissant from Pattaya, Thailand goes viral",
     "2 Russian siblings found dead in Thailand, suspects confess to 5 murders",
-    "How a Thai teen's night at a Pattaya beach ended in death"
+    "“Pubic Hair” croissant from Pattaya, Thailand goes viral"
   ],
   "flights": [
     {
@@ -423,5 +423,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-05 22:20:09"
+  "last_update": "2026-08-05 23:28:41"
 }
