@@ -16,9 +16,9 @@
   "weather": {
     "temp": "27",
     "feels_like": "32",
-    "wind_speed": "15",
-    "wind_dir": "SSW",
-    "aqi_value": "37",
+    "wind_speed": "17",
+    "wind_dir": "SW",
+    "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -28,8 +28,8 @@
     "message": ""
   },
   "news": [
-    "“Pubic Hair” croissant from Pattaya, Thailand goes viral",
     "Thailand’s best-kept secret: The magical island almost no one talks about",
+    "“Pubic Hair” croissant from Pattaya, Thailand goes viral",
     "Tropicana Villa Jomtien Beach, Jomtien Beach, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri House for Sale",
     "2 Russian siblings found dead in Thailand, suspects confess to 5 murders",
     "Pattaya Is More Than Just the Beach: How ‘Event Tourism’ Is Making This Seaside City Near Bangkok a Year-Round Destination"
@@ -86,5 +86,5 @@
     }
   ],
   "history": {},
-  "last_update": "2026-08-05 16:40:51"
+  "last_update": "2026-08-05 18:10:50"
 }
