@@ -15,10 +15,10 @@
   },
   "weather": {
     "temp": "27",
-    "feels_like": "33",
+    "feels_like": "32",
     "wind_speed": "13",
     "wind_dir": "SW",
-    "aqi_value": "28",
+    "aqi_value": "27",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -30,9 +30,9 @@
   "news": [
     "Chinese tourist killed, daughter injured in motorcycle cliff crash in Thailand: media report",
     "Thailand’s best-kept secret: The magical island almost no one talks about",
-    "Naklua 16, Na Kluea, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale",
-    "How a Thai teen's night at a Pattaya beach ended in death",
-    "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya"
+    "Tropicana Villa Jomtien Beach, Jomtien Beach, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri House for Sale",
+    "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya",
+    "The Standard Pattaya Na Jomtien brings beachside luxury to the party town"
   ],
   "flights": [
     {
@@ -151,7 +151,8 @@
       38.452,
       38.385,
       38.29,
-      38.164
+      38.164,
+      38.129
     ],
     "USD": [
       32.2226,
@@ -218,7 +219,8 @@
       33.3351,
       33.3348,
       33.14,
-      33.0653
+      33.0653,
+      33.055
     ],
     "DKK": [
       5.0715,
@@ -285,7 +287,8 @@
       5.1441,
       5.1348,
       5.1222,
-      5.1052
+      5.1052,
+      5.1005
     ],
     "NOK": [
       3.502,
@@ -352,7 +355,8 @@
       3.4967,
       3.4919,
       3.4861,
-      3.4694
+      3.4694,
+      3.4742
     ],
     "AUD": [
       23.3083,
@@ -419,9 +423,10 @@
       23.3566,
       23.4384,
       23.3689,
-      23.2849
+      23.2849,
+      23.2721
     ],
     "RUB": []
   },
-  "last_update": "2026-08-07 14:18:34"
+  "last_update": "2026-08-07 15:24:49"
 }
