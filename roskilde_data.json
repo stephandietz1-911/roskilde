@@ -21,7 +21,7 @@
     "aqi_value": "30",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.4"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -29,9 +29,9 @@
   },
   "news": [
     "Chinese tourist killed, daughter injured in motorcycle cliff crash in Thailand: media report",
-    "Naklua 16, Na Kluea, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale",
-    "How a Thai teen's night at a Pattaya beach ended in death",
     "Thailand’s best-kept secret: The magical island almost no one talks about",
+    "How a Thai teen's night at a Pattaya beach ended in death",
+    "Tropicana Villa Jomtien Beach, Jomtien Beach, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri House for Sale",
     "2 Russian siblings found dead in Thailand, suspects confess to 5 murders"
   ],
   "flights": [
@@ -423,5 +423,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-07 11:06:44"
+  "last_update": "2026-08-07 11:56:46"
 }
