@@ -1,27 +1,27 @@
 {
   "currencies": {
-    "EUR": "38.25",
-    "EUR_trend": "→",
-    "DKK": "5.13",
-    "DKK_trend": "→",
-    "NOK": "3.48",
-    "NOK_trend": "→",
-    "USD": "33.12",
-    "USD_trend": "→",
-    "AUD": "23.36",
-    "AUD_trend": "→",
+    "EUR": "38.17",
+    "EUR_trend": "↓",
+    "DKK": "5.12",
+    "DKK_trend": "↓",
+    "NOK": "3.47",
+    "NOK_trend": "↓",
+    "USD": "33.09",
+    "USD_trend": "↓",
+    "AUD": "23.29",
+    "AUD_trend": "↓",
     "RUB": "0.41",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "30",
-    "wind_speed": "21",
+    "temp": "29",
+    "feels_like": "33",
+    "wind_speed": "24",
     "wind_dir": "SW",
-    "aqi_value": "34",
+    "aqi_value": "33",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.6"
+    "uv_index": "5.3"
   },
   "alert": {
     "active": false,
@@ -30,9 +30,9 @@
   "news": [
     "Thailand’s best-kept secret: The magical island almost no one talks about",
     "Naklua 16, Na Kluea, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale",
-    "How a Thai teen's night at a Pattaya beach ended in death",
     "2 Russian siblings found dead in Thailand, suspects confess to 5 murders",
-    "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya"
+    "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya",
+    "Pattaya Is More Than Just the Beach: How ‘Event Tourism’ Is Making This Seaside City Near Bangkok a Year-Round Destination"
   ],
   "flights": [
     {
@@ -423,5 +423,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-07 00:15:06"
+  "last_update": "2026-08-07 03:19:00"
 }
