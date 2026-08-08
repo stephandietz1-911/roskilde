@@ -16,7 +16,7 @@
   "weather": {
     "temp": "27",
     "feels_like": "33",
-    "wind_speed": "8",
+    "wind_speed": "10",
     "wind_dir": "SSW",
     "aqi_value": "31",
     "aqi_status": "Good",
@@ -428,5 +428,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-08 13:11:18"
+  "last_update": "2026-08-08 13:56:37"
 }
