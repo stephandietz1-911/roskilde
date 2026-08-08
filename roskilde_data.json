@@ -18,7 +18,7 @@
     "feels_like": "32",
     "wind_speed": "18",
     "wind_dir": "WSW",
-    "aqi_value": "24",
+    "aqi_value": "23",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -32,7 +32,7 @@
     "Thailand’s best-kept secret: The magical island almost no one talks about",
     "Naklua 16, Na Kluea, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale",
     "Chinese tourist killed, daughter injured in motorcycle cliff crash in Thailand: media report",
-    "2 Russian siblings found dead in Thailand, suspects confess to 5 murders"
+    "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya"
   ],
   "flights": [
     {
@@ -428,5 +428,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-08 18:49:04"
+  "last_update": "2026-08-08 19:28:06"
 }
