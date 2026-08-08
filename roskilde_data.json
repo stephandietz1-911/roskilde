@@ -15,22 +15,22 @@
   },
   "weather": {
     "temp": "30",
-    "feels_like": "34",
+    "feels_like": "35",
     "wind_speed": "17",
     "wind_dir": "SSW",
-    "aqi_value": "26",
+    "aqi_value": "27",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "7.9"
+    "uv_index": "6.5"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Chinese tourist killed, daughter injured in motorcycle cliff crash in Thailand: media report",
     "How a Thai teen's night at a Pattaya beach ended in death",
     "Thailand’s best-kept secret: The magical island almost no one talks about",
+    "Chinese tourist killed, daughter injured in motorcycle cliff crash in Thailand: media report",
     "Naklua 16, Na Kluea, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale",
     "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya"
   ],
@@ -428,5 +428,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-08 06:05:40"
+  "last_update": "2026-08-08 07:13:59"
 }
