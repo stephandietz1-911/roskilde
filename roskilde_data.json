@@ -16,7 +16,7 @@
   "weather": {
     "temp": "28",
     "feels_like": "31",
-    "wind_speed": "20",
+    "wind_speed": "19",
     "wind_dir": "SW",
     "aqi_value": "17",
     "aqi_status": "Good",
@@ -30,9 +30,9 @@
   "news": [
     "How a Thai teen's night at a Pattaya beach ended in death",
     "Thailand’s best-kept secret: The magical island almost no one talks about",
+    "Chinese tourist killed, daughter injured in motorcycle cliff crash in Thailand: media report",
     "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya",
-    "Naklua 16, Na Kluea, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale",
-    "The Standard Pattaya Na Jomtien brings beachside luxury to the party town"
+    "Naklua 16, Na Kluea, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale"
   ],
   "flights": [
     {
@@ -423,5 +423,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-09 21:12:19"
+  "last_update": "2026-08-09 21:48:49"
 }
