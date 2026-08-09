@@ -1,38 +1,38 @@
 {
   "currencies": {
-    "EUR": "38.12",
-    "EUR_trend": "→",
+    "EUR": "38.11",
+    "EUR_trend": "↓",
     "DKK": "5.11",
     "DKK_trend": "→",
     "NOK": "3.47",
     "NOK_trend": "→",
-    "USD": "33.00",
-    "USD_trend": "→",
-    "AUD": "23.29",
-    "AUD_trend": "→",
+    "USD": "33.01",
+    "USD_trend": "↑",
+    "AUD": "23.28",
+    "AUD_trend": "↓",
     "RUB": "0.40",
     "RUB_trend": "→"
   },
   "weather": {
     "temp": "28",
-    "feels_like": "32",
-    "wind_speed": "15",
+    "feels_like": "33",
+    "wind_speed": "16",
     "wind_dir": "SW",
     "aqi_value": "22",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.2"
+    "uv_index": "1.7"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "How a Thai teen's night at a Pattaya beach ended in death",
     "Thailand’s best-kept secret: The magical island almost no one talks about",
-    "Naklua 16, Na Kluea, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale",
     "Chinese tourist killed, daughter injured in motorcycle cliff crash in Thailand: media report",
-    "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya"
+    "Naklua 16, Na Kluea, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale",
+    "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya",
+    "2 Russian siblings found dead in Thailand, suspects confess to 5 murders"
   ],
   "flights": [
     {
@@ -87,7 +87,6 @@
   ],
   "history": {
     "EUR": [
-      37.897,
       38.136,
       38.055,
       37.88,
@@ -155,7 +154,6 @@
       38.129
     ],
     "USD": [
-      32.2226,
       32.4148,
       32.4203,
       32.3346,
@@ -223,7 +221,6 @@
       33.055
     ],
     "DKK": [
-      5.0715,
       5.1034,
       5.0924,
       5.0684,
@@ -291,7 +288,6 @@
       5.1005
     ],
     "NOK": [
-      3.502,
       3.5221,
       3.5331,
       3.5265,
@@ -359,7 +355,6 @@
       3.4742
     ],
     "AUD": [
-      23.3083,
       23.4698,
       23.4156,
       23.4435,
@@ -428,5 +423,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-08 23:55:14"
+  "last_update": "2026-08-09 01:38:01"
 }
