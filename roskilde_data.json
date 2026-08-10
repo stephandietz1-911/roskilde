@@ -15,24 +15,24 @@
   },
   "weather": {
     "temp": "30",
-    "feels_like": "33",
-    "wind_speed": "23",
+    "feels_like": "34",
+    "wind_speed": "25",
     "wind_dir": "SW",
-    "aqi_value": "18",
+    "aqi_value": "19",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "6.7"
+    "uv_index": "8.8"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Video: Tyson Fury’s last opponent Mariusz Wach gets whomped in 6 vs. 1 freakshow fight",
-    "4K Walking Street Pattaya Thailand Nightlife Walking Tour Coco Gauff",
     "Putting the spotlight on an open secret",
+    "4K Walking Street Pattaya Thailand Nightlife Walking Tour Coco Gauff",
     "Thailand’s best-kept secret: The magical island almost no one talks about",
-    "Chinese tourist killed, daughter injured in motorcycle cliff crash in Thailand: media report"
+    "Chinese tourist killed, daughter injured in motorcycle cliff crash in Thailand: media report",
+    "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya"
   ],
   "flights": [
     {
@@ -418,5 +418,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-10 03:29:49"
+  "last_update": "2026-08-10 05:06:53"
 }
