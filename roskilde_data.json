@@ -17,22 +17,22 @@
     "temp": "30",
     "feels_like": "34",
     "wind_speed": "25",
-    "wind_dir": "SW",
-    "aqi_value": "19",
+    "wind_dir": "WSW",
+    "aqi_value": "20",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "8.8"
+    "uv_index": "4.5"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Putting the spotlight on an open secret",
+    "Pattaya positions itself as year-round event tourism hub",
     "4K Walking Street Pattaya Thailand Nightlife Walking Tour Coco Gauff",
     "Thailand’s best-kept secret: The magical island almost no one talks about",
-    "Chinese tourist killed, daughter injured in motorcycle cliff crash in Thailand: media report",
-    "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya"
+    "Putting the spotlight on an open secret",
+    "Chinese tourist killed, daughter injured in motorcycle cliff crash in Thailand: media report"
   ],
   "flights": [
     {
@@ -418,5 +418,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-10 05:06:53"
+  "last_update": "2026-08-10 06:41:12"
 }
