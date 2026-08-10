@@ -14,21 +14,25 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "33",
+    "temp": "29",
+    "feels_like": "32",
     "wind_speed": "23",
-    "wind_dir": "SW",
+    "wind_dir": "WSW",
     "aqi_value": "22",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "2.4"
+    "uv_index": "2.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "ROS KILDE: Welcome to our Infotainment Portal."
+    "Pattaya positions itself as year-round event tourism hub",
+    "4K Walking Street Pattaya Thailand Nightlife Walking Tour Coco Gauff",
+    "Thailand’s best-kept secret: The magical island almost no one talks about",
+    "Chinese tourist killed, daughter injured in motorcycle cliff crash in Thailand: media report",
+    "Putting the spotlight on an open secret"
   ],
   "flights": [
     {
@@ -414,5 +418,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-10 08:16:42"
+  "last_update": "2026-08-10 09:56:50"
 }
