@@ -16,7 +16,7 @@
   "weather": {
     "temp": "27",
     "feels_like": "31",
-    "wind_speed": "17",
+    "wind_speed": "18",
     "wind_dir": "SW",
     "aqi_value": "17",
     "aqi_status": "Good",
@@ -32,7 +32,7 @@
     "Chinese tourist on motorcycle killed after plunging off cliff in Thailand",
     "4K Walking Street Pattaya Thailand Nightlife Walking Tour Coco Gauff",
     "Chinese tourist killed, daughter injured in motorcycle cliff crash in Thailand: media report",
-    "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya"
+    "Thailand’s best-kept secret: The magical island almost no one talks about"
   ],
   "flights": [
     {
@@ -423,5 +423,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-10 21:11:39"
+  "last_update": "2026-08-10 21:58:28"
 }
