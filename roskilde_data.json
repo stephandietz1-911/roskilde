@@ -1,38 +1,38 @@
 {
   "currencies": {
-    "EUR": "38.15",
-    "EUR_trend": "→",
+    "EUR": "38.12",
+    "EUR_trend": "↓",
     "DKK": "5.11",
     "DKK_trend": "→",
-    "NOK": "3.48",
-    "NOK_trend": "→",
-    "USD": "33.02",
-    "USD_trend": "→",
-    "AUD": "23.31",
-    "AUD_trend": "→",
+    "NOK": "3.47",
+    "NOK_trend": "↓",
+    "USD": "33.00",
+    "USD_trend": "↓",
+    "AUD": "23.30",
+    "AUD_trend": "↓",
     "RUB": "0.40",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "31",
-    "wind_speed": "17",
+    "temp": "28",
+    "feels_like": "32",
+    "wind_speed": "18",
     "wind_dir": "SW",
     "aqi_value": "17",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.1"
+    "uv_index": "0.8"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Pattaya positions itself as year-round event tourism hub",
+    "Dad seeks answers over son's killing",
+    "How a Thai teen's night at a Pattaya beach ended in death",
     "Chinese tourist on motorcycle killed after plunging off cliff in Thailand",
-    "4K Walking Street Pattaya Thailand Nightlife Walking Tour Coco Gauff",
-    "Video: Tyson Fury’s last opponent Mariusz Wach gets whomped in 6 vs. 1 freakshow fight",
-    "Chinese tourist killed, daughter injured in motorcycle cliff crash in Thailand: media report"
+    "Pattaya positions itself as year-round event tourism hub",
+    "4K Walking Street Pattaya Thailand Nightlife Walking Tour Coco Gauff"
   ],
   "flights": [
     {
@@ -418,5 +418,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-11 00:05:44"
+  "last_update": "2026-08-11 02:26:48"
 }
