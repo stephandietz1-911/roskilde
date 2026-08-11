@@ -16,12 +16,12 @@
   "weather": {
     "temp": "28",
     "feels_like": "32",
-    "wind_speed": "17",
+    "wind_speed": "18",
     "wind_dir": "WSW",
     "aqi_value": "18",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "0.3"
   },
   "alert": {
     "active": false,
@@ -30,8 +30,8 @@
   "news": [
     "How a Thai teen's night at a Pattaya beach ended in death",
     "Luxury Cruise In Pattaya, Thailand 🇹🇭 | I Was The Only Indian In All 3 Cruises Zeppa",
-    "IRCTC launches affordable Thailand tour: Bangkok, Pattaya in Rs 49,500",
     "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya",
+    "IRCTC launches affordable Thailand tour: Bangkok, Pattaya in Rs 49,500",
     "Naklua 16, Na Kluea, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale"
   ],
   "flights": [
@@ -423,5 +423,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-11 23:02:56"
+  "last_update": "2026-08-11 23:59:05"
 }
