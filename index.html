@@ -670,14 +670,15 @@
 
         var JUKEBOX_LOCAL_URL = "http://localhost:5000/api/nowplaying";
         var JUKEBOX_LAN_URL = "http://192.168.1.200:5000/api/nowplaying";
+        var workingJukeboxUrl = null;
 
         function fetchJukeboxLAN(targetUrl) {
             var el = document.getElementById('jukebox-header');
             if (!el) return;
 
-            // Robuste Weiche: Erkennt auch lokale HTML-Dateien (file:///)
-            var isLocal = (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" || window.location.protocol === "file:");
-            var currentUrl = "http://localhost:5000/api/nowplaying";
+            var primaryUrl = workingJukeboxUrl || JUKEBOX_LAN_URL;
+            var fallbackUrl = JUKEBOX_LOCAL_URL;
+            var currentUrl = targetUrl || primaryUrl;
 
             var controller = (typeof AbortController !== "undefined") ? new AbortController() : null;
             var signal = controller ? controller.signal : null;
@@ -689,6 +690,9 @@
                 .then(function(res) {
                     clearTimeout(timeoutId);
                     if (!res.ok) throw new Error("HTTP " + res.status);
+                    
+                    workingJukeboxUrl = currentUrl;
+                    
                     var contentType = res.headers.get("content-type") || "";
                     if (contentType.indexOf("application/json") !== -1) {
                         return res.json();
@@ -744,11 +748,16 @@
                 })
                 .catch(function(err) {
                     clearTimeout(timeoutId);
-                    // Sichtbare Fehlerausgabe direkt im Widget
-                    var songEl = document.getElementById('jukebox-song');
-                    if (el && songEl) {
-                        songEl.innerText = "Fetch Error: " + err.message;
-                        el.style.display = "flex";
+                    
+                    if (!targetUrl && currentUrl === primaryUrl) {
+                        fetchJukeboxLAN(fallbackUrl);
+                    } else {
+                        workingJukeboxUrl = null;
+                        var songEl = document.getElementById('jukebox-song');
+                        if (el && songEl) {
+                            songEl.innerText = "Fetch Error: " + err.message;
+                            el.style.display = "flex";
+                        }
                     }
                 });
         }
