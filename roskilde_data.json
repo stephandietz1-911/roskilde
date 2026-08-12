@@ -16,7 +16,7 @@
   "weather": {
     "temp": "29",
     "feels_like": "32",
-    "wind_speed": "20",
+    "wind_speed": "19",
     "wind_dir": "WSW",
     "aqi_value": "38",
     "aqi_status": "Good",
@@ -32,7 +32,7 @@
     "Luxury Cruise In Pattaya, Thailand 🇹🇭 | I Was The Only Indian In All 3 Cruises Zeppa",
     "How a Thai teen's night at a Pattaya beach ended in death",
     "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya",
-    "Naklua 16, Na Kluea, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale"
+    "Video: Tyson Fury’s last opponent Mariusz Wach gets whomped in 6 vs. 1 freakshow fight"
   ],
   "flights": [
     {
@@ -423,5 +423,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-12 15:38:14"
+  "last_update": "2026-08-12 16:35:54"
 }
