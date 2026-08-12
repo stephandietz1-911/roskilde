@@ -16,21 +16,21 @@
   "weather": {
     "temp": "30",
     "feels_like": "33",
-    "wind_speed": "23",
+    "wind_speed": "19",
     "wind_dir": "WSW",
-    "aqi_value": "25",
+    "aqi_value": "34",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "1.6"
+    "uv_index": "0.5"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Luxury Cruise In Pattaya, Thailand 🇹🇭 | I Was The Only Indian In All 3 Cruises Zeppa",
     "‘So brutally cruel’: Suspected serial killer gang rattles Thailand",
     "How a Thai teen's night at a Pattaya beach ended in death",
+    "Luxury Cruise In Pattaya, Thailand 🇹🇭 | I Was The Only Indian In All 3 Cruises Zeppa",
     "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya",
     "Naklua 16, Na Kluea, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale"
   ],
@@ -86,5 +86,5 @@
     }
   ],
   "history": {},
-  "last_update": "2026-08-12 10:01:46"
+  "last_update": "2026-08-12 11:10:21"
 }
