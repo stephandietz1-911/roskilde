@@ -746,20 +746,21 @@
                         el.style.display = "none";
                     }
                 })
-                .catch(function(err) {
-                    clearTimeout(timeoutId);
-                    
-                    if (!targetUrl && currentUrl === primaryUrl) {
-                        fetchJukeboxLAN(fallbackUrl);
-                    } else {
-                        workingJukeboxUrl = null;
-                        var songEl = document.getElementById('jukebox-song');
-                        if (el && songEl) {
-                            songEl.innerText = "Fetch Error: " + err.message;
-                            el.style.display = "flex";
-                        }
-                    }
-                });
+               .catch(function(err) {
+            clearTimeout(timeoutId);
+            
+            if (!targetUrl && currentUrl === primaryUrl) {
+                // Erster Versuch fehlgeschlagen -> probiere die alternative IP
+                fetchJukeboxLAN(fallbackUrl);
+            } else {
+                // Beide Ziele sind down (Jukebox ausgeschaltet). 
+                // Reset der URL und Widget komplett ausblenden.
+                workingJukeboxUrl = null;
+                if (el) {
+                    el.style.display = "none";
+                }
+            }
+        });
         }
 
         function createSparkline(dataArr, trendClass) {
