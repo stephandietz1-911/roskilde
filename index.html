@@ -677,7 +677,7 @@
 
             // Robuste Weiche: Erkennt auch lokale HTML-Dateien (file:///)
             var isLocal = (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" || window.location.protocol === "file:");
-            var currentUrl = targetUrl || (isLocal ? JUKEBOX_LOCAL_URL : JUKEBOX_LAN_URL);
+            var currentUrl = "http://localhost:5000/api/nowplaying";
 
             var controller = (typeof AbortController !== "undefined") ? new AbortController() : null;
             var signal = controller ? controller.signal : null;
