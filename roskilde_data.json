@@ -1,27 +1,27 @@
 {
   "currencies": {
-    "EUR": "38.12",
-    "EUR_trend": "→",
-    "DKK": "5.11",
-    "DKK_trend": "→",
-    "NOK": "3.47",
-    "NOK_trend": "→",
-    "USD": "33.00",
-    "USD_trend": "→",
-    "AUD": "23.30",
-    "AUD_trend": "→",
+    "EUR": "38.23",
+    "EUR_trend": "↑",
+    "DKK": "5.12",
+    "DKK_trend": "↑",
+    "NOK": "3.48",
+    "NOK_trend": "↑",
+    "USD": "33.12",
+    "USD_trend": "↑",
+    "AUD": "23.39",
+    "AUD_trend": "↑",
     "RUB": "0.40",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "32",
+    "temp": "29",
+    "feels_like": "33",
     "wind_speed": "18",
     "wind_dir": "WSW",
-    "aqi_value": "18",
+    "aqi_value": "20",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.3"
+    "uv_index": "4.3"
   },
   "alert": {
     "active": false,
@@ -31,8 +31,8 @@
     "How a Thai teen's night at a Pattaya beach ended in death",
     "Luxury Cruise In Pattaya, Thailand 🇹🇭 | I Was The Only Indian In All 3 Cruises Zeppa",
     "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya",
-    "IRCTC launches affordable Thailand tour: Bangkok, Pattaya in Rs 49,500",
-    "Naklua 16, Na Kluea, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale"
+    "Naklua 16, Na Kluea, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale",
+    "IRCTC launches affordable Thailand tour: Bangkok, Pattaya in Rs 49,500"
   ],
   "flights": [
     {
@@ -87,7 +87,6 @@
   ],
   "history": {
     "EUR": [
-      37.88,
       37.815,
       37.989,
       37.967,
@@ -154,7 +153,6 @@
       38.203
     ],
     "USD": [
-      32.3346,
       32.315,
       32.6703,
       32.5953,
@@ -221,7 +219,6 @@
       33.1049
     ],
     "DKK": [
-      5.0684,
       5.0603,
       5.0836,
       5.0804,
@@ -288,7 +285,6 @@
       5.1103
     ],
     "NOK": [
-      3.5265,
       3.502,
       3.5029,
       3.5153,
@@ -355,7 +351,6 @@
       3.4823
     ],
     "AUD": [
-      23.4435,
       23.3975,
       23.3563,
       23.3557,
@@ -423,5 +418,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-11 23:59:05"
+  "last_update": "2026-08-12 02:34:13"
 }
