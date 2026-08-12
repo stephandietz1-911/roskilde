@@ -370,7 +370,6 @@
             50% { transform: scale(1.6); opacity: 0.3; filter: drop-shadow(0 0 6px var(--color-primary)); }
         }
 
-        /* Currency Container - Höher gemacht für das Chart */
         .currency-container {
             height: 85px;
             position: relative;
@@ -436,7 +435,6 @@
             line-height: 1;
         }
 
-        /* Weather details */
         .weather-container { display: flex; flex-direction: column; gap: 6px; }
         .weather-row-1 { display: flex; justify-content: space-between; align-items: center; }
         .weather-temp-box { display: flex; align-items: center; gap: 8px; }
@@ -677,7 +675,9 @@
             var el = document.getElementById('jukebox-header');
             if (!el) return;
 
-            var currentUrl = targetUrl || ((window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1") ? JUKEBOX_LOCAL_URL : JUKEBOX_LAN_URL);
+            // Robuste Weiche: Erkennt auch lokale HTML-Dateien (file:///)
+            var isLocal = (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1" || window.location.protocol === "file:");
+            var currentUrl = targetUrl || (isLocal ? JUKEBOX_LOCAL_URL : JUKEBOX_LAN_URL);
 
             var controller = (typeof AbortController !== "undefined") ? new AbortController() : null;
             var signal = controller ? controller.signal : null;
@@ -688,7 +688,7 @@
             fetch(currentUrl, { method: 'GET', mode: 'cors', signal: signal })
                 .then(function(res) {
                     clearTimeout(timeoutId);
-                    if (!res.ok) throw new Error("HTTP error " + res.status);
+                    if (!res.ok) throw new Error("HTTP " + res.status);
                     var contentType = res.headers.get("content-type") || "";
                     if (contentType.indexOf("application/json") !== -1) {
                         return res.json();
@@ -708,12 +708,10 @@
                         if (data.playing === false || data.status === "stopped" || data.state === "stop") {
                             isPlaying = false;
                         }
-                        
                         song = data.song || data.now_playing || "";
                         if ((!song || song === "-") && data.title && data.title !== "Keine Wiedergabe") {
                             song = (data.artist && data.artist.trim() !== "") ? (data.artist + " - " + data.title) : data.title;
                         }
-
                         coverUrl = data.cover || data.thumbnail || "";
                         userName = data.user_name || "";
                     }
@@ -721,7 +719,6 @@
                     song = (song || "").trim();
                     if (isPlaying && song.length > 0 && song !== "-") {
                         document.getElementById('jukebox-song').innerText = song;
-                        
                         var labelEl = document.getElementById('jukebox-label');
                         if (labelEl) {
                             var extraInfo = "";
@@ -740,42 +737,20 @@
                                 imgEl.style.display = "none";
                             }
                         }
-
                         el.style.display = "flex";
                     } else {
-                        checkJukeboxFallback();
+                        el.style.display = "none";
                     }
                 })
                 .catch(function(err) {
                     clearTimeout(timeoutId);
-                    if (currentUrl === JUKEBOX_LOCAL_URL) {
-                        fetchJukeboxLAN(JUKEBOX_LAN_URL);
-                    } else {
-                        checkJukeboxFallback();
+                    // Sichtbare Fehlerausgabe direkt im Widget
+                    var songEl = document.getElementById('jukebox-song');
+                    if (el && songEl) {
+                        songEl.innerText = "Fetch Error: " + err.message;
+                        el.style.display = "flex";
                     }
                 });
-        }
-
-        function checkJukeboxFallback() {
-            var el = document.getElementById('jukebox-header');
-            if (!el) return;
-            if (gData && gData.jukebox) {
-                var song = "";
-                var isActive = false;
-                if (typeof gData.jukebox === "string") {
-                    song = gData.jukebox.trim();
-                    isActive = song.length > 0;
-                } else if (typeof gData.jukebox === "object") {
-                    song = (gData.jukebox.song || "").trim();
-                    isActive = (gData.jukebox.active !== false) && song.length > 0;
-                }
-                if (isActive && song) {
-                    document.getElementById('jukebox-song').innerText = song;
-                    el.style.display = "flex";
-                    return;
-                }
-            }
-            el.style.display = "none";
         }
 
         function createSparkline(dataArr, trendClass) {
@@ -786,7 +761,7 @@
             if (range === 0) range = 1;
 
             var width = 200;
-            var height = 30; // 30 Pixel feste Höhe
+            var height = 30; 
             var points = [];
             
             for (var i = 0; i < dataArr.length; i++) {
@@ -806,12 +781,12 @@
             var gradId = "grad-" + Math.random().toString(36).substr(2, 5);
             
             return '<svg viewBox="0 0 ' + width + ' ' + height + '" preserveAspectRatio="none" style="width:100%; height:35px; margin-top:8px; opacity: 0.9;">' +
-                   '<defs><linearGradient id="' + gradId + '" x1="0" y1="0" x2="0" y2="1">' +
-                   '<stop offset="0%" stop-color="' + color + '" stop-opacity="0.3"/><stop offset="100%" stop-color="' + color + '" stop-opacity="0.0"/>' +
-                   '</linearGradient></defs>' +
-                   '<path d="' + areaD + '" fill="url(#' + gradId + ')" />' +
-                   '<path d="' + pathD + '" fill="none" stroke="' + color + '" stroke-width="1.5" stroke-linejoin="round" style="filter: drop-shadow(0 0 4px ' + color + ');"/>' +
-                   '</svg>';
+                    '<defs><linearGradient id="' + gradId + '" x1="0" y1="0" x2="0" y2="1">' +
+                    '<stop offset="0%" stop-color="' + color + '" stop-opacity="0.3"/><stop offset="100%" stop-color="' + color + '" stop-opacity="0.0"/>' +
+                    '</linearGradient></defs>' +
+                    '<path d="' + areaD + '" fill="url(#' + gradId + ')" />' +
+                    '<path d="' + pathD + '" fill="none" stroke="' + color + '" stroke-width="1.5" stroke-linejoin="round" style="filter: drop-shadow(0 0 4px ' + color + ');"/>' +
+                    '</svg>';
         }
 
         function render() {
@@ -859,7 +834,6 @@
                 tickerTrack.innerHTML = newsHtml + newsHtml;
             }
             renderFlights();
-            fetchJukeboxLAN();
         }
 
         function renderCurrency() {
