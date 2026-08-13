@@ -1,27 +1,27 @@
 {
   "currencies": {
-    "EUR": "38.23",
-    "EUR_trend": "→",
+    "EUR": "38.16",
+    "EUR_trend": "↓",
     "DKK": "5.12",
     "DKK_trend": "→",
-    "NOK": "3.48",
-    "NOK_trend": "→",
-    "USD": "33.12",
-    "USD_trend": "→",
-    "AUD": "23.39",
-    "AUD_trend": "→",
+    "NOK": "3.49",
+    "NOK_trend": "↑",
+    "USD": "33.08",
+    "USD_trend": "↓",
+    "AUD": "23.38",
+    "AUD_trend": "↓",
     "RUB": "0.40",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "32",
-    "wind_speed": "14",
+    "temp": "30",
+    "feels_like": "33",
+    "wind_speed": "18",
     "wind_dir": "WSW",
-    "aqi_value": "42",
+    "aqi_value": "44",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.4"
+    "uv_index": "5.2"
   },
   "alert": {
     "active": false,
@@ -32,7 +32,7 @@
     "‘So brutally cruel’: Suspected serial killer gang rattles Thailand",
     "How a Thai teen's night at a Pattaya beach ended in death",
     "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya",
-    "Naklua 16, Na Kluea, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale"
+    "Video: Tyson Fury’s last opponent Mariusz Wach gets whomped in 6 vs. 1 freakshow fight"
   ],
   "flights": [
     {
@@ -87,7 +87,6 @@
   ],
   "history": {
     "EUR": [
-      37.815,
       37.989,
       37.967,
       37.951,
@@ -154,7 +153,6 @@
       38.168
     ],
     "USD": [
-      32.315,
       32.6703,
       32.5953,
       32.6601,
@@ -221,7 +219,6 @@
       33.0602
     ],
     "DKK": [
-      5.0603,
       5.0836,
       5.0804,
       5.0783,
@@ -288,7 +285,6 @@
       5.1055
     ],
     "NOK": [
-      3.502,
       3.5029,
       3.5153,
       3.5259,
@@ -355,7 +351,6 @@
       3.4901
     ],
     "AUD": [
-      23.3975,
       23.3563,
       23.3557,
       23.2443,
@@ -423,5 +418,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-12 23:57:28"
+  "last_update": "2026-08-13 02:20:31"
 }
