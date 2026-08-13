@@ -16,9 +16,9 @@
   "weather": {
     "temp": "28",
     "feels_like": "32",
-    "wind_speed": "18",
+    "wind_speed": "15",
     "wind_dir": "WSW",
-    "aqi_value": "28",
+    "aqi_value": "27",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -29,10 +29,10 @@
   },
   "news": [
     "Pattaya Thailand Nightlife Walking Street||Thai Massage Pattaya Thailand Meghan Agosta",
-    "How a Thai teen's night at a Pattaya beach ended in death",
     "‘So brutally cruel’: Suspected serial killer gang rattles Thailand",
+    "How a Thai teen's night at a Pattaya beach ended in death",
     "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya",
-    "Video: Tyson Fury’s last opponent Mariusz Wach gets whomped in 6 vs. 1 freakshow fight"
+    "Naklua 16, Na Kluea, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale"
   ],
   "flights": [
     {
@@ -423,5 +423,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-13 18:38:12"
+  "last_update": "2026-08-13 19:44:03"
 }
