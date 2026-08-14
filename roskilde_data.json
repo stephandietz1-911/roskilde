@@ -18,10 +18,10 @@
     "feels_like": "34",
     "wind_speed": "20",
     "wind_dir": "SW",
-    "aqi_value": "21",
+    "aqi_value": "22",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "5.0"
+    "uv_index": "2.6"
   },
   "alert": {
     "active": false,
@@ -423,5 +423,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-14 08:44:20"
+  "last_update": "2026-08-14 09:44:34"
 }
