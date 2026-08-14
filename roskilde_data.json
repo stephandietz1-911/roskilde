@@ -16,9 +16,9 @@
   "weather": {
     "temp": "28",
     "feels_like": "32",
-    "wind_speed": "23",
+    "wind_speed": "22",
     "wind_dir": "SW",
-    "aqi_value": "20",
+    "aqi_value": "19",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -28,11 +28,11 @@
     "message": ""
   },
   "news": [
+    "Pattaya Thailand Nightlife Walking Street||Thai Massage Pattaya Thailand Meghan Agosta",
     "Yili Donates 150,000 Cremo Ice Creams to Bring Summer Relief in Thailand",
     "How a Thai teen's night at a Pattaya beach ended in death",
     "‘So brutally cruel’: Suspected serial killer gang rattles Thailand",
-    "Thappraya, Pattaya Tai, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale",
-    "Luxury Cruise In Pattaya, Thailand 🇹🇭 | I Was The Only Indian In All 3 Cruises Zeppa"
+    "Thappraya, Pattaya Tai, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale"
   ],
   "flights": [
     {
@@ -428,5 +428,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-14 16:50:05"
+  "last_update": "2026-08-14 17:51:02"
 }
