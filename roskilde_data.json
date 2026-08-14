@@ -15,10 +15,10 @@
   },
   "weather": {
     "temp": "30",
-    "feels_like": "33",
+    "feels_like": "32",
     "wind_speed": "22",
     "wind_dir": "SW",
-    "aqi_value": "24",
+    "aqi_value": "23",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -423,5 +423,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-14 12:24:10"
+  "last_update": "2026-08-14 13:52:12"
 }
