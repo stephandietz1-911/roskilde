@@ -21,7 +21,7 @@
     "aqi_value": "23",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.9"
+    "uv_index": "0.3"
   },
   "alert": {
     "active": false,
@@ -428,5 +428,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-15 10:47:33"
+  "last_update": "2026-08-15 11:18:04"
 }
