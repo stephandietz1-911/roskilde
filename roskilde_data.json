@@ -16,12 +16,12 @@
   "weather": {
     "temp": "30",
     "feels_like": "34",
-    "wind_speed": "17",
-    "wind_dir": "SW",
+    "wind_speed": "16",
+    "wind_dir": "SSW",
     "aqi_value": "24",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "2.5"
+    "uv_index": "1.6"
   },
   "alert": {
     "active": false,
@@ -428,5 +428,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-15 09:49:40"
+  "last_update": "2026-08-15 10:20:13"
 }
