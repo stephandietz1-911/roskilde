@@ -18,10 +18,10 @@
     "feels_like": "34",
     "wind_speed": "21",
     "wind_dir": "SW",
-    "aqi_value": "22",
+    "aqi_value": "23",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "4.3"
+    "uv_index": "3.5"
   },
   "alert": {
     "active": false,
@@ -32,7 +32,7 @@
     "How a Thai teen's night at a Pattaya beach ended in death",
     "‘So brutally cruel’: Suspected serial killer gang rattles Thailand",
     "Luxury Cruise In Pattaya, Thailand 🇹🇭 | I Was The Only Indian In All 3 Cruises Zeppa",
-    "Thappraya, Pattaya Tai, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale"
+    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim"
   ],
   "flights": [
     {
@@ -423,5 +423,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-16 08:39:17"
+  "last_update": "2026-08-16 09:02:25"
 }
