@@ -14,11 +14,11 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "29",
+    "temp": "28",
     "feels_like": "32",
     "wind_speed": "20",
-    "wind_dir": "WSW",
-    "aqi_value": "21",
+    "wind_dir": "SW",
+    "aqi_value": "20",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -31,8 +31,8 @@
     "Gruesome discovery days after young siblings go missing in Thailand’s notorious ‘Sin City’",
     "How a Thai teen's night at a Pattaya beach ended in death",
     "Watch: Govinda performs in Pattaya as feud with wife Sunita Ahuja escalates",
-    "'Better than Pan Masala ads’, Govinda showcases iconic dance moves at Pattaya club amid Sunita Ahuja feud",
-    "Yili Donates 150,000 Cremo Ice Creams to Bring Summer Relief in Thailand"
+    "Yili Donates 150,000 Cremo Ice Creams to Bring Summer Relief in Thailand",
+    "'Better than Pan Masala ads’, Govinda showcases iconic dance moves at Pattaya club amid Sunita Ahuja feud"
   ],
   "flights": [
     {
@@ -423,5 +423,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-17 18:59:59"
+  "last_update": "2026-08-17 19:34:29"
 }
