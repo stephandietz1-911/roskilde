@@ -16,12 +16,12 @@
   "weather": {
     "temp": "30",
     "feels_like": "34",
-    "wind_speed": "19",
+    "wind_speed": "18",
     "wind_dir": "SW",
-    "aqi_value": "28",
+    "aqi_value": "27",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "3.2"
+    "uv_index": "2.2"
   },
   "alert": {
     "active": false,
@@ -29,10 +29,10 @@
   },
   "news": [
     "Gruesome discovery days after young siblings go missing in Thailand’s notorious ‘Sin City’",
-    "How a Thai teen's night at a Pattaya beach ended in death",
     "Pattaya Thailand Nightlife Walking Street||Thai Massage Pattaya Thailand Meghan Agosta",
     "Govinda performs at Thailand club amid cheating allegations by wife Ssunita. Video",
-    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim"
+    "'Better than Pan Masala ads’, Govinda showcases iconic dance moves at Pattaya club amid Sunita Ahuja feud",
+    "The Standard Pattaya Na Jomtien brings beachside luxury to the party town"
   ],
   "flights": [
     {
@@ -418,5 +418,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-18 09:30:53"
+  "last_update": "2026-08-18 10:03:01"
 }
