@@ -21,7 +21,7 @@
     "aqi_value": "31",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "0.3"
   },
   "alert": {
     "active": false,
@@ -29,10 +29,10 @@
   },
   "news": [
     "Thai police reveal cause of death of teen allegedly murdered by Australian man",
+    "Anutin walks Sydney’s Thai Town, meets community and business owners",
     "Australian tourist disputes 32,540-baht bar bill after 13-hour Pattaya bender",
-    "How a Thai teen's night at a Pattaya beach ended in death",
-    "Pattaya Thailand Nightlife Walking Street||Thai Massage Pattaya Thailand Meghan Agosta",
-    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim"
+    "Pattaya parking patrol marches down beach road, tickets in hand",
+    "Jomtien Second Road residents complain of late-night roadworks noise"
   ],
   "flights": [
     {
@@ -423,5 +423,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-18 23:19:48"
+  "last_update": "2026-08-18 23:46:05"
 }
