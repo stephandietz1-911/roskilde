@@ -15,10 +15,10 @@
   },
   "weather": {
     "temp": "29",
-    "feels_like": "33",
-    "wind_speed": "21",
+    "feels_like": "34",
+    "wind_speed": "9",
     "wind_dir": "SW",
-    "aqi_value": "36",
+    "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -29,10 +29,10 @@
   },
   "news": [
     "Australian tourist disputes 32,540-baht bar bill after 13-hour Pattaya bender",
+    "How a Thai teen's night at a Pattaya beach ended in death",
     "Pattaya Thailand Nightlife Walking Street||Thai Massage Pattaya Thailand Meghan Agosta",
-    "Govinda performs at Thailand club amid cheating allegations by wife Ssunita. Video",
-    "The Standard Pattaya Na Jomtien brings beachside luxury to the party town",
-    "'Better than Pan Masala ads’, Govinda showcases iconic dance moves at Pattaya club amid Sunita Ahuja feud"
+    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim",
+    "Friend of Thai teen allegedly murdered by Australian man went to his condo after reporting her missing"
   ],
   "flights": [
     {
@@ -418,5 +418,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-18 12:41:15"
+  "last_update": "2026-08-18 13:29:55"
 }
