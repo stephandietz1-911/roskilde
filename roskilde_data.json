@@ -15,13 +15,13 @@
   },
   "weather": {
     "temp": "30",
-    "feels_like": "34",
-    "wind_speed": "16",
+    "feels_like": "35",
+    "wind_speed": "15",
     "wind_dir": "WSW",
     "aqi_value": "29",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "1.3"
+    "uv_index": "2.9"
   },
   "alert": {
     "active": false,
@@ -31,8 +31,8 @@
     "Gruesome discovery days after young siblings go missing in Thailand’s notorious ‘Sin City’",
     "Watch: Govinda performs in Pattaya as feud with wife Sunita Ahuja escalates",
     "How a Thai teen's night at a Pattaya beach ended in death",
-    "'Better than Pan Masala ads’, Govinda showcases iconic dance moves at Pattaya club amid Sunita Ahuja feud",
-    "‘So brutally cruel’: Suspected serial killer gang rattles Thailand"
+    "‘So brutally cruel’: Suspected serial killer gang rattles Thailand",
+    "'Better than Pan Masala ads’, Govinda showcases iconic dance moves at Pattaya club amid Sunita Ahuja feud"
   ],
   "flights": [
     {
@@ -418,5 +418,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-18 02:36:56"
+  "last_update": "2026-08-18 03:27:06"
 }
