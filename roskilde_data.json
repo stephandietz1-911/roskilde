@@ -14,11 +14,11 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "32",
+    "temp": "31",
     "feels_like": "34",
-    "wind_speed": "23",
+    "wind_speed": "22",
     "wind_dir": "WSW",
-    "aqi_value": "26",
+    "aqi_value": "25",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "2.2"
@@ -28,11 +28,11 @@
     "message": ""
   },
   "news": [
+    "Thai teen found in suitcase died from suffocation, police reveal",
     "Thai police reveal cause of death of teen allegedly murdered by Australian man",
     "Australian tourist disputes 32,540-baht bar bill after 13-hour Pattaya bender",
     "How a Thai teen's night at a Pattaya beach ended in death",
-    "Pattaya Thailand Nightlife Walking Street||Thai Massage Pattaya Thailand Meghan Agosta",
-    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim"
+    "Pattaya Thailand Nightlife Walking Street||Thai Massage Pattaya Thailand Meghan Agosta"
   ],
   "flights": [
     {
@@ -418,5 +418,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-19 06:49:48"
+  "last_update": "2026-08-19 07:36:07"
 }
