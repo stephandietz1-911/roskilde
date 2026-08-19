@@ -14,7 +14,7 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "27",
+    "temp": "26",
     "feels_like": "30",
     "wind_speed": "21",
     "wind_dir": "SW",
@@ -423,5 +423,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-19 20:36:36"
+  "last_update": "2026-08-19 21:02:19"
 }
