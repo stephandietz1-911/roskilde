@@ -1,27 +1,27 @@
 {
   "currencies": {
-    "EUR": "38.27",
-    "EUR_trend": "→",
+    "EUR": "38.31",
+    "EUR_trend": "↑",
     "DKK": "5.12",
     "DKK_trend": "→",
     "NOK": "3.51",
     "NOK_trend": "→",
-    "USD": "33.03",
-    "USD_trend": "→",
-    "AUD": "23.49",
-    "AUD_trend": "→",
+    "USD": "33.09",
+    "USD_trend": "↑",
+    "AUD": "23.48",
+    "AUD_trend": "↓",
     "RUB": "0.39",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "31",
-    "wind_speed": "20",
+    "temp": "29",
+    "feels_like": "32",
+    "wind_speed": "23",
     "wind_dir": "WSW",
-    "aqi_value": "31",
+    "aqi_value": "30",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.3"
+    "uv_index": "2.0"
   },
   "alert": {
     "active": false,
@@ -29,10 +29,10 @@
   },
   "news": [
     "Thai police reveal cause of death of teen allegedly murdered by Australian man",
-    "Anutin walks Sydney’s Thai Town, meets community and business owners",
     "Australian tourist disputes 32,540-baht bar bill after 13-hour Pattaya bender",
-    "Pattaya parking patrol marches down beach road, tickets in hand",
-    "Jomtien Second Road residents complain of late-night roadworks noise"
+    "How a Thai teen's night at a Pattaya beach ended in death",
+    "Pattaya Thailand Nightlife Walking Street||Thai Massage Pattaya Thailand Meghan Agosta",
+    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim"
   ],
   "flights": [
     {
@@ -87,7 +87,6 @@
   ],
   "history": {
     "EUR": [
-      37.903,
       37.911,
       37.875,
       37.816,
@@ -154,7 +153,6 @@
       38.27
     ],
     "USD": [
-      32.675,
       32.6847,
       32.6649,
       32.4796,
@@ -221,7 +219,6 @@
       33.0598
     ],
     "DKK": [
-      5.0719,
       5.0731,
       5.0682,
       5.0611,
@@ -288,7 +285,6 @@
       5.1191
     ],
     "NOK": [
-      3.5213,
       3.5406,
       3.53,
       3.5125,
@@ -355,7 +351,6 @@
       3.5102
     ],
     "AUD": [
-      23.2948,
       23.2969,
       23.2605,
       23.2857,
@@ -423,5 +418,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-18 23:46:05"
+  "last_update": "2026-08-19 01:07:51"
 }
