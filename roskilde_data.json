@@ -15,8 +15,8 @@
   },
   "weather": {
     "temp": "28",
-    "feels_like": "32",
-    "wind_speed": "17",
+    "feels_like": "31",
+    "wind_speed": "18",
     "wind_dir": "WSW",
     "aqi_value": "21",
     "aqi_status": "Good",
@@ -29,10 +29,10 @@
   },
   "news": [
     "Thai teen found in suitcase died from suffocation, police reveal",
+    "Thai teen in Pattaya suitcase murder died of suffocation: police",
     "A New Side of Pattaya: How Events Are Transforming Thailand’s Seaside City",
     "Thai police reveal cause of death of teen allegedly murdered by Australian man",
-    "Thai teen in Pattaya suitcase murder died of suffocation: Police",
-    "How a Thai teen's night at a Pattaya beach ended in death"
+    "Thai teen in Pattaya suitcase murder died of suffocation: Police"
   ],
   "flights": [
     {
@@ -423,5 +423,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-19 16:28:51"
+  "last_update": "2026-08-19 16:57:12"
 }
