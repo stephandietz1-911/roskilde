@@ -1,27 +1,27 @@
 {
   "currencies": {
-    "EUR": "38.31",
-    "EUR_trend": "→",
-    "DKK": "5.12",
-    "DKK_trend": "→",
-    "NOK": "3.51",
-    "NOK_trend": "→",
-    "USD": "33.09",
-    "USD_trend": "→",
-    "AUD": "23.48",
-    "AUD_trend": "→",
+    "EUR": "38.36",
+    "EUR_trend": "↑",
+    "DKK": "5.13",
+    "DKK_trend": "↑",
+    "NOK": "3.52",
+    "NOK_trend": "↑",
+    "USD": "32.94",
+    "USD_trend": "↓",
+    "AUD": "23.41",
+    "AUD_trend": "↓",
     "RUB": "0.39",
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "30",
-    "wind_speed": "18",
+    "temp": "27",
+    "feels_like": "31",
+    "wind_speed": "20",
     "wind_dir": "SW",
-    "aqi_value": "19",
+    "aqi_value": "20",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.1"
+    "uv_index": "0.6"
   },
   "alert": {
     "active": false,
@@ -31,8 +31,8 @@
     "Thai teen found in suitcase died from suffocation, police reveal",
     "Bangkok Hotel Rates Have Already Doubled for IMF Week; Tomorrowland Pushes Pattaya Up 105%",
     "A New Side of Pattaya: How Events Are Transforming Thailand’s Seaside City",
-    "Pattaya Marathon transforms Pattaya into vibrant tourist hub",
-    "Thai teen in Pattaya suitcase murder died of suffocation: Police"
+    "Thai teen in Pattaya suitcase murder died of suffocation: police",
+    "Pattaya Marathon transforms Pattaya into vibrant tourist hub"
   ],
   "flights": [
     {
@@ -87,7 +87,6 @@
   ],
   "history": {
     "EUR": [
-      37.911,
       37.875,
       37.816,
       37.997,
@@ -154,7 +153,6 @@
       38.372
     ],
     "USD": [
-      32.6847,
       32.6649,
       32.4796,
       32.6603,
@@ -221,7 +219,6 @@
       33.0651
     ],
     "DKK": [
-      5.0731,
       5.0682,
       5.0611,
       5.0852,
@@ -288,7 +285,6 @@
       5.1328
     ],
     "NOK": [
-      3.5406,
       3.53,
       3.5125,
       3.5274,
@@ -355,7 +351,6 @@
       3.517
     ],
     "AUD": [
-      23.2969,
       23.2605,
       23.2857,
       23.4029,
@@ -423,5 +418,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-19 23:58:09"
+  "last_update": "2026-08-20 01:39:32"
 }
