@@ -16,7 +16,7 @@
   "weather": {
     "temp": "27",
     "feels_like": "30",
-    "wind_speed": "21",
+    "wind_speed": "23",
     "wind_dir": "SW",
     "aqi_value": "23",
     "aqi_status": "Good",
@@ -32,7 +32,7 @@
     "Bangkok Hotel Rates Have Already Doubled for IMF Week; Tomorrowland Pushes Pattaya Up 105%",
     "Students injured by swarming bees",
     "How a Thai teen's night at a Pattaya beach ended in death",
-    "A New Side of Pattaya: How Events Are Transforming Thailand’s Seaside City"
+    "Thai police reveal cause of death of teen allegedly murdered by Australian man"
   ],
   "flights": [
     {
@@ -418,5 +418,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-20 12:43:58"
+  "last_update": "2026-08-20 13:34:14"
 }
