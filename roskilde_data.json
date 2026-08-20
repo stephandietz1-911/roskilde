@@ -14,14 +14,14 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "28",
+    "temp": "29",
     "feels_like": "31",
-    "wind_speed": "25",
+    "wind_speed": "28",
     "wind_dir": "SW",
     "aqi_value": "21",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "3.0"
+    "uv_index": "2.9"
   },
   "alert": {
     "active": false,
@@ -30,9 +30,9 @@
   "news": [
     "Thai teen found in suitcase died from suffocation, police reveal",
     "Bangkok Hotel Rates Have Already Doubled for IMF Week; Tomorrowland Pushes Pattaya Up 105%",
+    "Thai teen in Pattaya suitcase murder died of suffocation: police",
     "A New Side of Pattaya: How Events Are Transforming Thailand’s Seaside City",
-    "Pattaya Marathon transforms Pattaya into vibrant tourist hub",
-    "How a Thai teen's night at a Pattaya beach ended in death"
+    "Pattaya Marathon transforms Pattaya into vibrant tourist hub"
   ],
   "flights": [
     {
@@ -418,5 +418,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-20 05:46:10"
+  "last_update": "2026-08-20 06:41:57"
 }
