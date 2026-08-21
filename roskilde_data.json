@@ -17,21 +17,21 @@
     "temp": "30",
     "feels_like": "34",
     "wind_speed": "25",
-    "wind_dir": "SW",
-    "aqi_value": "21",
+    "wind_dir": "SSW",
+    "aqi_value": "22",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "3.9"
+    "uv_index": "2.5"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Ko Phai Soi 1, Pattaya Tai, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri House for Sale",
     "Bangkok Hotel Rates Have Already Doubled for IMF Week; Tomorrowland Pushes Pattaya Up 105%",
-    "Thai police reveal cause of death of teen allegedly murdered by Australian man",
     "How a Thai teen's night at a Pattaya beach ended in death",
-    "Thai Police Find Buried Motorcycle Belonging to Missing Russian Siblings",
+    "Thai police reveal cause of death of teen allegedly murdered by Australian man",
     "A New Side of Pattaya: How Events Are Transforming Thailand’s Seaside City"
   ],
   "flights": [
@@ -423,5 +423,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-21 07:28:54"
+  "last_update": "2026-08-21 08:07:41"
 }
