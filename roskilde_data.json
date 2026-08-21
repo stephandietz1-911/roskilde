@@ -16,9 +16,9 @@
   "weather": {
     "temp": "27",
     "feels_like": "31",
-    "wind_speed": "20",
+    "wind_speed": "19",
     "wind_dir": "SW",
-    "aqi_value": "29",
+    "aqi_value": "27",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -28,11 +28,11 @@
     "message": ""
   },
   "news": [
-    "The Whitehouse Condotel, Pattaya 13, Pattaya Klang, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale",
     "How a Thai teen's night at a Pattaya beach ended in death",
     "Thai police reveal cause of death of teen allegedly murdered by Australian man",
     "A New Side of Pattaya: How Events Are Transforming Thailand’s Seaside City",
-    "Ko Phai Soi 1, Pattaya Tai, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri House for Sale"
+    "Pattaya City Air Quality Index (AQI) and Thailand Air Pollution",
+    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim"
   ],
   "flights": [
     {
@@ -151,7 +151,8 @@
       38.286,
       38.27,
       38.372,
-      38.448
+      38.448,
+      38.226
     ],
     "USD": [
       32.6649,
@@ -218,7 +219,8 @@
       33.0251,
       33.0598,
       33.0651,
-      32.915
+      32.915,
+      32.6746
     ],
     "DKK": [
       5.0682,
@@ -285,7 +287,8 @@
       5.1213,
       5.1191,
       5.1328,
-      5.143
+      5.143,
+      5.1133
     ],
     "NOK": [
       3.53,
@@ -352,7 +355,8 @@
       3.5049,
       3.5102,
       3.517,
-      3.5265
+      3.5265,
+      3.5175
     ],
     "AUD": [
       23.2605,
@@ -419,9 +423,10 @@
       23.5302,
       23.5103,
       23.3961,
-      23.3897
+      23.3897,
+      23.4214
     ],
     "RUB": []
   },
-  "last_update": "2026-08-21 14:18:46"
+  "last_update": "2026-08-21 15:03:16"
 }
