@@ -16,7 +16,7 @@
   "weather": {
     "temp": "27",
     "feels_like": "31",
-    "wind_speed": "18",
+    "wind_speed": "19",
     "wind_dir": "SW",
     "aqi_value": "27",
     "aqi_status": "Good",
@@ -29,10 +29,10 @@
   },
   "news": [
     "The Whitehouse Condotel, Pattaya 13, Pattaya Klang, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale",
+    "How a Thai teen's night at a Pattaya beach ended in death",
     "Thai police reveal cause of death of teen allegedly murdered by Australian man",
     "A New Side of Pattaya: How Events Are Transforming Thailand’s Seaside City",
-    "Ko Phai Soi 1, Pattaya Tai, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri House for Sale",
-    "The Standard Pattaya Na Jomtien brings beachside luxury to the party town"
+    "Ko Phai Soi 1, Pattaya Tai, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri House for Sale"
   ],
   "flights": [
     {
@@ -428,5 +428,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-21 15:48:10"
+  "last_update": "2026-08-21 16:31:28"
 }
