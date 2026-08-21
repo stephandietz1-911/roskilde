@@ -16,7 +16,7 @@
   "weather": {
     "temp": "27",
     "feels_like": "31",
-    "wind_speed": "19",
+    "wind_speed": "18",
     "wind_dir": "SW",
     "aqi_value": "27",
     "aqi_status": "Good",
@@ -28,11 +28,11 @@
     "message": ""
   },
   "news": [
-    "How a Thai teen's night at a Pattaya beach ended in death",
+    "The Whitehouse Condotel, Pattaya 13, Pattaya Klang, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale",
     "Thai police reveal cause of death of teen allegedly murdered by Australian man",
     "A New Side of Pattaya: How Events Are Transforming Thailand’s Seaside City",
-    "Pattaya City Air Quality Index (AQI) and Thailand Air Pollution",
-    "Thailand’s suitcase murder raises safety fears as Pattaya mourns for teen victim"
+    "Ko Phai Soi 1, Pattaya Tai, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri House for Sale",
+    "The Standard Pattaya Na Jomtien brings beachside luxury to the party town"
   ],
   "flights": [
     {
@@ -428,5 +428,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-21 15:03:16"
+  "last_update": "2026-08-21 15:48:10"
 }
