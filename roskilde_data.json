@@ -14,11 +14,11 @@
     "RUB_trend": "→"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "30",
-    "wind_speed": "19",
+    "temp": "27",
+    "feels_like": "31",
+    "wind_speed": "20",
     "wind_dir": "SW",
-    "aqi_value": "29",
+    "aqi_value": "30",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -28,11 +28,11 @@
     "message": ""
   },
   "news": [
-    "Ko Phai Soi 1, Pattaya Tai, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri House for Sale",
+    "The Whitehouse Condotel, Pattaya 13, Pattaya Klang, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri Apartment for Sale",
     "How a Thai teen's night at a Pattaya beach ended in death",
     "Thai police reveal cause of death of teen allegedly murdered by Australian man",
     "A New Side of Pattaya: How Events Are Transforming Thailand’s Seaside City",
-    "The Standard Pattaya Na Jomtien brings beachside luxury to the party town"
+    "Ko Phai Soi 1, Pattaya Tai, Pattaya, Chon Buri, 20150 Thailand, Pattaya, Changwat Chon Buri House for Sale"
   ],
   "flights": [
     {
@@ -423,5 +423,5 @@
     ],
     "RUB": []
   },
-  "last_update": "2026-08-21 11:52:07"
+  "last_update": "2026-08-21 12:42:17"
 }
