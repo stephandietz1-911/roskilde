@@ -12,7 +12,7 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,521,704",
+    "BTC": "2,518,493",
     "BTC_trend": "↓"
   },
   "weather": {
@@ -30,11 +30,7 @@
     "message": ""
   },
   "news": [
-    "Glory Village Pattaya, Huai Yai, Bang Lamung, Chon Buri, 20150 Thailand",
-    "Nominee raids extend to three sites in Pattaya",
-    "How a Thai teen's night at a Pattaya beach ended in death",
-    "Pattaya family attractions: 8 things to do",
-    "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya"
+    "ROS KILDE: Welcome to our Infotainment Portal."
   ],
   "flights": [
     {
@@ -460,8 +456,8 @@
       2281460,
       2399902,
       2555537,
-      2521704
+      2518493
     ]
   },
-  "last_update": "2026-08-22 17:18:29"
+  "last_update": "2026-08-22 17:45:27"
 }
