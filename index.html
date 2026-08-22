@@ -849,8 +849,8 @@
         function renderCurrency() {
             if (!gData) return;
             var curBox = document.getElementById('cur-box');
-            var keys = ["EUR", "USD", "DKK", "NOK", "AUD", "RUB"];
-            var flags = { "EUR": "🇪🇺", "USD": "🇺🇸", "DKK": "🇩🇰", "NOK": "🇳🇴", "AUD": "🇦🇺", "RUB": "🇷🇺" };
+            var keys = ["EUR", "USD", "DKK", "NOK", "AUD", "RUB", "BTC"];
+            var flags = { "EUR": "🇪🇺", "USD": "🇺🇸", "DKK": "🇩🇰", "NOK": "🇳🇴", "AUD": "🇦🇺", "RUB": "🇷🇺", "BTC": "₿" };
             
             var key = keys[curIdx];
             var val = gData.currencies[key] || "--";
@@ -880,7 +880,7 @@
             if (itemEl) itemEl.classList.add('fade-out');
             
             setTimeout(function() {
-                curIdx = (curIdx + 1) % 6;
+                curIdx = (curIdx + 1) % 7;
                 renderCurrency();
             }, 250);
         }
