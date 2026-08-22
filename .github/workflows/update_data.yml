@@ -29,7 +29,7 @@ jobs:
         import urllib.request, json, datetime, xml.etree.ElementTree as ET, re
 
         data = {
-            "currencies": {"EUR": "37.45", "EUR_trend": "→", "DKK": "5.02", "DKK_trend": "→", "NOK": "3.22", "NOK_trend": "→", "USD": "34.50", "USD_trend": "→", "AUD": "22.80", "AUD_trend": "→", "RUB": "0.38", "RUB_trend": "→"},
+            "currencies": {"EUR": "37.45", "EUR_trend": "→", "DKK": "5.02", "DKK_trend": "→", "NOK": "3.22", "NOK_trend": "→", "USD": "34.50", "USD_trend": "→", "AUD": "22.80", "AUD_trend": "→", "RUB": "0.38", "RUB_trend": "→", "BTC": "2,000,000", "BTC_trend": "→"},
             "weather": {"temp": "32", "feels_like": "37", "wind_speed": "15", "wind_dir": "SW", "aqi_value": "35", "aqi_status": "Good", "aqi_color": "#10b981", "uv_index": "0.0"},
             "alert": {"active": False, "message": ""},
             "news": ["ROS KILDE: Welcome to our Infotainment Portal."],
@@ -45,7 +45,7 @@ jobs:
         except:
             old_currencies = {}
 
-        # 2. Live-Wechselkurse
+        # 2. Live-Wechselkurse (Fiat)
         try:
             req = urllib.request.Request("https://open.er-api.com/v6/latest/THB", headers={"User-Agent": "Mozilla/5.0"})
             with urllib.request.urlopen(req, timeout=10) as response:
@@ -57,7 +57,7 @@ jobs:
                     data["currencies"][t+"_trend"] = "↑" if val > old + 0.005 else ("↓" if val < old - 0.005 else "→")
         except: pass
 
-        # 3. 90-Tage Historie für das neue Diagramm abfragen (Frankfurter API)
+        # 3a. 90-Tage Historie für Fiat-Diagramm abfragen (Frankfurter API)
         try:
             end_d = datetime.date.today()
             start_d = end_d - datetime.timedelta(days=90)
@@ -80,7 +80,26 @@ jobs:
                     
                 data["history"] = {"EUR": h_eur, "USD": h_usd, "DKK": h_dkk, "NOK": h_nok, "AUD": h_aud, "RUB": []}
         except Exception as e:
-            print("History error:", e)
+            print("Fiat History error:", e)
+
+        # 3b. Bitcoin (BTC) Live & Historie (über CoinGecko API, 30 Tage)
+        try:
+            cg_url = "https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=thb&days=30&interval=daily"
+            cg_req = urllib.request.Request(cg_url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
+            with urllib.request.urlopen(cg_req, timeout=10) as response:
+                cg_data = json.loads(response.read().decode())
+                prices = [round(p[1]) for p in cg_data.get("prices", [])]
+                
+                if prices:
+                    current_btc = prices[-1]
+                    old_btc = prices[-2] if len(prices) > 1 else current_btc
+                    
+                    # Formatierung mit Tausendertrennzeichen, z.B. "2,245,600"
+                    data["currencies"]["BTC"] = f"{current_btc:,.0f}"
+                    data["currencies"]["BTC_trend"] = "↑" if current_btc > old_btc else ("↓" if current_btc < old_btc else "→")
+                    data["history"]["BTC"] = prices
+        except Exception as e:
+            print("BTC error:", e)
 
         # 4. Wetter & UV-Index
         try:
@@ -166,5 +185,5 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add roskilde_data.json
-        git commit -m "Daten-Update: Historie fuer Chart hinzugefuegt" || echo "Keine Änderungen"
+        git commit -m "Daten-Update: Historie für Chart und BTC hinzugefügt" || echo "Keine Änderungen"
         git push
