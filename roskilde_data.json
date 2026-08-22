@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,513,096",
+    "BTC": "2,516,523",
     "BTC_trend": "↓"
   },
   "weather": {
     "temp": "28",
-    "feels_like": "32",
+    "feels_like": "31",
     "wind_speed": "16",
-    "wind_dir": "WSW",
-    "aqi_value": "22",
+    "wind_dir": "SW",
+    "aqi_value": "21",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -31,10 +31,10 @@
   },
   "news": [
     "Glory Village Pattaya, Huai Yai, Bang Lamung, Chon Buri, 20150 Thailand",
-    "Centara Avenue Soi BuaKhao By Daisy Pattaya 2 | Pattaya, Thailand | Hotel Review ⭐ Nebraska Baseball",
     "Nominee raids extend to three sites in Pattaya",
     "Pattaya family attractions: 8 things to do",
-    "How a Thai teen's night at a Pattaya beach ended in death"
+    "How a Thai teen's night at a Pattaya beach ended in death",
+    "Thai police reveal cause of death of teen allegedly murdered by Australian man"
   ],
   "flights": [
     {
@@ -460,8 +460,8 @@
       2281460,
       2399902,
       2555537,
-      2513096
+      2516523
     ]
   },
-  "last_update": "2026-08-22 15:45:50"
+  "last_update": "2026-08-22 16:20:59"
 }
