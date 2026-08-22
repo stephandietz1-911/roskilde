@@ -12,29 +12,29 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,522,923",
+    "BTC": "2,521,872",
     "BTC_trend": "↓"
   },
   "weather": {
     "temp": "28",
     "feels_like": "31",
-    "wind_speed": "25",
+    "wind_speed": "23",
     "wind_dir": "SW",
-    "aqi_value": "23",
+    "aqi_value": "24",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "5.0"
+    "uv_index": "2.6"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Glory Village Pattaya, Huai Yai, Bang Lamung, Chon Buri, 20150 Thailand",
     "Pattaya family attractions: 8 things to do",
     "How a Thai teen's night at a Pattaya beach ended in death",
     "Thai police reveal cause of death of teen allegedly murdered by Australian man",
-    "A New Side of Pattaya: How Events Are Transforming Thailand’s Seaside City"
+    "A New Side of Pattaya: How Events Are Transforming Thailand’s Seaside City",
+    "Thailand’s best-kept secret: The magical island almost no one talks about"
   ],
   "flights": [
     {
@@ -460,8 +460,8 @@
       2281460,
       2399902,
       2555537,
-      2522923
+      2521872
     ]
   },
-  "last_update": "2026-08-22 07:53:52"
+  "last_update": "2026-08-22 08:26:29"
 }
