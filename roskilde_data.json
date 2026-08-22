@@ -12,7 +12,7 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,516,523",
+    "BTC": "2,527,625",
     "BTC_trend": "↓"
   },
   "weather": {
@@ -30,11 +30,11 @@
     "message": ""
   },
   "news": [
-    "Glory Village Pattaya, Huai Yai, Bang Lamung, Chon Buri, 20150 Thailand",
     "Nominee raids extend to three sites in Pattaya",
-    "Pattaya family attractions: 8 things to do",
     "How a Thai teen's night at a Pattaya beach ended in death",
-    "Thai police reveal cause of death of teen allegedly murdered by Australian man"
+    "Pattaya family attractions: 8 things to do",
+    "Thai police reveal cause of death of teen allegedly murdered by Australian man",
+    "A New Side of Pattaya: How Events Are Transforming Thailand’s Seaside City"
   ],
   "flights": [
     {
@@ -460,8 +460,8 @@
       2281460,
       2399902,
       2555537,
-      2516523
+      2527625
     ]
   },
-  "last_update": "2026-08-22 16:20:59"
+  "last_update": "2026-08-22 16:49:29"
 }
