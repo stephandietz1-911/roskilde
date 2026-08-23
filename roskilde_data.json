@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,495,477",
+    "BTC": "2,498,726",
     "BTC_trend": "↓"
   },
   "weather": {
     "temp": "29",
     "feels_like": "33",
-    "wind_speed": "20",
+    "wind_speed": "21",
     "wind_dir": "SW",
     "aqi_value": "22",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "1.9"
+    "uv_index": "1.5"
   },
   "alert": {
     "active": false,
@@ -34,7 +34,7 @@
     "Bangkok Hotel Rates Have Already Doubled for IMF Week; Tomorrowland Pushes Pattaya Up 105%",
     "How a Thai teen's night at a Pattaya beach ended in death",
     "Centara Avenue Soi BuaKhao By Daisy Pattaya 2 | Pattaya, Thailand | Hotel Review ⭐ Nebraska Baseball",
-    "Nominee raids extend to three sites in Pattaya"
+    "Tyson Fury Stops Mariusz Wach After Seven Rounds in Pattaya"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2399902,
       2559024,
       2515182,
-      2495477
+      2498726
     ]
   },
-  "last_update": "2026-08-23 09:35:05"
+  "last_update": "2026-08-23 09:59:20"
 }
