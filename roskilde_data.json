@@ -12,13 +12,13 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,519,459",
+    "BTC": "2,519,933",
     "BTC_trend": "↑"
   },
   "weather": {
     "temp": "28",
     "feels_like": "31",
-    "wind_speed": "18",
+    "wind_speed": "19",
     "wind_dir": "SW",
     "aqi_value": "23",
     "aqi_status": "Good",
@@ -33,8 +33,8 @@
     "Thai teen found in suitcase died from suffocation, police reveal",
     "Glory Village Pattaya, Huai Yai, Bang Lamung, Chon Buri, 20150 Thailand",
     "Bangkok Hotel Rates Have Already Doubled for IMF Week; Tomorrowland Pushes Pattaya Up 105%",
-    "Centara Avenue Soi BuaKhao By Daisy Pattaya 2 | Pattaya, Thailand | Hotel Review ⭐ Nebraska Baseball",
-    "STARBULL pattaya THAILAND bangkok $200 OR LESS resort condo lagoon swimming pool FREE WIFI tropical"
+    "How a Thai teen's night at a Pattaya beach ended in death",
+    "Centara Avenue Soi BuaKhao By Daisy Pattaya 2 | Pattaya, Thailand | Hotel Review ⭐ Nebraska Baseball"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2399902,
       2559024,
       2515182,
-      2519459
+      2519933
     ]
   },
-  "last_update": "2026-08-23 17:18:28"
+  "last_update": "2026-08-23 17:44:55"
 }
