@@ -12,27 +12,27 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,540,117",
+    "BTC": "2,551,678",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "33",
-    "wind_speed": "25",
+    "temp": "29",
+    "feels_like": "31",
+    "wind_speed": "30",
     "wind_dir": "SW",
     "aqi_value": "22",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.2"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "'I shouldn't be here': Australian murder suspect speaks from Thai prison for first time",
     "Thai teen found in suitcase died from suffocation, police reveal",
     "Glory Village Pattaya, Huai Yai, Bang Lamung, Chon Buri, 20150 Thailand",
+    "'I shouldn't be here': Australian murder suspect speaks from Thai prison for first time",
     "Sick update in Thai murder probe",
     "Bangkok Hotel Rates Have Already Doubled for IMF Week; Tomorrowland Pushes Pattaya Up 105%"
   ],
@@ -450,8 +450,8 @@
       2559024,
       2516100,
       2537111,
-      2540117
+      2551678
     ]
   },
-  "last_update": "2026-08-24 11:25:45"
+  "last_update": "2026-08-24 11:53:51"
 }
