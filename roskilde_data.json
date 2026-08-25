@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,588,868",
+    "BTC": "2,589,230",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "32",
-    "wind_speed": "19",
+    "temp": "28",
+    "feels_like": "31",
+    "wind_speed": "21",
     "wind_dir": "WSW",
-    "aqi_value": "26",
+    "aqi_value": "25",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -34,7 +34,7 @@
     "Thai teen found in suitcase died from suffocation, police reveal",
     "How a Thai teen's night at a Pattaya beach ended in death",
     "'I shouldn't be here': Australian murder suspect speaks from Thai prison for first time",
-    "STARBULL pattaya THAILAND bangkok $200 OR LESS resort condo lagoon swimming pool FREE WIFI tropical"
+    "Bangkok Hotel Rates Have Already Doubled for IMF Week; Tomorrowland Pushes Pattaya Up 105%"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2516100,
       2535990,
       2581459,
-      2588868
+      2589230
     ]
   },
-  "last_update": "2026-08-25 17:59:38"
+  "last_update": "2026-08-25 18:49:56"
 }
