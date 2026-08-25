@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,574,942",
+    "BTC": "2,572,276",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "33",
-    "wind_speed": "19",
+    "temp": "29",
+    "feels_like": "32",
+    "wind_speed": "22",
     "wind_dir": "WSW",
-    "aqi_value": "25",
+    "aqi_value": "26",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -31,10 +31,10 @@
   },
   "news": [
     "Thai teen found in suitcase died from suffocation, police reveal",
+    "Glory Village Pattaya, Huai Yai, Bang Lamung, Chon Buri, 20150 Thailand",
     "'I shouldn't be here': Australian murder suspect speaks from Thai prison for first time",
     "STARBULL pattaya THAILAND bangkok $200 OR LESS resort condo lagoon swimming pool FREE WIFI tropical",
-    "‘I’ve done nothing wrong’: Accused killer begs for bail as Thai prosecutors face deadline to indict",
-    "Nominee raids extend to three sites in Pattaya"
+    "‘I’ve done nothing wrong’: Accused killer begs for bail as Thai prosecutors face deadline to indict"
   ],
   "flights": [
     {
@@ -152,7 +152,8 @@
       38.372,
       38.448,
       38.226,
-      38.124
+      38.124,
+      38.176
     ],
     "USD": [
       32.6201,
@@ -218,7 +219,8 @@
       33.0651,
       32.915,
       32.6746,
-      32.6852
+      32.6852,
+      32.7354
     ],
     "DKK": [
       5.0799,
@@ -284,7 +286,8 @@
       5.1328,
       5.143,
       5.1133,
-      5.0997
+      5.0997,
+      5.107
     ],
     "NOK": [
       3.5158,
@@ -350,7 +353,8 @@
       3.517,
       3.5265,
       3.5175,
-      3.509
+      3.509,
+      3.505
     ],
     "AUD": [
       23.2584,
@@ -416,7 +420,8 @@
       23.3961,
       23.3897,
       23.4214,
-      23.4076
+      23.4076,
+      23.4165
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +455,8 @@
       2516100,
       2535990,
       2581459,
-      2574942
+      2572276
     ]
   },
-  "last_update": "2026-08-25 13:14:01"
+  "last_update": "2026-08-25 14:06:08"
 }
