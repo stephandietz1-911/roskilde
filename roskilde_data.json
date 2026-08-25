@@ -12,7 +12,7 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,587,890",
+    "BTC": "2,594,395",
     "BTC_trend": "↑"
   },
   "weather": {
@@ -32,9 +32,9 @@
   "news": [
     "Thai teen found in suitcase died from suffocation, police reveal",
     "Glory Village Pattaya, Huai Yai, Bang Lamung, Chon Buri, 20150 Thailand",
-    "How a Thai teen's night at a Pattaya beach ended in death",
     "'I shouldn't be here': Australian murder suspect speaks from Thai prison for first time",
-    "STARBULL pattaya THAILAND bangkok $200 OR LESS resort condo lagoon swimming pool FREE WIFI tropical"
+    "STARBULL pattaya THAILAND bangkok $200 OR LESS resort condo lagoon swimming pool FREE WIFI tropical",
+    "‘I’ve done nothing wrong’: Accused killer begs for bail as Thai prosecutors face deadline to indict"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2516100,
       2535990,
       2581459,
-      2587890
+      2594395
     ]
   },
-  "last_update": "2026-08-25 15:04:43"
+  "last_update": "2026-08-25 15:59:21"
 }
