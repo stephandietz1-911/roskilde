@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,564,146",
-    "BTC_trend": "↓"
+    "BTC": "2,573,399",
+    "BTC_trend": "↑"
   },
   "weather": {
     "temp": "27",
     "feels_like": "30",
-    "wind_speed": "22",
+    "wind_speed": "20",
     "wind_dir": "SW",
-    "aqi_value": "19",
+    "aqi_value": "20",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -31,10 +31,10 @@
   },
   "news": [
     "Pattaya ready to welcome 5,000 US troops aboard USS Abraham Lincoln",
+    "Centara Avenue Soi BuaKhao By Daisy Pattaya 2 | Pattaya, Thailand | Hotel Review ⭐ Nebraska Baseball",
     "Glory Village Pattaya, Huai Yai, Bang Lamung, Chon Buri, 20150 Thailand",
-    "Thai teen found in suitcase died from suffocation, police reveal",
-    "Norwegian man robbed after offering stranger 20 baht in Pattaya",
-    "How a Thai teen's night at a Pattaya beach ended in death"
+    "How a Thai teen's night at a Pattaya beach ended in death",
+    "Norwegian man robbed after offering stranger 20 baht in Pattaya"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2535990,
       2580361,
       2566532,
-      2564146
+      2573399
     ]
   },
-  "last_update": "2026-08-26 18:58:58"
+  "last_update": "2026-08-26 21:45:05"
 }
