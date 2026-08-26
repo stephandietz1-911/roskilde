@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,554,649",
+    "BTC": "2,566,241",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "29",
+    "temp": "28",
     "feels_like": "31",
-    "wind_speed": "27",
+    "wind_speed": "26",
     "wind_dir": "SW",
-    "aqi_value": "23",
+    "aqi_value": "22",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -31,10 +31,10 @@
   },
   "news": [
     "Pattaya ready to welcome 5,000 US troops aboard USS Abraham Lincoln",
-    "Centara Avenue Soi BuaKhao By Daisy Pattaya 2 | Pattaya, Thailand | Hotel Review ⭐ Nebraska Baseball",
+    "Centara Avenue Soi BuaKhao By Daisy Pattaya 2 | Pattaya, Thailand | Hotel Review ⭐ Traffic Stop",
     "Glory Village Pattaya, Huai Yai, Bang Lamung, Chon Buri, 20150 Thailand",
-    "Norwegian man robbed after offering stranger 20 baht in Pattaya",
-    "Thai teen found in suitcase died from suffocation, police reveal"
+    "Thai teen found in suitcase died from suffocation, police reveal",
+    "Norwegian man robbed after offering stranger 20 baht in Pattaya"
   ],
   "flights": [
     {
@@ -152,7 +152,8 @@
       38.448,
       38.226,
       38.124,
-      38.176
+      38.176,
+      38.21
     ],
     "USD": [
       32.7004,
@@ -218,7 +219,8 @@
       32.915,
       32.6746,
       32.6852,
-      32.7354
+      32.7354,
+      32.7449
     ],
     "DKK": [
       5.0834,
@@ -284,7 +286,8 @@
       5.143,
       5.1133,
       5.0997,
-      5.107
+      5.107,
+      5.1112
     ],
     "NOK": [
       3.5194,
@@ -350,7 +353,8 @@
       3.5265,
       3.5175,
       3.509,
-      3.505
+      3.505,
+      3.5105
     ],
     "AUD": [
       23.2798,
@@ -416,7 +420,8 @@
       23.3897,
       23.4214,
       23.4076,
-      23.4165
+      23.4165,
+      23.5269
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +455,8 @@
       2535990,
       2580361,
       2566532,
-      2554649
+      2566241
     ]
   },
-  "last_update": "2026-08-26 13:33:06"
+  "last_update": "2026-08-26 14:25:33"
 }
