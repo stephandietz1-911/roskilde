@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,600,040",
+    "BTC": "2,631,762",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "32",
-    "wind_speed": "22",
-    "wind_dir": "SW",
-    "aqi_value": "24",
+    "temp": "27",
+    "feels_like": "31",
+    "wind_speed": "19",
+    "wind_dir": "SSW",
+    "aqi_value": "18",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -30,11 +30,7 @@
     "message": ""
   },
   "news": [
-    "Pattaya prepares to welcome personnel from USS Abraham Lincoln",
-    "Pattaya ready to welcome 5,000 US military personnel",
-    "Pattaya ready to welcome 5,000 US troops aboard USS Abraham Lincoln",
-    "Sjømannskirken in Pattaya to mark international church day",
-    "Glory Village Pattaya, Huai Yai, Bang Lamung, Chon Buri, 20150 Thailand"
+    "ROS KILDE: Welcome to our Infotainment Portal."
   ],
   "flights": [
     {
@@ -152,7 +148,8 @@
       38.226,
       38.124,
       38.176,
-      38.21
+      38.21,
+      38.26
     ],
     "USD": [
       32.5198,
@@ -218,7 +215,8 @@
       32.6746,
       32.6852,
       32.7354,
-      32.7449
+      32.7449,
+      32.8553
     ],
     "DKK": [
       5.067,
@@ -284,7 +282,8 @@
       5.1133,
       5.0997,
       5.107,
-      5.1112
+      5.1112,
+      5.1186
     ],
     "NOK": [
       3.5147,
@@ -350,7 +349,8 @@
       3.5175,
       3.509,
       3.505,
-      3.5105
+      3.5105,
+      3.5175
     ],
     "AUD": [
       23.3194,
@@ -416,7 +416,8 @@
       23.4214,
       23.4076,
       23.4165,
-      23.5269
+      23.5269,
+      23.6231
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +451,8 @@
       2581459,
       2566532,
       2591396,
-      2600040
+      2631762
     ]
   },
-  "last_update": "2026-08-27 12:50:21"
+  "last_update": "2026-08-27 22:48:49"
 }
