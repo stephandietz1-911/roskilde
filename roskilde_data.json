@@ -1,40 +1,36 @@
 {
   "currencies": {
     "EUR": "38.29",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.12",
-    "DKK_trend": "↑",
+    "DKK_trend": "→",
     "NOK": "3.52",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "32.87",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.63",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.38",
-    "RUB_trend": "↓",
-    "BTC": "2,625,695",
+    "RUB_trend": "→",
+    "BTC": "2,553,395",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "33",
-    "wind_speed": "25",
+    "temp": "27",
+    "feels_like": "31",
+    "wind_speed": "20",
     "wind_dir": "SW",
-    "aqi_value": "21",
+    "aqi_value": "20",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "6.0"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Navy Vessel USS Abraham Lincoln to Head to Port in Thailand as USS George Washington to Replace It",
-    "Pattaya prepares to welcome personnel from USS Abraham Lincoln",
-    "Pattaya ready to welcome 5,000 US troops aboard USS Abraham Lincoln",
-    "Pattaya ready to welcome 5,000 US military personnel",
-    "How a Thai teen's night at a Pattaya beach ended in death"
+    "ROS KILDE: Welcome to our Infotainment Portal."
   ],
   "flights": [
     {
@@ -153,7 +149,8 @@
       38.124,
       38.176,
       38.21,
-      38.26
+      38.26,
+      38.37
     ],
     "USD": [
       32.5198,
@@ -220,7 +217,8 @@
       32.6852,
       32.7354,
       32.7449,
-      32.8553
+      32.8553,
+      32.9554
     ],
     "DKK": [
       5.067,
@@ -287,7 +285,8 @@
       5.0997,
       5.107,
       5.1112,
-      5.1186
+      5.1186,
+      5.1332
     ],
     "NOK": [
       3.5147,
@@ -354,7 +353,8 @@
       3.509,
       3.505,
       3.5105,
-      3.5175
+      3.5175,
+      3.5333
     ],
     "AUD": [
       23.3194,
@@ -421,7 +421,8 @@
       23.4076,
       23.4165,
       23.5269,
-      23.6231
+      23.6231,
+      23.7101
     ],
     "RUB": [],
     "BTC": [
@@ -455,8 +456,8 @@
       2566532,
       2591396,
       2639264,
-      2625695
+      2553395
     ]
   },
-  "last_update": "2026-08-28 06:45:48"
+  "last_update": "2026-08-28 19:15:13"
 }
