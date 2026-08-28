@@ -1,36 +1,40 @@
 {
   "currencies": {
-    "EUR": "38.23",
-    "EUR_trend": "→",
-    "DKK": "5.11",
-    "DKK_trend": "→",
-    "NOK": "3.51",
-    "NOK_trend": "→",
-    "USD": "32.79",
-    "USD_trend": "→",
-    "AUD": "23.53",
-    "AUD_trend": "→",
-    "RUB": "0.39",
-    "RUB_trend": "→",
-    "BTC": "2,631,762",
-    "BTC_trend": "↑"
+    "EUR": "38.29",
+    "EUR_trend": "↑",
+    "DKK": "5.12",
+    "DKK_trend": "↑",
+    "NOK": "3.52",
+    "NOK_trend": "↑",
+    "USD": "32.87",
+    "USD_trend": "↑",
+    "AUD": "23.63",
+    "AUD_trend": "↑",
+    "RUB": "0.38",
+    "RUB_trend": "↓",
+    "BTC": "2,625,695",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "31",
-    "wind_speed": "19",
-    "wind_dir": "SSW",
-    "aqi_value": "18",
+    "temp": "30",
+    "feels_like": "33",
+    "wind_speed": "25",
+    "wind_dir": "SW",
+    "aqi_value": "21",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "6.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "ROS KILDE: Welcome to our Infotainment Portal."
+    "Navy Vessel USS Abraham Lincoln to Head to Port in Thailand as USS George Washington to Replace It",
+    "Pattaya prepares to welcome personnel from USS Abraham Lincoln",
+    "Pattaya ready to welcome 5,000 US troops aboard USS Abraham Lincoln",
+    "Pattaya ready to welcome 5,000 US military personnel",
+    "How a Thai teen's night at a Pattaya beach ended in death"
   ],
   "flights": [
     {
@@ -421,7 +425,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2144631,
       2139289,
       2161133,
       2106364,
@@ -451,8 +454,9 @@
       2581459,
       2566532,
       2591396,
-      2631762
+      2639264,
+      2625695
     ]
   },
-  "last_update": "2026-08-27 22:48:49"
+  "last_update": "2026-08-28 06:45:48"
 }
