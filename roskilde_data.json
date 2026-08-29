@@ -1,29 +1,29 @@
 {
   "currencies": {
     "EUR": "38.34",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.13",
-    "DKK_trend": "↑",
+    "DKK_trend": "→",
     "NOK": "3.53",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.02",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.69",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,577,659",
+    "BTC": "2,572,991",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "27",
+    "temp": "29",
     "feels_like": "31",
-    "wind_speed": "20",
-    "wind_dir": "SSW",
-    "aqi_value": "19",
+    "wind_speed": "26",
+    "wind_dir": "SW",
+    "aqi_value": "25",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "2.4"
+    "uv_index": "2.1"
   },
   "alert": {
     "active": false,
@@ -32,8 +32,8 @@
   "news": [
     "Navy Vessel USS Abraham Lincoln to Head to Port in Thailand as USS George Washington to Replace It",
     "Pattaya prepares to welcome personnel from USS Abraham Lincoln",
-    "Bouygues to build 56-storey ONCE Wongamat luxury tower in Pattaya",
     "Pattaya ready to welcome 5,000 US troops aboard USS Abraham Lincoln",
+    "Bouygues to build 56-storey ONCE Wongamat luxury tower in Pattaya",
     "Pattaya ready to welcome 5,000 US military personnel"
   ],
   "flights": [
@@ -460,8 +460,8 @@
       2591396,
       2639264,
       2579091,
-      2577659
+      2572991
     ]
   },
-  "last_update": "2026-08-29 02:16:00"
+  "last_update": "2026-08-29 09:15:53"
 }
