@@ -1,40 +1,40 @@
 {
   "currencies": {
     "EUR": "38.35",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.13",
     "DKK_trend": "→",
     "NOK": "3.53",
     "NOK_trend": "→",
     "USD": "33.01",
-    "USD_trend": "↓",
+    "USD_trend": "→",
     "AUD": "23.68",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,586,909",
+    "BTC": "2,587,908",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "34",
-    "wind_speed": "25",
+    "temp": "29",
+    "feels_like": "32",
+    "wind_speed": "22",
     "wind_dir": "SW",
-    "aqi_value": "21",
+    "aqi_value": "28",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "8.7"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "ONCE Wongamat Pattaya: Bouygues-Thai Appointed for 239m Luxury Residential Tower",
+    "Bouygues’ Luxury High-Rise Portfolio in Thailand",
     "Navy Vessel USS Abraham Lincoln to Head to Port in Thailand as USS George Washington to Replace It",
-    "Pattaya prepares to welcome personnel from USS Abraham Lincoln",
-    "Pattaya ready to welcome 5,000 US troops aboard USS Abraham Lincoln",
-    "Pattaya ready to welcome 5,000 US military personnel",
-    "Thai teen found in suitcase died from suffocation, police reveal"
+    "25 cited in Pattaya crackdown on public-area prostitution",
+    "Pattaya police target prostitution ahead of US warship visit"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2639264,
       2579091,
       2590835,
-      2586909
+      2587908
     ]
   },
-  "last_update": "2026-08-30 06:14:21"
+  "last_update": "2026-08-30 11:58:52"
 }
