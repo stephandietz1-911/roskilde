@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,619,203",
+    "BTC": "2,613,341",
     "BTC_trend": "↑"
   },
   "weather": {
     "temp": "28",
     "feels_like": "31",
     "wind_speed": "19",
-    "wind_dir": "SW",
-    "aqi_value": "23",
+    "wind_dir": "WSW",
+    "aqi_value": "20",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -30,8 +30,8 @@
     "message": ""
   },
   "news": [
-    "ONCE Wongamat Pattaya: Bouygues-Thai Appointed for 239m Luxury Residential Tower",
     "Navy Vessel USS Abraham Lincoln to Head to Port in Thailand as USS George Washington to Replace It",
+    "ONCE Wongamat Pattaya: Bouygues-Thai Appointed for 239m Luxury Residential Tower",
     "Bouygues’ Luxury High-Rise Portfolio in Thailand",
     "25 cited in Pattaya crackdown on public-area prostitution",
     "Pattaya police target prostitution ahead of US warship visit"
@@ -455,8 +455,8 @@
       2639264,
       2579091,
       2590835,
-      2619203
+      2613341
     ]
   },
-  "last_update": "2026-08-30 16:34:32"
+  "last_update": "2026-08-30 19:27:17"
 }
