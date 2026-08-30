@@ -12,13 +12,13 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,613,341",
+    "BTC": "2,604,627",
     "BTC_trend": "↑"
   },
   "weather": {
     "temp": "28",
     "feels_like": "31",
-    "wind_speed": "19",
+    "wind_speed": "18",
     "wind_dir": "WSW",
     "aqi_value": "20",
     "aqi_status": "Good",
@@ -33,7 +33,7 @@
     "Navy Vessel USS Abraham Lincoln to Head to Port in Thailand as USS George Washington to Replace It",
     "ONCE Wongamat Pattaya: Bouygues-Thai Appointed for 239m Luxury Residential Tower",
     "Bouygues’ Luxury High-Rise Portfolio in Thailand",
-    "25 cited in Pattaya crackdown on public-area prostitution",
+    "Pattaya prepares to welcome personnel from USS Abraham Lincoln",
     "Pattaya police target prostitution ahead of US warship visit"
   ],
   "flights": [
@@ -455,8 +455,8 @@
       2639264,
       2579091,
       2590835,
-      2613341
+      2604627
     ]
   },
-  "last_update": "2026-08-30 19:27:17"
+  "last_update": "2026-08-30 21:58:52"
 }
