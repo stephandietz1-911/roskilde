@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,590,424",
-    "BTC_trend": "↑"
+    "BTC": "2,590,075",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "27",
+    "temp": "28",
     "feels_like": "31",
-    "wind_speed": "16",
-    "wind_dir": "SW",
+    "wind_speed": "20",
+    "wind_dir": "SSW",
     "aqi_value": "18",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "1.4"
   },
   "alert": {
     "active": false,
@@ -33,8 +33,8 @@
     "Navy Vessel USS Abraham Lincoln to Head to Port in Thailand as USS George Washington to Replace It",
     "Pattaya prepares to welcome personnel from USS Abraham Lincoln",
     "Pattaya ready to welcome 5,000 US troops aboard USS Abraham Lincoln",
-    "Pattaya ready to welcome 5,000 US military personnel",
-    "Bouygues to build 56-storey ONCE Wongamat luxury tower in Pattaya"
+    "Thai teen found in suitcase died from suffocation, police reveal",
+    "Pattaya ready to welcome 5,000 US military personnel"
   ],
   "flights": [
     {
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      37.866,
       37.914,
       37.958,
       38.007,
@@ -157,7 +156,6 @@
       38.37
     ],
     "USD": [
-      32.5198,
       32.5554,
       32.5848,
       32.7252,
@@ -225,7 +223,6 @@
       32.9554
     ],
     "DKK": [
-      5.067,
       5.073,
       5.0787,
       5.0853,
@@ -293,7 +290,6 @@
       5.1332
     ],
     "NOK": [
-      3.5147,
       3.5143,
       3.5146,
       3.5213,
@@ -361,7 +357,6 @@
       3.5333
     ],
     "AUD": [
-      23.3194,
       23.3547,
       23.4005,
       23.4351,
@@ -430,7 +425,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2161133,
       2106364,
       2104771,
       2117872,
@@ -460,8 +454,9 @@
       2591396,
       2639264,
       2579091,
-      2590424
+      2590835,
+      2590075
     ]
   },
-  "last_update": "2026-08-29 22:44:07"
+  "last_update": "2026-08-30 00:45:39"
 }
