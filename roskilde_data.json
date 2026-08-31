@@ -1,40 +1,40 @@
 {
   "currencies": {
     "EUR": "38.41",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.13",
     "DKK_trend": "→",
     "NOK": "3.54",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.05",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.74",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,579,703",
+    "BTC": "2,574,444",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "29",
+    "temp": "28",
     "feels_like": "33",
-    "wind_speed": "20",
-    "wind_dir": "SW",
-    "aqi_value": "20",
+    "wind_speed": "10",
+    "wind_dir": "WSW",
+    "aqi_value": "21",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "8.5"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Navy Vessel USS Abraham Lincoln to Head to Port in Thailand as USS George Washington to Replace It",
-    "ONCE Wongamat Pattaya: Bouygues-Thai Appointed for 239m Luxury Residential Tower",
-    "Bouygues’ Luxury High-Rise Portfolio in Thailand",
-    "Pattaya prepares to welcome personnel from USS Abraham Lincoln",
-    "Pattaya ready to welcome 5,000 US troops aboard USS Abraham Lincoln"
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "Thailand overhauls car tax strategy to build regional EV hub",
+    "Pattaya nightclub dispute ends in gunfire, two hurt",
+    "Pattaya bar shooting leaves two wounded",
+    "People relax at Pattaya Beach in Pattaya"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2579091,
       2590835,
       2568158,
-      2579703
+      2574444
     ]
   },
-  "last_update": "2026-08-31 05:54:11"
+  "last_update": "2026-08-31 12:44:43"
 }
