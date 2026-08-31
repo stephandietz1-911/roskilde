@@ -12,14 +12,14 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,618,445",
+    "BTC": "2,593,846",
     "BTC_trend": "↑"
   },
   "weather": {
     "temp": "27",
-    "feels_like": "32",
-    "wind_speed": "11",
-    "wind_dir": "WSW",
+    "feels_like": "31",
+    "wind_speed": "14",
+    "wind_dir": "SW",
     "aqi_value": "18",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
@@ -32,9 +32,9 @@
   "news": [
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
     "Thai beach town rolls out red carpet for USS Lincoln service members",
+    "Thailand steps up prostitution crackdown as USS Abraham Lincoln arrives with 5,000 US sailors",
     "Navy Vessel USS Abraham Lincoln to Head to Port in Thailand as USS George Washington to Replace It",
-    "People relax at Pattaya Beach in Pattaya",
-    "US carrier Abraham Lincoln to visit Thailand after 200 days at sea"
+    "People relax at Pattaya Beach in Pattaya"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2579091,
       2590835,
       2568158,
-      2618445
+      2593846
     ]
   },
-  "last_update": "2026-08-31 19:15:26"
+  "last_update": "2026-08-31 23:16:30"
 }
