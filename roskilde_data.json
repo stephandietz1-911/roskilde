@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,574,444",
+    "BTC": "2,618,445",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "33",
-    "wind_speed": "10",
+    "temp": "27",
+    "feels_like": "32",
+    "wind_speed": "11",
     "wind_dir": "WSW",
-    "aqi_value": "21",
+    "aqi_value": "18",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -31,10 +31,10 @@
   },
   "news": [
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "Thailand overhauls car tax strategy to build regional EV hub",
-    "Pattaya nightclub dispute ends in gunfire, two hurt",
-    "Pattaya bar shooting leaves two wounded",
-    "People relax at Pattaya Beach in Pattaya"
+    "Thai beach town rolls out red carpet for USS Lincoln service members",
+    "Navy Vessel USS Abraham Lincoln to Head to Port in Thailand as USS George Washington to Replace It",
+    "People relax at Pattaya Beach in Pattaya",
+    "US carrier Abraham Lincoln to visit Thailand after 200 days at sea"
   ],
   "flights": [
     {
@@ -152,7 +152,8 @@
       38.176,
       38.21,
       38.26,
-      38.37
+      38.37,
+      38.458
     ],
     "USD": [
       32.5848,
@@ -218,7 +219,8 @@
       32.7354,
       32.7449,
       32.8553,
-      32.9554
+      32.9554,
+      33.1649
     ],
     "DKK": [
       5.0787,
@@ -284,7 +286,8 @@
       5.107,
       5.1112,
       5.1186,
-      5.1332
+      5.1332,
+      5.1448
     ],
     "NOK": [
       3.5146,
@@ -350,7 +353,8 @@
       3.505,
       3.5105,
       3.5175,
-      3.5333
+      3.5333,
+      3.5504
     ],
     "AUD": [
       23.4005,
@@ -416,7 +420,8 @@
       23.4165,
       23.5269,
       23.6231,
-      23.7101
+      23.7101,
+      23.7527
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +455,8 @@
       2579091,
       2590835,
       2568158,
-      2574444
+      2618445
     ]
   },
-  "last_update": "2026-08-31 12:44:43"
+  "last_update": "2026-08-31 19:15:26"
 }
