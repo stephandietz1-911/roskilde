@@ -12,28 +12,28 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,608,243",
-    "BTC_trend": "↑"
+    "BTC": "2,581,273",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "31",
-    "feels_like": "37",
-    "wind_speed": "13",
-    "wind_dir": "SW",
-    "aqi_value": "22",
+    "temp": "29",
+    "feels_like": "34",
+    "wind_speed": "10",
+    "wind_dir": "S",
+    "aqi_value": "29",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "7.3"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Thailand’s Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment",
-    "Homeless suspect held after tourist theft reported in Pattaya",
-    "Pattaya nightclub dispute ends in gunfire, two hurt",
+    "Thai resort prepares to host USS Abraham Lincoln sailors after more than 270 days at sea",
     "Pattaya bar shooting leaves two wounded",
+    "Thailand Reveals Rules for USS Abraham Lincoln Sailors’ Visit",
+    "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment",
     "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment"
   ],
   "flights": [
@@ -450,8 +450,8 @@
       2590835,
       2568158,
       2603558,
-      2608243
+      2581273
     ]
   },
-  "last_update": "2026-09-01 07:30:24"
+  "last_update": "2026-09-01 12:44:34"
 }
