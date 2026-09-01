@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,581,273",
+    "BTC": "2,572,422",
     "BTC_trend": "↓"
   },
   "weather": {
     "temp": "29",
-    "feels_like": "34",
-    "wind_speed": "10",
-    "wind_dir": "S",
-    "aqi_value": "29",
+    "feels_like": "33",
+    "wind_speed": "17",
+    "wind_dir": "W",
+    "aqi_value": "30",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -30,11 +30,11 @@
     "message": ""
   },
   "news": [
-    "Thai resort prepares to host USS Abraham Lincoln sailors after more than 270 days at sea",
-    "Pattaya bar shooting leaves two wounded",
+    "U.S. Warship Is Close to Thai R&R Spot After Long Iran Deployment",
+    "Homeless suspect held after tourist theft reported in Pattaya",
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
     "Thailand Reveals Rules for USS Abraham Lincoln Sailors’ Visit",
-    "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment",
-    "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment"
+    "Thailand's Pattaya Anticipates USS Abraham Lincoln Visit"
   ],
   "flights": [
     {
@@ -152,7 +152,8 @@
       38.21,
       38.26,
       38.37,
-      38.458
+      38.458,
+      38.554
     ],
     "USD": [
       32.7252,
@@ -218,7 +219,8 @@
       32.7449,
       32.8553,
       32.9554,
-      33.1649
+      33.1649,
+      33.2649
     ],
     "DKK": [
       5.0853,
@@ -284,7 +286,8 @@
       5.1112,
       5.1186,
       5.1332,
-      5.1448
+      5.1448,
+      5.1579
     ],
     "NOK": [
       3.5213,
@@ -350,7 +353,8 @@
       3.5105,
       3.5175,
       3.5333,
-      3.5504
+      3.5504,
+      3.5637
     ],
     "AUD": [
       23.4351,
@@ -416,7 +420,8 @@
       23.5269,
       23.6231,
       23.7101,
-      23.7527
+      23.7527,
+      23.7548
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +455,8 @@
       2590835,
       2568158,
       2603558,
-      2581273
+      2572422
     ]
   },
-  "last_update": "2026-09-01 12:44:34"
+  "last_update": "2026-09-01 16:57:39"
 }
