@@ -12,13 +12,13 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,561,498",
+    "BTC": "2,558,899",
     "BTC_trend": "↓"
   },
   "weather": {
     "temp": "27",
     "feels_like": "32",
-    "wind_speed": "14",
+    "wind_speed": "13",
     "wind_dir": "WSW",
     "aqi_value": "25",
     "aqi_status": "Good",
@@ -30,11 +30,11 @@
     "message": ""
   },
   "news": [
-    "U.S.S. Abraham Lincoln to Dock in Thailand on Wednesday, Pattaya Mayor Says",
-    "Homeless suspect held after tourist theft reported in Pattaya",
-    "Thailand's Pattaya Anticipates USS Abraham Lincoln Visit",
     "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment",
-    "Thailand Reveals Rules for USS Abraham Lincoln Sailors’ Visit"
+    "Pattaya bar shooting leaves two wounded",
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "Thailand anticipates USS Abraham Lincoln visit following its Middle East deployment",
+    "Thailand's Pattaya Anticipates USS Abraham Lincoln Visit"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2590835,
       2568158,
       2603558,
-      2561498
+      2558899
     ]
   },
-  "last_update": "2026-09-01 19:47:38"
+  "last_update": "2026-09-01 22:22:40"
 }
