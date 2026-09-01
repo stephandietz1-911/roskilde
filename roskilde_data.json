@@ -1,40 +1,40 @@
 {
   "currencies": {
     "EUR": "38.49",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.14",
-    "DKK_trend": "↑",
+    "DKK_trend": "→",
     "NOK": "3.55",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.16",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.75",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,598,354",
-    "BTC_trend": "↓"
+    "BTC": "2,608,243",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "32",
-    "wind_speed": "18",
+    "temp": "31",
+    "feels_like": "37",
+    "wind_speed": "13",
     "wind_dir": "SW",
-    "aqi_value": "18",
+    "aqi_value": "22",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "3.5"
+    "uv_index": "7.3"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "Thai beach town rolls out red carpet for USS Lincoln service members",
-    "Thailand steps up prostitution crackdown as USS Abraham Lincoln arrives with 5,000 US sailors",
-    "Navy Vessel USS Abraham Lincoln to Head to Port in Thailand as USS George Washington to Replace It",
-    "People relax at Pattaya Beach in Pattaya"
+    "Thailand’s Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment",
+    "Homeless suspect held after tourist theft reported in Pattaya",
+    "Pattaya nightclub dispute ends in gunfire, two hurt",
+    "Pattaya bar shooting leaves two wounded",
+    "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2590835,
       2568158,
       2603558,
-      2598354
+      2608243
     ]
   },
-  "last_update": "2026-09-01 01:57:09"
+  "last_update": "2026-09-01 07:30:24"
 }
