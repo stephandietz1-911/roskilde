@@ -12,29 +12,29 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,561,489",
+    "BTC": "2,574,482",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "35",
-    "wind_speed": "12",
-    "wind_dir": "SW",
+    "temp": "28",
+    "feels_like": "34",
+    "wind_speed": "8",
+    "wind_dir": "S",
     "aqi_value": "29",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "3.6"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "USS Abraham Lincoln arrives at Thai port after gruelling 270 days at sea",
-    "Three Indians and Thai woman rescued from Pattaya villa elevator",
-    "After 286 days at sea, US aircraft carrier arrives in Thailand",
-    "In Thailand, Weary U.S. Warship Crew Gets First Break in Months",
-    "Pattaya, once Thailand's 'Sin City,' beckons weary sailors from the USS Abraham Lincoln"
+    "USS Abraham Lincoln: US sailors arrive in Thailand's Pattaya after record 250 days at sea",
+    "Thailand’s Pattaya pins hopes on arrival of 5,000 US sailors to boost tourism",
+    "After 286 days at sea, US aircraft carrier visits Thailand for 'well-deserved' R&R",
+    "U.S.S. Abraham Lincoln Docks in Thailand, Giving Weary Crew a Break",
+    "USS Abraham Lincoln crew visits Thailand’s Pattaya, in photo..."
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2568158,
       2603558,
       2579049,
-      2561489
+      2574482
     ]
   },
-  "last_update": "2026-09-02 09:17:33"
+  "last_update": "2026-09-02 13:46:27"
 }
