@@ -12,28 +12,28 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,558,899",
+    "BTC": "2,576,255",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "27",
+    "temp": "28",
     "feels_like": "32",
-    "wind_speed": "13",
+    "wind_speed": "15",
     "wind_dir": "WSW",
-    "aqi_value": "25",
+    "aqi_value": "26",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "0.9"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment",
+    "Thai resort prepares to host USS Abraham Lincoln sailors after more than 270 days at sea",
     "Pattaya bar shooting leaves two wounded",
-    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "Thailand anticipates USS Abraham Lincoln visit following its Middle East deployment",
+    "Thai city braces for thousands of U.S. service members after record stint on the troubled USS Lincoln",
+    "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment",
     "Thailand's Pattaya Anticipates USS Abraham Lincoln Visit"
   ],
   "flights": [
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      38.007,
       37.949,
       37.987,
       37.811,
@@ -156,7 +155,6 @@
       38.554
     ],
     "USD": [
-      32.7252,
       32.6022,
       32.6349,
       32.7652,
@@ -223,7 +221,6 @@
       33.2649
     ],
     "DKK": [
-      5.0853,
       5.0773,
       5.0823,
       5.059,
@@ -290,7 +287,6 @@
       5.1579
     ],
     "NOK": [
-      3.5213,
       3.4994,
       3.5029,
       3.4637,
@@ -357,7 +353,6 @@
       3.5637
     ],
     "AUD": [
-      23.4351,
       23.2859,
       23.3035,
       23.1813,
@@ -425,7 +420,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2117872,
       2120372,
       2129619,
       2135964,
@@ -455,8 +449,9 @@
       2590835,
       2568158,
       2603558,
-      2558899
+      2579049,
+      2576255
     ]
   },
-  "last_update": "2026-09-01 22:22:40"
+  "last_update": "2026-09-02 00:23:46"
 }
