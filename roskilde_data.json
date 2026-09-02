@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,569,188",
+    "BTC": "2,578,798",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "34",
-    "wind_speed": "8",
-    "wind_dir": "WSW",
-    "aqi_value": "26",
+    "temp": "32",
+    "feels_like": "37",
+    "wind_speed": "15",
+    "wind_dir": "SW",
+    "aqi_value": "24",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -30,11 +30,11 @@
     "message": ""
   },
   "news": [
-    "USS Abraham Lincoln: US sailors arrive in Thailand's Pattaya after record 250 days at sea",
+    "USS Abraham Lincoln crew visits Thailand’s Pattaya, in photos",
     "Three Indians and Thai woman rescued from Pattaya villa elevator",
+    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
     "5,000 US sailors descend on Pattaya as Thai police tighten prostitution crackdown",
-    "USS Abraham Lincoln arrives in Thailand after extended Iran deployment",
-    "Pattaya, once Thailand's 'Sin City,' beckons weary sailors from the USS Abraham Lincoln"
+    "USS Abraham Lincoln arrives in Thailand after extended Iran deployment"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2568158,
       2603558,
       2579049,
-      2569188
+      2578798
     ]
   },
-  "last_update": "2026-09-02 17:35:38"
+  "last_update": "2026-09-02 20:06:26"
 }
