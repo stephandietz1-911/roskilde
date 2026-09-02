@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,574,482",
+    "BTC": "2,569,188",
     "BTC_trend": "↓"
   },
   "weather": {
     "temp": "28",
     "feels_like": "34",
     "wind_speed": "8",
-    "wind_dir": "S",
-    "aqi_value": "29",
+    "wind_dir": "WSW",
+    "aqi_value": "26",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -31,10 +31,10 @@
   },
   "news": [
     "USS Abraham Lincoln: US sailors arrive in Thailand's Pattaya after record 250 days at sea",
-    "Thailand’s Pattaya pins hopes on arrival of 5,000 US sailors to boost tourism",
-    "After 286 days at sea, US aircraft carrier visits Thailand for 'well-deserved' R&R",
-    "U.S.S. Abraham Lincoln Docks in Thailand, Giving Weary Crew a Break",
-    "USS Abraham Lincoln crew visits Thailand’s Pattaya, in photo..."
+    "Three Indians and Thai woman rescued from Pattaya villa elevator",
+    "5,000 US sailors descend on Pattaya as Thai police tighten prostitution crackdown",
+    "USS Abraham Lincoln arrives in Thailand after extended Iran deployment",
+    "Pattaya, once Thailand's 'Sin City,' beckons weary sailors from the USS Abraham Lincoln"
   ],
   "flights": [
     {
@@ -152,7 +152,8 @@
       38.26,
       38.37,
       38.458,
-      38.554
+      38.554,
+      38.468
     ],
     "USD": [
       32.6022,
@@ -218,7 +219,8 @@
       32.8553,
       32.9554,
       33.1649,
-      33.2649
+      33.2649,
+      33.2251
     ],
     "DKK": [
       5.0773,
@@ -284,7 +286,8 @@
       5.1186,
       5.1332,
       5.1448,
-      5.1579
+      5.1579,
+      5.1462
     ],
     "NOK": [
       3.4994,
@@ -350,7 +353,8 @@
       3.5175,
       3.5333,
       3.5504,
-      3.5637
+      3.5637,
+      3.5589
     ],
     "AUD": [
       23.2859,
@@ -416,7 +420,8 @@
       23.6231,
       23.7101,
       23.7527,
-      23.7548
+      23.7548,
+      23.7471
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +455,8 @@
       2568158,
       2603558,
       2579049,
-      2574482
+      2569188
     ]
   },
-  "last_update": "2026-09-02 13:46:27"
+  "last_update": "2026-09-02 17:35:38"
 }
