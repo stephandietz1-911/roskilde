@@ -12,29 +12,29 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,566,978",
+    "BTC": "2,556,355",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "28",
+    "temp": "29",
     "feels_like": "32",
-    "wind_speed": "14",
-    "wind_dir": "WSW",
+    "wind_speed": "17",
+    "wind_dir": "W",
     "aqi_value": "30",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "1.4"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "USS Abraham Lincoln: US sailors arrive in Thailand's Pattaya after record 250 days at sea",
-    "Thailand’s Pattaya pins hopes on arrival of 5,000 US sailors to boost tourism",
-    "U.S.S. Abraham Lincoln Docks in Thailand, Giving Weary Crew a Break",
+    "USS Abraham Lincoln crew visits Thailand’s Pattaya, in photos",
+    "Three Indians and Thai woman rescued from Pattaya villa elevator",
     "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
-    "USS Abraham Lincoln crew visits Thailand’s Pattaya, in photo..."
+    "5,000 US sailors descend on Pattaya as Thai police tighten prostitution crackdown",
+    "USS Abraham Lincoln reaches Thailand after 9 months at sea"
   ],
   "flights": [
     {
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      37.949,
       37.987,
       37.811,
       37.994,
@@ -156,7 +155,6 @@
       38.468
     ],
     "USD": [
-      32.6022,
       32.6349,
       32.7652,
       32.8299,
@@ -223,7 +221,6 @@
       33.2251
     ],
     "DKK": [
-      5.0773,
       5.0823,
       5.059,
       5.0834,
@@ -290,7 +287,6 @@
       5.1462
     ],
     "NOK": [
-      3.4994,
       3.5029,
       3.4637,
       3.4747,
@@ -357,7 +353,6 @@
       3.5589
     ],
     "AUD": [
-      23.2859,
       23.3035,
       23.1813,
       23.1798,
@@ -425,7 +420,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2120372,
       2129619,
       2135964,
       2127740,
@@ -455,8 +449,9 @@
       2568158,
       2603558,
       2579049,
-      2566978
+      2565151,
+      2556355
     ]
   },
-  "last_update": "2026-09-02 22:38:20"
+  "last_update": "2026-09-03 00:41:15"
 }
