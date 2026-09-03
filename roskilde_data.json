@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,692,775",
+    "BTC": "2,706,431",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "34",
-    "wind_speed": "2",
+    "temp": "28",
+    "feels_like": "32",
+    "wind_speed": "13",
     "wind_dir": "W",
-    "aqi_value": "32",
+    "aqi_value": "31",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -30,7 +30,11 @@
     "message": ""
   },
   "news": [
-    "ROS KILDE: Welcome to our Infotainment Portal."
+    "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping",
+    "Eastern Thailand Jewish cemetery dispute heads to Administrative Court",
+    "USS Abraham Lincoln crew visits Thailand’s Pattaya, in photos",
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "USS Abraham Lincoln crew visits Thailand’s Pattaya, in photos"
   ],
   "flights": [
     {
@@ -451,8 +455,8 @@
       2603558,
       2579049,
       2565151,
-      2692775
+      2706431
     ]
   },
-  "last_update": "2026-09-03 17:51:39"
+  "last_update": "2026-09-03 20:31:16"
 }
