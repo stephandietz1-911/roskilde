@@ -1,40 +1,40 @@
 {
   "currencies": {
-    "EUR": "38.57",
-    "EUR_trend": "→",
-    "DKK": "5.16",
-    "DKK_trend": "→",
-    "NOK": "3.57",
-    "NOK_trend": "→",
-    "USD": "33.26",
-    "USD_trend": "→",
-    "AUD": "23.78",
-    "AUD_trend": "→",
+    "EUR": "38.46",
+    "EUR_trend": "↓",
+    "DKK": "5.14",
+    "DKK_trend": "↓",
+    "NOK": "3.56",
+    "NOK_trend": "↓",
+    "USD": "33.21",
+    "USD_trend": "↓",
+    "AUD": "23.77",
+    "AUD_trend": "↓",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,556,355",
-    "BTC_trend": "↓"
+    "BTC": "2,580,113",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "32",
-    "wind_speed": "17",
-    "wind_dir": "W",
-    "aqi_value": "30",
+    "temp": "30",
+    "feels_like": "36",
+    "wind_speed": "16",
+    "wind_dir": "WSW",
+    "aqi_value": "32",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "1.4"
+    "uv_index": "9.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "USS Abraham Lincoln crew visits Thailand’s Pattaya, in photos",
-    "Three Indians and Thai woman rescued from Pattaya villa elevator",
+    "‘It’s a fever dream right now’: sailors of USS Abraham Lincoln voice joy after arriving in Thailand",
+    "Bryde’s whale death prompts urgent vessel safety measures in Thailand",
     "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
-    "5,000 US sailors descend on Pattaya as Thai police tighten prostitution crackdown",
-    "USS Abraham Lincoln reaches Thailand after 9 months at sea"
+    "Long-awaited port call in Thailand brings mixed feelings for USS Lincoln sailors",
+    "5,000 US sailors descend on Pattaya as Thai police tighten prostitution crackdown"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2603558,
       2579049,
       2565151,
-      2556355
+      2580113
     ]
   },
-  "last_update": "2026-09-03 00:41:15"
+  "last_update": "2026-09-03 05:06:05"
 }
