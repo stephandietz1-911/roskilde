@@ -12,29 +12,25 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,578,491",
+    "BTC": "2,618,330",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "31",
+    "temp": "29",
     "feels_like": "35",
-    "wind_speed": "17",
+    "wind_speed": "11",
     "wind_dir": "SSW",
-    "aqi_value": "32",
+    "aqi_value": "34",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "2.5"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "USS Abraham Lincoln arrives at Thai port after gruelling 270 days at sea",
-    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment",
-    "USS Abraham Lincoln reaches Thailand after 9 months at sea",
-    "After 286 Days at Sea, 5,000 Sailors on the USS Abraham Lincoln Get a Break in Thailand"
+    "ROS KILDE: Welcome to our Infotainment Portal."
   ],
   "flights": [
     {
@@ -152,7 +148,8 @@
       38.37,
       38.458,
       38.554,
-      38.468
+      38.468,
+      38.312
     ],
     "USD": [
       32.6349,
@@ -218,7 +215,8 @@
       32.9554,
       33.1649,
       33.2649,
-      33.2251
+      33.2251,
+      32.9849
     ],
     "DKK": [
       5.0823,
@@ -284,7 +282,8 @@
       5.1332,
       5.1448,
       5.1579,
-      5.1462
+      5.1462,
+      5.1256
     ],
     "NOK": [
       3.5029,
@@ -350,7 +349,8 @@
       3.5333,
       3.5504,
       3.5637,
-      3.5589
+      3.5589,
+      3.5453
     ],
     "AUD": [
       23.3035,
@@ -416,7 +416,8 @@
       23.7101,
       23.7527,
       23.7548,
-      23.7471
+      23.7471,
+      23.727
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +451,8 @@
       2603558,
       2579049,
       2565151,
-      2578491
+      2618330
     ]
   },
-  "last_update": "2026-09-03 09:49:30"
+  "last_update": "2026-09-03 14:08:54"
 }
