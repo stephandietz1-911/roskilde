@@ -1,40 +1,40 @@
 {
   "currencies": {
     "EUR": "38.46",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.14",
-    "DKK_trend": "↓",
+    "DKK_trend": "→",
     "NOK": "3.56",
-    "NOK_trend": "↓",
+    "NOK_trend": "→",
     "USD": "33.21",
-    "USD_trend": "↓",
+    "USD_trend": "→",
     "AUD": "23.77",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,580,113",
+    "BTC": "2,578,491",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "36",
-    "wind_speed": "16",
-    "wind_dir": "WSW",
+    "temp": "31",
+    "feels_like": "35",
+    "wind_speed": "17",
+    "wind_dir": "SSW",
     "aqi_value": "32",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "9.0"
+    "uv_index": "2.5"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "‘It’s a fever dream right now’: sailors of USS Abraham Lincoln voice joy after arriving in Thailand",
-    "Bryde’s whale death prompts urgent vessel safety measures in Thailand",
-    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
-    "Long-awaited port call in Thailand brings mixed feelings for USS Lincoln sailors",
-    "5,000 US sailors descend on Pattaya as Thai police tighten prostitution crackdown"
+    "USS Abraham Lincoln arrives at Thai port after gruelling 270 days at sea",
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment",
+    "USS Abraham Lincoln reaches Thailand after 9 months at sea",
+    "After 286 Days at Sea, 5,000 Sailors on the USS Abraham Lincoln Get a Break in Thailand"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2603558,
       2579049,
       2565151,
-      2580113
+      2578491
     ]
   },
-  "last_update": "2026-09-03 05:06:05"
+  "last_update": "2026-09-03 09:49:30"
 }
