@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,667,087",
+    "BTC": "2,668,667",
     "BTC_trend": "↓"
   },
   "weather": {
     "temp": "31",
-    "feels_like": "37",
-    "wind_speed": "13",
-    "wind_dir": "WSW",
+    "feels_like": "35",
+    "wind_speed": "14",
+    "wind_dir": "SSW",
     "aqi_value": "32",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "8.9"
+    "uv_index": "2.5"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping",
-    "British tourist, 70, attacked on Jomtien Beach, Thai man arrested after chase",
+    "70-year-old Brit assaulted on Jomtien Beach, perp arrested immediately",
     "USS Lincoln crew hits the streets of Thai beach city after lengthy Middle East deployment",
-    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "Drunken brawl in Thailand sends two USS Abraham Lincoln service members back to ship"
+    "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment",
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2579049,
       2565151,
       2674421,
-      2667087
+      2668667
     ]
   },
-  "last_update": "2026-09-04 05:30:52"
+  "last_update": "2026-09-04 09:56:59"
 }
