@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,668,667",
+    "BTC": "2,615,319",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "31",
-    "feels_like": "35",
-    "wind_speed": "14",
-    "wind_dir": "SSW",
-    "aqi_value": "32",
+    "temp": "29",
+    "feels_like": "36",
+    "wind_speed": "5",
+    "wind_dir": "S",
+    "aqi_value": "31",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "2.5"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -32,9 +32,9 @@
   "news": [
     "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping",
     "70-year-old Brit assaulted on Jomtien Beach, perp arrested immediately",
-    "USS Lincoln crew hits the streets of Thai beach city after lengthy Middle East deployment",
-    "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment",
-    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk"
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "Pedicures and a pair of socks: sailors from USS Abraham Lincoln go wild in party resort of Pattaya",
+    "USS Lincoln crew hits the streets of Thai beach city after lengthy Middle East deployment"
   ],
   "flights": [
     {
@@ -153,7 +153,8 @@
       38.458,
       38.554,
       38.468,
-      38.312
+      38.312,
+      38.26
     ],
     "USD": [
       32.6349,
@@ -220,7 +221,8 @@
       33.1649,
       33.2649,
       33.2251,
-      32.9849
+      32.9849,
+      32.9203
     ],
     "DKK": [
       5.0823,
@@ -287,7 +289,8 @@
       5.1448,
       5.1579,
       5.1462,
-      5.1256
+      5.1256,
+      5.1186
     ],
     "NOK": [
       3.5029,
@@ -354,7 +357,8 @@
       3.5504,
       3.5637,
       3.5589,
-      3.5453
+      3.5453,
+      3.5414
     ],
     "AUD": [
       23.3035,
@@ -421,7 +425,8 @@
       23.7527,
       23.7548,
       23.7471,
-      23.727
+      23.727,
+      23.7139
     ],
     "RUB": [],
     "BTC": [
@@ -455,8 +460,8 @@
       2579049,
       2565151,
       2674421,
-      2668667
+      2615319
     ]
   },
-  "last_update": "2026-09-04 09:56:59"
+  "last_update": "2026-09-04 14:03:23"
 }
