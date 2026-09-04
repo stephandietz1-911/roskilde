@@ -1,29 +1,29 @@
 {
   "currencies": {
-    "EUR": "38.46",
-    "EUR_trend": "→",
-    "DKK": "5.14",
-    "DKK_trend": "→",
-    "NOK": "3.56",
-    "NOK_trend": "→",
-    "USD": "33.21",
-    "USD_trend": "→",
-    "AUD": "23.77",
-    "AUD_trend": "→",
+    "EUR": "38.28",
+    "EUR_trend": "↓",
+    "DKK": "5.12",
+    "DKK_trend": "↓",
+    "NOK": "3.54",
+    "NOK_trend": "↓",
+    "USD": "32.94",
+    "USD_trend": "↓",
+    "AUD": "23.70",
+    "AUD_trend": "↓",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,696,239",
-    "BTC_trend": "↑"
+    "BTC": "2,673,603",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "28",
+    "temp": "29",
     "feels_like": "33",
-    "wind_speed": "10",
+    "wind_speed": "12",
     "wind_dir": "WSW",
-    "aqi_value": "35",
+    "aqi_value": "34",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "1.9"
   },
   "alert": {
     "active": false,
@@ -425,7 +425,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2129619,
       2135964,
       2127740,
       2134188,
@@ -455,8 +454,9 @@
       2603558,
       2579049,
       2565151,
-      2696239
+      2674421,
+      2673603
     ]
   },
-  "last_update": "2026-09-03 22:49:02"
+  "last_update": "2026-09-04 00:46:43"
 }
