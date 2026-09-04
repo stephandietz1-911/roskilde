@@ -1,29 +1,29 @@
 {
   "currencies": {
     "EUR": "38.28",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.12",
-    "DKK_trend": "↓",
+    "DKK_trend": "→",
     "NOK": "3.54",
-    "NOK_trend": "↓",
+    "NOK_trend": "→",
     "USD": "32.94",
-    "USD_trend": "↓",
+    "USD_trend": "→",
     "AUD": "23.70",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,673,603",
+    "BTC": "2,667,087",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "33",
-    "wind_speed": "12",
+    "temp": "31",
+    "feels_like": "37",
+    "wind_speed": "13",
     "wind_dir": "WSW",
-    "aqi_value": "34",
+    "aqi_value": "32",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "1.9"
+    "uv_index": "8.9"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping",
-    "Thai activist demands Israel Embassy action over alleged harassment",
+    "British tourist, 70, attacked on Jomtien Beach, Thai man arrested after chase",
     "USS Lincoln crew hits the streets of Thai beach city after lengthy Middle East deployment",
-    "Drunken brawl in Thailand sends two USS Abraham Lincoln service members back to ship",
-    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk"
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "Drunken brawl in Thailand sends two USS Abraham Lincoln service members back to ship"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2579049,
       2565151,
       2674421,
-      2673603
+      2667087
     ]
   },
-  "last_update": "2026-09-04 00:46:43"
+  "last_update": "2026-09-04 05:30:52"
 }
