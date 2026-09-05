@@ -12,25 +12,29 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,622,261",
+    "BTC": "2,620,894",
     "BTC_trend": "↓"
   },
   "weather": {
     "temp": "28",
     "feels_like": "33",
     "wind_speed": "11",
-    "wind_dir": "W",
-    "aqi_value": "32",
+    "wind_dir": "WSW",
+    "aqi_value": "38",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "0.6"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "ROS KILDE: Welcome to our Infotainment Portal."
+    "USS Abraham Lincoln docks in Thailand after 9 months at sea",
+    "I live in Thailand and Pattaya shows the worst of our tourism – but also the best",
+    "U.S. service members are unwinding in a Thai resort town strained by the Iran war they’ve been fighting",
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
   ],
   "flights": [
     {
@@ -456,8 +460,8 @@
       2579049,
       2565151,
       2674421,
-      2622261
+      2620894
     ]
   },
-  "last_update": "2026-09-04 22:07:02"
+  "last_update": "2026-09-05 00:05:33"
 }
