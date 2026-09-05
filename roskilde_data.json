@@ -12,14 +12,14 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,620,817",
-    "BTC_trend": "↓"
+    "BTC": "2,623,536",
+    "BTC_trend": "↑"
   },
   "weather": {
     "temp": "29",
-    "feels_like": "34",
-    "wind_speed": "14",
-    "wind_dir": "SSW",
+    "feels_like": "35",
+    "wind_speed": "13",
+    "wind_dir": "SW",
     "aqi_value": "50",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
@@ -30,11 +30,11 @@
     "message": ""
   },
   "news": [
-    "Pedicures and a pair of socks: sailors from USS Abraham Lincoln go wild in party resort of Pattaya",
+    "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping",
     "I live in Thailand and Pattaya shows the worst of our tourism – but also the best",
-    "U.S. service members are unwinding in a Thai resort town strained by the Iran war they’ve been fighting",
-    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
-    "Thai resort city cracks down on prostitution ahead of USS Abraham Lincoln arrival"
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "After nine months at sea, a muted stay in Thailand for crew of USS Abraham Lincoln",
+    "U.S. service members are unwinding in a Thai resort town strained by the Iran war they’ve been fighting"
   ],
   "flights": [
     {
@@ -460,8 +460,8 @@
       2565151,
       2674421,
       2621340,
-      2620817
+      2623536
     ]
   },
-  "last_update": "2026-09-05 12:05:31"
+  "last_update": "2026-09-05 15:13:25"
 }
