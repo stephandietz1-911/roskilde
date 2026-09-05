@@ -1,29 +1,29 @@
 {
   "currencies": {
     "EUR": "38.24",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.12",
     "DKK_trend": "→",
     "NOK": "3.54",
     "NOK_trend": "→",
     "USD": "32.91",
-    "USD_trend": "↓",
+    "USD_trend": "→",
     "AUD": "23.71",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,618,285",
+    "BTC": "2,620,440",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "30",
+    "temp": "32",
     "feels_like": "36",
-    "wind_speed": "10",
-    "wind_dir": "WSW",
-    "aqi_value": "41",
+    "wind_speed": "12",
+    "wind_dir": "SW",
+    "aqi_value": "44",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "8.6"
+    "uv_index": "5.0"
   },
   "alert": {
     "active": false,
@@ -33,8 +33,8 @@
     "USS Abraham Lincoln docks in Thailand after 9 months at sea",
     "I live in Thailand and Pattaya shows the worst of our tourism – but also the best",
     "U.S. service members are unwinding in a Thai resort town strained by the Iran war they’ve been fighting",
-    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
+    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk"
   ],
   "flights": [
     {
@@ -460,8 +460,8 @@
       2565151,
       2674421,
       2621340,
-      2618285
+      2620440
     ]
   },
-  "last_update": "2026-09-05 04:28:02"
+  "last_update": "2026-09-05 08:31:35"
 }
