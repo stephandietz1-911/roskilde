@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,621,928",
-    "BTC_trend": "↓"
+    "BTC": "2,628,438",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "29",
+    "temp": "28",
     "feels_like": "32",
-    "wind_speed": "19",
+    "wind_speed": "15",
     "wind_dir": "WSW",
-    "aqi_value": "21",
+    "aqi_value": "17",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -32,9 +32,9 @@
   "news": [
     "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping",
     "I live in Thailand and Pattaya shows the worst of our tourism – but also the best",
-    "Chon Buri busts unlicensed Argentinian steakhouse",
-    "US sailor tips Pattaya Grab driver 1,000 baht for 120-baht fare",
-    "Why are Pattaya Soi 6 and Soi 7 off-limits to US Navy personnel after dark?"
+    "After Months at War, Brief Solace in a Party Town Far From Home",
+    "USS Lincoln sailors delight in the ‘simple stuff’ as they get their first break in months in Thailand",
+    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2674421,
       2621340,
       2626289,
-      2621928
+      2628438
     ]
   },
-  "last_update": "2026-09-06 16:17:03"
+  "last_update": "2026-09-06 18:31:10"
 }
