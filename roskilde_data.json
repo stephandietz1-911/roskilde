@@ -12,29 +12,25 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,629,882",
+    "BTC": "2,629,444",
     "BTC_trend": "↑"
   },
   "weather": {
     "temp": "29",
-    "feels_like": "32",
-    "wind_speed": "21",
+    "feels_like": "34",
+    "wind_speed": "10",
     "wind_dir": "SW",
-    "aqi_value": "30",
+    "aqi_value": "27",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "2.7"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Pedicures and a pair of socks: sailors from USS Abraham Lincoln go wild in party resort of Pattaya",
-    "I live in Thailand and Pattaya shows the worst of our tourism – but also the best",
-    "US sailor tips Pattaya Grab driver 1,000 baht for 120-baht fare",
-    "South African tourist waits 3 hours to pay parking fine in Pattaya",
-    "Why are Pattaya Soi 6 and Soi 7 off-limits to US Navy personnel after dark?"
+    "ROS KILDE: Welcome to our Infotainment Portal."
   ],
   "flights": [
     {
@@ -455,8 +451,8 @@
       2674421,
       2621340,
       2626289,
-      2629882
+      2629444
     ]
   },
-  "last_update": "2026-09-06 09:40:27"
+  "last_update": "2026-09-06 13:08:41"
 }
