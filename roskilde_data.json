@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,594,132",
+    "BTC": "2,612,333",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "27",
+    "temp": "29",
     "feels_like": "32",
-    "wind_speed": "16",
-    "wind_dir": "S",
-    "aqi_value": "30",
+    "wind_speed": "19",
+    "wind_dir": "WSW",
+    "aqi_value": "26",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -30,11 +30,11 @@
     "message": ""
   },
   "news": [
-    "After Months at War, Brief Solace in a Party Town Far From Home",
+    "Pedicures and a pair of socks: sailors from USS Abraham Lincoln go wild in party resort of Pattaya",
     "Foreign interloper gropes woman at cannabis shop",
-    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
-    "U.S. service members are unwinding in a Thai resort town strained by the Iran war they’ve been fighting",
-    "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment"
+    "Thailand’s first DreamWorks hotel planned for Pattaya in 2033",
+    "Motorcycle crash leaves man distressed before he holds wife at knifepoint",
+    "I live in Thailand and Pattaya shows the worst of our tourism – but also the best"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2621340,
       2626289,
       2645245,
-      2594132
+      2612333
     ]
   },
-  "last_update": "2026-09-07 15:58:07"
+  "last_update": "2026-09-07 19:47:04"
 }
