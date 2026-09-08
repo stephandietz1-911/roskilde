@@ -1,36 +1,40 @@
 {
   "currencies": {
     "EUR": "38.22",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.11",
-    "DKK_trend": "↓",
+    "DKK_trend": "→",
     "NOK": "3.54",
     "NOK_trend": "→",
     "USD": "32.88",
-    "USD_trend": "↓",
+    "USD_trend": "→",
     "AUD": "23.73",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,601,317",
-    "BTC_trend": "↑"
+    "BTC": "2,587,083",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "32",
-    "wind_speed": "17",
-    "wind_dir": "SW",
-    "aqi_value": "21",
+    "temp": "31",
+    "feels_like": "37",
+    "wind_speed": "16",
+    "wind_dir": "WSW",
+    "aqi_value": "22",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "1.4"
+    "uv_index": "9.1"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "ROS KILDE: Welcome to our Infotainment Portal."
+    "After Months at War, Brief Solace in a Party Town Far From Home",
+    "Thailand: After 286 days at sea, US sailors hit Pattaya",
+    "Foreign interloper gropes woman at cannabis shop",
+    "Thailand’s first DreamWorks hotel planned for Pattaya in 2033",
+    "US sailors help change perceptions of Pattaya beyond beer bars"
   ],
   "flights": [
     {
@@ -446,8 +450,8 @@
       2626289,
       2645245,
       2599011,
-      2601317
+      2587083
     ]
   },
-  "last_update": "2026-09-08 00:38:42"
+  "last_update": "2026-09-08 05:15:57"
 }
