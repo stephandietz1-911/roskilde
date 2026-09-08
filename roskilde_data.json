@@ -1,40 +1,36 @@
 {
   "currencies": {
-    "EUR": "38.24",
-    "EUR_trend": "→",
-    "DKK": "5.12",
-    "DKK_trend": "→",
+    "EUR": "38.22",
+    "EUR_trend": "↓",
+    "DKK": "5.11",
+    "DKK_trend": "↓",
     "NOK": "3.54",
     "NOK_trend": "→",
-    "USD": "32.92",
-    "USD_trend": "→",
-    "AUD": "23.72",
-    "AUD_trend": "→",
+    "USD": "32.88",
+    "USD_trend": "↓",
+    "AUD": "23.73",
+    "AUD_trend": "↑",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,605,677",
-    "BTC_trend": "↓"
+    "BTC": "2,601,317",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "28",
+    "temp": "29",
     "feels_like": "32",
-    "wind_speed": "15",
+    "wind_speed": "17",
     "wind_dir": "SW",
-    "aqi_value": "23",
+    "aqi_value": "21",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "1.4"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Pedicures and a pair of socks: sailors from USS Abraham Lincoln go wild in party resort of Pattaya",
-    "Foreign interloper gropes woman at cannabis shop",
-    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment",
-    "USS Abraham Lincoln carrier strike group departs Thailand after port call"
+    "ROS KILDE: Welcome to our Infotainment Portal."
   ],
   "flights": [
     {
@@ -89,7 +85,6 @@
   ],
   "history": {
     "EUR": [
-      37.994,
       38.027,
       38.014,
       37.876,
@@ -156,7 +151,6 @@
       38.231
     ],
     "USD": [
-      32.8299,
       32.9552,
       32.9496,
       32.7449,
@@ -223,7 +217,6 @@
       32.8954
     ],
     "DKK": [
-      5.0834,
       5.0876,
       5.086,
       5.0674,
@@ -290,7 +283,6 @@
       5.1148
     ],
     "NOK": [
-      3.4747,
       3.4722,
       3.4591,
       3.4353,
@@ -357,7 +349,6 @@
       3.5484
     ],
     "AUD": [
-      23.1798,
       23.0816,
       23.057,
       23.0361,
@@ -425,7 +416,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2135421,
       2139603,
       2108579,
       2105461,
@@ -455,8 +445,9 @@
       2621340,
       2626289,
       2645245,
-      2605677
+      2599011,
+      2601317
     ]
   },
-  "last_update": "2026-09-07 22:30:13"
+  "last_update": "2026-09-08 00:38:42"
 }
