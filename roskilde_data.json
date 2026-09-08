@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,582,848",
+    "BTC": "2,579,599",
     "BTC_trend": "↓"
   },
   "weather": {
     "temp": "28",
     "feels_like": "32",
-    "wind_speed": "15",
-    "wind_dir": "WSW",
-    "aqi_value": "25",
+    "wind_speed": "16",
+    "wind_dir": "SW",
+    "aqi_value": "20",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -31,10 +31,10 @@
   },
   "news": [
     "Thailand: After 286 days at sea, US sailors hit Pattaya",
-    "After Months at War, Brief Solace in a Party Town Far From Home",
+    "USS Lincoln sailors delight in the ‘simple stuff’ as they get their first break in months in Thailand",
+    "Thousands of war-weary sailors FLOOD sin city",
     "Thai Navy denies helicopter crossed into Cambodia during border mission",
-    "Thailand’s first DreamWorks hotel planned for Pattaya in 2033",
-    "Thousands of war-weary sailors FLOOD sin city"
+    "US Navy Pattaya visit boosts shopping and dining spending"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2626289,
       2645245,
       2599011,
-      2582848
+      2579599
     ]
   },
-  "last_update": "2026-09-08 17:55:45"
+  "last_update": "2026-09-08 20:46:52"
 }
