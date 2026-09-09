@@ -1,29 +1,29 @@
 {
   "currencies": {
     "EUR": "38.24",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.11",
     "DKK_trend": "→",
     "NOK": "3.56",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "32.90",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.75",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,593,192",
+    "BTC": "2,597,984",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "33",
+    "temp": "31",
+    "feels_like": "37",
     "wind_speed": "16",
     "wind_dir": "WSW",
-    "aqi_value": "18",
+    "aqi_value": "22",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "2.4"
+    "uv_index": "8.8"
   },
   "alert": {
     "active": false,
@@ -34,7 +34,7 @@
     "Thailand, Israel warn tourists to respect laws after foreign violations",
     "US Navy Pattaya visit boosts shopping and dining spending",
     "Thousands of war-weary sailors FLOOD sin city",
-    "US sailors leave Pattaya after splashing millions during five-day shore break"
+    "Thai Navy denies helicopter crossed into Cambodia during border mission"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2645245,
       2599011,
       2582599,
-      2593192
+      2597984
     ]
   },
-  "last_update": "2026-09-09 01:14:51"
+  "last_update": "2026-09-09 06:02:43"
 }
