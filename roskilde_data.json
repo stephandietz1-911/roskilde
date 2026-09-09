@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,597,984",
+    "BTC": "2,594,358",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "31",
-    "feels_like": "37",
-    "wind_speed": "16",
-    "wind_dir": "WSW",
-    "aqi_value": "22",
+    "temp": "29",
+    "feels_like": "33",
+    "wind_speed": "14",
+    "wind_dir": "S",
+    "aqi_value": "30",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "8.8"
+    "uv_index": "0.2"
   },
   "alert": {
     "active": false,
@@ -34,7 +34,7 @@
     "Thailand, Israel warn tourists to respect laws after foreign violations",
     "US Navy Pattaya visit boosts shopping and dining spending",
     "Thousands of war-weary sailors FLOOD sin city",
-    "Thai Navy denies helicopter crossed into Cambodia during border mission"
+    "Pattaya Soi Buakhao waits for high season as spending remains weak"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2645245,
       2599011,
       2582599,
-      2597984
+      2594358
     ]
   },
-  "last_update": "2026-09-09 06:02:43"
+  "last_update": "2026-09-09 11:22:29"
 }
