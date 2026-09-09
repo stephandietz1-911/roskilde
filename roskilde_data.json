@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,576,028",
+    "BTC": "2,572,248",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "33",
-    "wind_speed": "10",
-    "wind_dir": "W",
-    "aqi_value": "18",
+    "temp": "27",
+    "feels_like": "32",
+    "wind_speed": "9",
+    "wind_dir": "WNW",
+    "aqi_value": "20",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -31,10 +31,10 @@
   },
   "news": [
     "Thailand: After 286 days at sea, US sailors hit Pattaya",
-    "Thailand, Israel warn tourists to respect laws after foreign violations",
+    "Chachoengsao orders unauthorized Jewish cemetery demolished, bodies exhumed",
     "US Navy Pattaya visit boosts shopping and dining spending",
-    "Pattaya Soi Buakhao waits for high season as spending remains weak",
-    "Japanese F-2 fighters make history with first Thailand landing at U-Tapao"
+    "Thailand, Israel warn tourists to respect laws after foreign violations",
+    "‘Thai Travel Thai Plus’ offers 1 million benefits worth 3.5 billion baht"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2645245,
       2599011,
       2582599,
-      2576028
+      2572248
     ]
   },
-  "last_update": "2026-09-09 21:12:24"
+  "last_update": "2026-09-09 23:16:54"
 }
