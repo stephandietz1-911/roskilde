@@ -1,29 +1,29 @@
 {
   "currencies": {
-    "EUR": "38.22",
-    "EUR_trend": "→",
+    "EUR": "38.24",
+    "EUR_trend": "↑",
     "DKK": "5.11",
     "DKK_trend": "→",
-    "NOK": "3.54",
-    "NOK_trend": "→",
-    "USD": "32.88",
-    "USD_trend": "→",
-    "AUD": "23.73",
-    "AUD_trend": "→",
+    "NOK": "3.56",
+    "NOK_trend": "↑",
+    "USD": "32.90",
+    "USD_trend": "↑",
+    "AUD": "23.75",
+    "AUD_trend": "↑",
     "RUB": "0.38",
     "RUB_trend": "→",
-    "BTC": "2,579,720",
-    "BTC_trend": "↓"
+    "BTC": "2,593,192",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "32",
-    "wind_speed": "14",
+    "temp": "29",
+    "feels_like": "33",
+    "wind_speed": "16",
     "wind_dir": "WSW",
-    "aqi_value": "17",
+    "aqi_value": "18",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "2.4"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "Thailand: After 286 days at sea, US sailors hit Pattaya",
-    "USS Lincoln sailors delight in the ‘simple stuff’ as they get their first break in months in Thailand",
     "Thailand, Israel warn tourists to respect laws after foreign violations",
+    "US Navy Pattaya visit boosts shopping and dining spending",
     "Thousands of war-weary sailors FLOOD sin city",
-    "US Navy Pattaya visit boosts shopping and dining spending"
+    "US sailors leave Pattaya after splashing millions during five-day shore break"
   ],
   "flights": [
     {
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      38.027,
       38.014,
       37.876,
       37.781,
@@ -156,7 +155,6 @@
       38.227
     ],
     "USD": [
-      32.9552,
       32.9496,
       32.7449,
       32.5502,
@@ -223,7 +221,6 @@
       32.9146
     ],
     "DKK": [
-      5.0876,
       5.086,
       5.0674,
       5.055,
@@ -290,7 +287,6 @@
       5.1141
     ],
     "NOK": [
-      3.4722,
       3.4591,
       3.4353,
       3.4174,
@@ -357,7 +353,6 @@
       3.5577
     ],
     "AUD": [
-      23.0816,
       23.057,
       23.0361,
       23.0035,
@@ -425,7 +420,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2139603,
       2108579,
       2105461,
       2098191,
@@ -455,8 +449,9 @@
       2626289,
       2645245,
       2599011,
-      2579720
+      2582599,
+      2593192
     ]
   },
-  "last_update": "2026-09-08 23:11:23"
+  "last_update": "2026-09-09 01:14:51"
 }
