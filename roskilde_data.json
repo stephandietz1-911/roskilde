@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,539,214",
+    "BTC": "2,543,633",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "25",
+    "temp": "26",
     "feels_like": "31",
-    "wind_speed": "3",
+    "wind_speed": "9",
     "wind_dir": "NW",
-    "aqi_value": "34",
+    "aqi_value": "35",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -34,7 +34,7 @@
     "Pattaya nightlife under pressure as Gen Z stays home and Gen Y tightens its belt",
     "US Sailors Lose It in Pattaya! Drunken Brawl Erupts, Thai Police Intervene | Firstpost America",
     "Chachoengsao orders unauthorized Jewish cemetery demolished, bodies exhumed",
-    "Thailand, Israel warn tourists to respect laws after foreign violations"
+    "‘Thai Travel Thai Plus’ offers 1 million benefits worth 3.5 billion baht"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2599011,
       2582599,
       2578644,
-      2539214
+      2543633
     ]
   },
-  "last_update": "2026-09-10 18:27:51"
+  "last_update": "2026-09-10 21:06:35"
 }
