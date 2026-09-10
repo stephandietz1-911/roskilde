@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,543,633",
+    "BTC": "2,526,610",
     "BTC_trend": "↓"
   },
   "weather": {
     "temp": "26",
-    "feels_like": "31",
-    "wind_speed": "9",
-    "wind_dir": "NW",
-    "aqi_value": "35",
+    "feels_like": "30",
+    "wind_speed": "12",
+    "wind_dir": "NNW",
+    "aqi_value": "50",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -33,7 +33,7 @@
     "Thailand: After 286 days at sea, US sailors hit Pattaya",
     "Pattaya nightlife under pressure as Gen Z stays home and Gen Y tightens its belt",
     "US Sailors Lose It in Pattaya! Drunken Brawl Erupts, Thai Police Intervene | Firstpost America",
-    "Chachoengsao orders unauthorized Jewish cemetery demolished, bodies exhumed",
+    "Thailand, Israel warn tourists to respect laws after foreign violations",
     "‘Thai Travel Thai Plus’ offers 1 million benefits worth 3.5 billion baht"
   ],
   "flights": [
@@ -455,8 +455,8 @@
       2599011,
       2582599,
       2578644,
-      2543633
+      2526610
     ]
   },
-  "last_update": "2026-09-10 21:06:35"
+  "last_update": "2026-09-10 23:10:17"
 }
