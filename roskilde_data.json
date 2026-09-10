@@ -1,29 +1,29 @@
 {
   "currencies": {
     "EUR": "38.28",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.11",
     "DKK_trend": "→",
     "NOK": "3.58",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "32.89",
-    "USD_trend": "↓",
+    "USD_trend": "→",
     "AUD": "23.75",
     "AUD_trend": "→",
     "RUB": "0.39",
-    "RUB_trend": "↑",
-    "BTC": "2,579,417",
-    "BTC_trend": "↑"
+    "RUB_trend": "→",
+    "BTC": "2,576,111",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "34",
-    "wind_speed": "4",
+    "temp": "31",
+    "feels_like": "36",
+    "wind_speed": "12",
     "wind_dir": "WNW",
-    "aqi_value": "20",
+    "aqi_value": "26",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "2.6"
+    "uv_index": "8.6"
   },
   "alert": {
     "active": false,
@@ -32,7 +32,7 @@
   "news": [
     "Thailand: After 286 days at sea, US sailors hit Pattaya",
     "Chachoengsao orders unauthorized Jewish cemetery demolished, bodies exhumed",
-    "US Navy Pattaya visit boosts shopping and dining spending",
+    "A trip to Khao Chi Chan near Pattaya is one that you should not skip",
     "Thailand, Israel warn tourists to respect laws after foreign violations",
     "‘Thai Travel Thai Plus’ offers 1 million benefits worth 3.5 billion baht"
   ],
@@ -450,8 +450,8 @@
       2599011,
       2582599,
       2578644,
-      2579417
+      2576111
     ]
   },
-  "last_update": "2026-09-10 01:18:06"
+  "last_update": "2026-09-10 06:21:12"
 }
