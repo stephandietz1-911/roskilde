@@ -12,17 +12,17 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,612,040",
+    "BTC": "2,558,682",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "32",
-    "wind_speed": "6",
-    "wind_dir": "E",
-    "aqi_value": "67",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
+    "temp": "24",
+    "feels_like": "29",
+    "wind_speed": "10",
+    "wind_dir": "NNE",
+    "aqi_value": "47",
+    "aqi_status": "Good",
+    "aqi_color": "#10b981",
     "uv_index": "0.0"
   },
   "alert": {
@@ -30,8 +30,8 @@
     "message": ""
   },
   "news": [
-    "Thailand and India advance strategic economic partnership through new cooperation",
     "Concerns raised over foreign nominee-linked investment in Pattaya",
+    "Thailand and India advance strategic economic partnership through new cooperation",
     "Israeli businessman, Thai nominees face summons",
     "Pattaya tourists feel the heat by day before evening rain soaks the city",
     "Saudi tourist and Pattaya hotel settle late check-in fee dispute"
@@ -460,8 +460,8 @@
       2582599,
       2578644,
       2538007,
-      2612040
+      2558682
     ]
   },
-  "last_update": "2026-09-11 15:00:59"
+  "last_update": "2026-09-11 18:32:15"
 }
