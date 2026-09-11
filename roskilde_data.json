@@ -12,26 +12,26 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,559,075",
+    "BTC": "2,548,587",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "33",
-    "wind_speed": "15",
-    "wind_dir": "WNW",
-    "aqi_value": "52",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
-    "uv_index": "5.5"
+    "temp": "26",
+    "feels_like": "32",
+    "wind_speed": "5",
+    "wind_dir": "NE",
+    "aqi_value": "103",
+    "aqi_status": "Unhealthy",
+    "aqi_color": "#ef4444",
+    "uv_index": "0.1"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "US Sailors Lose It in Pattaya! Drunken Brawl Erupts, Thai Police Intervene | Firstpost America",
     "Man held with drugs and knife after disturbing tourists on Pattaya beach",
+    "Israeli businessman, Thai nominees face summons",
     "Pattaya nightlife under pressure as Gen Z stays home and Gen Y tightens its belt",
     "‘Thai Travel Thai Plus’ offers 1 million benefits worth 3.5 billion baht",
     "Thailand, Israel warn tourists to respect laws after foreign violations"
@@ -455,8 +455,8 @@
       2582599,
       2578644,
       2538007,
-      2559075
+      2548587
     ]
   },
-  "last_update": "2026-09-11 05:59:02"
+  "last_update": "2026-09-11 11:06:15"
 }
