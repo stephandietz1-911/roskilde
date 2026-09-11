@@ -12,29 +12,29 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,548,587",
+    "BTC": "2,612,040",
     "BTC_trend": "↑"
   },
   "weather": {
     "temp": "26",
     "feels_like": "32",
-    "wind_speed": "5",
-    "wind_dir": "NE",
-    "aqi_value": "103",
-    "aqi_status": "Unhealthy",
-    "aqi_color": "#ef4444",
-    "uv_index": "0.1"
+    "wind_speed": "6",
+    "wind_dir": "E",
+    "aqi_value": "67",
+    "aqi_status": "Moderate",
+    "aqi_color": "#f59e0b",
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Man held with drugs and knife after disturbing tourists on Pattaya beach",
+    "Thailand and India advance strategic economic partnership through new cooperation",
+    "Concerns raised over foreign nominee-linked investment in Pattaya",
     "Israeli businessman, Thai nominees face summons",
-    "Pattaya nightlife under pressure as Gen Z stays home and Gen Y tightens its belt",
-    "‘Thai Travel Thai Plus’ offers 1 million benefits worth 3.5 billion baht",
-    "Thailand, Israel warn tourists to respect laws after foreign violations"
+    "Pattaya tourists feel the heat by day before evening rain soaks the city",
+    "Saudi tourist and Pattaya hotel settle late check-in fee dispute"
   ],
   "flights": [
     {
@@ -153,7 +153,8 @@
       38.231,
       38.227,
       38.306,
-      38.327
+      38.327,
+      38.329
     ],
     "USD": [
       32.7449,
@@ -220,7 +221,8 @@
       32.8954,
       32.9146,
       32.875,
-      32.995
+      32.995,
+      33.065
     ],
     "DKK": [
       5.0674,
@@ -287,7 +289,8 @@
       5.1148,
       5.1141,
       5.1247,
-      5.1273
+      5.1273,
+      5.1278
     ],
     "NOK": [
       3.4353,
@@ -354,7 +357,8 @@
       3.5484,
       3.5577,
       3.5808,
-      3.5608
+      3.5608,
+      3.5554
     ],
     "AUD": [
       23.0361,
@@ -421,7 +425,8 @@
       23.7327,
       23.7464,
       23.7512,
-      23.7069
+      23.7069,
+      23.717
     ],
     "RUB": [],
     "BTC": [
@@ -455,8 +460,8 @@
       2582599,
       2578644,
       2538007,
-      2548587
+      2612040
     ]
   },
-  "last_update": "2026-09-11 11:06:15"
+  "last_update": "2026-09-11 15:00:59"
 }
