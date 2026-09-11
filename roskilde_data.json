@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,564,543",
+    "BTC": "2,557,476",
     "BTC_trend": "↑"
   },
   "weather": {
     "temp": "24",
-    "feels_like": "28",
-    "wind_speed": "9",
-    "wind_dir": "N",
-    "aqi_value": "44",
+    "feels_like": "29",
+    "wind_speed": "11",
+    "wind_dir": "NNE",
+    "aqi_value": "39",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -33,7 +33,7 @@
     "Concerns raised over foreign nominee-linked investment in Pattaya",
     "Thailand and India advance strategic economic partnership through new cooperation",
     "Israeli businessman, Thai nominees face summons",
-    "Pattaya tourists feel the heat by day before evening rain soaks the city",
+    "Man held with drugs and knife after disturbing tourists on Pattaya beach",
     "Saudi tourist and Pattaya hotel settle late check-in fee dispute"
   ],
   "flights": [
@@ -460,8 +460,8 @@
       2582599,
       2578644,
       2538007,
-      2564543
+      2557476
     ]
   },
-  "last_update": "2026-09-11 21:18:38"
+  "last_update": "2026-09-11 23:27:27"
 }
