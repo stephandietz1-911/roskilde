@@ -12,17 +12,17 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,554,475",
+    "BTC": "2,556,708",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "33",
-    "wind_speed": "7",
+    "temp": "26",
+    "feels_like": "31",
+    "wind_speed": "10",
     "wind_dir": "NE",
-    "aqi_value": "62",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
+    "aqi_value": "47",
+    "aqi_status": "Good",
+    "aqi_color": "#10b981",
     "uv_index": "0.0"
   },
   "alert": {
@@ -30,7 +30,11 @@
     "message": ""
   },
   "news": [
-    "ROS KILDE: Welcome to our Infotainment Portal."
+    "Thai man takes 400 baht to open mule account, faces four warrants",
+    "Concerns raised over foreign nominee-linked investment in Pattaya",
+    "Pattaya’s Big Buddha Hill road faces urgent repairs after landslide damage",
+    "UOB Wonder Lab puts young innovators to work on real business challenges",
+    "Man held with drugs and knife after disturbing tourists on Pattaya beach"
   ],
   "flights": [
     {
@@ -456,8 +460,8 @@
       2578644,
       2538007,
       2551970,
-      2554475
+      2556708
     ]
   },
-  "last_update": "2026-09-12 13:53:03"
+  "last_update": "2026-09-12 16:45:35"
 }
