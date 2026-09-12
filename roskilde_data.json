@@ -1,40 +1,40 @@
 {
   "currencies": {
     "EUR": "38.31",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.13",
     "DKK_trend": "→",
     "NOK": "3.55",
-    "NOK_trend": "↓",
+    "NOK_trend": "→",
     "USD": "33.03",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.69",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,555,976",
-    "BTC_trend": "↑"
+    "BTC": "2,551,652",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "25",
-    "feels_like": "29",
-    "wind_speed": "16",
-    "wind_dir": "NE",
-    "aqi_value": "37",
+    "temp": "30",
+    "feels_like": "34",
+    "wind_speed": "18",
+    "wind_dir": "ENE",
+    "aqi_value": "41",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "2.6"
+    "uv_index": "8.5"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Heavy rain floods Pattaya streets, causing traffic chaos",
     "Concerns raised over foreign nominee-linked investment in Pattaya",
-    "Thailand and India advance strategic economic partnership through new cooperation",
-    "Chon Buri kindergarten gunman surrenders after overnight standoff",
-    "Sondhi leads ‘Reclaim Our Thailand’ protest outside Israeli Embassy",
-    "Man held with drugs and knife after disturbing tourists on Pattaya beach"
+    "Thailand serves up culinary tourism opportunities for Indonesian travellers",
+    "House committee presses crackdown on foreign nominee property in Pattaya",
+    "Thailand expects 250,000 Chinese tourists during extended Golden Week"
   ],
   "flights": [
     {
@@ -460,8 +460,8 @@
       2578644,
       2538007,
       2551970,
-      2555976
+      2551652
     ]
   },
-  "last_update": "2026-09-12 01:24:54"
+  "last_update": "2026-09-12 06:10:39"
 }
