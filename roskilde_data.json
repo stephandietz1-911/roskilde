@@ -12,29 +12,25 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,556,943",
+    "BTC": "2,554,475",
     "BTC_trend": "↑"
   },
   "weather": {
     "temp": "27",
     "feels_like": "33",
-    "wind_speed": "8",
-    "wind_dir": "ESE",
-    "aqi_value": "65",
+    "wind_speed": "7",
+    "wind_dir": "NE",
+    "aqi_value": "62",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "0.1"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Concerns raised over foreign nominee-linked investment in Pattaya",
-    "Thailand serves up culinary tourism opportunities for Indonesian travellers",
-    "House committee presses crackdown on foreign nominee property in Pattaya",
-    "Thai man takes 400 baht to open mule account, faces four warrants",
-    "Thailand expects 250,000 Chinese tourists during extended Golden Week"
+    "ROS KILDE: Welcome to our Infotainment Portal."
   ],
   "flights": [
     {
@@ -460,8 +456,8 @@
       2578644,
       2538007,
       2551970,
-      2556943
+      2554475
     ]
   },
-  "last_update": "2026-09-12 10:46:30"
+  "last_update": "2026-09-12 13:53:03"
 }
