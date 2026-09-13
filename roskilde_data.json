@@ -12,29 +12,29 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,555,230",
-    "BTC_trend": "↑"
+    "BTC": "2,530,697",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "32",
-    "feels_like": "37",
-    "wind_speed": "13",
+    "temp": "27",
+    "feels_like": "33",
+    "wind_speed": "4",
     "wind_dir": "NNE",
-    "aqi_value": "52",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
-    "uv_index": "7.1"
+    "aqi_value": "144",
+    "aqi_status": "Unhealthy",
+    "aqi_color": "#ef4444",
+    "uv_index": "0.1"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Pattaya’s Big Buddha Hill road faces urgent repairs after landslide damage",
     "Concerns raised over foreign nominee-linked investment in Pattaya",
-    "Bank robber arrested at Bangkok resort after burning getaway car",
-    "UOB Wonder Lab puts young innovators to work on real business challenges",
-    "Man held with drugs and knife after disturbing tourists on Pattaya beach"
+    "Heavy rain warning covers Pattaya and Eastern Thailand through Sept 13",
+    "Thailand freezes fuel prices despite sharp rise in global oil costs",
+    "Early morning fire hits power lines near Sukhumvit 85 in Pattaya",
+    "Thailand and Laos team up to tackle new crime threats"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2538007,
       2551970,
       2553890,
-      2555230
+      2530697
     ]
   },
-  "last_update": "2026-09-13 05:57:04"
+  "last_update": "2026-09-13 11:21:08"
 }
