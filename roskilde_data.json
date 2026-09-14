@@ -1,40 +1,40 @@
 {
   "currencies": {
     "EUR": "38.33",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.13",
     "DKK_trend": "→",
     "NOK": "3.56",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.08",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.70",
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,540,856",
-    "BTC_trend": "↓"
+    "BTC": "2,565,368",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "30",
-    "wind_speed": "8",
-    "wind_dir": "NE",
-    "aqi_value": "42",
+    "temp": "30",
+    "feels_like": "35",
+    "wind_speed": "13",
+    "wind_dir": "WNW",
+    "aqi_value": "43",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "1.4"
+    "uv_index": "4.7"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Concerns raised over foreign nominee-linked investment in Pattaya",
-    "Interpol fugitive arrested in Pattaya after allegedly obtaining Thai identity",
-    "Anutin marks 60th birthday with pledge to serve Thailand",
-    "Nan mountain collapse expands beyond 100 metres, threatens school buildings",
-    "Bank robber arrested at Bangkok resort after burning getaway car"
+    "Chinese murder suspect held in Pattaya over alleged Thai ID fraud",
+    "Thailand moves from buying medicines to building them",
+    "Pattaya orders urgent repairs on Big Buddha Hill road",
+    "Thailand’s 100% foreign ownership dilemma",
+    "Anutin marks 60th birthday with pledge to serve Thailand"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2551970,
       2553890,
       2542710,
-      2540856
+      2565368
     ]
   },
-  "last_update": "2026-09-14 00:43:53"
+  "last_update": "2026-09-14 05:29:25"
 }
