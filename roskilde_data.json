@@ -1,36 +1,40 @@
 {
   "currencies": {
     "EUR": "38.37",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.13",
     "DKK_trend": "→",
     "NOK": "3.56",
     "NOK_trend": "→",
     "USD": "33.23",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.70",
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,591,387",
+    "BTC": "2,566,379",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "31",
-    "wind_speed": "13",
+    "temp": "31",
+    "feels_like": "36",
+    "wind_speed": "17",
     "wind_dir": "SSW",
-    "aqi_value": "56",
+    "aqi_value": "54",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "0.7"
+    "uv_index": "1.9"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "ROS KILDE: Welcome to our Infotainment Portal."
+    "Chinese murder suspect held in Pattaya over alleged Thai ID fraud",
+    "Chinese millionaire fugitive arrested in Pattaya, has fake Thai ID",
+    "A trip to Khao Chi Chan near Pattaya is one that you should not skip",
+    "Thailand investigates wastewater discharge at Cha-am Beach",
+    "Thailand builds a path for local stories to reach the world"
   ],
   "flights": [
     {
@@ -446,8 +450,8 @@
       2553890,
       2542710,
       2597700,
-      2591387
+      2566379
     ]
   },
-  "last_update": "2026-09-15 01:54:35"
+  "last_update": "2026-09-15 07:12:19"
 }
