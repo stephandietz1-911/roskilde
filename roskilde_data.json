@@ -1,40 +1,36 @@
 {
   "currencies": {
-    "EUR": "38.33",
-    "EUR_trend": "→",
+    "EUR": "38.37",
+    "EUR_trend": "↑",
     "DKK": "5.13",
     "DKK_trend": "→",
     "NOK": "3.56",
     "NOK_trend": "→",
-    "USD": "33.08",
-    "USD_trend": "→",
+    "USD": "33.23",
+    "USD_trend": "↑",
     "AUD": "23.70",
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,595,564",
-    "BTC_trend": "↑"
+    "BTC": "2,591,387",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "25",
+    "temp": "26",
     "feels_like": "31",
-    "wind_speed": "8",
-    "wind_dir": "SSE",
+    "wind_speed": "13",
+    "wind_dir": "SSW",
     "aqi_value": "56",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "0.1"
+    "uv_index": "0.7"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Chinese murder suspect held in Pattaya over alleged Thai ID fraud",
-    "Chinese millionaire fugitive arrested in Pattaya, has fake Thai ID",
-    "Bangkok and Eastern Thailand face a serious rain threat",
-    "Thailand video news | Russian men turn to Pattaya nightlife as war and draft fears drive them abroad, American fugitive arrested during meditation retreat in Chiang Mai",
-    "Thailand’s 100% foreign ownership dilemma"
+    "ROS KILDE: Welcome to our Infotainment Portal."
   ],
   "flights": [
     {
@@ -89,7 +85,6 @@
   ],
   "history": {
     "EUR": [
-      37.698,
       37.804,
       37.581,
       37.681,
@@ -156,7 +151,6 @@
       38.407
     ],
     "USD": [
-      32.5151,
       32.615,
       32.7903,
       32.8604,
@@ -223,7 +217,6 @@
       33.2499
     ],
     "DKK": [
-      5.0434,
       5.0575,
       5.0278,
       5.0412,
@@ -290,7 +283,6 @@
       5.1379
     ],
     "NOK": [
-      3.4127,
       3.4342,
       3.3842,
       3.3933,
@@ -357,7 +349,6 @@
       3.5671
     ],
     "AUD": [
-      22.9712,
       23.0259,
       22.9685,
       23.0493,
@@ -425,7 +416,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2089038,
       2082640,
       2130310,
       2142538,
@@ -455,8 +445,9 @@
       2551970,
       2553890,
       2542710,
-      2595564
+      2597700,
+      2591387
     ]
   },
-  "last_update": "2026-09-14 23:31:42"
+  "last_update": "2026-09-15 01:54:35"
 }
