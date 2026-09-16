@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,538,261",
+    "BTC": "2,519,470",
     "BTC_trend": "↑"
   },
   "weather": {
     "temp": "27",
     "feels_like": "32",
-    "wind_speed": "14",
+    "wind_speed": "12",
     "wind_dir": "SW",
-    "aqi_value": "44",
+    "aqi_value": "30",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -34,7 +34,7 @@
     "Thailand and Sweden look to unlock new trade and investment opportunities",
     "Pattaya teenager says foreigner punches him after he offers help",
     "Thailand reviews citizenship system after nominee cases come to light",
-    "Thailand unifies water data to deliver faster, clearer flood warnings"
+    "Thailand joins Asia-Pacific push for safer roads through better data"
   ],
   "flights": [
     {
@@ -152,7 +152,8 @@
       38.327,
       38.329,
       38.407,
-      38.419
+      38.419,
+      38.361
     ],
     "USD": [
       32.7903,
@@ -218,7 +219,8 @@
       32.995,
       33.065,
       33.2499,
-      33.2949
+      33.2949,
+      33.2504
     ],
     "DKK": [
       5.0278,
@@ -284,7 +286,8 @@
       5.1273,
       5.1278,
       5.1379,
-      5.1395
+      5.1395,
+      5.1316
     ],
     "NOK": [
       3.3842,
@@ -350,7 +353,8 @@
       3.5608,
       3.5554,
       3.5671,
-      3.5623
+      3.5623,
+      3.5557
     ],
     "AUD": [
       22.9685,
@@ -416,7 +420,8 @@
       23.7069,
       23.717,
       23.7051,
-      23.7242
+      23.7242,
+      23.7148
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +455,8 @@
       2542710,
       2597700,
       2517698,
-      2538261
+      2519470
     ]
   },
-  "last_update": "2026-09-16 11:55:33"
+  "last_update": "2026-09-16 16:11:19"
 }
