@@ -1,29 +1,29 @@
 {
   "currencies": {
-    "EUR": "38.37",
-    "EUR_trend": "→",
-    "DKK": "5.13",
-    "DKK_trend": "→",
+    "EUR": "38.42",
+    "EUR_trend": "↑",
+    "DKK": "5.14",
+    "DKK_trend": "↑",
     "NOK": "3.56",
     "NOK_trend": "→",
-    "USD": "33.23",
-    "USD_trend": "→",
-    "AUD": "23.70",
-    "AUD_trend": "→",
-    "RUB": "0.39",
-    "RUB_trend": "→",
-    "BTC": "2,513,180",
-    "BTC_trend": "↓"
+    "USD": "33.29",
+    "USD_trend": "↑",
+    "AUD": "23.73",
+    "AUD_trend": "↑",
+    "RUB": "0.40",
+    "RUB_trend": "↑",
+    "BTC": "2,525,440",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "32",
-    "wind_speed": "12",
-    "wind_dir": "SSW",
-    "aqi_value": "55",
+    "temp": "30",
+    "feels_like": "33",
+    "wind_speed": "15",
+    "wind_dir": "SW",
+    "aqi_value": "54",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "0.0"
+    "uv_index": "2.6"
   },
   "alert": {
     "active": false,
@@ -32,7 +32,7 @@
   "news": [
     "Chinese murder suspect held in Pattaya over alleged Thai ID fraud",
     "Thailand reviews citizenship system after nominee cases come to light",
-    "A trip to Khao Chi Chan near Pattaya is one that you should not skip",
+    "British man injured fighting off phone robbers in Pattaya",
     "Thailand joins Asia-Pacific push for safer roads through better data",
     "Thailand and Sweden look to unlock new trade and investment opportunities"
   ],
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      37.804,
       37.581,
       37.681,
       37.702,
@@ -156,7 +155,6 @@
       38.419
     ],
     "USD": [
-      32.615,
       32.7903,
       32.8604,
       32.9103,
@@ -223,7 +221,6 @@
       33.2949
     ],
     "DKK": [
-      5.0575,
       5.0278,
       5.0412,
       5.0439,
@@ -290,7 +287,6 @@
       5.1395
     ],
     "NOK": [
-      3.4342,
       3.3842,
       3.3933,
       3.4046,
@@ -357,7 +353,6 @@
       3.5623
     ],
     "AUD": [
-      23.0259,
       22.9685,
       23.0493,
       23.065,
@@ -425,7 +420,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2082640,
       2130310,
       2142538,
       2277272,
@@ -455,8 +449,9 @@
       2553890,
       2542710,
       2597700,
-      2513180
+      2517698,
+      2525440
     ]
   },
-  "last_update": "2026-09-15 23:02:14"
+  "last_update": "2026-09-16 01:24:51"
 }
