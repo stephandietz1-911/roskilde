@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,549,304",
+    "BTC": "2,548,326",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "34",
-    "wind_speed": "13",
-    "wind_dir": "WSW",
-    "aqi_value": "21",
+    "temp": "29",
+    "feels_like": "33",
+    "wind_speed": "16",
+    "wind_dir": "SW",
+    "aqi_value": "26",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "6.6"
+    "uv_index": "0.8"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "Chinese murder suspect held in Pattaya over alleged Thai ID fraud",
-    "Sihasak reaffirms maritime boundary focus in Thailand-Cambodia UNCLOS talks",
+    "Pattaya and Bangkok brace for heavy rain and traffic chaos",
     "Pattaya teenager says foreigner punches him after he offers help",
-    "Princess Sirindhorn marks 46th anniversary of Sirindhorn Camp in Pattani",
-    "Thailand reviews citizenship system after nominee cases come to light"
+    "Thailand and Germany link education with the jobs of tomorrow",
+    "Thailand plans four systems to trace suspicious money flows faster"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2597700,
       2517698,
       2544181,
-      2549304
+      2548326
     ]
   },
-  "last_update": "2026-09-17 05:45:00"
+  "last_update": "2026-09-17 10:27:48"
 }
