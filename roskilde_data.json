@@ -12,13 +12,13 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,557,029",
+    "BTC": "2,550,295",
     "BTC_trend": "↑"
   },
   "weather": {
     "temp": "26",
     "feels_like": "32",
-    "wind_speed": "7",
+    "wind_speed": "3",
     "wind_dir": "SW",
     "aqi_value": "18",
     "aqi_status": "Good",
@@ -34,7 +34,7 @@
     "Pattaya and Bangkok brace for heavy rain and traffic chaos",
     "Pattaya teenager says foreigner punches him after he offers help",
     "Why Thailand wants golfers to stay longer and explore more",
-    "Thailand puts AI to work helping farmers choose what to grow"
+    "One Flag Thailand sets sights on world record over Pattaya beach"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2597700,
       2517698,
       2544181,
-      2557029
+      2550295
     ]
   },
-  "last_update": "2026-09-17 19:04:27"
+  "last_update": "2026-09-17 22:10:29"
 }
