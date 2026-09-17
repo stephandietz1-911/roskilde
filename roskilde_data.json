@@ -1,29 +1,29 @@
 {
   "currencies": {
-    "EUR": "38.42",
-    "EUR_trend": "→",
-    "DKK": "5.14",
-    "DKK_trend": "→",
-    "NOK": "3.56",
-    "NOK_trend": "→",
-    "USD": "33.29",
-    "USD_trend": "→",
-    "AUD": "23.73",
-    "AUD_trend": "→",
+    "EUR": "38.34",
+    "EUR_trend": "↓",
+    "DKK": "5.13",
+    "DKK_trend": "↓",
+    "NOK": "3.55",
+    "NOK_trend": "↓",
+    "USD": "33.30",
+    "USD_trend": "↑",
+    "AUD": "23.71",
+    "AUD_trend": "↓",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,524,959",
+    "BTC": "2,552,619",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "31",
-    "wind_speed": "14",
-    "wind_dir": "WSW",
-    "aqi_value": "20",
+    "temp": "28",
+    "feels_like": "32",
+    "wind_speed": "13",
+    "wind_dir": "SW",
+    "aqi_value": "21",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "0.5"
   },
   "alert": {
     "active": false,
@@ -31,9 +31,9 @@
   },
   "news": [
     "Chinese murder suspect held in Pattaya over alleged Thai ID fraud",
-    "Thailand and Sweden look to unlock new trade and investment opportunities",
-    "Pattaya teenager says foreigner punches him after he offers help",
     "Thailand reviews citizenship system after nominee cases come to light",
+    "Pattaya teenager says foreigner punches him after he offers help",
+    "Thailand and Sweden look to unlock new trade and investment opportunities",
     "Thailand joins Asia-Pacific push for safer roads through better data"
   ],
   "flights": [
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      37.581,
       37.681,
       37.702,
       37.821,
@@ -156,7 +155,6 @@
       38.361
     ],
     "USD": [
-      32.7903,
       32.8604,
       32.9103,
       33.1996,
@@ -223,7 +221,6 @@
       33.2504
     ],
     "DKK": [
-      5.0278,
       5.0412,
       5.0439,
       5.0597,
@@ -290,7 +287,6 @@
       5.1316
     ],
     "NOK": [
-      3.3842,
       3.3933,
       3.4046,
       3.3941,
@@ -357,7 +353,6 @@
       3.5557
     ],
     "AUD": [
-      22.9685,
       23.0493,
       23.065,
       23.0293,
@@ -425,7 +420,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2130310,
       2142538,
       2277272,
       2397387,
@@ -455,8 +449,9 @@
       2542710,
       2597700,
       2517698,
-      2524959
+      2544181,
+      2552619
     ]
   },
-  "last_update": "2026-09-16 22:20:20"
+  "last_update": "2026-09-17 00:46:04"
 }
