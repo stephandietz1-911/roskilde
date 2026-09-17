@@ -1,29 +1,29 @@
 {
   "currencies": {
     "EUR": "38.34",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.13",
-    "DKK_trend": "↓",
+    "DKK_trend": "→",
     "NOK": "3.55",
-    "NOK_trend": "↓",
+    "NOK_trend": "→",
     "USD": "33.30",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.71",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,552,619",
+    "BTC": "2,549,304",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "32",
+    "temp": "30",
+    "feels_like": "34",
     "wind_speed": "13",
-    "wind_dir": "SW",
+    "wind_dir": "WSW",
     "aqi_value": "21",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.5"
+    "uv_index": "6.6"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "Chinese murder suspect held in Pattaya over alleged Thai ID fraud",
-    "Thailand reviews citizenship system after nominee cases come to light",
+    "Sihasak reaffirms maritime boundary focus in Thailand-Cambodia UNCLOS talks",
     "Pattaya teenager says foreigner punches him after he offers help",
-    "Thailand and Sweden look to unlock new trade and investment opportunities",
-    "Thailand joins Asia-Pacific push for safer roads through better data"
+    "Princess Sirindhorn marks 46th anniversary of Sirindhorn Camp in Pattani",
+    "Thailand reviews citizenship system after nominee cases come to light"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2597700,
       2517698,
       2544181,
-      2552619
+      2549304
     ]
   },
-  "last_update": "2026-09-17 00:46:04"
+  "last_update": "2026-09-17 05:45:00"
 }
