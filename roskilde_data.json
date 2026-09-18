@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,657,226",
+    "BTC": "2,685,793",
     "BTC_trend": "↑"
   },
   "weather": {
     "temp": "27",
     "feels_like": "32",
-    "wind_speed": "10",
+    "wind_speed": "12",
     "wind_dir": "SSE",
-    "aqi_value": "31",
+    "aqi_value": "26",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -31,10 +31,10 @@
   },
   "news": [
     "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty",
+    "The USS Abraham Lincoln Arrived In Pattaya, Thailand, For A Rest Stop Following The Longest Deployment In Modern Naval History",
+    "Flash flood and landslide threat grows with heavy rain across Thailand",
     "Alleged suitcase killer pleads with Thai court",
-    "Australian suspect in Pattaya murder pleads not guilty after indictment",
-    "Australian man charged over death of 17-year-old Thai girl in Pattaya",
-    "Pattaya tunnel filled with smoke before dawn, forcing emergency closure"
+    "Thailand's DSI opens special case in Pattaya nominee crackdown"
   ],
   "flights": [
     {
@@ -153,7 +153,8 @@
       38.407,
       38.419,
       38.361,
-      38.237
+      38.237,
+      38.225
     ],
     "USD": [
       32.8604,
@@ -220,7 +221,8 @@
       33.2499,
       33.2949,
       33.2504,
-      33.3046
+      33.3046,
+      33.3551
     ],
     "DKK": [
       5.0412,
@@ -287,7 +289,8 @@
       5.1379,
       5.1395,
       5.1316,
-      5.1151
+      5.1151,
+      5.1134
     ],
     "NOK": [
       3.3933,
@@ -354,7 +357,8 @@
       3.5671,
       3.5623,
       3.5557,
-      3.5323
+      3.5323,
+      3.5362
     ],
     "AUD": [
       23.0493,
@@ -421,7 +425,8 @@
       23.7051,
       23.7242,
       23.7148,
-      23.6923
+      23.6923,
+      23.7496
     ],
     "RUB": [],
     "BTC": [
@@ -455,8 +460,8 @@
       2517698,
       2544181,
       2540111,
-      2657226
+      2685793
     ]
   },
-  "last_update": "2026-09-18 13:51:56"
+  "last_update": "2026-09-18 17:29:49"
 }
