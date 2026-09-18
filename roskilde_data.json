@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,685,793",
+    "BTC": "2,703,993",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "32",
-    "wind_speed": "12",
+    "temp": "25",
+    "feels_like": "30",
+    "wind_speed": "10",
     "wind_dir": "SSE",
-    "aqi_value": "26",
+    "aqi_value": "22",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -32,9 +32,9 @@
   "news": [
     "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty",
     "The USS Abraham Lincoln Arrived In Pattaya, Thailand, For A Rest Stop Following The Longest Deployment In Modern Naval History",
-    "Flash flood and landslide threat grows with heavy rain across Thailand",
-    "Alleged suitcase killer pleads with Thai court",
-    "Thailand's DSI opens special case in Pattaya nominee crackdown"
+    "Anutin outlines three priorities for closer Thailand-China cooperation",
+    "Thailand's DSI opens special case in Pattaya nominee crackdown",
+    "Alleged suitcase killer pleads with Thai court"
   ],
   "flights": [
     {
@@ -460,8 +460,8 @@
       2517698,
       2544181,
       2540111,
-      2685793
+      2703993
     ]
   },
-  "last_update": "2026-09-18 17:29:49"
+  "last_update": "2026-09-18 19:55:01"
 }
