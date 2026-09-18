@@ -1,40 +1,40 @@
 {
   "currencies": {
-    "EUR": "38.34",
-    "EUR_trend": "→",
-    "DKK": "5.13",
-    "DKK_trend": "→",
-    "NOK": "3.55",
-    "NOK_trend": "→",
-    "USD": "33.30",
-    "USD_trend": "→",
-    "AUD": "23.71",
-    "AUD_trend": "→",
-    "RUB": "0.40",
-    "RUB_trend": "→",
-    "BTC": "2,539,352",
-    "BTC_trend": "↓"
+    "EUR": "38.21",
+    "EUR_trend": "↓",
+    "DKK": "5.11",
+    "DKK_trend": "↓",
+    "NOK": "3.53",
+    "NOK_trend": "↓",
+    "USD": "33.29",
+    "USD_trend": "↓",
+    "AUD": "23.69",
+    "AUD_trend": "↓",
+    "RUB": "0.39",
+    "RUB_trend": "↓",
+    "BTC": "2,575,153",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "31",
-    "wind_speed": "7",
-    "wind_dir": "S",
-    "aqi_value": "17",
+    "temp": "27",
+    "feels_like": "33",
+    "wind_speed": "10",
+    "wind_dir": "SSW",
+    "aqi_value": "19",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.6"
+    "uv_index": "5.5"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Thailand's DSI opens special case in Pattaya nominee crackdown",
-    "Pattaya and Bangkok brace for heavy rain and traffic chaos",
-    "Pattaya teenager says foreigner punches him after he offers help",
-    "Why Thailand wants golfers to stay longer and explore more",
-    "One Flag Thailand sets sights on world record over Pattaya beach"
+    "Pedicures and a pair of socks: sailors from USS Abraham Lincoln go wild in party resort of Pattaya",
+    "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping",
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
+    "Run Pattaya Beach from Sunset to Moonlight: Thailand’s Largest Bikini Beach Race Returns for Its 10th Anniversary"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2517698,
       2544181,
       2540111,
-      2539352
+      2575153
     ]
   },
-  "last_update": "2026-09-18 00:18:45"
+  "last_update": "2026-09-18 04:59:44"
 }
