@@ -12,29 +12,29 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,596,709",
+    "BTC": "2,657,226",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "33",
-    "wind_speed": "15",
-    "wind_dir": "S",
-    "aqi_value": "28",
+    "temp": "27",
+    "feels_like": "32",
+    "wind_speed": "10",
+    "wind_dir": "SSE",
+    "aqi_value": "31",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "2.4"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Australian man accused of teenage girl's murder appears in Thailand court",
-    "One Flag Thailand sets sights on world record over Pattaya beach",
-    "Thailand's DSI opens special case in Pattaya nominee crackdown",
-    "Pattaya teenager says foreigner punches him after he offers help",
-    "Why Thailand wants golfers to stay longer and explore more"
+    "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty",
+    "Alleged suitcase killer pleads with Thai court",
+    "Australian suspect in Pattaya murder pleads not guilty after indictment",
+    "Australian man charged over death of 17-year-old Thai girl in Pattaya",
+    "Pattaya tunnel filled with smoke before dawn, forcing emergency closure"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2517698,
       2544181,
       2540111,
-      2596709
+      2657226
     ]
   },
-  "last_update": "2026-09-18 09:35:43"
+  "last_update": "2026-09-18 13:51:56"
 }
