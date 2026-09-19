@@ -1,29 +1,29 @@
 {
   "currencies": {
-    "EUR": "38.21",
-    "EUR_trend": "→",
-    "DKK": "5.11",
-    "DKK_trend": "→",
-    "NOK": "3.53",
-    "NOK_trend": "→",
-    "USD": "33.29",
-    "USD_trend": "→",
-    "AUD": "23.69",
-    "AUD_trend": "→",
-    "RUB": "0.39",
-    "RUB_trend": "→",
-    "BTC": "2,707,269",
+    "EUR": "38.26",
+    "EUR_trend": "↑",
+    "DKK": "5.12",
+    "DKK_trend": "↑",
+    "NOK": "3.54",
+    "NOK_trend": "↑",
+    "USD": "33.35",
+    "USD_trend": "↑",
+    "AUD": "23.74",
+    "AUD_trend": "↑",
+    "RUB": "0.40",
+    "RUB_trend": "↑",
+    "BTC": "2,704,550",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "31",
-    "wind_speed": "13",
-    "wind_dir": "SE",
-    "aqi_value": "23",
+    "temp": "30",
+    "feels_like": "34",
+    "wind_speed": "17",
+    "wind_dir": "SSE",
+    "aqi_value": "24",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.1"
+    "uv_index": "8.2"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty",
-    "The USS Abraham Lincoln Arrived In Pattaya, Thailand, For A Rest Stop Following The Longest Deployment In Modern Naval History",
-    "Anutin outlines three priorities for closer Thailand-China cooperation",
-    "Alleged suitcase killer pleads with Thai court",
-    "Pattaya teenager says foreigner punches him after he offers help"
+    "Foreign tourist injured after dog runs across Pattaya road",
+    "Australian suspect in Pattaya teen's murder denied bail",
+    "Pattaya man says he was beaten after confronting alleged donation-box thief",
+    "Alleged suitcase killer pleads with Thai court"
   ],
   "flights": [
     {
@@ -460,8 +460,8 @@
       2544181,
       2540111,
       2700925,
-      2707269
+      2704550
     ]
   },
-  "last_update": "2026-09-19 00:29:23"
+  "last_update": "2026-09-19 04:56:42"
 }
