@@ -1,29 +1,29 @@
 {
   "currencies": {
     "EUR": "38.26",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.12",
-    "DKK_trend": "↑",
+    "DKK_trend": "→",
     "NOK": "3.54",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.35",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.74",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.40",
-    "RUB_trend": "↑",
-    "BTC": "2,704,550",
+    "RUB_trend": "→",
+    "BTC": "2,718,096",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "30",
+    "temp": "29",
     "feels_like": "34",
-    "wind_speed": "17",
+    "wind_speed": "9",
     "wind_dir": "SSE",
-    "aqi_value": "24",
+    "aqi_value": "28",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "8.2"
+    "uv_index": "0.6"
   },
   "alert": {
     "active": false,
@@ -31,8 +31,8 @@
   },
   "news": [
     "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty",
-    "Foreign tourist injured after dog runs across Pattaya road",
     "Australian suspect in Pattaya teen's murder denied bail",
+    "Foreign affairs committee examines foreign-linked businesses in Pattaya",
     "Pattaya man says he was beaten after confronting alleged donation-box thief",
     "Alleged suitcase killer pleads with Thai court"
   ],
@@ -460,8 +460,8 @@
       2544181,
       2540111,
       2700925,
-      2704550
+      2718096
     ]
   },
-  "last_update": "2026-09-19 04:56:42"
+  "last_update": "2026-09-19 09:14:29"
 }
