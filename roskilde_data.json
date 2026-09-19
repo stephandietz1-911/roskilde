@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,733,057",
+    "BTC": "2,718,888",
     "BTC_trend": "↑"
   },
   "weather": {
     "temp": "26",
     "feels_like": "31",
-    "wind_speed": "8",
-    "wind_dir": "SSE",
-    "aqi_value": "28",
+    "wind_speed": "10",
+    "wind_dir": "SE",
+    "aqi_value": "25",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -31,7 +31,7 @@
   },
   "news": [
     "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty",
-    "18-wheel truck overturns on Motorway 7 en route to Pattaya",
+    "Foreign affairs committee examines foreign-linked businesses in Pattaya",
     "Pattaya man says he was beaten after confronting alleged donation-box thief",
     "Australian suspect in Pattaya teen's murder denied bail",
     "Alleged suitcase killer pleads with Thai court"
@@ -460,8 +460,8 @@
       2544181,
       2540111,
       2700925,
-      2733057
+      2718888
     ]
   },
-  "last_update": "2026-09-19 16:31:06"
+  "last_update": "2026-09-19 18:56:08"
 }
