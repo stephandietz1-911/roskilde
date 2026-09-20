@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,684,323",
+    "BTC": "2,685,877",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "34",
-    "wind_speed": "12",
+    "temp": "26",
+    "feels_like": "32",
+    "wind_speed": "9",
     "wind_dir": "SSW",
-    "aqi_value": "23",
+    "aqi_value": "37",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "2.2"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty",
-    "18-wheel truck overturns on Motorway 7 en route to Pattaya",
-    "Australian suspect in Pattaya murder pleads not guilty after indictment",
-    "Thailand pitches its industrial strength to US advanced-technology industries",
-    "Fitch gives Thailand’s economy a steadier outlook amid global uncertainty"
+    "Thai-American Lo Colby wins Miss International Queen 2026 crown",
+    "Flash floods trap tourists and residents as Khao Sok rescue teams race to help",
+    "Foreign tourist hurt in Pattaya motorbike crash after dog runs out",
+    "Australian suspect in Pattaya murder pleads not guilty after indictment"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2540111,
       2700925,
       2713042,
-      2684323
+      2685877
     ]
   },
-  "last_update": "2026-09-20 06:40:47"
+  "last_update": "2026-09-20 11:49:56"
 }
