@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,709,642",
-    "BTC_trend": "↓"
+    "BTC": "2,719,196",
+    "BTC_trend": "↑"
   },
   "weather": {
     "temp": "26",
-    "feels_like": "32",
-    "wind_speed": "4",
-    "wind_dir": "NW",
-    "aqi_value": "35",
+    "feels_like": "31",
+    "wind_speed": "10",
+    "wind_dir": "WNW",
+    "aqi_value": "36",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "0.7"
   },
   "alert": {
     "active": false,
@@ -33,8 +33,8 @@
     "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty",
     "Thai-American Lo Colby wins Miss International Queen 2026 crown",
     "Thailand opens new media partnerships with Japan’s NHK and JIJI Press",
-    "Foreign tourist hurt in Pattaya motorbike crash after dog runs out",
-    "Australian suspect in Pattaya murder pleads not guilty after indictment"
+    "Australian suspect in Pattaya murder pleads not guilty after indictment",
+    "Thailand pitches its industrial strength to US advanced-technology industries"
   ],
   "flights": [
     {
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      37.702,
       37.821,
       37.91,
       37.882,
@@ -156,7 +155,6 @@
       38.225
     ],
     "USD": [
-      32.9103,
       33.1996,
       33.4303,
       33.3998,
@@ -223,7 +221,6 @@
       33.3551
     ],
     "DKK": [
-      5.0439,
       5.0597,
       5.0712,
       5.0682,
@@ -290,7 +287,6 @@
       5.1134
     ],
     "NOK": [
-      3.4046,
       3.3941,
       3.3979,
       3.377,
@@ -357,7 +353,6 @@
       3.5362
     ],
     "AUD": [
-      23.065,
       23.0293,
       23.0652,
       23.023,
@@ -425,7 +420,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2555537,
       2515182,
       2537111,
       2581459,
@@ -455,8 +449,9 @@
       2540111,
       2700925,
       2713042,
-      2709642
+      2707799,
+      2719196
     ]
   },
-  "last_update": "2026-09-20 23:08:19"
+  "last_update": "2026-09-21 01:04:42"
 }
