@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,847,936",
+    "BTC": "2,866,860",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "28",
+    "temp": "26",
     "feels_like": "33",
-    "wind_speed": "9",
-    "wind_dir": "NNW",
-    "aqi_value": "46",
+    "wind_speed": "8",
+    "wind_dir": "N",
+    "aqi_value": "44",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -33,8 +33,8 @@
     "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty",
     "Thailand’s largest motorway rest area set to fully open in Sriracha",
     "Chon Buri flags 14,264 firms with foreign shareholders for nominee checks",
-    "Australian suspect in Pattaya murder pleads not guilty after indictment",
-    "Anutin brings Thailand’s trade and investment agenda to global talks"
+    "Anutin brings Thailand’s trade and investment agenda to global talks",
+    "All three major rating agencies now see Thailand’s outlook as stable"
   ],
   "flights": [
     {
@@ -152,7 +152,8 @@
       38.419,
       38.361,
       38.237,
-      38.225
+      38.225,
+      38.187
     ],
     "USD": [
       33.1996,
@@ -218,7 +219,8 @@
       33.2949,
       33.2504,
       33.3046,
-      33.3551
+      33.3551,
+      33.235
     ],
     "DKK": [
       5.0597,
@@ -284,7 +286,8 @@
       5.1395,
       5.1316,
       5.1151,
-      5.1134
+      5.1134,
+      5.1083
     ],
     "NOK": [
       3.3941,
@@ -350,7 +353,8 @@
       3.5623,
       3.5557,
       3.5323,
-      3.5362
+      3.5362,
+      3.5316
     ],
     "AUD": [
       23.0293,
@@ -416,7 +420,8 @@
       23.7242,
       23.7148,
       23.6923,
-      23.7496
+      23.7496,
+      23.7216
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +455,8 @@
       2700925,
       2713042,
       2707799,
-      2847936
+      2866860
     ]
   },
-  "last_update": "2026-09-21 13:08:46"
+  "last_update": "2026-09-21 18:41:59"
 }
