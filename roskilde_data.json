@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,866,860",
+    "BTC": "2,889,540",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "33",
-    "wind_speed": "8",
+    "temp": "25",
+    "feels_like": "31",
+    "wind_speed": "5",
     "wind_dir": "N",
-    "aqi_value": "44",
+    "aqi_value": "42",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -30,11 +30,11 @@
     "message": ""
   },
   "news": [
+    "In Pattaya, the death of a teenage girl has exposed a party city's dark underbelly",
     "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty",
-    "Thailand’s largest motorway rest area set to fully open in Sriracha",
+    "Seaplanes set to link Thailand’s cities with islands and coastlines",
     "Chon Buri flags 14,264 firms with foreign shareholders for nominee checks",
-    "Anutin brings Thailand’s trade and investment agenda to global talks",
-    "All three major rating agencies now see Thailand’s outlook as stable"
+    "2,500 runners hit Jomtien Beach for Pattaya’s Loma Run On The Beach 2026"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2700925,
       2713042,
       2707799,
-      2866860
+      2889540
     ]
   },
-  "last_update": "2026-09-21 18:41:59"
+  "last_update": "2026-09-21 22:15:54"
 }
