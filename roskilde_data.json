@@ -2,28 +2,28 @@
   "currencies": {
     "EUR": "38.25",
     "EUR_trend": "→",
-    "DKK": "5.12",
-    "DKK_trend": "→",
+    "DKK": "5.11",
+    "DKK_trend": "↓",
     "NOK": "3.54",
     "NOK_trend": "→",
-    "USD": "33.36",
-    "USD_trend": "→",
+    "USD": "33.34",
+    "USD_trend": "↓",
     "AUD": "23.74",
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,719,196",
+    "BTC": "2,727,156",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "31",
-    "wind_speed": "10",
+    "temp": "28",
+    "feels_like": "34",
+    "wind_speed": "14",
     "wind_dir": "WNW",
-    "aqi_value": "36",
+    "aqi_value": "41",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.7"
+    "uv_index": "8.3"
   },
   "alert": {
     "active": false,
@@ -32,9 +32,9 @@
   "news": [
     "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty",
     "Thai-American Lo Colby wins Miss International Queen 2026 crown",
-    "Thailand opens new media partnerships with Japan’s NHK and JIJI Press",
-    "Australian suspect in Pattaya murder pleads not guilty after indictment",
-    "Thailand pitches its industrial strength to US advanced-technology industries"
+    "Thailand’s largest motorway rest area set to fully open in Sriracha",
+    "Woman gives birth beside dinosaur display outside Pattaya mall",
+    "Australian suspect in Pattaya murder pleads not guilty after indictment"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2700925,
       2713042,
       2707799,
-      2719196
+      2727156
     ]
   },
-  "last_update": "2026-09-21 01:04:42"
+  "last_update": "2026-09-21 06:20:11"
 }
