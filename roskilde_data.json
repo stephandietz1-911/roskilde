@@ -1,40 +1,40 @@
 {
   "currencies": {
-    "EUR": "38.25",
-    "EUR_trend": "→",
+    "EUR": "38.17",
+    "EUR_trend": "↓",
     "DKK": "5.11",
     "DKK_trend": "→",
-    "NOK": "3.54",
-    "NOK_trend": "→",
-    "USD": "33.34",
-    "USD_trend": "→",
-    "AUD": "23.74",
-    "AUD_trend": "→",
+    "NOK": "3.53",
+    "NOK_trend": "↓",
+    "USD": "33.26",
+    "USD_trend": "↓",
+    "AUD": "23.70",
+    "AUD_trend": "↓",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,889,540",
-    "BTC_trend": "↑"
+    "BTC": "2,854,403",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "25",
+    "temp": "27",
     "feels_like": "31",
-    "wind_speed": "5",
-    "wind_dir": "N",
-    "aqi_value": "42",
+    "wind_speed": "12",
+    "wind_dir": "NW",
+    "aqi_value": "41",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "0.7"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "In Pattaya, the death of a teenage girl has exposed a party city's dark underbelly",
-    "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty",
+    "Teen’s body found in suitcase has some in notorious Thai party town on edge",
     "Seaplanes set to link Thailand’s cities with islands and coastlines",
     "Chon Buri flags 14,264 firms with foreign shareholders for nominee checks",
-    "2,500 runners hit Jomtien Beach for Pattaya’s Loma Run On The Beach 2026"
+    "2,500 runners hit Jomtien Beach for Pattaya’s Loma Run On The Beach 2026",
+    "Thailand withdraws two EHIA reports amid rethink of Land Bridge project"
   ],
   "flights": [
     {
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      37.821,
       37.91,
       37.882,
       38.051,
@@ -156,7 +155,6 @@
       38.187
     ],
     "USD": [
-      33.1996,
       33.4303,
       33.3998,
       33.3751,
@@ -223,7 +221,6 @@
       33.235
     ],
     "DKK": [
-      5.0597,
       5.0712,
       5.0682,
       5.0907,
@@ -290,7 +287,6 @@
       5.1083
     ],
     "NOK": [
-      3.3941,
       3.3979,
       3.377,
       3.3663,
@@ -357,7 +353,6 @@
       3.5316
     ],
     "AUD": [
-      23.0293,
       23.0652,
       23.023,
       23.0361,
@@ -425,7 +420,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2515182,
       2537111,
       2581459,
       2566532,
@@ -455,8 +449,9 @@
       2700925,
       2713042,
       2707799,
-      2889540
+      2877956,
+      2854403
     ]
   },
-  "last_update": "2026-09-21 22:15:54"
+  "last_update": "2026-09-22 01:00:15"
 }
