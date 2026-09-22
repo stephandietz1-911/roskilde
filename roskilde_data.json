@@ -1,29 +1,29 @@
 {
   "currencies": {
     "EUR": "38.17",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.11",
     "DKK_trend": "→",
     "NOK": "3.53",
-    "NOK_trend": "↓",
+    "NOK_trend": "→",
     "USD": "33.26",
-    "USD_trend": "↓",
+    "USD_trend": "→",
     "AUD": "23.70",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,854,403",
+    "BTC": "2,838,697",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "31",
-    "wind_speed": "12",
+    "temp": "29",
+    "feels_like": "35",
+    "wind_speed": "16",
     "wind_dir": "NW",
-    "aqi_value": "41",
+    "aqi_value": "40",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.7"
+    "uv_index": "8.4"
   },
   "alert": {
     "active": false,
@@ -31,9 +31,9 @@
   },
   "news": [
     "Teen’s body found in suitcase has some in notorious Thai party town on edge",
-    "Seaplanes set to link Thailand’s cities with islands and coastlines",
-    "Chon Buri flags 14,264 firms with foreign shareholders for nominee checks",
     "2,500 runners hit Jomtien Beach for Pattaya’s Loma Run On The Beach 2026",
+    "Foreign tourist hurt in Pattaya motorbike crash after dog runs out",
+    "Seaplanes set to link Thailand’s cities with islands and coastlines",
     "Thailand withdraws two EHIA reports amid rethink of Land Bridge project"
   ],
   "flights": [
@@ -450,8 +450,8 @@
       2713042,
       2707799,
       2877956,
-      2854403
+      2838697
     ]
   },
-  "last_update": "2026-09-22 01:00:15"
+  "last_update": "2026-09-22 06:02:15"
 }
