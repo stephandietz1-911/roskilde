@@ -12,11 +12,11 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,855,821",
+    "BTC": "2,869,310",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "28",
+    "temp": "27",
     "feels_like": "34",
     "wind_speed": "4",
     "wind_dir": "NW",
@@ -31,10 +31,10 @@
   },
   "news": [
     "Teen’s body found in suitcase has some in notorious Thai party town on edge",
+    "Mother seeks justice 7 months after Thai-Swedish son’s fatal crash in Pattaya",
     "2,500 runners hit Jomtien Beach for Pattaya’s Loma Run On The Beach 2026",
     "Foreign tourist hurt in Pattaya motorbike crash after dog runs out",
-    "Seaplanes set to link Thailand’s cities with islands and coastlines",
-    "Thailand withdraws two EHIA reports amid rethink of Land Bridge project"
+    "Seaplanes set to link Thailand’s cities with islands and coastlines"
   ],
   "flights": [
     {
@@ -152,7 +152,8 @@
       38.361,
       38.237,
       38.225,
-      38.187
+      38.187,
+      37.988
     ],
     "USD": [
       33.4303,
@@ -218,7 +219,8 @@
       33.2504,
       33.3046,
       33.3551,
-      33.235
+      33.235,
+      33.1397
     ],
     "DKK": [
       5.0712,
@@ -284,7 +286,8 @@
       5.1316,
       5.1151,
       5.1134,
-      5.1083
+      5.1083,
+      5.0816
     ],
     "NOK": [
       3.3979,
@@ -350,7 +353,8 @@
       3.5557,
       3.5323,
       3.5362,
-      3.5316
+      3.5316,
+      3.5171
     ],
     "AUD": [
       23.0652,
@@ -416,7 +420,8 @@
       23.7148,
       23.6923,
       23.7496,
-      23.7216
+      23.7216,
+      23.5628
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +455,8 @@
       2713042,
       2707799,
       2877956,
-      2855821
+      2869310
     ]
   },
-  "last_update": "2026-09-22 11:37:29"
+  "last_update": "2026-09-22 15:42:51"
 }
