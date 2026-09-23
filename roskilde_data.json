@@ -1,36 +1,36 @@
 {
   "currencies": {
-    "EUR": "38.17",
-    "EUR_trend": "→",
-    "DKK": "5.11",
-    "DKK_trend": "→",
-    "NOK": "3.53",
-    "NOK_trend": "→",
-    "USD": "33.26",
-    "USD_trend": "→",
-    "AUD": "23.70",
-    "AUD_trend": "→",
+    "EUR": "37.97",
+    "EUR_trend": "↓",
+    "DKK": "5.08",
+    "DKK_trend": "↓",
+    "NOK": "3.51",
+    "NOK_trend": "↓",
+    "USD": "33.16",
+    "USD_trend": "↓",
+    "AUD": "23.56",
+    "AUD_trend": "↓",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,859,183",
-    "BTC_trend": "↓"
+    "BTC": "2,864,490",
+    "BTC_trend": "↑"
   },
   "weather": {
     "temp": "26",
-    "feels_like": "32",
-    "wind_speed": "8",
-    "wind_dir": "NNW",
-    "aqi_value": "54",
+    "feels_like": "31",
+    "wind_speed": "7",
+    "wind_dir": "N",
+    "aqi_value": "52",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "0.0"
+    "uv_index": "1.2"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Teen’s body found in suitcase has some in notorious Thai party town on edge",
+    "Teen's body found in suitcase has some in notorious Thai party town on edge",
     "Thailand firefighters capture 13-foot snake with swollen belly at housing estate",
     "Mother seeks justice 7 months after Thai-Swedish son’s fatal crash in Pattaya",
     "2,500 runners hit Jomtien Beach for Pattaya’s Loma Run On The Beach 2026",
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      37.91,
       37.882,
       38.051,
       37.919,
@@ -156,7 +155,6 @@
       37.988
     ],
     "USD": [
-      33.4303,
       33.3998,
       33.3751,
       33.2448,
@@ -223,7 +221,6 @@
       33.1397
     ],
     "DKK": [
-      5.0712,
       5.0682,
       5.0907,
       5.0731,
@@ -290,7 +287,6 @@
       5.0816
     ],
     "NOK": [
-      3.3979,
       3.377,
       3.3663,
       3.3469,
@@ -357,7 +353,6 @@
       3.5171
     ],
     "AUD": [
-      23.0652,
       23.023,
       23.0361,
       22.9381,
@@ -425,7 +420,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2537111,
       2581459,
       2566532,
       2591396,
@@ -455,8 +449,9 @@
       2713042,
       2707799,
       2877956,
-      2859183
+      2854391,
+      2864490
     ]
   },
-  "last_update": "2026-09-22 22:15:04"
+  "last_update": "2026-09-23 00:39:26"
 }
