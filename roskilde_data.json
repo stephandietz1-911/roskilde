@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,878,632",
-    "BTC_trend": "↑"
+    "BTC": "2,842,675",
+    "BTC_trend": "↓"
   },
   "weather": {
     "temp": "28",
     "feels_like": "34",
-    "wind_speed": "10",
+    "wind_speed": "6",
     "wind_dir": "NW",
-    "aqi_value": "52",
+    "aqi_value": "86",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "8.3"
+    "uv_index": "1.3"
   },
   "alert": {
     "active": false,
@@ -33,7 +33,7 @@
     "Teen's body found in suitcase has some in notorious Thai party town on edge",
     "Mother seeks justice 7 months after Thai-Swedish son’s fatal crash in Pattaya",
     "Thailand marks autumn equinox on September 23, but rainy season continues",
-    "Woman gives birth beside dinosaur display outside Pattaya mall",
+    "Foreign tourist hurt in Pattaya motorbike crash after dog runs out",
     "Thailand moves cannabis firmly back into medical use"
   ],
   "flights": [
@@ -450,8 +450,8 @@
       2707799,
       2877956,
       2854391,
-      2878632
+      2842675
     ]
   },
-  "last_update": "2026-09-23 05:12:08"
+  "last_update": "2026-09-23 10:00:38"
 }
