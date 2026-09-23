@@ -1,29 +1,29 @@
 {
   "currencies": {
     "EUR": "37.97",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.08",
-    "DKK_trend": "↓",
+    "DKK_trend": "→",
     "NOK": "3.51",
-    "NOK_trend": "↓",
+    "NOK_trend": "→",
     "USD": "33.16",
-    "USD_trend": "↓",
+    "USD_trend": "→",
     "AUD": "23.56",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,864,490",
+    "BTC": "2,878,632",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "31",
-    "wind_speed": "7",
-    "wind_dir": "N",
+    "temp": "28",
+    "feels_like": "34",
+    "wind_speed": "10",
+    "wind_dir": "NW",
     "aqi_value": "52",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "1.2"
+    "uv_index": "8.3"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "Teen's body found in suitcase has some in notorious Thai party town on edge",
-    "Thailand firefighters capture 13-foot snake with swollen belly at housing estate",
     "Mother seeks justice 7 months after Thai-Swedish son’s fatal crash in Pattaya",
-    "2,500 runners hit Jomtien Beach for Pattaya’s Loma Run On The Beach 2026",
-    "Foreign tourist hurt in Pattaya motorbike crash after dog runs out"
+    "Thailand marks autumn equinox on September 23, but rainy season continues",
+    "Woman gives birth beside dinosaur display outside Pattaya mall",
+    "Thailand moves cannabis firmly back into medical use"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2707799,
       2877956,
       2854391,
-      2864490
+      2878632
     ]
   },
-  "last_update": "2026-09-23 00:39:26"
+  "last_update": "2026-09-23 05:12:08"
 }
