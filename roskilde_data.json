@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,798,965",
+    "BTC": "2,792,590",
     "BTC_trend": "↓"
   },
   "weather": {
     "temp": "26",
-    "feels_like": "32",
-    "wind_speed": "7",
-    "wind_dir": "WNW",
-    "aqi_value": "100",
+    "feels_like": "30",
+    "wind_speed": "12",
+    "wind_dir": "NNW",
+    "aqi_value": "54",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
     "uv_index": "0.0"
@@ -30,11 +30,11 @@
     "message": ""
   },
   "news": [
-    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "Pattaya, Thailand: Why I Keep Going Back on My Trips to Bangkok",
-    "Thailand: After 286 days at sea, US sailors hit Pattaya",
-    "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty",
-    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
+    "Teen's body found in suitcase has some in notorious Thai party town on edge",
+    "Thailand marks autumn equinox on September 23, but rainy season continues",
+    "Thailand moves cannabis firmly back into medical use",
+    "Pattaya races to prepare for 21,000+ runners this weekend",
+    "Lower North and Central regions send more water into Chao Phraya"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2707799,
       2877956,
       2854391,
-      2798965
+      2792590
     ]
   },
-  "last_update": "2026-09-23 15:00:49"
+  "last_update": "2026-09-23 19:03:18"
 }
