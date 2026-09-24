@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,810,234",
-    "BTC_trend": "↓"
+    "BTC": "2,827,141",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "31",
-    "wind_speed": "14",
+    "temp": "26",
+    "feels_like": "29",
+    "wind_speed": "17",
     "wind_dir": "NW",
-    "aqi_value": "56",
+    "aqi_value": "54",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
     "uv_index": "0.0"
@@ -30,11 +30,11 @@
     "message": ""
   },
   "news": [
-    "Teen's body found in suitcase has some in notorious Thai party town on edge",
     "Foreign tourist missing after falling into a Pattaya canal",
     "Thailand firefighters capture 13-foot snake with swollen belly at housing estate",
     "Three Chinese women rescued from captivity in north Pattaya house",
-    "Visitor goes missing in flooded Pattaya"
+    "Visitor goes missing in flooded Pattaya",
+    "Pattaya floods leave one foreign man missing on Thursday"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2877956,
       2854391,
       2821916,
-      2810234
+      2827141
     ]
   },
-  "last_update": "2026-09-24 15:22:53"
+  "last_update": "2026-09-24 19:23:47"
 }
