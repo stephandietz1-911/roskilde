@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,827,141",
-    "BTC_trend": "↑"
+    "BTC": "2,813,709",
+    "BTC_trend": "↓"
   },
   "weather": {
     "temp": "26",
-    "feels_like": "29",
-    "wind_speed": "17",
-    "wind_dir": "NW",
-    "aqi_value": "54",
+    "feels_like": "28",
+    "wind_speed": "26",
+    "wind_dir": "WNW",
+    "aqi_value": "58",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
     "uv_index": "0.0"
@@ -455,8 +455,8 @@
       2877956,
       2854391,
       2821916,
-      2827141
+      2813709
     ]
   },
-  "last_update": "2026-09-24 19:23:47"
+  "last_update": "2026-09-24 22:38:11"
 }
