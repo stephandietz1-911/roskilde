@@ -1,40 +1,40 @@
 {
   "currencies": {
-    "EUR": "38.06",
-    "EUR_trend": "→",
-    "DKK": "5.09",
-    "DKK_trend": "→",
-    "NOK": "3.52",
-    "NOK_trend": "→",
-    "USD": "33.44",
-    "USD_trend": "→",
-    "AUD": "23.50",
-    "AUD_trend": "→",
+    "EUR": "38.04",
+    "EUR_trend": "↓",
+    "DKK": "5.08",
+    "DKK_trend": "↓",
+    "NOK": "3.51",
+    "NOK_trend": "↓",
+    "USD": "33.38",
+    "USD_trend": "↓",
+    "AUD": "23.46",
+    "AUD_trend": "↓",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,815,278",
+    "BTC": "2,809,376",
     "BTC_trend": "↓"
   },
   "weather": {
     "temp": "26",
-    "feels_like": "28",
-    "wind_speed": "24",
-    "wind_dir": "SW",
+    "feels_like": "29",
+    "wind_speed": "18",
+    "wind_dir": "SSW",
     "aqi_value": "19",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "0.3"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping",
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "USS Abraham Lincoln: US sailors arrive in Thailand's Pattaya after record 250 days at sea",
     "Foreign tourist missing after falling into a Pattaya canal",
-    "Thailand firefighters capture 13-foot snake with swollen belly at housing estate",
-    "Three Chinese women rescued from captivity in north Pattaya house",
-    "Visitor goes missing in flooded Pattaya",
-    "Pattaya floods leave one foreign man missing on Thursday"
+    "Pattaya puts nine critical flood hotspots on 24-hour alert"
   ],
   "flights": [
     {
@@ -430,7 +430,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2591396,
       2639264,
       2579091,
       2590835,
@@ -460,8 +459,9 @@
       2854391,
       2821916,
       2825607,
-      2815278
+      2813863,
+      2809376
     ]
   },
-  "last_update": "2026-09-25 23:05:19"
+  "last_update": "2026-09-26 01:33:26"
 }
