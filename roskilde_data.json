@@ -1,40 +1,40 @@
 {
   "currencies": {
     "EUR": "38.04",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.08",
-    "DKK_trend": "↓",
+    "DKK_trend": "→",
     "NOK": "3.51",
-    "NOK_trend": "↓",
+    "NOK_trend": "→",
     "USD": "33.38",
-    "USD_trend": "↓",
+    "USD_trend": "→",
     "AUD": "23.46",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,809,376",
+    "BTC": "2,808,015",
     "BTC_trend": "↓"
   },
   "weather": {
     "temp": "26",
-    "feels_like": "29",
-    "wind_speed": "18",
-    "wind_dir": "SSW",
+    "feels_like": "28",
+    "wind_speed": "27",
+    "wind_dir": "S",
     "aqi_value": "19",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.3"
+    "uv_index": "1.8"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping",
-    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "USS Abraham Lincoln: US sailors arrive in Thailand's Pattaya after record 250 days at sea",
     "Foreign tourist missing after falling into a Pattaya canal",
-    "Pattaya puts nine critical flood hotspots on 24-hour alert"
+    "Over 21,000 runners flood into Pattaya for marathon weekend despite rain threat",
+    "Visitor goes missing in flooded Pattaya",
+    "Pattaya floods leave one foreign man missing on Thursday",
+    "Foreign man missing as overnight floods hit Pattaya"
   ],
   "flights": [
     {
@@ -460,8 +460,8 @@
       2821916,
       2825607,
       2813863,
-      2809376
+      2808015
     ]
   },
-  "last_update": "2026-09-26 01:33:26"
+  "last_update": "2026-09-26 06:37:50"
 }
