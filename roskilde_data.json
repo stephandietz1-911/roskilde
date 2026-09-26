@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,816,693",
+    "BTC": "2,814,043",
     "BTC_trend": "↑"
   },
   "weather": {
     "temp": "25",
-    "feels_like": "28",
-    "wind_speed": "21",
+    "feels_like": "27",
+    "wind_speed": "23",
     "wind_dir": "S",
-    "aqi_value": "21",
+    "aqi_value": "20",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -31,7 +31,7 @@
   },
   "news": [
     "Foreign tourist missing after falling into a Pattaya canal",
-    "Over 21,000 runners flood into Pattaya for marathon weekend despite rain threat",
+    "Not over yet for Pattaya with heavy rain forecast through September 27",
     "Visitor goes missing in flooded Pattaya",
     "Pattaya floods leave one foreign man missing on Thursday",
     "Foreign man missing as overnight floods hit Pattaya"
@@ -460,8 +460,8 @@
       2821916,
       2825607,
       2813863,
-      2816693
+      2814043
     ]
   },
-  "last_update": "2026-09-26 11:48:23"
+  "last_update": "2026-09-26 15:48:58"
 }
