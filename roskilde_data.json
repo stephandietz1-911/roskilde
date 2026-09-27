@@ -12,14 +12,14 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,000,000",
-    "BTC_trend": "→"
+    "BTC": "2,839,723",
+    "BTC_trend": "↑"
   },
   "weather": {
     "temp": "25",
     "feels_like": "27",
-    "wind_speed": "24",
-    "wind_dir": "SSE",
+    "wind_speed": "26",
+    "wind_dir": "S",
     "aqi_value": "25",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
@@ -30,11 +30,11 @@
     "message": ""
   },
   "news": [
-    "Man believed to be Korean missing in Pattaya floods",
+    "Boxing News: Tapales And Laurente Stop Thai Opponents In Pattaya » September 27, 2026",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
     "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment",
-    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
-    "Pattaya, Thailand: Why I Keep Going Back on My Trips to Bangkok"
+    "Man believed to be Korean missing in Pattaya floods",
+    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
   ],
   "flights": [
     {
@@ -423,7 +423,40 @@
       23.5254,
       23.442
     ],
-    "RUB": []
+    "RUB": [],
+    "BTC": [
+      2579091,
+      2590835,
+      2568158,
+      2603558,
+      2579049,
+      2565151,
+      2674421,
+      2621340,
+      2626289,
+      2645245,
+      2599011,
+      2582599,
+      2578644,
+      2538007,
+      2551970,
+      2553890,
+      2542710,
+      2597700,
+      2517698,
+      2544181,
+      2540111,
+      2700925,
+      2713042,
+      2707799,
+      2877956,
+      2854391,
+      2821916,
+      2825607,
+      2813863,
+      2827307,
+      2839723
+    ]
   },
-  "last_update": "2026-09-27 15:31:04"
+  "last_update": "2026-09-27 19:16:56"
 }
