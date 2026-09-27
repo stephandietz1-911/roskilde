@@ -1,37 +1,37 @@
 {
   "currencies": {
     "EUR": "38.05",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.08",
     "DKK_trend": "→",
     "NOK": "3.51",
     "NOK_trend": "→",
     "USD": "33.39",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.46",
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,822,006",
+    "BTC": "2,826,523",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "25",
-    "feels_like": "28",
-    "wind_speed": "22",
+    "temp": "26",
+    "feels_like": "29",
+    "wind_speed": "25",
     "wind_dir": "S",
-    "aqi_value": "19",
+    "aqi_value": "20",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.1"
+    "uv_index": "4.2"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment",
     "Lo Colby Crowned Miss International Queen 2026 as the World's Largest Transgender Pageant Celebrates 20 Years",
     "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
     "Pattaya, Thailand: Why I Keep Going Back on My Trips to Bangkok"
@@ -455,8 +455,8 @@
       2825607,
       2813863,
       2827307,
-      2822006
+      2826523
     ]
   },
-  "last_update": "2026-09-27 00:21:30"
+  "last_update": "2026-09-27 05:34:03"
 }
