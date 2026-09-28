@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,770,778",
+    "BTC": "2,795,847",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "31",
-    "wind_speed": "11",
+    "temp": "24",
+    "feels_like": "29",
+    "wind_speed": "10",
     "wind_dir": "SE",
-    "aqi_value": "31",
+    "aqi_value": "27",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -30,11 +30,11 @@
     "message": ""
   },
   "news": [
-    "Man believed to be Korean swept away in floods in Thailand",
-    "103 flights circle Suvarnabhumi as heavy rain disrupts air travel",
-    "Resort owner says ‘animals are part nature’ after guest encounters snake, geckos",
-    "American man arrested after secret drug lab found in Pattaya home",
-    "Pattaya gives the beach time to recover after major floods"
+    "Thailand driver calls firefighters after finding 13-foot snake hiding inside pickup",
+    "1 Korean killed in Thailand flood: Foreign Ministry",
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment",
+    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2813863,
       2827307,
       2823966,
-      2770778
+      2795847
     ]
   },
-  "last_update": "2026-09-28 14:57:20"
+  "last_update": "2026-09-28 21:08:00"
 }
