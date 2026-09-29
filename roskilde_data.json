@@ -12,29 +12,29 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,819,168",
+    "BTC": "2,831,220",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "31",
-    "feels_like": "35",
-    "wind_speed": "16",
-    "wind_dir": "S",
-    "aqi_value": "42",
-    "aqi_status": "Good",
-    "aqi_color": "#10b981",
-    "uv_index": "7.3"
+    "temp": "27",
+    "feels_like": "32",
+    "wind_speed": "7",
+    "wind_dir": "SE",
+    "aqi_value": "57",
+    "aqi_status": "Moderate",
+    "aqi_color": "#f59e0b",
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Thailand driver calls firefighters after finding 13-foot snake hiding inside pickup",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
     "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment",
-    "1 Korean killed in Thailand flood: Foreign Ministry",
-    "Boxing News: Tapales And Laurente Stop Thai Opponents In Pattaya » September 27, 2026"
+    "Thailand driver calls firefighters after finding 13-foot snake hiding inside pickup",
+    "Boxing News: Tapales And Laurente Stop Thai Opponents In Pattaya » September 27, 2026",
+    "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2827307,
       2823966,
       2806614,
-      2819168
+      2831220
     ]
   },
-  "last_update": "2026-09-29 06:45:44"
+  "last_update": "2026-09-29 13:44:13"
 }
