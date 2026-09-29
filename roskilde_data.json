@@ -1,29 +1,29 @@
 {
   "currencies": {
     "EUR": "38.21",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.11",
-    "DKK_trend": "↑",
+    "DKK_trend": "→",
     "NOK": "3.53",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.59",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.58",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,796,579",
-    "BTC_trend": "↓"
+    "BTC": "2,819,168",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "31",
-    "wind_speed": "10",
-    "wind_dir": "SE",
-    "aqi_value": "35",
+    "temp": "31",
+    "feels_like": "35",
+    "wind_speed": "16",
+    "wind_dir": "S",
+    "aqi_value": "42",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "1.6"
+    "uv_index": "7.3"
   },
   "alert": {
     "active": false,
@@ -34,7 +34,7 @@
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
     "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment",
     "1 Korean killed in Thailand flood: Foreign Ministry",
-    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
+    "Boxing News: Tapales And Laurente Stop Thai Opponents In Pattaya » September 27, 2026"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2827307,
       2823966,
       2806614,
-      2796579
+      2819168
     ]
   },
-  "last_update": "2026-09-29 00:59:01"
+  "last_update": "2026-09-29 06:45:44"
 }
