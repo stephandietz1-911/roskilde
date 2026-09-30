@@ -1,29 +1,29 @@
 {
   "currencies": {
-    "EUR": "38.21",
-    "EUR_trend": "→",
-    "DKK": "5.11",
-    "DKK_trend": "→",
-    "NOK": "3.53",
-    "NOK_trend": "→",
-    "USD": "33.59",
-    "USD_trend": "→",
-    "AUD": "23.58",
-    "AUD_trend": "→",
+    "EUR": "38.08",
+    "EUR_trend": "↓",
+    "DKK": "5.09",
+    "DKK_trend": "↓",
+    "NOK": "3.50",
+    "NOK_trend": "↓",
+    "USD": "33.57",
+    "USD_trend": "↓",
+    "AUD": "23.45",
+    "AUD_trend": "↓",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,809,579",
-    "BTC_trend": "↑"
+    "BTC": "2,798,342",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "31",
-    "wind_speed": "4",
-    "wind_dir": "ESE",
-    "aqi_value": "63",
+    "temp": "29",
+    "feels_like": "36",
+    "wind_speed": "3",
+    "wind_dir": "S",
+    "aqi_value": "66",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "0.0"
+    "uv_index": "4.1"
   },
   "alert": {
     "active": false,
@@ -33,8 +33,8 @@
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
     "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment",
     "Boxing News: Tapales And Laurente Stop Thai Opponents In Pattaya » September 27, 2026",
-    "Thailand driver calls firefighters after finding 13-foot snake hiding inside pickup",
-    "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping"
+    "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping",
+    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
   ],
   "flights": [
     {
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      38.002,
       37.976,
       37.933,
       38.04,
@@ -156,7 +155,6 @@
       38.056
     ],
     "USD": [
-      33.3849,
       33.3152,
       33.135,
       33.3246,
@@ -223,7 +221,6 @@
       33.5148
     ],
     "DKK": [
-      5.0842,
       5.0806,
       5.0749,
       5.0891,
@@ -290,7 +287,6 @@
       5.0908
     ],
     "NOK": [
-      3.3593,
       3.3641,
       3.3661,
       3.3861,
@@ -357,7 +353,6 @@
       3.4999
     ],
     "AUD": [
-      23.0064,
       22.9518,
       22.9897,
       23.1078,
@@ -425,7 +420,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2568158,
       2603558,
       2579049,
       2565151,
@@ -455,8 +449,9 @@
       2827307,
       2823966,
       2806614,
-      2809579
+      2806418,
+      2798342
     ]
   },
-  "last_update": "2026-09-29 22:50:00"
+  "last_update": "2026-09-30 01:50:12"
 }
