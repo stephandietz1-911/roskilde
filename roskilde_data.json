@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,807,649",
+    "BTC": "2,807,704",
     "BTC_trend": "↑"
   },
   "weather": {
     "temp": "27",
-    "feels_like": "34",
+    "feels_like": "33",
     "wind_speed": "4",
     "wind_dir": "S",
-    "aqi_value": "70",
+    "aqi_value": "68",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
     "uv_index": "0.0"
@@ -30,11 +30,11 @@
     "message": ""
   },
   "news": [
-    "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment",
     "Boxing News: Tapales And Laurente Stop Thai Opponents In Pattaya » September 27, 2026",
-    "Thailand: After 286 days at sea, US sailors hit Pattaya",
-    "Pedicures and a pair of socks: sailors from USS Abraham Lincoln go wild in party resort of Pattaya"
+    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
+    "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2823966,
       2806614,
       2806418,
-      2807649
+      2807704
     ]
   },
-  "last_update": "2026-09-30 14:51:42"
+  "last_update": "2026-09-30 19:51:07"
 }
