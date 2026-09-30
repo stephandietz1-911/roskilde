@@ -12,29 +12,29 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,795,752",
-    "BTC_trend": "↓"
+    "BTC": "2,807,649",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "35",
-    "wind_speed": "2",
-    "wind_dir": "E",
-    "aqi_value": "71",
+    "temp": "27",
+    "feels_like": "34",
+    "wind_speed": "4",
+    "wind_dir": "S",
+    "aqi_value": "70",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "6.0"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
     "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment",
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
     "Boxing News: Tapales And Laurente Stop Thai Opponents In Pattaya » September 27, 2026",
-    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
-    "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping"
+    "Thailand: After 286 days at sea, US sailors hit Pattaya",
+    "Pedicures and a pair of socks: sailors from USS Abraham Lincoln go wild in party resort of Pattaya"
   ],
   "flights": [
     {
@@ -152,7 +152,8 @@
       38.057,
       38.023,
       38.196,
-      38.056
+      38.056,
+      38.113
     ],
     "USD": [
       33.3152,
@@ -218,7 +219,8 @@
       33.4802,
       33.3447,
       33.57,
-      33.5148
+      33.5148,
+      33.5649
     ],
     "DKK": [
       5.0806,
@@ -284,7 +286,8 @@
       5.0908,
       5.0863,
       5.1097,
-      5.0908
+      5.0908,
+      5.0984
     ],
     "NOK": [
       3.3641,
@@ -350,7 +353,8 @@
       3.5272,
       3.5077,
       3.5311,
-      3.4999
+      3.4999,
+      3.4961
     ],
     "AUD": [
       22.9518,
@@ -416,7 +420,8 @@
       23.5254,
       23.442,
       23.5792,
-      23.4754
+      23.4754,
+      23.3865
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +455,8 @@
       2823966,
       2806614,
       2806418,
-      2795752
+      2807649
     ]
   },
-  "last_update": "2026-09-30 07:59:55"
+  "last_update": "2026-09-30 14:51:42"
 }
