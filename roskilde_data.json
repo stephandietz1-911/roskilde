@@ -1,29 +1,29 @@
 {
   "currencies": {
     "EUR": "38.09",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.10",
-    "DKK_trend": "↑",
+    "DKK_trend": "→",
     "NOK": "3.50",
     "NOK_trend": "→",
     "USD": "33.58",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.38",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,807,332",
-    "BTC_trend": "↓"
+    "BTC": "2,811,240",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "37",
-    "wind_speed": "2",
-    "wind_dir": "NNE",
-    "aqi_value": "63",
+    "temp": "29",
+    "feels_like": "35",
+    "wind_speed": "7",
+    "wind_dir": "E",
+    "aqi_value": "61",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "5.1"
+    "uv_index": "2.8"
   },
   "alert": {
     "active": false,
@@ -450,8 +450,8 @@
       2806614,
       2806418,
       2808994,
-      2807332
+      2811240
     ]
   },
-  "last_update": "2026-10-01 02:19:26"
+  "last_update": "2026-10-01 09:15:43"
 }
