@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,811,240",
+    "BTC": "2,841,497",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "35",
-    "wind_speed": "7",
-    "wind_dir": "E",
-    "aqi_value": "61",
+    "temp": "27",
+    "feels_like": "34",
+    "wind_speed": "2",
+    "wind_dir": "SE",
+    "aqi_value": "57",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "2.8"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -32,9 +32,9 @@
   "news": [
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
     "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment",
-    "Boxing News: Tapales And Laurente Stop Thai Opponents In Pattaya » September 27, 2026",
+    "Thailand: After 286 days at sea, US sailors hit Pattaya",
     "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping",
-    "Thailand: After 286 days at sea, US sailors hit Pattaya"
+    "Boxing News: Tapales And Laurente Stop Thai Opponents In Pattaya » September 27, 2026"
   ],
   "flights": [
     {
@@ -152,7 +152,8 @@
       38.023,
       38.196,
       38.056,
-      38.113
+      38.113,
+      38.023
     ],
     "USD": [
       33.135,
@@ -218,7 +219,8 @@
       33.3447,
       33.57,
       33.5148,
-      33.5649
+      33.5649,
+      33.6546
     ],
     "DKK": [
       5.0749,
@@ -284,7 +286,8 @@
       5.0863,
       5.1097,
       5.0908,
-      5.0984
+      5.0984,
+      5.0861
     ],
     "NOK": [
       3.3661,
@@ -350,7 +353,8 @@
       3.5077,
       3.5311,
       3.4999,
-      3.4961
+      3.4961,
+      3.4964
     ],
     "AUD": [
       22.9897,
@@ -416,7 +420,8 @@
       23.442,
       23.5792,
       23.4754,
-      23.3865
+      23.3865,
+      23.3916
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +455,8 @@
       2806614,
       2806418,
       2808994,
-      2811240
+      2841497
     ]
   },
-  "last_update": "2026-10-01 09:15:43"
+  "last_update": "2026-10-01 16:37:18"
 }
