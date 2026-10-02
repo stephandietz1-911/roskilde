@@ -12,29 +12,29 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,893,728",
+    "BTC": "2,922,251",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "38",
-    "wind_speed": "3",
-    "wind_dir": "SW",
-    "aqi_value": "57",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
-    "uv_index": "7.7"
+    "temp": "27",
+    "feels_like": "33",
+    "wind_speed": "10",
+    "wind_dir": "SE",
+    "aqi_value": "112",
+    "aqi_status": "Unhealthy",
+    "aqi_color": "#ef4444",
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Plankton bloom turns Thai island waters a bright, smelly green",
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
     "Lee Sang-jun's Surprise 'First Kiss of 2026' in Thailand",
-    "Bangkok and Pattaya, back to back: the Thailand trip I’d plan again",
-    "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping",
-    "Boxing News: Tapales And Laurente Stop Thai Opponents In Pattaya » September 27, 2026"
+    "Two suspects deny premeditated murder of Russian siblings",
+    "Sea around popular tourist island turned a bright smelly green",
+    "Bangkok and Pattaya, back to back: the Thailand trip I’d plan again"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2806418,
       2808994,
       2855737,
-      2893728
+      2922251
     ]
   },
-  "last_update": "2026-10-02 06:55:26"
+  "last_update": "2026-10-02 13:35:10"
 }
