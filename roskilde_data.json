@@ -1,29 +1,29 @@
 {
   "currencies": {
-    "EUR": "38.09",
-    "EUR_trend": "→",
-    "DKK": "5.10",
-    "DKK_trend": "→",
+    "EUR": "37.94",
+    "EUR_trend": "↓",
+    "DKK": "5.09",
+    "DKK_trend": "↓",
     "NOK": "3.50",
     "NOK_trend": "→",
-    "USD": "33.58",
-    "USD_trend": "→",
-    "AUD": "23.38",
-    "AUD_trend": "→",
+    "USD": "33.67",
+    "USD_trend": "↑",
+    "AUD": "23.35",
+    "AUD_trend": "↓",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,844,466",
-    "BTC_trend": "↑"
+    "BTC": "2,853,471",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "33",
-    "wind_speed": "1",
-    "wind_dir": "ESE",
-    "aqi_value": "59",
+    "temp": "29",
+    "feels_like": "36",
+    "wind_speed": "3",
+    "wind_dir": "S",
+    "aqi_value": "55",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "0.0"
+    "uv_index": "1.9"
   },
   "alert": {
     "active": false,
@@ -32,8 +32,8 @@
   "news": [
     "Bangkok and Pattaya, back to back: the Thailand trip I’d plan again",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment",
     "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping",
+    "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment",
     "Boxing News: Tapales And Laurente Stop Thai Opponents In Pattaya » September 27, 2026"
   ],
   "flights": [
@@ -425,7 +425,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2579049,
       2565151,
       2674421,
       2621340,
@@ -455,8 +454,9 @@
       2806614,
       2806418,
       2808994,
-      2844466
+      2855737,
+      2853471
     ]
   },
-  "last_update": "2026-10-01 21:22:08"
+  "last_update": "2026-10-02 00:59:36"
 }
