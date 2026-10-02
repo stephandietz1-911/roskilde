@@ -1,39 +1,39 @@
 {
   "currencies": {
     "EUR": "37.94",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.09",
-    "DKK_trend": "↓",
+    "DKK_trend": "→",
     "NOK": "3.50",
     "NOK_trend": "→",
     "USD": "33.67",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.35",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,853,471",
-    "BTC_trend": "↓"
+    "BTC": "2,893,728",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "36",
+    "temp": "30",
+    "feels_like": "38",
     "wind_speed": "3",
-    "wind_dir": "S",
-    "aqi_value": "55",
+    "wind_dir": "SW",
+    "aqi_value": "57",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "1.9"
+    "uv_index": "7.7"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Plankton bloom turns Thai island waters a bright, smelly green",
+    "Lee Sang-jun's Surprise 'First Kiss of 2026' in Thailand",
     "Bangkok and Pattaya, back to back: the Thailand trip I’d plan again",
-    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
     "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping",
-    "Thailand's Pattaya anticipates USS Abraham Lincoln visit following its Middle East deployment",
     "Boxing News: Tapales And Laurente Stop Thai Opponents In Pattaya » September 27, 2026"
   ],
   "flights": [
@@ -455,8 +455,8 @@
       2806418,
       2808994,
       2855737,
-      2853471
+      2893728
     ]
   },
-  "last_update": "2026-10-02 00:59:36"
+  "last_update": "2026-10-02 06:55:26"
 }
