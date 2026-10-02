@@ -12,17 +12,17 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,922,251",
-    "BTC_trend": "↑"
+    "BTC": "2,832,198",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "33",
-    "wind_speed": "10",
+    "temp": "26",
+    "feels_like": "32",
+    "wind_speed": "9",
     "wind_dir": "SE",
-    "aqi_value": "112",
-    "aqi_status": "Unhealthy",
-    "aqi_color": "#ef4444",
+    "aqi_value": "65",
+    "aqi_status": "Moderate",
+    "aqi_color": "#f59e0b",
     "uv_index": "0.0"
   },
   "alert": {
@@ -30,11 +30,11 @@
     "message": ""
   },
   "news": [
-    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "Plankton bloom turns Thai island waters a bright, smelly green",
     "Lee Sang-jun's Surprise 'First Kiss of 2026' in Thailand",
-    "Two suspects deny premeditated murder of Russian siblings",
-    "Sea around popular tourist island turned a bright smelly green",
-    "Bangkok and Pattaya, back to back: the Thailand trip I’d plan again"
+    "Bangkok and Pattaya, back to back: the Thailand trip I’d plan again",
+    "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping",
+    "Thailand: After 286 days at sea, US sailors hit Pattaya"
   ],
   "flights": [
     {
@@ -153,7 +153,8 @@
       38.196,
       38.056,
       38.113,
-      38.023
+      38.023,
+      37.71
     ],
     "USD": [
       33.135,
@@ -220,7 +221,8 @@
       33.57,
       33.5148,
       33.5649,
-      33.6546
+      33.6546,
+      33.5947
     ],
     "DKK": [
       5.0749,
@@ -287,7 +289,8 @@
       5.1097,
       5.0908,
       5.0984,
-      5.0861
+      5.0861,
+      5.0458
     ],
     "NOK": [
       3.3661,
@@ -354,7 +357,8 @@
       3.5311,
       3.4999,
       3.4961,
-      3.4964
+      3.4964,
+      3.4815
     ],
     "AUD": [
       22.9897,
@@ -421,7 +425,8 @@
       23.5792,
       23.4754,
       23.3865,
-      23.3916
+      23.3916,
+      23.3123
     ],
     "RUB": [],
     "BTC": [
@@ -455,8 +460,8 @@
       2806418,
       2808994,
       2855737,
-      2922251
+      2832198
     ]
   },
-  "last_update": "2026-10-02 13:35:10"
+  "last_update": "2026-10-02 18:42:02"
 }
