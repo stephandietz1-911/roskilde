@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,832,198",
+    "BTC": "2,845,044",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "32",
-    "wind_speed": "9",
+    "temp": "27",
+    "feels_like": "33",
+    "wind_speed": "8",
     "wind_dir": "SE",
-    "aqi_value": "65",
+    "aqi_value": "64",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
     "uv_index": "0.0"
@@ -32,8 +32,8 @@
   "news": [
     "Plankton bloom turns Thai island waters a bright, smelly green",
     "Lee Sang-jun's Surprise 'First Kiss of 2026' in Thailand",
+    "The Nailless Marvel, Sanctuary of Truth in Thailand",
     "Bangkok and Pattaya, back to back: the Thailand trip I’d plan again",
-    "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping",
     "Thailand: After 286 days at sea, US sailors hit Pattaya"
   ],
   "flights": [
@@ -460,8 +460,8 @@
       2806418,
       2808994,
       2855737,
-      2832198
+      2845044
     ]
   },
-  "last_update": "2026-10-02 18:42:02"
+  "last_update": "2026-10-02 22:34:36"
 }
