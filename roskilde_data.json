@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,833,892",
+    "BTC": "2,835,297",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "35",
+    "temp": "27",
+    "feels_like": "33",
     "wind_speed": "7",
-    "wind_dir": "SSW",
-    "aqi_value": "68",
+    "wind_dir": "SE",
+    "aqi_value": "53",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
     "uv_index": "0.0"
@@ -32,9 +32,9 @@
   "news": [
     "Plankton bloom turns Thai island waters a bright, smelly green",
     "Lee Sang-jun’s Eight-Meal Pattaya Challenge: Surprise Kisses",
-    "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping",
-    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
-    "Australian man accused of teenage girl's murder appears in Thailand court"
+    "Australian man accused of teenage girl's murder appears in Thailand court",
+    "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty",
+    "Thailand: After 286 days at sea, US sailors hit Pattaya"
   ],
   "flights": [
     {
@@ -460,8 +460,8 @@
       2808994,
       2855737,
       2825163,
-      2833892
+      2835297
     ]
   },
-  "last_update": "2026-10-03 12:20:32"
+  "last_update": "2026-10-03 16:34:53"
 }
