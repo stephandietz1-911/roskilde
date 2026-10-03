@@ -1,29 +1,29 @@
 {
   "currencies": {
-    "EUR": "37.94",
-    "EUR_trend": "→",
-    "DKK": "5.09",
-    "DKK_trend": "→",
-    "NOK": "3.50",
-    "NOK_trend": "→",
-    "USD": "33.67",
-    "USD_trend": "→",
-    "AUD": "23.35",
-    "AUD_trend": "→",
+    "EUR": "37.77",
+    "EUR_trend": "↓",
+    "DKK": "5.05",
+    "DKK_trend": "↓",
+    "NOK": "3.49",
+    "NOK_trend": "↓",
+    "USD": "33.55",
+    "USD_trend": "↓",
+    "AUD": "23.32",
+    "AUD_trend": "↓",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,845,044",
-    "BTC_trend": "↓"
+    "BTC": "2,828,344",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "33",
-    "wind_speed": "8",
+    "temp": "28",
+    "feels_like": "35",
+    "wind_speed": "9",
     "wind_dir": "SE",
     "aqi_value": "64",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "0.0"
+    "uv_index": "2.8"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "Plankton bloom turns Thai island waters a bright, smelly green",
-    "Lee Sang-jun's Surprise 'First Kiss of 2026' in Thailand",
-    "The Nailless Marvel, Sanctuary of Truth in Thailand",
     "Bangkok and Pattaya, back to back: the Thailand trip I’d plan again",
-    "Thailand: After 286 days at sea, US sailors hit Pattaya"
+    "Thailand: After 286 days at sea, US sailors hit Pattaya",
+    "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping",
+    "The Nailless Marvel, Sanctuary of Truth in Thailand"
   ],
   "flights": [
     {
@@ -430,7 +430,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2565151,
       2674421,
       2621340,
       2626289,
@@ -460,8 +459,9 @@
       2806418,
       2808994,
       2855737,
-      2845044
+      2825163,
+      2828344
     ]
   },
-  "last_update": "2026-10-02 22:34:36"
+  "last_update": "2026-10-03 01:27:21"
 }
