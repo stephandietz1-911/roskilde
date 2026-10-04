@@ -1,29 +1,29 @@
 {
   "currencies": {
     "EUR": "37.79",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.05",
     "DKK_trend": "→",
     "NOK": "3.48",
-    "NOK_trend": "↓",
+    "NOK_trend": "→",
     "USD": "33.56",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.31",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,833,748",
+    "BTC": "2,840,596",
     "BTC_trend": "↑"
   },
   "weather": {
     "temp": "30",
     "feels_like": "36",
     "wind_speed": "8",
-    "wind_dir": "S",
-    "aqi_value": "51",
+    "wind_dir": "ESE",
+    "aqi_value": "52",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "3.7"
+    "uv_index": "5.3"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "Plankton bloom turns Thai island waters a bright, smelly green",
+    "Australian man accused of teenage girl's murder appears in Thailand court",
+    "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty",
     "Thailand: After 286 days at sea, US sailors hit Pattaya",
-    "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping",
-    "Lee Sang-jun’s Eight-Meal Pattaya Challenge: Surprise Kisses",
-    "Australian man accused of teenage girl's murder appears in Thailand court"
+    "Thailand firefighters capture 13-foot snake with swollen belly at housing estate"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2855737,
       2825163,
       2833064,
-      2833748
+      2840596
     ]
   },
-  "last_update": "2026-10-04 01:48:29"
+  "last_update": "2026-10-04 07:46:43"
 }
