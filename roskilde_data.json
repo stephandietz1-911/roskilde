@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,854,525",
+    "BTC": "2,869,601",
     "BTC_trend": "↑"
   },
   "weather": {
     "temp": "26",
     "feels_like": "32",
-    "wind_speed": "7",
+    "wind_speed": "5",
     "wind_dir": "ESE",
-    "aqi_value": "52",
+    "aqi_value": "53",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
     "uv_index": "0.0"
@@ -34,7 +34,7 @@
     "Thailand: After 286 days at sea, US sailors hit Pattaya",
     "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping",
     "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
-    "Australian man accused of teenage girl's murder appears in Thailand court"
+    "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2855737,
       2825163,
       2833064,
-      2854525
+      2869601
     ]
   },
-  "last_update": "2026-10-04 17:50:40"
+  "last_update": "2026-10-04 20:53:02"
 }
