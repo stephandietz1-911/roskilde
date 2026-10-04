@@ -1,29 +1,29 @@
 {
   "currencies": {
-    "EUR": "37.77",
-    "EUR_trend": "→",
+    "EUR": "37.79",
+    "EUR_trend": "↑",
     "DKK": "5.05",
     "DKK_trend": "→",
-    "NOK": "3.49",
-    "NOK_trend": "→",
-    "USD": "33.55",
-    "USD_trend": "→",
-    "AUD": "23.32",
-    "AUD_trend": "→",
+    "NOK": "3.48",
+    "NOK_trend": "↓",
+    "USD": "33.56",
+    "USD_trend": "↑",
+    "AUD": "23.31",
+    "AUD_trend": "↓",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,833,458",
+    "BTC": "2,833,748",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "34",
-    "wind_speed": "1",
-    "wind_dir": "SE",
-    "aqi_value": "52",
+    "temp": "30",
+    "feels_like": "36",
+    "wind_speed": "8",
+    "wind_dir": "S",
+    "aqi_value": "51",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "0.0"
+    "uv_index": "3.7"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "Plankton bloom turns Thai island waters a bright, smelly green",
+    "Thailand: After 286 days at sea, US sailors hit Pattaya",
+    "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping",
     "Lee Sang-jun’s Eight-Meal Pattaya Challenge: Surprise Kisses",
-    "Australian man accused of teenage girl's murder appears in Thailand court",
-    "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty",
-    "Thailand: After 286 days at sea, US sailors hit Pattaya"
+    "Australian man accused of teenage girl's murder appears in Thailand court"
   ],
   "flights": [
     {
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      37.933,
       38.04,
       38.026,
       38.141,
@@ -157,7 +156,6 @@
       37.71
     ],
     "USD": [
-      33.135,
       33.3246,
       33.2599,
       33.4453,
@@ -225,7 +223,6 @@
       33.5947
     ],
     "DKK": [
-      5.0749,
       5.0891,
       5.0874,
       5.1022,
@@ -293,7 +290,6 @@
       5.0458
     ],
     "NOK": [
-      3.3661,
       3.3861,
       3.3909,
       3.425,
@@ -361,7 +357,6 @@
       3.4815
     ],
     "AUD": [
-      22.9897,
       23.1078,
       23.1091,
       23.1565,
@@ -430,7 +425,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2674421,
       2621340,
       2626289,
       2645245,
@@ -460,8 +454,9 @@
       2808994,
       2855737,
       2825163,
-      2833458
+      2833064,
+      2833748
     ]
   },
-  "last_update": "2026-10-03 22:20:16"
+  "last_update": "2026-10-04 01:48:29"
 }
