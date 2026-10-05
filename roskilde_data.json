@@ -12,14 +12,14 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,885,633",
+    "BTC": "2,874,459",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "36",
-    "wind_speed": "2",
-    "wind_dir": "SSE",
+    "temp": "25",
+    "feels_like": "28",
+    "wind_speed": "17",
+    "wind_dir": "ENE",
     "aqi_value": "51",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
@@ -31,10 +31,10 @@
   },
   "news": [
     "Plankton bloom turns Thai island waters a bright, smelly green",
-    "Rain bomb alert for Pattaya as Thailand braces for more rain",
-    "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty",
-    "Lee Sang-jun's Surprise 'First Kiss of 2026' in Thailand",
-    "Say ‘I do’ to Thailand’s mountain sunsets, city lights and sweeping sea views"
+    "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping",
+    "Thailand: After 286 days at sea, US sailors hit Pattaya",
+    "How close is the Meltdown to Jomtien Beach?? | Pattaya Thailand",
+    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
   ],
   "flights": [
     {
@@ -152,7 +152,8 @@
       38.056,
       38.113,
       38.023,
-      37.71
+      37.71,
+      37.752
     ],
     "USD": [
       33.2599,
@@ -218,7 +219,8 @@
       33.5148,
       33.5649,
       33.6546,
-      33.5947
+      33.5947,
+      33.6951
     ],
     "DKK": [
       5.0874,
@@ -284,7 +286,8 @@
       5.0908,
       5.0984,
       5.0861,
-      5.0458
+      5.0458,
+      5.0508
     ],
     "NOK": [
       3.3909,
@@ -350,7 +353,8 @@
       3.4999,
       3.4961,
       3.4964,
-      3.4815
+      3.4815,
+      3.5094
     ],
     "AUD": [
       23.1091,
@@ -416,7 +420,8 @@
       23.4754,
       23.3865,
       23.3916,
-      23.3123
+      23.3123,
+      23.4528
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +455,8 @@
       2825163,
       2833064,
       2900866,
-      2885633
+      2874459
     ]
   },
-  "last_update": "2026-10-05 11:28:19"
+  "last_update": "2026-10-05 19:42:47"
 }
