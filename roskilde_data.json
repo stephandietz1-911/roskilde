@@ -1,29 +1,29 @@
 {
   "currencies": {
     "EUR": "37.75",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.05",
     "DKK_trend": "→",
     "NOK": "3.48",
     "NOK_trend": "→",
     "USD": "33.57",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.32",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,886,545",
+    "BTC": "2,885,633",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "31",
-    "feels_like": "39",
-    "wind_speed": "6",
+    "temp": "29",
+    "feels_like": "36",
+    "wind_speed": "2",
     "wind_dir": "SSE",
-    "aqi_value": "53",
+    "aqi_value": "51",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "7.3"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "Plankton bloom turns Thai island waters a bright, smelly green",
-    "Thailand: After 286 days at sea, US sailors hit Pattaya",
-    "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping",
-    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
-    "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty"
+    "Rain bomb alert for Pattaya as Thailand braces for more rain",
+    "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty",
+    "Lee Sang-jun's Surprise 'First Kiss of 2026' in Thailand",
+    "Say ‘I do’ to Thailand’s mountain sunsets, city lights and sweeping sea views"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2825163,
       2833064,
       2900866,
-      2886545
+      2885633
     ]
   },
-  "last_update": "2026-10-05 04:09:29"
+  "last_update": "2026-10-05 11:28:19"
 }
