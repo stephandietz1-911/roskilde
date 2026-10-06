@@ -1,29 +1,29 @@
 {
   "currencies": {
-    "EUR": "37.75",
-    "EUR_trend": "→",
+    "EUR": "37.77",
+    "EUR_trend": "↑",
     "DKK": "5.05",
     "DKK_trend": "→",
-    "NOK": "3.48",
-    "NOK_trend": "→",
-    "USD": "33.57",
-    "USD_trend": "→",
-    "AUD": "23.32",
-    "AUD_trend": "→",
+    "NOK": "3.51",
+    "NOK_trend": "↑",
+    "USD": "33.69",
+    "USD_trend": "↑",
+    "AUD": "23.46",
+    "AUD_trend": "↑",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,892,540",
-    "BTC_trend": "↑"
+    "BTC": "2,875,570",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "31",
-    "wind_speed": "6",
-    "wind_dir": "ENE",
-    "aqi_value": "54",
+    "temp": "30",
+    "feels_like": "37",
+    "wind_speed": "4",
+    "wind_dir": "N",
+    "aqi_value": "53",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "1.6"
+    "uv_index": "3.2"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "Plankton bloom turns Thai island waters a bright, smelly green",
+    "Meeting elephants in Thailand: Here's what a responsible visit can look like",
     "How close is the Meltdown to Jomtien Beach?? | Pattaya Thailand",
     "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty",
-    "Lee Sang-jun's Surprise 'First Kiss of 2026' in Thailand",
-    "Rain bomb alert for Pattaya as Thailand braces for more rain"
+    "Thailand: After 286 days at sea, US sailors hit Pattaya"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2833064,
       2900866,
       2890478,
-      2892540
+      2875570
     ]
   },
-  "last_update": "2026-10-06 00:58:07"
+  "last_update": "2026-10-06 07:24:02"
 }
