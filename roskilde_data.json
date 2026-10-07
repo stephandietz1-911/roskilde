@@ -12,17 +12,17 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,802,609",
+    "BTC": "2,796,693",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "32",
-    "wind_speed": "3",
+    "temp": "24",
+    "feels_like": "29",
+    "wind_speed": "11",
     "wind_dir": "N",
-    "aqi_value": "49",
-    "aqi_status": "Good",
-    "aqi_color": "#10b981",
+    "aqi_value": "53",
+    "aqi_status": "Moderate",
+    "aqi_color": "#f59e0b",
     "uv_index": "0.0"
   },
   "alert": {
@@ -30,10 +30,10 @@
     "message": ""
   },
   "news": [
+    "Pattaya Land Expands Luxury Portfolio With New All-Suite Hotel Near Walking Street",
     "Plankton bloom turns Thai island waters a bright, smelly green",
     "How close is the Meltdown to Jomtien Beach?? | Pattaya Thailand",
     "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty",
-    "Thailand firefighters capture 13-foot snake with swollen belly at housing estate",
     "Thailand has had enough of foreign tourists behaving badly"
   ],
   "flights": [
@@ -455,8 +455,8 @@
       2900866,
       2890478,
       2874532,
-      2802609
+      2796693
     ]
   },
-  "last_update": "2026-10-07 16:46:29"
+  "last_update": "2026-10-07 21:46:09"
 }
