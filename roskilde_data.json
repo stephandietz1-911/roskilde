@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,789,472",
+    "BTC": "2,737,852",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "36",
-    "wind_speed": "11",
-    "wind_dir": "NW",
-    "aqi_value": "79",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
-    "uv_index": "5.8"
+    "temp": "27",
+    "feels_like": "33",
+    "wind_speed": "3",
+    "wind_dir": "N",
+    "aqi_value": "179",
+    "aqi_status": "Unhealthy",
+    "aqi_color": "#ef4444",
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -32,7 +32,7 @@
   "news": [
     "Pattaya Land Expands Luxury Portfolio With New All-Suite Hotel Near Walking Street",
     "Plankton bloom turns Thai island waters a bright, smelly green",
-    "Skydivers fly Thai flag in record attempt",
+    "Tyson Fury Inspiration for Young Fighters: Meliá Pattaya Hotel Packs a Punch with Muay Thai",
     "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty",
     "How close is the Meltdown to Jomtien Beach?? | Pattaya Thailand"
   ],
@@ -152,7 +152,8 @@
       37.71,
       37.752,
       37.836,
-      37.661
+      37.661,
+      37.68
     ],
     "USD": [
       33.315,
@@ -218,7 +219,8 @@
       33.5947,
       33.6951,
       33.5753,
-      33.6951
+      33.6951,
+      33.685
     ],
     "DKK": [
       5.0941,
@@ -284,7 +286,8 @@
       5.0458,
       5.0508,
       5.0619,
-      5.0386
+      5.0386,
+      5.0415
     ],
     "NOK": [
       3.4156,
@@ -350,7 +353,8 @@
       3.4815,
       3.5094,
       3.5105,
-      3.5158
+      3.5158,
+      3.5159
     ],
     "AUD": [
       23.1526,
@@ -416,7 +420,8 @@
       23.3123,
       23.4528,
       23.4424,
-      23.4225
+      23.4225,
+      23.3892
     ],
     "RUB": [],
     "BTC": [
@@ -449,8 +454,8 @@
       2900866,
       2890478,
       2874532,
-      2789472
+      2737852
     ]
   },
-  "last_update": "2026-10-08 07:59:21"
+  "last_update": "2026-10-08 15:30:10"
 }
