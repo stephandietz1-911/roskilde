@@ -1,40 +1,40 @@
 {
   "currencies": {
-    "EUR": "37.69",
-    "EUR_trend": "→",
+    "EUR": "37.71",
+    "EUR_trend": "↑",
     "DKK": "5.04",
     "DKK_trend": "→",
-    "NOK": "3.51",
-    "NOK_trend": "→",
-    "USD": "33.66",
-    "USD_trend": "→",
-    "AUD": "23.43",
-    "AUD_trend": "→",
+    "NOK": "3.52",
+    "NOK_trend": "↑",
+    "USD": "33.67",
+    "USD_trend": "↑",
+    "AUD": "23.41",
+    "AUD_trend": "↓",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,753,107",
+    "BTC": "2,774,879",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "32",
-    "wind_speed": "12",
-    "wind_dir": "ENE",
-    "aqi_value": "99",
+    "temp": "32",
+    "feels_like": "36",
+    "wind_speed": "11",
+    "wind_dir": "NNW",
+    "aqi_value": "73",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "1.6"
+    "uv_index": "6.8"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Thieves Hold Pattaya Expat at Gunpoint to Drain $820K in Crypto",
+    "Thailand claims world record for largest flag flown in freefall skydiving",
     "Plankton bloom turns Thai island waters a bright, smelly green",
-    "Pattaya Land Expands Luxury Portfolio With New All-Suite Hotel Near Walking Street",
-    "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty",
-    "Tyson Fury Inspiration for Young Fighters: Meliá Pattaya Hotel Packs a Punch with Muay Thai",
-    "How close is the Meltdown to Jomtien Beach?? | Pattaya Thailand"
+    "Tyson Fury inspiration for young fighters: Meliá Pattaya Hotel packs a punch with Muay Thai",
+    "Pattaya Land Expands Luxury Portfolio With New All-Suite Hotel Near Walking Street"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2874532,
       2799901,
       2748051,
-      2753107
+      2774879
     ]
   },
-  "last_update": "2026-10-09 00:58:38"
+  "last_update": "2026-10-09 07:17:34"
 }
