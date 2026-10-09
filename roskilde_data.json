@@ -12,28 +12,28 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,748,575",
-    "BTC_trend": "↓"
+    "BTC": "2,753,107",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "30",
-    "wind_speed": "8",
+    "temp": "28",
+    "feels_like": "32",
+    "wind_speed": "12",
     "wind_dir": "ENE",
-    "aqi_value": "129",
-    "aqi_status": "Unhealthy",
-    "aqi_color": "#ef4444",
-    "uv_index": "0.0"
+    "aqi_value": "99",
+    "aqi_status": "Moderate",
+    "aqi_color": "#f59e0b",
+    "uv_index": "1.6"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Pattaya Land Expands Luxury Portfolio With New All-Suite Hotel Near Walking Street",
     "Plankton bloom turns Thai island waters a bright, smelly green",
-    "Tyson Fury Inspiration for Young Fighters: Meliá Pattaya Hotel Packs a Punch with Muay Thai",
+    "Pattaya Land Expands Luxury Portfolio With New All-Suite Hotel Near Walking Street",
     "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty",
+    "Tyson Fury Inspiration for Young Fighters: Meliá Pattaya Hotel Packs a Punch with Muay Thai",
     "How close is the Meltdown to Jomtien Beach?? | Pattaya Thailand"
   ],
   "flights": [
@@ -425,7 +425,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2582599,
       2578644,
       2538007,
       2551970,
@@ -454,8 +453,10 @@
       2900866,
       2890478,
       2874532,
-      2748575
+      2799901,
+      2748051,
+      2753107
     ]
   },
-  "last_update": "2026-10-08 20:47:14"
+  "last_update": "2026-10-09 00:58:38"
 }
