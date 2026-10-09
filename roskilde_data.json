@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,794,247",
+    "BTC": "2,770,582",
     "BTC_trend": "↑"
   },
   "weather": {
     "temp": "27",
     "feels_like": "32",
-    "wind_speed": "10",
-    "wind_dir": "E",
-    "aqi_value": "79",
+    "wind_speed": "6",
+    "wind_dir": "ENE",
+    "aqi_value": "55",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
     "uv_index": "0.0"
@@ -32,9 +32,9 @@
   "news": [
     "Thieves Hold Pattaya Expat at Gunpoint to Drain $820K in Crypto",
     "Plankton bloom turns Thai island waters a bright, smelly green",
+    "Bangkok and Pattaya, back to back: the Thailand trip I’d plan again",
     "Thailand claims world record for largest flag flown in freefall skydiving",
-    "Tyson Fury inspiration for young fighters: Meliá Pattaya Hotel packs a punch with Muay Thai",
-    "Australian man accused of murdering Thai teenager and putting body in suitcase pleads not guilty"
+    "Tyson Fury inspiration for young fighters: Meliá Pattaya Hotel packs a punch with Muay Thai"
   ],
   "flights": [
     {
@@ -153,7 +153,8 @@
       37.752,
       37.836,
       37.661,
-      37.68
+      37.68,
+      37.574
     ],
     "USD": [
       33.315,
@@ -220,7 +221,8 @@
       33.6951,
       33.5753,
       33.6951,
-      33.685
+      33.685,
+      33.5303
     ],
     "DKK": [
       5.0941,
@@ -287,7 +289,8 @@
       5.0508,
       5.0619,
       5.0386,
-      5.0415
+      5.0415,
+      5.0266
     ],
     "NOK": [
       3.4156,
@@ -354,7 +357,8 @@
       3.5094,
       3.5105,
       3.5158,
-      3.5159
+      3.5159,
+      3.5065
     ],
     "AUD": [
       23.1526,
@@ -421,7 +425,8 @@
       23.4528,
       23.4424,
       23.4225,
-      23.3892
+      23.3892,
+      23.4077
     ],
     "RUB": [],
     "BTC": [
@@ -455,8 +460,8 @@
       2874532,
       2799901,
       2748051,
-      2794247
+      2770582
     ]
   },
-  "last_update": "2026-10-09 14:29:17"
+  "last_update": "2026-10-09 19:40:07"
 }
