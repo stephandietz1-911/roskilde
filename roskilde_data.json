@@ -12,17 +12,17 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,785,591",
+    "BTC": "2,786,750",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "25",
-    "feels_like": "31",
-    "wind_speed": "8",
-    "wind_dir": "NE",
-    "aqi_value": "48",
-    "aqi_status": "Good",
-    "aqi_color": "#10b981",
+    "temp": "24",
+    "feels_like": "27",
+    "wind_speed": "17",
+    "wind_dir": "ENE",
+    "aqi_value": "53",
+    "aqi_status": "Moderate",
+    "aqi_color": "#f59e0b",
     "uv_index": "0.0"
   },
   "alert": {
@@ -31,7 +31,7 @@
   },
   "news": [
     "In Thailand, car wash workers find a nearly 4-meter python camouflaged out back",
-    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "Plankton bloom turns Thai island waters a bright, smelly green",
     "Bangkok and Pattaya, back to back: the Thailand trip I’d plan again",
     "Thieves Hold Pattaya Expat at Gunpoint to Drain $820K in Crypto",
     "Thailand claims world record for largest flag flown in freefall skydiving"
@@ -460,8 +460,8 @@
       2799901,
       2748051,
       2772009,
-      2785591
+      2786750
     ]
   },
-  "last_update": "2026-10-10 19:32:00"
+  "last_update": "2026-10-10 22:57:03"
 }
