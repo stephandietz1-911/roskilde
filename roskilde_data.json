@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,804,566",
+    "BTC": "2,768,384",
     "BTC_trend": "↓"
   },
   "weather": {
     "temp": "26",
     "feels_like": "32",
-    "wind_speed": "9",
-    "wind_dir": "N",
-    "aqi_value": "49",
-    "aqi_status": "Good",
-    "aqi_color": "#10b981",
-    "uv_index": "3.1"
+    "wind_speed": "3",
+    "wind_dir": "NE",
+    "aqi_value": "52",
+    "aqi_status": "Moderate",
+    "aqi_color": "#f59e0b",
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "Suspects flee country after B37m robbery of Turk in Pattaya",
-    "Ticking time bomb as outbound travel levy threatens Thailand’s tourism economy",
+    "Chinese gang storms Turkish businessman's luxury home in Thailand, escapes with $1.3M",
+    "Thailand promotes science and innovation to improve farming in Kamphaeng Phet",
     "Pattaya heist gang flees Thailand with 37 million baht",
-    "Inside the preparations for the ‘Olympics of Finance’ in Bangkok",
-    "Thailand and Timor-Leste push rice trade deal and wider economic ties"
+    "Ticking time bomb as outbound travel levy threatens Thailand’s tourism economy"
   ],
   "flights": [
     {
@@ -152,7 +152,8 @@
       37.836,
       37.661,
       37.68,
-      37.574
+      37.574,
+      37.585
     ],
     "USD": [
       33.5248,
@@ -218,7 +219,8 @@
       33.5753,
       33.6951,
       33.685,
-      33.5303
+      33.5303,
+      33.6151
     ],
     "DKK": [
       5.1148,
@@ -284,7 +286,8 @@
       5.0619,
       5.0386,
       5.0415,
-      5.0266
+      5.0266,
+      5.0282
     ],
     "NOK": [
       3.4517,
@@ -350,7 +353,8 @@
       3.5105,
       3.5158,
       3.5159,
-      3.5065
+      3.5065,
+      3.5141
     ],
     "AUD": [
       23.2743,
@@ -416,7 +420,8 @@
       23.4424,
       23.4225,
       23.3892,
-      23.4077
+      23.4077,
+      23.4437
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +455,8 @@
       2772009,
       2783881,
       2810580,
-      2804566
+      2768384
     ]
   },
-  "last_update": "2026-10-12 09:11:28"
+  "last_update": "2026-10-12 19:03:45"
 }
