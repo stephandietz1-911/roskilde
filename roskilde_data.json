@@ -1,40 +1,36 @@
 {
   "currencies": {
-    "EUR": "37.60",
-    "EUR_trend": "→",
-    "DKK": "5.02",
-    "DKK_trend": "→",
-    "NOK": "3.50",
-    "NOK_trend": "→",
-    "USD": "33.57",
-    "USD_trend": "→",
-    "AUD": "23.40",
-    "AUD_trend": "→",
+    "EUR": "37.57",
+    "EUR_trend": "↓",
+    "DKK": "5.03",
+    "DKK_trend": "↑",
+    "NOK": "3.51",
+    "NOK_trend": "↑",
+    "USD": "33.53",
+    "USD_trend": "↓",
+    "AUD": "23.42",
+    "AUD_trend": "↑",
     "RUB": "0.39",
     "RUB_trend": "→",
-    "BTC": "2,806,080",
-    "BTC_trend": "↑"
+    "BTC": "2,808,457",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "31",
-    "wind_speed": "9",
-    "wind_dir": "NE",
-    "aqi_value": "39",
+    "temp": "28",
+    "feels_like": "32",
+    "wind_speed": "16",
+    "wind_dir": "ENE",
+    "aqi_value": "43",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "4.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "In Thailand, car wash workers find a nearly 4-meter python camouflaged out back",
-    "Two Nigerians arrested in Thailand for alleged cocaine possession, immigration violations",
-    "Bangkok and Pattaya, back to back: the Thailand trip I’d plan again",
-    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "Marriott signs deal for seven hotels in Thailand"
+    "ROS KILDE: Welcome to our Infotainment Portal."
   ],
   "flights": [
     {
@@ -89,7 +85,6 @@
   ],
   "history": {
     "EUR": [
-      38.139,
       38.235,
       38.375,
       38.489,
@@ -156,7 +151,6 @@
       37.574
     ],
     "USD": [
-      33.385,
       33.5248,
       33.6446,
       33.565,
@@ -223,7 +217,6 @@
       33.5303
     ],
     "DKK": [
-      5.1022,
       5.1148,
       5.1335,
       5.1488,
@@ -290,7 +283,6 @@
       5.0266
     ],
     "NOK": [
-      3.4176,
       3.4517,
       3.4585,
       3.4788,
@@ -357,7 +349,6 @@
       3.5065
     ],
     "AUD": [
-      23.1792,
       23.2743,
       23.4925,
       23.5234,
@@ -425,7 +416,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2551970,
       2553890,
       2542710,
       2597700,
@@ -455,8 +445,9 @@
       2748051,
       2772009,
       2783881,
-      2806080
+      2810580,
+      2808457
     ]
   },
-  "last_update": "2026-10-11 22:54:51"
+  "last_update": "2026-10-12 02:03:50"
 }
