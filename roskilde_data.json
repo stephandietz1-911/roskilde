@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,800,242",
+    "BTC": "2,802,295",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "33",
-    "wind_speed": "5",
-    "wind_dir": "ESE",
-    "aqi_value": "48",
+    "temp": "25",
+    "feels_like": "29",
+    "wind_speed": "8",
+    "wind_dir": "NNE",
+    "aqi_value": "46",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -30,11 +30,11 @@
     "message": ""
   },
   "news": [
-    "‘I want to punch him’: Family of Thai teen face to face with Australian murder accused",
+    "Suspects flee country after B37m robbery of Turk in Pattaya",
     "Thai-German pilot injured in small plane crash near Pattaya airfield",
     "Pattaya begins 3.5km road upgrade ahead of New Year",
     "What Thailand stands to gain from hosting the world’s financial leaders",
-    "Suspects flee country after B37m robbery of Turk in Pattaya"
+    "Heavy rain threatens western Thailand from October 13 to 16"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2783881,
       2810580,
       2749943,
-      2800242
+      2802295
     ]
   },
-  "last_update": "2026-10-13 15:57:56"
+  "last_update": "2026-10-13 21:06:46"
 }
