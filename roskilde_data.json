@@ -12,29 +12,29 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,819,887",
+    "BTC": "2,800,242",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "35",
-    "wind_speed": "12",
-    "wind_dir": "E",
-    "aqi_value": "63",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
-    "uv_index": "3.9"
+    "temp": "27",
+    "feels_like": "33",
+    "wind_speed": "5",
+    "wind_dir": "ESE",
+    "aqi_value": "48",
+    "aqi_status": "Good",
+    "aqi_color": "#10b981",
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Suspects flee country after B37m robbery of Turk in Pattaya",
+    "‘I want to punch him’: Family of Thai teen face to face with Australian murder accused",
+    "Thai-German pilot injured in small plane crash near Pattaya airfield",
     "Pattaya begins 3.5km road upgrade ahead of New Year",
     "What Thailand stands to gain from hosting the world’s financial leaders",
-    "Heavy rain threatens western Thailand from October 13 to 16",
-    "Thailand remembers King Bhumibol ten years after his passing"
+    "Suspects flee country after B37m robbery of Turk in Pattaya"
   ],
   "flights": [
     {
@@ -152,7 +152,8 @@
       37.661,
       37.68,
       37.574,
-      37.585
+      37.585,
+      37.58
     ],
     "USD": [
       33.6446,
@@ -218,7 +219,8 @@
       33.6951,
       33.685,
       33.5303,
-      33.6151
+      33.6151,
+      33.5896
     ],
     "DKK": [
       5.1335,
@@ -284,7 +286,8 @@
       5.0386,
       5.0415,
       5.0266,
-      5.0282
+      5.0282,
+      5.0272
     ],
     "NOK": [
       3.4585,
@@ -350,7 +353,8 @@
       3.5158,
       3.5159,
       3.5065,
-      3.5141
+      3.5141,
+      3.5225
     ],
     "AUD": [
       23.4925,
@@ -416,7 +420,8 @@
       23.4225,
       23.3892,
       23.4077,
-      23.4437
+      23.4437,
+      23.4392
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +455,8 @@
       2783881,
       2810580,
       2749943,
-      2819887
+      2800242
     ]
   },
-  "last_update": "2026-10-13 08:06:36"
+  "last_update": "2026-10-13 15:57:56"
 }
