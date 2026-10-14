@@ -1,40 +1,40 @@
 {
   "currencies": {
-    "EUR": "37.56",
-    "EUR_trend": "→",
+    "EUR": "37.57",
+    "EUR_trend": "↑",
     "DKK": "5.03",
     "DKK_trend": "→",
-    "NOK": "3.51",
-    "NOK_trend": "→",
-    "USD": "33.62",
-    "USD_trend": "→",
-    "AUD": "23.41",
-    "AUD_trend": "→",
+    "NOK": "3.52",
+    "NOK_trend": "↑",
+    "USD": "33.58",
+    "USD_trend": "↓",
+    "AUD": "23.43",
+    "AUD_trend": "↑",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,802,295",
+    "BTC": "2,798,969",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "25",
-    "feels_like": "29",
-    "wind_speed": "8",
-    "wind_dir": "NNE",
-    "aqi_value": "46",
+    "temp": "26",
+    "feels_like": "32",
+    "wind_speed": "5",
+    "wind_dir": "E",
+    "aqi_value": "41",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "0.9"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Suspects flee country after B37m robbery of Turk in Pattaya",
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "Grieving family faces accused Australian in Thai court over teen's killing, seeking death penalty",
+    "Australian man denies murder of Thai teenager in Pattaya suitcase case",
     "Thai-German pilot injured in small plane crash near Pattaya airfield",
-    "Pattaya begins 3.5km road upgrade ahead of New Year",
-    "What Thailand stands to gain from hosting the world’s financial leaders",
-    "Heavy rain threatens western Thailand from October 13 to 16"
+    "Grieving family faces accused Australian in Thai court over teen's killing, seeking death penalty"
   ],
   "flights": [
     {
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      38.375,
       38.489,
       38.462,
       38.42,
@@ -156,7 +155,6 @@
       37.58
     ],
     "USD": [
-      33.6446,
       33.565,
       33.6353,
       33.6251,
@@ -223,7 +221,6 @@
       33.5896
     ],
     "DKK": [
-      5.1335,
       5.1488,
       5.145,
       5.1394,
@@ -290,7 +287,6 @@
       5.0272
     ],
     "NOK": [
-      3.4585,
       3.4788,
       3.4842,
       3.4794,
@@ -357,7 +353,6 @@
       3.5225
     ],
     "AUD": [
-      23.4925,
       23.5234,
       23.461,
       23.5604,
@@ -425,7 +420,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2542710,
       2597700,
       2517698,
       2544181,
@@ -455,8 +449,9 @@
       2783881,
       2810580,
       2749943,
-      2802295
+      2789415,
+      2798969
     ]
   },
-  "last_update": "2026-10-13 21:06:46"
+  "last_update": "2026-10-14 00:17:32"
 }
