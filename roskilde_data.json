@@ -1,39 +1,39 @@
 {
   "currencies": {
     "EUR": "37.57",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.03",
     "DKK_trend": "→",
     "NOK": "3.52",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.58",
-    "USD_trend": "↓",
+    "USD_trend": "→",
     "AUD": "23.43",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,798,969",
+    "BTC": "2,807,256",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "32",
+    "temp": "29",
+    "feels_like": "36",
     "wind_speed": "5",
     "wind_dir": "E",
-    "aqi_value": "41",
+    "aqi_value": "39",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.9"
+    "uv_index": "4.6"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "Thailand Australia Killing",
     "Grieving family faces accused Australian in Thai court over teen's killing, seeking death penalty",
     "Australian man denies murder of Thai teenager in Pattaya suitcase case",
-    "Thai-German pilot injured in small plane crash near Pattaya airfield",
+    "Grieving family faces accused Australian in Thai court over teen's killing, seeking death penalty",
     "Grieving family faces accused Australian in Thai court over teen's killing, seeking death penalty"
   ],
   "flights": [
@@ -450,8 +450,8 @@
       2810580,
       2749943,
       2789415,
-      2798969
+      2807256
     ]
   },
-  "last_update": "2026-10-14 00:17:32"
+  "last_update": "2026-10-14 05:11:20"
 }
