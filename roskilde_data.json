@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,807,256",
+    "BTC": "2,790,926",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "36",
-    "wind_speed": "5",
-    "wind_dir": "E",
-    "aqi_value": "39",
+    "temp": "26",
+    "feels_like": "32",
+    "wind_speed": "4",
+    "wind_dir": "ESE",
+    "aqi_value": "42",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "4.6"
+    "uv_index": "1.1"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "Thailand Australia Killing",
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
     "Grieving family faces accused Australian in Thai court over teen's killing, seeking death penalty",
     "Australian man denies murder of Thai teenager in Pattaya suitcase case",
-    "Grieving family faces accused Australian in Thai court over teen's killing, seeking death penalty",
-    "Grieving family faces accused Australian in Thai court over teen's killing, seeking death penalty"
+    "Meliá Pattaya Hotel opens ‘The GALLERY’ social enterprise boutique supporting Thai artisans"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2810580,
       2749943,
       2789415,
-      2807256
+      2790926
     ]
   },
-  "last_update": "2026-10-14 05:11:20"
+  "last_update": "2026-10-14 10:13:46"
 }
