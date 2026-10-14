@@ -12,14 +12,14 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,744,204",
+    "BTC": "2,736,230",
     "BTC_trend": "↓"
   },
   "weather": {
     "temp": "25",
-    "feels_like": "32",
-    "wind_speed": "2",
-    "wind_dir": "ESE",
+    "feels_like": "31",
+    "wind_speed": "3",
+    "wind_dir": "ENE",
     "aqi_value": "34",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
@@ -31,8 +31,8 @@
   },
   "news": [
     "Grieving family faces accused Australian in Thai court over teen's killing, seeking death penalty",
-    "Thailand Australia Killing",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "Thailand Australia Killing",
     "Grieving family faces accused Australian in Thai court over teen's killing, seeking death penalty",
     "Australian man denies murder of Thai teenager in Pattaya suitcase case"
   ],
@@ -455,8 +455,8 @@
       2810580,
       2749943,
       2789415,
-      2744204
+      2736230
     ]
   },
-  "last_update": "2026-10-14 19:24:35"
+  "last_update": "2026-10-14 22:29:04"
 }
