@@ -12,29 +12,29 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,790,926",
-    "BTC_trend": "↑"
+    "BTC": "2,741,684",
+    "BTC_trend": "↓"
   },
   "weather": {
     "temp": "26",
     "feels_like": "32",
-    "wind_speed": "4",
-    "wind_dir": "ESE",
-    "aqi_value": "42",
+    "wind_speed": "5",
+    "wind_dir": "E",
+    "aqi_value": "36",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "1.1"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Grieving family faces accused Australian in Thai court over teen's killing, seeking death penalty",
     "Thailand Australia Killing",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
     "Grieving family faces accused Australian in Thai court over teen's killing, seeking death penalty",
-    "Australian man denies murder of Thai teenager in Pattaya suitcase case",
-    "Meliá Pattaya Hotel opens ‘The GALLERY’ social enterprise boutique supporting Thai artisans"
+    "Australian man denies murder of Thai teenager in Pattaya suitcase case"
   ],
   "flights": [
     {
@@ -152,7 +152,8 @@
       37.68,
       37.574,
       37.585,
-      37.58
+      37.58,
+      37.587
     ],
     "USD": [
       33.565,
@@ -218,7 +219,8 @@
       33.685,
       33.5303,
       33.6151,
-      33.5896
+      33.5896,
+      33.5748
     ],
     "DKK": [
       5.1488,
@@ -284,7 +286,8 @@
       5.0415,
       5.0266,
       5.0282,
-      5.0272
+      5.0272,
+      5.0281
     ],
     "NOK": [
       3.4788,
@@ -350,7 +353,8 @@
       3.5159,
       3.5065,
       3.5141,
-      3.5225
+      3.5225,
+      3.5448
     ],
     "AUD": [
       23.5234,
@@ -416,7 +420,8 @@
       23.3892,
       23.4077,
       23.4437,
-      23.4392
+      23.4392,
+      23.5345
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +455,8 @@
       2810580,
       2749943,
       2789415,
-      2790926
+      2741684
     ]
   },
-  "last_update": "2026-10-14 10:13:46"
+  "last_update": "2026-10-14 15:11:21"
 }
