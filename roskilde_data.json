@@ -1,29 +1,29 @@
 {
   "currencies": {
     "EUR": "37.56",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.03",
     "DKK_trend": "→",
     "NOK": "3.53",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.63",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.47",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,739,065",
+    "BTC": "2,721,954",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "27",
+    "temp": "26",
     "feels_like": "32",
-    "wind_speed": "6",
-    "wind_dir": "NE",
-    "aqi_value": "37",
+    "wind_speed": "10",
+    "wind_dir": "W",
+    "aqi_value": "41",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "1.9"
+    "uv_index": "8.1"
   },
   "alert": {
     "active": false,
@@ -32,8 +32,8 @@
   "news": [
     "Grieving family faces accused Australian in Thai court over teen's killing, seeking death penalty",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "Thailand Australia Killing",
     "Grieving family faces accused Australian in Thai court over teen's killing, seeking death penalty",
+    "Thailand Australia Killing",
     "Australian man denies murder of Thai teenager in Pattaya suitcase case"
   ],
   "flights": [
@@ -450,8 +450,8 @@
       2749943,
       2789415,
       2743719,
-      2739065
+      2721954
     ]
   },
-  "last_update": "2026-10-15 00:46:22"
+  "last_update": "2026-10-15 05:33:52"
 }
