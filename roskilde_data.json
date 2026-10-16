@@ -1,40 +1,40 @@
 {
   "currencies": {
     "EUR": "37.58",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.03",
     "DKK_trend": "→",
     "NOK": "3.53",
     "NOK_trend": "→",
     "USD": "33.53",
-    "USD_trend": "↓",
+    "USD_trend": "→",
     "AUD": "23.17",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,750,171",
+    "BTC": "2,749,229",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "31",
-    "feels_like": "39",
-    "wind_speed": "6",
-    "wind_dir": "WNW",
-    "aqi_value": "51",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
-    "uv_index": "7.8"
+    "temp": "29",
+    "feels_like": "36",
+    "wind_speed": "5",
+    "wind_dir": "ENE",
+    "aqi_value": "114",
+    "aqi_status": "Unhealthy",
+    "aqi_color": "#ef4444",
+    "uv_index": "1.1"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Grieving family faces accused Australian in Thai court over teen's killing, seeking death penalty",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "Australian man denies murder of Thai teenager in Pattaya suitcase case",
-    "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping",
-    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
+    "Grieving family faces accused Australian in Thai court over teen's killing, seeking death penalty",
+    "Thailand Australia Killing",
+    "Family of Thai teen sex worker found stuffed in suitcase faces her alleged killer in court, seeking death penalty",
+    "Australian man denies murder of Thai teenager in Pattaya suitcase case"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2789415,
       2743719,
       2753032,
-      2750171
+      2749229
     ]
   },
-  "last_update": "2026-10-16 05:01:21"
+  "last_update": "2026-10-16 09:48:15"
 }
