@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,000,000",
-    "BTC_trend": "→"
+    "BTC": "2,732,401",
+    "BTC_trend": "↓"
   },
   "weather": {
     "temp": "26",
     "feels_like": "33",
     "wind_speed": "4",
-    "wind_dir": "N",
-    "aqi_value": "56",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
-    "uv_index": "0.0"
+    "wind_dir": "NNE",
+    "aqi_value": "50",
+    "aqi_status": "Good",
+    "aqi_color": "#10b981",
+    "uv_index": "0.3"
   },
   "alert": {
     "active": false,
@@ -34,7 +34,7 @@
     "Grieving family faces accused Australian in Thai court over teen's killing, seeking death penalty",
     "Thailand Australia Killing",
     "Family of Thai teen sex worker found stuffed in suitcase faces her alleged killer in court, seeking death penalty",
-    "Australian man denies murder of Thai teenager in Pattaya suitcase case"
+    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
   ],
   "flights": [
     {
@@ -428,7 +428,40 @@
       23.1792,
       23.2527
     ],
-    "RUB": []
+    "RUB": [],
+    "BTC": [
+      2544181,
+      2540111,
+      2700925,
+      2713042,
+      2707799,
+      2877956,
+      2854391,
+      2821916,
+      2825607,
+      2813863,
+      2827307,
+      2823966,
+      2806614,
+      2806418,
+      2808994,
+      2855737,
+      2825163,
+      2833064,
+      2900866,
+      2890478,
+      2874532,
+      2799901,
+      2748051,
+      2772009,
+      2783881,
+      2810580,
+      2749943,
+      2789415,
+      2743719,
+      2753032,
+      2732401
+    ]
   },
-  "last_update": "2026-10-16 21:30:19"
+  "last_update": "2026-10-16 23:49:23"
 }
