@@ -12,17 +12,17 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,757,857",
-    "BTC_trend": "↑"
+    "BTC": "2,720,211",
+    "BTC_trend": "↓"
   },
   "weather": {
     "temp": "27",
-    "feels_like": "34",
+    "feels_like": "33",
     "wind_speed": "4",
-    "wind_dir": "ENE",
-    "aqi_value": "173",
-    "aqi_status": "Unhealthy",
-    "aqi_color": "#ef4444",
+    "wind_dir": "NNW",
+    "aqi_value": "81",
+    "aqi_status": "Moderate",
+    "aqi_color": "#f59e0b",
     "uv_index": "0.0"
   },
   "alert": {
@@ -32,9 +32,9 @@
   "news": [
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
     "Grieving family faces accused Australian in Thai court over teen's killing, seeking death penalty",
-    "Thailand Australia Killing",
     "Family of Thai teen sex worker found stuffed in suitcase faces her alleged killer in court, seeking death penalty",
-    "Australian man denies murder of Thai teenager in Pattaya suitcase case"
+    "Thailand Australia Killing",
+    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
   ],
   "flights": [
     {
@@ -460,8 +460,8 @@
       2789415,
       2743719,
       2753032,
-      2757857
+      2720211
     ]
   },
-  "last_update": "2026-10-16 14:32:06"
+  "last_update": "2026-10-16 18:22:08"
 }
