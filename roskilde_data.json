@@ -12,17 +12,17 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,720,191",
+    "BTC": "2,713,670",
     "BTC_trend": "↓"
   },
   "weather": {
     "temp": "26",
     "feels_like": "32",
-    "wind_speed": "11",
-    "wind_dir": "ENE",
-    "aqi_value": "69",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
+    "wind_speed": "6",
+    "wind_dir": "NE",
+    "aqi_value": "50",
+    "aqi_status": "Good",
+    "aqi_color": "#10b981",
     "uv_index": "0.0"
   },
   "alert": {
@@ -30,7 +30,11 @@
     "message": ""
   },
   "news": [
-    "ROS KILDE: Welcome to our Infotainment Portal."
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "Grieving family faces accused Australian in Thai court over teen's killing, seeking death penalty",
+    "Thailand Australia Killing",
+    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
+    "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping"
   ],
   "flights": [
     {
@@ -456,8 +460,8 @@
       2743719,
       2753032,
       2722890,
-      2720191
+      2713670
     ]
   },
-  "last_update": "2026-10-17 15:23:20"
+  "last_update": "2026-10-17 17:53:24"
 }
