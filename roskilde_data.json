@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,698,525",
+    "BTC": "2,692,757",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "26",
+    "temp": "25",
     "feels_like": "31",
-    "wind_speed": "10",
-    "wind_dir": "E",
-    "aqi_value": "41",
+    "wind_speed": "2",
+    "wind_dir": "NNE",
+    "aqi_value": "37",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -33,7 +33,7 @@
     "Pattaya motorcycle taxi drivers swap orange vests for blue",
     "IMF raises Asia-Pacific growth forecast to 4.8%, Thailand to 2.1%",
     "Thailand braces for eight days of heavy rain, with Chonburi at risk of flooding",
-    "Thailand and Singapore explore joint funding to grow startups in three future industries",
+    "Thai police review security operation after Bangkok hosts global financial leaders",
     "Pattaya City Expats Club Discussion Asks: Is Pattaya Finished – or Evolving?"
   ],
   "flights": [
@@ -455,8 +455,8 @@
       2753032,
       2722890,
       2708060,
-      2698525
+      2692757
     ]
   },
-  "last_update": "2026-10-18 18:57:38"
+  "last_update": "2026-10-18 21:20:21"
 }
