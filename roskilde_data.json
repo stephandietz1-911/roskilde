@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,771,158",
+    "BTC": "2,749,878",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "32",
-    "wind_speed": "14",
-    "wind_dir": "WSW",
-    "aqi_value": "37",
+    "temp": "26",
+    "feels_like": "31",
+    "wind_speed": "8",
+    "wind_dir": "SE",
+    "aqi_value": "40",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "6.5"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -34,7 +34,7 @@
     "Thailand wins praise from IMF and World Bank for outstanding hosting",
     "Thailand video news | Thailand seeks another 10.5 billion baht for flood victims, Pattaya cafe owner buys suspected burglar a beer before police arrest",
     "Wrong-way crash in Prachinburi kills Thai woman, leaves three injured",
-    "Viral footage shows woman clinging to car near Pattaya Walking Street"
+    "Pattaya Mail offers businesses a big festive-season opportunity for just 5,000 baht"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2722890,
       2708060,
       2747392,
-      2771158
+      2749878
     ]
   },
-  "last_update": "2026-10-19 06:51:25"
+  "last_update": "2026-10-19 14:20:38"
 }
