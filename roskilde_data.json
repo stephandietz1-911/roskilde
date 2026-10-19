@@ -1,29 +1,29 @@
 {
   "currencies": {
-    "EUR": "37.58",
-    "EUR_trend": "→",
+    "EUR": "37.54",
+    "EUR_trend": "↓",
     "DKK": "5.03",
     "DKK_trend": "→",
     "NOK": "3.54",
     "NOK_trend": "→",
-    "USD": "33.43",
-    "USD_trend": "→",
-    "AUD": "23.23",
-    "AUD_trend": "→",
+    "USD": "33.42",
+    "USD_trend": "↓",
+    "AUD": "23.27",
+    "AUD_trend": "↑",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,726,072",
+    "BTC": "2,761,364",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "25",
-    "feels_like": "31",
-    "wind_speed": "5",
-    "wind_dir": "NE",
-    "aqi_value": "40",
+    "temp": "28",
+    "feels_like": "32",
+    "wind_speed": "16",
+    "wind_dir": "ENE",
+    "aqi_value": "38",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "3.4"
   },
   "alert": {
     "active": false,
@@ -33,8 +33,8 @@
     "Pattaya motorcycle taxi drivers swap orange vests for blue",
     "Thailand wins praise from IMF and World Bank for outstanding hosting",
     "Wrong-way crash in Prachinburi kills Thai woman, leaves three injured",
-    "Thailand weather alert warns of flash floods in Bangkok, East and South",
-    "Thailand secures 20 million baht for a fair transition to Net Zero"
+    "Thailand secures 20 million baht for a fair transition to Net Zero",
+    "Alibaba invites Pattaya community to Navami prayers and blessings"
   ],
   "flights": [
     {
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      38.42,
       38.439,
       38.57,
       38.533,
@@ -156,7 +155,6 @@
       37.602
     ],
     "USD": [
-      33.6251,
       33.6653,
       33.8096,
       33.8246,
@@ -223,7 +221,6 @@
       33.4151
     ],
     "DKK": [
-      5.1394,
       5.1419,
       5.1594,
       5.1544,
@@ -290,7 +287,6 @@
       5.0305
     ],
     "NOK": [
-      3.4794,
       3.4986,
       3.5233,
       3.5182,
@@ -357,7 +353,6 @@
       3.5393
     ],
     "AUD": [
-      23.5604,
       23.617,
       23.6452,
       23.6529,
@@ -425,7 +420,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2700925,
       2713042,
       2707799,
       2877956,
@@ -455,8 +449,9 @@
       2753032,
       2722890,
       2708060,
-      2726072
+      2747392,
+      2761364
     ]
   },
-  "last_update": "2026-10-18 23:28:57"
+  "last_update": "2026-10-19 01:33:59"
 }
