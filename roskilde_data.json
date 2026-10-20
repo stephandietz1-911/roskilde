@@ -1,29 +1,29 @@
 {
   "currencies": {
-    "EUR": "37.54",
-    "EUR_trend": "→",
-    "DKK": "5.03",
-    "DKK_trend": "→",
-    "NOK": "3.54",
-    "NOK_trend": "→",
-    "USD": "33.42",
-    "USD_trend": "→",
-    "AUD": "23.27",
-    "AUD_trend": "→",
-    "RUB": "0.40",
-    "RUB_trend": "→",
-    "BTC": "2,747,695",
-    "BTC_trend": "↑"
+    "EUR": "37.65",
+    "EUR_trend": "↑",
+    "DKK": "5.04",
+    "DKK_trend": "↑",
+    "NOK": "3.56",
+    "NOK_trend": "↑",
+    "USD": "33.57",
+    "USD_trend": "↑",
+    "AUD": "23.44",
+    "AUD_trend": "↑",
+    "RUB": "0.41",
+    "RUB_trend": "↑",
+    "BTC": "2,740,431",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "31",
-    "wind_speed": "6",
-    "wind_dir": "ESE",
-    "aqi_value": "29",
+    "temp": "29",
+    "feels_like": "35",
+    "wind_speed": "4",
+    "wind_dir": "ENE",
+    "aqi_value": "30",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.1"
+    "uv_index": "3.9"
   },
   "alert": {
     "active": false,
@@ -31,9 +31,9 @@
   },
   "news": [
     "Pattaya motorcycle taxi drivers swap orange vests for blue",
+    "Heavy rain floods Sukhumvit Road in South Pattaya, traffic slows",
     "Thailand wins praise from IMF and World Bank for outstanding hosting",
-    "Thailand video news | Thailand seeks another 10.5 billion baht for flood victims, Pattaya cafe owner buys suspected burglar a beer before police arrest",
-    "Wrong-way crash in Prachinburi kills Thai woman, leaves three injured",
+    "Thai police seize 687 laughing gas cylinders in Sathorn raid",
     "Pattaya Mail offers businesses a big festive-season opportunity for just 5,000 baht"
   ],
   "flights": [
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      38.439,
       38.57,
       38.533,
       38.329,
@@ -156,7 +155,6 @@
       37.665
     ],
     "USD": [
-      33.6653,
       33.8096,
       33.8246,
       33.6899,
@@ -223,7 +221,6 @@
       33.5546
     ],
     "DKK": [
-      5.1419,
       5.1594,
       5.1544,
       5.1272,
@@ -290,7 +287,6 @@
       5.039
     ],
     "NOK": [
-      3.4986,
       3.5233,
       3.5182,
       3.5203,
@@ -357,7 +353,6 @@
       3.5683
     ],
     "AUD": [
-      23.617,
       23.6452,
       23.6529,
       23.5422,
@@ -425,7 +420,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2713042,
       2707799,
       2877956,
       2854391,
@@ -455,8 +449,9 @@
       2722890,
       2708060,
       2747392,
-      2747695
+      2750436,
+      2740431
     ]
   },
-  "last_update": "2026-10-19 23:40:44"
+  "last_update": "2026-10-20 02:05:57"
 }
