@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,782,216",
+    "BTC": "2,782,681",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "32",
-    "wind_speed": "5",
-    "wind_dir": "E",
-    "aqi_value": "30",
+    "temp": "25",
+    "feels_like": "31",
+    "wind_speed": "7",
+    "wind_dir": "SE",
+    "aqi_value": "32",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -31,10 +31,10 @@
   },
   "news": [
     "Pattaya motorcycle taxis say new blue vests cost them passengers",
-    "Thailand offers tour transport subsidies of up to 40,000 baht",
-    "US Embassy brings America’s 250th independence celebrations to Bangkok",
-    "Mekong nations meet in Pattaya to combat regional drug trafficking",
-    "Anutin calls for long-term flood solutions after Suphan Buri inspection"
+    "Thailand sets 14 guidelines for Loy Krathong 2026 celebrations",
+    "Thailand’s Andaman islands reopen for a new season of travel",
+    "Thailand reassures Chinese tourists after embassy safety advisory",
+    "Thailand consumer agency recovers over 7 million baht through mediation"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2708060,
       2747392,
       2750436,
-      2782216
+      2782681
     ]
   },
-  "last_update": "2026-10-20 17:54:12"
+  "last_update": "2026-10-20 21:15:46"
 }
