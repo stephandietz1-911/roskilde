@@ -12,17 +12,17 @@
     "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,841,297",
+    "BTC": "2,848,089",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "33",
-    "wind_speed": "3",
-    "wind_dir": "WNW",
-    "aqi_value": "45",
-    "aqi_status": "Good",
-    "aqi_color": "#10b981",
+    "temp": "25",
+    "feels_like": "30",
+    "wind_speed": "5",
+    "wind_dir": "ENE",
+    "aqi_value": "55",
+    "aqi_status": "Moderate",
+    "aqi_color": "#f59e0b",
     "uv_index": "0.0"
   },
   "alert": {
@@ -31,10 +31,10 @@
   },
   "news": [
     "Pattaya motorcycle taxis say new blue vests cost them passengers",
-    "Dr Darin Phanthusak named among Thailand’s 50 most influential personalities",
-    "Thailand reassures Chinese tourists after embassy safety advisory",
-    "Thailand sets 14 guidelines for Loy Krathong 2026 celebrations",
-    "Thailand’s Andaman islands reopen for a new season of travel"
+    "Thailand prepares Suphannahong Royal Barge for November 6 procession",
+    "Thailand reviews anti-corruption practices in push for OECD membership",
+    "Thailand’s Amazing Multi-Racing Festival brings beach life to three destinations",
+    "Eight Chinese nationals arrested after crossing into Thailand from Laos"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2747392,
       2750436,
       2788339,
-      2841297
+      2848089
     ]
   },
-  "last_update": "2026-10-21 18:56:15"
+  "last_update": "2026-10-21 22:09:30"
 }
