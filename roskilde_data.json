@@ -1,29 +1,29 @@
 {
   "currencies": {
     "EUR": "37.74",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.05",
-    "DKK_trend": "↑",
+    "DKK_trend": "→",
     "NOK": "3.58",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.62",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.52",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,779,336",
-    "BTC_trend": "↓"
+    "BTC": "2,802,908",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "38",
-    "wind_speed": "4",
-    "wind_dir": "SW",
-    "aqi_value": "48",
-    "aqi_status": "Good",
-    "aqi_color": "#10b981",
-    "uv_index": "8.1"
+    "temp": "29",
+    "feels_like": "34",
+    "wind_speed": "8",
+    "wind_dir": "WSW",
+    "aqi_value": "51",
+    "aqi_status": "Moderate",
+    "aqi_color": "#f59e0b",
+    "uv_index": "1.9"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "Pattaya motorcycle taxis say new blue vests cost them passengers",
+    "Thailand eyes lasting economic gains after successful IMF–World Bank meetings",
     "Thailand reassures Chinese tourists after embassy safety advisory",
-    "Thailand’s Andaman islands reopen for a new season of travel",
-    "Thailand sets 14 guidelines for Loy Krathong 2026 celebrations",
-    "Thailand’s IMF–World Bank meetings set attendance record with 19,000 delegates"
+    "Thailand targets 1,397 entities suspected of illegal nominee landholdings",
+    "Thailand sets 14 guidelines for Loy Krathong 2026 celebrations"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2747392,
       2750436,
       2788339,
-      2779336
+      2802908
     ]
   },
-  "last_update": "2026-10-21 04:45:04"
+  "last_update": "2026-10-21 09:41:26"
 }
