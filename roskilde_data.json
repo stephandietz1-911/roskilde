@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,782,681",
+    "BTC": "2,787,004",
     "BTC_trend": "↑"
   },
   "weather": {
     "temp": "25",
     "feels_like": "31",
-    "wind_speed": "7",
+    "wind_speed": "6",
     "wind_dir": "SE",
-    "aqi_value": "32",
+    "aqi_value": "42",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "0.6"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "Pattaya motorcycle taxis say new blue vests cost them passengers",
-    "Thailand sets 14 guidelines for Loy Krathong 2026 celebrations",
-    "Thailand’s Andaman islands reopen for a new season of travel",
+    "Thailand’s IMF–World Bank meetings set attendance record with 19,000 delegates",
     "Thailand reassures Chinese tourists after embassy safety advisory",
-    "Thailand consumer agency recovers over 7 million baht through mediation"
+    "Thailand’s Andaman islands reopen for a new season of travel",
+    "Thailand sets 14 guidelines for Loy Krathong 2026 celebrations"
   ],
   "flights": [
     {
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      38.57,
       38.533,
       38.329,
       38.244,
@@ -156,7 +155,6 @@
       37.738
     ],
     "USD": [
-      33.8096,
       33.8246,
       33.6899,
       33.5798,
@@ -223,7 +221,6 @@
       33.6496
     ],
     "DKK": [
-      5.1594,
       5.1544,
       5.1272,
       5.1161,
@@ -290,7 +287,6 @@
       5.0488
     ],
     "NOK": [
-      3.5233,
       3.5182,
       3.5203,
       3.4816,
@@ -357,7 +353,6 @@
       3.5857
     ],
     "AUD": [
-      23.6452,
       23.6529,
       23.5422,
       23.5044,
@@ -455,8 +450,8 @@
       2708060,
       2747392,
       2750436,
-      2782681
+      2787004
     ]
   },
-  "last_update": "2026-10-20 21:15:46"
+  "last_update": "2026-10-21 00:01:10"
 }
