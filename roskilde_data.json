@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,802,908",
+    "BTC": "2,823,763",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "29",
+    "temp": "27",
     "feels_like": "34",
-    "wind_speed": "8",
-    "wind_dir": "WSW",
-    "aqi_value": "51",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
-    "uv_index": "1.9"
+    "wind_speed": "3",
+    "wind_dir": "SSW",
+    "aqi_value": "49",
+    "aqi_status": "Good",
+    "aqi_color": "#10b981",
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "Pattaya motorcycle taxis say new blue vests cost them passengers",
-    "Thailand eyes lasting economic gains after successful IMF–World Bank meetings",
+    "Dr Darin Phanthusak named among Thailand’s 50 most influential personalities",
     "Thailand reassures Chinese tourists after embassy safety advisory",
-    "Thailand targets 1,397 entities suspected of illegal nominee landholdings",
-    "Thailand sets 14 guidelines for Loy Krathong 2026 celebrations"
+    "Thailand sets 14 guidelines for Loy Krathong 2026 celebrations",
+    "Thailand’s Andaman islands reopen for a new season of travel"
   ],
   "flights": [
     {
@@ -152,7 +152,8 @@
       37.592,
       37.602,
       37.665,
-      37.738
+      37.738,
+      37.718
     ],
     "USD": [
       33.8246,
@@ -218,7 +219,8 @@
       33.5403,
       33.4151,
       33.5546,
-      33.6496
+      33.6496,
+      33.5749
     ],
     "DKK": [
       5.1544,
@@ -284,7 +286,8 @@
       5.029,
       5.0305,
       5.039,
-      5.0488
+      5.0488,
+      5.0462
     ],
     "NOK": [
       3.5182,
@@ -350,7 +353,8 @@
       3.5291,
       3.5393,
       3.5683,
-      3.5857
+      3.5857,
+      3.5881
     ],
     "AUD": [
       23.6529,
@@ -416,7 +420,8 @@
       23.1792,
       23.2527,
       23.441,
-      23.504
+      23.504,
+      23.6166
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +455,8 @@
       2747392,
       2750436,
       2788339,
-      2802908
+      2823763
     ]
   },
-  "last_update": "2026-10-21 09:41:26"
+  "last_update": "2026-10-21 14:40:44"
 }
