@@ -1,29 +1,29 @@
 {
   "currencies": {
-    "EUR": "37.65",
-    "EUR_trend": "→",
-    "DKK": "5.04",
-    "DKK_trend": "→",
-    "NOK": "3.56",
-    "NOK_trend": "→",
-    "USD": "33.57",
-    "USD_trend": "→",
-    "AUD": "23.44",
-    "AUD_trend": "→",
+    "EUR": "37.74",
+    "EUR_trend": "↑",
+    "DKK": "5.05",
+    "DKK_trend": "↑",
+    "NOK": "3.58",
+    "NOK_trend": "↑",
+    "USD": "33.62",
+    "USD_trend": "↑",
+    "AUD": "23.52",
+    "AUD_trend": "↑",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,787,004",
-    "BTC_trend": "↑"
+    "BTC": "2,779,336",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "25",
-    "feels_like": "31",
-    "wind_speed": "6",
-    "wind_dir": "SE",
-    "aqi_value": "42",
+    "temp": "30",
+    "feels_like": "38",
+    "wind_speed": "4",
+    "wind_dir": "SW",
+    "aqi_value": "48",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.6"
+    "uv_index": "8.1"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "Pattaya motorcycle taxis say new blue vests cost them passengers",
-    "Thailand’s IMF–World Bank meetings set attendance record with 19,000 delegates",
     "Thailand reassures Chinese tourists after embassy safety advisory",
     "Thailand’s Andaman islands reopen for a new season of travel",
-    "Thailand sets 14 guidelines for Loy Krathong 2026 celebrations"
+    "Thailand sets 14 guidelines for Loy Krathong 2026 celebrations",
+    "Thailand’s IMF–World Bank meetings set attendance record with 19,000 delegates"
   ],
   "flights": [
     {
@@ -420,7 +420,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2707799,
       2877956,
       2854391,
       2821916,
@@ -450,8 +449,9 @@
       2708060,
       2747392,
       2750436,
-      2787004
+      2788339,
+      2779336
     ]
   },
-  "last_update": "2026-10-21 00:01:10"
+  "last_update": "2026-10-21 04:45:04"
 }
