@@ -12,28 +12,28 @@
     "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,754,452",
+    "BTC": "2,739,456",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "33",
-    "wind_speed": "11",
-    "wind_dir": "ENE",
-    "aqi_value": "133",
+    "temp": "26",
+    "feels_like": "32",
+    "wind_speed": "6",
+    "wind_dir": "E",
+    "aqi_value": "117",
     "aqi_status": "Unhealthy",
     "aqi_color": "#ef4444",
-    "uv_index": "0.6"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Pattaya’s blue taxi vests face U-turn after just six days",
-    "Thailand partners with 17 companies to expand jobs for senior citizens",
-    "Thailand video news | App Fee Crackdown, Pad Kra Pao Lawsuit, Pattaya Thief Escapes Police",
+    "Pattaya motorcycle taxis say new blue vests cost them passengers",
+    "Thailand’s Amazing Multi-Racing Festival brings beach life to three destinations",
     "Chinese gambling suspect, wife and fake Thai father charged with citizenship fraud in Pattaya",
+    "Thailand video news | App Fee Crackdown, Pad Kra Pao Lawsuit, Pattaya Thief Escapes Police",
     "Pattaya raids target 12 firms in 800m baht nominee land probe"
   ],
   "flights": [
@@ -152,7 +152,8 @@
       37.602,
       37.665,
       37.738,
-      37.718
+      37.718,
+      37.811
     ],
     "USD": [
       33.6899,
@@ -218,7 +219,8 @@
       33.4151,
       33.5546,
       33.6496,
-      33.5749
+      33.5749,
+      33.7448
     ],
     "DKK": [
       5.1272,
@@ -284,7 +286,8 @@
       5.0305,
       5.039,
       5.0488,
-      5.0462
+      5.0462,
+      5.0585
     ],
     "NOK": [
       3.5203,
@@ -350,7 +353,8 @@
       3.5393,
       3.5683,
       3.5857,
-      3.5881
+      3.5881,
+      3.6052
     ],
     "AUD": [
       23.5422,
@@ -416,7 +420,8 @@
       23.2527,
       23.441,
       23.504,
-      23.6166
+      23.6166,
+      23.6615
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +455,8 @@
       2750436,
       2788339,
       2823861,
-      2754452
+      2739456
     ]
   },
-  "last_update": "2026-10-22 10:25:37"
+  "last_update": "2026-10-22 15:28:40"
 }
