@@ -1,40 +1,40 @@
 {
   "currencies": {
     "EUR": "37.72",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.05",
     "DKK_trend": "→",
     "NOK": "3.59",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.59",
-    "USD_trend": "↓",
+    "USD_trend": "→",
     "AUD": "23.61",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,829,775",
-    "BTC_trend": "↑"
+    "BTC": "2,780,916",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "32",
-    "wind_speed": "8",
+    "temp": "31",
+    "feels_like": "38",
+    "wind_speed": "6",
     "wind_dir": "NE",
-    "aqi_value": "57",
+    "aqi_value": "60",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "1.4"
+    "uv_index": "8.2"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Pattaya motorcycle taxis say new blue vests cost them passengers",
+    "Chinese Red Notice suspect arrested in Pattaya as DNA probe uncovers paternity case",
+    "Thailand video news | App Fee Crackdown, Pad Kra Pao Lawsuit, Pattaya Thief Escapes Police",
     "Thailand’s Amazing Multi-Racing Festival brings beach life to three destinations",
     "Thailand prepares Suphannahong Royal Barge for November 6 procession",
-    "Eight Chinese nationals arrested after crossing into Thailand from Laos",
-    "Thailand reviews anti-corruption practices in push for OECD membership"
+    "Pattaya raids target 12 firms in 800m baht nominee land probe"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2750436,
       2788339,
       2823861,
-      2829775
+      2780916
     ]
   },
-  "last_update": "2026-10-22 00:41:09"
+  "last_update": "2026-10-22 05:23:51"
 }
