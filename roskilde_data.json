@@ -12,17 +12,17 @@
     "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,739,456",
+    "BTC": "2,731,869",
     "BTC_trend": "↓"
   },
   "weather": {
     "temp": "26",
     "feels_like": "32",
-    "wind_speed": "6",
+    "wind_speed": "4",
     "wind_dir": "E",
-    "aqi_value": "117",
-    "aqi_status": "Unhealthy",
-    "aqi_color": "#ef4444",
+    "aqi_value": "72",
+    "aqi_status": "Moderate",
+    "aqi_color": "#f59e0b",
     "uv_index": "0.0"
   },
   "alert": {
@@ -32,8 +32,8 @@
   "news": [
     "Pattaya motorcycle taxis say new blue vests cost them passengers",
     "Thailand’s Amazing Multi-Racing Festival brings beach life to three destinations",
-    "Chinese gambling suspect, wife and fake Thai father charged with citizenship fraud in Pattaya",
     "Thailand video news | App Fee Crackdown, Pad Kra Pao Lawsuit, Pattaya Thief Escapes Police",
+    "Chinese gambling suspect, wife and fake Thai father charged with citizenship fraud in Pattaya",
     "Pattaya raids target 12 firms in 800m baht nominee land probe"
   ],
   "flights": [
@@ -455,8 +455,8 @@
       2750436,
       2788339,
       2823861,
-      2739456
+      2731869
     ]
   },
-  "last_update": "2026-10-22 15:28:40"
+  "last_update": "2026-10-22 19:22:38"
 }
