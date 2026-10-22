@@ -1,29 +1,29 @@
 {
   "currencies": {
-    "EUR": "37.74",
-    "EUR_trend": "→",
+    "EUR": "37.72",
+    "EUR_trend": "↓",
     "DKK": "5.05",
     "DKK_trend": "→",
-    "NOK": "3.58",
-    "NOK_trend": "→",
-    "USD": "33.62",
-    "USD_trend": "→",
-    "AUD": "23.52",
-    "AUD_trend": "→",
+    "NOK": "3.59",
+    "NOK_trend": "↑",
+    "USD": "33.59",
+    "USD_trend": "↓",
+    "AUD": "23.61",
+    "AUD_trend": "↑",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,848,089",
+    "BTC": "2,829,775",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "25",
-    "feels_like": "30",
-    "wind_speed": "5",
-    "wind_dir": "ENE",
-    "aqi_value": "55",
+    "temp": "27",
+    "feels_like": "32",
+    "wind_speed": "8",
+    "wind_dir": "NE",
+    "aqi_value": "57",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "0.0"
+    "uv_index": "1.4"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "Pattaya motorcycle taxis say new blue vests cost them passengers",
-    "Thailand prepares Suphannahong Royal Barge for November 6 procession",
-    "Thailand reviews anti-corruption practices in push for OECD membership",
     "Thailand’s Amazing Multi-Racing Festival brings beach life to three destinations",
-    "Eight Chinese nationals arrested after crossing into Thailand from Laos"
+    "Thailand prepares Suphannahong Royal Barge for November 6 procession",
+    "Eight Chinese nationals arrested after crossing into Thailand from Laos",
+    "Thailand reviews anti-corruption practices in push for OECD membership"
   ],
   "flights": [
     {
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      38.533,
       38.329,
       38.244,
       38.204,
@@ -156,7 +155,6 @@
       37.718
     ],
     "USD": [
-      33.8246,
       33.6899,
       33.5798,
       33.6096,
@@ -223,7 +221,6 @@
       33.5749
     ],
     "DKK": [
-      5.1544,
       5.1272,
       5.1161,
       5.1108,
@@ -290,7 +287,6 @@
       5.0462
     ],
     "NOK": [
-      3.5182,
       3.5203,
       3.4816,
       3.4714,
@@ -357,7 +353,6 @@
       3.5881
     ],
     "AUD": [
-      23.6529,
       23.5422,
       23.5044,
       23.4208,
@@ -425,7 +420,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2877956,
       2854391,
       2821916,
       2825607,
@@ -455,8 +449,9 @@
       2747392,
       2750436,
       2788339,
-      2848089
+      2823861,
+      2829775
     ]
   },
-  "last_update": "2026-10-21 22:09:30"
+  "last_update": "2026-10-22 00:41:09"
 }
