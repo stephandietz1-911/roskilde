@@ -12,28 +12,28 @@
     "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,780,916",
+    "BTC": "2,754,452",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "31",
-    "feels_like": "38",
-    "wind_speed": "6",
-    "wind_dir": "NE",
-    "aqi_value": "60",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
-    "uv_index": "8.2"
+    "temp": "28",
+    "feels_like": "33",
+    "wind_speed": "11",
+    "wind_dir": "ENE",
+    "aqi_value": "133",
+    "aqi_status": "Unhealthy",
+    "aqi_color": "#ef4444",
+    "uv_index": "0.6"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Chinese Red Notice suspect arrested in Pattaya as DNA probe uncovers paternity case",
+    "Pattaya’s blue taxi vests face U-turn after just six days",
+    "Thailand partners with 17 companies to expand jobs for senior citizens",
     "Thailand video news | App Fee Crackdown, Pad Kra Pao Lawsuit, Pattaya Thief Escapes Police",
-    "Thailand’s Amazing Multi-Racing Festival brings beach life to three destinations",
-    "Thailand prepares Suphannahong Royal Barge for November 6 procession",
+    "Chinese gambling suspect, wife and fake Thai father charged with citizenship fraud in Pattaya",
     "Pattaya raids target 12 firms in 800m baht nominee land probe"
   ],
   "flights": [
@@ -450,8 +450,8 @@
       2750436,
       2788339,
       2823861,
-      2780916
+      2754452
     ]
   },
-  "last_update": "2026-10-22 05:23:51"
+  "last_update": "2026-10-22 10:25:37"
 }
