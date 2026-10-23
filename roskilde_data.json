@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,739,996",
+    "BTC": "2,734,937",
     "BTC_trend": "↓"
   },
   "weather": {
     "temp": "25",
     "feels_like": "30",
-    "wind_speed": "8",
+    "wind_speed": "10",
     "wind_dir": "E",
-    "aqi_value": "74",
+    "aqi_value": "58",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
     "uv_index": "0.0"
@@ -30,11 +30,11 @@
     "message": ""
   },
   "news": [
-    "Pattaya bike taxis switch back to orange after just five days in blue",
-    "Chinese Red Notice suspect arrested in Pattaya as DNA probe uncovers paternity case",
+    "Pattaya motorcycle taxi riders may recoup costs after uniform reversal",
     "Thailand and New Zealand expand regional cooperation on carbon markets",
-    "Beer-lured theft suspect caught after court escape left owner afraid",
-    "Thailand showcases wellness tourism at ITB Asia 2026 in Singapore"
+    "Koh Larn draws holiday crowds during Thailand’s three-day break",
+    "Thailand BOI investment applications jump 37% to 1.47 trillion baht",
+    "Princess Ubolratana performs at Bangkok’s Amazing Thailand music festival"
   ],
   "flights": [
     {
@@ -460,8 +460,8 @@
       2788339,
       2823861,
       2743282,
-      2739996
+      2734937
     ]
   },
-  "last_update": "2026-10-23 19:33:33"
+  "last_update": "2026-10-23 22:38:46"
 }
