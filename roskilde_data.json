@@ -1,29 +1,29 @@
 {
   "currencies": {
     "EUR": "37.82",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.06",
-    "DKK_trend": "↑",
+    "DKK_trend": "→",
     "NOK": "3.61",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.73",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.66",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,746,921",
+    "BTC": "2,757,198",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "34",
-    "wind_speed": "5",
-    "wind_dir": "NE",
-    "aqi_value": "71",
+    "temp": "30",
+    "feels_like": "36",
+    "wind_speed": "12",
+    "wind_dir": "WNW",
+    "aqi_value": "66",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "1.9"
+    "uv_index": "8.1"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "Pattaya bike taxis switch back to orange after just five days in blue",
+    "Chinese Red Notice suspect arrested in Pattaya as DNA probe uncovers paternity case",
+    "Thailand showcases wellness tourism at ITB Asia 2026 in Singapore",
     "Thailand video news | App Fee Crackdown, Pad Kra Pao Lawsuit, Pattaya Thief Escapes Police",
-    "Thailand’s Amazing Multi-Racing Festival brings beach life to three destinations",
-    "Chinese gambling suspect, wife and fake Thai father charged with citizenship fraud in Pattaya",
-    "Pattaya raids target 12 firms in 800m baht nominee land probe"
+    "Thailand accelerates OECD membership plans with three-year target"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2788339,
       2823861,
       2743282,
-      2746921
+      2757198
     ]
   },
-  "last_update": "2026-10-23 00:57:41"
+  "last_update": "2026-10-23 05:51:22"
 }
