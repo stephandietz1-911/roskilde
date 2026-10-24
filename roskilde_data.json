@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,712,452",
+    "BTC": "2,696,790",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "28",
+    "temp": "27",
     "feels_like": "33",
-    "wind_speed": "6",
+    "wind_speed": "7",
     "wind_dir": "SE",
-    "aqi_value": "53",
+    "aqi_value": "51",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
     "uv_index": "0.0"
@@ -30,11 +30,11 @@
     "message": ""
   },
   "news": [
+    "Pattaya motorcycle taxi riders may recoup costs after uniform reversal",
     "Thailand’s new accommodation law faces questions over safety and oversight",
+    "Beer-lured theft suspect caught after court escape left owner afraid",
     "Koh Larn draws holiday crowds during Thailand’s three-day break",
-    "Thailand and New Zealand expand regional cooperation on carbon markets",
-    "Princess Ubolratana performs at Bangkok’s Amazing Thailand music festival",
-    "USS Abraham Lincoln: US sailors unwind in Thailand by shopping and bar-hopping"
+    "Thailand and New Zealand expand regional cooperation on carbon markets"
   ],
   "flights": [
     {
@@ -460,8 +460,8 @@
       2823861,
       2743282,
       2727951,
-      2712452
+      2696790
     ]
   },
-  "last_update": "2026-10-24 14:04:41"
+  "last_update": "2026-10-24 17:27:00"
 }
