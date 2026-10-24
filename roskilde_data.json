@@ -1,40 +1,40 @@
 {
   "currencies": {
-    "EUR": "37.82",
-    "EUR_trend": "→",
+    "EUR": "37.81",
+    "EUR_trend": "↓",
     "DKK": "5.06",
     "DKK_trend": "→",
     "NOK": "3.61",
     "NOK_trend": "→",
-    "USD": "33.73",
-    "USD_trend": "→",
-    "AUD": "23.66",
-    "AUD_trend": "→",
+    "USD": "33.76",
+    "USD_trend": "↑",
+    "AUD": "23.73",
+    "AUD_trend": "↑",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,734,937",
+    "BTC": "2,710,054",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "25",
-    "feels_like": "30",
+    "temp": "29",
+    "feels_like": "34",
     "wind_speed": "10",
-    "wind_dir": "E",
+    "wind_dir": "ESE",
     "aqi_value": "58",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "0.0"
+    "uv_index": "2.2"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Pattaya motorcycle taxi riders may recoup costs after uniform reversal",
+    "Pattaya bike taxis switch back to orange after just five days in blue",
+    "Chinese Red Notice suspect arrested in Pattaya as DNA probe uncovers paternity case",
     "Thailand and New Zealand expand regional cooperation on carbon markets",
-    "Koh Larn draws holiday crowds during Thailand’s three-day break",
-    "Thailand BOI investment applications jump 37% to 1.47 trillion baht",
-    "Princess Ubolratana performs at Bangkok’s Amazing Thailand music festival"
+    "Beer-lured theft suspect caught after court escape left owner afraid",
+    "Koh Larn draws holiday crowds during Thailand’s three-day break"
   ],
   "flights": [
     {
@@ -430,7 +430,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2821916,
       2825607,
       2813863,
       2827307,
@@ -460,8 +459,9 @@
       2788339,
       2823861,
       2743282,
-      2734937
+      2727951,
+      2710054
     ]
   },
-  "last_update": "2026-10-23 22:38:46"
+  "last_update": "2026-10-24 01:06:57"
 }
