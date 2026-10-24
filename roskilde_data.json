@@ -1,39 +1,39 @@
 {
   "currencies": {
     "EUR": "37.81",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.06",
     "DKK_trend": "→",
     "NOK": "3.61",
     "NOK_trend": "→",
     "USD": "33.76",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.73",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,710,054",
+    "BTC": "2,713,968",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "34",
-    "wind_speed": "10",
-    "wind_dir": "ESE",
-    "aqi_value": "58",
+    "temp": "32",
+    "feels_like": "38",
+    "wind_speed": "11",
+    "wind_dir": "SSW",
+    "aqi_value": "59",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "2.2"
+    "uv_index": "8.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Pattaya bike taxis switch back to orange after just five days in blue",
-    "Chinese Red Notice suspect arrested in Pattaya as DNA probe uncovers paternity case",
-    "Thailand and New Zealand expand regional cooperation on carbon markets",
-    "Beer-lured theft suspect caught after court escape left owner afraid",
+    "Pattaya motorcycle taxi riders may recoup costs after uniform reversal",
+    "Thailand’s new accommodation law faces questions over safety and oversight",
+    "Pattaya police investigate death of Chinese man after fall from condominium",
+    "Thailand’s Q3 economy stalls under flood pressure and rising household costs",
     "Koh Larn draws holiday crowds during Thailand’s three-day break"
   ],
   "flights": [
@@ -460,8 +460,8 @@
       2823861,
       2743282,
       2727951,
-      2710054
+      2713968
     ]
   },
-  "last_update": "2026-10-24 01:06:57"
+  "last_update": "2026-10-24 05:52:42"
 }
