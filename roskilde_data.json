@@ -9,32 +9,32 @@
     "USD": "33.76",
     "USD_trend": "→",
     "AUD": "23.71",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,717,685",
+    "BTC": "2,695,745",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "32",
-    "feels_like": "38",
-    "wind_speed": "7",
-    "wind_dir": "SSE",
-    "aqi_value": "36",
+    "temp": "30",
+    "feels_like": "35",
+    "wind_speed": "10",
+    "wind_dir": "S",
+    "aqi_value": "40",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "7.8"
+    "uv_index": "2.2"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Chinese fugitive held in Pattaya, child may lose Thai nationality",
-    "Thailand promotes high-value nature tourism while protecting national parks",
+    "Pattaya motorcycle taxi riders may recoup costs after uniform reversal",
     "Funeral options in Thailand for expats outlined at Pattaya City Expats Club",
     "Thailand targets Italian luxury travellers with year-round tourism strategy",
-    "Child carried to safety after police negotiate release under Bangkok bridge"
+    "Chinese fugitive held in Pattaya, child may lose Thai nationality",
+    "Thailand conference seeks solutions for 273 million children out of school"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2743282,
       2727951,
       2718138,
-      2717685
+      2695745
     ]
   },
-  "last_update": "2026-10-25 04:27:21"
+  "last_update": "2026-10-25 09:18:23"
 }
