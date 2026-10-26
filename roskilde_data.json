@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.42",
     "RUB_trend": "→",
-    "BTC": "2,696,314",
+    "BTC": "2,690,653",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "32",
-    "wind_speed": "5",
-    "wind_dir": "E",
-    "aqi_value": "48",
+    "temp": "25",
+    "feels_like": "29",
+    "wind_speed": "8",
+    "wind_dir": "ENE",
+    "aqi_value": "49",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -33,8 +33,8 @@
     "Thailand sets 30–45-day payment limits for large businesses dealing with SMEs",
     "Mother asks police to re-examine her daughter’s fall from Pattaya condo",
     "Thailand faces heavy rain and flood risks under fourth weather warning",
-    "Pattaya beaches draw holiday crowds under sunny late-rainy-season skies",
-    "Thailand expands motorway and railway networks to cut congestion and logistics costs"
+    "Thailand plans 50,000-baht solar subsidy for one million households",
+    "Pattaya beaches draw holiday crowds under sunny late-rainy-season skies"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2727951,
       2718138,
       2689288,
-      2696314
+      2690653
     ]
   },
-  "last_update": "2026-10-26 17:31:20"
+  "last_update": "2026-10-26 21:52:29"
 }
