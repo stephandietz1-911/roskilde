@@ -1,29 +1,29 @@
 {
   "currencies": {
     "EUR": "37.84",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.05",
-    "DKK_trend": "↓",
+    "DKK_trend": "→",
     "NOK": "3.62",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.76",
     "USD_trend": "→",
     "AUD": "23.73",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.42",
-    "RUB_trend": "↑",
-    "BTC": "2,693,852",
-    "BTC_trend": "↑"
+    "RUB_trend": "→",
+    "BTC": "2,689,169",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "34",
-    "wind_speed": "7",
-    "wind_dir": "ESE",
-    "aqi_value": "43",
+    "temp": "31",
+    "feels_like": "40",
+    "wind_speed": "5",
+    "wind_dir": "SSE",
+    "aqi_value": "44",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "1.3"
+    "uv_index": "8.1"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "Pattaya motorcycle taxi riders may recoup costs after uniform reversal",
-    "Funeral options in Thailand for expats outlined at Pattaya City Expats Club",
-    "Thailand targets Italian luxury travellers with year-round tourism strategy",
-    "Thailand conference seeks solutions for 273 million children out of school",
-    "Chinese fugitive held in Pattaya, child may lose Thai nationality"
+    "Thailand sets 30–45-day payment limits for large businesses dealing with SMEs",
+    "Mother asks police to re-examine her daughter’s fall from Pattaya condo",
+    "Brit in Pattaya crash as car catches fire, red-light run alleged",
+    "Funeral options in Thailand for expats outlined at Pattaya City Expats Club"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2727951,
       2718138,
       2689288,
-      2693852
+      2689169
     ]
   },
-  "last_update": "2026-10-26 00:32:53"
+  "last_update": "2026-10-26 05:19:13"
 }
