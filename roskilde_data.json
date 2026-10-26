@@ -12,17 +12,17 @@
     "AUD_trend": "→",
     "RUB": "0.42",
     "RUB_trend": "→",
-    "BTC": "2,693,867",
+    "BTC": "2,696,314",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "27",
+    "temp": "26",
     "feels_like": "32",
-    "wind_speed": "9",
-    "wind_dir": "ESE",
-    "aqi_value": "83",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
+    "wind_speed": "5",
+    "wind_dir": "E",
+    "aqi_value": "48",
+    "aqi_status": "Good",
+    "aqi_color": "#10b981",
     "uv_index": "0.0"
   },
   "alert": {
@@ -30,11 +30,11 @@
     "message": ""
   },
   "news": [
+    "Thailand sets 30–45-day payment limits for large businesses dealing with SMEs",
     "Mother asks police to re-examine her daughter’s fall from Pattaya condo",
-    "Funeral options in Thailand for expats outlined at Pattaya City Expats Club",
-    "Brit in Pattaya crash as car catches fire, red-light run alleged",
-    "Chinese man, 61, found dead after fall from Pattaya condominium",
-    "Pattaya officials mediate dispute over bar bill involving two American men"
+    "Thailand faces heavy rain and flood risks under fourth weather warning",
+    "Pattaya beaches draw holiday crowds under sunny late-rainy-season skies",
+    "Thailand expands motorway and railway networks to cut congestion and logistics costs"
   ],
   "flights": [
     {
@@ -152,7 +152,8 @@
       37.738,
       37.718,
       37.811,
-      37.771
+      37.771,
+      37.821
     ],
     "USD": [
       33.6096,
@@ -218,7 +219,8 @@
       33.6496,
       33.5749,
       33.7448,
-      33.7452
+      33.7452,
+      33.805
     ],
     "DKK": [
       5.1108,
@@ -284,7 +286,8 @@
       5.0488,
       5.0462,
       5.0585,
-      5.0531
+      5.0531,
+      5.0599
     ],
     "NOK": [
       3.4714,
@@ -350,7 +353,8 @@
       3.5857,
       3.5881,
       3.6052,
-      3.6088
+      3.6088,
+      3.6177
     ],
     "AUD": [
       23.4208,
@@ -416,7 +420,8 @@
       23.504,
       23.6166,
       23.6615,
-      23.6972
+      23.6972,
+      23.7465
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +455,8 @@
       2727951,
       2718138,
       2689288,
-      2693867
+      2696314
     ]
   },
-  "last_update": "2026-10-26 11:22:40"
+  "last_update": "2026-10-26 17:31:20"
 }
