@@ -1,29 +1,29 @@
 {
   "currencies": {
-    "EUR": "37.81",
-    "EUR_trend": "→",
-    "DKK": "5.06",
-    "DKK_trend": "→",
-    "NOK": "3.61",
-    "NOK_trend": "→",
+    "EUR": "37.84",
+    "EUR_trend": "↑",
+    "DKK": "5.05",
+    "DKK_trend": "↓",
+    "NOK": "3.62",
+    "NOK_trend": "↑",
     "USD": "33.76",
     "USD_trend": "→",
-    "AUD": "23.71",
-    "AUD_trend": "→",
-    "RUB": "0.41",
-    "RUB_trend": "→",
-    "BTC": "2,704,152",
-    "BTC_trend": "↓"
+    "AUD": "23.73",
+    "AUD_trend": "↑",
+    "RUB": "0.42",
+    "RUB_trend": "↑",
+    "BTC": "2,693,852",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "31",
-    "wind_speed": "6",
+    "temp": "28",
+    "feels_like": "34",
+    "wind_speed": "7",
     "wind_dir": "ESE",
     "aqi_value": "43",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "1.3"
   },
   "alert": {
     "active": false,
@@ -32,9 +32,9 @@
   "news": [
     "Pattaya motorcycle taxi riders may recoup costs after uniform reversal",
     "Funeral options in Thailand for expats outlined at Pattaya City Expats Club",
-    "Chinese fugitive held in Pattaya, child may lose Thai nationality",
     "Thailand targets Italian luxury travellers with year-round tourism strategy",
-    "Thailand conference seeks solutions for 273 million children out of school"
+    "Thailand conference seeks solutions for 273 million children out of school",
+    "Chinese fugitive held in Pattaya, child may lose Thai nationality"
   ],
   "flights": [
     {
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      38.244,
       38.204,
       38.157,
       38.496,
@@ -156,7 +155,6 @@
       37.771
     ],
     "USD": [
-      33.5798,
       33.6096,
       33.5299,
       33.5448,
@@ -223,7 +221,6 @@
       33.7452
     ],
     "DKK": [
-      5.1161,
       5.1108,
       5.1048,
       5.15,
@@ -290,7 +287,6 @@
       5.0531
     ],
     "NOK": [
-      3.4816,
       3.4714,
       3.4694,
       3.5074,
@@ -357,7 +353,6 @@
       3.6088
     ],
     "AUD": [
-      23.5044,
       23.4208,
       23.2707,
       23.4175,
@@ -425,7 +420,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2813863,
       2827307,
       2823966,
       2806614,
@@ -455,8 +449,9 @@
       2743282,
       2727951,
       2718138,
-      2704152
+      2689288,
+      2693852
     ]
   },
-  "last_update": "2026-10-25 22:17:54"
+  "last_update": "2026-10-26 00:32:53"
 }
