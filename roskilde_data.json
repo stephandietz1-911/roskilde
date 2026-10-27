@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.42",
     "RUB_trend": "→",
-    "BTC": "2,696,239",
-    "BTC_trend": "↓"
+    "BTC": "2,705,010",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "32",
-    "feels_like": "37",
-    "wind_speed": "10",
-    "wind_dir": "E",
-    "aqi_value": "55",
+    "temp": "28",
+    "feels_like": "32",
+    "wind_speed": "9",
+    "wind_dir": "ENE",
+    "aqi_value": "94",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "7.5"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "Israeli man arrested in Thailand on suspicion of drugging women, secretly filming sex",
-    "MICHELIN Guide recognizes four remarkable hotels across Thailand",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "Thailand to host month-long Grand Diwali Festival across Bangkok, Pattaya and Phuket this November",
-    "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment"
+    "MICHELIN Guide recognizes four remarkable hotels across Thailand",
+    "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment",
+    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2718138,
       2689288,
       2703314,
-      2696239
+      2705010
     ]
   },
-  "last_update": "2026-10-27 06:15:56"
+  "last_update": "2026-10-27 12:32:23"
 }
