@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.42",
     "RUB_trend": "→",
-    "BTC": "2,720,938",
+    "BTC": "2,730,499",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "30",
-    "wind_speed": "12",
+    "temp": "26",
+    "feels_like": "29",
+    "wind_speed": "13",
     "wind_dir": "ENE",
-    "aqi_value": "65",
+    "aqi_value": "60",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
     "uv_index": "0.0"
@@ -31,10 +31,10 @@
   },
   "news": [
     "Pattaya motorcycle taxi drivers ditch blue vests for 550 baht refunds",
-    "Thailand proposes extending daily rail fare pass scheme through 2027",
-    "Thailand plans 50,000-baht solar subsidy for one million households",
-    "Thailand faces heavy rain and flood risks under fourth weather warning",
-    "Mother asks police to re-examine her daughter’s fall from Pattaya condo"
+    "Thailand sees more business closures despite growth in new registrations",
+    "Pattaya Bikini Beach Race marks 10th anniversary with 5,000 runners on Halloween",
+    "Thailand proposes five-year renewal of gun licenses under firearms bill",
+    "Thailand proposes extending daily rail fare pass scheme through 2027"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2718138,
       2689288,
       2703314,
-      2720938
+      2730499
     ]
   },
-  "last_update": "2026-10-27 18:16:51"
+  "last_update": "2026-10-27 22:28:36"
 }
