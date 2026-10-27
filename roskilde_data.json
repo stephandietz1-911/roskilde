@@ -1,40 +1,40 @@
 {
   "currencies": {
     "EUR": "37.79",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.06",
-    "DKK_trend": "↑",
+    "DKK_trend": "→",
     "NOK": "3.62",
     "NOK_trend": "→",
     "USD": "33.79",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.72",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.42",
     "RUB_trend": "→",
-    "BTC": "2,709,203",
-    "BTC_trend": "↑"
+    "BTC": "2,696,239",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "32",
-    "wind_speed": "12",
-    "wind_dir": "NE",
-    "aqi_value": "51",
+    "temp": "32",
+    "feels_like": "37",
+    "wind_speed": "10",
+    "wind_dir": "E",
+    "aqi_value": "55",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "2.1"
+    "uv_index": "7.5"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Thailand sets 30–45-day payment limits for large businesses dealing with SMEs",
-    "Mother asks police to re-examine her daughter’s fall from Pattaya condo",
-    "Thailand proposes extending daily rail fare pass scheme through 2027",
-    "Thailand plans 50,000-baht solar subsidy for one million households",
-    "Thailand faces heavy rain and flood risks under fourth weather warning"
+    "Israeli man arrested in Thailand on suspicion of drugging women, secretly filming sex",
+    "MICHELIN Guide recognizes four remarkable hotels across Thailand",
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "Thailand to host month-long Grand Diwali Festival across Bangkok, Pattaya and Phuket this November",
+    "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2718138,
       2689288,
       2703314,
-      2709203
+      2696239
     ]
   },
-  "last_update": "2026-10-27 01:08:28"
+  "last_update": "2026-10-27 06:15:56"
 }
