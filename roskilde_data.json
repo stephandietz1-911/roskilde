@@ -1,29 +1,29 @@
 {
   "currencies": {
-    "EUR": "37.84",
-    "EUR_trend": "→",
-    "DKK": "5.05",
-    "DKK_trend": "→",
+    "EUR": "37.79",
+    "EUR_trend": "↓",
+    "DKK": "5.06",
+    "DKK_trend": "↑",
     "NOK": "3.62",
     "NOK_trend": "→",
-    "USD": "33.76",
-    "USD_trend": "→",
-    "AUD": "23.73",
-    "AUD_trend": "→",
+    "USD": "33.79",
+    "USD_trend": "↑",
+    "AUD": "23.72",
+    "AUD_trend": "↓",
     "RUB": "0.42",
     "RUB_trend": "→",
-    "BTC": "2,690,653",
+    "BTC": "2,709,203",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "25",
-    "feels_like": "29",
-    "wind_speed": "8",
-    "wind_dir": "ENE",
-    "aqi_value": "49",
-    "aqi_status": "Good",
-    "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "temp": "27",
+    "feels_like": "32",
+    "wind_speed": "12",
+    "wind_dir": "NE",
+    "aqi_value": "51",
+    "aqi_status": "Moderate",
+    "aqi_color": "#f59e0b",
+    "uv_index": "2.1"
   },
   "alert": {
     "active": false,
@@ -32,9 +32,9 @@
   "news": [
     "Thailand sets 30–45-day payment limits for large businesses dealing with SMEs",
     "Mother asks police to re-examine her daughter’s fall from Pattaya condo",
-    "Thailand faces heavy rain and flood risks under fourth weather warning",
+    "Thailand proposes extending daily rail fare pass scheme through 2027",
     "Thailand plans 50,000-baht solar subsidy for one million households",
-    "Pattaya beaches draw holiday crowds under sunny late-rainy-season skies"
+    "Thailand faces heavy rain and flood risks under fourth weather warning"
   ],
   "flights": [
     {
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      38.204,
       38.157,
       38.496,
       38.435,
@@ -156,7 +155,6 @@
       37.821
     ],
     "USD": [
-      33.6096,
       33.5299,
       33.5448,
       33.4654,
@@ -223,7 +221,6 @@
       33.805
     ],
     "DKK": [
-      5.1108,
       5.1048,
       5.15,
       5.1417,
@@ -290,7 +287,6 @@
       5.0599
     ],
     "NOK": [
-      3.4714,
       3.4694,
       3.5074,
       3.5126,
@@ -357,7 +353,6 @@
       3.6177
     ],
     "AUD": [
-      23.4208,
       23.2707,
       23.4175,
       23.4861,
@@ -425,7 +420,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2827307,
       2823966,
       2806614,
       2806418,
@@ -455,8 +449,9 @@
       2727951,
       2718138,
       2689288,
-      2690653
+      2703314,
+      2709203
     ]
   },
-  "last_update": "2026-10-26 21:52:29"
+  "last_update": "2026-10-27 01:08:28"
 }
