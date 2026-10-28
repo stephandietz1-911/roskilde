@@ -12,29 +12,29 @@
     "AUD_trend": "→",
     "RUB": "0.42",
     "RUB_trend": "→",
-    "BTC": "2,731,521",
-    "BTC_trend": "↑"
+    "BTC": "2,720,931",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "33",
-    "wind_speed": "9",
-    "wind_dir": "SE",
-    "aqi_value": "54",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
-    "uv_index": "5.8"
+    "temp": "26",
+    "feels_like": "32",
+    "wind_speed": "4",
+    "wind_dir": "NE",
+    "aqi_value": "45",
+    "aqi_status": "Good",
+    "aqi_color": "#10b981",
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Family members speak out as USS Lincoln docks in Thailand after record 9 months at sea",
     "Israeli man arrested in Thailand on suspicion of drugging women, secretly filming sex",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
     "Foreigner falls to death from Pattaya condo",
-    "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment",
-    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
+    "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2689288,
       2703314,
       2730644,
-      2731521
+      2720931
     ]
   },
-  "last_update": "2026-10-28 07:26:01"
+  "last_update": "2026-10-28 14:17:56"
 }
