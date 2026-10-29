@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.42",
     "RUB_trend": "→",
-    "BTC": "2,700,571",
-    "BTC_trend": "↓"
+    "BTC": "2,745,587",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "33",
-    "wind_speed": "6",
-    "wind_dir": "ENE",
-    "aqi_value": "55",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
-    "uv_index": "0.2"
+    "temp": "26",
+    "feels_like": "31",
+    "wind_speed": "7",
+    "wind_dir": "ESE",
+    "aqi_value": "47",
+    "aqi_status": "Good",
+    "aqi_color": "#10b981",
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -32,9 +32,9 @@
   "news": [
     "Israeli man arrested in Thailand on suspicion of drugging women, secretly filming sex",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "Grieving family faces accused Australian in Thai court over teen's killing, seeking death penalty",
     "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment",
-    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
+    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
+    "Why US soldiers continue to flock to Thailand’s Pattaya"
   ],
   "flights": [
     {
@@ -152,7 +152,8 @@
       37.771,
       37.821,
       37.654,
-      37.602
+      37.602,
+      37.569
     ],
     "USD": [
       33.4654,
@@ -218,7 +219,8 @@
       33.7452,
       33.805,
       33.7704,
-      33.7753
+      33.7753,
+      33.7547
     ],
     "DKK": [
       5.1417,
@@ -284,7 +286,8 @@
       5.0531,
       5.0599,
       5.0379,
-      5.031
+      5.031,
+      5.0269
     ],
     "NOK": [
       3.5126,
@@ -350,7 +353,8 @@
       3.6088,
       3.6177,
       3.6246,
-      3.6339
+      3.6339,
+      3.6364
     ],
     "AUD": [
       23.4861,
@@ -416,7 +420,8 @@
       23.6972,
       23.7465,
       23.7475,
-      23.7536
+      23.7536,
+      23.7148
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +455,8 @@
       2703314,
       2730644,
       2739231,
-      2700571
+      2745587
     ]
   },
-  "last_update": "2026-10-29 09:21:41"
+  "last_update": "2026-10-29 16:19:37"
 }
