@@ -1,29 +1,29 @@
 {
   "currencies": {
-    "EUR": "37.63",
-    "EUR_trend": "→",
-    "DKK": "5.04",
-    "DKK_trend": "→",
-    "NOK": "3.62",
-    "NOK_trend": "→",
+    "EUR": "37.62",
+    "EUR_trend": "↓",
+    "DKK": "5.03",
+    "DKK_trend": "↓",
+    "NOK": "3.64",
+    "NOK_trend": "↑",
     "USD": "33.77",
     "USD_trend": "→",
-    "AUD": "23.74",
-    "AUD_trend": "→",
+    "AUD": "23.77",
+    "AUD_trend": "↑",
     "RUB": "0.42",
     "RUB_trend": "→",
-    "BTC": "2,746,793",
-    "BTC_trend": "↑"
+    "BTC": "2,691,142",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "30",
-    "wind_speed": "11",
+    "temp": "30",
+    "feels_like": "34",
+    "wind_speed": "17",
     "wind_dir": "NE",
-    "aqi_value": "49",
+    "aqi_value": "46",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.1"
+    "uv_index": "5.8"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "Israeli man arrested in Thailand on suspicion of drugging women, secretly filming sex",
-    "Foreigner falls to death from Pattaya condo",
-    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment",
-    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
+    "Grieving family faces accused Australian in Thai court over teen's killing, seeking death penalty",
+    "Plankton bloom turns Thai island waters a bright, smelly green",
+    "Grieving family faces accused Australian in Thai court over teen's killing, seeking death penalty",
+    "Foreigner falls to death from Pattaya condo"
   ],
   "flights": [
     {
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      38.496,
       38.435,
       38.452,
       38.385,
@@ -156,7 +155,6 @@
       37.602
     ],
     "USD": [
-      33.5448,
       33.4654,
       33.3351,
       33.3348,
@@ -223,7 +221,6 @@
       33.7753
     ],
     "DKK": [
-      5.15,
       5.1417,
       5.1441,
       5.1348,
@@ -290,7 +287,6 @@
       5.031
     ],
     "NOK": [
-      3.5074,
       3.5126,
       3.4967,
       3.4919,
@@ -357,7 +353,6 @@
       3.6339
     ],
     "AUD": [
-      23.4175,
       23.4861,
       23.3566,
       23.4384,
@@ -425,7 +420,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2806614,
       2806418,
       2808994,
       2855737,
@@ -455,8 +449,9 @@
       2689288,
       2703314,
       2730644,
-      2746793
+      2739231,
+      2691142
     ]
   },
-  "last_update": "2026-10-28 23:36:47"
+  "last_update": "2026-10-29 02:53:19"
 }
