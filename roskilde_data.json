@@ -1,29 +1,29 @@
 {
   "currencies": {
     "EUR": "37.67",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.04",
-    "DKK_trend": "↑",
+    "DKK_trend": "→",
     "NOK": "3.66",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.74",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.72",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.42",
     "RUB_trend": "→",
-    "BTC": "2,607,795",
-    "BTC_trend": "↑"
+    "BTC": "2,603,091",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "37",
-    "wind_speed": "3",
-    "wind_dir": "ENE",
-    "aqi_value": "33",
+    "temp": "28",
+    "feels_like": "34",
+    "wind_speed": "2",
+    "wind_dir": "NW",
+    "aqi_value": "48",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "4.8"
+    "uv_index": "2.1"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "Israeli man arrested in Thailand on suspicion of drugging women, secretly filming sex",
-    "Simon Carman: Perth man accused of killing Thai teen says he’s not an ‘evil monster’",
+    "Israeli arrested in Thailand for allegedly drugging women",
     "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment",
-    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
+    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
+    "Why US soldiers continue to flock to Thailand’s Pattaya"
   ],
   "flights": [
     {
@@ -460,8 +460,8 @@
       2739231,
       2624637,
       2603965,
-      2607795
+      2603091
     ]
   },
-  "last_update": "2026-10-31 02:21:43"
+  "last_update": "2026-10-31 08:39:46"
 }
