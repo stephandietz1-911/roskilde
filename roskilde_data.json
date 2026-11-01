@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.42",
     "RUB_trend": "→",
-    "BTC": "2,616,846",
+    "BTC": "2,611,506",
     "BTC_trend": "↑"
   },
   "weather": {
     "temp": "26",
     "feels_like": "31",
-    "wind_speed": "9",
+    "wind_speed": "6",
     "wind_dir": "ESE",
-    "aqi_value": "88",
+    "aqi_value": "55",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
     "uv_index": "0.0"
@@ -30,8 +30,8 @@
     "message": ""
   },
   "news": [
+    "Family members speak out as USS Lincoln docks in Thailand after record 9 months at sea",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "Indian tourist offered herbal product for ₹1,000 in Thailand, allegedly charged over ₹75,000 on credit card | Trending",
     "Chinese tourists and Thai restroom attendants clash in Pattaya",
     "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment",
     "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
@@ -455,8 +455,8 @@
       2624637,
       2603965,
       2600439,
-      2616846
+      2611506
     ]
   },
-  "last_update": "2026-11-01 14:44:33"
+  "last_update": "2026-11-01 19:13:59"
 }
