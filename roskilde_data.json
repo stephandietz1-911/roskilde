@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.42",
     "RUB_trend": "→",
-    "BTC": "2,611,573",
+    "BTC": "2,616,846",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "36",
-    "wind_speed": "5",
-    "wind_dir": "NNW",
-    "aqi_value": "46",
-    "aqi_status": "Good",
-    "aqi_color": "#10b981",
-    "uv_index": "5.2"
+    "temp": "26",
+    "feels_like": "31",
+    "wind_speed": "9",
+    "wind_dir": "ESE",
+    "aqi_value": "88",
+    "aqi_status": "Moderate",
+    "aqi_color": "#f59e0b",
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "Chinese tourists and Thai restroom attendants clash in Pattaya",
     "Indian tourist offered herbal product for ₹1,000 in Thailand, allegedly charged over ₹75,000 on credit card | Trending",
-    "Israeli man arrested in Thailand on suspicion of drugging women, secretly filming sex",
-    "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment"
+    "Chinese tourists and Thai restroom attendants clash in Pattaya",
+    "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment",
+    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2624637,
       2603965,
       2600439,
-      2611573
+      2616846
     ]
   },
-  "last_update": "2026-11-01 07:51:33"
+  "last_update": "2026-11-01 14:44:33"
 }
