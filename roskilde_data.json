@@ -1,29 +1,29 @@
 {
   "currencies": {
-    "EUR": "37.66",
-    "EUR_trend": "→",
+    "EUR": "37.67",
+    "EUR_trend": "↑",
     "DKK": "5.04",
     "DKK_trend": "→",
     "NOK": "3.66",
     "NOK_trend": "→",
-    "USD": "33.74",
-    "USD_trend": "→",
-    "AUD": "23.72",
-    "AUD_trend": "→",
+    "USD": "33.76",
+    "USD_trend": "↑",
+    "AUD": "23.73",
+    "AUD_trend": "↑",
     "RUB": "0.42",
     "RUB_trend": "→",
-    "BTC": "2,610,187",
+    "BTC": "2,644,016",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "25",
-    "feels_like": "30",
-    "wind_speed": "2",
-    "wind_dir": "E",
-    "aqi_value": "54",
+    "temp": "29",
+    "feels_like": "35",
+    "wind_speed": "4",
+    "wind_dir": "N",
+    "aqi_value": "55",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "0.0"
+    "uv_index": "4.2"
   },
   "alert": {
     "active": false,
@@ -33,7 +33,7 @@
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
     "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment",
     "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
-    "Chinese tourists and Thai restroom attendants clash in Pattaya",
+    "Pedicures and a pair of socks: sailors from USS Abraham Lincoln go wild in party resort of Pattaya",
     "Why US soldiers continue to flock to Thailand’s Pattaya"
   ],
   "flights": [
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      38.452,
       38.385,
       38.29,
       38.164,
@@ -156,7 +155,6 @@
       37.683
     ],
     "USD": [
-      33.3351,
       33.3348,
       33.14,
       33.0653,
@@ -223,7 +221,6 @@
       33.7299
     ],
     "DKK": [
-      5.1441,
       5.1348,
       5.1222,
       5.1052,
@@ -290,7 +287,6 @@
       5.0422
     ],
     "NOK": [
-      3.4967,
       3.4919,
       3.4861,
       3.4694,
@@ -357,7 +353,6 @@
       3.6543
     ],
     "AUD": [
-      23.3566,
       23.4384,
       23.3689,
       23.2849,
@@ -425,7 +420,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2825163,
       2833064,
       2900866,
       2890478,
@@ -455,8 +449,9 @@
       2624637,
       2603965,
       2600439,
-      2610187
+      2640983,
+      2644016
     ]
   },
-  "last_update": "2026-11-01 22:52:02"
+  "last_update": "2026-11-02 02:06:08"
 }
