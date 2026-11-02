@@ -12,27 +12,27 @@
     "AUD_trend": "→",
     "RUB": "0.42",
     "RUB_trend": "→",
-    "BTC": "2,633,979",
+    "BTC": "2,585,065",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "27",
+    "temp": "26",
     "feels_like": "32",
-    "wind_speed": "9",
-    "wind_dir": "NE",
-    "aqi_value": "108",
-    "aqi_status": "Unhealthy",
-    "aqi_color": "#ef4444",
-    "uv_index": "2.1"
+    "wind_speed": "2",
+    "wind_dir": "E",
+    "aqi_value": "53",
+    "aqi_status": "Moderate",
+    "aqi_color": "#f59e0b",
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Abida Batool From Quetta Brought Trophy Home, Won WIBA World Title",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
     "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment",
+    "Abida Batool From Quetta Brought Trophy Home, Won WIBA World Title",
     "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
     "Pedicures and a pair of socks: sailors from USS Abraham Lincoln go wild in party resort of Pattaya"
   ],
@@ -152,7 +152,8 @@
       37.654,
       37.602,
       37.569,
-      37.683
+      37.683,
+      37.865
     ],
     "USD": [
       33.3348,
@@ -218,7 +219,8 @@
       33.7704,
       33.7753,
       33.7547,
-      33.7299
+      33.7299,
+      33.7598
     ],
     "DKK": [
       5.1348,
@@ -284,7 +286,8 @@
       5.0379,
       5.031,
       5.0269,
-      5.0422
+      5.0422,
+      5.0664
     ],
     "NOK": [
       3.4919,
@@ -350,7 +353,8 @@
       3.6246,
       3.6339,
       3.6364,
-      3.6543
+      3.6543,
+      3.6488
     ],
     "AUD": [
       23.4384,
@@ -416,7 +420,8 @@
       23.7475,
       23.7536,
       23.7148,
-      23.694
+      23.694,
+      23.6597
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +455,8 @@
       2605715,
       2602010,
       2640403,
-      2633979
+      2585065
     ]
   },
-  "last_update": "2026-11-02 09:29:07"
+  "last_update": "2026-11-02 19:43:00"
 }
