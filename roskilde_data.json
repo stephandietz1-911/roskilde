@@ -1,40 +1,40 @@
 {
   "currencies": {
     "EUR": "37.67",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.04",
     "DKK_trend": "→",
     "NOK": "3.66",
     "NOK_trend": "→",
     "USD": "33.76",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.73",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.42",
     "RUB_trend": "→",
-    "BTC": "2,644,016",
-    "BTC_trend": "↑"
+    "BTC": "2,633,979",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "35",
-    "wind_speed": "4",
-    "wind_dir": "N",
-    "aqi_value": "55",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
-    "uv_index": "4.2"
+    "temp": "27",
+    "feels_like": "32",
+    "wind_speed": "9",
+    "wind_dir": "NE",
+    "aqi_value": "108",
+    "aqi_status": "Unhealthy",
+    "aqi_color": "#ef4444",
+    "uv_index": "2.1"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Abida Batool From Quetta Brought Trophy Home, Won WIBA World Title",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
     "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment",
     "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
-    "Pedicures and a pair of socks: sailors from USS Abraham Lincoln go wild in party resort of Pattaya",
-    "Why US soldiers continue to flock to Thailand’s Pattaya"
+    "Pedicures and a pair of socks: sailors from USS Abraham Lincoln go wild in party resort of Pattaya"
   ],
   "flights": [
     {
@@ -447,11 +447,11 @@
       2730644,
       2739231,
       2624637,
-      2603965,
-      2600439,
-      2640983,
-      2644016
+      2605715,
+      2602010,
+      2640403,
+      2633979
     ]
   },
-  "last_update": "2026-11-02 02:06:08"
+  "last_update": "2026-11-02 09:29:07"
 }
