@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,556,410",
+    "BTC": "2,552,660",
     "BTC_trend": "↓"
   },
   "weather": {
     "temp": "25",
-    "feels_like": "31",
-    "wind_speed": "7",
-    "wind_dir": "E",
-    "aqi_value": "48",
+    "feels_like": "30",
+    "wind_speed": "8",
+    "wind_dir": "ENE",
+    "aqi_value": "41",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "0.3"
   },
   "alert": {
     "active": false,
@@ -32,9 +32,9 @@
   "news": [
     "Tourist almost burns down apartment block in Thailand after falling asleep while frying chicken",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "ONYX Hospitality Group Spotlights Thailand Resort Portfolio and Amari Brand Evolution at WTM",
     "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment",
-    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
+    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
+    "ONYX Hospitality Group Spotlights Thailand Resort Portfolio and Amari Brand Evolution at WTM"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2585874,
       2610890,
       2703185,
-      2556410
+      2552660
     ]
   },
-  "last_update": "2026-11-05 18:31:30"
+  "last_update": "2026-11-05 23:50:47"
 }
