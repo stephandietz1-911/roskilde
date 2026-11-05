@@ -1,29 +1,29 @@
 {
   "currencies": {
-    "EUR": "37.78",
-    "EUR_trend": "→",
-    "DKK": "5.05",
-    "DKK_trend": "→",
+    "EUR": "37.80",
+    "EUR_trend": "↑",
+    "DKK": "5.06",
+    "DKK_trend": "↑",
     "NOK": "3.64",
     "NOK_trend": "→",
-    "USD": "33.76",
-    "USD_trend": "→",
-    "AUD": "23.54",
-    "AUD_trend": "→",
+    "USD": "33.64",
+    "USD_trend": "↓",
+    "AUD": "23.57",
+    "AUD_trend": "↑",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,723,406",
+    "BTC": "2,705,525",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "25",
-    "feels_like": "30",
-    "wind_speed": "7",
-    "wind_dir": "E",
-    "aqi_value": "53",
+    "temp": "28",
+    "feels_like": "34",
+    "wind_speed": "6",
+    "wind_dir": "W",
+    "aqi_value": "56",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "0.0"
+    "uv_index": "6.0"
   },
   "alert": {
     "active": false,
@@ -32,9 +32,9 @@
   "news": [
     "Tourist almost burns down apartment block in Thailand after falling asleep while frying chicken",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "Three foreigners urinate in public on famous beach... ignore even a warning to “stop”",
     "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment",
-    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
+    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
+    "Three foreigners urinate in public on famous beach... ignore even a warning to “stop”"
   ],
   "flights": [
     {
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      38.164,
       38.129,
       38.146,
       38.203,
@@ -156,7 +155,6 @@
       37.902
     ],
     "USD": [
-      33.0653,
       33.055,
       33.0125,
       33.1049,
@@ -223,7 +221,6 @@
       33.6398
     ],
     "DKK": [
-      5.1052,
       5.1005,
       5.1026,
       5.1103,
@@ -290,7 +287,6 @@
       5.0713
     ],
     "NOK": [
-      3.4694,
       3.4742,
       3.4722,
       3.4823,
@@ -357,7 +353,6 @@
       3.6455
     ],
     "AUD": [
-      23.2849,
       23.2721,
       23.3181,
       23.3858,
@@ -425,7 +420,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2890478,
       2874532,
       2799901,
       2748051,
@@ -455,8 +449,9 @@
       2640403,
       2585874,
       2610890,
-      2723406
+      2703185,
+      2705525
     ]
   },
-  "last_update": "2026-11-04 22:54:53"
+  "last_update": "2026-11-05 03:09:42"
 }
