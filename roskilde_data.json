@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,697,094",
+    "BTC": "2,556,410",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "33",
-    "wind_speed": "6",
+    "temp": "25",
+    "feels_like": "31",
+    "wind_speed": "7",
     "wind_dir": "E",
-    "aqi_value": "52",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
-    "uv_index": "0.1"
+    "aqi_value": "48",
+    "aqi_status": "Good",
+    "aqi_color": "#10b981",
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -31,8 +31,8 @@
   },
   "news": [
     "Tourist almost burns down apartment block in Thailand after falling asleep while frying chicken",
-    "Pattaya school closes after shooting threat",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "ONYX Hospitality Group Spotlights Thailand Resort Portfolio and Amari Brand Evolution at WTM",
     "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment",
     "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
   ],
@@ -152,7 +152,8 @@
       37.683,
       37.865,
       37.735,
-      37.902
+      37.902,
+      37.533
     ],
     "USD": [
       33.055,
@@ -218,7 +219,8 @@
       33.7299,
       33.7598,
       33.7553,
-      33.6398
+      33.6398,
+      33.44
     ],
     "DKK": [
       5.1005,
@@ -284,7 +286,8 @@
       5.0422,
       5.0664,
       5.0492,
-      5.0713
+      5.0713,
+      5.0213
     ],
     "NOK": [
       3.4742,
@@ -350,7 +353,8 @@
       3.6543,
       3.6488,
       3.657,
-      3.6455
+      3.6455,
+      3.5963
     ],
     "AUD": [
       23.2721,
@@ -416,7 +420,8 @@
       23.694,
       23.6597,
       23.5741,
-      23.5988
+      23.5988,
+      23.4098
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +455,8 @@
       2585874,
       2610890,
       2703185,
-      2697094
+      2556410
     ]
   },
-  "last_update": "2026-11-05 10:54:57"
+  "last_update": "2026-11-05 18:31:30"
 }
