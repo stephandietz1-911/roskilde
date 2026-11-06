@@ -12,17 +12,17 @@
     "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,541,626",
+    "BTC": "2,533,151",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "31",
-    "wind_speed": "7",
-    "wind_dir": "ENE",
-    "aqi_value": "119",
-    "aqi_status": "Unhealthy",
-    "aqi_color": "#ef4444",
+    "temp": "25",
+    "feels_like": "30",
+    "wind_speed": "6",
+    "wind_dir": "E",
+    "aqi_value": "52",
+    "aqi_status": "Moderate",
+    "aqi_color": "#f59e0b",
     "uv_index": "0.0"
   },
   "alert": {
@@ -30,11 +30,11 @@
     "message": ""
   },
   "news": [
+    "Tourist almost burns down apartment block in Thailand after falling asleep while frying chicken",
     "Adidas opens seaside-inspired flagship in Pattaya",
     "Park Hang-seo Condemns Racial Abuse in Thai Match",
     "Kenny G joins two-day Pattaya jazz festival on November 6–7",
-    "Tourist almost burns down apartment block in Thailand after falling asleep while frying chicken",
-    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk"
+    "Bangkok and Pattaya, back to back: the Thailand trip I’d plan again"
   ],
   "flights": [
     {
@@ -153,7 +153,8 @@
       37.865,
       37.735,
       37.902,
-      37.533
+      37.533,
+      37.459
     ],
     "USD": [
       33.055,
@@ -220,7 +221,8 @@
       33.7598,
       33.7553,
       33.6398,
-      33.44
+      33.44,
+      33.5504
     ],
     "DKK": [
       5.1005,
@@ -287,7 +289,8 @@
       5.0664,
       5.0492,
       5.0713,
-      5.0213
+      5.0213,
+      5.0111
     ],
     "NOK": [
       3.4742,
@@ -354,7 +357,8 @@
       3.6488,
       3.657,
       3.6455,
-      3.5963
+      3.5963,
+      3.5587
     ],
     "AUD": [
       23.2721,
@@ -421,7 +425,8 @@
       23.6597,
       23.5741,
       23.5988,
-      23.4098
+      23.4098,
+      23.0517
     ],
     "RUB": [],
     "BTC": [
@@ -455,8 +460,8 @@
       2610890,
       2703185,
       2543448,
-      2541626
+      2533151
     ]
   },
-  "last_update": "2026-11-06 12:58:04"
+  "last_update": "2026-11-06 19:54:10"
 }
