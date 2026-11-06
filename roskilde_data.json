@@ -1,40 +1,40 @@
 {
   "currencies": {
-    "EUR": "37.80",
-    "EUR_trend": "→",
-    "DKK": "5.06",
-    "DKK_trend": "→",
-    "NOK": "3.64",
-    "NOK_trend": "→",
-    "USD": "33.64",
-    "USD_trend": "→",
-    "AUD": "23.57",
-    "AUD_trend": "→",
+    "EUR": "37.55",
+    "EUR_trend": "↓",
+    "DKK": "5.02",
+    "DKK_trend": "↓",
+    "NOK": "3.60",
+    "NOK_trend": "↓",
+    "USD": "33.44",
+    "USD_trend": "↓",
+    "AUD": "23.36",
+    "AUD_trend": "↓",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,552,660",
+    "BTC": "2,527,869",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "25",
-    "feels_like": "30",
-    "wind_speed": "8",
-    "wind_dir": "ENE",
-    "aqi_value": "41",
+    "temp": "30",
+    "feels_like": "37",
+    "wind_speed": "7",
+    "wind_dir": "W",
+    "aqi_value": "44",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.3"
+    "uv_index": "7.8"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Adidas opens seaside-inspired flagship in Pattaya",
+    "Park Hang-seo Condemns Racial Abuse in Thai Match",
     "Tourist almost burns down apartment block in Thailand after falling asleep while frying chicken",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment",
-    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
-    "ONYX Hospitality Group Spotlights Thailand Resort Portfolio and Amari Brand Evolution at WTM"
+    "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment"
   ],
   "flights": [
     {
@@ -425,7 +425,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2874532,
       2799901,
       2748051,
       2772009,
@@ -455,8 +454,9 @@
       2585874,
       2610890,
       2703185,
-      2552660
+      2543448,
+      2527869
     ]
   },
-  "last_update": "2026-11-05 23:50:47"
+  "last_update": "2026-11-06 05:12:09"
 }
