@@ -1,29 +1,29 @@
 {
   "currencies": {
     "EUR": "37.55",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.02",
-    "DKK_trend": "↓",
+    "DKK_trend": "→",
     "NOK": "3.60",
-    "NOK_trend": "↓",
+    "NOK_trend": "→",
     "USD": "33.44",
-    "USD_trend": "↓",
+    "USD_trend": "→",
     "AUD": "23.36",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,527,869",
+    "BTC": "2,541,626",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "37",
+    "temp": "26",
+    "feels_like": "31",
     "wind_speed": "7",
-    "wind_dir": "W",
-    "aqi_value": "44",
-    "aqi_status": "Good",
-    "aqi_color": "#10b981",
-    "uv_index": "7.8"
+    "wind_dir": "ENE",
+    "aqi_value": "119",
+    "aqi_status": "Unhealthy",
+    "aqi_color": "#ef4444",
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -32,9 +32,9 @@
   "news": [
     "Adidas opens seaside-inspired flagship in Pattaya",
     "Park Hang-seo Condemns Racial Abuse in Thai Match",
+    "Kenny G joins two-day Pattaya jazz festival on November 6–7",
     "Tourist almost burns down apartment block in Thailand after falling asleep while frying chicken",
-    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment"
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2610890,
       2703185,
       2543448,
-      2527869
+      2541626
     ]
   },
-  "last_update": "2026-11-06 05:12:09"
+  "last_update": "2026-11-06 12:58:04"
 }
