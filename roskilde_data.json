@@ -1,29 +1,29 @@
 {
   "currencies": {
-    "EUR": "37.55",
-    "EUR_trend": "→",
-    "DKK": "5.02",
-    "DKK_trend": "→",
-    "NOK": "3.60",
-    "NOK_trend": "→",
-    "USD": "33.44",
-    "USD_trend": "→",
-    "AUD": "23.36",
-    "AUD_trend": "→",
+    "EUR": "37.43",
+    "EUR_trend": "↓",
+    "DKK": "5.01",
+    "DKK_trend": "↓",
+    "NOK": "3.55",
+    "NOK_trend": "↓",
+    "USD": "33.55",
+    "USD_trend": "↑",
+    "AUD": "23.06",
+    "AUD_trend": "↓",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,539,178",
-    "BTC_trend": "↓"
+    "BTC": "2,542,439",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "25",
-    "feels_like": "30",
-    "wind_speed": "9",
-    "wind_dir": "NNE",
-    "aqi_value": "51",
+    "temp": "28",
+    "feels_like": "34",
+    "wind_speed": "5",
+    "wind_dir": "WNW",
+    "aqi_value": "52",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "0.2"
+    "uv_index": "7.3"
   },
   "alert": {
     "active": false,
@@ -32,9 +32,9 @@
   "news": [
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
     "Adidas opens seaside-inspired flagship in Pattaya",
-    "Park Hang-seo Condemns Racial Abuse in Thai Match",
-    "Kenny G joins two-day Pattaya jazz festival on November 6–7",
-    "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment"
+    "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment",
+    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
+    "Park Hang-seo Condemns Racial Abuse in Thai Match"
   ],
   "flights": [
     {
@@ -430,7 +430,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2799901,
       2748051,
       2772009,
       2783881,
@@ -460,8 +459,9 @@
       2610890,
       2703185,
       2543448,
-      2539178
+      2539887,
+      2542439
     ]
   },
-  "last_update": "2026-11-06 23:57:05"
+  "last_update": "2026-11-07 05:17:15"
 }
