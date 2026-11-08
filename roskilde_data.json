@@ -1,7 +1,7 @@
 {
   "currencies": {
     "EUR": "37.44",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.01",
     "DKK_trend": "→",
     "NOK": "3.55",
@@ -9,32 +9,32 @@
     "USD": "33.55",
     "USD_trend": "→",
     "AUD": "23.07",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,538,501",
-    "BTC_trend": "↓"
+    "BTC": "2,542,313",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "35",
-    "wind_speed": "13",
-    "wind_dir": "ENE",
-    "aqi_value": "42",
-    "aqi_status": "Good",
-    "aqi_color": "#10b981",
-    "uv_index": "6.8"
+    "temp": "26",
+    "feels_like": "31",
+    "wind_speed": "8",
+    "wind_dir": "SE",
+    "aqi_value": "66",
+    "aqi_status": "Moderate",
+    "aqi_color": "#f59e0b",
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Tourist almost burns down apartment block in Thailand after falling asleep while frying chicken",
+    "Tomorrowland Thailand fills Pattaya as the festival’s Asian debut nears",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "Pattaya scam raid nets eight",
     "Kenny G joins two-day Pattaya jazz festival on November 6–7",
-    "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment"
+    "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment",
+    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2543448,
       2539887,
       2539924,
-      2538501
+      2542313
     ]
   },
-  "last_update": "2026-11-08 06:43:07"
+  "last_update": "2026-11-08 13:53:44"
 }
