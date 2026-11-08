@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,534,861",
+    "BTC": "2,537,349",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "24",
-    "feels_like": "27",
-    "wind_speed": "11",
-    "wind_dir": "NE",
-    "aqi_value": "33",
+    "temp": "25",
+    "feels_like": "29",
+    "wind_speed": "10",
+    "wind_dir": "NNE",
+    "aqi_value": "31",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "1.2"
   },
   "alert": {
     "active": false,
@@ -32,9 +32,9 @@
   "news": [
     "Tourist almost burns down apartment block in Thailand after falling asleep while frying chicken",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "Pattaya scam raid nets eight",
     "Kenny G joins two-day Pattaya jazz festival on November 6–7",
-    "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment",
-    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
+    "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment"
   ],
   "flights": [
     {
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      38.129,
       38.146,
       38.203,
       38.168,
@@ -157,7 +156,6 @@
       37.459
     ],
     "USD": [
-      33.055,
       33.0125,
       33.1049,
       33.0602,
@@ -225,7 +223,6 @@
       33.5504
     ],
     "DKK": [
-      5.1005,
       5.1026,
       5.1103,
       5.1055,
@@ -293,7 +290,6 @@
       5.0111
     ],
     "NOK": [
-      3.4742,
       3.4722,
       3.4823,
       3.4901,
@@ -361,7 +357,6 @@
       3.5587
     ],
     "AUD": [
-      23.2721,
       23.3181,
       23.3858,
       23.3772,
@@ -430,7 +425,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2748051,
       2772009,
       2783881,
       2810580,
@@ -460,8 +454,9 @@
       2703185,
       2543448,
       2539887,
-      2534861
+      2539924,
+      2537349
     ]
   },
-  "last_update": "2026-11-07 21:01:13"
+  "last_update": "2026-11-08 00:34:42"
 }
