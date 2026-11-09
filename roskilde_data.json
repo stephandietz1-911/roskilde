@@ -1,40 +1,40 @@
 {
   "currencies": {
     "EUR": "37.43",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.01",
     "DKK_trend": "→",
     "NOK": "3.55",
     "NOK_trend": "→",
     "USD": "33.56",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.05",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,522,289",
-    "BTC_trend": "↑"
+    "BTC": "2,501,003",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "32",
-    "wind_speed": "17",
-    "wind_dir": "NE",
-    "aqi_value": "48",
+    "temp": "30",
+    "feels_like": "34",
+    "wind_speed": "11",
+    "wind_dir": "ENE",
+    "aqi_value": "45",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "3.5"
+    "uv_index": "2.5"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Tomorrowland Thailand fills Pattaya as the festival’s Asian debut nears",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
     "Kenny G joins two-day Pattaya jazz festival on November 6–7",
     "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment",
-    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
+    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
+    "Pedicures and a pair of socks: sailors from USS Abraham Lincoln go wild in party resort of Pattaya"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2539887,
       2539924,
       2505930,
-      2522289
+      2501003
     ]
   },
-  "last_update": "2026-11-09 01:53:57"
+  "last_update": "2026-11-09 09:08:11"
 }
