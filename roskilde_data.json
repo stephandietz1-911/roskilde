@@ -12,15 +12,15 @@
     "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,445,528",
+    "BTC": "2,460,154",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "25",
-    "feels_like": "24",
+    "temp": "23",
+    "feels_like": "22",
     "wind_speed": "25",
-    "wind_dir": "NE",
-    "aqi_value": "45",
+    "wind_dir": "ENE",
+    "aqi_value": "39",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -32,9 +32,9 @@
   "news": [
     "Asia Music Week Brings Global Music Industry to Thailand",
     "Nine women injured in Pattaya speedboat collision near Bali Hai Pier",
-    "Twenty-seven Korean members of a voice phishing organization based in Pattaya, Thailand, have been a..",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "Tomorrowland Thailand fills Pattaya as the festival’s Asian debut nears"
+    "Tomorrowland Thailand fills Pattaya as the festival’s Asian debut nears",
+    "Twenty-seven Korean members of a voice phishing organization based in Pattaya, Thailand, have been a.."
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2539924,
       2505930,
       2514663,
-      2445528
+      2460154
     ]
   },
-  "last_update": "2026-11-10 18:05:33"
+  "last_update": "2026-11-10 23:20:05"
 }
