@@ -12,29 +12,29 @@
     "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,479,979",
+    "BTC": "2,445,528",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "31",
-    "wind_speed": "18",
+    "temp": "25",
+    "feels_like": "24",
+    "wind_speed": "25",
     "wind_dir": "NE",
-    "aqi_value": "59",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
-    "uv_index": "0.5"
+    "aqi_value": "45",
+    "aqi_status": "Good",
+    "aqi_color": "#10b981",
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Nine women injured in Pattaya speedboat collision near Bali Hai Pier",
     "Asia Music Week Brings Global Music Industry to Thailand",
+    "Nine women injured in Pattaya speedboat collision near Bali Hai Pier",
     "Twenty-seven Korean members of a voice phishing organization based in Pattaya, Thailand, have been a..",
-    "Tomorrowland Thailand fills Pattaya as the festival’s Asian debut nears",
-    "“Went to Thailand to Make Money, Became Criminals”: 27 Members of Phishing Ring That Swindled 15.1 Billion Won Arrested and Indicted"
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "Tomorrowland Thailand fills Pattaya as the festival’s Asian debut nears"
   ],
   "flights": [
     {
@@ -152,7 +152,8 @@
       37.902,
       37.533,
       37.459,
-      37.485
+      37.485,
+      37.522
     ],
     "USD": [
       33.0602,
@@ -218,7 +219,8 @@
       33.6398,
       33.44,
       33.5504,
-      33.4897
+      33.4897,
+      33.46
     ],
     "DKK": [
       5.1055,
@@ -284,7 +286,8 @@
       5.0713,
       5.0213,
       5.0111,
-      5.0145
+      5.0145,
+      5.0194
     ],
     "NOK": [
       3.4901,
@@ -350,7 +353,8 @@
       3.6455,
       3.5963,
       3.5587,
-      3.559
+      3.559,
+      3.5346
     ],
     "AUD": [
       23.3772,
@@ -416,7 +420,8 @@
       23.5988,
       23.4098,
       23.0517,
-      23.0876
+      23.0876,
+      23.099
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +455,8 @@
       2539924,
       2505930,
       2514663,
-      2479979
+      2445528
     ]
   },
-  "last_update": "2026-11-10 10:26:47"
+  "last_update": "2026-11-10 18:05:33"
 }
