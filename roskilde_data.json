@@ -1,40 +1,40 @@
 {
   "currencies": {
-    "EUR": "37.43",
-    "EUR_trend": "→",
+    "EUR": "37.49",
+    "EUR_trend": "↑",
     "DKK": "5.01",
     "DKK_trend": "→",
-    "NOK": "3.55",
-    "NOK_trend": "→",
-    "USD": "33.56",
-    "USD_trend": "→",
-    "AUD": "23.05",
-    "AUD_trend": "→",
+    "NOK": "3.56",
+    "NOK_trend": "↑",
+    "USD": "33.48",
+    "USD_trend": "↓",
+    "AUD": "23.12",
+    "AUD_trend": "↑",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,511,766",
-    "BTC_trend": "↑"
+    "BTC": "2,498,078",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "28",
-    "wind_speed": "23",
-    "wind_dir": "NE",
-    "aqi_value": "31",
+    "temp": "27",
+    "feels_like": "27",
+    "wind_speed": "26",
+    "wind_dir": "ENE",
+    "aqi_value": "33",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "5.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "Tomorrowland Thailand fills Pattaya as the festival’s Asian debut nears",
     "Kenny G joins two-day Pattaya jazz festival on November 6–7",
-    "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment",
-    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
-    "Pedicures and a pair of socks: sailors from USS Abraham Lincoln go wild in party resort of Pattaya"
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "Park Hang-seo confronts Thai fans after racist 'monkey' slur against player",
+    "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment"
   ],
   "flights": [
     {
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      38.203,
       38.168,
       38.212,
       38.316,
@@ -156,7 +155,6 @@
       37.485
     ],
     "USD": [
-      33.1049,
       33.0602,
       33.1299,
       33.1253,
@@ -223,7 +221,6 @@
       33.4897
     ],
     "DKK": [
-      5.1103,
       5.1055,
       5.1115,
       5.1254,
@@ -290,7 +287,6 @@
       5.0145
     ],
     "NOK": [
-      3.4823,
       3.4901,
       3.4782,
       3.5048,
@@ -357,7 +353,6 @@
       3.559
     ],
     "AUD": [
-      23.3858,
       23.3772,
       23.3627,
       23.4593,
@@ -425,7 +420,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2783881,
       2810580,
       2749943,
       2789415,
@@ -455,8 +449,9 @@
       2539887,
       2539924,
       2505930,
-      2511766
+      2514663,
+      2498078
     ]
   },
-  "last_update": "2026-11-09 19:48:32"
+  "last_update": "2026-11-10 02:32:32"
 }
