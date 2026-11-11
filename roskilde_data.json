@@ -12,29 +12,29 @@
     "AUD_trend": "→",
     "RUB": "0.40",
     "RUB_trend": "→",
-    "BTC": "2,477,729",
-    "BTC_trend": "↓"
+    "BTC": "2,503,222",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "29",
-    "wind_speed": "16",
+    "temp": "26",
+    "feels_like": "26",
+    "wind_speed": "18",
     "wind_dir": "NE",
-    "aqi_value": "47",
-    "aqi_status": "Good",
-    "aqi_color": "#10b981",
-    "uv_index": "0.5"
+    "aqi_value": "52",
+    "aqi_status": "Moderate",
+    "aqi_color": "#f59e0b",
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Pattaya fireworks festival returns with free shows and concerts",
     "Peter Rosenmeier joins Nordic and Southeast Asian contenders in Pattaya",
+    "Tomorrowland Thailand fills Pattaya as the festival’s Asian debut nears",
     "Asia Music Week Brings Global Music Industry to Thailand",
-    "Nine women injured in Pattaya speedboat collision near Bali Hai Pier",
-    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "Tomorrowland Thailand fills Pattaya as the festival’s Asian debut nears"
+    "Pattaya’s best of both worlds: Walking Street by night, a luxury pool villa by day"
   ],
   "flights": [
     {
@@ -152,7 +152,8 @@
       37.533,
       37.459,
       37.485,
-      37.522
+      37.522,
+      37.487
     ],
     "USD": [
       33.1299,
@@ -218,7 +219,8 @@
       33.44,
       33.5504,
       33.4897,
-      33.46
+      33.46,
+      33.6901
     ],
     "DKK": [
       5.1115,
@@ -284,7 +286,8 @@
       5.0213,
       5.0111,
       5.0145,
-      5.0194
+      5.0194,
+      5.0146
     ],
     "NOK": [
       3.4782,
@@ -350,7 +353,8 @@
       3.5963,
       3.5587,
       3.559,
-      3.5346
+      3.5346,
+      3.5317
     ],
     "AUD": [
       23.3627,
@@ -416,7 +420,8 @@
       23.4098,
       23.0517,
       23.0876,
-      23.099
+      23.099,
+      23.1087
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +455,8 @@
       2505930,
       2514663,
       2477916,
-      2477729
+      2503222
     ]
   },
-  "last_update": "2026-11-11 10:21:03"
+  "last_update": "2026-11-11 17:58:50"
 }
