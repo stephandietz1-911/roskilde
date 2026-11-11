@@ -1,40 +1,40 @@
 {
   "currencies": {
     "EUR": "37.52",
-    "EUR_trend": "↑",
+    "EUR_trend": "→",
     "DKK": "5.02",
-    "DKK_trend": "↑",
+    "DKK_trend": "→",
     "NOK": "3.53",
-    "NOK_trend": "↓",
+    "NOK_trend": "→",
     "USD": "33.53",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.08",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.40",
-    "RUB_trend": "↓",
-    "BTC": "2,470,669",
+    "RUB_trend": "→",
+    "BTC": "2,477,729",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "26",
-    "wind_speed": "24",
+    "temp": "27",
+    "feels_like": "29",
+    "wind_speed": "16",
     "wind_dir": "NE",
-    "aqi_value": "36",
+    "aqi_value": "47",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "5.5"
+    "uv_index": "0.5"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Peter Rosenmeier joins Nordic and Southeast Asian contenders in Pattaya",
     "Asia Music Week Brings Global Music Industry to Thailand",
     "Nine women injured in Pattaya speedboat collision near Bali Hai Pier",
-    "Tomorrowland Thailand fills Pattaya as the festival’s Asian debut nears",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "Twenty-seven Korean members of a voice phishing organization based in Pattaya, Thailand, have been a.."
+    "Tomorrowland Thailand fills Pattaya as the festival’s Asian debut nears"
   ],
   "flights": [
     {
@@ -450,8 +450,8 @@
       2505930,
       2514663,
       2477916,
-      2470669
+      2477729
     ]
   },
-  "last_update": "2026-11-11 02:54:47"
+  "last_update": "2026-11-11 10:21:03"
 }
