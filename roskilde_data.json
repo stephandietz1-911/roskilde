@@ -1,29 +1,29 @@
 {
   "currencies": {
-    "EUR": "37.49",
-    "EUR_trend": "→",
-    "DKK": "5.01",
-    "DKK_trend": "→",
-    "NOK": "3.56",
-    "NOK_trend": "→",
-    "USD": "33.48",
-    "USD_trend": "→",
-    "AUD": "23.12",
-    "AUD_trend": "→",
-    "RUB": "0.41",
-    "RUB_trend": "→",
-    "BTC": "2,460,154",
+    "EUR": "37.52",
+    "EUR_trend": "↑",
+    "DKK": "5.02",
+    "DKK_trend": "↑",
+    "NOK": "3.53",
+    "NOK_trend": "↓",
+    "USD": "33.53",
+    "USD_trend": "↑",
+    "AUD": "23.08",
+    "AUD_trend": "↓",
+    "RUB": "0.40",
+    "RUB_trend": "↓",
+    "BTC": "2,470,669",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "23",
-    "feels_like": "22",
-    "wind_speed": "25",
-    "wind_dir": "ENE",
-    "aqi_value": "39",
+    "temp": "26",
+    "feels_like": "26",
+    "wind_speed": "24",
+    "wind_dir": "NE",
+    "aqi_value": "36",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "5.5"
   },
   "alert": {
     "active": false,
@@ -32,8 +32,8 @@
   "news": [
     "Asia Music Week Brings Global Music Industry to Thailand",
     "Nine women injured in Pattaya speedboat collision near Bali Hai Pier",
-    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
     "Tomorrowland Thailand fills Pattaya as the festival’s Asian debut nears",
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
     "Twenty-seven Korean members of a voice phishing organization based in Pattaya, Thailand, have been a.."
   ],
   "flights": [
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      38.168,
       38.212,
       38.316,
       38.286,
@@ -156,7 +155,6 @@
       37.522
     ],
     "USD": [
-      33.0602,
       33.1299,
       33.1253,
       33.0251,
@@ -223,7 +221,6 @@
       33.46
     ],
     "DKK": [
-      5.1055,
       5.1115,
       5.1254,
       5.1213,
@@ -290,7 +287,6 @@
       5.0194
     ],
     "NOK": [
-      3.4901,
       3.4782,
       3.5048,
       3.5049,
@@ -357,7 +353,6 @@
       3.5346
     ],
     "AUD": [
-      23.3772,
       23.3627,
       23.4593,
       23.5302,
@@ -425,7 +420,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2810580,
       2749943,
       2789415,
       2743719,
@@ -455,8 +449,9 @@
       2539924,
       2505930,
       2514663,
-      2460154
+      2477916,
+      2470669
     ]
   },
-  "last_update": "2026-11-10 23:20:05"
+  "last_update": "2026-11-11 02:54:47"
 }
