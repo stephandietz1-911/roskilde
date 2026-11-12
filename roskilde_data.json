@@ -1,39 +1,39 @@
 {
   "currencies": {
     "EUR": "37.48",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.01",
-    "DKK_trend": "↓",
+    "DKK_trend": "→",
     "NOK": "3.53",
     "NOK_trend": "→",
     "USD": "33.72",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.11",
-    "AUD_trend": "↑",
+    "AUD_trend": "→",
     "RUB": "0.41",
-    "RUB_trend": "↑",
-    "BTC": "2,499,490",
-    "BTC_trend": "↑"
+    "RUB_trend": "→",
+    "BTC": "2,482,551",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "24",
-    "feels_like": "25",
-    "wind_speed": "18",
-    "wind_dir": "NE",
-    "aqi_value": "51",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
-    "uv_index": "0.7"
+    "temp": "30",
+    "feels_like": "32",
+    "wind_speed": "20",
+    "wind_dir": "ENE",
+    "aqi_value": "46",
+    "aqi_status": "Good",
+    "aqi_color": "#10b981",
+    "uv_index": "5.2"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Pattaya fireworks festival returns with free shows and concerts",
+    "Park Hang-seo Suspended for Two Matches Despite Racial Slurs by Pattaya United",
+    "Nine women injured in Pattaya speedboat collision near Bali Hai Pier",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "Peter Rosenmeier joins Nordic and Southeast Asian contenders in Pattaya",
-    "Pattaya’s best of both worlds: Walking Street by night, a luxury pool villa by day",
+    "EEC Business Forum 2026: 19 November in Pattaya",
     "Tomorrowland Thailand fills Pattaya as the festival’s Asian debut nears"
   ],
   "flights": [
@@ -450,8 +450,8 @@
       2514663,
       2477916,
       2497967,
-      2499490
+      2482551
     ]
   },
-  "last_update": "2026-11-12 00:28:38"
+  "last_update": "2026-11-12 07:36:31"
 }
