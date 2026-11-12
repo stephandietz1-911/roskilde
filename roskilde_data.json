@@ -1,29 +1,29 @@
 {
   "currencies": {
-    "EUR": "37.52",
-    "EUR_trend": "→",
-    "DKK": "5.02",
-    "DKK_trend": "→",
+    "EUR": "37.48",
+    "EUR_trend": "↓",
+    "DKK": "5.01",
+    "DKK_trend": "↓",
     "NOK": "3.53",
     "NOK_trend": "→",
-    "USD": "33.53",
-    "USD_trend": "→",
-    "AUD": "23.08",
-    "AUD_trend": "→",
-    "RUB": "0.40",
-    "RUB_trend": "→",
-    "BTC": "2,503,222",
+    "USD": "33.72",
+    "USD_trend": "↑",
+    "AUD": "23.11",
+    "AUD_trend": "↑",
+    "RUB": "0.41",
+    "RUB_trend": "↑",
+    "BTC": "2,499,490",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "26",
+    "temp": "24",
+    "feels_like": "25",
     "wind_speed": "18",
     "wind_dir": "NE",
-    "aqi_value": "52",
+    "aqi_value": "51",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "0.0"
+    "uv_index": "0.7"
   },
   "alert": {
     "active": false,
@@ -31,10 +31,10 @@
   },
   "news": [
     "Pattaya fireworks festival returns with free shows and concerts",
+    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
     "Peter Rosenmeier joins Nordic and Southeast Asian contenders in Pattaya",
-    "Tomorrowland Thailand fills Pattaya as the festival’s Asian debut nears",
-    "Asia Music Week Brings Global Music Industry to Thailand",
-    "Pattaya’s best of both worlds: Walking Street by night, a luxury pool villa by day"
+    "Pattaya’s best of both worlds: Walking Street by night, a luxury pool villa by day",
+    "Tomorrowland Thailand fills Pattaya as the festival’s Asian debut nears"
   ],
   "flights": [
     {
@@ -89,7 +89,6 @@
   ],
   "history": {
     "EUR": [
-      38.212,
       38.316,
       38.286,
       38.27,
@@ -156,7 +155,6 @@
       37.487
     ],
     "USD": [
-      33.1299,
       33.1253,
       33.0251,
       33.0598,
@@ -223,7 +221,6 @@
       33.6901
     ],
     "DKK": [
-      5.1115,
       5.1254,
       5.1213,
       5.1191,
@@ -290,7 +287,6 @@
       5.0146
     ],
     "NOK": [
-      3.4782,
       3.5048,
       3.5049,
       3.5102,
@@ -357,7 +353,6 @@
       3.5317
     ],
     "AUD": [
-      23.3627,
       23.4593,
       23.5302,
       23.5103,
@@ -425,7 +420,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2749943,
       2789415,
       2743719,
       2753032,
@@ -455,8 +449,9 @@
       2505930,
       2514663,
       2477916,
-      2503222
+      2497967,
+      2499490
     ]
   },
-  "last_update": "2026-11-11 17:58:50"
+  "last_update": "2026-11-12 00:28:38"
 }
