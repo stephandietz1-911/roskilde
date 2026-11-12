@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,482,551",
+    "BTC": "2,428,305",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "32",
-    "wind_speed": "20",
-    "wind_dir": "ENE",
-    "aqi_value": "46",
+    "temp": "26",
+    "feels_like": "29",
+    "wind_speed": "12",
+    "wind_dir": "NE",
+    "aqi_value": "34",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "5.2"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -33,8 +33,8 @@
     "Park Hang-seo Suspended for Two Matches Despite Racial Slurs by Pattaya United",
     "Nine women injured in Pattaya speedboat collision near Bali Hai Pier",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "EEC Business Forum 2026: 19 November in Pattaya",
-    "Tomorrowland Thailand fills Pattaya as the festival’s Asian debut nears"
+    "Tomorrowland Thailand fills Pattaya as the festival’s Asian debut nears",
+    "EEC Business Forum 2026: 19 November in Pattaya"
   ],
   "flights": [
     {
@@ -152,7 +152,8 @@
       37.459,
       37.485,
       37.522,
-      37.487
+      37.487,
+      37.47
     ],
     "USD": [
       33.1253,
@@ -218,7 +219,8 @@
       33.5504,
       33.4897,
       33.46,
-      33.6901
+      33.6901,
+      33.8146
     ],
     "DKK": [
       5.1254,
@@ -284,7 +286,8 @@
       5.0111,
       5.0145,
       5.0194,
-      5.0146
+      5.0146,
+      5.0124
     ],
     "NOK": [
       3.5048,
@@ -350,7 +353,8 @@
       3.5587,
       3.559,
       3.5346,
-      3.5317
+      3.5317,
+      3.5473
     ],
     "AUD": [
       23.4593,
@@ -416,7 +420,8 @@
       23.0517,
       23.0876,
       23.099,
-      23.1087
+      23.1087,
+      23.0641
     ],
     "RUB": [],
     "BTC": [
@@ -450,8 +455,8 @@
       2514663,
       2477916,
       2497967,
-      2482551
+      2428305
     ]
   },
-  "last_update": "2026-11-12 07:36:31"
+  "last_update": "2026-11-12 16:16:28"
 }
