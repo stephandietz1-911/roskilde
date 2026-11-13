@@ -1,38 +1,38 @@
 {
   "currencies": {
     "EUR": "37.47",
-    "EUR_trend": "↓",
+    "EUR_trend": "→",
     "DKK": "5.01",
     "DKK_trend": "→",
     "NOK": "3.54",
-    "NOK_trend": "↑",
+    "NOK_trend": "→",
     "USD": "33.84",
-    "USD_trend": "↑",
+    "USD_trend": "→",
     "AUD": "23.07",
-    "AUD_trend": "↓",
+    "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,376,051",
+    "BTC": "2,343,779",
     "BTC_trend": "↓"
   },
   "weather": {
     "temp": "28",
-    "feels_like": "31",
-    "wind_speed": "15",
-    "wind_dir": "ENE",
-    "aqi_value": "38",
+    "feels_like": "33",
+    "wind_speed": "6",
+    "wind_dir": "SSW",
+    "aqi_value": "43",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "5.2"
+    "uv_index": "0.1"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Nine women injured in Pattaya speedboat collision near Bali Hai Pier",
-    "Fitz Club Pattaya hosts ITF Masters Tennis Championship",
+    "Thai curries join Belgian waffles at Tomorrowland Thailand, Pattaya",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "Fitz Club Pattaya hosts ITF Masters Tennis Championship",
     "Park Hang-seo Suspended for Two Matches Despite Racial Slurs by Pattaya United",
     "Tomorrowland Thailand fills Pattaya as the festival’s Asian debut nears"
   ],
@@ -455,8 +455,8 @@
       2477916,
       2497967,
       2416655,
-      2376051
+      2343779
     ]
   },
-  "last_update": "2026-11-13 02:46:41"
+  "last_update": "2026-11-13 10:31:39"
 }
