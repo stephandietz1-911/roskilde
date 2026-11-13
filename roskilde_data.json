@@ -12,18 +12,18 @@
     "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,343,779",
+    "BTC": "2,331,735",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "33",
-    "wind_speed": "6",
-    "wind_dir": "SSW",
-    "aqi_value": "43",
+    "temp": "25",
+    "feels_like": "30",
+    "wind_speed": "11",
+    "wind_dir": "SSE",
+    "aqi_value": "50",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.1"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
@@ -32,9 +32,9 @@
   "news": [
     "Thai curries join Belgian waffles at Tomorrowland Thailand, Pattaya",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "Fitz Club Pattaya hosts ITF Masters Tennis Championship",
     "Park Hang-seo Suspended for Two Matches Despite Racial Slurs by Pattaya United",
-    "Tomorrowland Thailand fills Pattaya as the festival’s Asian debut nears"
+    "Tomorrowland Thailand fills Pattaya as the festival’s Asian debut nears",
+    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
   ],
   "flights": [
     {
@@ -153,7 +153,8 @@
       37.485,
       37.522,
       37.487,
-      37.47
+      37.47,
+      37.483
     ],
     "USD": [
       33.1253,
@@ -220,7 +221,8 @@
       33.4897,
       33.46,
       33.6901,
-      33.8146
+      33.8146,
+      33.9151
     ],
     "DKK": [
       5.1254,
@@ -287,7 +289,8 @@
       5.0145,
       5.0194,
       5.0146,
-      5.0124
+      5.0124,
+      5.014
     ],
     "NOK": [
       3.5048,
@@ -354,7 +357,8 @@
       3.559,
       3.5346,
       3.5317,
-      3.5473
+      3.5473,
+      3.5463
     ],
     "AUD": [
       23.4593,
@@ -421,7 +425,8 @@
       23.0876,
       23.099,
       23.1087,
-      23.0641
+      23.0641,
+      23.0126
     ],
     "RUB": [],
     "BTC": [
@@ -455,8 +460,8 @@
       2477916,
       2497967,
       2416655,
-      2343779
+      2331735
     ]
   },
-  "last_update": "2026-11-13 10:31:39"
+  "last_update": "2026-11-13 18:04:24"
 }
