@@ -12,28 +12,28 @@
     "AUD_trend": "→",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,281,103",
+    "BTC": "2,214,484",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "34",
-    "wind_speed": "4",
-    "wind_dir": "WSW",
-    "aqi_value": "62",
+    "temp": "26",
+    "feels_like": "32",
+    "wind_speed": "6",
+    "wind_dir": "E",
+    "aqi_value": "54",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "0.1"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Nine women injured in Pattaya speedboat collision near Bali Hai Pier",
+    "Swedish man wanted in eight fraud cases arrested in Pattaya",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
+    "Nine women injured in Pattaya speedboat collision near Bali Hai Pier",
     "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
-    "Tomorrowland Thailand fills Pattaya as the festival’s Asian debut nears",
     "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment"
   ],
   "flights": [
@@ -460,8 +460,8 @@
       2497967,
       2416655,
       2317715,
-      2281103
+      2214484
     ]
   },
-  "last_update": "2026-11-14 10:56:51"
+  "last_update": "2026-11-14 16:52:41"
 }
