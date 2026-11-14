@@ -1,18 +1,18 @@
 {
   "currencies": {
-    "EUR": "37.47",
-    "EUR_trend": "→",
+    "EUR": "37.41",
+    "EUR_trend": "↓",
     "DKK": "5.01",
     "DKK_trend": "→",
-    "NOK": "3.54",
-    "NOK_trend": "→",
-    "USD": "33.84",
-    "USD_trend": "→",
-    "AUD": "23.07",
-    "AUD_trend": "→",
+    "NOK": "3.55",
+    "NOK_trend": "↑",
+    "USD": "33.88",
+    "USD_trend": "↑",
+    "AUD": "22.98",
+    "AUD_trend": "↓",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,305,928",
+    "BTC": "2,266,231",
     "BTC_trend": "↓"
   },
   "weather": {
@@ -20,7 +20,7 @@
     "feels_like": "37",
     "wind_speed": "15",
     "wind_dir": "SW",
-    "aqi_value": "54",
+    "aqi_value": "55",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
     "uv_index": "0.0"
@@ -30,11 +30,11 @@
     "message": ""
   },
   "news": [
-    "Thai curries join Belgian waffles at Tomorrowland Thailand, Pattaya",
+    "Nine women injured in Pattaya speedboat collision near Bali Hai Pier",
     "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
     "Park Hang-seo Suspended for Two Matches Despite Racial Slurs by Pattaya United",
-    "Tomorrowland Thailand fills Pattaya as the festival’s Asian debut nears",
-    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln"
+    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
+    "Tomorrowland Thailand fills Pattaya as the festival’s Asian debut nears"
   ],
   "flights": [
     {
@@ -430,7 +430,6 @@
     ],
     "RUB": [],
     "BTC": [
-      2743719,
       2753032,
       2722890,
       2708060,
@@ -460,8 +459,9 @@
       2477916,
       2497967,
       2416655,
-      2305928
+      2317715,
+      2266231
     ]
   },
-  "last_update": "2026-11-13 23:32:09"
+  "last_update": "2026-11-14 03:34:37"
 }
