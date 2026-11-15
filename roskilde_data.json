@@ -12,29 +12,30 @@
     "AUD_trend": "↓",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,121,466",
-    "BTC_trend": "↓"
+    "BTC": "2,184,653",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "29",
+    "temp": "30",
     "feels_like": "35",
-    "wind_speed": "7",
+    "wind_speed": "6",
     "wind_dir": "N",
     "aqi_value": "59",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "3.9"
+    "uv_index": "4.4"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Pakistan seniors gear up for two ITF Masters Events in Pattaya",
     "Swedish man wanted in eight fraud cases arrested in Pattaya",
-    "US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk",
-    "Nine women injured in Pattaya speedboat collision near Bali Hai Pier",
-    "Pattaya, once Thailand’s ‘Sin City,’ beckons weary sailors from the USS Abraham Lincoln",
-    "USS Lincoln crew hits the streets of Thailand's Pattaya after nine-month deployment"
+    "Royal Thai Immigration Mobile Unit Rescues Chinese Student from Ransom Threat in Pattaya Within 30 Minutes",
+    "Pattaya Tour Boat Collision Injures Nine as Vessel Sinks Rapidly",
+    "Pattaya Night Spots Quieter Than Usual, Mayor Says Tourist Numbers Slightly Down But Says Global Economic Conditions Are Main Factor",
+    "CIB “Ghost Hunter” Operation Arrests 20 Wanted Suspects in Chonburi for Mule Accounts and Online Fraud"
   ],
   "flights": [
     {
@@ -424,6 +425,7 @@
       23.0126
     ],
     "RUB": [
+      0.4105,
       0.4105
     ],
     "BTC": [
@@ -457,8 +459,8 @@
       2416655,
       2317715,
       2175441,
-      2121466
+      2184653
     ]
   },
-  "last_update": "2026-11-15 09:03:01"
+  "last_update": "2026-11-15 09:23:26"
 }
