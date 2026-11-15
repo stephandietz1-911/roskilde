@@ -175,18 +175,68 @@ jobs:
         except Exception as e:
             print("AQI error:", e)
 
-        # 6. News bereinigt
+        # 6. News bereinigt (Option A: Mix aus The Pattaya News Lokal-Feed + Google News letzte 48h, nach Datum gefiltert)
         try:
-            n_req = urllib.request.Request("https://news.google.com/rss/search?q=Pattaya+Thailand&hl=en-TH&gl=TH&ceid=TH:en", headers=UA)
-            with urllib.request.urlopen(n_req, timeout=10) as response:
-                root = ET.fromstring(response.read())
-                clean_titles = []
-                for item in root.findall(".//item")[:5]:
-                    title = item.find("title").text or ""
-                    title = re.sub(r'\s-\s.*', '', title)
-                    title = re.sub(r'\s\([a-zA-Z0-9]{10}\)$', '', title).strip()
-                    if title: clean_titles.append(title)
-                if clean_titles: data["news"] = clean_titles
+            from email.utils import parsedate_to_datetime
+            now_utc = datetime.datetime.now(datetime.timezone.utc)
+            collected_news = []
+            seen_keys = set()
+
+            def add_headline(raw_title, pub_dt):
+                t = (raw_title or "").strip()
+                t = re.sub(r'\s-\s[^-]+$', '', t)
+                t = re.sub(r'\s\([a-zA-Z0-9]{10}\)$', '', t).strip()
+                if not t or len(t) < 12:
+                    return
+                key = re.sub(r'[^a-z0-9]', '', t.lower())[:35]
+                if key in seen_keys:
+                    return
+                seen_keys.add(key)
+                collected_news.append((pub_dt, t))
+
+            # 6a) The Pattaya News (echte Lokal-News für Pattaya / Jomtien / Chonburi)
+            try:
+                tpn_req = urllib.request.Request("https://thepattayanews.com/feed/", headers=UA)
+                with urllib.request.urlopen(tpn_req, timeout=10) as response:
+                    tpn_root = ET.fromstring(response.read())
+                    for item in tpn_root.findall(".//item")[:8]:
+                        title = item.find("title").text if item.find("title") is not None else ""
+                        pub_str = item.find("pubDate").text if item.find("pubDate") is not None else ""
+                        try:
+                            pub_dt = parsedate_to_datetime(pub_str)
+                            if (now_utc - pub_dt).total_seconds() > 3 * 86400:
+                                continue
+                        except:
+                            pub_dt = now_utc
+                        if any(k in title.lower() for k in ["pattaya", "jomtien", "chonburi", "thailand", "thai", "tourist"]):
+                            add_headline(title, pub_dt)
+                        if len(collected_news) >= 4:
+                            break
+            except Exception as e:
+                print("The Pattaya News error:", e)
+
+            # 6b) Google News (strikt letzte 48 Stunden via when:2d)
+            try:
+                g_url = "https://news.google.com/rss/search?q=Pattaya+when:2d&hl=en-TH&gl=TH&ceid=TH:en"
+                n_req = urllib.request.Request(g_url, headers=UA)
+                with urllib.request.urlopen(n_req, timeout=10) as response:
+                    root = ET.fromstring(response.read())
+                    for item in root.findall(".//item")[:8]:
+                        title = item.find("title").text if item.find("title") is not None else ""
+                        pub_str = item.find("pubDate").text if item.find("pubDate") is not None else ""
+                        try:
+                            pub_dt = parsedate_to_datetime(pub_str)
+                            if (now_utc - pub_dt).total_seconds() > 3 * 86400:
+                                continue
+                        except:
+                            pub_dt = now_utc
+                        add_headline(title, pub_dt)
+            except Exception as e:
+                print("Google News 48h error:", e)
+
+            if collected_news:
+                collected_news.sort(key=lambda x: x[0], reverse=True)
+                data["news"] = [x[1] for x in collected_news[:6]]
         except Exception as e:
             print("News error:", e)
 
@@ -286,5 +336,5 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add roskilde_data.json
-        git commit -m "Daten-Update: Katastrophen-/Unwettersensor, Historie & BTC aktualisiert" || echo "Keine Änderungen"
+        git commit -m "Daten-Update: Aktuelle Lokal-News, Katastrophensensor & BTC aktualisiert" || echo "Keine Änderungen"
         git push
