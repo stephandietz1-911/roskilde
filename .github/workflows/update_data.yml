@@ -28,6 +28,8 @@ jobs:
         cat << 'EOF' > fetch_data.py
         import urllib.request, json, datetime, xml.etree.ElementTree as ET, re
 
+        UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+
         data = {
             "currencies": {"EUR": "37.45", "EUR_trend": "→", "DKK": "5.02", "DKK_trend": "→", "NOK": "3.22", "NOK_trend": "→", "USD": "34.50", "USD_trend": "→", "AUD": "22.80", "AUD_trend": "→", "RUB": "0.38", "RUB_trend": "→", "BTC": "2,000,000", "BTC_trend": "→"},
             "weather": {"temp": "32", "feels_like": "37", "wind_speed": "15", "wind_dir": "SW", "aqi_value": "35", "aqi_status": "Good", "aqi_color": "#10b981", "uv_index": "0.0"},
@@ -38,36 +40,43 @@ jobs:
         }
 
         # 1. Alte Daten laden
+        old_data = {}
+        old_currencies = {}
+        old_history = {}
         try:
             with open("roskilde_data.json", "r", encoding="utf-8") as f:
                 old_data = json.load(f)
                 old_currencies = old_data.get("currencies", {})
-        except:
-            old_currencies = {}
+                old_history = old_data.get("history", {})
+        except Exception as e:
+            print("Old data load warning:", e)
 
         # 2. Live-Wechselkurse (Fiat)
+        live_vals = {}
         try:
-            req = urllib.request.Request("https://open.er-api.com/v6/latest/THB", headers={"User-Agent": "Mozilla/5.0"})
+            req = urllib.request.Request("https://open.er-api.com/v6/latest/THB", headers=UA)
             with urllib.request.urlopen(req, timeout=10) as response:
                 rates = json.loads(response.read().decode())["rates"]
                 for t in ["EUR", "DKK", "NOK", "USD", "AUD", "RUB"]:
-                    val = 1/rates[t]
+                    val = 1.0 / rates[t]
+                    live_vals[t] = round(val, 4)
                     data["currencies"][t] = f"{val:.2f}"
                     old = float(old_currencies.get(t, val))
-                    data["currencies"][t+"_trend"] = "↑" if val > old + 0.005 else ("↓" if val < old - 0.005 else "→")
-        except: pass
+                    data["currencies"][t + "_trend"] = "↑" if val > old + 0.005 else ("↓" if val < old - 0.005 else "→")
+        except Exception as e:
+            print("Fiat rates error:", e)
 
-        # 3a. 90-Tage Historie für Fiat-Diagramm abfragen (Frankfurter API)
+        # 3a. 90-Tage Historie für Fiat-Diagramm abfragen (Frankfurter API) + RUB-Historie mitschreiben
         try:
             end_d = datetime.date.today()
             start_d = end_d - datetime.timedelta(days=90)
             f_url = f"https://api.frankfurter.app/{start_d}..{end_d}?from=EUR&to=THB,USD,DKK,NOK,AUD"
-            req = urllib.request.Request(f_url, headers={"User-Agent": "Mozilla/5.0"})
+            req = urllib.request.Request(f_url, headers=UA)
             with urllib.request.urlopen(req, timeout=10) as response:
                 r_data = json.loads(response.read().decode())["rates"]
                 sorted_dates = sorted(r_data.keys())
                 h_eur, h_usd, h_dkk, h_nok, h_aud = [], [], [], [], []
-                
+
                 for d in sorted_dates:
                     dr = r_data[d]
                     if "THB" not in dr: continue
@@ -77,34 +86,57 @@ jobs:
                     if "DKK" in dr: h_dkk.append(round(thb / dr["DKK"], 4))
                     if "NOK" in dr: h_nok.append(round(thb / dr["NOK"], 4))
                     if "AUD" in dr: h_aud.append(round(thb / dr["AUD"], 4))
-                    
-                data["history"] = {"EUR": h_eur, "USD": h_usd, "DKK": h_dkk, "NOK": h_nok, "AUD": h_aud, "RUB": []}
+
+                # RUB wird von der EZB/Frankfurter API nicht mehr geführt -> eigene Roll-Historie pflegen
+                h_rub = [float(x) for x in old_history.get("RUB", []) if isinstance(x, (int, float))]
+                if "RUB" in live_vals:
+                    if not h_rub or abs(h_rub[-1] - live_vals["RUB"]) >= 0.0005 or len(h_rub) < 2:
+                        h_rub.append(live_vals["RUB"])
+                    h_rub = h_rub[-60:]
+
+                data["history"] = {"EUR": h_eur, "USD": h_usd, "DKK": h_dkk, "NOK": h_nok, "AUD": h_aud, "RUB": h_rub}
+
+                # Echten Tagestrend gegen den letzten Historienwert berechnen (verhindert dauerhaftes '→')
+                for t in ["EUR", "USD", "DKK", "NOK", "AUD", "RUB"]:
+                    hist_list = data["history"].get(t, [])
+                    cur_v = live_vals.get(t)
+                    if cur_v is not None and len(hist_list) >= 2:
+                        ref_v = hist_list[-2] if abs(cur_v - hist_list[-1]) < 0.001 else hist_list[-1]
+                        diff = cur_v - ref_v
+                        threshold = 0.001 if t == "RUB" else 0.01
+                        data["currencies"][t + "_trend"] = "↑" if diff > threshold else ("↓" if diff < -threshold else "→")
         except Exception as e:
             print("Fiat History error:", e)
+            if old_history:
+                data["history"] = old_history
 
         # 3b. Bitcoin (BTC) Live & Historie (über CoinGecko API, 30 Tage)
         try:
             cg_url = "https://api.coingecko.com/api/v3/coins/bitcoin/market_chart?vs_currency=thb&days=30&interval=daily"
-            cg_req = urllib.request.Request(cg_url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
+            cg_req = urllib.request.Request(cg_url, headers=UA)
             with urllib.request.urlopen(cg_req, timeout=10) as response:
                 cg_data = json.loads(response.read().decode())
                 prices = [round(p[1]) for p in cg_data.get("prices", [])]
-                
+
                 if prices:
                     current_btc = prices[-1]
                     old_btc = prices[-2] if len(prices) > 1 else current_btc
-                    
-                    # Formatierung mit Tausendertrennzeichen, z.B. "2,245,600"
                     data["currencies"]["BTC"] = f"{current_btc:,.0f}"
                     data["currencies"]["BTC_trend"] = "↑" if current_btc > old_btc else ("↓" if current_btc < old_btc else "→")
                     data["history"]["BTC"] = prices
         except Exception as e:
             print("BTC error:", e)
+            if "BTC" in old_currencies:
+                data["currencies"]["BTC"] = old_currencies["BTC"]
+                data["currencies"]["BTC_trend"] = old_currencies.get("BTC_trend", "→")
+            if "BTC" in old_history:
+                data["history"]["BTC"] = old_history["BTC"]
 
-        # 4. Wetter & UV-Index
+        # 4. Wetter, UV-Index & lokale Unwetter-Erkennung (Pattaya / Jomtien)
+        severe_local_alert = ""
         try:
-            w_url = "https://api.open-meteo.com/v1/forecast?latitude=12.923&longitude=100.883&current=temperature_2m,apparent_temperature,wind_speed_10m,wind_direction_10m,uv_index"
-            req = urllib.request.Request(w_url, headers={"User-Agent": "Mozilla/5.0"})
+            w_url = "https://api.open-meteo.com/v1/forecast?latitude=12.923&longitude=100.883&current=temperature_2m,apparent_temperature,wind_speed_10m,wind_direction_10m,wind_gusts_10m,weather_code,uv_index"
+            req = urllib.request.Request(w_url, headers=UA)
             with urllib.request.urlopen(req, timeout=10) as response:
                 w_data = json.loads(response.read().decode())["current"]
                 deg = w_data.get('wind_direction_10m', 0)
@@ -118,23 +150,34 @@ jobs:
                     "wind_dir": w_dir_text,
                     "uv_index": str(round(w_data.get('uv_index', 0.0), 1))
                 })
-        except: pass
+
+                # WMO Weather Code & Windböen für akute lokale Unwetter prüfen
+                w_code = int(w_data.get('weather_code', 0))
+                w_gusts = float(w_data.get('wind_gusts_10m', 0))
+                if w_code in (95, 96, 99):
+                    severe_local_alert = "⛈️ WEATHER ALERT: Thunderstorm active in Pattaya / Jomtien area"
+                elif w_code in (65, 82):
+                    severe_local_alert = "🌧️ WEATHER ALERT: Heavy downpour / flash flood risk in Pattaya area"
+                elif w_gusts >= 55:
+                    severe_local_alert = f"💨 WIND ALERT: Strong gale gusts ({round(w_gusts)} km/h) in Pattaya / Gulf of Thailand"
+        except Exception as e:
+            print("Weather error:", e)
 
         # 5. Luftqualität (AQI)
         try:
             aqi_url = "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=12.923&longitude=100.883&current=us_aqi"
-            req_aqi = urllib.request.Request(aqi_url, headers={"User-Agent": "Mozilla/5.0"})
+            req_aqi = urllib.request.Request(aqi_url, headers=UA)
             with urllib.request.urlopen(req_aqi, timeout=10) as response:
                 aqi_data = json.loads(response.read().decode())["current"]
                 aqi = aqi_data.get('us_aqi', 35)
                 aqi_status, aqi_color = ("Good", "#10b981") if aqi <= 50 else (("Moderate", "#f59e0b") if aqi <= 100 else ("Unhealthy", "#ef4444"))
-                
                 data["weather"].update({"aqi_value": str(aqi), "aqi_status": aqi_status, "aqi_color": aqi_color})
-        except: pass
+        except Exception as e:
+            print("AQI error:", e)
 
         # 6. News bereinigt
         try:
-            n_req = urllib.request.Request("https://news.google.com/rss/search?q=Pattaya+Thailand&hl=en-TH&gl=TH&ceid=TH:en", headers={"User-Agent": "Mozilla/5.0"})
+            n_req = urllib.request.Request("https://news.google.com/rss/search?q=Pattaya+Thailand&hl=en-TH&gl=TH&ceid=TH:en", headers=UA)
             with urllib.request.urlopen(n_req, timeout=10) as response:
                 root = ET.fromstring(response.read())
                 clean_titles = []
@@ -144,33 +187,91 @@ jobs:
                     title = re.sub(r'\s\([a-zA-Z0-9]{10}\)$', '', title).strip()
                     if title: clean_titles.append(title)
                 if clean_titles: data["news"] = clean_titles
-        except: pass
+        except Exception as e:
+            print("News error:", e)
 
-        # 7. Wetterwarnungen (TMD)
+        # 7. Katastrophen- & Unwetter-Warnsystem (4-stufig: Erdbeben/Tsunami, Taifun, Offizielle Warnungen, Lokales Unwetter)
         alert_active = False
         alert_msg = ""
+
+        # 7a) USGS Erdbeben- & Tsunami-Sensor (Umkreis 1.400 km um Pattaya/Thailand, letzte 24 Stunden, ab Magnitude 5.2)
         try:
-            tmd_url = "https://data.tmd.go.th/api/WeatherWarningV2/DataIn_RSS_Feed?uid=api&ukey=api"
-            tmd_req = urllib.request.Request(tmd_url, headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(tmd_req, timeout=10) as response:
-                tmd_root = ET.fromstring(response.read())
-                for item in tmd_root.findall('.//item'):
-                    title = item.find('title').text or ""
-                    desc = item.find('description').text or ""
-                    if any(x in title or x in desc for x in ["Chonburi", "Pattaya", "Eastern", "Gulf of Thailand", "Heavy Rain"]):
+            since_iso = (datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=24)).strftime("%Y-%m-%dT%H:%M:%S")
+            eq_url = f"https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&latitude=12.923&longitude=100.883&maxradiuskm=1400&minmagnitude=5.2&starttime={since_iso}&orderby=magnitude&limit=3"
+            eq_req = urllib.request.Request(eq_url, headers=UA)
+            with urllib.request.urlopen(eq_req, timeout=10) as response:
+                eq_features = json.loads(response.read().decode()).get("features", [])
+                for feat in eq_features:
+                    props = feat.get("properties", {})
+                    mag = props.get("mag", 0)
+                    place = props.get("place", "Southeast Asia")
+                    tsunami = props.get("tsunami", 0)
+                    if mag and (mag >= 5.5 or "Thailand" in place or "Myanmar" in place or "Andaman" in place or tsunami == 1):
+                        prefix = "🌊 TSUNAMI & QUAKE ALERT" if tsunami == 1 else "🚨 EARTHQUAKE ALERT"
                         alert_active = True
-                        alert_msg = "⛈️ WEATHER ALERT: " + (title if len(title) < 60 else title[:57] + "...")
+                        alert_msg = f"{prefix}: M {mag:.1f} - {place}"
                         break
-        except: pass
+        except Exception as e:
+            print("USGS EQ check error:", e)
+
+        # 7b) US Navy JTWC Tropical Cyclone / Typhoon Feed (Südostasien / Golf von Thailand / Südchinesisches Meer)
+        if not alert_active:
+            try:
+                jtwc_req = urllib.request.Request("https://www.metoc.navy.mil/jtwc/rss/jtwc.rss", headers=UA)
+                with urllib.request.urlopen(jtwc_req, timeout=10) as response:
+                    jtwc_xml = response.read().decode("utf-8", errors="ignore")
+                    jtwc_root = ET.fromstring(jtwc_xml)
+                    for item in jtwc_root.findall(".//item"):
+                        t_text = (item.find("title").text or "") if item.find("title") is not None else ""
+                        d_text = (item.find("description").text or "") if item.find("description") is not None else ""
+                        combined = t_text + " " + d_text
+                        if any(k in combined for k in ["Thailand", "Gulf of Thailand", "Andaman", "Vietnam", "Cambodia", "South China Sea"]):
+                            clean_t = re.sub(r'\s+', ' ', t_text).strip()
+                            alert_active = True
+                            alert_msg = "🌀 TYPHOON / STORM WATCH: " + (clean_t if len(clean_t) < 65 else clean_t[:62] + "...")
+                            break
+            except Exception as e:
+                print("JTWC check error:", e)
+
+        # 7c) Offizielle Unwetter- & Katastrophen-Eilmeldungen für Pattaya / Chonburi / Thailand (letzte 24h via Google News RSS)
+        if not alert_active:
+            try:
+                q_str = '("Pattaya"+OR+"Chonburi"+OR+"Jomtien"+OR+"Gulf+of+Thailand"+OR+"TMD")+("weather+warning"+OR+"storm+warning"+OR+"tsunami+warning"+OR+"typhoon+warning"+OR+"flash+flood+warning")+when:1d'
+                warn_url = f"https://news.google.com/rss/search?q={q_str}&hl=en-TH&gl=TH&ceid=TH:en"
+                w_req = urllib.request.Request(warn_url, headers=UA)
+                with urllib.request.urlopen(w_req, timeout=10) as response:
+                    w_root = ET.fromstring(response.read())
+                    for item in w_root.findall(".//item")[:5]:
+                        w_title = item.find("title").text or ""
+                        w_title = re.sub(r'\s-\s.*$', '', w_title).strip()
+                        w_low = w_title.lower()
+                        # Schwache Beben oder irrelevante Artikel ausschließen, nur echte Warnungen für die Region zulassen
+                        if not any(ignore in w_low for ignore in ["weak", "minor", "drill", "exercise", "no tsunami"]):
+                            if any(loc in w_low for loc in ["pattaya", "chonburi", "jomtien", "eastern", "gulf of thailand", "thailand"]):
+                                if any(sev in w_low for sev in ["warning", "alert", "typhoon", "tsunami", "storm", "flash flood"]):
+                                    alert_active = True
+                                    alert_msg = "⚠️ OFFICIAL WARNING: " + (w_title if len(w_title) < 75 else w_title[:72] + "...")
+                                    break
+            except Exception as e:
+                print("Official warning feed error:", e)
+
+        # 7d) Lokales Unwetter direkt in Pattaya/Jomtien (aus Open-Meteo Live-Wetterdaten)
+        if not alert_active and severe_local_alert:
+            alert_active = True
+            alert_msg = severe_local_alert
 
         data["alert"] = {"active": alert_active, "message": alert_msg}
 
         # 8. Flüge erhalten
         try:
-            if 'old_data' in locals() and "flights" in old_data: data["flights"] = old_data["flights"]
-        except: pass
+            if old_data and "flights" in old_data:
+                data["flights"] = old_data["flights"]
+        except:
+            pass
 
-        data["last_update"] = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        # Zeitstempel in thailändischer Ortszeit (UTC+7)
+        th_tz = datetime.timezone(datetime.timedelta(hours=7))
+        data["last_update"] = datetime.datetime.now(th_tz).strftime("%Y-%m-%d %H:%M:%S")
         with open("roskilde_data.json", "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
         EOF
@@ -185,5 +286,5 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add roskilde_data.json
-        git commit -m "Daten-Update: Historie für Chart und BTC hinzugefügt" || echo "Keine Änderungen"
+        git commit -m "Daten-Update: Katastrophen-/Unwettersensor, Historie & BTC aktualisiert" || echo "Keine Änderungen"
         git push
