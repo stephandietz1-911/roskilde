@@ -475,14 +475,68 @@
         }
 
         .alert-banner {
-            background: linear-gradient(90deg, rgba(239, 68, 68, 0.2) 0%, rgba(239, 68, 68, 0.03) 100%);
-            border-left: 4px solid var(--color-danger); padding: 10px 14px; border-radius: 6px;
-            font-size: 12px; font-weight: 700; color: #fca5a5; margin-top: 6px; line-height: 1.4;
-            animation: alert-pulse 2s infinite ease-in-out;
+            background: linear-gradient(135deg, rgba(239, 68, 68, 0.35) 0%, rgba(153, 27, 27, 0.2) 100%);
+            border: 2px solid var(--color-danger);
+            border-left: 6px solid #ff4d4d;
+            padding: 16px 16px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 900;
+            color: #ffffff;
+            margin-top: 10px;
+            line-height: 1.45;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8), 0 0 12px rgba(239, 68, 68, 0.6);
+            box-shadow: 0 0 25px rgba(239, 68, 68, 0.4), inset 0 0 15px rgba(239, 68, 68, 0.2);
+            animation: alert-pulse 1.2s infinite ease-in-out;
         }
         @keyframes alert-pulse {
-            0%, 100% { border-left-color: var(--color-danger); box-shadow: 0 0 5px rgba(239, 68, 68, 0.1); }
-            50% { border-left-color: #ff6b6b; box-shadow: 0 0 15px rgba(239, 68, 68, 0.35); }
+            0%, 100% {
+                border-color: var(--color-danger);
+                box-shadow: 0 0 15px rgba(239, 68, 68, 0.35), inset 0 0 10px rgba(239, 68, 68, 0.15);
+                transform: scale(1);
+            }
+            50% {
+                border-color: #ffffff;
+                background: linear-gradient(135deg, rgba(239, 68, 68, 0.55) 0%, rgba(185, 28, 28, 0.35) 100%);
+                box-shadow: 0 0 35px rgba(239, 68, 68, 0.85), inset 0 0 25px rgba(239, 68, 68, 0.4);
+                transform: scale(1.015);
+            }
+        }
+        .card.weather-alert-active {
+            border-color: var(--color-danger);
+            box-shadow: 0 0 30px rgba(239, 68, 68, 0.45);
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .card.weather-alert-active .weather-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .card.weather-alert-active .alert-banner {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+            padding: 20px;
+        }
+        .alert-header-tag {
+            display: inline-block;
+            background: #ef4444;
+            color: #fff;
+            font-size: 11px;
+            font-weight: 900;
+            letter-spacing: 2px;
+            padding: 4px 12px;
+            border-radius: 20px;
+            margin-bottom: 12px;
+            box-shadow: 0 0 15px rgba(239, 68, 68, 0.9);
         }
 
         /* Flight widget */
@@ -585,7 +639,7 @@
                 </div>
             </div>
             
-            <div class="card">
+            <div id="weather-card" class="card">
                 <div class="card-header-container">
                     <div class="card-title">🌡️ WEATHER & AIR QUALITY</div>
                     <div class="card-header-dot"></div>
@@ -615,7 +669,7 @@
                 </div>
             </div>
             
-            <div class="card flights-card">
+            <div id="flights-card" class="card flights-card">
                 <div class="flights-header">
                     <div class="card-title">✈️ FLIGHTS BKK</div>
                     <div class="flight-tabs">
@@ -828,11 +882,24 @@
             isUvWarning ? uvBadge.classList.add('uv-warning') : uvBadge.classList.remove('uv-warning');
             
             var alertBanner = document.getElementById('alert-banner');
+            var weatherCard = document.getElementById('weather-card');
+            var flightsCard = document.getElementById('flights-card');
             if (gData.alert && gData.alert.active) {
-                alertBanner.innerText = gData.alert.message;
-                alertBanner.style.display = "block";
+                alertBanner.innerHTML = '';
+                var tag = document.createElement('div');
+                tag.className = 'alert-header-tag';
+                tag.textContent = '⚠️ EMERGENCY BROADCAST';
+                var msg = document.createElement('div');
+                msg.textContent = gData.alert.message;
+                alertBanner.appendChild(tag);
+                alertBanner.appendChild(msg);
+                alertBanner.style.display = "flex";
+                if (weatherCard) weatherCard.classList.add('weather-alert-active');
+                if (flightsCard) flightsCard.style.display = "none";
             } else {
                 alertBanner.style.display = "none";
+                if (weatherCard) weatherCard.classList.remove('weather-alert-active');
+                if (flightsCard) flightsCard.style.display = "flex";
             }
             
             var tickerTrack = document.getElementById('ticker-track');
