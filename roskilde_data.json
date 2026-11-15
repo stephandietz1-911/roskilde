@@ -12,17 +12,17 @@
     "AUD_trend": "↓",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,196,105",
+    "BTC": "2,202,056",
     "BTC_trend": "↑"
   },
   "weather": {
     "temp": "27",
     "feels_like": "33",
     "wind_speed": "5",
-    "wind_dir": "SSE",
-    "aqi_value": "202",
-    "aqi_status": "Unhealthy",
-    "aqi_color": "#ef4444",
+    "wind_dir": "NW",
+    "aqi_value": "79",
+    "aqi_status": "Moderate",
+    "aqi_color": "#f59e0b",
     "uv_index": "0.0"
   },
   "alert": {
@@ -30,12 +30,12 @@
     "message": ""
   },
   "news": [
+    "French Tourist Crashes Motorcycle into Electricity Pole in Pattaya, Refuses to Go to Hospital Despite Significant Injuries",
+    "Khurram Imtiaz storms into second round of ITF Masters MT700 in Pattaya",
+    "Pattaya Finishes 2026 Powerboat Racing Season with Grand Prix Finale at Jomtien Beach",
     "Thai Oil Holds Sea Turtle Conservation Event and Cowboy Night Party for Media",
     "Thai Rotarians ready to welcome the world to 2026 Pattaya Institute",
-    "Pattaya Hotels Boom for Festival as Wider Bookings Lag",
-    "Backhoe churns pond to flush out 5-metre python in Pattaya",
-    "Three killed in head-on motorcycle collision at Pattaya’s Khao Talo entrance",
-    "Pakistan seniors gear up for two ITF Masters Events in Pattaya"
+    "Pattaya Hotels Boom for Festival as Wider Bookings Lag"
   ],
   "flights": [
     {
@@ -459,8 +459,8 @@
       2416655,
       2317715,
       2175441,
-      2196105
+      2202056
     ]
   },
-  "last_update": "2026-11-15 22:21:19"
+  "last_update": "2026-11-16 03:28:20"
 }
