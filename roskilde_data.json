@@ -12,30 +12,30 @@
     "AUD_trend": "↓",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,184,653",
-    "BTC_trend": "↑"
+    "BTC": "2,165,543",
+    "BTC_trend": "↓"
   },
   "weather": {
     "temp": "30",
-    "feels_like": "35",
-    "wind_speed": "6",
-    "wind_dir": "N",
-    "aqi_value": "59",
+    "feels_like": "36",
+    "wind_speed": "3",
+    "wind_dir": "SSW",
+    "aqi_value": "78",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "4.4"
+    "uv_index": "4.9"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Pattaya Hotels Boom for Festival as Wider Bookings Lag",
+    "Backhoe churns pond to flush out 5-metre python in Pattaya",
+    "Three killed in head-on motorcycle collision at Pattaya’s Khao Talo entrance",
     "Pakistan seniors gear up for two ITF Masters Events in Pattaya",
-    "Swedish man wanted in eight fraud cases arrested in Pattaya",
-    "Royal Thai Immigration Mobile Unit Rescues Chinese Student from Ransom Threat in Pattaya Within 30 Minutes",
-    "Pattaya Tour Boat Collision Injures Nine as Vessel Sinks Rapidly",
-    "Pattaya Night Spots Quieter Than Usual, Mayor Says Tourist Numbers Slightly Down But Says Global Economic Conditions Are Main Factor",
-    "CIB “Ghost Hunter” Operation Arrests 20 Wanted Suspects in Chonburi for Mule Accounts and Online Fraud"
+    "Pattaya sterilizes five stray dogs before returning them to their communities",
+    "Swedish man wanted in eight fraud cases arrested in Pattaya"
   ],
   "flights": [
     {
@@ -459,8 +459,8 @@
       2416655,
       2317715,
       2175441,
-      2184653
+      2165543
     ]
   },
-  "last_update": "2026-11-15 09:23:26"
+  "last_update": "2026-11-15 14:50:58"
 }
