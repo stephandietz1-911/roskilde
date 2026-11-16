@@ -1,41 +1,41 @@
 {
   "currencies": {
     "EUR": "37.40",
-    "EUR_trend": "↓",
+    "EUR_trend": "↑",
     "DKK": "5.01",
-    "DKK_trend": "→",
+    "DKK_trend": "↑",
     "NOK": "3.54",
-    "NOK_trend": "→",
+    "NOK_trend": "↑",
     "USD": "33.89",
-    "USD_trend": "↓",
+    "USD_trend": "→",
     "AUD": "22.98",
-    "AUD_trend": "↓",
+    "AUD_trend": "↑",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,190,788",
+    "BTC": "2,195,484",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "31",
-    "feels_like": "37",
-    "wind_speed": "12",
-    "wind_dir": "SW",
-    "aqi_value": "61",
+    "temp": "27",
+    "feels_like": "33",
+    "wind_speed": "5",
+    "wind_dir": "SE",
+    "aqi_value": "53",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "6.5"
+    "uv_index": "0.0"
   },
   "alert": {
-    "active": true,
-    "message": "⛈️ WEATHER ALERT: Thunderstorm active in Pattaya / Jomtien area"
+    "active": false,
+    "message": ""
   },
   "news": [
+    "Rashid, Waqar and Khurram advance in doubles at ITF Masters MT700 in Pattaya",
+    "First world champions crowned at Pattaya 2026 as home crowd celebrates two Thai titles",
+    "Meliá Pattaya Hotel Dishes Up a Front-Row Seat to Fireworks",
+    "Top National Thailand Stories From the Past Week: Southern Bombings, Foreigners Involved in Scam Centers Arrested, and More",
     "CIB and Thai Marine Police Arrest Indian Man at Koh Samui Ferry Pier over Fake Thai ID Card Issued in Pattani",
-    "Meliá Pattaya Hotel Puts Central Pattaya on the MICHELIN Guide Map",
-    "Five-meter python weighing over 30kg captured in central Pattaya pond",
-    "Chinese student rescued in Pattaya after threat to cut off arm over 2 million yuan ransom",
-    "Chauffeur Hits Russian Woman Crossing Jomtien Second Road, Says Tree Shadows Blocked His View",
-    "French Tourist Crashes Motorcycle into Electricity Pole in Pattaya, Refuses to Go to Hospital Despite Significant Injuries"
+    "Meliá Pattaya Hotel Puts Central Pattaya on the MICHELIN Guide Map"
   ],
   "flights": [
     {
@@ -153,7 +153,8 @@
       37.522,
       37.487,
       37.47,
-      37.483
+      37.483,
+      37.326
     ],
     "USD": [
       33.0598,
@@ -219,7 +220,8 @@
       33.46,
       33.6901,
       33.8146,
-      33.9151
+      33.9151,
+      33.8896
     ],
     "DKK": [
       5.1191,
@@ -285,7 +287,8 @@
       5.0194,
       5.0146,
       5.0124,
-      5.014
+      5.014,
+      4.9933
     ],
     "NOK": [
       3.5102,
@@ -351,7 +354,8 @@
       3.5346,
       3.5317,
       3.5473,
-      3.5463
+      3.5463,
+      3.53
     ],
     "AUD": [
       23.5103,
@@ -417,7 +421,8 @@
       23.099,
       23.1087,
       23.0641,
-      23.0126
+      23.0126,
+      22.898
     ],
     "RUB": [
       0.4105,
@@ -454,8 +459,8 @@
       2317715,
       2175441,
       2215395,
-      2190788
+      2195484
     ]
   },
-  "last_update": "2026-11-16 13:41:40"
+  "last_update": "2026-11-16 23:27:29"
 }
