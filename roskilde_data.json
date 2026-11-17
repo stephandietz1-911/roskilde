@@ -12,15 +12,15 @@
     "AUD_trend": "↑",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,195,484",
+    "BTC": "2,185,798",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "33",
-    "wind_speed": "5",
-    "wind_dir": "SE",
-    "aqi_value": "53",
+    "temp": "32",
+    "feels_like": "37",
+    "wind_speed": "15",
+    "wind_dir": "SW",
+    "aqi_value": "55",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
     "uv_index": "0.0"
@@ -30,9 +30,7 @@
     "message": ""
   },
   "news": [
-    "Rashid, Waqar and Khurram advance in doubles at ITF Masters MT700 in Pattaya",
-    "First world champions crowned at Pattaya 2026 as home crowd celebrates two Thai titles",
-    "Meliá Pattaya Hotel Dishes Up a Front-Row Seat to Fireworks",
+    "Pattaya Announces Third Four-School Football Cup, Competition Set for November 30th to December 8th",
     "Top National Thailand Stories From the Past Week: Southern Bombings, Foreigners Involved in Scam Centers Arrested, and More",
     "CIB and Thai Marine Police Arrest Indian Man at Koh Samui Ferry Pier over Fake Thai ID Card Issued in Pattani",
     "Meliá Pattaya Hotel Puts Central Pattaya on the MICHELIN Guide Map"
@@ -90,7 +88,6 @@
   ],
   "history": {
     "EUR": [
-      38.27,
       38.372,
       38.448,
       38.226,
@@ -157,7 +154,6 @@
       37.326
     ],
     "USD": [
-      33.0598,
       33.0651,
       32.915,
       32.6746,
@@ -224,7 +220,6 @@
       33.8896
     ],
     "DKK": [
-      5.1191,
       5.1328,
       5.143,
       5.1133,
@@ -291,7 +286,6 @@
       4.9933
     ],
     "NOK": [
-      3.5102,
       3.517,
       3.5265,
       3.5175,
@@ -358,7 +352,6 @@
       3.53
     ],
     "AUD": [
-      23.5103,
       23.3961,
       23.3897,
       23.4214,
@@ -429,7 +422,6 @@
       0.4105
     ],
     "BTC": [
-      2708060,
       2747392,
       2750436,
       2788339,
@@ -459,8 +451,9 @@
       2317715,
       2175441,
       2215395,
-      2195484
+      2197539,
+      2185798
     ]
   },
-  "last_update": "2026-11-16 23:27:29"
+  "last_update": "2026-11-17 07:23:46"
 }
