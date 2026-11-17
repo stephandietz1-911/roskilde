@@ -1,18 +1,18 @@
 {
   "currencies": {
-    "EUR": "37.40",
-    "EUR_trend": "↑",
-    "DKK": "5.01",
-    "DKK_trend": "↑",
-    "NOK": "3.54",
-    "NOK_trend": "↑",
+    "EUR": "37.30",
+    "EUR_trend": "↓",
+    "DKK": "4.99",
+    "DKK_trend": "→",
+    "NOK": "3.52",
+    "NOK_trend": "→",
     "USD": "33.89",
     "USD_trend": "→",
-    "AUD": "22.98",
-    "AUD_trend": "↑",
+    "AUD": "22.86",
+    "AUD_trend": "↓",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,185,798",
+    "BTC": "2,187,614",
     "BTC_trend": "↓"
   },
   "weather": {
@@ -20,9 +20,9 @@
     "feels_like": "37",
     "wind_speed": "15",
     "wind_dir": "SW",
-    "aqi_value": "55",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
+    "aqi_value": "48",
+    "aqi_status": "Good",
+    "aqi_color": "#10b981",
     "uv_index": "0.0"
   },
   "alert": {
@@ -30,10 +30,10 @@
     "message": ""
   },
   "news": [
+    "Senior Thai Environment Advisor Inspects Illegal Industrial Waste Dump in Khao Mai Kaew Near Pattaya, Orders Full Investigation",
+    "Pattaya Patrol Stops Motorcycle at Jomtien Checkpoint, Seizes Meth Hidden in Candy-Like Wrappers",
     "Pattaya Announces Third Four-School Football Cup, Competition Set for November 30th to December 8th",
-    "Top National Thailand Stories From the Past Week: Southern Bombings, Foreigners Involved in Scam Centers Arrested, and More",
-    "CIB and Thai Marine Police Arrest Indian Man at Koh Samui Ferry Pier over Fake Thai ID Card Issued in Pattani",
-    "Meliá Pattaya Hotel Puts Central Pattaya on the MICHELIN Guide Map"
+    "Top National Thailand Stories From the Past Week: Southern Bombings, Foreigners Involved in Scam Centers Arrested, and More"
   ],
   "flights": [
     {
@@ -452,8 +452,8 @@
       2175441,
       2215395,
       2197539,
-      2185798
+      2187614
     ]
   },
-  "last_update": "2026-11-17 07:23:46"
+  "last_update": "2026-11-17 15:17:57"
 }
