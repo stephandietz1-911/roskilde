@@ -12,17 +12,17 @@
     "AUD_trend": "↑",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,158,030",
+    "BTC": "2,191,099",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "33",
-    "wind_speed": "1",
-    "wind_dir": "E",
-    "aqi_value": "43",
-    "aqi_status": "Good",
-    "aqi_color": "#10b981",
+    "temp": "32",
+    "feels_like": "37",
+    "wind_speed": "15",
+    "wind_dir": "SW",
+    "aqi_value": "55",
+    "aqi_status": "Moderate",
+    "aqi_color": "#f59e0b",
     "uv_index": "0.0"
   },
   "alert": {
@@ -30,12 +30,10 @@
     "message": ""
   },
   "news": [
-    "Thai Police rescue Chinese student in 30 minutes following virtual kidnapping scam in Pattaya",
-    "Pattaya Prepares for “One Flag, One Nation, One World Record” Event on December 5th",
-    "Banglamung Officials Raid Jomtien Drug Den, Find 10 People and Arrest Two Suspects in Separate Operations",
-    "Pattaya Holds Lottery for 600 Free Vendor Stalls at 2026 International Fireworks Festival",
-    "French tourist crashes motorbike in Pattaya, refuses treatment",
-    "Suspected Singaporean drug boss arrested in Pattaya"
+    "Legal Corner: Winning Child Custody Battles: Legal Guidance for Expat Parents in Thailand",
+    "SECURE & AFFORDABLE STORAGE IN PATTAYA!",
+    "Meliá Pattaya Hotel Dishes Up a Front-Row Seat to Fireworks",
+    "Hard Rock Hotel Pattaya Marks 25 Years with a Buddhist Blessing and Merit-Making Ceremony"
   ],
   "flights": [
     {
@@ -90,7 +88,6 @@
   ],
   "history": {
     "EUR": [
-      38.372,
       38.448,
       38.226,
       38.124,
@@ -157,7 +154,6 @@
       37.187
     ],
     "USD": [
-      33.0651,
       32.915,
       32.6746,
       32.6852,
@@ -224,7 +220,6 @@
       33.8402
     ],
     "DKK": [
-      5.1328,
       5.143,
       5.1133,
       5.0997,
@@ -291,7 +286,6 @@
       4.9749
     ],
     "NOK": [
-      3.517,
       3.5265,
       3.5175,
       3.509,
@@ -358,7 +352,6 @@
       3.5163
     ],
     "AUD": [
-      23.3961,
       23.3897,
       23.4214,
       23.4076,
@@ -429,7 +422,6 @@
       0.4105
     ],
     "BTC": [
-      2747392,
       2750436,
       2788339,
       2823861,
@@ -459,8 +451,9 @@
       2175441,
       2215395,
       2197539,
-      2158030
+      2194300,
+      2191099
     ]
   },
-  "last_update": "2026-11-18 00:45:19"
+  "last_update": "2026-11-18 07:32:59"
 }
