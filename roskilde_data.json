@@ -1,7 +1,7 @@
 {
   "currencies": {
     "EUR": "37.20",
-    "EUR_trend": "↑",
+    "EUR_trend": "↓",
     "DKK": "4.98",
     "DKK_trend": "→",
     "NOK": "3.51",
@@ -9,10 +9,10 @@
     "USD": "33.82",
     "USD_trend": "↓",
     "AUD": "22.79",
-    "AUD_trend": "→",
+    "AUD_trend": "↓",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,191,198",
+    "BTC": "2,116,570",
     "BTC_trend": "↓"
   },
   "weather": {
@@ -20,7 +20,7 @@
     "feels_like": "37",
     "wind_speed": "15",
     "wind_dir": "SW",
-    "aqi_value": "61",
+    "aqi_value": "98",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
     "uv_index": "0.0"
@@ -30,12 +30,12 @@
     "message": ""
   },
   "news": [
+    "35-Year-Old Woman Killed in Hit-and-Run Pickup Collision on Sukhumvit Road Near Pattaya",
+    "Golati Family Continues Annual Ting Krachat Tradition with 1,000 Rice and Dry Food Packages for Pattaya’s Needy",
+    "Singaporean wanted for drug trafficking arrested in Pattaya after a year in hiding in Thailand",
+    "US Attorney Jeanine Pirro Meets Thailand’s Police Chief to Strengthen Fight Against Transnational Scam Networks",
     "Singaporean fugitive linked to major drug network arrested in Pattaya alongside accomplice, Singapore News",
-    "Thai Criminal Court Gives Sentences in Collapsed Bangkok Building Nominee Case, Orders China Railway Thailand to Cease Operations, Chinese Director Sentenced to Three Years in Prison",
-    "Norwegian tourist survives 7-storey fall at Pattaya hotel",
-    "Pattaya International Fireworks Festival 2026 Set for November 27–28 as City Points Out Global Recognition and Event Preparations",
-    "Rasi Salai United U21",
-    "Pattaya is a great place for everything from dining to themed attractions"
+    "Thai Criminal Court Gives Sentences in Collapsed Bangkok Building Nominee Case, Orders China Railway Thailand to Cease Operations, Chinese Director Sentenced to Three Years in Prison"
   ],
   "flights": [
     {
@@ -153,7 +153,8 @@
       37.47,
       37.483,
       37.326,
-      37.187
+      37.187,
+      37.264
     ],
     "USD": [
       32.915,
@@ -219,7 +220,8 @@
       33.8146,
       33.9151,
       33.8896,
-      33.8402
+      33.8402,
+      33.9752
     ],
     "DKK": [
       5.143,
@@ -285,7 +287,8 @@
       5.0124,
       5.014,
       4.9933,
-      4.9749
+      4.9749,
+      4.9856
     ],
     "NOK": [
       3.5265,
@@ -351,7 +354,8 @@
       3.5473,
       3.5463,
       3.53,
-      3.5163
+      3.5163,
+      3.514
     ],
     "AUD": [
       23.3897,
@@ -417,7 +421,8 @@
       23.0641,
       23.0126,
       22.898,
-      22.7917
+      22.7917,
+      22.8698
     ],
     "RUB": [
       0.4105,
@@ -454,8 +459,8 @@
       2215395,
       2197539,
       2194300,
-      2191198
+      2116570
     ]
   },
-  "last_update": "2026-11-18 14:56:59"
+  "last_update": "2026-11-19 00:00:48"
 }
