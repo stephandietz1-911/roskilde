@@ -12,7 +12,7 @@
     "AUD_trend": "↓",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,116,570",
+    "BTC": "2,114,262",
     "BTC_trend": "↓"
   },
   "weather": {
@@ -20,7 +20,7 @@
     "feels_like": "37",
     "wind_speed": "15",
     "wind_dir": "SW",
-    "aqi_value": "98",
+    "aqi_value": "56",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
     "uv_index": "0.0"
@@ -30,12 +30,12 @@
     "message": ""
   },
   "news": [
+    "Pattaya Police Arrest 19-Year-Old Transgender Woman Within Two Hours of Turkish Tourist’s Room Theft",
+    "Police nab Pattaya crypto investment scam suspects",
+    "28-Year-Old Woman Surrenders in Fatal Hit-and-Run on Sukhumvit Road Near Pattaya, Claims Panic After Collision",
     "35-Year-Old Woman Killed in Hit-and-Run Pickup Collision on Sukhumvit Road Near Pattaya",
     "Golati Family Continues Annual Ting Krachat Tradition with 1,000 Rice and Dry Food Packages for Pattaya’s Needy",
-    "Singaporean wanted for drug trafficking arrested in Pattaya after a year in hiding in Thailand",
-    "US Attorney Jeanine Pirro Meets Thailand’s Police Chief to Strengthen Fight Against Transnational Scam Networks",
-    "Singaporean fugitive linked to major drug network arrested in Pattaya alongside accomplice, Singapore News",
-    "Thai Criminal Court Gives Sentences in Collapsed Bangkok Building Nominee Case, Orders China Railway Thailand to Cease Operations, Chinese Director Sentenced to Three Years in Prison"
+    "Singaporean wanted for drug trafficking arrested in Pattaya after a year in hiding in Thailand"
   ],
   "flights": [
     {
@@ -459,8 +459,8 @@
       2215395,
       2197539,
       2194300,
-      2116570
+      2114262
     ]
   },
-  "last_update": "2026-11-19 00:00:48"
+  "last_update": "2026-11-19 06:22:50"
 }
