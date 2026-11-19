@@ -7,20 +7,20 @@
     "NOK": "3.51",
     "NOK_trend": "→",
     "USD": "33.97",
-    "USD_trend": "↓",
+    "USD_trend": "↑",
     "AUD": "22.83",
-    "AUD_trend": "↓",
+    "AUD_trend": "↑",
     "RUB": "0.41",
     "RUB_trend": "↑",
-    "BTC": "2,163,465",
-    "BTC_trend": "↑"
+    "BTC": "2,089,086",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "32",
+    "temp": "26",
+    "feels_like": "29",
     "wind_speed": "11",
-    "wind_dir": "ENE",
-    "aqi_value": "46",
+    "wind_dir": "NE",
+    "aqi_value": "38",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
     "uv_index": "0.0"
@@ -30,12 +30,12 @@
     "message": ""
   },
   "news": [
+    "Joint Force Detains Nine Beggars on Pattaya Beach, Walking Street and Second Road",
+    "Thailand firefighters called to condo after residents discover 13-foot python beneath the floor",
     "Singaporean arrested in Pattaya wanted for drug trafficking and supply, fled abroad in 2024: CNB",
     "Thai official disguises himself as homeless rubbish collector to catch drug dealer in Pattaya",
     "Two Singaporeans, including one wanted by CNB, nabbed in Thailand for suspected drug offences",
-    "Pattaya International Fireworks Festival 2026 returns to the seaside this November",
-    "Meliá Pattaya Hotel dishes up a front-row seat to fireworks",
-    "400 million baht scam network crackdown in Pattaya: 3 Chinese and 1 Taiwanese arrested"
+    "Pattaya International Fireworks Festival 2026 returns to the seaside this November"
   ],
   "flights": [
     {
@@ -153,7 +153,8 @@
       37.483,
       37.326,
       37.187,
-      37.264
+      37.264,
+      37.268
     ],
     "USD": [
       32.6746,
@@ -219,7 +220,8 @@
       33.9151,
       33.8896,
       33.8402,
-      33.9752
+      33.9752,
+      33.9047
     ],
     "DKK": [
       5.1133,
@@ -285,7 +287,8 @@
       5.014,
       4.9933,
       4.9749,
-      4.9856
+      4.9856,
+      4.9862
     ],
     "NOK": [
       3.5175,
@@ -351,7 +354,8 @@
       3.5463,
       3.53,
       3.5163,
-      3.514
+      3.514,
+      3.5002
     ],
     "AUD": [
       23.4214,
@@ -417,7 +421,8 @@
       23.0126,
       22.898,
       22.7917,
-      22.8698
+      22.8698,
+      22.7549
     ],
     "RUB": [
       0.4105,
@@ -455,8 +460,8 @@
       2197539,
       2194300,
       2140092,
-      2163465
+      2089086
     ]
   },
-  "last_update": "2026-11-19 20:42:23"
+  "last_update": "2026-11-20 04:49:44"
 }
