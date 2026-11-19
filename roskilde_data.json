@@ -12,17 +12,17 @@
     "AUD_trend": "↓",
     "RUB": "0.41",
     "RUB_trend": "↑",
-    "BTC": "2,148,724",
+    "BTC": "2,163,465",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "32",
-    "feels_like": "37",
-    "wind_speed": "15",
-    "wind_dir": "SW",
-    "aqi_value": "53",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
+    "temp": "28",
+    "feels_like": "32",
+    "wind_speed": "11",
+    "wind_dir": "ENE",
+    "aqi_value": "46",
+    "aqi_status": "Good",
+    "aqi_color": "#10b981",
     "uv_index": "0.0"
   },
   "alert": {
@@ -30,12 +30,12 @@
     "message": ""
   },
   "news": [
-    "Norwegian Man Survives Fall from 7th-Floor Hotel Balcony in Pattaya After Reported Argument",
-    "Pattaya Motorcycle Owner Tracks Three Suspected Thieves, Imposes Beach Exercise Punishment Instead of Prosecution",
-    "Pattaya police arrest suspect over alleged 74,000 baht theft from Turkish tourist",
-    "18-Year-Old Roofing Worker Seriously Injured in Fall at Pattaya Football Stadium Construction Site",
-    "Pattaya Police Arrest 19-Year-Old Transgender Woman Within Two Hours of Turkish Tourist’s Room Theft",
-    "Police nab Pattaya crypto investment scam suspects"
+    "Singaporean arrested in Pattaya wanted for drug trafficking and supply, fled abroad in 2024: CNB",
+    "Thai official disguises himself as homeless rubbish collector to catch drug dealer in Pattaya",
+    "Two Singaporeans, including one wanted by CNB, nabbed in Thailand for suspected drug offences",
+    "Pattaya International Fireworks Festival 2026 returns to the seaside this November",
+    "Meliá Pattaya Hotel dishes up a front-row seat to fireworks",
+    "400 million baht scam network crackdown in Pattaya: 3 Chinese and 1 Taiwanese arrested"
   ],
   "flights": [
     {
@@ -455,8 +455,8 @@
       2197539,
       2194300,
       2140092,
-      2148724
+      2163465
     ]
   },
-  "last_update": "2026-11-19 11:21:52"
+  "last_update": "2026-11-19 20:42:23"
 }
