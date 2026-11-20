@@ -12,30 +12,30 @@
     "AUD_trend": "↓",
     "RUB": "0.41",
     "RUB_trend": "↑",
-    "BTC": "2,094,196",
-    "BTC_trend": "↓"
+    "BTC": "2,108,922",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "32",
-    "feels_like": "37",
-    "wind_speed": "15",
-    "wind_dir": "SW",
-    "aqi_value": "41",
-    "aqi_status": "Good",
-    "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "temp": "29",
+    "feels_like": "35",
+    "wind_speed": "6",
+    "wind_dir": "ENE",
+    "aqi_value": "60",
+    "aqi_status": "Moderate",
+    "aqi_color": "#f59e0b",
+    "uv_index": "0.1"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Pakistani Tourist Reports Loss of Over 100,000 Baht After Meeting Thai Woman on Pattaya Beach and Falling Asleep in Hotel",
-    "Joint Force Detains Nine Beggars on Pattaya Beach, Walking Street and Second Road",
-    "Thailand firefighters called to condo after residents discover 13-foot python beneath the floor",
-    "Filip Radović takes historic para table tennis gold",
-    "Singaporean arrested in Pattaya wanted for drug trafficking and supply, fled abroad in 2024: CNB",
-    "Thai official disguises himself as homeless rubbish collector to catch drug dealer in Pattaya"
+    "20 Best Restaurants In Pattaya, Thailand",
+    "Thai PM Anutin and Chinese President Xi Agree on River Pollution Cooperation, 500,000-Tonne Rice Trade and Rail Links",
+    "Pattaya Reviews Tourism and Social Concerns Following US Navy Ship Visit",
+    "Pattaya and Tourist Police Discuss AI-Assisted CCTV Security Ahead of International Fireworks Festival",
+    "Giant Christmas-Themed Jolly Bears Coming to Pattaya Beach for Festive Season",
+    "Thai official poses as homeless trash collector to catch drug dealer in Pattaya"
   ],
   "flights": [
     {
@@ -461,8 +461,8 @@
       2194300,
       2140092,
       2104428,
-      2094196
+      2108922
     ]
   },
-  "last_update": "2026-11-20 09:50:10"
+  "last_update": "2026-11-20 17:55:01"
 }
