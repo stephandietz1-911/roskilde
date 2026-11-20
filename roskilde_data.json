@@ -1,36 +1,36 @@
 {
   "currencies": {
     "EUR": "37.27",
-    "EUR_trend": "→",
+    "EUR_trend": "↑",
     "DKK": "4.99",
     "DKK_trend": "→",
     "NOK": "3.49",
-    "NOK_trend": "→",
+    "NOK_trend": "↑",
     "USD": "33.94",
     "USD_trend": "↑",
     "AUD": "22.71",
-    "AUD_trend": "↓",
+    "AUD_trend": "↑",
     "RUB": "0.41",
     "RUB_trend": "↑",
-    "BTC": "2,108,922",
-    "BTC_trend": "↑"
+    "BTC": "1,991,766",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "35",
-    "wind_speed": "6",
-    "wind_dir": "ENE",
-    "aqi_value": "60",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
-    "uv_index": "0.1"
+    "temp": "27",
+    "feels_like": "29",
+    "wind_speed": "18",
+    "wind_dir": "NE",
+    "aqi_value": "32",
+    "aqi_status": "Good",
+    "aqi_color": "#10b981",
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "20 Best Restaurants In Pattaya, Thailand",
+    "Creating a More Sustainable Future at U Jomtien Pattaya",
     "Thai PM Anutin and Chinese President Xi Agree on River Pollution Cooperation, 500,000-Tonne Rice Trade and Rail Links",
     "Pattaya Reviews Tourism and Social Concerns Following US Navy Ship Visit",
     "Pattaya and Tourist Police Discuss AI-Assisted CCTV Security Ahead of International Fireworks Festival",
@@ -154,7 +154,8 @@
       37.326,
       37.187,
       37.264,
-      37.268
+      37.268,
+      37.262
     ],
     "USD": [
       32.6746,
@@ -221,7 +222,8 @@
       33.8896,
       33.8402,
       33.9752,
-      33.9047
+      33.9047,
+      33.9054
     ],
     "DKK": [
       5.1133,
@@ -288,7 +290,8 @@
       4.9933,
       4.9749,
       4.9856,
-      4.9862
+      4.9862,
+      4.9851
     ],
     "NOK": [
       3.5175,
@@ -355,7 +358,8 @@
       3.53,
       3.5163,
       3.514,
-      3.5002
+      3.5002,
+      3.4766
     ],
     "AUD": [
       23.4214,
@@ -422,7 +426,8 @@
       22.898,
       22.7917,
       22.8698,
-      22.7549
+      22.7549,
+      22.6008
     ],
     "RUB": [
       0.4105,
@@ -461,8 +466,8 @@
       2194300,
       2140092,
       2104428,
-      2108922
+      1991766
     ]
   },
-  "last_update": "2026-11-20 17:55:01"
+  "last_update": "2026-11-21 01:57:29"
 }
