@@ -12,30 +12,30 @@
     "AUD_trend": "↑",
     "RUB": "0.41",
     "RUB_trend": "↑",
-    "BTC": "1,991,766",
-    "BTC_trend": "↓"
+    "BTC": "1,994,037",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "27",
-    "feels_like": "29",
-    "wind_speed": "18",
-    "wind_dir": "NE",
-    "aqi_value": "32",
+    "temp": "25",
+    "feels_like": "26",
+    "wind_speed": "23",
+    "wind_dir": "ENE",
+    "aqi_value": "27",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "1.1"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Legal Corner: Secure Your Future in the UK with Your Thai Partner",
+    "Woman arrested for stealing $2,000 from Turkish tourist in Pattaya",
     "Creating a More Sustainable Future at U Jomtien Pattaya",
+    "Shocks, comebacks and first-time champions as history-making ITTF World Para Championships 2026 close in Pattaya",
     "Thai PM Anutin and Chinese President Xi Agree on River Pollution Cooperation, 500,000-Tonne Rice Trade and Rail Links",
-    "Pattaya Reviews Tourism and Social Concerns Following US Navy Ship Visit",
-    "Pattaya and Tourist Police Discuss AI-Assisted CCTV Security Ahead of International Fireworks Festival",
-    "Giant Christmas-Themed Jolly Bears Coming to Pattaya Beach for Festive Season",
-    "Thai official poses as homeless trash collector to catch drug dealer in Pattaya"
+    "Pattaya Reviews Tourism and Social Concerns Following US Navy Ship Visit"
   ],
   "flights": [
     {
@@ -436,7 +436,6 @@
       0.4137
     ],
     "BTC": [
-      2823861,
       2743282,
       2727951,
       2718138,
@@ -466,8 +465,9 @@
       2194300,
       2140092,
       2104428,
-      1991766
+      1989304,
+      1994037
     ]
   },
-  "last_update": "2026-11-21 01:57:29"
+  "last_update": "2026-11-21 07:41:10"
 }
