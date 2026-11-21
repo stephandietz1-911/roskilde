@@ -12,30 +12,30 @@
     "AUD_trend": "↑",
     "RUB": "0.41",
     "RUB_trend": "↑",
-    "BTC": "1,966,474",
-    "BTC_trend": "↓"
+    "BTC": "2,024,526",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "31",
-    "feels_like": "35",
-    "wind_speed": "16",
+    "temp": "27",
+    "feels_like": "30",
+    "wind_speed": "12",
     "wind_dir": "ENE",
-    "aqi_value": "41",
+    "aqi_value": "43",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "5.3"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Thai PM Anutin Rejects Claims Thailand Loses in US Trade Deal, Warns of Tariffs Up to 50% Without Agreement and Pledges Farmer Safeguards",
-    "Motorcycle Couple Collides with U-Turning 18-Wheeler on Highway 331 Near Pattaya; Rider Dies, Passenger Critical",
-    "Legal Corner: Secure Your Future in the UK with Your Thai Partner",
+    "Pattaya Reviews Draft 2027 Operational Plan Featuring 341 New Projects and 172 Ongoing Initiatives",
+    "Pattaya Explores Waste Management Cooperation During Visit to Redemptorist Foundation for People with Disabilities",
+    "Banglamung and Pattaya Prepare Regional Royal Cremation Tribute Ceremony for December 16th",
+    "Pattaya Administrative Officials Receive Refresher Training on Regulations, Legal Duties and Digital Systems",
     "Woman arrested for stealing $2,000 from Turkish tourist in Pattaya",
-    "Creating a More Sustainable Future at U Jomtien Pattaya",
-    "Shocks, comebacks and first-time champions as history-making ITTF World Para Championships 2026 close in Pattaya"
+    "Creating a More Sustainable Future at U Jomtien Pattaya"
   ],
   "flights": [
     {
@@ -466,8 +466,8 @@
       2140092,
       2104428,
       1989304,
-      1966474
+      2024526
     ]
   },
-  "last_update": "2026-11-21 14:43:07"
+  "last_update": "2026-11-21 22:38:34"
 }
