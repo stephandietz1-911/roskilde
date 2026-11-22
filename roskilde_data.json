@@ -1,41 +1,41 @@
 {
   "currencies": {
-    "EUR": "37.27",
-    "EUR_trend": "↑",
+    "EUR": "37.23",
+    "EUR_trend": "↓",
     "DKK": "4.99",
     "DKK_trend": "→",
-    "NOK": "3.49",
-    "NOK_trend": "↑",
-    "USD": "33.94",
+    "NOK": "3.47",
+    "NOK_trend": "→",
+    "USD": "33.92",
     "USD_trend": "↑",
-    "AUD": "22.71",
-    "AUD_trend": "↑",
+    "AUD": "22.57",
+    "AUD_trend": "↓",
     "RUB": "0.41",
     "RUB_trend": "↑",
-    "BTC": "2,042,647",
-    "BTC_trend": "↑"
+    "BTC": "2,032,570",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "32",
-    "feels_like": "37",
-    "wind_speed": "15",
-    "wind_dir": "SW",
-    "aqi_value": "34",
+    "temp": "27",
+    "feels_like": "28",
+    "wind_speed": "18",
+    "wind_dir": "ENE",
+    "aqi_value": "31",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "2.2"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Legal Corner: Where to Get Certified Notary Documents in Pattaya",
+    "Match Centre",
     "Pattaya Reviews Draft 2027 Operational Plan Featuring 341 New Projects and 172 Ongoing Initiatives",
     "Pattaya Explores Waste Management Cooperation During Visit to Redemptorist Foundation for People with Disabilities",
     "Banglamung and Pattaya Prepare Regional Royal Cremation Tribute Ceremony for December 16th",
-    "Pattaya Administrative Officials Receive Refresher Training on Regulations, Legal Duties and Digital Systems",
-    "Woman arrested for stealing $2,000 from Turkish tourist in Pattaya",
-    "Chiu and Schmidberger Break Final Barriers as Pattaya Crowns Para World Champions"
+    "Woman arrested for stealing $2,000 from Turkish tourist in Pattaya"
   ],
   "flights": [
     {
@@ -90,7 +90,6 @@
   ],
   "history": {
     "EUR": [
-      38.226,
       38.124,
       38.176,
       38.21,
@@ -158,7 +157,6 @@
       37.262
     ],
     "USD": [
-      32.6746,
       32.6852,
       32.7354,
       32.7449,
@@ -226,7 +224,6 @@
       33.9054
     ],
     "DKK": [
-      5.1133,
       5.0997,
       5.107,
       5.1112,
@@ -294,7 +291,6 @@
       4.9851
     ],
     "NOK": [
-      3.5175,
       3.509,
       3.505,
       3.5105,
@@ -362,7 +358,6 @@
       3.4766
     ],
     "AUD": [
-      23.4214,
       23.4076,
       23.4165,
       23.5269,
@@ -436,7 +431,6 @@
       0.4137
     ],
     "BTC": [
-      2743282,
       2727951,
       2718138,
       2689288,
@@ -466,8 +460,9 @@
       2140092,
       2104428,
       1989304,
-      2042647
+      2033386,
+      2032570
     ]
   },
-  "last_update": "2026-11-22 04:10:45"
+  "last_update": "2026-11-22 08:18:24"
 }
