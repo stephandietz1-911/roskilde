@@ -1,26 +1,26 @@
 {
   "currencies": {
     "EUR": "37.26",
-    "EUR_trend": "→",
+    "EUR_trend": "↑",
     "DKK": "4.99",
     "DKK_trend": "→",
     "NOK": "3.48",
     "NOK_trend": "→",
     "USD": "33.94",
-    "USD_trend": "↑",
+    "USD_trend": "↓",
     "AUD": "22.57",
-    "AUD_trend": "↓",
+    "AUD_trend": "↑",
     "RUB": "0.41",
     "RUB_trend": "↑",
-    "BTC": "2,071,342",
-    "BTC_trend": "↑"
+    "BTC": "2,064,070",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "35",
-    "wind_speed": "2",
-    "wind_dir": "NE",
-    "aqi_value": "81",
+    "temp": "25",
+    "feels_like": "29",
+    "wind_speed": "7",
+    "wind_dir": "ENE",
+    "aqi_value": "55",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
     "uv_index": "0.0"
@@ -30,12 +30,12 @@
     "message": ""
   },
   "news": [
-    "Discover Life at MIS International School Pattaya",
-    "Top National Thailand Stories From the Past Week: 11 People Dead After Overnight Fire in Patong, and More",
-    "American Tourist Dies After Chokehold by Italian MMA Fighter During Bangkok Hotel Altercation",
-    "US Embassy thanks Pattaya for hosting USS Abraham Lincoln",
-    "Pattaya asks Jomtien beach visitors to pack away tents and hammocks",
-    "Safety checks for Tomorrowland Thailand’s 11–13 Dec debut as organisers forecast 6.132bn baht boost"
+    "Pattaya homeless problem raises fresh concerns after repeated complaints at petrol station",
+    "Police seek relatives of motorcyclist killed in Si Racha truck collision",
+    "Phuket authorities raid cannabis shop violating license suspension",
+    "Pattaya barbecue vendor injured in knife attack following dispute with loan group",
+    "Jomtien anglers compete for top catch in lively beach fishing contest",
+    "Anutin meets five major automakers to discuss investment and Thailand production"
   ],
   "flights": [
     {
@@ -153,7 +153,8 @@
       37.187,
       37.264,
       37.268,
-      37.262
+      37.262,
+      37.242
     ],
     "USD": [
       32.7354,
@@ -219,7 +220,8 @@
       33.8402,
       33.9752,
       33.9047,
-      33.9054
+      33.9054,
+      34.0452
     ],
     "DKK": [
       5.107,
@@ -285,7 +287,8 @@
       4.9749,
       4.9856,
       4.9862,
-      4.9851
+      4.9851,
+      4.9825
     ],
     "NOK": [
       3.505,
@@ -351,7 +354,8 @@
       3.5163,
       3.514,
       3.5002,
-      3.4766
+      3.4766,
+      3.4713
     ],
     "AUD": [
       23.4165,
@@ -417,7 +421,8 @@
       22.7917,
       22.8698,
       22.7549,
-      22.6008
+      22.6008,
+      22.5272
     ],
     "RUB": [
       0.4105,
@@ -456,8 +461,8 @@
       1989304,
       2033386,
       2068292,
-      2071342
+      2064070
     ]
   },
-  "last_update": "2026-11-23 18:19:38"
+  "last_update": "2026-11-24 05:49:04"
 }
