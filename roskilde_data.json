@@ -1,41 +1,41 @@
 {
   "currencies": {
-    "EUR": "37.23",
-    "EUR_trend": "↓",
+    "EUR": "37.26",
+    "EUR_trend": "→",
     "DKK": "4.99",
     "DKK_trend": "→",
-    "NOK": "3.47",
+    "NOK": "3.48",
     "NOK_trend": "→",
-    "USD": "33.92",
+    "USD": "33.94",
     "USD_trend": "↑",
     "AUD": "22.57",
     "AUD_trend": "↓",
     "RUB": "0.41",
     "RUB_trend": "↑",
-    "BTC": "2,054,798",
-    "BTC_trend": "↑"
+    "BTC": "2,041,897",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "32",
-    "feels_like": "37",
+    "temp": "30",
+    "feels_like": "33",
     "wind_speed": "15",
-    "wind_dir": "SW",
-    "aqi_value": "38",
+    "wind_dir": "NE",
+    "aqi_value": "39",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "4.5"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Safety checks for Tomorrowland Thailand’s 11–13 Dec debut as organisers forecast 6.132bn baht boost",
+    "Canadian Tourist in Pattaya Falls Victim to Facebook Rental Scam",
     "Khurram Imtiaz stuns third seed Damien Pound to reach the IT",
     "Jomtien Beach Hosts Open Water Series 3 as Pattaya Promotes Sports Tourism",
     "More Than 1,000 People Take Part in Second Ray Run Pattaya Charity Event",
-    "Thai PM Anutin Orders Eight Urgent Measures to Tackle Water Contamination, Protect Public Health and Secure Clean Supplies",
-    "Make this Year-End Magical at Royal Cliff Hotels Group Pattaya",
-    "Meliá Pattaya Hotel Brings Guests Closer to Thailand’s Fireworks Spectacle"
+    "Thai PM Anutin Orders Eight Urgent Measures to Tackle Water Contamination, Protect Public Health and Secure Clean Supplies"
   ],
   "flights": [
     {
@@ -90,7 +90,6 @@
   ],
   "history": {
     "EUR": [
-      38.124,
       38.176,
       38.21,
       38.26,
@@ -157,7 +156,6 @@
       37.262
     ],
     "USD": [
-      32.6852,
       32.7354,
       32.7449,
       32.8553,
@@ -224,7 +222,6 @@
       33.9054
     ],
     "DKK": [
-      5.0997,
       5.107,
       5.1112,
       5.1186,
@@ -291,7 +288,6 @@
       4.9851
     ],
     "NOK": [
-      3.509,
       3.505,
       3.5105,
       3.5175,
@@ -358,7 +354,6 @@
       3.4766
     ],
     "AUD": [
-      23.4076,
       23.4165,
       23.5269,
       23.6231,
@@ -431,7 +426,6 @@
       0.4137
     ],
     "BTC": [
-      2727951,
       2718138,
       2689288,
       2703314,
@@ -461,8 +455,9 @@
       2104428,
       1989304,
       2033386,
-      2054798
+      2068292,
+      2041897
     ]
   },
-  "last_update": "2026-11-23 05:03:16"
+  "last_update": "2026-11-23 09:44:31"
 }
