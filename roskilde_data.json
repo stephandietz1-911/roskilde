@@ -5,37 +5,37 @@
     "DKK": "4.99",
     "DKK_trend": "→",
     "NOK": "3.46",
-    "NOK_trend": "↓",
+    "NOK_trend": "→",
     "USD": "34.00",
-    "USD_trend": "↓",
+    "USD_trend": "↑",
     "AUD": "22.51",
     "AUD_trend": "↓",
     "RUB": "0.42",
     "RUB_trend": "↑",
-    "BTC": "2,054,148",
+    "BTC": "2,040,120",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "32",
-    "feels_like": "36",
-    "wind_speed": "10",
-    "wind_dir": "NNE",
-    "aqi_value": "60",
+    "temp": "26",
+    "feels_like": "30",
+    "wind_speed": "7",
+    "wind_dir": "ENE",
+    "aqi_value": "72",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "6.4"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Jingle. Chill. Thrill. OZO Hotels Brings Festive Fun to Thailand and Malaysia",
+    "Pattaya Police and Chonburi Officials Check 17 People Along Pattaya Beach Ahead of Festivals; One Cambodian Transgender Woman Found Overstaying",
+    "60-Year-Old Man Injured in Snooker Hall Fight in Soi Department of Lands 2 in Pattaya; Wife and Owner Give Conflicting Accounts",
+    "Intoxicated Young Female Motorbike Rider Admits Driving Against Traffic and Crashing into Two Motorcycles on Pattaya Third Road; Three People Injured",
     "TAT and AirAsia agree to prioritise Pattaya in joint 2027 tourism plans",
-    "Pattaya International Fireworks Festival 2026 returns to the seaside this November",
-    "Two Chinese women kidnapped by Chinese man in Pattaya",
-    "Chinese man kidnaps two Chinese women in Pattaya ransom case",
-    "The Pattaya News Wishes Everyone a Happy and Safe Loy Krathong!",
-    "Supalai targets Pattaya's resilient condo market"
+    "Pattaya International Fireworks Festival 2026 returns to the seaside this November"
   ],
   "flights": [
     {
@@ -153,7 +153,8 @@
       37.264,
       37.268,
       37.262,
-      37.242
+      37.242,
+      37.197
     ],
     "USD": [
       32.7449,
@@ -219,7 +220,8 @@
       33.9752,
       33.9047,
       33.9054,
-      34.0452
+      34.0452,
+      33.9296
     ],
     "DKK": [
       5.1112,
@@ -285,7 +287,8 @@
       4.9856,
       4.9862,
       4.9851,
-      4.9825
+      4.9825,
+      4.9766
     ],
     "NOK": [
       3.5105,
@@ -351,7 +354,8 @@
       3.514,
       3.5002,
       3.4766,
-      3.4713
+      3.4713,
+      3.465
     ],
     "AUD": [
       23.5269,
@@ -417,7 +421,8 @@
       22.8698,
       22.7549,
       22.6008,
-      22.5272
+      22.5272,
+      22.5341
     ],
     "RUB": [
       0.4105,
@@ -457,8 +462,8 @@
       2033386,
       2068292,
       2080665,
-      2054148
+      2040120
     ]
   },
-  "last_update": "2026-11-24 13:45:32"
+  "last_update": "2026-11-25 01:38:30"
 }
