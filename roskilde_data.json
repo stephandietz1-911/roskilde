@@ -1,41 +1,41 @@
 {
   "currencies": {
-    "EUR": "37.26",
-    "EUR_trend": "↑",
+    "EUR": "37.13",
+    "EUR_trend": "↓",
     "DKK": "4.99",
     "DKK_trend": "→",
-    "NOK": "3.48",
-    "NOK_trend": "→",
-    "USD": "33.94",
+    "NOK": "3.46",
+    "NOK_trend": "↓",
+    "USD": "34.00",
     "USD_trend": "↓",
-    "AUD": "22.57",
-    "AUD_trend": "↑",
-    "RUB": "0.41",
+    "AUD": "22.51",
+    "AUD_trend": "↓",
+    "RUB": "0.42",
     "RUB_trend": "↑",
-    "BTC": "2,064,070",
+    "BTC": "2,054,148",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "25",
-    "feels_like": "29",
-    "wind_speed": "7",
-    "wind_dir": "ENE",
-    "aqi_value": "55",
+    "temp": "32",
+    "feels_like": "36",
+    "wind_speed": "10",
+    "wind_dir": "NNE",
+    "aqi_value": "60",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "0.0"
+    "uv_index": "6.4"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Pattaya homeless problem raises fresh concerns after repeated complaints at petrol station",
-    "Police seek relatives of motorcyclist killed in Si Racha truck collision",
-    "Phuket authorities raid cannabis shop violating license suspension",
-    "Pattaya barbecue vendor injured in knife attack following dispute with loan group",
-    "Jomtien anglers compete for top catch in lively beach fishing contest",
-    "Anutin meets five major automakers to discuss investment and Thailand production"
+    "TAT and AirAsia agree to prioritise Pattaya in joint 2027 tourism plans",
+    "Pattaya International Fireworks Festival 2026 returns to the seaside this November",
+    "Two Chinese women kidnapped by Chinese man in Pattaya",
+    "Chinese man kidnaps two Chinese women in Pattaya ransom case",
+    "The Pattaya News Wishes Everyone a Happy and Safe Loy Krathong!",
+    "Supalai targets Pattaya's resilient condo market"
   ],
   "flights": [
     {
@@ -90,7 +90,6 @@
   ],
   "history": {
     "EUR": [
-      38.176,
       38.21,
       38.26,
       38.37,
@@ -157,7 +156,6 @@
       37.242
     ],
     "USD": [
-      32.7354,
       32.7449,
       32.8553,
       32.9554,
@@ -224,7 +222,6 @@
       34.0452
     ],
     "DKK": [
-      5.107,
       5.1112,
       5.1186,
       5.1332,
@@ -291,7 +288,6 @@
       4.9825
     ],
     "NOK": [
-      3.505,
       3.5105,
       3.5175,
       3.5333,
@@ -358,7 +354,6 @@
       3.4713
     ],
     "AUD": [
-      23.4165,
       23.5269,
       23.6231,
       23.7101,
@@ -428,10 +423,10 @@
       0.4105,
       0.4105,
       0.4124,
-      0.4137
+      0.4137,
+      0.4154
     ],
     "BTC": [
-      2718138,
       2689288,
       2703314,
       2730644,
@@ -461,8 +456,9 @@
       1989304,
       2033386,
       2068292,
-      2064070
+      2080665,
+      2054148
     ]
   },
-  "last_update": "2026-11-24 05:49:04"
+  "last_update": "2026-11-24 13:45:32"
 }
