@@ -1,41 +1,41 @@
 {
   "currencies": {
-    "EUR": "37.13",
-    "EUR_trend": "↓",
-    "DKK": "4.99",
+    "EUR": "37.19",
+    "EUR_trend": "→",
+    "DKK": "4.97",
     "DKK_trend": "→",
     "NOK": "3.46",
     "NOK_trend": "→",
-    "USD": "34.00",
+    "USD": "33.94",
     "USD_trend": "↑",
-    "AUD": "22.51",
+    "AUD": "22.52",
     "AUD_trend": "↓",
-    "RUB": "0.42",
-    "RUB_trend": "↑",
-    "BTC": "2,040,120",
+    "RUB": "0.41",
+    "RUB_trend": "↓",
+    "BTC": "2,009,125",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "30",
-    "wind_speed": "7",
+    "temp": "29",
+    "feels_like": "32",
+    "wind_speed": "20",
     "wind_dir": "ENE",
-    "aqi_value": "72",
+    "aqi_value": "64",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "0.0"
+    "uv_index": "5.2"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Jingle. Chill. Thrill. OZO Hotels Brings Festive Fun to Thailand and Malaysia",
+    "Royal Cliff Junior Tennis Thailand Championship 2026 Serves Up a Record-Breaking Weekend of Sport and Family Fun in Pattaya",
+    "Rashid Malik reaches 55+ doubles semis at MT400 Pattaya",
     "Pattaya Police and Chonburi Officials Check 17 People Along Pattaya Beach Ahead of Festivals; One Cambodian Transgender Woman Found Overstaying",
     "60-Year-Old Man Injured in Snooker Hall Fight in Soi Department of Lands 2 in Pattaya; Wife and Owner Give Conflicting Accounts",
     "Intoxicated Young Female Motorbike Rider Admits Driving Against Traffic and Crashing into Two Motorcycles on Pattaya Third Road; Three People Injured",
-    "TAT and AirAsia agree to prioritise Pattaya in joint 2027 tourism plans",
-    "Pattaya International Fireworks Festival 2026 returns to the seaside this November"
+    "TAT and AirAsia agree to prioritise Pattaya in joint 2027 tourism plans"
   ],
   "flights": [
     {
@@ -90,7 +90,6 @@
   ],
   "history": {
     "EUR": [
-      38.21,
       38.26,
       38.37,
       38.458,
@@ -157,7 +156,6 @@
       37.197
     ],
     "USD": [
-      32.7449,
       32.8553,
       32.9554,
       33.1649,
@@ -224,7 +222,6 @@
       33.9296
     ],
     "DKK": [
-      5.1112,
       5.1186,
       5.1332,
       5.1448,
@@ -291,7 +288,6 @@
       4.9766
     ],
     "NOK": [
-      3.5105,
       3.5175,
       3.5333,
       3.5504,
@@ -358,7 +354,6 @@
       3.465
     ],
     "AUD": [
-      23.5269,
       23.6231,
       23.7101,
       23.7527,
@@ -429,10 +424,10 @@
       0.4105,
       0.4124,
       0.4137,
-      0.4154
+      0.4154,
+      0.4143
     ],
     "BTC": [
-      2689288,
       2703314,
       2730644,
       2739231,
@@ -462,8 +457,9 @@
       2033386,
       2068292,
       2080665,
-      2040120
+      2028666,
+      2009125
     ]
   },
-  "last_update": "2026-11-25 01:38:30"
+  "last_update": "2026-11-25 09:47:20"
 }
