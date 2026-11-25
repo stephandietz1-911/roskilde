@@ -12,30 +12,30 @@
     "AUD_trend": "↓",
     "RUB": "0.41",
     "RUB_trend": "↓",
-    "BTC": "2,009,125",
+    "BTC": "1,984,438",
     "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "32",
-    "wind_speed": "20",
+    "temp": "28",
+    "feels_like": "33",
+    "wind_speed": "7",
     "wind_dir": "ENE",
-    "aqi_value": "64",
+    "aqi_value": "57",
     "aqi_status": "Moderate",
     "aqi_color": "#f59e0b",
-    "uv_index": "5.2"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Royal Cliff Junior Tennis Thailand Championship 2026 Serves Up a Record-Breaking Weekend of Sport and Family Fun in Pattaya",
-    "Rashid Malik reaches 55+ doubles semis at MT400 Pattaya",
-    "Pattaya Police and Chonburi Officials Check 17 People Along Pattaya Beach Ahead of Festivals; One Cambodian Transgender Woman Found Overstaying",
-    "60-Year-Old Man Injured in Snooker Hall Fight in Soi Department of Lands 2 in Pattaya; Wife and Owner Give Conflicting Accounts",
-    "Intoxicated Young Female Motorbike Rider Admits Driving Against Traffic and Crashing into Two Motorcycles on Pattaya Third Road; Three People Injured",
-    "TAT and AirAsia agree to prioritise Pattaya in joint 2027 tourism plans"
+    "Russian National Arrested in Pattaya Area for Producing Mephedrone; 14.5 Kilograms Seized",
+    "Pattaya City Trains Food Vendors on Hygiene Ahead of 2026 International Fireworks Festival",
+    "‘Tis the Season to Celebrate at Meliá Pattaya Hotel with Sparkling Festive Program",
+    "Rafał Czuper crowned para table tennis world champion",
+    "Loy Krathong Celebrations Draw Crowds Across Pattaya and Banglamung",
+    "Royal Cliff Junior Tennis Thailand Championship 2026 Serves Up a Record-Breaking Weekend of Sport and Family Fun in Pattaya"
   ],
   "flights": [
     {
@@ -458,8 +458,8 @@
       2068292,
       2080665,
       2028666,
-      2009125
+      1984438
     ]
   },
-  "last_update": "2026-11-25 09:47:20"
+  "last_update": "2026-11-25 19:07:52"
 }
