@@ -1,41 +1,39 @@
 {
   "currencies": {
-    "EUR": "37.19",
+    "EUR": "37.36",
     "EUR_trend": "↓",
-    "DKK": "4.97",
-    "DKK_trend": "↓",
+    "DKK": "4.99",
+    "DKK_trend": "→",
     "NOK": "3.46",
-    "NOK_trend": "→",
-    "USD": "33.94",
-    "USD_trend": "↓",
-    "AUD": "22.52",
-    "AUD_trend": "↑",
+    "NOK_trend": "↓",
+    "USD": "34.10",
+    "USD_trend": "↑",
+    "AUD": "22.48",
+    "AUD_trend": "↓",
     "RUB": "0.41",
-    "RUB_trend": "↓",
-    "BTC": "2,069,791",
+    "RUB_trend": "→",
+    "BTC": "2,059,943",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "31",
-    "wind_speed": "12",
+    "temp": "26",
+    "feels_like": "28",
+    "wind_speed": "14",
     "wind_dir": "ENE",
-    "aqi_value": "60",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
+    "aqi_value": "31",
+    "aqi_status": "Good",
+    "aqi_color": "#10b981",
     "uv_index": "0.0"
   },
   "alert": {
-    "active": false,
-    "message": ""
+    "active": true,
+    "message": "⚠️ OFFICIAL WARNING: Thailand Issues New Weather Warning as Flooding and Rough Seas Threaten ..."
   },
   "news": [
-    "Father Ray Foundation in Pattaya Joins Three Volunteer Groups for Cleanup and Accessible Green Space Initiative",
-    "Nong Nooch World Pattaya Holds Blessing Ceremony for New Male Elephant Calf Plai Phun Suk, Fourth Born in 2026",
-    "Pattaya Ransom Rescue Highlights Security Challenges for Thailand’s High-Season Tourism Recovery",
-    "Pattaya Mail introduces In-News Banner advertising for greater online visibility",
-    "Thailand and AirAsia to push the destination Pattaya in 2027",
-    "Russian arrested after setting up a drug factory on the outskirts of Pattaya. International backers probed"
+    "Region 2 Police Meet Israeli Security Delegation to Discuss Safety Preparations for Tomorrowland Thailand 2026",
+    "Pattaya Businesswoman Donates 720,000 Baht to Hospitals, Charities, and Community Causes on Her Birthday",
+    "Thailand and India –    Rotary Clubs of Global Pattaya and Gadag Central Exchange Club Flags",
+    "Chinese Romance Series ‘City of Angels’ to Film Key Love Scene at Pattaya International Fireworks Festival"
   ],
   "flights": [
     {
@@ -153,7 +151,8 @@
       37.262,
       37.242,
       37.197,
-      37.321
+      37.321,
+      37.386
     ],
     "USD": [
       32.9554,
@@ -219,7 +218,8 @@
       33.9054,
       34.0452,
       33.9296,
-      34.1299
+      34.1299,
+      34.0647
     ],
     "DKK": [
       5.1332,
@@ -285,7 +285,8 @@
       4.9851,
       4.9825,
       4.9766,
-      4.9932
+      4.9932,
+      5.0023
     ],
     "NOK": [
       3.5333,
@@ -351,7 +352,8 @@
       3.4766,
       3.4713,
       3.465,
-      3.4628
+      3.4628,
+      3.4882
     ],
     "AUD": [
       23.7101,
@@ -417,7 +419,8 @@
       22.6008,
       22.5272,
       22.5341,
-      22.4231
+      22.4231,
+      22.6034
     ],
     "RUB": [
       0.4105,
@@ -458,8 +461,8 @@
       2080665,
       2028666,
       2055951,
-      2069791
+      2059943
     ]
   },
-  "last_update": "2026-11-26 20:32:34"
+  "last_update": "2026-11-27 05:36:02"
 }
