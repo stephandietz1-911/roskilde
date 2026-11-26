@@ -12,30 +12,30 @@
     "AUD_trend": "↑",
     "RUB": "0.41",
     "RUB_trend": "↓",
-    "BTC": "2,046,447",
+    "BTC": "2,065,480",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "27",
+    "temp": "29",
+    "feels_like": "33",
     "wind_speed": "18",
     "wind_dir": "ENE",
-    "aqi_value": "37",
+    "aqi_value": "32",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "6.5"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Russian arrested after setting up a drug factory on the outskirts of Pattaya. International backers probed",
     "Russian National Arrested in Pattaya Area for Producing Mephedrone; 14.5 Kilograms Seized",
     "Pattaya City Trains Food Vendors on Hygiene Ahead of 2026 International Fireworks Festival",
     "‘Tis the Season to Celebrate at Meliá Pattaya Hotel with Sparkling Festive Program",
     "Rafał Czuper crowned para table tennis world champion",
-    "Loy Krathong Celebrations Draw Crowds Across Pattaya and Banglamung",
-    "Royal Cliff Junior Tennis Thailand Championship 2026 Serves Up a Record-Breaking Weekend of Sport and Family Fun in Pattaya"
+    "Loy Krathong Celebrations Draw Crowds Across Pattaya and Banglamung"
   ],
   "flights": [
     {
@@ -90,7 +90,6 @@
   ],
   "history": {
     "EUR": [
-      38.26,
       38.37,
       38.458,
       38.554,
@@ -157,7 +156,6 @@
       37.321
     ],
     "USD": [
-      32.8553,
       32.9554,
       33.1649,
       33.2649,
@@ -224,7 +222,6 @@
       34.1299
     ],
     "DKK": [
-      5.1186,
       5.1332,
       5.1448,
       5.1579,
@@ -291,7 +288,6 @@
       4.9932
     ],
     "NOK": [
-      3.5175,
       3.5333,
       3.5504,
       3.5637,
@@ -358,7 +354,6 @@
       3.4628
     ],
     "AUD": [
-      23.6231,
       23.7101,
       23.7527,
       23.7548,
@@ -433,7 +428,6 @@
       0.4143
     ],
     "BTC": [
-      2703314,
       2730644,
       2739231,
       2624637,
@@ -463,8 +457,9 @@
       2068292,
       2080665,
       2028666,
-      2046447
+      2055951,
+      2065480
     ]
   },
-  "last_update": "2026-11-26 04:40:34"
+  "last_update": "2026-11-26 10:46:14"
 }
