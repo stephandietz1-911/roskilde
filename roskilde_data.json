@@ -12,30 +12,30 @@
     "AUD_trend": "↑",
     "RUB": "0.41",
     "RUB_trend": "↓",
-    "BTC": "2,065,480",
+    "BTC": "2,069,791",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "29",
-    "feels_like": "33",
-    "wind_speed": "18",
+    "temp": "28",
+    "feels_like": "31",
+    "wind_speed": "12",
     "wind_dir": "ENE",
-    "aqi_value": "32",
-    "aqi_status": "Good",
-    "aqi_color": "#10b981",
-    "uv_index": "6.5"
+    "aqi_value": "60",
+    "aqi_status": "Moderate",
+    "aqi_color": "#f59e0b",
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
-    "Russian arrested after setting up a drug factory on the outskirts of Pattaya. International backers probed",
-    "Russian National Arrested in Pattaya Area for Producing Mephedrone; 14.5 Kilograms Seized",
-    "Pattaya City Trains Food Vendors on Hygiene Ahead of 2026 International Fireworks Festival",
-    "‘Tis the Season to Celebrate at Meliá Pattaya Hotel with Sparkling Festive Program",
-    "Rafał Czuper crowned para table tennis world champion",
-    "Loy Krathong Celebrations Draw Crowds Across Pattaya and Banglamung"
+    "Father Ray Foundation in Pattaya Joins Three Volunteer Groups for Cleanup and Accessible Green Space Initiative",
+    "Nong Nooch World Pattaya Holds Blessing Ceremony for New Male Elephant Calf Plai Phun Suk, Fourth Born in 2026",
+    "Pattaya Ransom Rescue Highlights Security Challenges for Thailand’s High-Season Tourism Recovery",
+    "Pattaya Mail introduces In-News Banner advertising for greater online visibility",
+    "Thailand and AirAsia to push the destination Pattaya in 2027",
+    "Russian arrested after setting up a drug factory on the outskirts of Pattaya. International backers probed"
   ],
   "flights": [
     {
@@ -458,8 +458,8 @@
       2080665,
       2028666,
       2055951,
-      2065480
+      2069791
     ]
   },
-  "last_update": "2026-11-26 10:46:14"
+  "last_update": "2026-11-26 20:32:34"
 }
