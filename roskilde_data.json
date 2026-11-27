@@ -12,30 +12,30 @@
     "AUD_trend": "↓",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,089,720",
+    "BTC": "2,088,433",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "31",
-    "feels_like": "36",
-    "wind_speed": "12",
-    "wind_dir": "NNE",
-    "aqi_value": "37",
-    "aqi_status": "Good",
-    "aqi_color": "#10b981",
-    "uv_index": "7.2"
+    "temp": "28",
+    "feels_like": "32",
+    "wind_speed": "7",
+    "wind_dir": "NE",
+    "aqi_value": "76",
+    "aqi_status": "Moderate",
+    "aqi_color": "#f59e0b",
+    "uv_index": "0.0"
   },
   "alert": {
     "active": true,
-    "message": "⚠️ OFFICIAL WARNING: Thailand Issues New Weather Warning as Flooding and Rough Seas Threaten ..."
+    "message": "⚠️ OFFICIAL WARNING: Southern Thailand faces severe rain threat with flash floods forecast th..."
   },
   "news": [
-    "Russian high on marijuana and drink survives fall from 15th floor Pattaya condo after plunging into pool",
+    "Russian Man Survives After Falling from 15th Floor of Pattaya Apartment into Swimming Pool",
+    "Finnish fireworks team to perform at Pattaya festival",
+    "Pattaya hotel rates up 44% before Tomorrowland 2026",
+    "Road closures and diversions announced for Pattaya’s 2026 fireworks",
     "Full Schedule and Road Closures and Detours for Pattaya International Fireworks Festival 2026",
-    "Region 2 Police Meet Israeli Security Delegation to Discuss Safety Preparations for Tomorrowland Thailand 2026",
-    "Pattaya Businesswoman Donates 720,000 Baht to Hospitals, Charities, and Community Causes on Her Birthday",
-    "Thailand and India –    Rotary Clubs of Global Pattaya and Gadag Central Exchange Club Flags",
-    "Sailors aboard embattled US aircraft carrier land in Pattaya after gruelling 286 days at sea"
+    "Region 2 Police Meet Israeli Security Delegation to Discuss Safety Preparations for Tomorrowland Thailand 2026"
   ],
   "flights": [
     {
@@ -463,8 +463,8 @@
       2028666,
       2055951,
       2059169,
-      2089720
+      2088433
     ]
   },
-  "last_update": "2026-11-27 11:32:36"
+  "last_update": "2026-11-27 21:22:06"
 }
