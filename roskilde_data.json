@@ -1,41 +1,41 @@
 {
   "currencies": {
     "EUR": "37.36",
-    "EUR_trend": "↓",
+    "EUR_trend": "↑",
     "DKK": "5.00",
-    "DKK_trend": "→",
+    "DKK_trend": "↑",
     "NOK": "3.49",
     "NOK_trend": "→",
     "USD": "34.04",
-    "USD_trend": "↓",
+    "USD_trend": "↑",
     "AUD": "22.58",
     "AUD_trend": "↓",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,088,433",
-    "BTC_trend": "↑"
+    "BTC": "2,034,149",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "28",
-    "feels_like": "32",
-    "wind_speed": "7",
+    "temp": "26",
+    "feels_like": "28",
+    "wind_speed": "16",
     "wind_dir": "NE",
-    "aqi_value": "76",
-    "aqi_status": "Moderate",
-    "aqi_color": "#f59e0b",
+    "aqi_value": "34",
+    "aqi_status": "Good",
+    "aqi_color": "#10b981",
     "uv_index": "0.0"
   },
   "alert": {
-    "active": true,
-    "message": "⚠️ OFFICIAL WARNING: Southern Thailand faces severe rain threat with flash floods forecast th..."
+    "active": false,
+    "message": ""
   },
   "news": [
+    "Sailors aboard embattled US aircraft carrier land in Pattaya after gruelling 286 days at sea",
     "Russian Man Survives After Falling from 15th Floor of Pattaya Apartment into Swimming Pool",
     "Finnish fireworks team to perform at Pattaya festival",
     "Pattaya hotel rates up 44% before Tomorrowland 2026",
     "Road closures and diversions announced for Pattaya’s 2026 fireworks",
-    "Full Schedule and Road Closures and Detours for Pattaya International Fireworks Festival 2026",
-    "Region 2 Police Meet Israeli Security Delegation to Discuss Safety Preparations for Tomorrowland Thailand 2026"
+    "Full Schedule and Road Closures and Detours for Pattaya International Fireworks Festival 2026"
   ],
   "flights": [
     {
@@ -154,7 +154,8 @@
       37.242,
       37.197,
       37.321,
-      37.386
+      37.386,
+      37.177
     ],
     "USD": [
       32.9554,
@@ -221,7 +222,8 @@
       34.0452,
       33.9296,
       34.1299,
-      34.0647
+      34.0647,
+      33.9299
     ],
     "DKK": [
       5.1332,
@@ -288,7 +290,8 @@
       4.9825,
       4.9766,
       4.9932,
-      5.0023
+      5.0023,
+      4.9744
     ],
     "NOK": [
       3.5333,
@@ -355,7 +358,8 @@
       3.4713,
       3.465,
       3.4628,
-      3.4882
+      3.4882,
+      3.4794
     ],
     "AUD": [
       23.7101,
@@ -422,7 +426,8 @@
       22.5272,
       22.5341,
       22.4231,
-      22.6034
+      22.6034,
+      22.6261
     ],
     "RUB": [
       0.4105,
@@ -463,8 +468,8 @@
       2028666,
       2055951,
       2059169,
-      2088433
+      2034149
     ]
   },
-  "last_update": "2026-11-27 21:22:06"
+  "last_update": "2026-11-28 05:50:31"
 }
