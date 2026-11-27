@@ -2,38 +2,40 @@
   "currencies": {
     "EUR": "37.36",
     "EUR_trend": "↓",
-    "DKK": "4.99",
+    "DKK": "5.00",
     "DKK_trend": "→",
-    "NOK": "3.46",
-    "NOK_trend": "↓",
-    "USD": "34.10",
-    "USD_trend": "↑",
-    "AUD": "22.48",
+    "NOK": "3.49",
+    "NOK_trend": "→",
+    "USD": "34.04",
+    "USD_trend": "↓",
+    "AUD": "22.58",
     "AUD_trend": "↓",
     "RUB": "0.41",
     "RUB_trend": "→",
-    "BTC": "2,059,943",
+    "BTC": "2,089,720",
     "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "28",
-    "wind_speed": "14",
-    "wind_dir": "ENE",
-    "aqi_value": "31",
+    "temp": "31",
+    "feels_like": "36",
+    "wind_speed": "12",
+    "wind_dir": "NNE",
+    "aqi_value": "37",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "7.2"
   },
   "alert": {
     "active": true,
     "message": "⚠️ OFFICIAL WARNING: Thailand Issues New Weather Warning as Flooding and Rough Seas Threaten ..."
   },
   "news": [
+    "Russian high on marijuana and drink survives fall from 15th floor Pattaya condo after plunging into pool",
+    "Full Schedule and Road Closures and Detours for Pattaya International Fireworks Festival 2026",
     "Region 2 Police Meet Israeli Security Delegation to Discuss Safety Preparations for Tomorrowland Thailand 2026",
     "Pattaya Businesswoman Donates 720,000 Baht to Hospitals, Charities, and Community Causes on Her Birthday",
     "Thailand and India –    Rotary Clubs of Global Pattaya and Gadag Central Exchange Club Flags",
-    "Chinese Romance Series ‘City of Angels’ to Film Key Love Scene at Pattaya International Fireworks Festival"
+    "Sailors aboard embattled US aircraft carrier land in Pattaya after gruelling 286 days at sea"
   ],
   "flights": [
     {
@@ -431,7 +433,6 @@
       0.4143
     ],
     "BTC": [
-      2730644,
       2739231,
       2624637,
       2605715,
@@ -461,8 +462,9 @@
       2080665,
       2028666,
       2055951,
-      2059943
+      2059169,
+      2089720
     ]
   },
-  "last_update": "2026-11-27 05:36:02"
+  "last_update": "2026-11-27 11:32:36"
 }
