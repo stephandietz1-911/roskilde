@@ -12,30 +12,30 @@
     "AUD_trend": "↓",
     "RUB": "0.41",
     "RUB_trend": "↓",
-    "BTC": "2,025,351",
-    "BTC_trend": "↑"
+    "BTC": "1,997,956",
+    "BTC_trend": "↓"
   },
   "weather": {
-    "temp": "30",
-    "feels_like": "33",
-    "wind_speed": "24",
+    "temp": "28",
+    "feels_like": "31",
+    "wind_speed": "14",
     "wind_dir": "NE",
-    "aqi_value": "33",
+    "aqi_value": "47",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "7.2"
+    "uv_index": "0.0"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "Pattaya’s Night Sky Roars to Life as 100,000 Flock to International Fireworks Festival",
+    "Pattaya Cricket Club reaches the final of the Chiang Mai 6s Tournament, 21-22Nov 2026",
+    "Region 2 Police and Immigration Raid Luxury Pattaya House and Jomtien Condo, Arrest Six Chinese in Alleged Money-Laundering Operation Linked to Gambling and Scam Networks",
+    "More than 100,000 flock to Pattaya International Fireworks Festival",
     "November 2026:Overview of the Pattaya Condominium Market by AMS",
-    "Sailors aboard embattled US aircraft carrier land in Pattaya after gruelling 286 days at sea",
-    "Russian Man Survives After Falling from 15th Floor of Pattaya Apartment into Swimming Pool",
-    "Finnish fireworks team to perform at Pattaya festival",
-    "Pattaya hotel rates up 44% before Tomorrowland 2026",
-    "Road closures and diversions announced for Pattaya’s 2026 fireworks"
+    "Sailors aboard embattled US aircraft carrier land in Pattaya after gruelling 286 days at sea"
   ],
   "flights": [
     {
@@ -468,8 +468,8 @@
       2055951,
       2059169,
       2021588,
-      2025351
+      1997956
     ]
   },
-  "last_update": "2026-11-28 11:30:53"
+  "last_update": "2026-11-28 20:37:50"
 }
