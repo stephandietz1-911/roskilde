@@ -1,41 +1,41 @@
 {
   "currencies": {
-    "EUR": "37.36",
-    "EUR_trend": "↑",
-    "DKK": "5.00",
-    "DKK_trend": "↑",
-    "NOK": "3.49",
+    "EUR": "37.17",
+    "EUR_trend": "→",
+    "DKK": "4.97",
+    "DKK_trend": "→",
+    "NOK": "3.48",
     "NOK_trend": "→",
-    "USD": "34.04",
+    "USD": "33.95",
     "USD_trend": "↑",
-    "AUD": "22.58",
+    "AUD": "22.60",
     "AUD_trend": "↓",
     "RUB": "0.41",
-    "RUB_trend": "→",
-    "BTC": "2,034,149",
-    "BTC_trend": "↓"
+    "RUB_trend": "↓",
+    "BTC": "2,025,351",
+    "BTC_trend": "↑"
   },
   "weather": {
-    "temp": "26",
-    "feels_like": "28",
-    "wind_speed": "16",
+    "temp": "30",
+    "feels_like": "33",
+    "wind_speed": "24",
     "wind_dir": "NE",
-    "aqi_value": "34",
+    "aqi_value": "33",
     "aqi_status": "Good",
     "aqi_color": "#10b981",
-    "uv_index": "0.0"
+    "uv_index": "7.2"
   },
   "alert": {
     "active": false,
     "message": ""
   },
   "news": [
+    "November 2026:Overview of the Pattaya Condominium Market by AMS",
     "Sailors aboard embattled US aircraft carrier land in Pattaya after gruelling 286 days at sea",
     "Russian Man Survives After Falling from 15th Floor of Pattaya Apartment into Swimming Pool",
     "Finnish fireworks team to perform at Pattaya festival",
     "Pattaya hotel rates up 44% before Tomorrowland 2026",
-    "Road closures and diversions announced for Pattaya’s 2026 fireworks",
-    "Full Schedule and Road Closures and Detours for Pattaya International Fireworks Festival 2026"
+    "Road closures and diversions announced for Pattaya’s 2026 fireworks"
   ],
   "flights": [
     {
@@ -438,7 +438,6 @@
       0.4143
     ],
     "BTC": [
-      2739231,
       2624637,
       2605715,
       2602010,
@@ -468,8 +467,9 @@
       2028666,
       2055951,
       2059169,
-      2034149
+      2021588,
+      2025351
     ]
   },
-  "last_update": "2026-11-28 05:50:31"
+  "last_update": "2026-11-28 11:30:53"
 }
